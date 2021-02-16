@@ -87,3 +87,7 @@ html_context = {
         '_static/theme_override.css',  # override wide tables in RTD theme
         ],
      }
+
+
+import subprocess
+subprocess.run(["make", "fetchnotebooks"])
