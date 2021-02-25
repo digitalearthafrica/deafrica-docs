@@ -6,42 +6,21 @@
 Digital Earth Africa User Guide
 ===============================
 
+
+
 .. toctree::
    :hidden:
 
    Home <self>
 
-
 .. toctree::
    :maxdepth: 1
-   :caption: Beginner's Guide
-   :glob:
 
-   notebooks/Beginners_guide/*
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Datasets
-   :glob:
-
-   notebooks/Datasets/*
+   sandbox/index
+   maps/index
+   web_services/index
+   api
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Frequently Used Code
-   :glob:
-
-   notebooks/Frequently_used_code/*
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Real World Examples
-   :glob:
-
-
-   notebooks/Real_world_examples/*
-
-.. toctree::
-  :caption: Index
 
   genindex

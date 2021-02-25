@@ -3,7 +3,7 @@
 
 # You can set these variables from the command line, and also
 # from the environment for the first two.
-SPHINXOPTS    ?=
+SPHINXOPTS    ?= -j auto -v
 SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = .
 BUILDDIR      = _build
@@ -20,5 +20,8 @@ help:
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 fetchnotebooks:
-	[ -d notebooks ] || git clone https://github.com/digitalearthafrica/deafrica-sandbox-notebooks.git notebooks
-	cd notebooks && git checkout master && git reset --hard origin/master && git pull
+	[ -d sandbox/notebooks ] || git clone https://github.com/digitalearthafrica/deafrica-sandbox-notebooks.git sandbox/notebooks
+	cd sandbox/notebooks && git checkout minty-fresh-sandbox && git reset --hard origin/minty-fresh-sandbox && git pull
+
+buildtools:
+	cd sandbox/notebooks/Tools && poetry build && pip install dist/deafrica_tools-0.1.0.tar.gz --no-dependencies
