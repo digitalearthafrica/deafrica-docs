@@ -15,3 +15,4 @@ allow for ad-hoc report generation and rapid development of new algorithms.
    access
    navigate
    gallery
+   api

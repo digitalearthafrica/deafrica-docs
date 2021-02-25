@@ -19,7 +19,6 @@ Digital Earth Africa User Guide
    sandbox/index
    maps/index
    web_services/index
-   api
 
 .. toctree::
 

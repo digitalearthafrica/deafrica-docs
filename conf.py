@@ -38,7 +38,7 @@ extensions = [
 ]
 
 # Autodoc conf
-autosummary_generate = ['api.rst']
+autosummary_generate = ['sandbox/api.rst']
 autodoc_default_options = {
     'members': True,
 }
