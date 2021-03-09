@@ -6,6 +6,6 @@ Dataset specifications
 Description of dataset tech specs here
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    GeoMAD_specs
