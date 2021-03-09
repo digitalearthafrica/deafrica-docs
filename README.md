@@ -1,5 +1,7 @@
 # deafrica-docs
-Technical documentation website at https://docs.digitalearthafrica.org/
+Technical documentation website to be at https://docs.digitalearthafrica.org/
+
+Development version here: https://digital-earth-africa.readthedocs.io/
 
 
 ## Documentation Sections
@@ -32,3 +34,7 @@ User guide for navigating https://maps.digitalearth.africa/
 
 ### Web Services
 Guide for using the Digital Earth Africa web services with GIS tools
+
+### S3 Access to COGs
+Guide to access COGs on S3
+
