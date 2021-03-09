@@ -16,6 +16,7 @@ Digital Earth Africa User Guide
 .. toctree::
    :maxdepth: 1
 
+   data_specs/index
    sandbox/index
    maps/index
    web_services/index
