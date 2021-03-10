@@ -121,7 +121,7 @@ html_static_path = ['_static']
 
 html_logo = '_static/logo.png'
 
-html_favicon = '_static/favicon.jpg'
+html_favicon = '_static/favicon.png'
 
 html_use_index = True
 
