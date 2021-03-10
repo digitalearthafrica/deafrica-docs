@@ -17,7 +17,6 @@ Glossary
 
    CEOS-SEO
       Committee on Earth Observation, Systems Engineering Office
-      http://ceos-cube.org/
 
    COG
       Cloud Optimised GeoTIFF, a data file format optimised for efficient

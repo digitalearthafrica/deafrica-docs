@@ -13,11 +13,19 @@ Digital Earth Africa User Guide
 
    Home <self>
 
+
 .. toctree::
+   :caption: About
    :maxdepth: 1
 
    about/contact
    about/glossary
+
+
+.. toctree::
+   :caption: Services
+   :maxdepth: 1
+
    sandbox/index
    maps/index
    web_services/index

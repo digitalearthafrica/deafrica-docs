@@ -14,6 +14,7 @@ and output data from Digital Earth Africa.
    deafrica_tools.datahandling
    deafrica_tools.load_era5
    deafrica_tools.plotting
+   deafrica_tools.segmentation
    deafrica_tools.spatial
    deafrica_tools.temporal
 
