@@ -26,6 +26,7 @@ Digital Earth Africa User Guide
    :caption: Services
    :maxdepth: 1
 
+   data_specs/index
    sandbox/index
    maps/index
    web_services/index
