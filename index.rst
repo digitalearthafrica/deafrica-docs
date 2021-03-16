@@ -6,13 +6,32 @@
 Digital Earth Africa User Guide
 ===============================
 
-
+The `Digital Earth Africa <https://www.digitalearthafrica.org/>`_ platform
+consists of a repository of Earth Observation data and a set of tools to
+view and analyse that data.
 
 .. toctree::
    :hidden:
 
    Digital Earth Africa <https://www.digitalearthafrica.org/>
    Docs Home <self>
+
+.. toctree::
+   :caption: Data
+   :maxdepth: 1
+
+   data_specs/index
+   data_specs/access
+
+
+.. toctree::
+   :caption: Services
+   :maxdepth: 1
+
+   sandbox/index
+   maps/index
+   web_services/index
+   web_services/explorer
 
 
 .. toctree::
@@ -23,21 +42,4 @@ Digital Earth Africa User Guide
    about/training
    about/glossary
    genindex
-
-
-.. toctree::
-   :caption: Data
-   :maxdepth: 1
-
-   data_specs/index
-   data_specs/access
-
-.. toctree::
-   :caption: Services
-   :maxdepth: 1
-
-   sandbox/index
-   maps/index
-   web_services/index
-   web_services/explorer
 
