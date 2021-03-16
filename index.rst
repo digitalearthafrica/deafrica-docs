@@ -11,7 +11,8 @@ Digital Earth Africa User Guide
 .. toctree::
    :hidden:
 
-   Home <self>
+   Digital Earth Africa <https://www.digitalearthafrica.org/>
+   Docs Home <self>
 
 
 .. toctree::
@@ -19,18 +20,24 @@ Digital Earth Africa User Guide
    :maxdepth: 1
 
    about/contact
+   about/training
    about/glossary
+   genindex
 
+
+.. toctree::
+   :caption: Data
+   :maxdepth: 1
+
+   data_specs/index
+   data_specs/access
 
 .. toctree::
    :caption: Services
    :maxdepth: 1
 
-   data_specs/index
    sandbox/index
    maps/index
    web_services/index
+   web_services/explorer
 
-.. toctree::
-
-  genindex

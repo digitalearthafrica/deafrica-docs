@@ -20,7 +20,7 @@ Glossary
 
    COG
       Cloud Optimised GeoTIFF, a data file format optimised for efficient
-      workflows on the cloud and remote reading.
+      workflows on the cloud and remote reading. See https://www.cogeo.org/.
 
    DEA Notebooks
       Digital Earth Africa Notebooks, a open-source repository containing
@@ -123,6 +123,13 @@ Glossary
       observation data. The program includes the medium resolution Sentinel-2 mission,
       and the Sentinel-1 SAR mission.
 
+   STAC
+     The SpatioTemporal Asset Catalog (STAC) is a specification that provides a
+     common language to describe a range of geospatial information, so it can
+     more easily be indexed and discovered. A 'spatiotemporal asset' is any file
+     that represents information about the earth captured in a certain space and time.
+     See https://stacspec.org/.
+
    USGS
       United States Geological Survey
 
@@ -133,9 +140,6 @@ Glossary
    xarray
       An open source project and Python package that for working with labelled
       multi-dimensional arrays such as those returned by the Open Data Cube (ODC).
+      See http://xarray.pydata.org/.
 
-   YAML
-      YAML is a human friendly data serialization standard for all programming
-      languages. It is used for all on disk metadata files and product
-      definitions in the Data Cube. For more information on the YAML standard
-      see http://yaml.org/.
+
