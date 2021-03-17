@@ -58,7 +58,7 @@ real-world problems.
 
 
    notebooks/Real_world_examples/*
-   notebooks/Real_world_examples/Scalable_machine_learning/0_README
+   notebooks/Real_world_examples/Scalable_machine_learning/index
 
 
 .. toctree::
