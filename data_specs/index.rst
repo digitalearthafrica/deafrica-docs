@@ -9,3 +9,4 @@ Description of dataset tech specs here
    :maxdepth: 1
 
    GeoMAD_specs
+   WOfS_Dataset_Docs
