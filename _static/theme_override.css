@@ -55,3 +55,8 @@ div.document a:visited {
 .wy-nav-content {
     background-color: white;
 }
+
+a[href^="http"] {
+    background: url(external.png) center right no-repeat;
+    padding-right: 13px;
+}
