@@ -1,27 +1,27 @@
-Direct Access
+Direct access
 =============
 
-COG
-___
+Cloud-Optimised GeoTIFF (COG)
+______________________________
 
 Most of the products in Digital Earth Africa are available as :term:`COG` files.
 
 For more information on using these files, see `Cloud Optimized GeoTIFF <https://www.cogeo.org/>`_.
 
 
-AWS S3 Bucket
--------------
+Amazon Web Services S3 Bucket
+_____________________________
 
-The bucket can be viewed at:
+The DE Africa public bucket can be viewed at:
 
 https://data.digitalearth.africa/
 
 
-STAC
-----
+SpatioTemporal Asset Catalog (STAC)
+__________________________________
 
 The DE Africa STAC endpoint is:
 
 https://explorer.digitalearth.africa/stac/
 
-For more information, see the `SpatioTemporal Asset Catalogs <https://stacspec.org/>`_ site.
+For more information, see the `SpatioTemporal Asset Catalog <https://stacspec.org/>`_ site.
