@@ -30,6 +30,7 @@ view and analyse that data.
 
    sandbox/index
    maps/index
+   maps/geoportal
    web_services/index
    web_services/explorer
 
