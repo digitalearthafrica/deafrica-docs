@@ -56,7 +56,7 @@ div.document a:visited {
     background-color: white;
 }
 
-a[href^="http"] {
+.document a[href^="http"] {
     background: url(external.png) center right no-repeat;
     padding-right: 13px;
 }
