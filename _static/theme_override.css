@@ -56,6 +56,45 @@ div.document a:visited {
     background-color: white;
 }
 
+.rst-content .toctree-wrapper>p.caption, h2 {
+    font-size: 150%;
+}
+
+.rst-content .toctree-wrapper>p.caption {
+    color: #FF6633;
+}
+
+.rst-content .toctree-wrapper>p.caption, h1, h2, h3, h4, h5, h6, legend {
+    font-family: Arial,sans-serif;
+}
+
+.fakeheading {
+    font-size: 150%;
+    color: #FF6633;
+}
+
+.platform {
+    transition: all 0.4s ease-in-out;
+    border-radius: 5px;
+    box-shadow: 2px 1px 25px 5px rgb(166 166 166 / 20%);
+    border: 1px solid #f0f0f0;
+    margin-bottom: 1em;
+    padding: 1em 1em 0em 1em;
+}
+
+.platform:hover {
+    box-shadow: 2px 1px 25px 5px rgb(166 166 166 / 70%);
+}
+
+.platform p {
+    margin-bottom: 6px;
+}
+
+.platform .topic-title a {
+    display: block;
+    font-size: 125%;
+}
+
 .document a[href^="http"] {
     background: url(external.png) center right no-repeat;
     padding-right: 13px;

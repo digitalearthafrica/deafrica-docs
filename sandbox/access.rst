@@ -1,6 +1,8 @@
 Access
 ------
 
+Sign in at: `sandbox.digitalearth.africa <https://sandbox.digitalearth.africa>`_
+
 After signing in, you will be given a option of sandbox types to choose from:
 
   **Default:**  2 Cores, 16G Memory

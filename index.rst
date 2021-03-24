@@ -13,8 +13,7 @@ view and analyse that data.
 .. toctree::
    :hidden:
 
-   Digital Earth Africa <https://www.digitalearthafrica.org/>
-   Docs Home <self>
+   Home <self>
 
 .. toctree::
    :caption: Data
@@ -24,12 +23,52 @@ view and analyse that data.
    data_specs/access
 
 
+.. rubric:: Platform
+   :class: fakeheading
+
+.. topic:: :doc:`maps/index`
+   :class: platform
+
+   Our user friendly map-based access to DE Africa data and products
+
+   :doc:`More <maps/index>`
+
+.. topic:: :doc:`sandbox/index`
+   :class: platform
+
+   Our JupyterLab Analysis Platform for exploring the data with access to analysis tools
+
+   :doc:`Analysis Platform User Guide <sandbox/index>`
+
+.. topic:: :doc:`maps/geoportal`
+   :class: platform
+
+   Imagery from DE Africa is available in Esri’s Africa GeoPortal, providing geospatial tools, data and training
+
+   :doc:`More <maps/geoportal>`
+
+.. topic:: :doc:`web_services/index`
+   :class: platform
+
+   Access to DE Africa data using Web Map Service and Web Coverage Service
+
+   :doc:`Web Services User Guide <web_services/index>`
+
+.. topic:: :doc:`web_services/explorer`
+   :class: platform
+
+   The explorer allows you to see where and when you can find data
+
+   :doc:`More <web_services/explorer>`
+
+
 .. toctree::
-   :caption: Services
+   :caption: Platforms
+   :hidden:
    :maxdepth: 1
 
-   sandbox/index
    maps/index
+   sandbox/index
    maps/geoportal
    web_services/index
    web_services/explorer
@@ -37,6 +76,7 @@ view and analyse that data.
 
 .. toctree::
    :caption: About
+   :hidden:
    :maxdepth: 1
 
    about/contact
