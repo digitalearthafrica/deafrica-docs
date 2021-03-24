@@ -23,11 +23,17 @@ view and analyse that data.
    data_specs/access
 
 
-.. rubric:: Platform
+.. rubric:: Platforms
    :class: fakeheading
 
 .. topic:: :doc:`maps/index`
    :class: platform
+
+   .. image:: _static/maps/Workbench.jpg
+      :target: maps/index
+      :width: 160px
+      :height: 112px
+      :align: left
 
    Our user friendly map-based access to DE Africa data and products
 
@@ -35,6 +41,12 @@ view and analyse that data.
 
 .. topic:: :doc:`sandbox/index`
    :class: platform
+
+   .. image:: _static/sandbox/sandbox_mini.png
+      :target: maps/index
+      :width: 160px
+      :height: 120px
+      :align: left
 
    Our JupyterLab Analysis Platform for exploring the data with access to analysis tools
 
