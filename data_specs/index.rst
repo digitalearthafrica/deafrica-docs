@@ -10,5 +10,4 @@ Description of dataset tech specs here
 
    Sentinel-2_Level-2A_specs
    GeoMAD_specs
-   WOfS_Dataset_Docs
-   
+   Landsat_WOfS_specs

@@ -1,8 +1,10 @@
 Contact & Help
 ==============
 
-If you need assistance, please post a question on the
-`GIS Stack Exchange <https://gis.stackexchange.com/questions/ask?tags=open-data-cube>`_ using the open-data-cube tag.
+Contact us on helpdesk@digitalearthafrica.org.
+
+If you need assistance with code or other technical matters, please post a question on the
+`GIS Stack Exchange <https://gis.stackexchange.com/questions/ask?tags=open-data-cube>`_ using the ``open-data-cube`` tag.
 
 You can also view `previous asked questions <https://gis.stackexchange.com/questions/tagged/open-data-cube>`_
 
