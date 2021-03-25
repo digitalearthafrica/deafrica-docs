@@ -1,5 +1,5 @@
-Africa GeoPortal (Esri)
-=======================
+Africa GeoPortal
+================
 
 Esri provides geographic information system software, web GIS and geodatabase
 management applications. They have developed the `Africa GeoPortal
