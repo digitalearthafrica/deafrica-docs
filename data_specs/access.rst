@@ -18,9 +18,6 @@ ____________________________________
 
 Digital Earth Africa data is stored on Amazon Web Services in a publicly-accessible S3 bucket.
 
-The DE Africa public bucket can be viewed at:
-
-https://data.digitalearth.africa/
 
 SpatioTemporal Asset Catalog (STAC)
 __________________________________
