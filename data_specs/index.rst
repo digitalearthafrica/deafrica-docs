@@ -15,6 +15,7 @@ data access, and relevant technical information.
    Landsat_C2_specs
    Sentinel-1_specs
    Sentinel-2_Level-2A_specs
+   ALOS_PALSAR_annual_mosaic_specs
    
 .. toctree::
    :caption: Derived products
