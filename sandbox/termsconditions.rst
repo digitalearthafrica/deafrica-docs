@@ -42,6 +42,6 @@ on your user experience to Helpdesk@digitalearthafrica.org.
 
 6. We reserve the right to email you at your user email address to notify you of any major changes to the infrastructure or your account. 
 
-7. We reserve the right to remove your files at any time without warning. If you need files hosted in the Sandbox you should export them regularly. 
+7. We reserve the right to remove your files at any time without warning. If you need files hosted in the Sandbox you should download or export them regularly. 
 
 8. We reserve the right to restrict or close accounts at our own discretion.

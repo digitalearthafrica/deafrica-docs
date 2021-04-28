@@ -18,5 +18,6 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
    register
    access
    navigate
+   userfaq
    gallery
    api
