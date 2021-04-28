@@ -1,0 +1,16 @@
+name: "Export terms to POEditor"
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: ammaraskar/sphinx-action@master
+      with:
+        pre-build-command: "apt-get update -y && apt-get install -y pandoc"
+        build-command: "sphinx-build -W --keep-going -b gettext . _build"

@@ -24,4 +24,4 @@ fetchnotebooks:
 	cd sandbox/notebooks && git checkout minty-fresh-sandbox && git reset --hard origin/minty-fresh-sandbox && git pull
 
 buildtools:
-	cd sandbox/notebooks/Tools && poetry build && pip install dist/deafrica_tools-0.1.0.tar.gz --no-dependencies
+	cd sandbox/notebooks/Tools && pip install . --no-dependencies

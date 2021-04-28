@@ -4,4 +4,3 @@ sphinx_rtd_theme
 ipython
 ipywidgets
 pygments>=2.4.1
-poetry
