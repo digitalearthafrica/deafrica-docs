@@ -48,7 +48,7 @@ Dask spill to disk errors
 Dask-enabled notebooks may throw errors such as "No space left on device". 
 This is caused by Dask spilling data to disk when memory limits are reached.
 
-Here we suggest trying the following options: 
+We suggest trying the following options: 
 
    1. Edit the Dask config file to prevent spilling to disk.
    Open a Terminal from the Sandbox Launcher. Using ``vi`` or another text 
@@ -61,15 +61,18 @@ Here we suggest trying the following options:
    As instructed here https://docs.dask.org/en/latest/setup/hpc.html, change the
    following settings to match:
    
-      .. code-block:: python
-           distributed:
-             worker:
-               memory:
-                 target: false  # don't spill to disk
-                 spill: false  # don't spill to disk
-                 pause: 0.80  # pause execution at 80% memory use
-                 terminate: 0.95  # restart the worker at 95% use
+   ::
+      distributed:
+         worker:
+            memory:
+               target: false  # don't spill to disk
+               spill: false  # don't spill to disk
+               pause: 0.80  # pause execution at 80% memory use
+               terminate: 0.95  # restart the worker at 95% use
                  
-   Press ``Esc`` then ``:``, ``wq``, ``Enter``.
+   Once you have edited the settings, press the following keys: 
+   ``Esc``, ``:``, ``w``, ``q``, ``Enter``. This writes to the file then closes it.
+
+   2. 
    
    
