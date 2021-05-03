@@ -12,7 +12,8 @@ data access, and relevant technical information.
    :caption: Input datasets
    :maxdepth: 1
 
-   Landsat_C2_specs
+   Landsat_C2_SR_specs
+   Landsat_C2_ST_specs
    Sentinel-1_specs
    Sentinel-2_Level-2A_specs
    ALOS_PALSAR_annual_mosaic_specs
