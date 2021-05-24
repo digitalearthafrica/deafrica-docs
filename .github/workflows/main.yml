@@ -15,7 +15,7 @@ jobs:
         GITHUB_ACTIONS: 1
       with:
         docs-folder: "./"
-        pre-build-command: "apt-get update -y && apt-get install -y pandoc"
+        pre-build-command: "apt-get update -y && apt-get install -y pandoc && make fetchnotebooks && make buildtools"
         build-command: "sphinx-build -b gettext . _build"
     - name: Install dependencies
       run: |
