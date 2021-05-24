@@ -1,9 +1,7 @@
 name: "Export terms to POEditor"
 on:
   push:
-    branches: [ $default-branch ]
-  pull_request:
-    branches: [ $default-branch ]
+    branches: [ main ]
 
 jobs:
   docs:
