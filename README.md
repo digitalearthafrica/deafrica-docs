@@ -6,4 +6,5 @@ English: [![Documentation Status](https://readthedocs.org/projects/digital-earth
 
 French: [![Documentation Status](https://readthedocs.org/projects/digital-earth-africa-fr/badge/?version=latest)](https://docs.digitalearthafrica.org/fr/latest/?badge=latest) | 
 [RTD](https://readthedocs.org/projects/digital-earth-africa-fr/) |
-[POEditor](https://poeditor.com/projects/po_edit?id_language=50&id=432737)
+[POEditor](https://poeditor.com/projects/po_edit?id_language=50&id=432737) |
+[![Export terms](https://github.com/digitalearthafrica/deafrica-docs/actions/workflows/main.yml/badge.svg)](https://github.com/digitalearthafrica/deafrica-docs/actions/workflows/main.yml)
