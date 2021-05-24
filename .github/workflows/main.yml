@@ -25,7 +25,7 @@ jobs:
       run: ls -la ./_build
       shell: bash
     - name: CHMOD
-      run: chmod a+r ./_build/docs.pot
+      run: sudo chmod a+r ./_build/docs.pot
       shell: bash
     - name: Upload terms
       env:
