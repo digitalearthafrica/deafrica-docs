@@ -1,5 +1,11 @@
 import os
+import glob
+
 from poeditor import POEditorAPI
+
+print('Contents of _build:')
+for filename in glob.iglob('./_build/' + '**/**', recursive=True):
+     print(filename)
 
 project_id = os.environ['POEDITOR_PROJECT_ID']
 api_token = os.environ['POEDITOR_API_TOKEN']

@@ -140,7 +140,6 @@ html_context = {
 }
 
 # Translation options
-gettext_uuid = True
 gettext_compact = "docs"  # makes a single "docs.po" file
 locale_dirs = ['locales/']
 
@@ -148,7 +147,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 on_gha = os.environ.get('GITHUB_ACTIONS', None) == 'True'
 
 # If we are on ReadtheDocs, load the latest version of the notebooks
-if on_rtd:
+if on_rtd or on_gha:
     import subprocess
     subprocess.run(["make", "fetchnotebooks"])
     subprocess.run(["make", "buildtools"])
