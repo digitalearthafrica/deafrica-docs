@@ -26,4 +26,4 @@ jobs:
         POEDITOR_API_TOKEN: ${{ secrets.POEDITOR_API_TOKEN }}
         POEDITOR_PROJECT_ID: "432737"
       run: |
-        python upload_terms.py
+        sudo python upload_terms.py
