@@ -15,7 +15,7 @@ jobs:
         GITHUB_ACTIONS: 1
       with:
         docs-folder: "./"
-        pre-build-command: "apt-get update -y && apt-get install -y pandoc && make fetchnotebooks && make buildtools"
+        pre-build-command: "apt-get update -y && apt-get install -y pandoc git && make fetchnotebooks && make buildtools"
         build-command: "sphinx-build -b gettext . _build"
     - name: Install dependencies
       run: |
@@ -27,6 +27,12 @@ jobs:
     - name: CHMOD
       run: sudo chmod a+r ./_build/docs.pot
       shell: bash
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: save-pot
+        path: |
+          ./_build/*.pot
     - name: Upload terms
       env:
         POEDITOR_API_TOKEN: ${{ secrets.POEDITOR_API_TOKEN }}
