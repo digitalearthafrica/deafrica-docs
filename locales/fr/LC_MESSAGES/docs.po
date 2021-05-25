@@ -1,0 +1,4013 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Digital Earth Africa\n"
+"Language: fr\n"
+
+#: 
+msgid "Contact & Help"
+msgstr "Contact et aide"
+
+#: 
+msgid "Contact us on helpdesk@digitalearthafrica.org."
+msgstr "Contactez-nous sur helpdesk@digitalearthafrica.org."
+
+#: 
+msgid "If you need assistance with code or other technical matters, please post a question on the `GIS Stack Exchange <https://gis.stackexchange.com/questions/ask?tags=open-data-cube>`_ using the ``open-data-cube`` tag."
+msgstr "Si vous avez besoin d'aide pour le code ou d'autres questions techniques, veuillez poster une question sur le `GIS Stack Exchange <https://gis.stackexchange.com/questions/ask?tags=open-data-cube>`_ en utilisant le tag ``open-data-cube``."
+
+#: 
+msgid "You can also view `previous asked questions <https://gis.stackexchange.com/questions/tagged/open-data-cube>`_"
+msgstr "Vous pouvez également consulter les `premières questions posées <https://gis.stackexchange.com/questions/tagged/open-data-cube>`_."
+
+#: 
+msgid "To talk to the DE Africa community, please join the `Open Data Cube Slack <http://slack.opendatacube.org/>`_, and join the ``#de-africa`` channel."
+msgstr "Pour parler à la communauté DE Afrique, veuillez rejoindre le `Open Data Cube Slack <http://slack.opendatacube.org/>`_, et rejoindre le canal ``#de-africa``."
+
+#: 
+msgid "Glossary"
+msgstr "Glossaire"
+
+#: 
+msgid "AEZ"
+msgstr "AEZ"
+
+#: 
+msgid "Agro-Ecological Zone. Several DE Africa datasets, such as Water Observations from Space, use AEZs to subdivide the African continent when performing data validation and accuracy assessments."
+msgstr "Zone Agro-Ecologique. Plusieurs jeux de données DE Africa, tels que Water Observations from Space, utilisent les AEZ pour subdiviser le continent africain lors de la validation et de l'évaluation de la précision des données."
+
+#: 
+msgid "API"
+msgstr "API"
+
+#: 
+msgid "Application Programming Interface. The Open Data Cube Application Programming Interface gives programmers full access to the capabilities of the Cube, allowing query and advanced data retrieval."
+msgstr "Interface de programmation d'applications. L'interface de programmation d'applications de l'Open Data Cube donne aux programmeurs un accès complet aux capacités du Cube, permettant des requêtes et une extraction avancée des données."
+
+#: 
+msgid "ARD"
+msgstr "ARD"
+
+#: 
+msgid "Analysis Ready Data. Data which has been pre-processed and compiled to make it more accessible. This makes it easier for users to perform their own analysis."
+msgstr "Données prêtes à être analysées. Données qui ont été prétraitées et compilées pour les rendre plus accessibles. Cela permet aux utilisateurs d'effectuer plus facilement leur propre analyse."
+
+#: 
+msgid "ARN"
+msgstr "ARN"
+
+#: 
+msgid "Amazon Resource Name. The naming method used by Amazon Web Services to unambiguously specify resources."
+msgstr "Nom de ressource Amazon. La méthode de dénomination utilisée par Amazon Web Services pour spécifier sans ambiguïté les ressources."
+
+#: 
+msgid "AWS"
+msgstr "AWS"
+
+#: 
+msgid "Amazon Web Services. Cloud computing infrastructure provided by Amazon (United States)."
+msgstr "Amazon Web Services. Infrastructure informatique en nuage fournie par Amazon (États-Unis)."
+
+#: 
+msgid "CEOS"
+msgstr "CEOS"
+
+#: 
+msgid "Committee on Earth Observations. An international panel focusing on the interoperability, validation, and coordination of Earth observation activities. See https://ceos.org/."
+msgstr "Comité sur les observations de la Terre. Un groupe international qui se concentre sur l'interopérabilité, la validation et la coordination des activités d'observation de la Terre. Voir https://ceos.org/."
+
+#: 
+msgid "COG"
+msgstr "COG"
+
+#: 
+msgid "Cloud Optimized GeoTIFF. A data file format optimised for efficient workflows on the cloud and remote reading. See https://www.cogeo.org/."
+msgstr "GeoTIFF optimisé pour le cloud. Un format de fichier de données optimisé pour des flux de travail efficaces sur le cloud et la lecture à distance. Voir https://www.cogeo.org/."
+
+#: 
+msgid "DE Africa Notebooks"
+msgstr "Cahiers DE Afrique"
+
+#: 
+msgid "Digital Earth Africa Notebooks. An open-source repository containing Jupyter Notebooks, tools and workflows for geospatial analysis with Open Data Cube and xarray. See https://github.com/digitalearthafrica/deafrica-sandbox-notebooks."
+msgstr "Digital Earth Africa Notebooks. Un référentiel open-source contenant des Jupyter Notebooks, des outils et des flux de travail pour l'analyse géospatiale avec Open Data Cube et xarray. Voir https://github.com/digitalearthafrica/deafrica-sandbox-notebooks."
+
+#: 
+msgid "DE Africa Sandbox"
+msgstr "DE Africa Sandbox"
+
+#: 
+msgid "Digital Earth Africa Sandbox. A learning and analysis environment for getting started with DE Africa and the Open Data Cube. It includes sample data and Jupyter notebooks that demonstrate the capability of the Open Data Cube."
+msgstr "Digital Earth Africa Sandbox. Un environnement d'apprentissage et d'analyse pour démarrer avec DE Africa et l'Open Data Cube. Il comprend des échantillons de données et des carnets de notes Jupyter qui démontrent les capacités du cube de données ouvert."
+
+#: 
+msgid "DE Africa"
+msgstr "DE Afrique"
+
+#: 
+msgid "Digital Earth Africa. DE Africa delivers routine, reliable and operational services using Earth observations to produce decision-ready products for policy, science and industry. For more information see https://www.digitalearthafrica.org/."
+msgstr "Digital Earth Africa. DE Africa fournit des services de routine, fiables et opérationnels en utilisant les observations de la Terre pour produire des produits prêts à être utilisés pour la politique, la science et l'industrie. Pour plus d'informations, voir https://www.digitalearthafrica.org/."
+
+#: 
+msgid "EO"
+msgstr "EO"
+
+#: 
+msgid "Earth Observation. The field of gathering information about Earth using surveying techniques such as satellite-based remote sensing, or ground-based data collection."
+msgstr "Observation de la Terre. Le domaine de la collecte d'informations sur la Terre à l'aide de techniques de surveillance telles que la télédétection par satellite ou la collecte de données au sol."
+
+#: 
+msgid "ESA"
+msgstr "ESA"
+
+#: 
+msgid "European Space Agency"
+msgstr "Agence spatiale européenne"
+
+#: 
+msgid "FAO"
+msgstr "FAO"
+
+#: 
+msgid "Food and Agriculture Organization of the United Nations"
+msgstr "Organisation des Nations unies pour l'alimentation et l'agriculture"
+
+#: 
+msgid "FC"
+msgstr "FC"
+
+#: 
+msgid "Fractional Cover. Fractional Cover (FC) is a measurement that splits the landscape into three parts, or fractions; green (leaves, grass, and growing crops), brown (branches, dry grass or hay, and dead leaf litter), and bare ground (soil or rock)."
+msgstr "Couverture fractionnée. La couverture fractionnée (CF) est une mesure qui divise le paysage en trois parties, ou fractions : le vert (feuilles, herbe et cultures en croissance), le brun (branches, herbe sèche ou foin, et litière de feuilles mortes) et le sol nu (terre ou roche)."
+
+#: 
+msgid "GeoMAD"
+msgstr "GeoMAD"
+
+#: 
+msgid "Geomedian and Median Absolute Deviation product."
+msgstr "Produit Geomedian et Median Absolute Deviation."
+
+#: 
+msgid "Geomedian"
+msgstr "Geomedian"
+
+#: 
+msgid "A robust high-dimensional statistic that maintains relationships between spectral bands. Forms part of the GeoMAD product."
+msgstr "Une statistique robuste à haute dimension qui maintient les relations entre les bandes spectrales. Fait partie du produit GeoMAD."
+
+#: 
+msgid "GEE"
+msgstr "GEE"
+
+#: 
+msgid "Google Earth Engine"
+msgstr "Moteur Google Earth"
+
+#: 
+msgid "GIS"
+msgstr "GIS"
+
+#: 
+msgid "Geographic Information System"
+msgstr "Système d'information géographique"
+
+#: 
+msgid "Jupyter Notebook"
+msgstr "Jupyter Notebook"
+
+#: 
+msgid "A user-friendly file type that allows code to be run and presented alongside explanatory documentation, figures, and scientific notation. Has the file extension .ipynb."
+msgstr "Un type de fichier convivial qui permet d'exécuter un code et de le présenter avec une documentation explicative, des figures et une notation scientifique. Possède l'extension de fichier .ipynb."
+
+#: 
+msgid "JupyterLab"
+msgstr "JupyterLab"
+
+#: 
+msgid "An interactive web-based user interface for editing and running Jupyter Notebooks. JupyterLab is used as an analysis environment on the DE Africa Sandbox."
+msgstr "Une interface utilisateur interactive basée sur le web pour éditer et exécuter les Jupyter Notebooks. JupyterLab est utilisé comme environnement d'analyse sur la Sandbox de DE Africa."
+
+#: 
+msgid "Landsat"
+msgstr "Landsat"
+
+#: 
+msgid "A joint NASA/USGS program of medium resolution satellites that have been collecting publicly available Earth observation data continuously since 1972."
+msgstr "Un programme conjoint de la NASA et de l'USGS composé de satellites à moyenne résolution qui collectent en permanence des données d'observation de la Terre accessibles au public depuis 1972."
+
+#: 
+msgid "MAD"
+msgstr "MAD"
+
+#: 
+msgid "Median Absolute Deviation. In DE Africa, MADs are a measure used to quantify variation in the geomedian. Forms part of the GeoMAD product, where three different MADs are used: Euclidean MAD, Spectral MAD, and Bray-Curtis MAD."
+msgstr "Écart absolu médian. En Afrique de l'Est, les MAD sont une mesure utilisée pour quantifier la variation du géomedien. Fait partie du produit GeoMAD, où trois MAD différentes sont utilisées : MAD euclidienne, MAD spectrale et MAD de Bray-Curtis."
+
+#: 
+msgid "MODIS"
+msgstr "MODIS"
+
+#: 
+msgid "Moderate Resolution Imaging Spectroradiometer, a sensor on board NASA's Terra and Aqua satellites that collects publicly-available low resolution Earth observation data every one to two days."
+msgstr "Spectroradiomètre imageur à résolution modérée, un capteur embarqué à bord des satellites Terra et Aqua de la NASA qui collecte tous les jours ou tous les deux jours des données d'observation de la Terre à basse résolution accessibles au public."
+
+#: 
+msgid "NASA"
+msgstr "NASA"
+
+#: 
+msgid "National Aeronautics and Space Administration (United States)"
+msgstr "National Aeronautics and Space Administration (États-Unis)"
+
+#: 
+msgid "NBR"
+msgstr "NBR"
+
+#: 
+msgid "Normalised Burn Ratio, calculated from near-infrared (NIR) and short wave infrared (SWIR)."
+msgstr "Rapport de combustion normalisé, calculé à partir du proche infrarouge (NIR) et de l'infrarouge à ondes courtes (SWIR)."
+
+#: 
+msgid "NDVI"
+msgstr "NDVI"
+
+#: 
+msgid "Normalised Difference Vegetation Index, calculated from visible and near-infrared light reflected by vegetation."
+msgstr "Indice de végétation par différence normalisée, calculé à partir de la lumière visible et proche infrarouge réfléchie par la végétation."
+
+#: 
+msgid "NIR"
+msgstr "NIR"
+
+#: 
+msgid "Near Infrared, referring to particular bands used to collect Earth observation data"
+msgstr "Infrarouge proche, faisant référence à des bandes particulières utilisées pour collecter des données d'observation de la Terre"
+
+#: 
+msgid "ODC"
+msgstr "ODC"
+
+#: 
+msgid "Open Data Cube, an international open-source project developing the technology that powers Digital Earth Africa. For more information see http://opendatacube.org/."
+msgstr "Open Data Cube, un projet international à code source ouvert développant la technologie qui alimente Digital Earth Africa. Pour plus d'informations, voir http://opendatacube.org/."
+
+#: 
+msgid "OGC"
+msgstr "OGC"
+
+#: 
+msgid "Open Geospatial Consortium"
+msgstr "Open Geospatial Consortium"
+
+#: 
+msgid "OWS"
+msgstr "OWS"
+
+#: 
+msgid "OGC Web Services. Geospatial services for data access, display and processing."
+msgstr "Services Web de l'OGC. Services géospatiaux pour l'accès, l'affichage et le traitement des données."
+
+#: 
+msgid "Python"
+msgstr "Python"
+
+#: 
+msgid "The programming language used to develop the Open Data Cube. It is easy to use while still allowing high performance access and processing capabilities. See http://www.python.org/ for more information."
+msgstr "Le langage de programmation utilisé pour développer l'Open Data Cube. Il est facile à utiliser tout en permettant un accès et des capacités de traitement très performants. Voir http://www.python.org/ pour plus d'informations."
+
+#: 
+msgid "SAR"
+msgstr "SAR"
+
+#: 
+msgid "Synthetic Aperture Radar"
+msgstr "Radar à ouverture synthétique"
+
+#: 
+msgid "Sentinel"
+msgstr "Sentinelle"
+
+#: 
+msgid "A series of satellites from the ESA Copernicus programme. They collect publicly-available Earth observation data. The program includes the Sentinel-2 multispectral instrument mission, and the Sentinel-1 SAR mission."
+msgstr "Une série de satellites du programme Copernicus de l'ESA. Ils collectent des données d'observation de la Terre accessibles au public. Le programme comprend la mission d'instrumentation multispectrale Sentinel-2, et la mission SAR Sentinel-1."
+
+#: 
+msgid "STAC"
+msgstr "STAC"
+
+#: 
+msgid "The SpatioTemporal Asset Catalog (STAC) is a specification that provides a common language to describe a range of geospatial information, so it can more easily be indexed and discovered. A 'spatiotemporal asset' is any file that represents information about the earth captured in a certain space and time. See https://stacspec.org/."
+msgstr "Le SpatioTemporal Asset Catalog (STAC) est une spécification qui fournit un langage commun pour décrire une gamme d'informations géospatiales, afin qu'elles puissent être plus facilement indexées et découvertes. Un \"bien spatio-temporel\" est un fichier qui représente des informations sur la terre capturées dans un certain espace et temps. Voir https://stacspec.org/."
+
+#: 
+msgid "USGS"
+msgstr "USGS"
+
+#: 
+msgid "United States Geological Survey"
+msgstr "Commission géologique des États-Unis"
+
+#: 
+msgid "WOfS"
+msgstr "WOfS"
+
+#: 
+msgid "Water Observations from Space, a Digital Earth Africa product that provides images and data showing where water has been seen in by satellites."
+msgstr "Observations de l'eau depuis l'espace, un produit de Digital Earth Africa qui fournit des images et des données montrant où l'eau a été vue par des satellites."
+
+#: 
+msgid "xarray"
+msgstr "xarray"
+
+#: 
+msgid "An open source project and Python package that for working with labelled multi-dimensional arrays such as those returned by the Open Data Cube (ODC). See http://xarray.pydata.org/."
+msgstr "Un projet open source et un paquetage Python qui permet de travailler avec des tableaux multidimensionnels étiquetés tels que ceux renvoyés par l'Open Data Cube (ODC). Voir http://xarray.pydata.org/."
+
+#: 
+msgid "Training"
+msgstr "Formation"
+
+#: 
+msgid "A 6-part training course is available at:"
+msgstr "Un cours de formation en 6 parties est disponible sur le site :"
+
+#: 
+msgid "`training.digitalearthafrica.org <https://training.digitalearthafrica.org/>`_"
+msgstr "`training.digitalearthafrica.org <https://training.digitalearthafrica.org/>`_"
+
+#: 
+msgid "It covers:"
+msgstr "Il couvre :"
+
+#: 
+msgid "Using the Digital Earth Africa Sandbox"
+msgstr "Utilisation du bac à sable Digital Earth Africa"
+
+#: 
+msgid "The data products available through Digital Earth Africa"
+msgstr "Les produits de données disponibles sur Digital Earth Africa"
+
+#: 
+msgid "Using the Map Portal"
+msgstr "Utilisation du portail cartographique"
+
+#: 
+msgid "Generating cloud-free composites"
+msgstr "Génération de composites sans nuages"
+
+#: 
+msgid "Calculating indices"
+msgstr "Calcul des indices"
+
+#: 
+msgid "Analysing vegetation and water resources"
+msgstr "Analyse de la végétation et des ressources en eau"
+
+#: 
+msgid "ALOS PALSAR, ALOS-2 PALSAR-2 and JERS-1 SAR Annual Mosaic"
+msgstr "Mosaïque annuelle du SAR ALOS PALSAR, ALOS-2 PALSAR-2 et JERS-1"
+
+#: 
+msgid "**Date modified:** 28 Apr 2021"
+msgstr "**Date de modification:** 28 Apr 2021"
+
+#: 
+msgid "Product overview"
+msgstr "Aperçu du produit"
+
+#: 
+msgid "Background"
+msgstr "Contexte"
+
+#: 
+msgid "Synthetic Aperture Radar (SAR) data have been shown to provide different and complementary information to the more common optical remote sensing data. Radar backscatter response is a function of topography, land cover structure, orientation, and moisture characteristics—including vegetation biomass—and the radar signal can penetrate clouds, providing information about the earth’s surface where optical sensors cannot. Digital Earth Africa provides access to Normalized Radar Backscatter data, for which Radiometric Terrain Correction (RTC) has been applied so data acquired with different imaging geometries over the same region can be compared."
+msgstr "Il a été démontré que les données du radar à synthèse d'ouverture (SAR) fournissent des informations différentes et complémentaires des données de télédétection optique plus courantes. La réponse de rétrodiffusion radar est une fonction de la topographie, de la structure de la couverture terrestre, de l'orientation et des caractéristiques d'humidité - y compris la biomasse végétale - et le signal radar peut pénétrer les nuages, fournissant des informations sur la surface de la terre là où les capteurs optiques ne le peuvent pas. Digital Earth Africa donne accès aux données de rétrodiffusion radar normalisées, pour lesquelles la correction radiométrique du terrain (RTC) a été appliquée afin de pouvoir comparer les données acquises avec différentes géométries d'imagerie sur la même région."
+
+#: 
+msgid "The ALOS/PALSAR annual mosaic is a global 25 m resolution dataset that combines data from many images captured by JAXA’s PALSAR and PALSAR-2 sensors on ALOS-1 and ALOS-2 satellites respectively. This product contains radar measurement in L-band and in HH and HV polarizations. It has a spatial resolution of 25 m and is available annually for 2007 to 2010 (ALOS/PALSAR) and 2015 to 2018 (ALOS-2/PALSAR-2)."
+msgstr "La mosaïque annuelle ALOS/PALSAR est un jeu de données mondial d'une résolution de 25 m qui combine les données de nombreuses images capturées par les capteurs PALSAR et PALSAR-2 de JAXA sur les satellites ALOS-1 et ALOS-2 respectivement. Ce produit contient des mesures radar en bande L et en polarisations HH et HV. Il a une résolution spatiale de 25 m et est disponible annuellement pour 2007 à 2010 (ALOS/PALSAR) et 2015 à 2018 (ALOS-2/PALSAR-2)."
+
+#: 
+msgid "The JERS annual mosaic is generated from images acquired by the SAR sensor on the Japanese Earth Resources Satellite-1 (JERS-1) satellite. This product contains radar measurement in L-band and HH polarization. It has a spatial resolution of 25 m and is available for 1996."
+msgstr "La mosaïque annuelle JERS est générée à partir d'images acquises par le capteur SAR du satellite Japanese Earth Resources Satellite-1 (JERS-1). Ce produit contient des mesures radar en bande L et en polarisation HH. Il a une résolution spatiale de 25 m et est disponible pour 1996."
+
+#: 
+msgid "These mosaic data part of a global dataset provided by the Japan Aerospace Exploration Agency (JAXA) Earth Observation Research Center."
+msgstr "Ces données en mosaïque font partie d'un ensemble de données mondiales fournies par le Centre de recherche en observation de la Terre de l'Agence japonaise d'exploration aérospatiale (JAXA)."
+
+#: 
+msgid "For more information on the product, see https://www.eorc.jaxa.jp/ALOS/en/palsar_fnf/fnf_index.htm"
+msgstr "Pour plus d'informations sur le produit, voir https://www.eorc.jaxa.jp/ALOS/en/palsar_fnf/fnf_index.htm."
+
+#: 
+msgid "Specifications"
+msgstr "Spécifications"
+
+#: 
+msgid "DE Africa provides ALOS/ALOS-2 PALSAR/PALSAR-2 Mosaic and JERS-1 Mosaic as two seperate products. Relevant coverage and metadata can be viewed on DE Africa Metadata Exploer:"
+msgstr "DE Africa fournit ALOS/ALOS-2 PALSAR/PALSAR-2 Mosaic et JERS-1 Mosaic comme deux produits distincts. La couverture et les métadonnées pertinentes peuvent être consultées sur DE Africa Metadata Exploer :"
+
+#: 
+msgid "`ALOS/ALOS-2 PALSAR/PALSAR-2 Mosaic <https://explorer.digitalearth.africa/products/alos_palsar_mosaic>`__"
+msgstr "`ALOS/ALOS-2 PALSAR/PALSAR-2 Mosaïque <https://explorer.digitalearth.africa/products/alos_palsar_mosaic>`__"
+
+#: 
+msgid "`JERS-1 Mosaic <https://explorer.digitalearth.africa/products/jers_sar_mosaic>`__"
+msgstr "`JERS-1 Mosaic <https://explorer.digitalearth.africa/products/jers_sar_mosaic>`__"
+
+#: 
+msgid "**Table 1: SAR annual mosaic product specifications**"
+msgstr "**Tableau 1 : Spécifications des produits de la mosaïque annuelle SAR**."
+
+#: 
+msgid "Satellite"
+msgstr "Satellite"
+
+#: 
+msgid "JERS-1"
+msgstr "JERS-1"
+
+#: 
+msgid "ALOS"
+msgstr "ALOS"
+
+#: 
+msgid "JERS-2"
+msgstr "JERS-2"
+
+#: 
+msgid "Instrument"
+msgstr "Instrument"
+
+#: 
+msgid "PALSAR"
+msgstr "PALSAR"
+
+#: 
+msgid "PALSAR-2"
+msgstr "PALSAR-2"
+
+#: 
+msgid "Launch date"
+msgstr "Date de lancement"
+
+#: 
+msgid "Feb 11, 1992"
+msgstr "11 février 1992"
+
+#: 
+msgid "Jan 24, 2006"
+msgstr "24 janvier 2006"
+
+#: 
+msgid "May 24, 2014"
+msgstr "24 mai 2014"
+
+#: 
+msgid "Frequency"
+msgstr "Fréquence"
+
+#: 
+msgid "L-band (1.27 GHz)"
+msgstr "Bande L (1,27 GHz)"
+
+#: 
+msgid "L-band"
+msgstr "Bande L"
+
+#: 
+msgid "Polarisation"
+msgstr "Polarisation"
+
+#: 
+msgid "HH"
+msgstr "HH"
+
+#: 
+msgid "HH + HV"
+msgstr "HH + HV"
+
+#: 
+msgid "Number of bands"
+msgstr "Nombre de bandes"
+
+#: 
+msgid "4"
+msgstr "4"
+
+#: 
+msgid "5"
+msgstr "5"
+
+#: 
+msgid "Cell size - X (degree)"
+msgstr "Taille de la cellule - X (degré)"
+
+#: 
+msgid "0.00022"
+msgstr "0.00022"
+
+#: 
+msgid "Cell size - Y (degree)"
+msgstr "Taille de la cellule - Y (degré)"
+
+#: 
+msgid "Coordinate reference system"
+msgstr "Système de référence des coordonnées"
+
+#: 
+msgid "EPSG:4326"
+msgstr "EPSG:4326"
+
+#: 
+msgid "Temporal resolution"
+msgstr "Résolution temporelle"
+
+#: 
+msgid "Annual"
+msgstr "Annuel"
+
+#: 
+msgid "Temporal range"
+msgstr "Plage temporelle"
+
+#: 
+msgid "1996"
+msgstr "1996"
+
+#: 
+msgid "2007-2010"
+msgstr "2007-2010"
+
+#: 
+msgid "2015 - 2018"
+msgstr "2015 - 2018"
+
+#: 
+msgid "More information about the dataset can be found in the `dataset description document <https://www.eorc.jaxa.jp/ALOS/en/palsar_fnf/DatasetDescription_PALSAR2_Mosaic_FNF_revI.pdf>`__"
+msgstr "Plus d'informations sur l'ensemble de données peuvent être trouvées dans le document `dataset description <https://www.eorc.jaxa.jp/ALOS/en/palsar_fnf/DatasetDescription_PALSAR2_Mosaic_FNF_revI.pdf>`__."
+
+#: 
+msgid "**Table 2: ALOS/ALOS-2 annual mosaic measurements**"
+msgstr "**Tableau 2 : Mesures annuelles de la mosaïque ALOS/ALOS-2**."
+
+#: 
+msgid "Band ID"
+msgstr "ID de la bande"
+
+#: 
+msgid "Description"
+msgstr "Description"
+
+#: 
+msgid "Data type"
+msgstr "Type de données"
+
+#: 
+msgid "No data\\ :math:`^\\dagger`"
+msgstr "Pas de données... :math:`^^dagger`."
+
+#: 
+msgid "HH backscatter"
+msgstr "HH backscatter"
+
+#: 
+msgid "uint16"
+msgstr "uint16"
+
+#: 
+msgid "0"
+msgstr "0"
+
+#: 
+msgid "HV"
+msgstr "HV"
+
+#: 
+msgid "HV backscatter"
+msgstr "Rétrodiffusion HV"
+
+#: 
+msgid "date"
+msgstr "date"
+
+#: 
+msgid "Observation date (days since launch)"
+msgstr "Date d'observation (jours depuis le lancement)"
+
+#: 
+msgid "linci"
+msgstr "linci"
+
+#: 
+msgid "Local incidence angle"
+msgstr "Angle d'incidence locale"
+
+#: 
+msgid "uint8"
+msgstr "uint8"
+
+#: 
+msgid "mask"
+msgstr "masque"
+
+#: 
+msgid "Processing mask information"
+msgstr "Traitement des informations relatives aux masques"
+
+#: 
+msgid ":math:`^\\dagger` No data or fill value."
+msgstr ":math:`^\\dagger` Aucune donnée ou valeur de remplissage."
+
+#: 
+msgid "Backscatter data is provided as digital number (DN), which can be converted to backscatter in decibel unit using :math:`10*log10(𝐷𝑁^2)-83.0`."
+msgstr "Les données de rétrodiffusion sont fournies sous forme de nombre numérique (DN), qui peut être converti en rétrodiffusion en décibel en utilisant :math:`10*log10(𝐷𝑁^2)-83.0`."
+
+#: 
+msgid "**Table 3: JERS annual mosaic measurements**"
+msgstr "**Tableau 3 : Mesures annuelles de la mosaïque JERS**."
+
+#: 
+msgid "Backscatter data is provided as digital number (DN), which can be converted to backscatter in decibel unit using :math:`10*log10(𝐷𝑁^2)-84.66`."
+msgstr "Les données de rétrodiffusion sont fournies sous forme de nombre numérique (DN), qui peut être converti en rétrodiffusion en décibel en utilisant :math:`10*log10(𝐷𝑁^2)-84.66`."
+
+#: 
+msgid "For the ALOS and JERS mosaics, a data mask is provided that can be used to exclude pixels with potentially problematic measurements."
+msgstr "Pour les mosaïques ALOS et JERS, un masque de données est fourni et peut être utilisé pour exclure les pixels dont les mesures pourraient poser problème."
+
+#: 
+msgid "**Table 4: Processing mask specification.**"
+msgstr "**Tableau 4 : Spécification du masque de traitement.**"
+
+#: 
+msgid "Value"
+msgstr "Valeur"
+
+#: 
+msgid "no_data"
+msgstr "pas de données"
+
+#: 
+msgid "50"
+msgstr "50"
+
+#: 
+msgid "water"
+msgstr "eau"
+
+#: 
+msgid "100"
+msgstr "100"
+
+#: 
+msgid "lay_over"
+msgstr "escale"
+
+#: 
+msgid "150"
+msgstr "150"
+
+#: 
+msgid "shadowing"
+msgstr "filature"
+
+#: 
+msgid "255"
+msgstr "255"
+
+#: 
+msgid "land"
+msgstr "terrain"
+
+#: 
+msgid "Processing"
+msgstr "Traitement"
+
+#: 
+msgid "The ALOS/PALSAR annual mosaic is a global 25 m resolution dataset that combines data from many images captured by JAXA’s PALSAR and PALSAR-2 sensors on ALOS-1 and ALOS-2 satellites respectively. The JERS annual mosaic is generated from images acquired by the SAR sensor on the Japanese Earth Resources Satellite-1 (JERS-1) satellite."
+msgstr "La mosaïque annuelle ALOS/PALSAR est un jeu de données mondial d'une résolution de 25 m qui combine les données de nombreuses images capturées par les capteurs PALSAR et PALSAR-2 de la JAXA sur les satellites ALOS-1 et ALOS-2 respectivement. La mosaïque annuelle JERS est générée à partir d'images acquises par le capteur SAR du satellite Japanese Earth Resources Satellite-1 (JERS-1)."
+
+#: 
+msgid "Media and example images"
+msgstr "Médias et exemples d'images"
+
+#: 
+msgid "|f1872e9d07694bb3a7d248066741ca54|"
+msgstr "|f1872e9d07694bb3a7d248066741ca54|"
+
+#: 
+msgid "**Figure 1: ALOS false color composites (HH, HV, HV/HH) over an area near Cairo, Egypt, showing changes in crop pattern from year to year.**"
+msgstr "**Figure 1 : Composites fausses couleurs ALOS (HH, HV, HV/HH) au-dessus d'une zone proche du Caire, en Egypte, montrant les changements dans la configuration des cultures d'une année sur l'autre."
+
+#: 
+msgid "Related services"
+msgstr "Services connexes"
+
+#: 
+msgid "`Sentinel-1 SAR Backscatter <https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-1_specs.html>`__"
+msgstr "`Sentinel-1 SAR Backscatter <https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-1_specs.html>`__"
+
+#: 
+msgid "References"
+msgstr "Références"
+
+#: 
+msgid "`JAXA Global PALSAR-2/PALSAR/JERS-1 Mosaic <https://www.eorc.jaxa.jp/ALOS/en/palsar_fnf/fnf_index.htm>`__"
+msgstr "`JAXA Global PALSAR-2/PALSAR/JERS-1 Mosaïque <https://www.eorc.jaxa.jp/ALOS/en/palsar_fnf/fnf_index.htm>`__"
+
+#: 
+msgid "License"
+msgstr "Licence"
+
+#: 
+msgid "This dataset is available to use with no charge under the `Terms for Use <https://earth.jaxa.jp/policy/en.html>`__."
+msgstr "Cet ensemble de données peut être utilisé gratuitement dans le cadre des `Termes d'utilisation <https://earth.jaxa.jp/policy/en.html>`__."
+
+#: 
+msgid "Acknowledgements"
+msgstr "Remerciements"
+
+#: 
+msgid "This dataset is part of a global product provided by the Japan Aerospace Exploration Agency (JAXA)."
+msgstr "Ce jeu de données fait partie d'un produit global fourni par l'Agence japonaise d'exploration aérospatiale (JAXA)."
+
+#: 
+msgid "Data access"
+msgstr "Accès aux données"
+
+#: 
+msgid "Amazon Web Services S3"
+msgstr "Amazon Web Services S3"
+
+#: 
+msgid "This product is available in AWS S3."
+msgstr "Ce produit est disponible dans AWS S3."
+
+#: 
+msgid "**Table 5: AWS data access details.**"
+msgstr "**Tableau 5 : Détails de l'accès aux données AWS.**"
+
+#: 
+msgid "AWS S3 details"
+msgstr "Détails sur AWS S3"
+
+#: 
+msgid "Bucket ARD"
+msgstr "Seau ARD"
+
+#: 
+msgid "``arn:aws:s3:::deafrica-input-datasets``"
+msgstr "``arn:aws:s3:::deafrica-input-datasets``"
+
+#: 
+msgid "Region"
+msgstr "Région"
+
+#: 
+msgid "``af-south-1``"
+msgstr "``af-south-1``"
+
+#: 
+msgid "The bucket is in the AWS region ``af-south-1`` (Cape Town). Additional region specifications can be applied as follows:"
+msgstr "Le seau se trouve dans la région AWS ``af-south-1`` (Cape Town). Des spécifications de région supplémentaires peuvent être appliquées comme suit :"
+
+#: 
+msgid "``aws s3 ls --region=af-south-1 s3://deafrica-input-datasets/``"
+msgstr "``aws s3 ls --region=af-south-1 s3://deafrica-input-datasets/``"
+
+#: 
+msgid "The file paths follow the format ``<productname>/<year>/<tile_id>/``."
+msgstr "Les chemins des fichiers suivent le format \"<<nom du produit>/<année>/<identifiant du textile>/``."
+
+#: 
+msgid "**Table 6: AWS file path convention.**"
+msgstr "**Tableau 6 : Convention de chemin d'accès aux fichiers AWS.**"
+
+#: 
+msgid "File path element"
+msgstr "Élément de chemin d'accès au fichier"
+
+#: 
+msgid "Example"
+msgstr "Exemple"
+
+#: 
+msgid "``productname``"
+msgstr "``productname``"
+
+#: 
+msgid "Product name, ``alos_palsar_mosaic`` or ``jers_sar_mosaic``"
+msgstr "Nom du produit, \"alos_palsar_mosaic\" ou \"jers_sar_mosaic\"."
+
+#: 
+msgid "``alos_palsar_mosaic``"
+msgstr "``alos_palsar_mosaique``"
+
+#: 
+msgid "``year``"
+msgstr "``année``"
+
+#: 
+msgid "Observation year"
+msgstr "Année d'observation"
+
+#: 
+msgid "``2015``"
+msgstr "``2015``"
+
+#: 
+msgid "``tile_id``"
+msgstr "``tile_id``"
+
+#: 
+msgid "5x5 deg tile labeld by southwest corner coordinates"
+msgstr "Carreau 5x5 deg étiqueté par les coordonnées du coin sud-ouest"
+
+#: 
+msgid "``S20E020``"
+msgstr "``S20E020``"
+
+#: 
+msgid "OGC Web Services (OWS)"
+msgstr "Services Web de l'OGC (OWS)"
+
+#: 
+msgid "This product is available through DE Africa’s OWS."
+msgstr "Ce produit est disponible auprès de l'OWS de DE Africa."
+
+#: 
+msgid "**Table 7: OWS data access details.**"
+msgstr "**Tableau 7 : Détails de l'accès aux données OWS.**"
+
+#: 
+msgid "OWS details"
+msgstr "Détails de l'OWS"
+
+#: 
+msgid "Name"
+msgstr "Nom"
+
+#: 
+msgid "``DE Africa Services``"
+msgstr "DE Africa Services"
+
+#: 
+msgid "Web Map Services (WMS) URL"
+msgstr "URL des services cartographiques Web (WMS)"
+
+#: 
+msgid "``https://ows.digitalearth.africa/wms?version=1.3.0``"
+msgstr "``https://ows.digitalearth.africa/wms?version=1.3.0``"
+
+#: 
+msgid "Web Coverage Service (WCS) URL"
+msgstr "URL du service de couverture Web (WCS)"
+
+#: 
+msgid "``https://ows.digitalearth.africa/wcs?version=2.1.0``"
+msgstr "``https://ows.digitalearth.africa/wcs?version=2.1.0``"
+
+#: 
+msgid "Layer name"
+msgstr "Nom de la couche"
+
+#: 
+msgid "``alos_palsar_mosaic``, ``jers_sar_mosaic``"
+msgstr "mosaïque \"alos_palsar\", \"mosaïque \"jers_sar\"\"."
+
+#: 
+msgid "Digital Earth Africa OWS details can be found at https://ows.digitalearth.africa/."
+msgstr "Les détails de Digital Earth Africa OWS peuvent être trouvés sur https://ows.digitalearth.africa/."
+
+#: 
+msgid "For instructions on how to connect to OWS, see `this tutorial <https://training.digitalearthafrica.org/en/latest/OWS_tutorial.html>`__."
+msgstr "Pour obtenir des instructions sur la manière de se connecter à OWS, consultez `ce tutoriel <https://training.digitalearthafrica.org/en/latest/OWS_tutorial.html>`__."
+
+#: 
+msgid "Open Data Cube (ODC)"
+msgstr "Open Data Cube (ODC)"
+
+#: 
+msgid "The Landsat Collection 2 Level-2 products can be accessed through the Digital Earth Africa ODC API, which is available through the `Digital Earth Africa Sandbox <https://sandbox.digitalearth.africa/hub/login>`__."
+msgstr "Les produits Landsat Collection 2 Level-2 sont accessibles par l'API ODC de Digital Earth Africa, qui est disponible dans le `Digital Earth Africa Sandbox <https://sandbox.digitalearth.africa/hub/login>`__."
+
+#: 
+msgid "**ODC product names:** ``alos_palsar_mosaic``, ``jers_sar_mosaic``"
+msgstr "**Noms de produits **ODC : \"Alos_palsar_mosaique\", \"Jers_sar_mosaique\"."
+
+#: 
+msgid "Specific bands of data can be called by using either the default names or any of a band’s alternative names, as listed in the table below. ODC ``Datacube.load`` commands without specified bands will load all bands."
+msgstr "Des bandes de données spécifiques peuvent être appelées en utilisant soit les noms par défaut, soit l'un des noms alternatifs d'une bande, comme indiqué dans le tableau ci-dessous. Les commandes ``Datacube.load`` de l'ODC sans bandes spécifiées chargeront toutes les bandes."
+
+#: 
+msgid "**Table 8: ALOS/ALOS-2 annual mosaic (ODC product alos_palsar_mosaic) band names.**"
+msgstr "**Tableau 8 : mosaïque annuelle ALOS/ALOS-2 (produit ODC alos_palsar_mosaic) noms des bandes.**"
+
+#: 
+msgid "Band name"
+msgstr "Nom du groupe"
+
+#: 
+msgid "Alternative names"
+msgstr "Noms alternatifs"
+
+#: 
+msgid "Fill value"
+msgstr "Valeur de remplissage"
+
+#: 
+msgid "hh"
+msgstr "hh"
+
+#: 
+msgid "–"
+msgstr "-"
+
+#: 
+msgid "hv"
+msgstr "hv"
+
+#: 
+msgid "local incidence angle, incidence"
+msgstr "angle d'incidence locale, incidence"
+
+#: 
+msgid "**Table 9: JERS-1 annual mosaic (ODC product jers_sar_mosaic) band names.**"
+msgstr "**Tableau 9 : mosaïque annuelle JERS-1 (produit ODC jers_sar_mosaic) noms des bandes.**"
+
+#: 
+msgid "Band names are case-sensitive."
+msgstr "Les noms des groupes sont sensibles à la casse."
+
+#: 
+msgid "For examples on how to use the ODC API, see the DE Africa `example notebook repository <https://github.com/digitalearthafrica/deafrica-sandbox-notebooks>`__."
+msgstr "Pour des exemples sur la façon d'utiliser l'API ODC, voir le dépôt DE Africa `example notebook <https://github.com/digitalearthafrica/deafrica-sandbox-notebooks>`__."
+
+#: 
+msgid "Technical information"
+msgstr "Informations techniques"
+
+#: 
+msgid "Radiometric terrain correction"
+msgstr "Correction radiométrique du terrain"
+
+#: 
+msgid "See relevant section in the `Sentinel-1 SAR backscatter product specification <https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-1_specs.html#Radiometric-terrain-correction>`__."
+msgstr "Voir la section pertinente dans la spécification du produit de rétrodiffusion SAR de Sentinel-1 <https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-1_specs.html#Radiometric-terrain-correction>`__."
+
+#: 
+msgid "Sentinel-2 Annual GeoMAD"
+msgstr "Sentinel-2 GeoMAD annuel"
+
+#: 
+msgid "**Date modified:** 21 April 2021"
+msgstr "**Date de modification:** 21 avril 2021"
+
+#: 
+msgid "GeoMAD is the the Digital Earth Africa (DE Africa) Sentinel-2 annual geomedian and triple Median Absolute Deviation product. It is a cloud-free composite of Sentinel-2 satellite data compiled for each calendar year."
+msgstr "GeoMAD est le produit annuel de Digital Earth Africa (DE Africa) Sentinel-2 sur la géomédecine et la triple déviation médiane absolue. Il s'agit d'un composite sans nuage des données du satellite Sentinel-2 compilé pour chaque année civile."
+
+#: 
+msgid "GeoMAD has two main components:"
+msgstr "GeoMAD comporte deux composantes principales :"
+
+#: 
+msgid "Median Absolute Deviations (MADs)"
+msgstr "Écarts absolus médians (MAD)"
+
+#: 
+msgid "The geomedian product combines measurements collected in each year to produce one representative, multispectral measurement for every 10 x 10 square metre unit of the African continent. The end result is a comprehensive dataset that can be used to generate true-colour images for visual inspection of anthropogenic or natural landmarks. The full spectral dataset can be used to develop more complex algorithms. The product leverages Sentinel-2’s high-frequency flyovers, with the annual time interval allowing for 70 to 140 satellite passes of any given location. This helps scope out perpetually cloudy areas. For each pixel, invalid data is discarded, and remaining observations are mathematically summarised using the geomedian statistic."
+msgstr "Le produit geomedian combine les mesures collectées chaque année pour produire une mesure multispectrale représentative pour chaque unité de 10 x 10 mètres carrés du continent africain. Le résultat final est un jeu de données complet qui peut être utilisé pour générer des images en couleurs vraies pour l'inspection visuelle de repères anthropiques ou naturels. Le jeu de données spectrales complet peut être utilisé pour développer des algorithmes plus complexes. Le produit s'appuie sur les survols à haute fréquence de Sentinel-2, l'intervalle de temps annuel permettant d'effectuer 70 à 140 passages du satellite sur un lieu donné. Cela permet de repérer les zones perpétuellement nuageuses. Pour chaque pixel, les données non valides sont éliminées et les observations restantes sont résumées mathématiquement à l'aide de la statistique géomédienne."
+
+#: 
+msgid "Variations between the geomedian and the individual measurements are captured by the three Median Absolute Deviation (MAD) layers. These are higher-order statistical measurements calculating variation relative to the geomedian. The MAD layers can be used on their own or together with geomedian to gain insights about the land surface and understand change over time."
+msgstr "Les variations entre le géomédien et les mesures individuelles sont saisies par les trois couches de déviation absolue médiane (MAD). Il s'agit de mesures statistiques d'ordre supérieur qui calculent la variation par rapport à la géomédiane. Les couches MAD peuvent être utilisées seules ou avec la géomédienne pour obtenir des informations sur la surface du sol et comprendre les changements dans le temps."
+
+#: 
+msgid "The GeoMAD dataset is annual (one value per pixel per band per calendar year) and spans continental Africa. GeoMAD metadata can also be viewed on Digital Earth Africa’s `Metadata Explorer <https://explorer.digitalearth.africa/products/ga_s2_gm>`__."
+msgstr "Le jeu de données GeoMAD est annuel (une valeur par pixel par bande par année civile) et couvre l'Afrique continentale. Les métadonnées GeoMAD peuvent également être consultées sur le `Metadata Explorer <https://explorer.digitalearth.africa/products/ga_s2_gm>`__ de Digital Earth Africa."
+
+#: 
+msgid "**Table 1: GeoMAD product specifications**"
+msgstr "**Tableau 1 : Spécifications du produit GeoMAD**."
+
+#: 
+msgid "Specification"
+msgstr "Spécifications"
+
+#: 
+msgid "Product name"
+msgstr "Nom du produit"
+
+#: 
+msgid "Annual Sentinel-2 GeoMAD"
+msgstr "Annuel Sentinel-2 GeoMAD"
+
+#: 
+msgid "14"
+msgstr "14"
+
+#: 
+msgid "Cell size - X (metres)"
+msgstr "Taille de la cellule - X (mètres)"
+
+#: 
+msgid "10"
+msgstr "10"
+
+#: 
+msgid "Cell size - Y (metres)"
+msgstr "Taille de la cellule - Y (mètres)"
+
+#: 
+msgid "Coordinate reference system (CRS)"
+msgstr "Système de référence des coordonnées (CRS)"
+
+#: 
+msgid "EPSG: 6933"
+msgstr "EPSG : 6933"
+
+#: 
+msgid "2017 – 2020"
+msgstr "2017 - 2020"
+
+#: 
+msgid "Parent dataset"
+msgstr "Ensemble de données parent"
+
+#: 
+msgid "Sentinel-2 Level-2A"
+msgstr "Sentinel-2 niveau 2A"
+
+#: 
+msgid "Update frequency"
+msgstr "Fréquence de mise à jour"
+
+#: 
+msgid "**Figure 1: Sentinel-2 Annual GeoMAD geographic extent**"
+msgstr "**Figure 1 : Étendue géographique de la GeoMAD annuelle de Sentinel-2**."
+
+#: 
+msgid "|e3506f49724440e88ce600738df1cb89|"
+msgstr "|e3506f49724440e88ce600738df1cb89|"
+
+#: 
+msgid "Digital Earth Africa Sentinel-2 data is available for the regions shaded in blue. Specific temporal and geographic extents can be explored as an interactive map on the Digital Earth Africa `Metadata Explorer <https://explorer.digitalearth.africa/products/gm_s2_annual/extents>`__."
+msgstr "Les données Sentinel-2 de Digital Earth Africa sont disponibles pour les régions ombragées en bleu. Les étendues temporelles et géographiques spécifiques peuvent être explorées sous forme de carte interactive sur le Digital Earth Africa `Metadata Explorer <https://explorer.digitalearth.africa/products/gm_s2_annual/extents>`__."
+
+#: 
+msgid "**Table 2: GeoMAD measurements**"
+msgstr "**Tableau 2 : Mesures GeoMAD**."
+
+#: 
+msgid "Value range"
+msgstr "Plage de valeurs"
+
+#: 
+msgid "No data value"
+msgstr "Aucune valeur de données"
+
+#: 
+msgid "B02"
+msgstr "B02"
+
+#: 
+msgid "Geomedian B02 (Blue)"
+msgstr "Geomedian B02 (Bleu)"
+
+#: 
+msgid "``1 - 10000``"
+msgstr "``1 - 10000``"
+
+#: 
+msgid "``uint16``"
+msgstr "``uint16``"
+
+#: 
+msgid "``0``"
+msgstr "``0``"
+
+#: 
+msgid "B03"
+msgstr "B03"
+
+#: 
+msgid "Geomedian B03 (Green)"
+msgstr "Geomedian B03 (Vert)"
+
+#: 
+msgid "B04"
+msgstr "B04"
+
+#: 
+msgid "Geomedian B04 (Red)"
+msgstr "Geomedian B04 (Rouge)"
+
+#: 
+msgid "B05"
+msgstr "B05"
+
+#: 
+msgid "Geomedian B05 (Red edge 1)"
+msgstr "Geomedian B05 (bord rouge 1)"
+
+#: 
+msgid "B06"
+msgstr "B06"
+
+#: 
+msgid "Geomedian B06 (Red edge 2)"
+msgstr "Geomedian B06 (bord rouge 2)"
+
+#: 
+msgid "B07"
+msgstr "B07"
+
+#: 
+msgid "Geomedian B07 (Red edge 3)"
+msgstr "Geomedian B07 (bord rouge 3)"
+
+#: 
+msgid "B08"
+msgstr "B08"
+
+#: 
+msgid "Geomedian B08 (Near infrared (NIR) 1)"
+msgstr "Geomedian B08 (proche infrarouge (NIR) 1)"
+
+#: 
+msgid "B8A"
+msgstr "B8A"
+
+#: 
+msgid "Geomedian B8A (NIR 2)"
+msgstr "Geomedian B8A (NIR 2)"
+
+#: 
+msgid "B11"
+msgstr "B11"
+
+#: 
+msgid "Geomedian B11 (Short-wave infrared (SWIR) 1)"
+msgstr "Geomedian B11 (infrarouge à ondes courtes (SWIR) 1)"
+
+#: 
+msgid "B12"
+msgstr "B12"
+
+#: 
+msgid "Geomedian B12 (SWIR 2)"
+msgstr "Geomedian B12 (SWIR 2)"
+
+#: 
+msgid "SMAD"
+msgstr "SMAD"
+
+#: 
+msgid "Spectral Median Absolute Deviation"
+msgstr "Écart absolu médian spectral"
+
+#: 
+msgid "``0 - 1``"
+msgstr "``0 - 1``"
+
+#: 
+msgid "``float32``"
+msgstr "``float32``"
+
+#: 
+msgid "``NaN``"
+msgstr "`NaN``"
+
+#: 
+msgid "EMAD"
+msgstr "EMAD"
+
+#: 
+msgid "Euclidean Median Absolute Deviation"
+msgstr "Écart absolu médian euclidien"
+
+#: 
+msgid "``0 - 31623``"
+msgstr "``0 - 31623``"
+
+#: 
+msgid "BCMAD"
+msgstr "BCMAD"
+
+#: 
+msgid "Bray-Curtis Median Absolute Deviation"
+msgstr "Écart absolu médian de Bray-Curtis"
+
+#: 
+msgid "COUNT"
+msgstr "COMPTER"
+
+#: 
+msgid "Number of clear observations"
+msgstr "Nombre d'observations claires"
+
+#: 
+msgid "``1 - 65535``"
+msgstr "``1 - 65535``"
+
+#: 
+msgid "The GeoMAD dataset has fourteen bands of data which can be subdivided as follows:"
+msgstr "Le jeu de données GeoMAD comporte quatorze bandes de données qui peuvent être subdivisées comme suit :"
+
+#: 
+msgid "**Geomedian — 10 bands:** The geomedian is calculated using ten spectral bands of Sentinel-2 data collected during one year. This results in the 10-band annual geomedian provided by the GeoMAD product. The ten geomedian surface reflectance bands are B02, B03, B04, B05, B06, B07, B08, B8A, B11, and B12. Surface reflectance values have been scaled between ``1`` and ``10000`` to allow for more efficient data storage as unsigned 16-bit integers (``uint16``). Note the raw Sentinel-2 product contains more bands, some of which are not used in GeoMAD."
+msgstr "**Géomédian - 10 bandes:** Le géomédian est calculé à partir de dix bandes spectrales de données Sentinel-2 collectées pendant une année. On obtient ainsi le géomédian annuel à 10 bandes fourni par le produit GeoMAD. Les dix bandes de réflectance de surface du géomédian sont B02, B03, B04, B05, B06, B07, B08, B8A, B11 et B12. Les valeurs de réflectance de surface ont été mises à l'échelle entre ``1`` et ``10000`` pour permettre un stockage plus efficace des données sous forme d'entiers non signés de 16 bits (``uint16``). Notez que le produit brut Sentinel-2 contient plus de bandes, dont certaines ne sont pas utilisées dans GeoMAD."
+
+#: 
+msgid "The geomedian band IDs correspond to bands in the parent Sentinel-2 Level-2A data. For example, the GeoMAD band ``B02`` contains the annual geomedian of the Sentinel-2 ``B02`` band."
+msgstr "Les ID des bandes géomédiennes correspondent aux bandes des données parentes Sentinel-2 Niveau 2A. Par exemple, la bande GeoMAD ``B02`` contient le géomédian annuel de la bande Sentinel-2 ``B02``."
+
+#: 
+msgid "**Median Absolute Deviations (MADs) — 3 bands:** Deviations from the annual geomedian are quantified through median absolute deviation calculations. The GeoMAD product utilises three MADs, each stored in a separate band: Euclidean MAD (EMAD), spectral MAD (SMAD), and Bray-Curtis MAD (BCMAD). Each MAD is calculated using the same ten bands as in the geomedian. SMAD and BCMAD are normalised ratios, therefore they are unitless and their values always fall between ``0`` and ``1``. EMAD is a function of surface reflectance but is neither a ratio nor normalised, therefore its valid value range depends on the number of bands used in the geomedian calculation — ten in GeoMAD."
+msgstr "**Écarts absolus médians (MAD) - 3 bandes:** Les écarts par rapport à la géomédia annuelle sont quantifiés par des calculs d'écart absolu médian. Le produit GeoMAD utilise trois MAD, chacun étant stocké dans une bande distincte : MAD euclidienne (EMAD), MAD spectrale (SMAD), et MAD de Bray-Curtis (BCMAD). Chaque MAD est calculée en utilisant les mêmes dix bandes que dans le géomédian. SMAD et BCMAD sont des rapports normalisés, ils sont donc sans unité et leurs valeurs sont toujours comprises entre ``0`` et ``1``. EMAD est une fonction de la réflectance de la surface mais n'est ni un rapport ni normalisé, donc sa plage de valeurs valides dépend du nombre de bandes utilisées dans le calcul du géomédian - dix dans GeoMAD."
+
+#: 
+msgid "**Count — 1 band:** The number of clear satellite measurements of a pixel for that calendar year. This is around 60 to 70 for most pixels, but doubles at areas of overlap between scenes. “Count” is not incorporated in either the geomedian or MADs calculations. It is intended for metadata analysis and data validation."
+msgstr "**Count - 1 band:** Le nombre de mesures satellitaires claires d'un pixel pour cette année civile. Ce nombre est d'environ 60 à 70 pour la plupart des pixels, mais il double dans les zones de chevauchement entre les scènes. Le \"Count\" n'est pas incorporé dans les calculs géomédiatiques ou MADs. Il est destiné à l'analyse des métadonnées et à la validation des données."
+
+#: 
+msgid "All clear observations for the given calendar year are collated from the parent dataset. Cloudy pixels are identified and excluded. The geomedian and MADs calculations are then performed by the `hdstats <https://libraries.io/pypi/hdstats>`__ package. 2017 – 2020 GeoMAD datasets use ``hdstats`` version 0.2."
+msgstr "Toutes les observations claires pour l'année civile donnée sont rassemblées à partir de l'ensemble de données parent. Les pixels nuageux sont identifiés et exclus. Les calculs des géomédians et des MADs sont ensuite effectués par le paquet `hdstats <https://libraries.io/pypi/hdstats>`__. Les jeux de données GeoMAD 2017 - 2020 utilisent la version 0.2 de ``hdstats``."
+
+#: 
+msgid "**Image 1: Mangroves in Guinea-Bissau. 2019 geomedian, true-colour (RGB).**"
+msgstr "**Image 1 : Mangroves en Guinée-Bissau. 2019 geomedian, true-colour (RGB).**"
+
+#: 
+msgid "Credit: Contains modified Copernicus Sentinel data 2019, processed by Digital Earth Africa."
+msgstr "Crédit : Contient des données Copernicus Sentinel 2019 modifiées, traitées par Digital Earth Africa."
+
+#: 
+msgid "|898403dae2274a0a953a71c510d9ea3a|"
+msgstr "|898403dae2274a0a953a71c510d9ea3a|"
+
+#: 
+msgid "**Image 2: Croplands in South Africa. 2019 triple MADs, plotted as RGB.**"
+msgstr "**Image 2 : Terres cultivées en Afrique du Sud. MAD triples de 2019, tracées en RVB.**"
+
+#: 
+msgid "|c68cd55e2dde4477adeb84dbe2e6d9cd|"
+msgstr "|c68cd55e2dde4477adeb84dbe2e6d9cd|"
+
+#: 
+msgid "`Sentinel-2 Level-2A <https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-2_Level-2A_specs.html>`__"
+msgstr "`Sentinel-2 Niveau-2A <https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-2_Level-2A_specs.html>`___."
+
+#: 
+msgid "`Landsat 8 Annual Geomedian 2018 <https://explorer.digitalearth.africa/products/ga_ls8c_gm_2_annual/extents>`__"
+msgstr "`Landsat 8 Geomedian Annuel 2018 <https://explorer.digitalearth.africa/products/ga_ls8c_gm_2_annual/extents>`__"
+
+#: 
+msgid "Roberts, D., Mueller, N., & Mcintyre, A. (2017). High-dimensional pixel composites from Earth observation time series. *IEEE Transactions on Geoscience and Remote Sensing*, 55(11), 6254–6264. https://doi.org/10.1109/TGRS.2017.2723896"
+msgstr "Roberts, D., Mueller, N., & Mcintyre, A. (2017). Composites de pixels à haute dimension à partir de séries temporelles d'observation de la Terre. *IEEE Transactions on Geoscience and Remote Sensing*, 55(11), 6254-6264. https://doi.org/10.1109/TGRS.2017.2723896"
+
+#: 
+msgid "Roberts, D., Dunn, B., Mueller, N. (2018). Open Data Cube products using high-dimensional statistics of time series. 8647-8650. https://doi.org/10.1109/IGARSS.2018.8518312."
+msgstr "Roberts, D., Dunn, B., Mueller, N. (2018). Produits Open Data Cube utilisant des statistiques à haute dimension des séries temporelles. 8647-8650. https://doi.org/10.1109/IGARSS.2018.8518312."
+
+#: 
+msgid "CC BY Attribution 4.0 International License"
+msgstr "Licence internationale CC BY Attribution 4.0"
+
+#: 
+msgid "The high-dimensional statistics algorithms incorporated in this product are the work of Dr Dale Roberts, Australian National University."
+msgstr "Les algorithmes de statistiques à haute dimension incorporés dans ce produit sont le fruit du travail du Dr Dale Roberts, de l'Australian National University."
+
+#: 
+msgid "GeoMAD data can be accessed from the associated S3 bucket."
+msgstr "Les données GeoMAD sont accessibles à partir du seau S3 associé."
+
+#: 
+msgid "**Table 3: AWS data access details**"
+msgstr "**Tableau 3 : Détails de l'accès aux données AWS**."
+
+#: 
+msgid "Bucket ARN"
+msgstr "Seau ARN"
+
+#: 
+msgid "``arn:aws:s3:::deafrica-services``"
+msgstr "``arn:aws:s3:::deafrica-services``"
+
+#: 
+msgid "``gm_s2_annual``"
+msgstr "``gm_s2_annuel``"
+
+#: 
+msgid "``aws s3 ls --region=af-south-1 s3://deafrica-services/gm_s2_annual/``"
+msgstr "``aws s3 ls --region=af-south-1 s3://deafrica-services/gm_s2_annual/``"
+
+#: 
+msgid "The file paths follow the format:"
+msgstr "Les chemins d'accès aux fichiers suivent le format :"
+
+#: 
+msgid "``<productname>/<version>/<x>/<y>/<timeperiod>/<x><y>_<timeperiod>_<band>.<extension>``"
+msgstr "``<productname>/<version>/<x>/<y>/<timeperiod>/<x><y>_<timeperiod>_<band>.<extension>``"
+
+#: 
+msgid "**Table 4: AWS file path convention**"
+msgstr "**Tableau 4 : Convention de chemin d'accès aux fichiers AWS**."
+
+#: 
+msgid "``version``"
+msgstr "``version``"
+
+#: 
+msgid "Product version"
+msgstr "Version du produit"
+
+#: 
+msgid "``1.0.0``"
+msgstr "``1.0.0``"
+
+#: 
+msgid "``x``"
+msgstr "``x``"
+
+#: 
+msgid "Tile number in the ``x`` direction."
+msgstr "Numéro de tuile dans la direction \"x\"."
+
+#: 
+msgid "``x17``"
+msgstr "``x17``"
+
+#: 
+msgid "``y``"
+msgstr "``y``"
+
+#: 
+msgid "Tile number in the ``y`` direction."
+msgstr "Numéro de tuile dans la direction \"y\"."
+
+#: 
+msgid "``y156``"
+msgstr "``y156``"
+
+#: 
+msgid "``timeperiod``"
+msgstr "``période de temps``"
+
+#: 
+msgid "Year of data collection followed by period of time and time unit in the format ``YYYY--P<period><unit>``. Time units are designated by capitalised letters, ``Y`` for years and ``M`` for months. Annual data is ``P1Y`` while 6-monthly data is ``P6M``."
+msgstr "Année de collecte des données suivie de la période et de l'unité de temps sous le format \"AAAA--P<période><unité>\". Les unités de temps sont désignées par des lettres majuscules, \"A\" pour les années et \"M\" pour les mois. Les données annuelles sont désignées par \"P1Y\" tandis que les données semestrielles sont désignées par \"P6M\"."
+
+#: 
+msgid "``2019--P1Y``"
+msgstr "``2019--P1Y``"
+
+#: 
+msgid "``x_y_timeperiod_band.extension``"
+msgstr "``bande_de_temps_x_y.extension``"
+
+#: 
+msgid "File name. Combines ``x``, ``y``, ``timeperiod`` with ``band``, using Band IDs, and file extensions. For most tiles, the file extension is ``.tif``."
+msgstr "Nom de fichier. Combine ``x``, ``y``, ``timeperiod`` avec ``band``, en utilisant les ID de bande, et les extensions de fichier. Pour la plupart des tuiles, l'extension de fichier est ``.tif``."
+
+#: 
+msgid "Tile numbering uses 96 km grid squares based on the default CRS for this product, ``EPSG:6933``, with the origin set at the bottom-leftmost corner of the valid ``EPSG:6933`` region."
+msgstr "La numérotation des tuiles utilise des carrés de grille de 96 km basés sur le CRS par défaut pour ce produit, ``EPSG:6933``, avec une origine fixée au coin inférieur gauche de la région valide ``EPSG:6933``."
+
+#: 
+msgid "**Table 5: OWS data access details**"
+msgstr "**Tableau 5 : Détails de l'accès aux données OWS**."
+
+#: 
+msgid "``https://ows-af.digitalearth.africa/wms?version=1.3.0``"
+msgstr "``https://ows-af.digitalearth.africa/wms?version=1.3.0``"
+
+#: 
+msgid "``https://ows-af.digitalearth.africa/wcs?version=2.1.0``"
+msgstr "``https://ows-af.digitalearth.africa/wcs?version=2.1.0``"
+
+#: 
+msgid "The GeoMAD dataset is not yet but will soon be accessible in the Digital Earth Africa ODC API, which is available through the `Digital Earth Africa Sandbox <https://sandbox.digitalearth.africa/hub/login>`__."
+msgstr "Le jeu de données GeoMAD n'est pas encore mais sera bientôt accessible dans l'API ODC de Digital Earth Africa, qui est disponible via le `Digital Earth Africa Sandbox <https://sandbox.digitalearth.africa/hub/login>`__."
+
+#: 
+msgid "**ODC product name:** ``gm_s2_annual``"
+msgstr "Nom du produit **ODC:** ``gm_s2_annual``"
+
+#: 
+msgid "Specific bands of data can be called by using either the default names or any of a band’s alternative names, as listed in the table below. ODC ``datacube.Datacube.load`` commands without specified bands will load all bands; see `ODC documentation <https://datacube-core.readthedocs.io/en/latest/dev/api/generate/datacube.Datacube.load.html>`__."
+msgstr "Des bandes spécifiques de données peuvent être appelées en utilisant soit les noms par défaut, soit l'un des noms alternatifs d'une bande, comme indiqué dans le tableau ci-dessous. Les commandes ``datacube.Datacube.load`` sans bandes spécifiées chargeront toutes les bandes ; voir la documentation de l'ODC <https://datacube-core.readthedocs.io/en/latest/dev/api/generate/datacube.Datacube.load.html>`__."
+
+#: 
+msgid "**Table 6: GeoMAD ODC band names**"
+msgstr "**Tableau 6 : Noms des bandes de l'ODC de GeoMAD**."
+
+#: 
+msgid "band_02, blue"
+msgstr "band_02, bleu"
+
+#: 
+msgid "band_03, green"
+msgstr "band_03, vert"
+
+#: 
+msgid "band_04, red"
+msgstr "bande_04, rouge"
+
+#: 
+msgid "band_05, red_edge_1"
+msgstr "bande_05, bord_rouge_1"
+
+#: 
+msgid "band_06, red_edge_2"
+msgstr "bande_06, bord_rouge_2"
+
+#: 
+msgid "band_07, red_edge_3"
+msgstr "bande_07, bord_rouge_3"
+
+#: 
+msgid "band_08, nir, nir_1"
+msgstr "band_08, nir, nir_1"
+
+#: 
+msgid "band_8a, nir_narrow, nir_2"
+msgstr "bande_8a, nir_narrow, nir_2"
+
+#: 
+msgid "band_11, swir_1, swir_16"
+msgstr "band_11, swir_1, swir_16"
+
+#: 
+msgid "band_12, swir_2, swir_22"
+msgstr "bande_12, tourbillon_2, tourbillon_22"
+
+#: 
+msgid "smad, sdev, SDEV"
+msgstr "smad, sdev, SDEV"
+
+#: 
+msgid "emad, edev, EDEV"
+msgstr "emad, edev, EDEV"
+
+#: 
+msgid "bcmad, bcdev, BCDEV"
+msgstr "bcmad, bcdev, BCDEV"
+
+#: 
+msgid "count"
+msgstr "compter"
+
+#: 
+msgid "Product names and band names are case-sensitive."
+msgstr "Les noms de produits et de groupes sont sensibles à la casse."
+
+#: 
+msgid "Pixel composites are created by compiling multiple satellite observations of the same area to form one representative image. They have become a staple to Earth observation research as combining measurements compensates for missing data, such as gaps caused by cloud cover. This results in comprehensive datasets that allow thorough analysis of large areas of interest."
+msgstr "Les composites de pixels sont créés en compilant plusieurs observations satellitaires de la même zone pour former une image représentative. Ils sont devenus un élément essentiel de la recherche sur l'observation de la Terre, car la combinaison des mesures compense les données manquantes, telles que les lacunes causées par la couverture nuageuse. Il en résulte des ensembles de données complets qui permettent une analyse approfondie de vastes zones d'intérêt."
+
+#: 
+msgid "There are many ways of forming this image. GeoMAD uses the *geomedian* summary statistic to combine a year of data into one scientifically-rigorous composite. It produces one multispectral observation for each pixel on continental Africa."
+msgstr "Il existe de nombreuses façons de former cette image. GeoMAD utilise la statistique sommaire *geomedian* pour combiner une année de données en un composite scientifiquement rigoureux. Il produit une observation multispectrale pour chaque pixel de l'Afrique continentale."
+
+#: 
+msgid "The geomedian statistic is sometimes referred to as the “geometric median”, as in the figure below. To remove ambiguity with other kinds of statistics with similar names, it is always referred to in DE Africa as the “geomedian”."
+msgstr "La statistique géomédienne est parfois appelée \"médiane géométrique\", comme dans la figure ci-dessous. Pour lever toute ambiguïté avec d'autres types de statistiques portant des noms similaires, elle est toujours appelée \"géomédiane\" dans DE Africa."
+
+#: 
+msgid "**Figure 2: Illustrated explanation of the geomedian.**"
+msgstr "**Figure 2 : Explication illustrée du géomedien.**"
+
+#: 
+msgid "|3d7dcfe58d1d4a02876f86818ed8313e|"
+msgstr "|3d7dcfe58d1d4a02876f86818ed8313e|"
+
+#: 
+msgid "Figure 2 uses a three-dimensional example to illustrate how the geomedian is calculated for a single pixel containing multiple measurements of red, blue and green data."
+msgstr "La figure 2 utilise un exemple tridimensionnel pour illustrer comment le géomédian est calculé pour un seul pixel contenant plusieurs mesures de données rouges, bleues et vertes."
+
+#: 
+msgid "The dataset has :math:`N` timesteps of satellite data. In the case of Figure 2, :math:`N=20`"
+msgstr "L'ensemble de données comporte :math:`N` pas de temps de données satellitaires. Dans le cas de la figure 2, :math:`N=20`"
+
+#: 
+msgid "Each timestep contains :math:`p` bands. In this case, :math:`p =3` (one dimension each for red, green, blue)"
+msgstr "Chaque pas de temps contient :math:`p` bandes. Dans ce cas, :math:`p =3` (une dimension pour le rouge, le vert et le bleu)."
+
+#: 
+msgid "Therefore each timestep can be represented by a 3-dimensional vector :math:`\\mathbf{x}`. A single vector at timestep :math:`t`, :math:`\\mathbf{x}^{(t)}`, looks like this:"
+msgstr "Chaque pas de temps peut donc être représenté par un vecteur tridimensionnel :math:`\\mathbf{x}`. Un vecteur unique au pas de temps :math:`t`, :math:`\\mathbf{x}^{(t)}`, ressemble à ceci :"
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*} \\mathbf{x}^{(t)} = \\begin{bmatrix}"
+msgstr ":nbsphinx-math:``begin{align*} \\mathbf{x}^{(t)} = \\begin{bmatrix}"
+
+#: 
+msgid "x^{(t)}_{red} \\\\ x^{(t)}_{green}\\\\ x^{(t)}_{blue}"
+msgstr "x^{(t)}_{rouge} \\N- x^{(t)}_{verte}\\N- x^{(t)}_{bleu}}"
+
+#: 
+msgid "\\end{bmatrix} \\end{align*}`"
+msgstr "\\end{bmatrix} \\end{align*}`"
+
+#: 
+msgid "The entire dataset can be represented as the collection of the vectors at every timestep :math:`\\mathbf{x}^{(1)}, \\mathbf{x}^{(2)}, \\dots \\mathbf{x}^{(20)}`"
+msgstr "L'ensemble des données peut être représenté comme la collection des vecteurs à chaque pas de temps :math:`\\mathbf{x}^{(1)}, \\mathbf{x}^{(2)}, \\dots \\mathbf{x}^{(20)}`"
+
+#: 
+msgid "Projected onto a plane, it will look like the plot in Figure 2.2 — twenty points placed depending on their values of red, green and blue. The geomedian of this pixel is then the point where the Euclidean distance (straight-line distance) between all data points is minimised. This is depicted in Figure 2.3; for further information on Euclidean distance, see the section below on the **Euclidean MAD**."
+msgstr "Projeté sur un plan, il ressemblera au tracé de la figure 2.2 - vingt points placés en fonction de leurs valeurs de rouge, vert et bleu. Le géomédian de ce pixel est alors le point où la distance euclidienne (distance en ligne droite) entre tous les points de données est minimisée. Ceci est illustré à la figure 2.3 ; pour plus d'informations sur la distance euclidienne, voir la section ci-dessous sur la **DAM euclidienne**."
+
+#: 
+msgid "Let’s call the geomedian point in this example :math:`\\mathbf{m}_\\text{example}`. Euclidean distance between a point :math:`\\mathbf{x}` and the data points :math:`\\mathbf{x}^{(t)}` is given by :math:`\\lVert \\mathbf{x} - \\mathbf{x}^{(t)} \\rVert`. The point at which all twenty distances are minimised is found by taking the :math:`\\mathrm{argmin}`; the argument of the minima. The geomedian can then be expressed by the following equation:"
+msgstr "Appelons le point géomédian dans cet exemple :math:`\\mathbf{m}_\\text{example}`. La distance euclidienne entre un point :math:`\\mathbf{x}` et les points de données :math:`\\mathbf{x}^{(t)}` est donnée par :math:`\\lVert \\mathbf{x} - \\mathbf{x}^{(t)} \\rVert`. Le point auquel les vingt distances sont minimisées est trouvé en prenant :math:`\\mathrm{argmin}` ; l'argument des minima. Le géomédian peut alors être exprimé par l'équation suivante :"
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*} \\mathbf{m}_\\text{example} = \\underset{\\mathbf{x} \\in \\mathbb{R}^3}{\\mathrm{argmin}} \\sum^{20}_{t=1} \\lVert \\mathbf{x} - \\mathbf{x}^{(t)} \\rVert \\end{align*}`"
+msgstr ":nbsphinx-math:``begin{align*} \\mathbf{m}_\\text{example} = \\underset{\\mathbf{x} \\in \\mathbb{R}^3}{\\mathrm{argmin}} \\sum^{20}_{t=1} \\lVert \\mathbf{x} - \\mathbf{x}^{(t)} \\rVert \\end{align*}`"
+
+#: 
+msgid "In this example, the resulting :math:`\\mathbf{m}_\\text{example}`, like any :math:`\\mathbf{x}`, will be a 3-dimensional vector, with a value each for red, green, and blue."
+msgstr "Dans cet exemple, le résultat :math:`\\mathbf{m}_\\text{example}`, comme tout :math:`\\mathbf{x}`, sera un vecteur tridimensionnel, avec une valeur pour le rouge, le vert et le bleu."
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*} \\mathbf{m}_\\text{example} =\\begin{bmatrix}"
+msgstr ":nbsphinx-math:``begin{align*} \\mathbf{m}_\\text{example} =\\begin{bmatrix}"
+
+#: 
+msgid "m_{red} \\\\ m_{green}\\\\ m_{blue}"
+msgstr "m_{rouge} \\\\ m_{vert}\\\\N{\\i1}m_{blue}}"
+
+#: 
+msgid "The geomedian point :math:`\\mathbf{m}` is not selected from one of the twenty data points. It is a separate vector with unique values that do not necessarily correspond to existing band values from the observation dataset."
+msgstr "Le point géomédian :math:`\\mathbf{m}` n'est pas sélectionné parmi les vingt points de données. Il s'agit d'un vecteur distinct avec des valeurs uniques qui ne correspondent pas nécessairement aux valeurs de bande existantes de l'ensemble de données d'observation."
+
+#: 
+msgid "The formula for the geomedian of a single pixel can be generalised for :math:`p` bands and :math:`N` timesteps, as given in `Roberts et al, 2017 <https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8004469>`__:"
+msgstr "La formule du géomédian d'un seul pixel peut être généralisée pour :math:`p` bandes et :math:`N` pas de temps, comme indiqué dans `Roberts et al, 2017 <https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8004469>`__ :"
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*} \\mathbf{m} = \\underset{\\mathbf{x} \\in \\mathbb{R}^p}{\\mathrm{argmin}} \\sum^{N}_{t=1} \\lVert \\mathbf{x} - \\mathbf{x}^{(t)} \\rVert \\end{align*}`"
+msgstr ":nbsphinx-math:``begin{align*} \\mathbf{m} = \\underset{\\i} \\mathbf{x} \\in \\mathbb{R}^p}{\\mathrm{argmin}} \\sum^{N}_{t=1} \\lVert \\mathbf{x} - \\mathbf{x}^{(t)} \\rVert \\end{align*}`"
+
+#: 
+msgid "In GeoMAD, the ten bands of the geomedian result in a 10-dimensional space. It is difficult to illustrate this example in ten dimensions — but we can instead provide the equation, and the form of the result. Here, the number of timesteps :math:`N` varies per pixel; pixels on the overlap between satellite swathes may have very large :math:`N` (up to around 140 per year), while pixels in the centre of the path are only observed once per flyover, and have :math:`N` closer to 70."
+msgstr "Dans GeoMAD, les dix bandes du géomédian donnent un espace à dix dimensions. Il est difficile d'illustrer cet exemple en dix dimensions - mais nous pouvons plutôt fournir l'équation, et la forme du résultat. Ici, le nombre de pas de temps :math:`N` varie par pixel ; les pixels sur le chevauchement entre les bandes de satellites peuvent avoir des :math:`N` très grands (jusqu'à environ 140 par an), tandis que les pixels au centre de la trajectoire ne sont observés qu'une fois par survol, et ont des :math:`N` plus proches de 70."
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*} \\mathbf{m}_\\text{GeoMAD} = \\underset{\\mathbf{x} \\in \\mathbb{R}^{10}}{\\mathrm{argmin}} \\sum^{N}_{t=1} \\lVert \\mathbf{x} - \\mathbf{x}^{(t)} \\rVert = \\begin{bmatrix}"
+msgstr ":nbsphinx-math:``begin{align*} \\mathbf{m}_\\text{GeoMAD} = \\underset{\\mathbf{x} \\in \\mathbb{R}^{10}}{\\mathrm{argmin}} \\sum^{N}_{t=1} \\lVert \\mathbf{x} - \\mathbf{x}^{(t)} \\rVert = \\begin{bmatrix}"
+
+#: 
+msgid "m_{B02} \\\\ m_{B03}\\\\ m_{B04}\\\\ m_{B05} \\\\ m_{B06}\\\\ m_{B07}\\\\ m_{B08} \\\\ m_{B8A}\\\\ m_{B11}\\\\ m_{B12}"
+msgstr "m_{B02} \\N- m_{B03}\\N- m_{B04}\\N- m_{B05} \\N- m_{B06}\\N- m_{B07}\\N- m_{B08} \\N- m_{B8A}\\N- m_{B11}\\N- m_{B12}"
+
+#: 
+msgid "This calculation is repeated for every pixel in the specified extent."
+msgstr "Ce calcul est répété pour chaque pixel de l'étendue spécifiée."
+
+#: 
+msgid "The significance of the geomedian is that all bands are considered simultaneously. This maintains the spectral relationship between bands, providing the most representative value. Additionally, the geomedian statistic reduces spatial noise and improves colour balance compared to similar statistics such as the median or medoid."
+msgstr "La signification du géomédian est que toutes les bandes sont considérées simultanément. Cela permet de maintenir la relation spectrale entre les bandes, fournissant ainsi la valeur la plus représentative. En outre, la statistique géomédienne réduit le bruit spatial et améliore l'équilibre des couleurs par rapport à des statistiques similaires telles que la médiane ou la médiane."
+
+#: 
+msgid "The geomedian is therefore a vital foundational dataset for applications such as band index analysis on vegetation, water and urban area detection. It is also useful as a feature layer in machine learning algorithms."
+msgstr "Le géomedien est donc un ensemble de données de base essentiel pour des applications telles que l'analyse de l'indice de bande sur la végétation, l'eau et la détection des zones urbaines. Il est également utile comme couche de caractéristiques dans les algorithmes d'apprentissage automatique."
+
+#: 
+msgid "DE Africa provides an interactive geomedian visualisation available as a downloadable `Jupyter Notebook widget <https://training.digitalearthafrica.org/en/latest/Geomedian_widget.html>`__. It graphically compares the geomedian to a median for a 3-D example. An example screenshot is shown below."
+msgstr "DE Africa fournit une visualisation interactive du géomédian disponible sous forme de widget téléchargeable `Jupyter Notebook <https://training.digitalearthafrica.org/en/latest/Geomedian_widget.html>`__. Il compare graphiquement le géomédian à une médiane pour un exemple en 3D. Un exemple de capture d'écran est présenté ci-dessous."
+
+#: 
+msgid "**Figure 3: Geomedian visualisation widget.**"
+msgstr "**Figure 3 : widget de visualisation Geomedian.**"
+
+#: 
+msgid "|e9ae73684e9445ce95c32addec0ada17|"
+msgstr "|e9ae73684e9445ce95c32addec0ada17|"
+
+#: 
+msgid "Triple Median Absolute Deviations (MADs)"
+msgstr "Écarts absolus médians triples (MAD)"
+
+#: 
+msgid "By definition, the geomedian smooths variations in the satellite data to pick the most central, representative value. Outlying extreme highs and lows are generally filtered out by the robustness of the geomedian calculation. However, it is still useful to know about the variation within the dataset. This results in a set of second-order statistics: the Median Absolute Deviations (MADs)."
+msgstr "Par définition, le géomédian lisse les variations des données satellitaires pour choisir la valeur la plus centrale et la plus représentative. La robustesse du calcul géomédian permet généralement de filtrer les valeurs extrêmes extrêmes hautes et basses. Cependant, il est toujours utile de connaître la variation au sein de l'ensemble de données. Cela se traduit par un ensemble de statistiques de second ordre : les écarts absolus médians (MAD)."
+
+#: 
+msgid "MADs are change statistics based on the geomedian. They show how much variation each pixel underwent in the given timeframe."
+msgstr "Les MAD sont des statistiques de changement basées sur le géomédian. Elles montrent l'ampleur des variations subies par chaque pixel dans le laps de temps donné."
+
+#: 
+msgid "Let us break down the acronym “MAD”; as in the title, it stands for *median absolute deviation*:"
+msgstr "Décomposons l'acronyme \"MAD\" ; comme dans le titre, il signifie *déviation absolue médiane* :"
+
+#: 
+msgid "This implies we have a collection of measurements"
+msgstr "Cela implique que nous avons une collection de mesures"
+
+#: 
+msgid "We then find the deviation of each measurement from a baseline value, obtaining one deviation for every measurement"
+msgstr "Nous trouvons ensuite la déviation de chaque mesure par rapport à une valeur de base, en obtenant une déviation pour chaque mesure"
+
+#: 
+msgid "These deviations are all absolute values, so each deviation is equal to or greater than 0"
+msgstr "Ces écarts sont tous des valeurs absolues, de sorte que chaque écart est égal ou supérieur à 0."
+
+#: 
+msgid "We then find the median, or middle value, of these deviations"
+msgstr "Nous trouvons ensuite la médiane, ou valeur moyenne, de ces écarts"
+
+#: 
+msgid "This gives us a median absolute deviation"
+msgstr "Cela nous donne un écart absolu médian"
+
+#: 
+msgid "In this case, our “collection of measurements” is satellite data from each flyover. Even for a single pixel, we have multiple measurements in the time axis: one from every pass."
+msgstr "Dans ce cas, notre \"collection de mesures\" est constituée de données satellitaires provenant de chaque survol. Même pour un seul pixel, nous disposons de plusieurs mesures sur l'axe temporel : une pour chaque passage."
+
+#: 
+msgid "The “baseline value” is the annual geomedian, which provides one multispectral result for each pixel."
+msgstr "La \"valeur de référence\" est le géomédian annuel, qui fournit un résultat multispectral pour chaque pixel."
+
+#: 
+msgid "The “deviations” here are three different *distance* or *dissimilarity* values. There are multiple ways of quantifying how change has occurred, so this product computes three different MADs for use in data analysis. We are calculating, in three separate ways, the deviation between the annual geomedian and a single flyover’s measurement. These three values have been chosen to reflect a range of changes that appear in Earth observation data, and hence this section of the dataset is often referred to as “triple MADs”."
+msgstr "Les \"écarts\" sont ici trois valeurs différentes de *distance* ou de *dissimilarité*. Il existe de multiples façons de quantifier la façon dont le changement s'est produit, c'est pourquoi ce produit calcule trois MAD différentes à utiliser dans l'analyse des données. Nous calculons, de trois manières distinctes, l'écart entre la géomédiane annuelle et la mesure d'un seul survol. Ces trois valeurs ont été choisies pour refléter une gamme de changements qui apparaissent dans les données d'observation de la Terre, et c'est pourquoi cette section du jeu de données est souvent appelée \"triple MAD\"."
+
+#: 
+msgid "The three MADs used in DE Africa are:"
+msgstr "Les trois MAD utilisés en Afrique DE sont :"
+
+#: 
+msgid "Euclidean MAD, EMAD (based on Euclidean distance)"
+msgstr "MAD euclidienne, EMAD (basée sur la distance euclidienne)"
+
+#: 
+msgid "Spectral MAD, SMAD (based on cosine distance)"
+msgstr "MAD spectrale, SMAD (basée sur la distance cosinus)"
+
+#: 
+msgid "Bray-Curtis MAD, BCMAD (based on Bray-Curtis dissimilarity)"
+msgstr "MAD de Bray-Curtis, BCMAD (basé sur la dissimilarité de Bray-Curtis)"
+
+#: 
+msgid "Each will be explained in their own sections below. Example calculations with real numbers are in the appendix."
+msgstr "Chacun d'entre eux sera expliqué dans sa propre section ci-dessous. Des exemples de calculs avec des nombres réels se trouvent en annexe."
+
+#: 
+msgid "Note there are many other types of statistical distances and dissimilarities that can be used for median absolute deviation analysis (for example: Manhattan distance, Canberra distance, `there are many <https://ricottalab.files.wordpress.com/2015/05/ricotta-podani-2017-ecocom-full.pdf>`__ and they can all be used to calculate a MAD). However, in DE Africa services, the terms “triple MADs” or “MADs” are always specifically referring to the three MADs included in the GeoMAD dataset: EMAD, SMAD, and BCMAD."
+msgstr "Notez qu'il existe de nombreux autres types de distances et de dissimilarités statistiques qui peuvent être utilisés pour l'analyse de l'écart absolu médian (par exemple : Distance de Manhattan, distance de Canberra, `il y en a beaucoup <https://ricottalab.files.wordpress.com/2015/05/ricotta-podani-2017-ecocom-full.pdf>`__ et elles peuvent toutes être utilisées pour calculer un MAD). Cependant, dans les services de DE Africa, les termes \"triple MAD\" ou \"MAD\" font toujours spécifiquement référence aux trois MAD inclus dans le jeu de données GeoMAD : EMAD, SMAD, et BCMAD."
+
+#: 
+msgid "Euclidean MAD (EMAD)"
+msgstr "MAD euclidien (EMAD)"
+
+#: 
+msgid "The most logical place to start thinking about any of the MADs is the Euclidean MAD (EMAD). This is because EMAD comes from Euclidean distance, and Euclidean distance can be explained with a physical analogy: it is how we measure straight-line distances between points. In our three-dimensional world, it may look like this:"
+msgstr "L'endroit le plus logique pour commencer à réfléchir à l'une des MAD est la MAD euclidienne (EMAD). En effet, l'EMAD provient de la distance euclidienne, et la distance euclidienne peut être expliquée par une analogie physique : c'est la façon dont nous mesurons les distances en ligne droite entre des points. Dans notre monde tridimensionnel, cela peut ressembler à ceci :"
+
+#: 
+msgid "**Figure 4: Euclidean distance in three dimensions.**"
+msgstr "**Figure 4 : Distance euclidienne en trois dimensions.**"
+
+#: 
+msgid "|6300ca95292e4e868378fa039172153a|"
+msgstr "|6300ca95292e4e868378fa039172153a|"
+
+#: 
+msgid "In the case of satellite data, we are measuring the Euclidean distance between a pixel’s geomedian value and a single multispectral measurement. The number of dimensions is equal to the number of bands in the data. In the illustration below, :math:`m` is the geomedian value and :math:`\\mathbf{x}` the measured value. In real data, there will be multiple measurements over a time period, so :math:`t` is the timestep number, otherwise noted in equations as superscript :math:`(t)`."
+msgstr "Dans le cas des données satellitaires, nous mesurons la distance euclidienne entre la valeur géomédiane d'un pixel et une seule mesure multispectrale. Le nombre de dimensions est égal au nombre de bandes dans les données. Dans l'illustration ci-dessous, :math:`m` est la valeur géomédienne et :math:`\\mathbf{x}` la valeur mesurée. Dans les données réelles, il y aura plusieurs mesures sur une période de temps, donc :math:`t` est le nombre de pas de temps, autrement noté dans les équations en exposant :math:`(t)`."
+
+#: 
+msgid "For example, if we had three bands of data (red, green and blue), and three timesteps of data, then we can calculate the Euclidean distances as follows:"
+msgstr "Par exemple, si nous disposons de trois bandes de données (rouge, vert et bleu) et de trois pas de temps de données, nous pouvons calculer les distances euclidiennes comme suit :"
+
+#: 
+msgid "**Figure 5: Euclidean distance in three dimensions over three timesteps.**"
+msgstr "**Figure 5 : Distance euclidienne en trois dimensions sur trois pas de temps.**"
+
+#: 
+msgid "|a5eb1e5d2c3b42318291f76aca314081|"
+msgstr "|a5eb1e5d2c3b42318291f76aca314081|"
+
+#: 
+msgid "Each timestep gives a separate Euclidean distance result. Then EMAD is the median of all those distances."
+msgstr "Chaque pas de temps donne un résultat séparé de distance euclidienne. Ensuite, EMAD est la médiane de toutes ces distances."
+
+#: 
+msgid "In most real life conditions, there will be more than three timesteps and more than three bands. A general expression of Euclidean distance for :math:`p` bands is given as:"
+msgstr "Dans la plupart des conditions réelles, il y aura plus de trois pas de temps et plus de trois bandes. Une expression générale de la distance euclidienne pour les bandes :math:`p` est donnée comme suit :"
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*} &\\text{Multispectral Euclidean distance for timestep }t \\\\ =& \\sqrt{ \\left( x^{(t)}_{\\text{band 1}} - m_{\\text{band 1}} \\right)^2 + \\left( x^{(t)}_{\\text{band 2}} - m_{\\text{band 2}} \\right)^2  + \\dots  + \\left( x^{(t)}_{\\text{band p}} - m_{\\text{band p}} \\right)^2 }\\\\ =& \\lVert \\mathbf{x}^{(t)} - m \\rVert_{\\mathbb{R}^p} \\end{align*}`"
+msgstr ":nbsphinx-math:``begin{align*} &\\text{Distance euclidienne multispectrale pour le pas de temps }t \\\\\\\\\\ =& \\sqrt{ \\left( x^{(t)}_{{text{band 1}} - m_{\\text{\\bande 1}} \\right)^2 + \\left( x^{(t)}_{{\\text{\\band{ 2}}) - m_{\\text{\\}{\\i1}bande 2}} \\right)^2 + \\dots + \\left( x^{(t)}_{\\text{band p}} - m_{\\text{\\c} p}} \\right)^2 }\\\\\\N =& \\lVert \\mathbf{x}^{(t)} - m \\rVert_{\\mathbb{R}^p} \\end{align*}`"
+
+#: 
+msgid "Then EMAD for :math:`N` timesteps is given by `Roberts et al, 2018 <https://ieeexplore.ieee.org/abstract/document/8518312>`__, as the median of the Euclidean distances from all the timesteps."
+msgstr "Ensuite, EMAD pour :math:`N` pas de temps est donné par `Roberts et al, 2018 <https://ieeexplore.ieee.org/abstract/document/8518312>`__, comme la médiane des distances euclidiennes de tous les pas de temps."
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*} \\text{EMAD} = \\text{median} \\left( \\left\\{ \\lVert \\mathbf{x}^{(t)} - \\mathbf{m} \\rVert_{\\mathbb{R}^p}, t = 1, \\dots , N \\right\\}  \\right) \\end{align*}`"
+msgstr ":nbsphinx-math:``begin{align*} \\text{EMAD} = \\text{median} \\left( \\lVert \\mathbf{x}^{(t)} - \\mathbf{m} \\rVert_{\\mathbb{R}^p}, t = 1, \\dots , N \\right\\}  \\right) \\end{align*}`"
+
+#: 
+msgid "In GeoMAD, the MADs are calculated from the same ten bands used in the geomedian, therefore :math:`p=10`. The result of :math:`\\lVert \\mathbf{x}^{(t)} - \\mathbf{m} \\rVert_{\\mathbb{R}^p}` is a positive scalar, so :math:`\\text{EMAD}_\\text{GeoMAD}` is a positive scalar number. As in the geomedian, :math:`N` is dependent on the number of satellite flyovers particular to that pixel."
+msgstr "Dans GeoMAD, les MAD sont calculés à partir des mêmes dix bandes utilisées dans la géomédienne, donc :math:`p=10`. Le résultat de :math:`\\lVert \\mathbf{x}^{(t)} - \\mathbf{m} \\rVert_{\\mathbb{R}^p}` est un scalaire positif, donc :math:`\\text{EMAD}_\\text{GeoMAD}` est un nombre scalaire positif. Comme pour le géomédian, :math:`N` dépend du nombre de survols de satellites particuliers à ce pixel."
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*} \\text{EMAD}_\\text{GeoMAD} = \\text{median} \\left( \\left\\{ \\lVert \\mathbf{x}^{(t)} - \\mathbf{m} \\rVert_{\\mathbb{R}^{10}}, t = 1, \\dots , N \\right\\}  \\right) \\end{align*}`"
+msgstr ":nbsphinx-math:``begin{align*} \\text{EMAD}_\\text{GeoMAD} = \\text{median} \\left( \\lVert \\mathbf{x}^{(t)} - \\mathbf{m} \\rVert_{\\mathbb{R}^{10}}, t = 1, \\dots , N \\right\\}  \\right) \\end{align*}`"
+
+#: 
+msgid "The maximum possible value for EMAD depends on the value ranges for each of the bands in the dataset. In the case of GeoMAD, which uses annual timescales of ten bands of Sentinel-2 data, valid EMAD values range from ``0 - 31623``."
+msgstr "La valeur maximale possible pour EMAD dépend des plages de valeurs pour chacune des bandes de l'ensemble de données. Dans le cas de GeoMAD, qui utilise les échelles temporelles annuelles de dix bandes de données Sentinel-2, les valeurs EMAD valides vont de \"0 à 31623\"."
+
+#: 
+msgid "EMAD is useful for showing albedo shifts in satellite spectra."
+msgstr "EMAD est utile pour montrer les changements d'albédo dans les spectres des satellites."
+
+#: 
+msgid "Spectral MAD (SMAD)"
+msgstr "MAD spectrale (SMAD)"
+
+#: 
+msgid "The spectral MAD (SMAD) is based on the median absolute deviations in the cosine distance between the geomedian and individual measurements."
+msgstr "La MAD spectrale (SMAD) est basée sur les écarts absolus médians de la distance en cosinus entre les mesures géomédiatiques et individuelles."
+
+#: 
+msgid "In two dimensions, cosine distance can be graphically compared to Euclidean distance by the following figure:"
+msgstr "En deux dimensions, la distance cosinus peut être comparée graphiquement à la distance euclidienne par la figure suivante :"
+
+#: 
+msgid "**Figure 6: Relative relationships between Euclidean and cosine distances.**"
+msgstr "**Figure 6 : Relations relatives entre les distances euclidiennes et cosinusiennes.**"
+
+#: 
+msgid "|fe8ab8a9703647709648070f10889d0f|"
+msgstr "|fe8ab8a9703647709648070f10889d0f|"
+
+#: 
+msgid "In a general sense, cosine distance is related to the angle between the two points :math:`\\theta`, while Euclidean distance is related to the straight-line distance between the two points :math:`d`. Like Euclidean distance, points are more similar when the cosine distance between them is small. The value of the cosine distance is smaller when :math:`\\theta` is small (i.e. close to 0) or when :math:`\\theta` is close to 180\\ :math:`^{\\circ}`."
+msgstr "D'une manière générale, la distance cosinus est liée à l'angle entre deux points :math:`\\theta`, tandis que la distance euclidienne est liée à la distance en ligne droite entre les deux points :math:`d`. Comme pour la distance euclidienne, les points sont plus similaires lorsque la distance en cosinus entre eux est faible. La valeur de la distance en cosinus est plus petite lorsque :math:``theta` est petit (c'est-à-dire proche de 0) ou lorsque :math:``theta` est proche de 180\\:math:`^{\\circ}`."
+
+#: 
+msgid "Notice we could have a small cosine distance but a large Euclidean distance; for example, if the angle between the vectors is small, but one is much longer than the other. This is an important property of cosine distance (and thus SMAD) — unlike Euclidean distance, cosine distance is not skewed by the magnitude of the measurements."
+msgstr "Remarquez que nous pouvons avoir une petite distance cosinus mais une grande distance euclidienne ; par exemple, si l'angle entre les vecteurs est petit, mais que l'un est beaucoup plus long que l'autre. Il s'agit d'une propriété importante de la distance cosinus (et donc de SMAD) - contrairement à la distance euclidienne, la distance cosinus n'est pas biaisée par la magnitude des mesures."
+
+#: 
+msgid "Cosine distance is defined more formally as:"
+msgstr "La distance cosinus est définie plus formellement comme suit :"
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*} \\text{Cosine distance (two dimensions)} = 1 - \\frac{x_1 y_1 + x_2 y_2}{ \\left( \\sqrt{ \\left( x_1\\right) ^2 + \\left( x_2\\right) ^2 } \\right) \\left( \\sqrt{ \\left( y_1\\right) ^2 + \\left( y_2\\right) ^2 } \\right)} \\end{align*}`"
+msgstr ":nbsphinx-math:``begin{align*} \\text{Distance cosinus (deux dimensions)} = 1 - \\frac{x_1 y_1 + x_2 y_2}{ \\left( \\sqrt{ \\left( x_1\\right) ^2 + \\left( x_2\\right) ^2 } \\right)} \\left( \\sqrt{ \\left( y_1\\right) ^2 + \\left( y_2\\right) ^2 } \\right)} \\end{align*}`"
+
+#: 
+msgid "For more than two dimensions, we can generalise the cosine distance formula for a single pixel. For a multispectral measurement of :math:`p` bands at timestep :math:`t`, :math:`\\mathbf{x}^{(t)}`, and the geomedian at the same point :math:`\\mathbf{m}`, the cosine distance is:"
+msgstr "Pour plus de deux dimensions, nous pouvons généraliser la formule de la distance cosinus pour un seul pixel. Pour une mesure multispectrale de :math:`p` bandes au pas de temps :math:`t`, :math:`\\mathbf{x}^{(t)}`, et le géomédien au même point :math:`\\mathbf{m}`, la distance cosinus est :"
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*}\\small &\\text{Multispectral cosdist}\\left( \\mathbf{x}^{(t)}, m \\right) \\text{ for timestep } t  \\\\ &= 1 - \\frac{ \\mathbf{x}^{(t)} \\cdot \\mathbf{m} }{ \\lVert \\mathbf{x}^{(t)} \\rVert \\ \\lVert \\mathbf{m} \\rVert} \\ \\text{ for }  \\mathbf{x}^{(t)}, \\mathbf{m} \\in \\mathbb{R}_{p}\\\\ &=  1 - \\left( \\frac{\\left( x_{\\text{band 1}}^{(t)} \\right) \\left(m_{\\text{band 1}} \\right) + \\left( x_{\\text{band 2}}^{(t)} \\right) \\left(m_{\\text{band 2}} \\right) + \\cdots + \\left( x_{\\text{band p}}^{(t)} \\right) \\left(m_{\\text{band p}} \\right)}{ \\left(\\sqrt{\\left( x_{\\text{band 1}}^{(t)} \\right)^2 + \\cdots+ \\left( x_{\\text{band p}}^{(t)} \\right)^2} \\right) \\left( \\sqrt{\\left( m_{\\text{band 1}} \\right)^2 + \\cdots+ \\left( m_{\\text{band p}} \\right)^2 } \\right)} \\right) \\end{align*}`"
+msgstr ":nbsphinx-math:``begin{align*}\\small &\\text{Costdist multispectral}\\left( \\mathbf{x}^{(t)}, m \\right) \\text{ for timetep } t \\\\\\\\\\\\\\= 1 - \\frac{ \\mathbf{x}^{(t)} \\cdot \\mathbf{m} }{ \\lVert \\mathbf{x}^{(t)} \\rVert \\N- \\NVert \\Nmathbf{m} \\rVert} \\\\N- \\N- texte{ pour }  \\mathbf{x}^{(t)}, \\mathbf{m} \\in \\mathbb{R}_{p}\\ &= 1 - \\left( \\frac{\\left( x_{\\text{band 1}}^{(t)} \\right) \\left(m_{\\text{{1}} \\right) + \\left( x_{\\text{2}}^{(t)} \\right) \\left(m_{\\text{band 2}} \\right) + \\cdots + \\left( x_{\\text{band p}}^{(t)} \\right) \\left(m_{\\text{band p}} \\right)}{ \\left(\\sqrt{\\left( x_{\\text{band 1}}^{(t)} \\right)^2 + \\cdots+ \\left( x_{\\text{band p}}^{(t)} \\right)^2} \\right) \\left( \\sqrt{\\left( m_{\\text{band 1} \\right)^2 + \\cdots+ \\left( m_{\\text{band p}} \\right)^2 } \\right)} \\end{align*}`"
+
+#: 
+msgid "Then for :math:`N` timesteps, SMAD is the median of the cosine distances."
+msgstr "Ensuite, pour :math:`N` pas de temps, SMAD est la médiane des distances en cosinus."
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*} \\text{SMAD} = \\text{median} \\left( \\left\\{ \\text{cosdist}\\left( \\mathbf{x}^{(t)}, \\mathbf{m} \\right), t = 1, \\dots , N \\right\\}  \\right) \\end{align*}`"
+msgstr ":nbsphinx-math:``begin{align*} \\text{SMAD} = \\text{médiane} \\left( \\left\\{cosdist}\\left( \\mathbf{x}^{(t)}, \\mathbf{m} \\right), t = 1, \\dots , N \\right\\}  \\right) \\end{align*}`"
+
+#: 
+msgid "As with the other distances and dissimilarities used in the MADs, this results in a positive scalar value, thus SMAD is a positive scalar. Valid values for SMAD fall between ``0`` – ``1``."
+msgstr "Comme pour les autres distances et dissimilarités utilisées dans les MAD, il en résulte une valeur scalaire positive, donc SMAD est un scalaire positif. Les valeurs valides pour SMAD sont comprises entre ``0`` et ``1``."
+
+#: 
+msgid "In applications of Earth observation data, SMAD is useful for showing areas of land cover change. One reason is that SMAD is less affected by cloud; unlike EMAD, it is invariant to albedo changes, such as that caused by the diffusion of solar radiation. SMAD can also be used to track water bodies, as water has high variation in reflectance."
+msgstr "Dans les applications des données d'observation de la Terre, la SMAD est utile pour montrer les zones de changement de la couverture terrestre. L'une des raisons est que le SMAD est moins affecté par les nuages ; contrairement à l'EMAD, il est invariant aux changements d'albédo, tels que ceux causés par la diffusion du rayonnement solaire. Le SMAD peut également être utilisé pour suivre les plans d'eau, car la réflectance de l'eau varie fortement."
+
+#: 
+msgid "Bray-Curtis MAD (BCMAD)"
+msgstr "MAD de Bray-Curtis (BCMAD)"
+
+#: 
+msgid "The Bray-Curtis MAD (BCMAD) is calculated from the Bray-Curtis dissimilarity. The Bray-Curtis dissimilarity emphasises differences in each band between the measurement and the geomedian."
+msgstr "La MAD de Bray-Curtis (BCMAD) est calculée à partir de la dissimilarité de Bray-Curtis. La dissimilarité de Bray-Curtis met en évidence les différences dans chaque bande entre la mesure et le géomédien."
+
+#: 
+msgid "For a single band of satellite data, the Bray-Curtis dissimilarity looks remarkably like a normalised band index. For example, if we only had red band data, it might look something like this:"
+msgstr "Pour une seule bande de données satellite, la dissimilarité de Bray-Curtis ressemble remarquablement à un indice de bande normalisé. Par exemple, si nous n'avions que des données de la bande rouge, cela pourrait ressembler à ceci :"
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*} \\text{Single-band Bray-Curtis dissimilarity at timestep }t = \\frac{\\left| x_{\\text{red}}^{(t)} - m_{\\text{red}}\\right|}{ \\left| x_{\\text{red}}^{(t)} + m_{\\text{red}} \\right| } \\end{align*}`"
+msgstr ":nbsphinx-math:`\\begin{align*} \\text{Dissimilarité de Bray-Curtis monobande au pas de temps }t = \\frac{\\left| x_{\\text{red}}^{(t)} - m_{{text{red}}\\right|}{ \\left| x_{\\text{red}}^{(t)} + m_{{text{red}} \\right| } \\end{align*}`"
+
+#: 
+msgid "It can be generalised to a multispectral dataset with :math:`p` bands:"
+msgstr "Il peut être généralisé à un ensemble de données multispectrales avec des bandes :math:`p` :"
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*} &\\text{Multispectral Bray-Curtis dissimilarity for timestep }t\\\\ &= \\frac{\\left| x_{\\text{band 1}}^{(t)} - m_{\\text{band 1}}\\right| + \\left| x_{\\text{band 2}}^{(t)} - m_{\\text{band 2}} \\right| + \\dots + \\left| x_{\\text{band p}}^{(t)} - m_{\\text{band p}} \\right| }{ \\left| x_{\\text{band 1}}^{(t)} + m_{\\text{band 1}} \\right| + \\left| x_{\\text{band 2}}^{(t)} + m_{\\text{band 2}} \\right| + \\dots + \\left| x_{\\text{band p}}^{(t)} + m_{\\text{band p}} \\right|} \\end{align*}`"
+msgstr ":nbsphinx-math:`\\begin{align*} &\\text{Dissimilarité multispectrale de Bray-Curtis pour le pas de temps }t\\\\\\= \\frac{\\left| x_{\\text{band 1}}^{(t)} - m_{\\text{\\band{\\}}\\right| + \\left| x_{\\text{\\band 2}}^{(t)} - m_{\\text{\\}{\\i1}de la bande 2}} \\right| + \\dots + \\left| x_{\\text{\\band p}}^{(t)} - m_{\\text{\\c} de la bande p}} \\right| }{ \\left| x_{\\text{\\}band 1}}^{(t)} + m_{\\text{\\text{\\}} de la bande 1} \\right| + \\left| x_{\\text{\\band 2}}^{(t)} + m_{\\text{\\}{\\i1}de la bande 2}} \\right| + \\dots + \\left| x_{\\text{band p}}^{(t)} + m_{\\text{\\}band p}} \\right|} \\end{align*}`"
+
+#: 
+msgid "The Bray-Curtis dissimilarity will be maximised at a value of ``1`` when the measurements in each band are completely different. Conversely, the value of the dissimilarity will be small where each band observation is similar to the geomedian of that band."
+msgstr "La dissimilarité de Bray-Curtis sera maximisée à une valeur de ``1`` lorsque les mesures dans chaque bande sont complètement différentes. Inversement, la valeur de la dissimilarité sera faible lorsque l'observation de chaque bande est similaire au géomédien de cette bande."
+
+#: 
+msgid "As with the other MADs, the BCMAD is found by taking the median of all the Bray-Curtis dissimilarities from :math:`N` timesteps. For GeoMAD, :math:`p=10`."
+msgstr "Comme pour les autres MAD, le BCMAD est trouvé en prenant la médiane de toutes les dissimilarités de Bray-Curtis de :math:`N` pas de temps. Pour GeoMAD, :math:`p=10`."
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*} \\text{BCMAD} = \\text{median} \\left( \\left\\{ \\frac{\\left| \\mathbf{x}^{(t)} - \\mathbf{m}  \\right|_{\\mathbb{R}^p}}{\\left| \\mathbf{x}^{(t)} + \\mathbf{m}  \\right| _{\\mathbb{R}^p}}, t = 1, \\dots , N \\right\\}  \\right) \\end{align*}`"
+msgstr ":nbsphinx-math:``begin{align*} \\text{BCMAD} = \\text{median} \\left( \\left\\{\\frac{\\left| \\mathbf{x}^{(t)} - \\mathbf{m}  \\right|_{\\mathbb{R}^p}}{\\left| \\mathbf{x}^{(t)} + \\mathbf{m}  \\right| _{\\mathbb{R}^p}}, t = 1, \\dots , N \\right\\}  \\right) \\end{align*}`"
+
+#: 
+msgid "BCMAD takes on values from ``0 - 1``."
+msgstr "BCMAD prend les valeurs de ``0 - 1``."
+
+#: 
+msgid "Appendix"
+msgstr "Annexe"
+
+#: 
+msgid "Example: calculating Euclidean distance"
+msgstr "Exemple : calcul de la distance euclidienne"
+
+#: 
+msgid "Let’s take a selection of bands from one pixel, from one timestep. For that pixel, we have both the measurements taken by the single satellite flyover, and the geomedian value."
+msgstr "Prenons une sélection de bandes d'un pixel, d'un pas de temps. Pour ce pixel, nous avons à la fois les mesures prises par le survol du satellite et la valeur géomédienne."
+
+#: 
+msgid "**Table A.1: Example multispectral data — one timestep, four bands**"
+msgstr "**Tableau A.1 : Exemple de données multispectrales - un pas de temps, quatre bandes**."
+
+#: 
+msgid "Band"
+msgstr "Bande"
+
+#: 
+msgid "Surface reflectance measurement :math:`x^{(t)}`"
+msgstr "Mesure de la réflectance de la surface :math:`x^{(t)}`"
+
+#: 
+msgid "Surface reflectance geomedian :math:`m`"
+msgstr "Réflexion de la surface géomédienne :math:`m`"
+
+#: 
+msgid "Blue"
+msgstr "Bleu"
+
+#: 
+msgid "1028"
+msgstr "1028"
+
+#: 
+msgid "969"
+msgstr "969"
+
+#: 
+msgid "Green"
+msgstr "Vert"
+
+#: 
+msgid "1468"
+msgstr "1468"
+
+#: 
+msgid "1406"
+msgstr "1406"
+
+#: 
+msgid "Red"
+msgstr "Rouge"
+
+#: 
+msgid "2176"
+msgstr "2176"
+
+#: 
+msgid "2032"
+msgstr "2032"
+
+#: 
+msgid "Near Infrared (NIR) 1"
+msgstr "Infrarouge proche (NIR) 1"
+
+#: 
+msgid "3090"
+msgstr "3090"
+
+#: 
+msgid "3078"
+msgstr "3078"
+
+#: 
+msgid "Then the Euclidean distance for this pixel at this timestep, :math:`t`, is:"
+msgstr "La distance euclidienne pour ce pixel à ce moment, :math:`t`, est alors :"
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*} &\\text{Euclidean distance} \\\\ \\tiny &= \\sqrt{\\left( x^{(t)}_{\\text{band 1}} - m_{\\text{band 1}} \\right)^2 + \\left( x^{(t)}_{\\text{band 2}} - m_{\\text{band 2}} \\right)^2  + \\dots  + \\left( x^{(t)}_{\\text{band p}} - m_{\\text{band p}} \\right)^2 }\\\\ &= \\sqrt{\\left( x^{(t)}_{\\text{red}} - m_{\\text{red}} \\right)^2 + \\left( x^{(t)}_{\\text{green}} - m_{\\text{green}} \\right)^2  + \\left( x^{(t)}_{\\text{blue}} - m_{\\text{blue}} \\right)^2 + \\left( x^{(t)}_{\\text{nir1}} - m_{\\text{nir1}} \\right)^2}\\\\ &= \\sqrt{\\left( 2176 - 2032 \\right)^2 + \\left( 1468 - 1406 \\right)^2  + \\left(1028 - 969 \\right)^2 + \\left( 3090 - 3078 \\right)^2}\\\\ &= 167.9 \\end{align*}`"
+msgstr ":nbsphinx-math:``begin{align*} &\\text{Distance euclidienne} \\\\N-iny &= \\sqrt{\\N-ft( x^{(t)}_{\\text{{band 1}}) - m_{\\text{\\bande 1}} \\right)^2 + \\left( x^{(t)}_{\\text{band{ 2}} - m_{\\text{\\}{\\i1}bande 2}} \\right)^2 + \\dots + \\left( x^{(t)}_{\\text{band p}} - m_{\\text{\\c} p}} \\right)^2 }\\\\\\\\\\N &= \\sqrt{\\left( x^{(t)}_{\\text{red}} m_{\\text{red}} - m_{\\text{rouge}} \\right)^2 + \\left( x^{(t)}_{\\text{\\}} vert}) - m_{\\text{\\} vert} \\Droit)^2 + \\Ngauche( x^{(t)}_{\\text{\\} bleu}}) - m_{\\text{\\c} bleu}} \\right)^2 + \\left( x^{(t)}_{\\text{{nir1}} - m_{\\text{\\nir1}} \\\\N- droite)^2}\\\\\\N &= \\sqrt{\\La gauche( 2176 - 2032 \\N- droite)^2 + \\N- gauche( 1468 - 1406 \\N- droite)^2 + \\N- gauche(1028 - 969 \\N- droite)^2 + \\N- gauche( 3090 - 3078 \\N- droite)^2}\\N &= 167.9 \\N- fin{align*}`"
+
+#: 
+msgid "To then find the EMAD of this dataset, the calculation for Euclidean distance would first need to be repeated for all the other timesteps (not provided in the example data)."
+msgstr "Pour trouver l'EMAD de cet ensemble de données, il faudrait d'abord répéter le calcul de la distance euclidienne pour tous les autres pas de temps (non fournis dans l'exemple de données)."
+
+#: 
+msgid "Example: calculating cosine distance"
+msgstr "Exemple : calcul de la distance en cosinus"
+
+#: 
+msgid "Using the example multispectral data from Table A.1, we can manually calculate the value of cosine distance for timestep :math:`t`."
+msgstr "En utilisant l'exemple de données multispectrales du tableau A.1, nous pouvons calculer manuellement la valeur de la distance cosinus pour le pas de temps :math:`t`."
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*} &\\text{Cosine distance} \\\\ &= 1 - \\left( \\frac{\\left( x_{\\text{band 1}}^{(t)} \\right) \\left(m_{\\text{band 1}} \\right) + \\left( x_{\\text{band 2}}^{(t)} \\right) \\left(m_{\\text{band 2}} \\right) + \\cdots + \\left( x_{\\text{band p}}^{(t)} \\right) \\left(m_{\\text{band p}} \\right)}{ \\left(\\sqrt{\\left( x_{\\text{band 1}}^{(t)} \\right)^2 + \\cdots+ \\left( x_{\\text{band p}}^{(t)} \\right)^2} \\right) \\left( \\sqrt{\\left( m_{\\text{band 1}} \\right)^2 + \\cdots+ \\left( m_{\\text{band p}} \\right)^2 } \\right)} \\right) \\\\ &= 1 -\\\\ & \\ \\frac{\\left( x_{\\text{blue}}^{(t)} \\right) \\left(m_{\\text{blue}} \\right) + \\left( x_{\\text{green}}^{(t)} \\right) \\left(m_{\\text{green}} \\right) + \\left( x_{\\text{red}}^{(t)} \\right) \\left(m_{\\text{red}} \\right) + \\left( x_{\\text{nir1}}^{(t)} \\right) \\left(m_{\\text{nir1}} \\right)}{\\sqrt{\\left( x_{\\text{blue}}^{(t)} \\right)^2 + \\left( x_{\\text{green}}^{(t)} \\right)^2 + \\left( x_{\\text{red}}^{(t)} \\right)^2+ \\left( x_{\\text{nir1}}^{(t)} \\right)^2}\\sqrt{\\left( m_{\\text{blue}} \\right)^2 + \\left( m_{\\text{green}} \\right)^2 + \\left( m_{\\text{red}} \\right)^2 +  \\left(m_{\\text{nir1}}\\right)^2 } }\\\\ &=  1 -\\\\ & \\ \\frac{\\left( 1028 \\right) \\left(969 \\right) + \\left(1468 \\right) \\left(1406 \\right) + \\left(2176 \\right) \\left(2032\\right) + \\left( 3090 \\right) \\left(3078\\right)}{\\sqrt{\\left( 1028 \\right)^2 + \\left( 1468\\right)^2 + \\left( 2176 \\right)^2+ \\left(3090\\right)^2} \\sqrt{\\left( 969 \\right)^2 + \\left(1406 \\right)^2 + \\left( 2032\\right)^2 + \\left(3078 \\right)^2 }}\\\\ &=0.0004176 \\end{align*}`"
+msgstr ":nbsphinx-math:``begin{align*} &\\text{Cosine distance} \\\\\\N &= 1 - \\left( \\frac{\\left( x_{\\text{band 1}}^{(t)} \\right) \\left(m_{\\text{\\a1}} \\right) + \\left( x_{\\text{\\a1}}^{(t)}) \\right) \\left(m_{\\text{band 2}} \\right) + \\cdots + \\left( x_{\\text{band p}}^{(t)} \\right) \\left(m_{\\text{band p}} \\right)}{ \\left(\\sqrt{\\left( x_{\\text{band 1}}^{(t)} \\right)^2 + \\cdots+ \\left( x_{\\text{band p}}^{(t)} \\right)^2} \\right) \\left( \\sqrt{\\left( m_{\\text{band 1} \\right)^2 + \\cdots+ \\left( m_{\\text{band p}} \\right)^2 } \\right)} \\right) \\\\N &= 1 -\\\\N & \\N \\frac{\\left( x_{\\text{blue}}^{(t)} \\right) \\left(m_{\\text{\\blue}} \\right) + \\left( x_{\\text{\\\\}}^{(t)}) \\right) \\left(m_{\\text{green}} \\right) + \\left( x_{{\\text{red}}^{(t)}) \\right) \\left(m_{\\text{red}} \\right) + \\left( x_{\\text{nir1}}^{(t)} \\right) \\left(m_{\\text{nir1}} \\right)}{\\sqrt{\\left( x_{\\text{blue}^{(t)}) \\right)^2 + \\left( x_{{text{green}}^{(t)}) \\Retour)^2 + \\Ngauche( x_{{text{rouge}}^{(t)}) \\right)^2+ \\left( x_{\\text{{nir1}}^{(t)}) \\right)^2}\\sqrt{\\left( m_{\\text{blue} \\right)^2 + \\left( m_{\\text{verte} \\right)^2 + \\left( m_{\\text{rouge}} \\right)^2 + \\left(m_{\\text{nir1}\\right)^2 } }\\\\ &= 1 -\\\\\\N & \\N \\Nfrac{\\N{\\c}Gauche( 1028 \\right) \\NGauche(969 \\right) + \\NGauche(1468 \\right) \\NGauche(1406 \\right) + \\NGauche(2176 \\right) \\NGauche(2032 \\right) + \\left( 3090 \\right) \\left(3078\\right)}{\\sqrt{\\left( 1028 \\right)^2 + \\left( 1468\\right)^2 + \\left( 2176 \\right)^2+ \\left(3090\\right)^2} \\sqrt{\\left( 969 \\right)^2 + \\left(1406 \\right)^2 + \\left( 2032 \\right)^2 + \\left(3078 \\right)^2 }\\\\\\N &=0.0004176 \\end{align*}`"
+
+#: 
+msgid "Example: calculating Bray-Curtis dissimilarity"
+msgstr "Exemple : calcul de la dissimilarité de Bray-Curtis"
+
+#: 
+msgid "Using the example multispectral data from Table A.1, we can manually calculate the value of the Bray-Curtis dissimilarity for timestep :math:`t`."
+msgstr "En utilisant l'exemple de données multispectrales du tableau A.1, nous pouvons calculer manuellement la valeur de la dissimilarité de Bray-Curtis pour le pas de temps :math:`t`."
+
+#: 
+msgid ":nbsphinx-math:`\\begin{align*} &\\text{Bray-Curtis dissimilarity} \\\\ &=  \\frac{\\left| x_{\\text{band 1}}^{(t)} - m_{\\text{band 1}}\\right| + \\left| x_{\\text{band 2}}^{(t)} - m_{\\text{band 2}} \\right| + \\dots + \\left| x_{\\text{band p}}^{(t)} - m_{\\text{band p}} \\right| }{ \\left| x_{\\text{band 1}}^{(t)} + m_{\\text{band 1}} \\right| + \\left| x_{\\text{band 2}}^{(t)} + m_{\\text{band 2}} \\right| + \\dots + \\left| x_{\\text{band p}}^{(t)} + m_{\\text{band p}} \\right|} \\\\ &=  \\frac{\\left| x_{\\text{nir1}}^{(t)} - m_{\\text{nir1}}\\right| + \\left| x_{\\text{green}}^{(t)} - m_{\\text{green}} \\right| + \\left| x_{\\text{red}}^{(t)} - m_{\\text{red}} \\right| + \\left| x_{\\text{blue}}^{(t)} - m_{\\text{blue}} \\right|}{\\left| x_{\\text{nir1}}^{(t)} + m_{\\text{nir1}}\\right| + \\left| x_{\\text{green}}^{(t)} + m_{\\text{green}} \\right| + \\left| x_{\\text{red}}^{(t)} + m_{\\text{red}} \\right| + \\left| x_{\\text{blue}}^{(t)} + m_{\\text{blue}} \\right|} \\\\ &= \\frac{\\left| 3090 - 3078\\right| + \\left| 1468 - 1406 \\right| + \\left|2176 - 2032 \\right| + \\left| 1028 - 969 \\right|}{\\left| 3090 + 3078\\right| + \\left| 1468 + 1406 \\right| + \\left|2176 + 2032 \\right| + \\left| 1028 + 969 \\right|}\\\\ &= 0.01817 \\end{align*}`"
+msgstr ":nbsphinx-math:`\\begin{align*} &\\text{{dissemblance de Bray-Curtis} \\\\\\\\N &= \\frac{\\left| x_{\\text{\\band 1}}^{(t)} - m_{\\text{\\c} 1}}\\right| + \\left| x_{\\text{\\c} 2}}^{(t)} - m_{\\text{\\}{\\i1}de la bande 2}} \\right| + \\dots + \\left| x_{\\text{\\band p}}^{(t)} - m_{\\text{\\c} de la bande p}} \\right| }{ \\left| x_{\\text{\\}band 1}}^{(t)} + m_{\\text{\\text{\\}} de la bande 1} \\right| + \\left| x_{\\text{\\band 2}}^{(t)} + m_{\\text{\\}{\\i1}de la bande 2}} \\right| + \\dots + \\left| x_{\\text{band p}}^{(t)} + m_{\\text{\\}band p}} \\right|} \\\\\\\\N- &= \\frac{\\N-ft| x_{\\text{\\nir1}}^{(t)} - m_{\\text{\\nir1}}\\right| + \\left| x_{\\text{\\reen}}^{(t)} - m_{\\text{\\}} vert}} Droite + gauche x_{\\text{\\c} rouge}^{\\c}} - m_{\\text{\\c}} rouge \\Droit| + \\NGauche| x_{\\text{\\c} bleu}}^{\\c} - m_{\\text{\\}} bleu{\\}} \\right|}{\\left| x_{\\text{nir1}}^{(t)} + m_{\\text{\\c}nir1}\\right|| + \\Ngauche| x_{\\text{\\c}}^{(t)} + m_{\\text{\\}} vert{\\r}} \\Droit| + \\NGauche| x_{\\text{\\c}}^{(t)} + m_{\\text{\\c} rouge}} \\droite| + \\Ngauche| x_{\\text{\\} bleu}^{(t)} + m_{\\text{\\c} bleu}}. \\right|} \\\\\\\\N &= \\frac{\\N- 3090 - 3078\\N-right| + \\N-ft| 1468 - 1406 \\N-right| + \\N-ft|2176 - 2032 \\N-right| + \\N-ft| 1028 - 969 \\right|}{\\left| 3090 + 3078 \\right| + \\left| 1468 + 1406 \\right| + \\left|2176 + 2032 \\right| + \\left| 1028 + 969 \\right|}\\\\ &= 0.01817 \\end{align*}`"
+
+#: 
+msgid "Landsat Collection 2 Level-2 Surface Reflectance"
+msgstr "Réflectance de surface de la collection Landsat 2 niveau 2"
+
+#: 
+msgid "**Date modified:** 28 April 2021"
+msgstr "**Date de modification:** 28 avril 2021"
+
+#: 
+msgid "This dataset is expected to be available to users second quarter of 2021."
+msgstr "Cet ensemble de données devrait être disponible pour les utilisateurs au deuxième trimestre de 2021."
+
+#: 
+msgid "Digital Earth Africa (DE Africa) provides free and open access to a copy of `Landsat Collection 2 Level-2 <https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-level-2-science-products>`__ products over Africa. These products are produced and provided by the United States Geological Survey (USGS)."
+msgstr "Digital Earth Africa (DE Africa) fournit un accès libre et gratuit à une copie des produits `Landsat Collection 2 Level-2 <https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-level-2-science-products>`__ au-dessus de l'Afrique. Ces produits sont réalisés et fournis par le United States Geological Survey (USGS)."
+
+#: 
+msgid "The `Landsat series <https://www.usgs.gov/core-science-systems/nli/landsat>`__ of Earth Observation satellites, jointly led by USGS and NASA, have been continuously acquiring images of the Earth’s land surface since 1972. DE Africa provides data from Landsat 5, 7 and 8 satellites, including historical observations dating back to late 1980s and regularly updated new acquisitions."
+msgstr "La série `Landsat <https://www.usgs.gov/core-science-systems/nli/landsat>`__ de satellites d'observation de la Terre, dirigée conjointement par l'USGS et la NASA, acquiert continuellement des images de la surface terrestre depuis 1972. DE Africa fournit des données provenant des satellites Landsat 5, 7 et 8, y compris des observations historiques remontant à la fin des années 1980 et de nouvelles acquisitions régulièrement mises à jour."
+
+#: 
+msgid "New Level-2 Landsat 7 and Landsat 8 data are available after 15 to 27 days from acquisition. See `Landsat Collection 2 Generation Timeline <https://www.usgs.gov/media/images/landsat-collection-2-generation-timeline>`__ for details."
+msgstr "Les nouvelles données Landsat 7 et Landsat 8 de niveau 2 sont disponibles après 15 à 27 jours d'acquisition. Voir `Landsat Collection 2 Generation Timeline <https://www.usgs.gov/media/images/landsat-collection-2-generation-timeline>`__ pour plus de détails."
+
+#: 
+msgid "USGS Landsat Collection 2 was released early 2021 and offers improved processing, geometric accuracy, and radiometric calibration compared to previous Collection 1 products. The Level-2 products are endorsed by the Committee on Earth Observation Satellites (CEOS) to be Analysis Ready Data for Land (`CARD4L <https://ceos.org/ard/>`__)-compliant. This internationally-recognised certification ensures these products have been processed to a minimum set of requirements and organised into a form that allows immediate analysis with a minimum of additional user effort and interoperability both through time and with other datasets."
+msgstr "La collection USGS Landsat 2 a été publiée début 2021 et offre un traitement, une précision géométrique et un étalonnage radiométrique améliorés par rapport aux produits de la collection 1 précédente. Les produits de niveau 2 sont approuvés par le Comité sur les satellites d'observation de la Terre (CEOS) pour être conformes à la norme Analysis Ready Data for Land (`CARD4L <https://ceos.org/ard/>`__). Cette certification reconnue au niveau international garantit que ces produits ont été traités selon un ensemble minimal d'exigences et organisés sous une forme permettant une analyse immédiate avec un minimum d'effort supplémentaire pour l'utilisateur et une interopérabilité dans le temps et avec d'autres ensembles de données."
+
+#: 
+msgid "USGS Landsat Collection 2 Level-2 includes:"
+msgstr "La collection USGS Landsat 2 de niveau 2 comprend :"
+
+#: 
+msgid "Surface Reflectance"
+msgstr "Réflectance de la surface"
+
+#: 
+msgid "Surface Temperature"
+msgstr "Température de surface"
+
+#: 
+msgid "This document provides technical specifications for the Surface Reflectance product. Information for the Surface Temperature product can be found in the `Landsat Collection 2 Level-2 Surface Temperature specification <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_ST_specs.html>`__."
+msgstr "Ce document fournit des spécifications techniques pour le produit Réflectance de surface. Les informations relatives au produit Température de surface se trouvent dans la `Spécification de la température de surface de niveau 2 de la Collection 2 de Landsat <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_ST_specs.html>`__."
+
+#: 
+msgid "Surface reflectance is the fraction of incoming solar radiation that is reflected from Earth’s surface. Variations in satellite measured radiance due to atmospheric properties have been corrected for so images acquired over the same area at different times are comparable and can be used readily to detect changes on Earth’s surface."
+msgstr "La réflectance de la surface est la fraction du rayonnement solaire entrant qui est réfléchie par la surface de la Terre. Les variations de la radiance mesurée par satellite dues aux propriétés atmosphériques ont été corrigées de sorte que les images acquises sur la même zone à des moments différents sont comparables et peuvent être utilisées facilement pour détecter les changements à la surface de la Terre."
+
+#: 
+msgid "Spatial and temporal coverage"
+msgstr "Couverture spatiale et temporelle"
+
+#: 
+msgid "DE Africa provides Landsat Collection 2 Level-2 from Landsat 5, 7 and 8 as seperate products. Relevant coverage and metadata can be viewed on DE Africa Metadata Exploer:"
+msgstr "DE Africa fournit la collection Landsat 2 Niveau 2 de Landsat 5, 7 et 8 comme produits séparés. La couverture et les métadonnées pertinentes peuvent être consultées sur DE Africa Metadata Exploer :"
+
+#: 
+msgid "`Landsat 5 Collection 2 Level-2 Surface Reflectance <https://explorer.digitalearth.africa/products/ls5_sr>`__"
+msgstr "`Landsat 5 Collection 2 Level-2 Surface Reflectance <https://explorer.digitalearth.africa/products/ls5_sr>`__"
+
+#: 
+msgid "`Landsat 7 Collection 2 Level-2 Surface Reflectance <https://explorer.digitalearth.africa/products/ls7_sr>`__"
+msgstr "`Landsat 7 Collection 2 Level-2 Surface Reflectance <https://explorer.digitalearth.africa/products/ls7_sr>`__"
+
+#: 
+msgid "`Landsat 8 Collection 2 Level-2 Surface Reflectance <https://explorer.digitalearth.africa/products/ls8_sr>`__"
+msgstr "`Landsat 8 Collection 2 Level-2 Surface Reflectance <https://explorer.digitalearth.africa/products/ls8_sr>`__"
+
+#: 
+msgid "**Table 1: Landsat Collection 2 Level-2 Surface Reflectance product specifications**"
+msgstr "**Tableau 1 : Spécifications du produit de réflectance de surface de niveau 2 de la collection Landsat**."
+
+#: 
+msgid "Landsat 5"
+msgstr "Landsat 5"
+
+#: 
+msgid "Landsat 7"
+msgstr "Landsat 7"
+
+#: 
+msgid "Landsat 8"
+msgstr "Landsat 8"
+
+#: 
+msgid "Multispectral Scanner (MSS), Thematic Mapper (TM)"
+msgstr "Scanner multispectral (MSS), Mapper thématique (TM)"
+
+#: 
+msgid "Enhanced Thematic Mapper (ETM+)"
+msgstr "Cartographie thématique améliorée (ETM+)"
+
+#: 
+msgid "Operational Land Imager (OLI), Thermal Infrared Sensor (TIRS)"
+msgstr "Imageur terrestre opérationnel (OLI), Capteur infrarouge thermique (TIRS)"
+
+#: 
+msgid "30"
+msgstr "30"
+
+#: 
+msgid "Universal Transverse Mercator (UTM)"
+msgstr "Mercator transverse universel (UTM)"
+
+#: 
+msgid "UTM"
+msgstr "UTM"
+
+#: 
+msgid "Every 16 days"
+msgstr "Tous les 16 jours"
+
+#: 
+msgid "1984 – 2012"
+msgstr "1984 - 2012"
+
+#: 
+msgid "1999 – present"
+msgstr "1999 - aujourd'hui"
+
+#: 
+msgid "2013 – present"
+msgstr "2013 - aujourd'hui"
+
+#: 
+msgid "`Landsat Collection 2 Level-1 <https://www.usgs.gov/land-resources/nli/landsat/landsat-collection-2-level-1-data>`__"
+msgstr "`Landsat Collection 2 Level-1 <https://www.usgs.gov/land-resources/nli/landsat/landsat-collection-2-level-1-data>`__"
+
+#: 
+msgid "NA (archive)"
+msgstr "NA (archives)"
+
+#: 
+msgid "Daily"
+msgstr "Quotidiennement"
+
+#: 
+msgid "Measurements"
+msgstr "Mesures"
+
+#: 
+msgid "**Table 2: Landsat 5 and Landsat 7 Level-2 Surface Reflectance measurements**"
+msgstr "**Tableau 2 : Mesures de la réflectance de surface de niveau 2 de Landsat 5 et Landsat 7**."
+
+#: 
+msgid "Units"
+msgstr "Unités"
+
+#: 
+msgid "Range"
+msgstr "Gamme"
+
+#: 
+msgid "Conversion\\ :math:`^\\ddagger`"
+msgstr "Conversion\\ :math:`^^dagger``"
+
+#: 
+msgid "SR_B1"
+msgstr "SR_B1"
+
+#: 
+msgid "Surface reflectance band 1 (Blue)"
+msgstr "Bande de réflectance de surface 1 (bleu)"
+
+#: 
+msgid "Unitless"
+msgstr "Sans unité"
+
+#: 
+msgid "``1-65455``"
+msgstr "``1-65455``"
+
+#: 
+msgid "2.75e-05 \\* DN - 0.2"
+msgstr "2,75e-05 \\* DN - 0,2"
+
+#: 
+msgid "SR_B2"
+msgstr "SR_B2"
+
+#: 
+msgid "Surface reflectance band 2 (Green)"
+msgstr "Bande de réflectance de surface 2 (vert)"
+
+#: 
+msgid "SR_B3"
+msgstr "SR_B3"
+
+#: 
+msgid "Surface reflectance band 3 (Red)"
+msgstr "Bande de réflectance de surface 3 (rouge)"
+
+#: 
+msgid "SR_B4"
+msgstr "SR_B4"
+
+#: 
+msgid "Surface reflectance band 4 (Near-Infrared (NIR))"
+msgstr "Réflectance de la surface bande 4 (proche infrarouge (NIR))"
+
+#: 
+msgid "SR_B5"
+msgstr "SR_B5"
+
+#: 
+msgid "Surface reflectance band 5 (Short Wavelength Infrared (SWIR) 1)"
+msgstr "Réflexion de la surface bande 5 (infrarouge à courte longueur d'onde (SWIR) 1)"
+
+#: 
+msgid "SR_B7"
+msgstr "SR_B7"
+
+#: 
+msgid "Surface reflectance band 7 (SWIR 2)"
+msgstr "Réflexion de surface bande 7 (SWIR 2)"
+
+#: 
+msgid "QA_PIXEL"
+msgstr "QA_PIXEL"
+
+#: 
+msgid "Pixel quality"
+msgstr "Qualité des pixels"
+
+#: 
+msgid "Bit Index"
+msgstr "Index des bits"
+
+#: 
+msgid "``0-65535``"
+msgstr "``0-65535``"
+
+#: 
+msgid "``1``"
+msgstr "``1``"
+
+#: 
+msgid "NA"
+msgstr "NA"
+
+#: 
+msgid "QA_RADSAT"
+msgstr "QA_RADSAT"
+
+#: 
+msgid "Radiometric saturation"
+msgstr "Saturation radiométrique"
+
+#: 
+msgid "SR_ATMOS \\_OPACITY"
+msgstr "SR_ATMOS \\_OPACITÉ"
+
+#: 
+msgid "Atmospheric opacity"
+msgstr "Opacité atmosphérique"
+
+#: 
+msgid "``0-32767``"
+msgstr "``0-32767``"
+
+#: 
+msgid "``int16``"
+msgstr "``int16``"
+
+#: 
+msgid "``-9999``"
+msgstr "``-9999``"
+
+#: 
+msgid "0.001 \\* DN"
+msgstr "0,001 \\* DN"
+
+#: 
+msgid "SR_CLOUD \\_QA"
+msgstr "SR_CLOUD \\_QA"
+
+#: 
+msgid "Cloud mask quality"
+msgstr "Qualité du masque de nuage"
+
+#: 
+msgid "``0-255``"
+msgstr "``0-255``"
+
+#: 
+msgid "``uint8``"
+msgstr "``uint8``"
+
+#: 
+msgid ":math:`^\\ddagger` Physical measurement can be derived from the Digital Number (DN) stored in the product using the conversion equation listed."
+msgstr ":math:`^\\ddagger` La mesure physique peut être dérivée du numéro numérique (DN) stocké dans le produit en utilisant l'équation de conversion indiquée."
+
+#: 
+msgid "More inforamtion can be found from the `Landsat 4-7 Collection 2 Science Product Guide <https://www.usgs.gov/media/files/landsat-4-7-collection-2-level-2-science-product-guide>`__."
+msgstr "Vous trouverez de plus amples informations dans le `Landsat 4-7 Collection 2 Science Product Guide <https://www.usgs.gov/media/files/landsat-4-7-collection-2-level-2-science-product-guide>`__."
+
+#: 
+msgid "**Table 3: Landsat 8 Level-2 Surface Reflectance measurements**"
+msgstr "**Tableau 3 : Mesures de la réflectance de surface Landsat 8 Niveau 2**."
+
+#: 
+msgid "Landsat 8 Level-2 science product is generated using a different algorithm and has different output measurements compared to Landsat 5 and Landsat 7."
+msgstr "Le produit scientifique de niveau 2 de Landsat 8 est généré à l'aide d'un algorithme différent et présente des mesures de sortie différentes de celles de Landsat 5 et Landsat 7."
+
+#: 
+msgid "Surface reflectance band 1 (Coastal Aerosol)"
+msgstr "Bande de réflectance de surface 1 (aérosol côtier)"
+
+#: 
+msgid "Surface reflectance band 2 (Blue)"
+msgstr "Bande de réflectance de surface 2 (bleu)"
+
+#: 
+msgid "Surface reflectance band 3 (Green)"
+msgstr "Bande de réflectance de surface 3 (verte)"
+
+#: 
+msgid "Surface reflectance band 4 (Red)"
+msgstr "Bande de réflectance de surface 4 (rouge)"
+
+#: 
+msgid "Surface reflectance band 5 (NIR)"
+msgstr "Réflectance de surface bande 5 (NIR)"
+
+#: 
+msgid "SR_B6"
+msgstr "SR_B6"
+
+#: 
+msgid "Surface reflectance band 6 (SWIR 1)"
+msgstr "Bande de réflectance de surface 6 (SWIR 1)"
+
+#: 
+msgid "SR_QA \\_AEROSOL"
+msgstr "SR_QA \\_AEROSOL"
+
+#: 
+msgid "Aerosol level"
+msgstr "Niveau de l'aérosol"
+
+#: 
+msgid "More inforamtion can be found from `Landsat 8 OLI/TIRS Collection 2 Science Product Guide <https://www.usgs.gov/media/files/landsat-8-collection-2-level-2-science-product-guide>`__ and `Landsat 8-9 OLI/TIRS Collection 2 Level 2 Data Format Control Book <https://www.usgs.gov/media/files/landsat-8-9-olitirs-collection-2-level-2-data-format-control-book>`__"
+msgstr "De plus amples informations peuvent être trouvées dans le `Landsat 8 OLI/TIRS Collection 2 Science Product Guide <https://www.usgs.gov/media/files/landsat-8-collection-2-level-2-science-product-guide>`__ et le `Landsat 8-9 OLI/TIRS Collection 2 Level 2 Data Format Control Book <https://www.usgs.gov/media/files/landsat-8-9-olitirs-collection-2-level-2-data-format-control-book>`__."
+
+#: 
+msgid "Quality assessment bands"
+msgstr "Bandes d'évaluation de la qualité"
+
+#: 
+msgid "Pixel quality assessment (QA_PIXEL) bands for Landsat 5, 7 and 8 are generated by the CFMask algorithm. Different bit definitions are used because the cirrus band is only available on Landsat 8. This band is relevant to both Surface Reflectance and Surface Temperature products."
+msgstr "Les bandes d'évaluation de la qualité des pixels (QA_PIXEL) pour Landsat 5, 7 et 8 sont générées par l'algorithme CFMask. Des définitions de bits différentes sont utilisées car la bande cirrus n'est disponible que sur Landsat 8. Cette bande est pertinente pour les produits Réflectance de surface et Température de surface."
+
+#: 
+msgid "**Table 4: Pixel quality assessment (QA_PIXEL) bit index.**"
+msgstr "**Tableau 4 : Indice binaire de l'évaluation de la qualité des pixels (QA_PIXEL).**"
+
+#: 
+msgid "Bit"
+msgstr "Bit"
+
+#: 
+msgid "Landat 5 & 7"
+msgstr "Landat 5 et 7"
+
+#: 
+msgid "Description Values"
+msgstr "Valeurs de description"
+
+#: 
+msgid "Fill"
+msgstr "Remplir"
+
+#: 
+msgid "0 for image data; 1 for fill data"
+msgstr "0 pour les données d'image ; 1 pour les données de remplissage"
+
+#: 
+msgid "1"
+msgstr "1"
+
+#: 
+msgid "Dilated Cloud"
+msgstr "Nuage dilaté"
+
+#: 
+msgid "0 for cloud is not dilated or no cloud; 1 for cloud dilation"
+msgstr "0 pour le nuage n'est pas dilaté ou pas de nuage ; 1 pour la dilatation du nuage"
+
+#: 
+msgid "2"
+msgstr "2"
+
+#: 
+msgid "Unused"
+msgstr "Non utilisé"
+
+#: 
+msgid "Cirrus"
+msgstr "Cirrus"
+
+#: 
+msgid "0 for cirrus confidence is not; 1 for high confidence cirrus"
+msgstr "0 pour les cirrus dont la confiance est nulle ; 1 pour les cirrus de haute confiance"
+
+#: 
+msgid "3"
+msgstr "3"
+
+#: 
+msgid "Cloud"
+msgstr "Nuage"
+
+#: 
+msgid "0 for cloud confidence is not high; 1 for high confidence cloud"
+msgstr "0 pour un nuage dont la confiance n'est pas élevée ; 1 pour un nuage dont la confiance est élevée."
+
+#: 
+msgid "Cloud Shadow"
+msgstr "Ombre des nuages"
+
+#: 
+msgid "0 for Cloud Shadow Confidence is not high; 1 for high confidence cloud shadow"
+msgstr "0 pour une ombre nuageuse dont la confiance n'est pas élevée ; 1 pour une ombre nuageuse dont la confiance est élevée."
+
+#: 
+msgid "Snow"
+msgstr "Neige"
+
+#: 
+msgid "0 for Snow/Ice Confidence is not high; 1 for high confidence snow cover"
+msgstr "0 pour une couverture neigeuse/glace dont la confiance n'est pas élevée ; 1 pour une couverture neigeuse dont la confiance est élevée"
+
+#: 
+msgid "6"
+msgstr "6"
+
+#: 
+msgid "Clear"
+msgstr "Clair"
+
+#: 
+msgid "0 if Cloud or Dilated Cloud bits are set; 1 if Cloud and Dilated Cloud bits are not set"
+msgstr "0 si les bits de nuage ou de nuage dilaté sont activés ; 1 si les bits de nuage et de nuage dilaté ne sont pas activés."
+
+#: 
+msgid "7"
+msgstr "7"
+
+#: 
+msgid "Water"
+msgstr "Eau"
+
+#: 
+msgid "0 for land or cloud; 1 for water"
+msgstr "0 pour la terre ou les nuages ; 1 pour l'eau"
+
+#: 
+msgid "8-9"
+msgstr "8-9"
+
+#: 
+msgid "Cloud Confidence"
+msgstr "Confiance dans les nuages"
+
+#: 
+msgid "00 for no confidence level set; 01 Low confidence; 10 Medium confidence; 11 High confidence"
+msgstr "00 pour aucun niveau de confiance défini ; 01 Faible confiance ; 10 Confiance moyenne ; 11 Confiance élevée"
+
+#: 
+msgid "10-11"
+msgstr "10-11"
+
+#: 
+msgid "Cloud Shadow Confidence"
+msgstr "Confiance dans l'ombre des nuages"
+
+#: 
+msgid "00 for no confidence level set; 01 Low confidence; 10 Reserved; 11 High confidence"
+msgstr "00 pour aucun niveau de confiance défini ; 01 Faible confiance ; 10 Réservé ; 11 Haute confiance"
+
+#: 
+msgid "12-13"
+msgstr "12-13"
+
+#: 
+msgid "Snow/Ice Confidence"
+msgstr "Confiance en la neige/la glace"
+
+#: 
+msgid "14-15"
+msgstr "14-15"
+
+#: 
+msgid "Cirrus Confidence"
+msgstr "Cirrus Confidence"
+
+#: 
+msgid "Radiometric saturation quality assessment (QA_RADSAT) bands are different for Landsat 5, 7 and 8 because the sensors have different spectral bands. This band is relevant to both Surface Reflectance and Surface Temperature products."
+msgstr "Les bandes d'évaluation de la qualité de la saturation radiométrique (QA_RADSAT) sont différentes pour Landsat 5, 7 et 8 car les capteurs ont des bandes spectrales différentes. Cette bande est pertinente pour les produits Réflectance de surface et Température de surface."
+
+#: 
+msgid "**Table 5: Radiometric saturation quality assessment (QA_RADSAT) bit index.**"
+msgstr "**Tableau 5 : Indice binaire de l'évaluation de la qualité de la saturation radiométrique (QA_RADSAT).**"
+
+#: 
+msgid "Band 1 (Blue)"
+msgstr "Bande 1 (bleu)"
+
+#: 
+msgid "Band 1 (Coastal)"
+msgstr "Bande 1 (côtière)"
+
+#: 
+msgid "0 no saturation; 1 saturated data"
+msgstr "0 pas de saturation ; 1 données saturées"
+
+#: 
+msgid "Band 2 (Green)"
+msgstr "Bande 2 (verte)"
+
+#: 
+msgid "Band 2 (Blue)"
+msgstr "Band 2 (Bleu)"
+
+#: 
+msgid "Band 3 (Red)"
+msgstr "Band 3 (Rouge)"
+
+#: 
+msgid "Band 3 (Green)"
+msgstr "Bande 3 (verte)"
+
+#: 
+msgid "Band 4 (NIR)"
+msgstr "Bande 4 (NIR)"
+
+#: 
+msgid "Band 4 (Red)"
+msgstr "Band 4 (Rouge)"
+
+#: 
+msgid "Band 5 (SWIR1)"
+msgstr "Bande 5 (SWIR1)"
+
+#: 
+msgid "Band 5 (NIR)"
+msgstr "Bande 5 (NIR)"
+
+#: 
+msgid "Band 6 (TIR)"
+msgstr "Bande 6 (TIR)"
+
+#: 
+msgid "Band 6L (TIR)†"
+msgstr "Bande 6L (TIR)†"
+
+#: 
+msgid "Band 6 (SWIR1)"
+msgstr "Bande 6 (SWIR1)"
+
+#: 
+msgid "Band 7 (SWIR2)"
+msgstr "Bande 7 (SWIR2)"
+
+#: 
+msgid "8"
+msgstr "8"
+
+#: 
+msgid "Band 6H (TIR)‡"
+msgstr "Bande 6H (TIR)‡"
+
+#: 
+msgid "Band 9 (Cirrus)"
+msgstr "Bande 9 (Cirrus)"
+
+#: 
+msgid "9"
+msgstr "9"
+
+#: 
+msgid "Dropped Pixel"
+msgstr "Pixel perdu"
+
+#: 
+msgid "0 Pixel present; 1 detector doesn’t have a value – no data"
+msgstr "0 Pixel présent ; 1 détecteur n'a pas de valeur - pas de données"
+
+#: 
+msgid "11"
+msgstr "11"
+
+#: 
+msgid "Terrain occlusion"
+msgstr "Occlusion de terrain"
+
+#: 
+msgid "0 no terrain occlusion; 1 terrain occlusion"
+msgstr "0 aucune occlusion de terrain ; 1 occlusion de terrain"
+
+#: 
+msgid "12"
+msgstr "12"
+
+#: 
+msgid "13"
+msgstr "13"
+
+#: 
+msgid "15"
+msgstr "15"
+
+#: 
+msgid ":math:`^\\dagger`, :math:`^\\ddagger` For Landsat 7 products, the Band 6 TOA brightness temperature product is generated from ETM+ Band 6 High gain (6H) and Band 6 Low gain (6L) merged together. The merged Band 6 is comprised of pixels that are not saturated in Band 6H. When Band 6H pixels are saturated with a brightness temperature outside of the 6H dynamic range (from 240K to 322K), they will be filled with pixels from the 6L band even if those pixels are saturated."
+msgstr ":math:`^\\dagger`, :math:`^\\ddagger` Pour les produits Landsat 7, le produit de température de brillance TOA de la bande 6 est généré à partir de la bande 6 High gain (6H) et de la bande 6 Low gain (6L) ETM+ fusionnées ensemble. La bande 6 fusionnée est composée de pixels qui ne sont pas saturés dans la bande 6H. Lorsque les pixels de la bande 6H sont saturés avec une température de luminosité en dehors de la plage dynamique de la bande 6H (de 240K à 322K), ils seront remplis de pixels de la bande 6L même si ces pixels sont saturés."
+
+#: 
+msgid "For Landsat 5 and 7, another cloud mask band (SR_CLOUD_QA) is available but is less accurate than the QA_PIXEL band."
+msgstr "Pour Landsat 5 et 7, une autre bande de masque de nuage (SR_CLOUD_QA) est disponible mais elle est moins précise que la bande QA_PIXEL."
+
+#: 
+msgid "**Table 6: Landsat 5 and Landsat 7 cloud mask (SR_CLOUD_QA) bit index.**"
+msgstr "**Tableau 6 : Index des bits des masques de nuages Landsat 5 et Landsat 7 (SR_CLOUD_QA).**"
+
+#: 
+msgid "Attribute"
+msgstr "Attribut"
+
+#: 
+msgid "Dark Dense Vegetation (DDV)"
+msgstr "Végétation dense et sombre (VDS)"
+
+#: 
+msgid "Cloud shadow"
+msgstr "Ombre des nuages"
+
+#: 
+msgid "Adjacent to cloud"
+msgstr "Adjacent au nuage"
+
+#: 
+msgid "For Landsat 8, aeresol retrieval information that may have impacted the product is provided in a SR_Aerosol_QA band. The default “Aerosol Level” is Climatology (00), which means no aerosol correction was applied. Pixels with an “Aerosol Level” classified as high are not recommended for use."
+msgstr "Pour Landsat 8, les informations de récupération des aérosols qui ont pu avoir un impact sur le produit sont fournies dans une bande SR_Aerosol_QA. Le \"Niveau d'aérosol\" par défaut est Climatologie (00), ce qui signifie qu'aucune correction d'aérosol n'a été appliquée. Il n'est pas recommandé d'utiliser des pixels dont le \"niveau d'aérosol\" est élevé."
+
+#: 
+msgid "**Table 7: Landsat 8 aerosol level (SR_Aerosol_QA) bit index.**"
+msgstr "**Tableau 7 : Niveau d'aérosol de Landsat 8 (SR_Aerosol_QA) indice binaire**."
+
+#: 
+msgid "Flag"
+msgstr "Drapeau"
+
+#: 
+msgid "0 Pixel is not fill; 1 Pixel is fill"
+msgstr "0 Le pixel n'est pas rempli ; 1 Le pixel est rempli."
+
+#: 
+msgid "Valid aerosol retrieval"
+msgstr "Récupération valide des aérosols"
+
+#: 
+msgid "0 Pixel retrieval is not valid; 1 Pixel retrieval is valid"
+msgstr "0 La récupération des pixels n'est pas valide ; 1 La récupération des pixels est valide."
+
+#: 
+msgid "0 Pixel is not water; 1 Pixel is water"
+msgstr "0 Pixel n'est pas de l'eau ; 1 Pixel est de l'eau"
+
+#: 
+msgid "Interpolated Aerosol"
+msgstr "Aérosol interpolé"
+
+#: 
+msgid "0 Pixel is not aerosol interpolated; 1 Pixel is aerosol interpolated"
+msgstr "0 Le pixel n'est pas interpolé par les aérosols ; 1 Le pixel est interpolé par les aérosols."
+
+#: 
+msgid "6-7"
+msgstr "6-7"
+
+#: 
+msgid "Aerosol Level"
+msgstr "Niveau de l'aérosol"
+
+#: 
+msgid "00 Climatology; 01 Low; 10 Medium; 11 High"
+msgstr "00 Climatologie ; 01 Bas ; 10 Moyen ; 11 Haut"
+
+#: 
+msgid "Landsat Collection 2 Level-2 products are processed by the USGS from Collection 2 Level-1 inputs. Landsat 8 OLI surface reflectance products are generated using the Land Surface Reflectance Code (LaSRC) algorithm. Landsat 4-5 TM and Landsat 7 ETM+ surface reflectance products are generated using the Landsat Ecosystem Disturbance Adaptive Processing System (LEDAPS) algorithm."
+msgstr "Les produits Landsat Collection 2 Level-2 sont traités par l'USGS à partir des entrées Collection 2 Level-1. Les produits de réflectance de surface Landsat 8 OLI sont générés à l'aide de l'algorithme LaSRC (Land Surface Reflectance Code). Les produits de réflectance de surface Landsat 4-5 TM et Landsat 7 ETM+ sont générés à l'aide de l'algorithme LEDAPS (Landsat Ecosystem Disturbance Adaptive Processing System)."
+
+#: 
+msgid "|07bf130d7bf34e32bb2926280fc34753|"
+msgstr "|07bf130d7bf34e32bb2926280fc34753|"
+
+#: 
+msgid "**Figure 1: Landsat false color composites (highlighting vegetation) over an area in Tripoli District, Libya, showing changes between selected dates from 1984 to 2021.**"
+msgstr "**Figure 1 : Composites fausses couleurs Landsat (mettant en évidence la végétation) sur une zone du district de Tripoli, Libye, montrant les changements entre les dates sélectionnées de 1984 à 2021**."
+
+#: 
+msgid "`Water Observations from Space <https://docs.digitalearthafrica.org/en/latest/data_specs/WOfS_specs.html>`__"
+msgstr "``Observations de l'eau depuis l'espace <https://docs.digitalearthafrica.org/en/latest/data_specs/WOfS_specs.html>`___"
+
+#: 
+msgid "`Landsat Collection 2 Level-2 Surface Temperature <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_ST_specs.html>`__"
+msgstr "`Landsat Collection 2 Level-2 Surface Temperature <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_ST_specs.html>`__"
+
+#: 
+msgid "`USGS Collection Level-2 website <https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2>`__"
+msgstr "`Site web de la collection de l'USGS niveau 2 <https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2>`__"
+
+#: 
+msgid "There are no restrictions on Landsat data downloaded from the USGS; it can be used or redistributed as desired. USGS request that you include a `statement of the data source <https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con>`__ when citing, copying, or reprinting USGS Landsat data or images."
+msgstr "Il n'existe aucune restriction sur les données Landsat téléchargées depuis l'USGS ; elles peuvent être utilisées ou redistribuées à volonté. L'USGS vous demande d'inclure une \"déclaration de la source des données <https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con>`__\" lorsque vous citez, copiez ou réimprimez des données ou des images Landsat de l'USGS."
+
+#: 
+msgid "Landsat Level- 2 Surface Reflectance Science Product courtesy of the U.S. Geological Survey."
+msgstr "Produit scientifique de la réflectance de surface Landsat Level- 2, gracieuseté de l'U.S. Geological Survey."
+
+#: 
+msgid "Landsat Collection 2 Level-2 is available in AWS S3 thanks to the Public Dataset Program."
+msgstr "Landsat Collection 2 Level-2 est disponible dans AWS S3 grâce au programme de données publiques."
+
+#: 
+msgid "**Table 8: AWS data access details.**"
+msgstr "**Tableau 8 : Détails de l'accès aux données AWS.**"
+
+#: 
+msgid "``arn:aws:s3:::deafrica-landsat``"
+msgstr "``arn:aws:s3:::deafrica-landsat``"
+
+#: 
+msgid "``aws s3 ls --region=af-south-1 s3://deafrica-landsat/``"
+msgstr "``aws s3 ls --region=af-south-1 s3://deafrica-landsat/``"
+
+#: 
+msgid "The file paths follow the format ``collection02/level-2/standard/<sensor>/<year>/<path>/<row>/<scene_id>/``."
+msgstr "Les chemins d'accès aux fichiers suivent le format \"collection02/niveau-2/standard/<sensor>/<year>/<path>/<row>/<scene_id>/``."
+
+#: 
+msgid "**Table 9: AWS file path convention.**"
+msgstr "**Tableau 9 : Convention de chemin d'accès aux fichiers AWS.**"
+
+#: 
+msgid "``sensor``"
+msgstr "``capteur``"
+
+#: 
+msgid "Landsat sensor name, ``tm``, ``etm`` or ``oli-tirs`` for landsat 5, 7 and 8"
+msgstr "Nom du capteur Landsat, ``tm``, ``etm`` ou ``oli-tirs`` pour landsat 5, 7 et 8"
+
+#: 
+msgid "``oli-tirs``"
+msgstr "``oli-tirs``"
+
+#: 
+msgid "``2021``"
+msgstr "``2021``"
+
+#: 
+msgid "``path``"
+msgstr "``chemin``"
+
+#: 
+msgid "Landsat orbit path id"
+msgstr "Identifiant de la trajectoire de l'orbite Landsat"
+
+#: 
+msgid "``172``"
+msgstr "``172``"
+
+#: 
+msgid "``row``"
+msgstr "``row``"
+
+#: 
+msgid "Landsat orbit row id"
+msgstr "Identité de la ligne d'orbite Landsat"
+
+#: 
+msgid "``057``"
+msgstr "``057``"
+
+#: 
+msgid "``scene_id``"
+msgstr "``scene_id``"
+
+#: 
+msgid "Landsat scene id"
+msgstr "Identifiant de la scène Landsat"
+
+#: 
+msgid "``LC08_L2SP_172057_20210101_20210308_02_T1``"
+msgstr "``LC08_L2SP_172057_20210101_20210308_02_T1``"
+
+#: 
+msgid "**Table 10: OWS data access details.**"
+msgstr "**Tableau 10 : Détails de l'accès aux données OWS.**"
+
+#: 
+msgid "``ls5_sr``, ``ls7_sr``, ``ls8_sr``"
+msgstr "``ls5_sr``, ``ls7_sr``, ``ls8_sr``"
+
+#: 
+msgid "**ODC product names:** ``ls5_sr``, ``ls7_sr``, ``ls8_sr``"
+msgstr "Noms de produits **ODC:** ``ls5_sr``, ``ls7_sr``, ``ls8_sr``"
+
+#: 
+msgid "**Table 11: Landsat 5 and Landsat 7 Level-2 Surface Reflectance (ODC product ls5_sr and ls7_sr) band names.**"
+msgstr "**Tableau 11 : noms des bandes de réflectance de surface de niveau 2 de Landsat 5 et Landsat 7 (produit ODC ls5_sr et ls7_sr)."
+
+#: 
+msgid "band_1, blue"
+msgstr "bande_1, bleu"
+
+#: 
+msgid "band_2, green"
+msgstr "bande_2, vert"
+
+#: 
+msgid "band_3, red"
+msgstr "bande_3, rouge"
+
+#: 
+msgid "band_4, nir"
+msgstr "band_4, nir"
+
+#: 
+msgid "band_5, swir_1"
+msgstr "bande_5, tourbillon_1"
+
+#: 
+msgid "band_7, swir_2"
+msgstr "bande_7, tourbillon_2"
+
+#: 
+msgid "pq, pixel_quality"
+msgstr "pq, qualité_pixel"
+
+#: 
+msgid "radsat, radiometric_saturation"
+msgstr "radsat, saturation radiométrique"
+
+#: 
+msgid "SR_ATMOS_OPACITY"
+msgstr "SR_ATMOS_OPACITÉ"
+
+#: 
+msgid "atmos_opacity"
+msgstr "opacité_atmos"
+
+#: 
+msgid "SR_CLOUD_QA"
+msgstr "SR_CLOUD_QA"
+
+#: 
+msgid "cloud_qa"
+msgstr "nuage_qa"
+
+#: 
+msgid "**Table 12: Landsat 8 Level-2 Surface Reflectance (ODC product ls8_sr) band names.**"
+msgstr "**Tableau 12 : Nom des bandes de la réflectance de surface Landsat 8 Level-2 (produit ODC ls8_sr)."
+
+#: 
+msgid "band_1, coastal_aerosol"
+msgstr "bande_1, aérosol_côtier"
+
+#: 
+msgid "band_2, blue"
+msgstr "bande_2, bleu"
+
+#: 
+msgid "band_3, green"
+msgstr "bande_3, vert"
+
+#: 
+msgid "band_4, red"
+msgstr "bande_4, rouge"
+
+#: 
+msgid "band_5, nir"
+msgstr "band_5, nir"
+
+#: 
+msgid "band_6, swir_1"
+msgstr "bande_6, tourbillon_1"
+
+#: 
+msgid "SR_QA_AEROSOL"
+msgstr "SR_QA_AEROSOL"
+
+#: 
+msgid "qa_aerosol, aerosol_qa"
+msgstr "qa_aerosol, aerosol_qa"
+
+#: 
+msgid "The surface reflectance products for Landat 5, 7 and 8 are generated using two different methods."
+msgstr "Les produits de réflectance de surface pour Landat 5, 7 et 8 sont générés en utilisant deux méthodes différentes."
+
+#: 
+msgid "Landsat 5 TM and Landsat 7 ETM+ Collection 2 Surface Reflectance are generated using the Landsat Ecosystem Disturbance Adaptive Processing System (LEDAPS) algorithm. The software applies Moderate Resolution Imaging Spectroradiometer (MODIS) atmospheric correction routines to Level-1 data products. Water vapor, ozone, atmospheric height, aerosol optical thickness, and digital elevation are input with Landsat data to the Second Simulation of a Satellite Signal in the Solar Spectrum (6S) radiative transfer models to generate top of atmosphere (TOA) reflectance, surface reflectance, TOA brightness temperature, and masks for clouds, cloud shadows, adjacent clouds, land, and water."
+msgstr "La réflectance de surface de Landsat 5 TM et Landsat 7 ETM+ Collection 2 est générée à l'aide de l'algorithme LEDAPS (Landsat Ecosystem Disturbance Adaptive Processing System). Le logiciel applique les routines de correction atmosphérique du spectroradiomètre imageur à résolution modérée (MODIS) aux produits de données de niveau 1. La vapeur d'eau, l'ozone, la hauteur atmosphérique, l'épaisseur optique des aérosols et l'élévation numérique sont introduits avec les données Landsat dans les modèles de transfert radiatif 6S (Second Simulation of a Satellite Signal in the Solar Spectrum) pour générer la réflectance au sommet de l'atmosphère (TOA), la réflectance de surface, la température de brillance TOA et les masques pour les nuages, les ombres de nuages, les nuages adjacents, la terre et l'eau."
+
+#: 
+msgid "Landsat 8 OLI Collection 2 Surface Reflectance data are generated using the Land Surface Reflectance Code (LaSRC), which makes use of the coastal aerosol band to perform aerosol inversion tests, uses auxiliary climate data from MODIS, and a unique radiative transfer model."
+msgstr "Les données de réflectance de surface de la collection 2 de Landsat 8 OLI sont générées à l'aide du Land Surface Reflectance Code (LaSRC), qui utilise la bande d'aérosol côtière pour effectuer des tests d'inversion d'aérosol, utilise des données climatiques auxiliaires de MODIS et un modèle de transfert radiatif unique."
+
+#: 
+msgid "For more information on the different processing algorithms and caveats of the products, visit the `Landsat Collection 2 Surface Reflectance webpage <https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-surface-reflectance>`__."
+msgstr "Pour plus d'informations sur les différents algorithmes de traitement et les mises en garde relatives aux produits, visitez la page web `Landsat Collection 2 Surface Reflectance <https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-surface-reflectance>`__."
+
+#: 
+msgid "Landsat Collection 2 Level-2 Surface Temperature"
+msgstr "Température de surface du niveau 2 de la collection Landsat"
+
+#: 
+msgid "This document provides technical specifications for the Surface Temperature product. Information for the Surface Refletance product can be found in the `Landsat Collection 2 Level-2 Surface Reflectance specification <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_SR_specs.html>`__."
+msgstr "Ce document fournit des spécifications techniques pour le produit Température de surface. Les informations relatives au produit Réflectance de surface se trouvent dans la `Spécification de la réflectance de surface de niveau 2 de la collection 2 de Landsat <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_SR_specs.html>`__."
+
+#: 
+msgid "Surface temperature measures the Earth’s surface temperature and is an important geophysical parameter in global energy balance studies and hydrologic modeling. Surface temperature is also useful for monitoring crop and vegetation health, and extreme heat events such as natural disasters (e.g., volcanic eruptions, wildfires), and urban heat island effects."
+msgstr "La température de surface mesure la température de la surface de la Terre et constitue un paramètre géophysique important dans les études du bilan énergétique global et la modélisation hydrologique. La température de surface est également utile pour surveiller la santé des cultures et de la végétation, ainsi que les événements de chaleur extrême tels que les catastrophes naturelles (par exemple, les éruptions volcaniques, les incendies de forêt) et les effets des îlots de chaleur urbains."
+
+#: 
+msgid "`Landsat 5 Collection 2 Level-2 Surface Temperature <https://explorer.digitalearth.africa/products/ls5_st>`__"
+msgstr "`Landsat 5 Collection 2 Niveau-2 Température de surface <https://explorer.digitalearth.africa/products/ls5_st>`__"
+
+#: 
+msgid "`Landsat 7 Collection 2 Level-2 Surface Temperature <https://explorer.digitalearth.africa/products/ls7_st>`__"
+msgstr "`Landsat 7 Collection 2 Niveau-2 Température de surface <https://explorer.digitalearth.africa/products/ls7_st>`__"
+
+#: 
+msgid "`Landsat 8 Collection 2 Level-2 Surface Temperature <https://explorer.digitalearth.africa/products/ls8_st>`__"
+msgstr "`Landsat 8 Collection 2 Niveau-2 Température de surface <https://explorer.digitalearth.africa/products/ls8_st>`__"
+
+#: 
+msgid "**Table 1: Landsat Collection 2 Level-2 Surface Temperature product specifications**"
+msgstr "**Tableau 1 : Spécifications du produit Landsat Collection 2 Level-2 Surface Temperature**."
+
+#: 
+msgid "**Table 2: Landsat 5 and Landsat 7 Surface Temperature Level-2 measurements**"
+msgstr "**Tableau 2 : Mesures de température de surface de niveau 2 de Landsat 5 et Landsat 7**."
+
+#: 
+msgid "ST_B6"
+msgstr "ST_B6"
+
+#: 
+msgid "Surface temperature band 6 (Thermal Infrared (TIR))"
+msgstr "Bande 6 de température de surface (infrarouge thermique (TIR))"
+
+#: 
+msgid "Kelvin"
+msgstr "Kelvin"
+
+#: 
+msgid "``1-65535``"
+msgstr "``1-65535``"
+
+#: 
+msgid "0.00341802 \\* DN + 149.0"
+msgstr "0,00341802 \\* DN + 149,0"
+
+#: 
+msgid "ST_TRAD"
+msgstr "ST_TRAD"
+
+#: 
+msgid "Thermal radiance"
+msgstr "Rayonnement thermique"
+
+#: 
+msgid "Wm\\ :math:`^{-2}`\\ sr\\ :math:`^{-1}`\\ :math:`\\mu`\\ m\\ :math:`^{-1}`"
+msgstr "Wm\\ :math:`^{-2}`\\ sr\\ :math:`^{-1}`\\ :math:`\\mu`\\ m\\ :math:`^{-1}`"
+
+#: 
+msgid "``0-22000``"
+msgstr "``0-22000``"
+
+#: 
+msgid "ST_URAD"
+msgstr "ST_URAD"
+
+#: 
+msgid "Upwell radiance"
+msgstr "Radiance Upwell"
+
+#: 
+msgid "``0-28000``"
+msgstr "``0-28000``"
+
+#: 
+msgid "ST_DRAD"
+msgstr "ST_DRAD"
+
+#: 
+msgid "Downwell radiance"
+msgstr "Rayonnement vers le bas"
+
+#: 
+msgid "ST_ATRAN"
+msgstr "ST_ATRAN"
+
+#: 
+msgid "Atmospheric transmittance"
+msgstr "Transmittance atmosphérique"
+
+#: 
+msgid "``0-10000``"
+msgstr "``0-10000``"
+
+#: 
+msgid "0.0001 \\* DN"
+msgstr "0,0001 \\* DN"
+
+#: 
+msgid "ST_EMIS"
+msgstr "ST_EMIS"
+
+#: 
+msgid "Emissivity"
+msgstr "Emissivité"
+
+#: 
+msgid "ST_EMSD"
+msgstr "ST_EMSD"
+
+#: 
+msgid "Emissivity standard deviation"
+msgstr "Écart type d'émissivité"
+
+#: 
+msgid "ST_CDIST"
+msgstr "ST_CDIST"
+
+#: 
+msgid "Distance to cloud"
+msgstr "Distance par rapport au nuage"
+
+#: 
+msgid "Kilometers"
+msgstr "Kilomètres"
+
+#: 
+msgid "``0-24000``"
+msgstr "``0-24000``"
+
+#: 
+msgid "0.01 \\* DN"
+msgstr "0,01 \\* DN"
+
+#: 
+msgid "ST_QA"
+msgstr "ST_QA"
+
+#: 
+msgid "Surface temperature uncertainty"
+msgstr "Incertitude de la température de surface"
+
+#: 
+msgid "**Table 3: Landsat 8 Level-2 Surface Temperature measurements**"
+msgstr "**Tableau 3 : Mesures de température de surface Landsat 8 Niveau 2**."
+
+#: 
+msgid "ST_B10"
+msgstr "ST_B10"
+
+#: 
+msgid "Surface temperature band 10 (TIR)"
+msgstr "Bande de température de surface 10 (TIR)"
+
+#: 
+msgid "Landsat Collection 2 Level-2 products are processed by the USGS from Collection 2 Level-1 inputs. Landsat 5, 7 and 8 surface temperature products are generated using the Landsat surface temperature algorithm."
+msgstr "Les produits Landsat Collection 2 Level-2 sont traités par l'USGS à partir des entrées Collection 2 Level-1. Les produits de température de surface Landsat 5, 7 et 8 sont générés à l'aide de l'algorithme de température de surface Landsat."
+
+#: 
+msgid "|9208827094534c3a92d5f901774bc2c3|"
+msgstr "|9208827094534c3a92d5f901774bc2c3|"
+
+#: 
+msgid "**Figure 1: Landsat false color composites (highlighting vegetation, top row) and corresponding surface temperature measurements (in Kelvin, bottom row) over an area in Tripoli District, Libya.**"
+msgstr "**Figure 1 : Composites fausses couleurs Landsat (mettant en évidence la végétation, ligne supérieure) et mesures correspondantes de la température de surface (en Kelvin, ligne inférieure) sur une zone du district de Tripoli, Libye."
+
+#: 
+msgid "`Landsat Collection 2 Level-2 Surface Reflectance <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_SR_specs.html>`__"
+msgstr "`Landsat Collection 2 Level-2 Surface Reflectance <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_SR_specs.html>`__"
+
+#: 
+msgid "Landsat Level- 2 Surface Temperature Science Product courtesy of the U.S. Geological Survey."
+msgstr "Produit scientifique de température de surface Landsat Level- 2, gracieuseté de l'U.S. Geological Survey."
+
+#: 
+msgid "**Table 6: AWS data access details.**"
+msgstr "**Tableau 6 : Détails de l'accès aux données AWS.**"
+
+#: 
+msgid "**Table 7: AWS file path convention.**"
+msgstr "**Tableau 7 : Convention de chemin d'accès aux fichiers AWS.**"
+
+#: 
+msgid "**Table 8: OWS data access details.**"
+msgstr "**Tableau 8 : Détails de l'accès aux données OWS.**"
+
+#: 
+msgid "``ls5_st``, ``ls7_st``, ``ls8_st``"
+msgstr "``ls5_st``, ``ls7_st``, ``ls8_st``"
+
+#: 
+msgid "**ODC product names:** ``ls5_st``, ``ls7_st``, ``ls8_st``"
+msgstr "Noms de produits **ODC:** ``ls5_st``, ``ls7_st``, ``ls8_st``"
+
+#: 
+msgid "**Table 9: Landsat 5 and Landsat 7 Level-2 Surface Temperature (ODC product ls5_st and ls7_st) band names.**"
+msgstr "**Tableau 9 : Noms des bandes de température de surface de niveau 2 de Landsat 5 et Landsat 7 (produit ODC ls5_st et ls7_st)."
+
+#: 
+msgid "band_6, st, surface_temperature"
+msgstr "bande_6, st, température_de_surface"
+
+#: 
+msgid "trad, thermal_radiance"
+msgstr "trad, rayonnement thermique"
+
+#: 
+msgid "urad, upwell_radiance"
+msgstr "urad, upwell_radiance"
+
+#: 
+msgid "drad, downwell_radiance"
+msgstr "drad, downwell_radiance"
+
+#: 
+msgid "atran, atmospheric_transmittance"
+msgstr "atran, transmittance_atmosphérique"
+
+#: 
+msgid "emis, emissivity"
+msgstr "emis, émissivité"
+
+#: 
+msgid "emsd, emissivity_stddev"
+msgstr "emsd, emissivity_stddev"
+
+#: 
+msgid "cdist, cloud_distance"
+msgstr "cdist, cloud_distance"
+
+#: 
+msgid "st_qa, surface_temperature_quality"
+msgstr "st_qa, qualité_de_la_température_de_surface"
+
+#: 
+msgid "**Table 10: Landsat 8 Level-2 Surface Temperature (ODC product ls8_st) band names.**"
+msgstr "**Tableau 10 : Température de surface Landsat 8 Level-2 (produit ODC ls8_st) : noms des bandes."
+
+#: 
+msgid "band_10, st, surface_temperature"
+msgstr "bande_10, st, température_de_surface"
+
+#: 
+msgid "The surface temperature product is generated from the Landsat Collection 2 Level-1 thermal infrared bands, Top of Atmosphere (TOA) reflectance, TOA brightness temperature, Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Global Emissivity Database (GED) data, ASTER Normalized Difference Vegetation Index (NDVI) data, and atmospheric profiles of geopotential height, specific humidity, and air temperature extracted from Goddard Earth Observing System (GEOS) Model Version 5 Forward Processing Instrument Teams (FP-IT) (for acquisitions from 2000 to present) or Modern Era Retrospective analysis for Research and Applications Version 2 (MERRA-2) (for acquisitions from 1982 to 1999)."
+msgstr "Le produit de la température de surface est généré à partir des bandes infrarouges thermiques de niveau 1 de la collection 2 de Landsat, de la réflectance du sommet de l'atmosphère (TOA), de la température de brillance du TOA, des données de la base de données sur l'émissivité globale (GED) de l'Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER), des données de l'indice de végétation par différence normalisée (NDVI) de l'ASTER, et les profils atmosphériques de la hauteur géopotentielle, de l'humidité spécifique et de la température de l'air extraits du modèle Goddard Earth Observing System (GEOS) version 5 Forward Processing Instrument Teams (FP-IT) (pour les acquisitions de 2000 à aujourd'hui) ou Modern Era Retrospective analysis for Research and Applications Version 2 (MERRA-2) (pour les acquisitions de 1982 à 1999)."
+
+#: 
+msgid "For more information and caveats of the product, visit the `Landsat Collection 2 Surface Temperature webpage <https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-surface-temperature>`__."
+msgstr "Pour plus d'informations et de mises en garde sur le produit, visitez la page web `Landsat Collection 2 Surface Temperature <https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-surface-temperature>`__."
+
+#: 
+msgid "The surface temperature product is provided at 30 m spatial sampling, however, the thermal sensors vary in spectral response, sensitivity and resolution."
+msgstr "Le produit de la température de surface est fourni avec un échantillonnage spatial de 30 m. Cependant, les capteurs thermiques varient en termes de réponse spectrale, de sensibilité et de résolution."
+
+#: 
+msgid "**Table 11: Landsat thermal sensors specification.**"
+msgstr "**Tableau 11 : Spécifications des capteurs thermiques Landsat."
+
+#: 
+msgid "Sensor"
+msgstr "Capteur"
+
+#: 
+msgid "Spetral Band"
+msgstr "Bande spetrale"
+
+#: 
+msgid "Wavelength (µm)"
+msgstr "Longueur d'onde (µm)"
+
+#: 
+msgid "Spatial Resolution (m)"
+msgstr "Résolution spatiale (m)"
+
+#: 
+msgid "Thermal Infrared Sensor (TIRS)"
+msgstr "Capteur infrarouge thermique (TIRS)"
+
+#: 
+msgid "10.60 - 11.19"
+msgstr "10.60 - 11.19"
+
+#: 
+msgid "11.50 - 12.51"
+msgstr "11.50 - 12.51"
+
+#: 
+msgid "Enhanced Thematic Mapper Plus (ETM+)"
+msgstr "Cartographie thématique améliorée Plus (ETM+)"
+
+#: 
+msgid "10.31 - 12.36"
+msgstr "10.31 - 12.36"
+
+#: 
+msgid "60"
+msgstr "60"
+
+#: 
+msgid "Thematic Mapper (TM)"
+msgstr "Cartographe thématique (TM)"
+
+#: 
+msgid "10.40 - 12.50"
+msgstr "10.40 - 12.50"
+
+#: 
+msgid "120"
+msgstr "120"
+
+#: 
+msgid "The Level-2 product provides a number of intermediate and quality bands for surface temperature measurement. These bands may help interpret the results."
+msgstr "Le produit Level-2 fournit un certain nombre de bandes intermédiaires et de qualité pour la mesure de la température de surface. Ces bandes peuvent aider à interpréter les résultats."
+
+#: 
+msgid "**Table 12: Surface temperature relevant bands.**"
+msgstr "**Tableau 12 : Bandes de température de surface pertinentes**."
+
+#: 
+msgid "Explanation"
+msgstr "Explication"
+
+#: 
+msgid "Surface temperature (ST)"
+msgstr "Température de surface (ST)"
+
+#: 
+msgid "The temperature of the Earth’s surface in Kelvin (K)."
+msgstr "La température de la surface de la Terre en Kelvin (K)."
+
+#: 
+msgid "Thermal radiance (ST_TRAD)"
+msgstr "Radiance thermique (ST_TRAD)"
+
+#: 
+msgid "The values produced when thermal band reflectance is converted to radiance."
+msgstr "Les valeurs produites lorsque la réflectance de la bande thermique est convertie en radiance."
+
+#: 
+msgid "Upwell radiance (ST_URAD)"
+msgstr "Radiance ascendante (ST_URAD)"
+
+#: 
+msgid "The amount of electromagnetic radiation reflected upward from the ground’s surface."
+msgstr "La quantité de rayonnement électromagnétique réfléchi vers le haut à partir de la surface du sol."
+
+#: 
+msgid "Downwellradiance (ST_DRAD)"
+msgstr "Rayonnement de fond (ST_DRAD)"
+
+#: 
+msgid "The thermal energy radiated onto the ground by all objects in a hemisphere surrounding it."
+msgstr "L'énergie thermique rayonnée sur le sol par tous les objets d'un hémisphère qui l'entoure."
+
+#: 
+msgid "Atmospheric transmittance (ST_ATRAN)"
+msgstr "Transmittance atmosphérique (ST_ATRAN)"
+
+#: 
+msgid "The ratio of the transmitted radiation to the total radiation incident upon the medium (atmosphere)."
+msgstr "Le rapport entre le rayonnement transmis et le rayonnement total incident sur le milieu (atmosphère)."
+
+#: 
+msgid "Emissivity (ST_EMIS)"
+msgstr "Emissivité (ST_EMIS)"
+
+#: 
+msgid "The ratio of the energy radiated from a material’s surface to that radiated from a blackbody."
+msgstr "Le rapport entre l'énergie rayonnée par la surface d'un matériau et celle rayonnée par un corps noir."
+
+#: 
+msgid "Emissivity_stdev (ST_EMSD)"
+msgstr "Emissivité_stdev (ST_EMSD)"
+
+#: 
+msgid "The extent of deviation of the emissivity product. This layer is used along with cloud_distance to create the quality assessment product."
+msgstr "L'étendue de la déviation du produit d'émissivité. Cette couche est utilisée avec cloud_distance pour créer le produit d'évaluation de la qualité."
+
+#: 
+msgid "Distance to cloud (ST_CDIST)"
+msgstr "Distance par rapport au nuage (ST_CDIST)"
+
+#: 
+msgid "The distance, in kilometers, that a pixel is from the nearest cloud pixel. This layer is used along with emissivity_stdev to create the quality assessment product."
+msgstr "La distance, en kilomètres, qui sépare un pixel du pixel de nuage le plus proche. Cette couche est utilisée avec emissivity_stdev pour créer le produit d'évaluation de la qualité."
+
+#: 
+msgid "Surface temperature uncertainty (ST_QA)"
+msgstr "Incertitude de la température de surface (ST_QA)"
+
+#: 
+msgid "Provides the Surface Temperature product uncertainty using a combination of uncertainty values and distance to cloud values."
+msgstr "Fournit l'incertitude du produit Température de surface en utilisant une combinaison de valeurs d'incertitude et de valeurs de distance aux nuages."
+
+#: 
+msgid "Water Observations from Space"
+msgstr "Observations de l'eau depuis l'espace"
+
+#: 
+msgid "**Date modified:** 24 March 2021"
+msgstr "**Date de modification:** 24 mars 2021"
+
+#: 
+msgid "The WOfS product suite is currently a beta product generated from provisional Landsat 8 satellite observations, and will be operationalised in the second quarter of 2021 to use full Landsat Collection 2 data."
+msgstr "La suite de produits WOfS est actuellement un produit bêta généré à partir d'observations provisoires du satellite Landsat 8, et sera rendue opérationnelle au deuxième trimestre de 2021 pour utiliser les données complètes de la collection Landsat 2."
+
+#: 
+msgid "Water Observations from Space (WOfS) is a service that draws on satellite imagery to provide historical surface water observations of the whole African continent. WOfS allows users to understand the location and movement of water present in the African landscape by giving them an improved understanding of where water is usually present; where it is seldom observed; and where inundation of the surface has been observed by satellite."
+msgstr "Water Observations from Space (WOfS) est un service qui s'appuie sur l'imagerie satellitaire pour fournir des observations historiques des eaux de surface sur l'ensemble du continent africain. WOfS permet aux utilisateurs de comprendre la localisation et le mouvement de l'eau présente dans le paysage africain en leur donnant une meilleure compréhension des endroits où l'eau est habituellement présente, de ceux où elle est rarement observée et de ceux où l'inondation de la surface a été observée par satellite."
+
+#: 
+msgid "They are generated using the WOfS classification algorithm on Landsat 8 satellite data. There are several WOfS products available for the African continent, as listed below:"
+msgstr "Ils sont générés en utilisant l'algorithme de classification WOfS sur les données du satellite Landsat 8. Il existe plusieurs produits WOfS disponibles pour le continent africain, comme indiqué ci-dessous :"
+
+#: 
+msgid "Product Type"
+msgstr "Type de produit"
+
+#: 
+msgid "WOfS Feature Layer (WOFL)"
+msgstr "Couche de caractéristiques WOfS (WOFL)"
+
+#: 
+msgid "WOfS slices generated per scene"
+msgstr "Tranches de WOfS générées par scène"
+
+#: 
+msgid "WOfS Annual Summary"
+msgstr "Résumé annuel du WOfS"
+
+#: 
+msgid "The ratio (%) of wet to clear observations from each calendar year"
+msgstr "Le rapport (%) entre les observations humides et claires pour chaque année civile."
+
+#: 
+msgid "WOfS All-Time Summary"
+msgstr "Résumé de tous les temps de WOfS"
+
+#: 
+msgid "The ratio (%) of wet to clear observations over all time"
+msgstr "Le rapport (%) entre les observations humides et les observations claires sur l'ensemble du temps."
+
+#: 
+msgid "**WOfS Feature Layer (WOFL):** Individual water-classified images are called Water Observation Feature Layers (WOFLs), and are created from the input satellite data. There is one WOFL for each satellite dataset processed for the occurrence of water."
+msgstr "**Couche de caractéristiques d'observation de l'eau (WOFL):** Les images individuelles classées par eau sont appelées couches de caractéristiques d'observation de l'eau (WOFL) et sont créées à partir des données satellitaires d'entrée. Il existe une WOFL pour chaque ensemble de données satellitaires traitées pour la présence d'eau."
+
+#: 
+msgid "**WOfS Annual/All-Time Summary:** The percentage of time a pixel was classified as wet. This requires:"
+msgstr "**WOfS Annual/All-Time Summary:** Le pourcentage de temps pendant lequel un pixel a été classé comme humide. Ceci nécessite :"
+
+#: 
+msgid "Total number of clear observations for each pixel: the number of observations that were clear (no cloud or shadow) for the selected time period. The classification algorithm then assigns these as either wet, or dry."
+msgstr "Nombre total d'observations claires pour chaque pixel : le nombre d'observations qui étaient claires (sans nuage ni ombre) pour la période sélectionnée. L'algorithme de classification les classe ensuite comme humides ou sèches."
+
+#: 
+msgid "Total number of wet observation for each pixel: the number of observations that were clear *and* wet for the selected time period."
+msgstr "Nombre total d'observations humides pour chaque pixel : le nombre d'observations qui étaient claires *et* humides pour la période sélectionnée."
+
+#: 
+msgid "The WOfS summaries are calculated as the ratio of clear wet observations to total clear observations, expressed as a percentage."
+msgstr "Les résumés WOfS sont calculés comme le rapport entre les observations humides claires et le total des observations claires, exprimé en pourcentage."
+
+#: 
+msgid "\\text{WOfS Summary} = \\frac{\\text{Number of Wet Observations}}{\\text{Number of (Wet + Dry) Observations}} \\times 100\n"
+"\n"
+""
+msgstr "\\text{WOfS Summary} = \\frac{\\text{Number of Wet Observations}{\\text{Number of (Wet + Dry) Observations}} \\times 100\n"
+"\n"
+""
+
+#: 
+msgid "There are several datasets that are available as part of the WOfS suite. Relevant coverage and metadata can be viewed on DE Africa `Metadata Explorer <https://explorer.digitalearth.africa/products>`__:"
+msgstr "Plusieurs jeux de données sont disponibles dans le cadre de la suite WOfS. La couverture et les métadonnées pertinentes peuvent être consultées sur DE Africa `Metadata Explorer <https://explorer.digitalearth.africa/products>`__ :"
+
+#: 
+msgid "`WOFLs <https://explorer.digitalearth.africa/products/ga_ls8c_wofs_2>`__"
+msgstr "`WOFLs <https://explorer.digitalearth.africa/products/ga_ls8c_wofs_2>`___"
+
+#: 
+msgid "`WOfS Annual Summary <https://explorer.digitalearth.africa/products/ga_ls8c_wofs_2_annual_summary>`__"
+msgstr "`WOfS Annual Summary <https://explorer.digitalearth.africa/products/ga_ls8c_wofs_2_annual_summary>`___"
+
+#: 
+msgid "`WOfS All-Time Summary <https://explorer.digitalearth.africa/products/ga_ls8c_wofs_2_summary>`__"
+msgstr "`WOfS All-Time Summary <https://explorer.digitalearth.africa/products/ga_ls8c_wofs_2_summary>`___"
+
+#: 
+msgid "WOfS Feature Layer"
+msgstr "Couche de caractéristiques WOfS"
+
+#: 
+msgid "**Table 1: WOfS Feature Layer product specifications**"
+msgstr "**Tableau 1 : Spécifications des produits de la couche de fonctionnalité WOfS**."
+
+#: 
+msgid "16 days"
+msgstr "16 jours"
+
+#: 
+msgid "2013-03-19 – 2019-06-30"
+msgstr "2013-03-19 - 2019-06-30"
+
+#: 
+msgid "Provisional Landsat 8 Collection 2"
+msgstr "Collection provisoire de Landsat 8 2"
+
+#: 
+msgid "Not applicable for beta products"
+msgstr "Non applicable pour les produits bêta"
+
+#: 
+msgid "**Table 2: WOfS Feature Layer measurements**"
+msgstr "**Tableau 2 : Mesures de la couche de caractéristiques du WOfS**."
+
+#: 
+msgid "WOFL water"
+msgstr "Eau WOFL"
+
+#: 
+msgid "``0 - 255``"
+msgstr "``0 - 255``"
+
+#: 
+msgid "The WOFL measurement ``water`` uses bit flags to allocate terrain characteristics to each pixels. Bit flags assign a unique decimal value to each characteristic. A pixel can hold multiple characteristics by summing the decimal values of each associated bit flag."
+msgstr "La mesure WOFL \"eau\" utilise des drapeaux binaires pour attribuer des caractéristiques de terrain à chaque pixel. Les drapeaux binaires attribuent une valeur décimale unique à chaque caractéristique. Un pixel peut contenir plusieurs caractéristiques en additionnant les valeurs décimales de chaque drapeau binaire associé."
+
+#: 
+msgid "**Table 3: WOfS Feature Layer bit flags**"
+msgstr "**Tableau 3 : drapeaux binaires de la couche de caractéristiques WOfS**."
+
+#: 
+msgid "Flagging"
+msgstr "Signalisation"
+
+#: 
+msgid "Decimal Value"
+msgstr "Valeur décimale"
+
+#: 
+msgid "no data"
+msgstr "pas de données"
+
+#: 
+msgid "1 = pixel masked out due to NO_DATA in source, 0 = valid data"
+msgstr "1 = pixel masqué en raison de NO_DATA dans la source, 0 = données valides"
+
+#: 
+msgid "non-contiguity"
+msgstr "non-contiguïté"
+
+#: 
+msgid "Lack of data contiguity"
+msgstr "Manque de contiguïté des données"
+
+#: 
+msgid "sea"
+msgstr "mer"
+
+#: 
+msgid "Sea"
+msgstr "Mer"
+
+#: 
+msgid "terrain shadow / low solar angle"
+msgstr "ombre du terrain / faible angle solaire"
+
+#: 
+msgid "Terrain shadow or low solar angle"
+msgstr "Ombre du terrain ou faible angle solaire"
+
+#: 
+msgid "high slope"
+msgstr "haute pente"
+
+#: 
+msgid "16"
+msgstr "16"
+
+#: 
+msgid "High slope"
+msgstr "Pente élevée"
+
+#: 
+msgid "cloud shadow"
+msgstr "ombre de nuage"
+
+#: 
+msgid "32"
+msgstr "32"
+
+#: 
+msgid "cloud"
+msgstr "nuage"
+
+#: 
+msgid "64"
+msgstr "64"
+
+#: 
+msgid "water observed"
+msgstr "eau observée"
+
+#: 
+msgid "128"
+msgstr "128"
+
+#: 
+msgid "Water present"
+msgstr "Présence d'eau"
+
+#: 
+msgid "For example, a ``water`` value of ``136`` indicates water (``128``) AND terrain shadow / low solar angle (``8``) were observed for the pixel, whereas a value of ``144`` would indicate water (``128``) AND high slope (``16``)."
+msgstr "Par exemple, une valeur \"eau\" de 136 indique que de l'eau (128) ET une ombre de terrain/un angle solaire faible (8) ont été observés pour le pixel, tandis qu'une valeur de 144 indique de l'eau (128) ET une pente élevée (16)."
+
+#: 
+msgid "WOFLs are useful for identifying the presence of water at a certain point in time, or over short durations (less than one year). For annual or historical data, users can access the pre-calculated summary products detailed below."
+msgstr "Les WOFL sont utiles pour identifier la présence d'eau à un moment donné, ou sur de courtes durées (moins d'un an). Pour les données annuelles ou historiques, les utilisateurs peuvent accéder aux produits récapitulatifs pré-calculés détaillés ci-dessous."
+
+#: 
+msgid "**Table 4: WOfS Annual Summary product specifications**"
+msgstr "**Tableau 4 : Spécifications des produits du résumé annuel du WOfS**."
+
+#: 
+msgid "2017 – 2019"
+msgstr "2017 - 2019"
+
+#: 
+msgid "**Table 5: WOfS Annual Summary measurements**"
+msgstr "**Tableau 5 : Résumé annuel des mesures du WOfS**."
+
+#: 
+msgid "count_wet"
+msgstr "compte_humide"
+
+#: 
+msgid "How many times a pixel was wet"
+msgstr "Combien de fois un pixel a été mouillé"
+
+#: 
+msgid "``-1``"
+msgstr "``-1``"
+
+#: 
+msgid "count_clear"
+msgstr "count_clear"
+
+#: 
+msgid "How many times a pixel was clear"
+msgstr "Combien de fois un pixel était clair"
+
+#: 
+msgid "frequency"
+msgstr "fréquence"
+
+#: 
+msgid "Frequency of water detection at a location"
+msgstr "Fréquence de la détection de l'eau à un endroit donné"
+
+#: 
+msgid "**Table 6: WOfS All-Time Summary specifications**"
+msgstr "**Tableau 6 : WOfS All-Time Summary specifications**"
+
+#: 
+msgid "One summary for entire temporal range"
+msgstr "Un seul résumé pour toute la gamme temporelle"
+
+#: 
+msgid "**Table 7: WOfS All-Time Summary measurements**"
+msgstr "**Tableau 7 : Résumé des mesures de tous les temps du WOfS**."
+
+#: 
+msgid "All products in the WOfS suite have the same geographic extent. This is shown in Figure 1; data is available for the regions shaded in blue. Specific temporal and geographic extents can be explored as an interactive map on the Digital Earth Africa `Metadata Explorer <https://explorer.digitalearth.africa/products>`__. Different WOfS products can be selected from the horizontal dropdown menu at the top of the page."
+msgstr "Tous les produits de la suite WOfS ont la même étendue géographique. Ceci est illustré dans la figure 1 ; les données sont disponibles pour les régions ombrées en bleu. Les étendues temporelles et géographiques spécifiques peuvent être explorées sous forme de carte interactive sur le Digital Earth Africa `Metadata Explorer <https://explorer.digitalearth.africa/products>`__. Différents produits WOfS peuvent être sélectionnés dans le menu déroulant horizontal en haut de la page."
+
+#: 
+msgid "**Figure 1: Landsat WOfS suite geographic extent**"
+msgstr "**Figure 1 : étendue géographique de la suite Landsat WOfS**."
+
+#: 
+msgid "|f34949ab22954688b3d46c3653cb06da|"
+msgstr "|f34949ab22954688b3d46c3653cb06da|"
+
+#: 
+msgid "The `Water Observations from Space Detection Algorithm <https://github.com/GeoscienceAustralia/wofs>`__ as described in `Mueller, 2016 <https://doi.org/10.1016/j.rse.2015.11.003>`__, is applied to the Landsat data to create the available WOfS products."
+msgstr "L'algorithme de détection des observations de l'eau depuis l'espace <https://github.com/GeoscienceAustralia/wofs>`__ tel que décrit dans `Mueller, 2016 <https://doi.org/10.1016/j.rse.2015.11.003>`__, est appliqué aux données Landsat pour créer les produits WOfS disponibles."
+
+#: 
+msgid "**Image 1: Tagrin Bay, Sierra Leone. WOfS All-Time Summary.**"
+msgstr "**Image 1 : Tagrin Bay, Sierra Leone. Résumé de tous les temps de WOfS.**"
+
+#: 
+msgid "Colours indicate the percentage of times water was detected. Red is “rarely water”, green is “often water”, and blue is “always water”."
+msgstr "Les couleurs indiquent le pourcentage de fois où de l'eau a été détectée. Le rouge correspond à \"rarement de l'eau\", le vert à \"souvent de l'eau\" et le bleu à \"toujours de l'eau\"."
+
+#: 
+msgid "Credit: U.S. Geological Survey Landsat data was used in compiling this image."
+msgstr "Crédit : U.S. Geological Survey Les données Landsat ont été utilisées pour compiler cette image."
+
+#: 
+msgid "|8f59726131324ca39264c7bd12091880|"
+msgstr "|8f59726131324ca39264c7bd12091880|"
+
+#: 
+msgid "`Landsat Collection 2 <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_specs.html>`__"
+msgstr "`Landsat Collection 2 <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_specs.html>`__"
+
+#: 
+msgid "Mueller, N., Lewis, A., Roberts, D., Ring, S., Melrose, R., Sixsmith, J., Lymburner, L., McIntyre, A., Tan, P., Curnow, S., & Ip, A. (2016). Water observations from space: Mapping surface water from 25 years of Landsat imagery across Australia. Remote Sensing of Environment, 174, 341–352. `https://doi.org/10.1016/j.rse.2015.11.003 <%5Bhttps://doi.org/10.1016/j.rse.2015.11.003%5D>`__"
+msgstr "Mueller, N., Lewis, A., Roberts, D., Ring, S., Melrose, R., Sixsmith, J., Lymburner, L., McIntyre, A., Tan, P., Curnow, S. et Ip, A. (2016). Observations de l'eau depuis l'espace : Cartographie des eaux de surface à partir de 25 ans d'imagerie Landsat à travers l'Australie. Télédétection de l'environnement, 174, 341-352. `https://doi.org/10.1016/j.rse.2015.11.003 <%5Bhttps://doi.org/10.1016/j.rse.2015.11.003%5D>`__"
+
+#: 
+msgid "Acknowledgments"
+msgstr "Remerciements"
+
+#: 
+msgid "The WOfS algorithms incorporated in this product are the work of Norman Mueller, Geoscience Australia, and Dr Dale Roberts, Australian National University."
+msgstr "Les algorithmes WOfS incorporés dans ce produit sont le fruit du travail de Norman Mueller, Geoscience Australia, et du Dr Dale Roberts, Australian National University."
+
+#: 
+msgid "Data Access"
+msgstr "Accès aux données"
+
+#: 
+msgid "The DE Africa WOfS product suite is available in AWS S3 thanks to the Public Dataset Program."
+msgstr "La suite de produits DE Africa WOfS est disponible dans AWS S3 grâce au programme de données publiques."
+
+#: 
+msgid "**Table 8: AWS data access details**"
+msgstr "**Tableau 8 : Détails de l'accès aux données AWS**."
+
+#: 
+msgid "``arn:aws:s3:::deafrica-data``"
+msgstr "``arn:aws:s3:::deafrica-data``"
+
+#: 
+msgid "Product names"
+msgstr "Noms des produits"
+
+#: 
+msgid "``ga_ls8c_wofs_2``, ``ga_ls8c_wofs_2_annual_summary``, ``ga_ls8c_wofs_2_summary``"
+msgstr "``ga_ls8c_wofs_2``, ``ga_ls8c_wofs_2_annual_summary``, ``ga_ls8c_wofs_2_summary``."
+
+#: 
+msgid "The bucket is located in the region ``us-west-2`` (Oregon)."
+msgstr "Le seau est situé dans la région \"us-west-2\" (Oregon)."
+
+#: 
+msgid "The following file path convention applies to WOFLs:"
+msgstr "La convention de chemin d'accès aux fichiers suivante s'applique aux WOFL :"
+
+#: 
+msgid "``usgs/pc2/ga_ls8c_wofs_2/<path>/<row>/<year>/<month>/<day>/``"
+msgstr "``usgs/pc2/ga_ls8c_wofs_2/<path>/<row>/<year>/<month>/<day>/``"
+
+#: 
+msgid "Annual Summaries omit ``path``, ``row``, ``month`` and ``day``."
+msgstr "Les résumés annuels omettent ``chemin``, ``ligne``, ``mois`` et ``jour``."
+
+#: 
+msgid "``usgs/pc2/ga_ls8c_wofs_2_annual_summary/<year>/``"
+msgstr "``usgs/pc2/ga_ls8c_wofs_2_annual_summary/<year>/``"
+
+#: 
+msgid "The All-Time Summary additionally drops ``year``."
+msgstr "Dans le résumé de tous les temps, le mot \"année\" est supprimé."
+
+#: 
+msgid "``usgs/pc2/ga_ls8c_wofs_2_summary/``"
+msgstr "``usgs/pc2/ga_ls8c_wofs_2_summary/``"
+
+#: 
+msgid "**Table 9: AWS file path convention**"
+msgstr "**Tableau 9 : Convention de chemin d'accès aux fichiers AWS**."
+
+#: 
+msgid "``product name``"
+msgstr "Nom du produit"
+
+#: 
+msgid "``ga_ls8c_wofs_2``, ``ga_ls8c_wofs_2_annual_summary``, or ``ga_ls8c_wofs_2_summary``"
+msgstr "``ga_ls8c_wofs_2``, ``ga_ls8c_wofs_2_annual_summary``, ou ``ga_ls8c_wofs_2_summary``."
+
+#: 
+msgid "``ga_ls8c_wofs_2``"
+msgstr "``ga_ls8c_wofs_2``"
+
+#: 
+msgid "``path number``"
+msgstr "``numéro du chemin``"
+
+#: 
+msgid "Ranges from ``157`` to ``206``."
+msgstr "La gamme s'étend de 157 à 206."
+
+#: 
+msgid "``165``"
+msgstr "``165``"
+
+#: 
+msgid "``row number``"
+msgstr "Numéro de ligne"
+
+#: 
+msgid "Ranges from ``052`` to ``072``."
+msgstr "S'étend de ``052`` à ``072``."
+
+#: 
+msgid "``052``"
+msgstr "``052``"
+
+#: 
+msgid "Year the data was collected"
+msgstr "Année de collecte des données"
+
+#: 
+msgid "``2019``"
+msgstr "``2019``"
+
+#: 
+msgid "``month``"
+msgstr "``mois``"
+
+#: 
+msgid "Month of the year the data was collected (with leading zeros)"
+msgstr "Mois de l'année où les données ont été collectées (avec des zéros en tête)"
+
+#: 
+msgid "``03``"
+msgstr "``03``"
+
+#: 
+msgid "``day``"
+msgstr "``jour``"
+
+#: 
+msgid "Day of the month the data was collected (with leading zeros)"
+msgstr "Jour du mois où les données ont été collectées (avec des zéros en tête)"
+
+#: 
+msgid "``28``"
+msgstr "``28``"
+
+#: 
+msgid "Layer names"
+msgstr "Noms des couches"
+
+#: 
+msgid "``ga_ls8c_wofs_2``, ``wofs_2_annual_summary_frequency``, ``wofs_2_summary_frequency``"
+msgstr "``ga_ls8c_wofs_2'', ``wofs_2_annual_summary_frequency'', ``wofs_2_summary_frequency''."
+
+#: 
+msgid "The WOfS suite of datasets can be accessed through the Digital Earth Africa ODC API, which is available through the `Digital Earth Africa Sandbox <https://sandbox.digitalearth.africa/hub/login>`__."
+msgstr "La suite de jeux de données WOfS est accessible par l'API ODC de Digital Earth Africa, qui est disponible dans le `Digital Earth Africa Sandbox <https://sandbox.digitalearth.africa/hub/login>`__."
+
+#: 
+msgid "**ODC product name:** ``ga_ls8c_wofs_2``, ``ga_ls8c_wofs_2_annual_summary``, ``ga_ls8c_wofs_2_summary``"
+msgstr "**Nom de produit ODC:** ``ga_ls8c_wofs_2``, ``ga_ls8c_wofs_2_annual_summary``, ``ga_ls8c_wofs_2_summary``."
+
+#: 
+msgid "**Table 11: WOFL ODC band names**"
+msgstr "**Tableau 11 : noms des groupes de WOFL ODC**."
+
+#: 
+msgid "The Annual Summary and the All-Time Summary have the same band names in the ODC."
+msgstr "Le résumé annuel et le résumé de tous les temps ont les mêmes noms de bande dans l'ODC."
+
+#: 
+msgid "**Table 12: WOfS Annual/All-Time Summary ODC band names**"
+msgstr "**Tableau 12 : Noms des bandes de l'ODC du WOfS Annual/All-Time Summary**."
+
+#: 
+msgid "wet"
+msgstr "humide"
+
+#: 
+msgid "clear"
+msgstr "clair"
+
+#: 
+msgid "freq"
+msgstr "freq"
+
+#: 
+msgid "Algorithm"
+msgstr "Algorithme"
+
+#: 
+msgid "The Water Observations from Space Detection Algorithm uses a decision tree method using both spectral band measurements and derived indices as input datasets. It also utilised several ancillary datasets, including slope."
+msgstr "L'algorithme de détection des observations de l'eau depuis l'espace utilise une méthode d'arbre de décision utilisant à la fois les mesures de la bande spectrale et les indices dérivés comme ensembles de données d'entrée. Il utilise également plusieurs ensembles de données auxiliaires, dont la pente."
+
+#: 
+msgid "An illustration of the decision tree is shown in Figure 2."
+msgstr "Une illustration de l'arbre de décision est présentée à la figure 2."
+
+#: 
+msgid "**Figure 2: WOfS Detection Algorithm decision tree. Tree branches are shown in green with endpoint for water and not-water displayed as blue and red respectively. Each branch indicates the variable used to split and the resulting balance of water and not-water samples created by the split. Source:** `Mueller, 2016 <https://doi.org/10.1016/j.rse.2015.11.003>`__"
+msgstr "**Figure 2 : Arbre de décision de l'algorithme de détection WOfS. Les branches de l'arbre sont représentées en vert avec les extrémités pour l'eau et la non-eau affichées en bleu et rouge respectivement. Chaque branche indique la variable utilisée pour la division et l'équilibre résultant des échantillons d'eau et de non-eau créés par la division. Source:** `Mueller, 2016 <https://doi.org/10.1016/j.rse.2015.11.003>`__"
+
+#: 
+msgid "|f243c06a0a294ab0a193078682fdaf12|"
+msgstr "|f243c06a0a294ab0a193078682fdaf12|"
+
+#: 
+msgid "Validation method"
+msgstr "Méthode de validation"
+
+#: 
+msgid "The Digital Earth Africa validation task team has many years’ of combined experience validating satellite-derived maps in different regions of Africa, and a long history of collaborating with a wide variety of stakeholders."
+msgstr "L'équipe de validation de Digital Earth Africa a une expérience combinée de plusieurs années de validation de cartes satellitaires dans différentes régions d'Afrique, et une longue histoire de collaboration avec une grande variété de parties prenantes."
+
+#: 
+msgid "To validate WOfS data, the continent was divided into seven Agro-Ecological Zones (AEZ). Analysts from within each regional geospatial organization labelled a large set of sample points using image interpretation of satellite and aerial imagery. Analysts applied their regional and local knowledge to help define class labels and interpret any difficult features, creating a validation dataset that is both accurate and fit for purpose. To ensure WOfS is as accurate as possible, it was validated against a range of data points. 2900 sample points were generated, covering the African continent, including the main islands."
+msgstr "Pour valider les données WOfS, le continent a été divisé en sept zones agro-écologiques (AEZ). Des analystes de chaque organisation géospatiale régionale ont étiqueté un large ensemble de points d'échantillonnage en utilisant l'interprétation d'images satellites et aériennes. Les analystes ont appliqué leurs connaissances régionales et locales pour aider à définir les étiquettes de classe et à interpréter toute caractéristique difficile, créant ainsi un ensemble de données de validation qui est à la fois précis et adapté à l'objectif. Pour s'assurer que WOfS est aussi précis que possible, il a été validé par rapport à une série de points de données. 2900 points d'échantillonnage ont été générés, couvrant le continent africain, y compris les principales îles."
+
+#: 
+msgid "Typically, water classifiers are adept at mapping large, open water bodies — so for this exercise, water features with an area of more than 100 square kilometres were masked out. This ensured that analysis remained focused on areas that are more challenging to map, such as small water bodies with different colours, depths and surrounding environments."
+msgstr "En général, les classificateurs d'eau sont capables de cartographier de grands plans d'eau ouverts. Pour cet exercice, les éléments d'eau d'une superficie de plus de 100 kilomètres carrés ont donc été masqués. L'analyse est ainsi restée concentrée sur les zones plus difficiles à cartographier, telles que les petits plans d'eau de couleurs, de profondeurs et de milieux environnants différents."
+
+#: 
+msgid "Stratified random sampling was then performed to select locations with different water occurrences and waterbody types. By focusing the sample on the more difficult-to-map areas, this sample scheme allowed the Digital Earth Africa team to understand the limitations of WOfS, and meant that WOfS could be compared to other available datasets. It also resulted in overall accuracy for this exercise appearing lower than expected, since the ‘easy to map’ areas had been removed from the sample design."
+msgstr "Un échantillonnage aléatoire stratifié a ensuite été effectué afin de sélectionner des lieux présentant des occurrences d'eau et des types de plans d'eau différents. En concentrant l'échantillon sur les zones les plus difficiles à cartographier, ce plan d'échantillonnage a permis à l'équipe de Digital Earth Africa de comprendre les limites de WOfS et de comparer WOfS à d'autres ensembles de données disponibles. Il a également eu pour conséquence que la précision globale de cet exercice est apparue plus faible que prévu, puisque les zones \"faciles à cartographier\" avaient été retirées du plan d'échantillonnage."
+
+#: 
+msgid "Next, analysts labelled each sample point using a visual interpretation of sample points provided by online tool, Collect Earth Online (CEO). CEO allowed multiple analysts to assess points as water or non-water using satellite and aerial images. The labelled sample points were then compared with the WOfS map, determining where the WOfS map service agrees — or disagrees — with the validation dataset."
+msgstr "Ensuite, les analystes ont étiqueté chaque point d'échantillonnage en utilisant une interprétation visuelle des points d'échantillonnage fournie par l'outil en ligne Collect Earth Online (CEO). CEO permet à plusieurs analystes d'évaluer les points comme étant de l'eau ou non à l'aide d'images satellites et aériennes. Les points d'échantillonnage étiquetés ont ensuite été comparés à la carte WOfS, afin de déterminer où le service cartographique WOfS est en accord - ou en désaccord - avec l'ensemble de données de validation."
+
+#: 
+msgid "The sampling design is independent of the WOfS classification, so this validation dataset can be used to provide quantitive comparisons with products such as future versions of WOfS, or other existing surface water maps."
+msgstr "Le plan d'échantillonnage est indépendant de la classification WOfS, de sorte que cet ensemble de données de validation peut être utilisé pour fournir des comparaisons quantitatives avec des produits tels que les futures versions de WOfS, ou d'autres cartes des eaux de surface existantes."
+
+#: 
+msgid "Validation results"
+msgstr "Résultats de la validation"
+
+#: 
+msgid "At a continental-scale, WOfS is able to accurately identify about 80% of the labelled water features (Figure 3). 94% of its water classifications are correct (Figure 4, left)."
+msgstr "À l'échelle continentale, WOfS est capable d'identifier avec précision environ 80 % des éléments d'eau étiquetés (figure 3). 94% de ses classifications d'eau sont correctes (Figure 4, gauche)."
+
+#: 
+msgid "At the AEZ level, WOfS performs outstandingly in Eastern, Sahel and Northern AEZs with more than 85% of reference water features in these zones being correctly identified as water (Figure 4, right). The reliability of this classification in the Eastern zone is also very high at more than 96%; and the WOfS classification in all seven AEZ proved to be reliable, with more than 84% user accuracy (Figure 4, left). The Western AEZ is a challenging zone with high cloud coverage and a wet climate, 71.3% of reference water features have been correctly identified as water in WOfS product, and 97.4% of these water features are actually water."
+msgstr "Au niveau des ZEA, la classification WOfS est très performante dans les ZEA de l'Est, du Sahel et du Nord, avec plus de 85% des caractéristiques de référence de l'eau dans ces zones correctement identifiées comme de l'eau (Figure 4, droite). La fiabilité de cette classification dans la zone orientale est également très élevée, à plus de 96% ; et la classification WOfS dans les sept ZEA s'est avérée fiable, avec une précision de plus de 84% pour l'utilisateur (Figure 4, gauche). L'AEZ de l'Ouest est une zone difficile avec une couverture nuageuse élevée et un climat humide, 71,3 % des éléments d'eau de référence ont été correctement identifiés comme de l'eau dans le produit WOfS, et 97,4 % de ces éléments d'eau sont réellement de l'eau."
+
+#: 
+msgid "**Figure 3: Overall WOfS accuracy, split by Agro-Ecological Zone.**"
+msgstr "**Figure 3 : Précision globale du WOfS, répartie par zone agro-écologique."
+
+#: 
+msgid "|575afee4356a42abb41490b52430a842|"
+msgstr "|575afee4356a42abb41490b52430a842|"
+
+#: 
+msgid "**Figure 4: WOfS user’s accuracy (left) and producer’s accuracy (right), split by Agro-Ecological Zone.**"
+msgstr "**Figure 4 : Précision de l'utilisateur du WOfS (à gauche) et précision du producteur (à droite), répartis par zone agro-écologique."
+
+#: 
+msgid "|6c10d7218df244e0b38f9b67c86b51f2|"
+msgstr "|6c10d7218df244e0b38f9b67c86b51f2|"
+
+#: 
+msgid "Limitations and caveats"
+msgstr "Limites et mises en garde"
+
+#: 
+msgid "During the WOfS validation assessment, a number of issues associated with input data, validation method and the WOfS algorithm were detected. The validation results should be interpreted with the following caveats:"
+msgstr "Au cours de l'évaluation de la validation du WOfS, un certain nombre de problèmes associés aux données d'entrée, à la méthode de validation et à l'algorithme du WOfS ont été détectés. Les résultats de la validation doivent être interprétés avec les mises en garde suivantes :"
+
+#: 
+msgid "**Spatial resolution:** The WOfS product is based on 30 m resolution Landsat imagery while the validation data is produced using 10 m resolution Sentinel-2 imagery. WOfS has trouble in areas with mixed pixels (where a pixel covers both water and upland). These areas tend to be on edges of lakes and in wetlands where there is a mix of water and vegetation. The Sentinel-2 imagery can identify these edges at a higher resolution than the current Landsat WOfS product."
+msgstr "**Résolution spatiale:** Le produit WOfS est basé sur une imagerie Landsat de 30 m de résolution alors que les données de validation sont produites à partir d'une imagerie Sentinel-2 de 10 m de résolution. WOfS a des difficultés dans les zones avec des pixels mixtes (où un pixel couvre à la fois l'eau et la terre ferme). Ces zones se situent généralement au bord des lacs et dans les zones humides où il y a un mélange d'eau et de végétation. L'imagerie Sentinel-2 peut identifier ces bords à une résolution plus élevée que le produit WOfS actuel de Landsat."
+
+#: 
+msgid "**WOfS algorithm:** A few examples highlight how WOfS misses certain water bodies. This information is critical to improving the WOfS algorithm in future iterations. In some cases, the impact can be mitigated by using a temporal summary of WOfS. A waterbody may be missed in one date of WOfS, but over the course of the year it is mapped as water in other dates and therefore mapped as a waterbody in the annual summary."
+msgstr "**Algorithme WOfS:** Quelques exemples mettent en évidence la façon dont le WOfS rate certaines masses d'eau. Cette information est essentielle pour améliorer l'algorithme WOfS dans les itérations futures. Dans certains cas, l'impact peut être atténué en utilisant un résumé temporel du WOfS. Une masse d'eau peut être manquée à une date du WOfS, mais au cours de l'année, elle est cartographiée comme eau à d'autres dates et donc cartographiée comme masse d'eau dans le résumé annuel."
+
+#: 
+msgid "**Environmental factors:** There are some errors that are hard to correct for. Sediment, floating vegetation etc. are potentially contributing factors in this type of error by changing the colour of water and making detection hard."
+msgstr "**Facteurs environnementaux:** Certaines erreurs sont difficiles à corriger. Les sédiments, la végétation flottante, etc. sont des facteurs qui peuvent contribuer à ce type d'erreur en modifiant la couleur de l'eau et en rendant la détection difficile."
+
+#: 
+msgid "**Temporal resolution:** Reference locations may have been observed on different dates by the Sentinel-2 and the Landsat satellites. If the water extent has changed between the dates, a mismatch in the classification is expected."
+msgstr "**Résolution temporelle : ** Les lieux de référence peuvent avoir été observés à des dates différentes par les satellites Sentinel-2 et Landsat. Si l'étendue de l'eau a changé entre les deux dates, on peut s'attendre à un décalage dans la classification."
+
+#: 
+msgid "Sentinel-1 SAR Backscatter"
+msgstr "Rétrodiffusion SAR de Sentinel-1"
+
+#: 
+msgid "This dataset is expected to become available to Digital Earth Africa users in the second quarter of 2021."
+msgstr "Ce jeu de données devrait être mis à la disposition des utilisateurs de Digital Earth Africa au cours du deuxième trimestre de 2021."
+
+#: 
+msgid "The `Sentinel-1 mission <https://sentinel.esa.int/web/sentinel/missions/sentinel-1>`__, composed of a constellation of two C-band Synthetic Aperture Radar (SAR) satellites, are operated by European Space Agency (ESA) as part of the Copernicus Programme. The mission currently collects data every 12 days over Africa at a spatial resolution of approximately 20 m."
+msgstr "La mission `Sentinel-1 <https://sentinel.esa.int/web/sentinel/missions/sentinel-1>`__, composée d'une constellation de deux satellites radar à ouverture synthétique (SAR) en bande C, est exploitée par l'Agence spatiale européenne (ESA) dans le cadre du programme Copernicus. La mission collecte actuellement des données tous les 12 jours au-dessus de l'Afrique avec une résolution spatiale d'environ 20 m."
+
+#: 
+msgid "Radar backscatter measures the amount of microwave radiation reflected back to the sensor from the ground surface. This measurement is sensitive to surface roughness, moisture content and viewing geometry. DE Africa provides Sentinel-1 backscatter as Radiometrically Terrain Corrected (RTC) gamma-0 (γ0) where variation due to changing observation geometries has been mitigated."
+msgstr "La rétrodiffusion radar mesure la quantité de rayonnement micro-ondes réfléchi vers le capteur par la surface du sol. Cette mesure est sensible à la rugosité de la surface, à la teneur en humidité et à la géométrie de visée. DE Africa fournit la rétrodiffusion de Sentinel-1 sous forme de gamma-0 (γ0) radiométriquement corrigé du terrain (RTC), où la variation due aux changements de géométrie d'observation a été atténuée."
+
+#: 
+msgid "The dual polarisation backcastter time series can be used in applications for forests, agriculture, wetlands and land cover classification. SAR’s ability to ‘see through’ clouds makes it critical for mapping and monitoring land cover changes in the wet tropics."
+msgstr "Les séries chronologiques du rétrodiffuseur à double polarisation peuvent être utilisées dans des applications pour les forêts, l'agriculture, les zones humides et la classification de la couverture terrestre. La capacité du SAR à \"voir à travers\" les nuages le rend essentiel pour la cartographie et le suivi des changements de la couverture terrestre dans les zones tropicales humides."
+
+#: 
+msgid "DE Africa’s Sentinel-1 backscatter product is developed to be compliant with the `CEOS Analysis Ready Data for Land (CARD4L) <https://ceos.org/ard/>`__ specifications."
+msgstr "Le produit de rétrodiffusion Sentinel-1 de DE Africa est développé pour être conforme aux spécifications `CEOS Analysis Ready Data for Land (CARD4L) <https://ceos.org/ard/>`__."
+
+#: 
+msgid "Coverage and metadata for the Sentinel-1 backscatter can be viewed on DE Africa’s `Metadata Explorer <https://explorer.digitalearth.africa/products/s1_rtc>`__."
+msgstr "La couverture et les métadonnées de la rétrodiffusion de Sentinel-1 peuvent être consultées sur le site `Metadata Explorer <https://explorer.digitalearth.africa/products/s1_rtc>`__ de DE Africa."
+
+#: 
+msgid "**Table 1: Sentinel-1 product specifications**"
+msgstr "**Tableau 1 : Spécifications du produit Sentinel-1**."
+
+#: 
+msgid "Sentinel-1 Radiometric Terrain Corrected SAR Backscatter"
+msgstr "Rétrodiffusion SAR Sentinel-1 corrigée en fonction du terrain radiométrique"
+
+#: 
+msgid "C-SAR"
+msgstr "C-SAR"
+
+#: 
+msgid "C-band (5.405 GHz)"
+msgstr "Bande C (5,405 GHz)"
+
+#: 
+msgid "Acquisition mode"
+msgstr "Mode d'acquisition"
+
+#: 
+msgid "Interferometric Wide swath (IW)"
+msgstr "Interférométrique à large bande (IW)"
+
+#: 
+msgid "VV + VH"
+msgstr "VV + VH"
+
+#: 
+msgid "0.0002"
+msgstr "0.0002"
+
+#: 
+msgid "EPSG: 4326"
+msgstr "EPSG : 4326"
+
+#: 
+msgid "Every 12 days"
+msgstr "Tous les 12 jours"
+
+#: 
+msgid "2017-01-01 – present"
+msgstr "2017-01-01 - aujourd'hui"
+
+#: 
+msgid "`Sentinel-1 GRD <https://registry.opendata.aws/sentinel-1/>`__"
+msgstr "`Sentinel-1 GRD <https://registry.opendata.aws/sentinel-1/>`__"
+
+#: 
+msgid "**Table 2: Sentinel-1 measurements**"
+msgstr "**Tableau 2 : Mesures de Sentinel-1**."
+
+#: 
+msgid "vv"
+msgstr "vv"
+
+#: 
+msgid "Linear backscatter intensity in VV polarization"
+msgstr "Intensité de rétrodiffusion linéaire en polarisation VV"
+
+#: 
+msgid "vh"
+msgstr "vh"
+
+#: 
+msgid "Linear backscatter intensity in VH polarization"
+msgstr "Intensité de rétrodiffusion linéaire en polarisation VH"
+
+#: 
+msgid "Data mask"
+msgstr "Masque de données"
+
+#: 
+msgid "area"
+msgstr "zone"
+
+#: 
+msgid "Normalized scattering area"
+msgstr "Zone de diffusion normalisée"
+
+#: 
+msgid "angle"
+msgstr "angle"
+
+#: 
+msgid "Local incidence angle (degree)"
+msgstr "Angle d'incidence locale (degré)"
+
+#: 
+msgid "**Table 3: Sentinel-1 data mask definition**"
+msgstr "**Tableau 3 : Définition du masque de données Sentinel-1**."
+
+#: 
+msgid "Nodata"
+msgstr "Nodata"
+
+#: 
+msgid "Valid"
+msgstr "Valable"
+
+#: 
+msgid "Invalid (in/near radar shadow)"
+msgstr "Invalide (dans/près de l'ombre du radar)"
+
+#: 
+msgid "DE Africa Sentinel-1 dataset is processed by Sinergise Sentinel Hub using ESA `Sentinel-1 GRD <https://registry.opendata.aws/sentinel-1/>`__ as input. Radiometric terrain correction is applied using `Copernicus DEM <https://registry.opendata.aws/copernicus-dem/>`__, following method developed in `D. Small 2011 <https://doi.org/10.1109/TGRS.2011.2120616>`__."
+msgstr "Le jeu de données DE Africa Sentinel-1 est traité par Sinergise Sentinel Hub en utilisant le `Sentinel-1 GRD <https://registry.opendata.aws/sentinel-1/>`__ de l'ESA comme entrée. La correction radiométrique du terrain est appliquée en utilisant le `Copernicus DEM <https://registry.opendata.aws/copernicus-dem/>`__, suivant la méthode développée dans `D. Small 2011 <https://doi.org/10.1109/TGRS.2011.2120616>`__."
+
+#: 
+msgid "|397846fb2427495ab127c6ab8953decc|"
+msgstr "|397846fb2427495ab127c6ab8953decc|"
+
+#: 
+msgid "**Figure 1: Sentinel-1 false color composite over an area in Okavango Delta, Botswana.**"
+msgstr "**Figure 1 : Composite fausses couleurs de Sentinel-1 sur une zone du delta de l'Okavango, Botswana."
+
+#: 
+msgid "TBA"
+msgstr "TBA"
+
+#: 
+msgid "Small, “Flattening Gamma: Radiometric Terrain Correction for SAR Imagery,” in IEEE Transactions on Geoscience and Remote Sensing, vol. 49, no. 8, pp. 3081-3093, Aug. 2011, doi: 10.1109/TGRS.2011.2120616."
+msgstr "Small, \" Flattening Gamma : Radiometric Terrain Correction for SAR Imagery \", dans IEEE Transactions on Geoscience and Remote Sensing, vol. 49, no. 8, pp. 3081-3093, Aug. 2011, doi : 10.1109/TGRS.2011.2120616."
+
+#: 
+msgid "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View `Terms and Conditions <https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions>`__."
+msgstr "L'accès aux données Sentinel est gratuit, complet et ouvert pour la vaste communauté des utilisateurs régionaux, nationaux, européens et internationaux. Voir `Termes et conditions <https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions>`__."
+
+#: 
+msgid "DE Africa Sentinel-1 dataset is available in AWS S3, sponsored by the Public Dataset Program."
+msgstr "Le jeu de données DE Africa Sentinel-1 est disponible sur AWS S3, sponsorisé par le programme de données publiques."
+
+#: 
+msgid "**Table 4: AWS data access details.**"
+msgstr "**Tableau 4 : Détails de l'accès aux données AWS.**"
+
+#: 
+msgid "``arn:aws:s3:::deafrica-sentinel-1``"
+msgstr "``arn:aws:s3:::deafrica-sentinel-1``"
+
