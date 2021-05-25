@@ -146,6 +146,7 @@ html_context = {
 
 # Translation options
 gettext_compact = "docs"  # makes a single "docs.po" file
+gettext_location = False
 locale_dirs = ['locales/']
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
