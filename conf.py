@@ -42,7 +42,8 @@ autosummary_generate = ['sandbox/api.rst']
 autodoc_default_options = {
     'members': True,
 }
-autodoc_mock_imports = ['boto3',
+autodoc_mock_imports = ['aiohttp',
+                        'boto3',
                         'botocore',
                         'branca',
                         'dask',
@@ -51,6 +52,7 @@ autodoc_mock_imports = ['boto3',
                         'datacube_stats',
                         'dill',
                         'distutils',
+                        'fsspec',
                         'fiona',
                         'folium',
                         'geopandas',
