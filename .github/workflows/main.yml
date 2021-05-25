@@ -16,7 +16,7 @@ jobs:
       with:
         docs-folder: "./"
         pre-build-command: "apt-get update -y && apt-get install -y pandoc git && make fetchnotebooks && make buildtools"
-        build-command: "sphinx-build -b gettext . _build"
+        build-command: "sphinx-build -T -b gettext . _build"
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
