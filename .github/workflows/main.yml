@@ -25,12 +25,12 @@ jobs:
       run: ls -la ./_build
       shell: bash
     - name: CHMOD
-      run: sudo chmod a+r ./_build/docs.pot
+      run: sudo chmod a+rw ./_build/docs.pot
       shell: bash
     - name: Archive production artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: save-pot
+        name: save-docs-pot
         path: |
           ./_build/*.pot
     - name: Upload terms

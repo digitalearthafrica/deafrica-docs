@@ -1,11 +1,5 @@
 import os
-import glob
-
 from poeditor import POEditorAPI
-
-print('Contents of _build:')
-for filename in glob.iglob('./_build/' + '**/**', recursive=True):
-     print(filename)
 
 project_id = os.environ['POEDITOR_PROJECT_ID']
 api_token = os.environ['POEDITOR_API_TOKEN']
@@ -16,7 +10,7 @@ print(f"Before update, {project['name']} (id: {project['id']}) has {project['ter
 
 update_results = client.update_terms(
     project_id=project_id,
-    file_path='./_build/docs.pot'
+    file_path='_build/docs.pot'
 )
 
 terms = update_results['terms']
