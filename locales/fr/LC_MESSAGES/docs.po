@@ -569,7 +569,7 @@ msgstr "Type de données"
 
 #: 
 msgid "No data\\ :math:`^\\dagger`"
-msgstr "Pas de données... :math:`^^dagger`."
+msgstr "Pas de données\\ :math:`^\\dagger`"
 
 #: 
 msgid "HH backscatter"
@@ -781,7 +781,7 @@ msgstr "``aws s3 ls --region=af-south-1 s3://deafrica-input-datasets/``"
 
 #: 
 msgid "The file paths follow the format ``<productname>/<year>/<tile_id>/``."
-msgstr "Les chemins des fichiers suivent le format \"<<nom du produit>/<année>/<identifiant du textile>/``."
+msgstr "Les chemins des fichiers suivent le format ``<nom du produit>/<année>/<identifiant du textile>/``."
 
 #: 
 msgid "**Table 6: AWS file path convention.**"
@@ -2097,7 +2097,7 @@ msgstr "Gamme"
 
 #: 
 msgid "Conversion\\ :math:`^\\ddagger`"
-msgstr "Conversion\\ :math:`^^dagger``"
+msgstr "Conversion\\ :math:`^\\ddagger`"
 
 #: 
 msgid "SR_B1"
@@ -2645,7 +2645,7 @@ msgstr "**Figure 1 : Composites fausses couleurs Landsat (mettant en évidence l
 
 #: 
 msgid "`Water Observations from Space <https://docs.digitalearthafrica.org/en/latest/data_specs/WOfS_specs.html>`__"
-msgstr "``Observations de l'eau depuis l'espace <https://docs.digitalearthafrica.org/en/latest/data_specs/WOfS_specs.html>`___"
+msgstr "`Observations de l'eau depuis l'espace <https://docs.digitalearthafrica.org/en/latest/data_specs/WOfS_specs.html>`__"
 
 #: 
 msgid "`Landsat Collection 2 Level-2 Surface Temperature <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_ST_specs.html>`__"
@@ -2657,7 +2657,7 @@ msgstr "`Site web de la collection de l'USGS niveau 2 <https://www.usgs.gov/core
 
 #: 
 msgid "There are no restrictions on Landsat data downloaded from the USGS; it can be used or redistributed as desired. USGS request that you include a `statement of the data source <https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con>`__ when citing, copying, or reprinting USGS Landsat data or images."
-msgstr "Il n'existe aucune restriction sur les données Landsat téléchargées depuis l'USGS ; elles peuvent être utilisées ou redistribuées à volonté. L'USGS vous demande d'inclure une \"déclaration de la source des données <https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con>`__\" lorsque vous citez, copiez ou réimprimez des données ou des images Landsat de l'USGS."
+msgstr "Il n'existe aucune restriction sur les données Landsat téléchargées depuis l'USGS ; elles peuvent être utilisées ou redistribuées à volonté. L'USGS vous demande d'inclure une `déclaration de la source des données <https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con>`__ lorsque vous citez, copiez ou réimprimez des données ou des images Landsat de l'USGS."
 
 #: 
 msgid "Landsat Level- 2 Surface Reflectance Science Product courtesy of the U.S. Geological Survey."
@@ -2681,7 +2681,7 @@ msgstr "``aws s3 ls --region=af-south-1 s3://deafrica-landsat/``"
 
 #: 
 msgid "The file paths follow the format ``collection02/level-2/standard/<sensor>/<year>/<path>/<row>/<scene_id>/``."
-msgstr "Les chemins d'accès aux fichiers suivent le format \"collection02/niveau-2/standard/<sensor>/<year>/<path>/<row>/<scene_id>/``."
+msgstr "Les chemins d'accès aux fichiers suivent le format ``collection02/niveau-2/standard/<sensor>/<year>/<path>/<row>/<scene_id>/``."
 
 #: 
 msgid "**Table 9: AWS file path convention.**"
@@ -3545,7 +3545,7 @@ msgstr "|f34949ab22954688b3d46c3653cb06da|"
 
 #: 
 msgid "The `Water Observations from Space Detection Algorithm <https://github.com/GeoscienceAustralia/wofs>`__ as described in `Mueller, 2016 <https://doi.org/10.1016/j.rse.2015.11.003>`__, is applied to the Landsat data to create the available WOfS products."
-msgstr "L'algorithme de détection des observations de l'eau depuis l'espace <https://github.com/GeoscienceAustralia/wofs>`__ tel que décrit dans `Mueller, 2016 <https://doi.org/10.1016/j.rse.2015.11.003>`__, est appliqué aux données Landsat pour créer les produits WOfS disponibles."
+msgstr "`L'algorithme de détection des observations de l'eau depuis l'espace <https://github.com/GeoscienceAustralia/wofs>`__ tel que décrit dans `Mueller, 2016 <https://doi.org/10.1016/j.rse.2015.11.003>`__, est appliqué aux données Landsat pour créer les produits WOfS disponibles."
 
 #: 
 msgid "**Image 1: Tagrin Bay, Sierra Leone. WOfS All-Time Summary.**"
@@ -4089,7 +4089,7 @@ msgstr "``aws s3 ls --region=af-south-1 s3://deafrica-sentinel-1/``"
 
 #: 
 msgid "The file paths follow the format ``<product_name>/<tile_id>/<year>/<month>/<day>/<datatake_id>/``."
-msgstr "Les chemins d'accès aux fichiers suivent le format \"<<nom_du_produit>/<identification_du_toyau>/<année>/<mois>/<jour>/<identification_des_données>/``."
+msgstr "Les chemins d'accès aux fichiers suivent le format ``<nom_du_produit>/<identification_du_toyau>/<année>/<mois>/<jour>/<identification_des_données>/``."
 
 #: 
 msgid "The filenames follow the format ``<product_name>_<datatake_id>_<tile_id>_<year>_<month>_<day>_<band>.<extension>.``"
@@ -18718,4 +18718,208 @@ msgstr "Naviguez dans les couches et choisissez la couche que vous devez affiche
 #: 
 msgid "After selecting the layer click on the **Add** button at the bottom of the dialogue."
 msgstr "Après avoir sélectionné la couche, cliquez sur le bouton **Ajouter** en bas de la boîte de dialogue."
+
+#: 
+msgid "|d22a4f09e1bd4fa89bdcc8c46ff3745d|"
+msgstr ""
+
+#: 
+msgid "|355461a36f294998a993c68aa0550ef7|"
+msgstr ""
+
+#: 
+msgid "|217ae0b940274251a9f5f946ccbbb4fe|"
+msgstr ""
+
+#: 
+msgid "|df44a7df114f48f89713620b538af461|"
+msgstr ""
+
+#: 
+msgid "|bfaa195d0d9f4628abbb626327e143c0|"
+msgstr ""
+
+#: 
+msgid "|5792dd41dc814c9f8f1f17131c376f12|"
+msgstr ""
+
+#: 
+msgid "|d45d41cf23194352b2da322a6afb8c6e|"
+msgstr ""
+
+#: 
+msgid "|3192751450c44926b5bab7b4e2df9ef5|"
+msgstr ""
+
+#: 
+msgid "|ce54ed35c58547b0b4779882e0cb732f|"
+msgstr ""
+
+#: 
+msgid "|e17bb8dc055b47b3a8632fe479ebf6e8|"
+msgstr ""
+
+#: 
+msgid "|78fec80c41474d658a77d50113592e67|"
+msgstr ""
+
+#: 
+msgid "|26dedd0efc79426fab1bb6fa0b06d952|"
+msgstr ""
+
+#: 
+msgid "|543019bb854244b59d72d3a12b97644c|"
+msgstr ""
+
+#: 
+msgid "|f24787b2805d461a8cf8571102d7acdd|"
+msgstr ""
+
+#: 
+msgid "|fc85f05c89384d7b887139b29a18577a|"
+msgstr ""
+
+#: 
+msgid "|930725a75ec94eeea4f1aeedce0f06aa|"
+msgstr ""
+
+#: 
+msgid "|d3aa063d54e04df180bdc53dbfcbb2b2|"
+msgstr ""
+
+#: 
+msgid "|dffa0bf3011a422a89984a5a0e4ded25|"
+msgstr ""
+
+#: 
+msgid "|bf2a0b177543464e897b582f95a2e58c|"
+msgstr ""
+
+#: 
+msgid "|4696198ad04d473e9456dccb79a131fd|"
+msgstr ""
+
+#: 
+msgid "|4483ae5e31454199ad0afa72fa77a4f9|"
+msgstr ""
+
+#: 
+msgid "|490373415dd94b118ea8e31fe4d09093|"
+msgstr ""
+
+#: 
+msgid "|a20d1a3a248b41bb82c58d74ff6509a8|"
+msgstr ""
+
+#: 
+msgid "|c439c2d166e74696a46b50a1de73def0|"
+msgstr ""
+
+#: 
+msgid "|6bbd2412dde24f4e8abb2d1390c5b35b|"
+msgstr ""
+
+#: 
+msgid "|f830f216eb2c4727a383d742d4c6094b|"
+msgstr ""
+
+#: 
+msgid "|fd72c761820c4f03aea347c8e588b5fc|"
+msgstr ""
+
+#: 
+msgid "|966b8579dd18424a975541e5b425542e|"
+msgstr ""
+
+#: 
+msgid "ALOS/ALOS-2 PALSAR/PALSAR-2 Annual Mosaics |8caeebbe97ce428f912cbc570609dddd|"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Reflectance |e6c7b9cd93ac4b39937da7b8125b5108|"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Temperature |240d3a82c2794ae7b309f2e507420598|"
+msgstr ""
+
+#: 
+msgid "Sentinel-1 |6ff1d033b39e4938b481636278596dd7|"
+msgstr ""
+
+#: 
+msgid "Sentinel-2 |d72dd2046da94cad972a731910fb64c1|"
+msgstr ""
+
+#: 
+msgid "Water Observations from Space (WOfS) |80d7f428e1ad43c7bf81f4de6494c8cc|"
+msgstr ""
+
+#: 
+msgid "Displaying satellite imagery on a web map |11f84f605f1242c6a928728c303a6042|"
+msgstr ""
+
+#: 
+msgid "Rasterising vectors & vectorising rasters |7a387176226e42a5a22aaca9299c6ae0|"
+msgstr ""
+
+#: 
+msgid "|b4f2a9e52085429584ad6f8c7bd3f8d4|"
+msgstr ""
+
+#: 
+msgid "Inspecting training data |44399038e37347beb306621792716b4f|"
+msgstr ""
+
+#: 
+msgid "Evaluate, optimize, and fit a classifier |c4741fa8bbbb4a38a58b9f4b52d928d0|"
+msgstr ""
+
+#: 
+msgid "|13ad5efaa6af46f6b54034212e9ca48e|"
+msgstr ""
+
+#: 
+msgid "|fda7521336924a95a5c5e88e8cb76e09|"
+msgstr ""
+
+#: 
+msgid "Classifying satellite data |4e2c58d71b49457ca0c97fe534cac767|"
+msgstr ""
+
+#: 
+msgid "Object-based filtering of pixel classifications |473f5a1e52424646acedc005751361f2|"
+msgstr ""
+
+#: 
+msgid "|605d17cabf2349e3a228ac0b51e74de3|"
+msgstr ""
+
+#: 
+msgid "|60b71472ddef42a28bb57c2882a32daf|"
+msgstr ""
+
+#: 
+msgid "|160c32873bae47bea70fe2f7e16495f1|"
+msgstr ""
+
+#: 
+msgid "|8f9741ad805d412fa91af10eceabf45f|"
+msgstr ""
+
+#: 
+msgid "|4b0bf90fcc904fc8b81a485f011d6491|"
+msgstr ""
+
+#: 
+msgid "|4a56a53827fe44309e69358453829270|"
+msgstr ""
+
+#: 
+msgid "|0361b4620a1b45d6904e5c885c14011b|"
+msgstr ""
+
+#: 
+msgid "|114fb00205cb4780bf403dfdfc863779|"
+msgstr ""
 
