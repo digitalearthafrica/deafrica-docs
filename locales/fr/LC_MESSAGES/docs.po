@@ -21,7 +21,7 @@ msgstr "Si vous avez besoin d'aide pour le code ou d'autres questions techniques
 
 #: 
 msgid "You can also view `previous asked questions <https://gis.stackexchange.com/questions/tagged/open-data-cube>`_"
-msgstr "Vous pouvez également consulter les `premières questions posées <https://gis.stackexchange.com/questions/tagged/open-data-cube>`_."
+msgstr "Vous pouvez également consulter les `premières questions posées <https://gis.stackexchange.com/questions/tagged/open-data-cube>`_"
 
 #: 
 msgid "To talk to the DE Africa community, please join the `Open Data Cube Slack <http://slack.opendatacube.org/>`_, and join the ``#de-africa`` channel."
@@ -301,7 +301,7 @@ msgstr "STAC"
 
 #: 
 msgid "The SpatioTemporal Asset Catalog (STAC) is a specification that provides a common language to describe a range of geospatial information, so it can more easily be indexed and discovered. A 'spatiotemporal asset' is any file that represents information about the earth captured in a certain space and time. See https://stacspec.org/."
-msgstr "Le SpatioTemporal Asset Catalog (STAC) est une spécification qui fournit un langage commun pour décrire une gamme d'informations géospatiales, afin qu'elles puissent être plus facilement indexées et découvertes. Un \"bien spatio-temporel\" est un fichier qui représente des informations sur la terre capturées dans un certain espace et temps. Voir https://stacspec.org/."
+msgstr "Le SpatioTemporal Asset Catalog (STAC) est une spécification qui fournit un langage commun pour décrire une gamme d'informations géospatiales, afin qu'elles puissent être plus facilement indexées et découvertes. Un 'bien spatio-temporel' est un fichier qui représente des informations sur la terre capturées dans un certain espace et temps. Voir https://stacspec.org/."
 
 #: 
 msgid "USGS"
@@ -401,7 +401,7 @@ msgstr "Ces données en mosaïque font partie d'un ensemble de données mondiale
 
 #: 
 msgid "For more information on the product, see https://www.eorc.jaxa.jp/ALOS/en/palsar_fnf/fnf_index.htm"
-msgstr "Pour plus d'informations sur le produit, voir https://www.eorc.jaxa.jp/ALOS/en/palsar_fnf/fnf_index.htm."
+msgstr "Pour plus d'informations sur le produit, voir https://www.eorc.jaxa.jp/ALOS/en/palsar_fnf/fnf_index.htm"
 
 #: 
 msgid "Specifications"
@@ -421,7 +421,7 @@ msgstr "`JERS-1 Mosaic <https://explorer.digitalearth.africa/products/jers_sar_m
 
 #: 
 msgid "**Table 1: SAR annual mosaic product specifications**"
-msgstr "**Tableau 1 : Spécifications des produits de la mosaïque annuelle SAR**."
+msgstr "**Tableau 1 : Spécifications des produits de la mosaïque annuelle SAR**"
 
 #: 
 msgid "Satellite"
@@ -549,11 +549,11 @@ msgstr "2015 - 2018"
 
 #: 
 msgid "More information about the dataset can be found in the `dataset description document <https://www.eorc.jaxa.jp/ALOS/en/palsar_fnf/DatasetDescription_PALSAR2_Mosaic_FNF_revI.pdf>`__"
-msgstr "Plus d'informations sur l'ensemble de données peuvent être trouvées dans le document `dataset description <https://www.eorc.jaxa.jp/ALOS/en/palsar_fnf/DatasetDescription_PALSAR2_Mosaic_FNF_revI.pdf>`__."
+msgstr "Plus d'informations sur l'ensemble de données peuvent être trouvées dans le document `dataset description <https://www.eorc.jaxa.jp/ALOS/en/palsar_fnf/DatasetDescription_PALSAR2_Mosaic_FNF_revI.pdf>`__"
 
 #: 
 msgid "**Table 2: ALOS/ALOS-2 annual mosaic measurements**"
-msgstr "**Tableau 2 : Mesures annuelles de la mosaïque ALOS/ALOS-2**."
+msgstr "**Tableau 2 : Mesures annuelles de la mosaïque ALOS/ALOS-2**"
 
 #: 
 msgid "Band ID"
@@ -701,7 +701,7 @@ msgstr "|f1872e9d07694bb3a7d248066741ca54|"
 
 #: 
 msgid "**Figure 1: ALOS false color composites (HH, HV, HV/HH) over an area near Cairo, Egypt, showing changes in crop pattern from year to year.**"
-msgstr "**Figure 1 : Composites fausses couleurs ALOS (HH, HV, HV/HH) au-dessus d'une zone proche du Caire, en Egypte, montrant les changements dans la configuration des cultures d'une année sur l'autre."
+msgstr "**Figure 1 : Composites fausses couleurs ALOS (HH, HV, HV/HH) au-dessus d'une zone proche du Caire, en Egypte, montrant les changements dans la configuration des cultures d'une année sur l'autre.**"
 
 #: 
 msgid "Related services"
@@ -805,7 +805,7 @@ msgstr "Nom du produit, \"alos_palsar_mosaic\" ou \"jers_sar_mosaic\"."
 
 #: 
 msgid "``alos_palsar_mosaic``"
-msgstr "``alos_palsar_mosaique``"
+msgstr "``alos_palsar_mosaic``"
 
 #: 
 msgid "``year``"
@@ -897,7 +897,7 @@ msgstr "Les produits Landsat Collection 2 Level-2 sont accessibles par l'API ODC
 
 #: 
 msgid "**ODC product names:** ``alos_palsar_mosaic``, ``jers_sar_mosaic``"
-msgstr "**Noms de produits **ODC : \"Alos_palsar_mosaique\", \"Jers_sar_mosaique\"."
+msgstr "**Noms de produits ODC** : ``alos_palsar_mosaic``, ``jers_sar_mosaic``"
 
 #: 
 msgid "Specific bands of data can be called by using either the default names or any of a band’s alternative names, as listed in the table below. ODC ``Datacube.load`` commands without specified bands will load all bands."
@@ -957,7 +957,7 @@ msgstr "Correction radiométrique du terrain"
 
 #: 
 msgid "See relevant section in the `Sentinel-1 SAR backscatter product specification <https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-1_specs.html#Radiometric-terrain-correction>`__."
-msgstr "Voir la section pertinente dans la spécification du produit de rétrodiffusion SAR de Sentinel-1 <https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-1_specs.html#Radiometric-terrain-correction>`__."
+msgstr "Voir la section pertinente dans la spécification du produit de `rétrodiffusion SAR de Sentinel-1 <https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-1_specs.html#Radiometric-terrain-correction>`__."
 
 #: 
 msgid "Sentinel-2 Annual GeoMAD"
@@ -1261,7 +1261,7 @@ msgstr "|c68cd55e2dde4477adeb84dbe2e6d9cd|"
 
 #: 
 msgid "`Sentinel-2 Level-2A <https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-2_Level-2A_specs.html>`__"
-msgstr "`Sentinel-2 Niveau-2A <https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-2_Level-2A_specs.html>`___."
+msgstr "`Sentinel-2 Niveau-2A <https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-2_Level-2A_specs.html>`__"
 
 #: 
 msgid "`Landsat 8 Annual Geomedian 2018 <https://explorer.digitalearth.africa/products/ga_ls8c_gm_2_annual/extents>`__"
@@ -3117,7 +3117,7 @@ msgstr "Le produit de la température de surface est fourni avec un échantillon
 
 #: 
 msgid "**Table 11: Landsat thermal sensors specification.**"
-msgstr "**Tableau 11 : Spécifications des capteurs thermiques Landsat."
+msgstr "**Tableau 11 : Spécifications des capteurs thermiques Landsat.**"
 
 #: 
 msgid "Sensor"
@@ -3327,7 +3327,8 @@ msgstr "Les résumés WOfS sont calculés comme le rapport entre les observation
 msgid "\\text{WOfS Summary} = \\frac{\\text{Number of Wet Observations}}{\\text{Number of (Wet + Dry) Observations}} \\times 100\n"
 "\n"
 ""
-msgstr "\\text{WOfS Summary} = \\frac{\\text{Number of Wet Observations}{\\text{Number of (Wet + Dry) Observations}} \\times 100\n"
+msgstr "\\text{WOfS Summary} = \\frac{\\text{Number of Wet Observations}}{\\text{Number of (Wet + Dry) Observations}} \\times 100\n"
+"\n"
 "\n"
 ""
 
@@ -3337,15 +3338,15 @@ msgstr "Plusieurs jeux de données sont disponibles dans le cadre de la suite WO
 
 #: 
 msgid "`WOFLs <https://explorer.digitalearth.africa/products/ga_ls8c_wofs_2>`__"
-msgstr "`WOFLs <https://explorer.digitalearth.africa/products/ga_ls8c_wofs_2>`___"
+msgstr "`WOFLs <https://explorer.digitalearth.africa/products/ga_ls8c_wofs_2>`__"
 
 #: 
 msgid "`WOfS Annual Summary <https://explorer.digitalearth.africa/products/ga_ls8c_wofs_2_annual_summary>`__"
-msgstr "`WOfS Annual Summary <https://explorer.digitalearth.africa/products/ga_ls8c_wofs_2_annual_summary>`___"
+msgstr "`WOfS Annual Summary <https://explorer.digitalearth.africa/products/ga_ls8c_wofs_2_annual_summary>`__"
 
 #: 
 msgid "`WOfS All-Time Summary <https://explorer.digitalearth.africa/products/ga_ls8c_wofs_2_summary>`__"
-msgstr "`WOfS All-Time Summary <https://explorer.digitalearth.africa/products/ga_ls8c_wofs_2_summary>`___"
+msgstr "`WOfS All-Time Summary <https://explorer.digitalearth.africa/products/ga_ls8c_wofs_2_summary>`__"
 
 #: 
 msgid "WOfS Feature Layer"
@@ -3985,7 +3986,7 @@ msgstr "|397846fb2427495ab127c6ab8953decc|"
 
 #: 
 msgid "**Figure 1: Sentinel-1 false color composite over an area in Okavango Delta, Botswana.**"
-msgstr "**Figure 1 : Composite fausses couleurs de Sentinel-1 sur une zone du delta de l'Okavango, Botswana."
+msgstr "**Figure 1 : Composite fausses couleurs de Sentinel-1 sur une zone du delta de l'Okavango, Botswana.**"
 
 #: 
 msgid "TBA"
@@ -4093,7 +4094,7 @@ msgstr "Les chemins d'accès aux fichiers suivent le format ``<nom_du_produit>/<
 
 #: 
 msgid "The filenames follow the format ``<product_name>_<datatake_id>_<tile_id>_<year>_<month>_<day>_<band>.<extension>.``"
-msgstr "Les noms de fichiers suivent le format \"<<nom_du_produit>_<datake_id>_<tile_id>_<year>_<month>_<day>_<band>.<extension>.``"
+msgstr "Les noms de fichiers suivent le format ``<nom_du_produit>_<datake_id>_<tile_id>_<year>_<month>_<day>_<band>.<extension>.``"
 
 #: 
 msgid "**Table 5: AWS file path and name convention.**"
@@ -4405,7 +4406,7 @@ msgstr "Les valeurs de réflectance de surface sont mises à l'échelle entre ``
 
 #: 
 msgid "**Quality assurance — 3 bands:** The Sentinel-2 Level-2A product also includes three auxilary data bands which are used to improve the accuracy of surface reflectance-derived products. These corrections were applied as part of the Sen2Cor conversion from Level-1C (top-of-atmosphere) to Level-2A (bottom-of-atmosphere) data."
-msgstr "**Assurance qualité - 3 bandes : Le produit Sentinel-2 de niveau 2A comprend également trois bandes de données auxiliaires utilisées pour améliorer la précision des produits dérivés de la réflectance de surface. Ces corrections ont été appliquées dans le cadre de la conversion Sen2Cor des données de niveau 1C (sommet de l'atmosphère) en données de niveau 2A (fond de l'atmosphère)."
+msgstr "**Assurance qualité - 3 bandes :** Le produit Sentinel-2 de niveau 2A comprend également trois bandes de données auxiliaires utilisées pour améliorer la précision des produits dérivés de la réflectance de surface. Ces corrections ont été appliquées dans le cadre de la conversion Sen2Cor des données de niveau 1C (sommet de l'atmosphère) en données de niveau 2A (fond de l'atmosphère)."
 
 #: 
 msgid "Scene Classification Layer (``SCL``) distinguishes between cloudy, clear and water pixels. The algorithm identifies areas as clouds, snow, cloud shadows, vegetation, bare soil and water. The resulting SCL is used for cirrus cloud correction in the processing chain. It is also commonly applied in further analysis as a cloud mask, which removes unwanted cloudy pixels from the multispectral observations. SCL bit values are defined in Table 3."
@@ -5105,7 +5106,7 @@ msgstr "D'autres types de données spatiales standard, tels que GeoJSON et KML, 
 
 #: 
 msgid "`Upload Location <http://www.youtube.com/watch?v=XKP90TcBq6A>`__"
-msgstr "`L'emplacement du téléchargement <http://www.youtube.com/watch?v=XKP90TcBq6A>`___."
+msgstr "`L'emplacement du téléchargement <http://www.youtube.com/watch?v=XKP90TcBq6A>`__"
 
 #: 
 msgid "Access"
@@ -7781,11 +7782,11 @@ msgstr "**Jupyter Notebooks (ce carnet)**."
 
 #: 
 msgid "`Products and Measurements <02_Products_and_measurements.ipynb>`__"
-msgstr "`Produits et mesures <02_Produits_et_mesures.ipynb>___."
+msgstr "`Produits et mesures <02_Produits_et_mesures.ipynb>__"
 
 #: 
 msgid "`Loading data <03_Loading_data.ipynb>`__"
-msgstr "`Loading data <03_Loading_data.ipynb>`___."
+msgstr "`Loading data <03_Loading_data.ipynb>`__"
 
 #: 
 msgid "`Plotting <04_Plotting.ipynb>`__"
@@ -7797,15 +7798,15 @@ msgstr "`Performing a basic analysis <05_Basic_analysis.ipynb>`__"
 
 #: 
 msgid "`Introduction to numpy <06_Intro_to_numpy.ipynb>`__"
-msgstr "`Introduction à numpy <06_Intro_to_numpy.ipynb>`___."
+msgstr "`Introduction à numpy <06_Intro_to_numpy.ipynb>`__"
 
 #: 
 msgid "`Introduction to xarray <07_Intro_to_xarray.ipynb>`__"
-msgstr "`Introduction à xarray <07_Intro_to_xarray.ipynb>`___."
+msgstr "`Introduction à xarray <07_Intro_to_xarray.ipynb>`__"
 
 #: 
 msgid "`Parallel processing with Dask <08_Parallel_processing_with_dask.ipynb>`__"
-msgstr "`Traitement parallèle avec Dask <08_Parallel_processing_with_dask.ipynb>`___."
+msgstr "`Traitement parallèle avec Dask <08_Parallel_processing_with_dask.ipynb>`__"
 
 #: 
 msgid "Once you have you have completed the above six tutorials, join advanced users in exploring:"
@@ -7845,7 +7846,7 @@ msgstr "Introduction aux produits et aux mesures"
 
 #: 
 msgid "**Products used:** `ls8_sr <https://explorer.digitalearth.africa/products/ls8_sr/extents>`__"
-msgstr "**Produits utilisés:** `ls8_sr <https://explorer.digitalearth.africa/products/ls8_sr/extents>`___."
+msgstr "**Produits utilisés:** `ls8_sr <https://explorer.digitalearth.africa/products/ls8_sr/extents>`__"
 
 #: 
 msgid "**Prerequisites:** Users of this notebook should have a basic understanding of:"
@@ -7853,7 +7854,7 @@ msgstr "**Prérequis:** Les utilisateurs de ce cahier doivent avoir une compréh
 
 #: 
 msgid "How to run a `Jupyter notebook <01_Jupyter_notebooks.ipynb>`__"
-msgstr "Comment exécuter un `notebook Jupyter <01_Jupyter_notebooks.ipynb>`___."
+msgstr "Comment exécuter un `notebook Jupyter <01_Jupyter_notebooks.ipynb>`__"
 
 #: 
 msgid "**Keywords** :index:`beginner's guide; products`, :index:`beginner's guide; measurements`, :index:`products; beginner's guide`, :index:`measurements; beginner's guide`, :index:`data used; landsat 8`"
@@ -7973,7 +7974,7 @@ msgstr "L'utilitaire ne peut visualiser qu'un nombre limité de jeux de données
 
 #: 
 msgid "`Jupyter Notebooks <01_Jupyter_notebooks.ipynb>`__"
-msgstr "`Jupyter Notebooks <01_Jupyter_notebooks.ipynb>`___."
+msgstr "`Jupyter Notebooks <01_Jupyter_notebooks.ipynb>`__"
 
 #: 
 msgid "**Products and measurements (this notebook)**"
@@ -7993,7 +7994,7 @@ msgstr "**Produits utilisés:** `gm_s2_annuel <https://explorer.digitalearth.afr
 
 #: 
 msgid "Inspecting available `DE Africa products and measurements <02_Products_and_measurements.ipynb>`__"
-msgstr "Inspecter les produits et mesures `DE Africa disponibles <02_Produits_et_mesures.ipynb>`___."
+msgstr "Inspecter les produits et mesures `DE Africa disponibles <02_Produits_et_mesures.ipynb>`__"
 
 #: 
 msgid "**Keywords** :index:`beginner's guide; loading data`, :index:`loading data; beginner's guide`, :index:`data used; landsat 8 geomedian`, :index:`data used; WOfS`, :index:`data methods; resampling` :index:`data methods; reprojecting`, :index:`data attributes; coordinate reference system`"
@@ -8369,7 +8370,7 @@ msgstr "Introduction au traçage"
 
 #: 
 msgid "**Products used:** `ls8_sr <https://explorer.digitalearth.africa/ls8_sr>`__"
-msgstr "**Produits utilisés:** `ls8_sr <https://explorer.digitalearth.africa/ls8_sr>`___."
+msgstr "**Produits utilisés:** `ls8_sr <https://explorer.digitalearth.africa/ls8_sr>`__"
 
 #: 
 msgid "How to `load data from DE Africa <03_Loading_data.ipynb>`__"
@@ -8609,7 +8610,7 @@ msgstr "Par exemple, en spécifiant ``percentile_stretch=[0.05, 0.95]``, les 5% 
 
 #: 
 msgid "`Loading data (this notebook) <03_Loading_data.ipynb>`__"
-msgstr "Chargement des données (ce cahier) <03_Loading_data.ipynb>___."
+msgstr "Chargement des données (ce cahier) <03_Loading_data.ipynb>__"
 
 #: 
 msgid "**Plotting (this notebook)**"
@@ -8629,7 +8630,7 @@ msgstr "**Prérequis** : Les utilisateurs de ce cahier doivent avoir une compré
 
 #: 
 msgid "How to `plot loaded data <04_Plotting.ipynb>`__"
-msgstr "Comment `tracer les données chargées <04_Plotting.ipynb>`___."
+msgstr "Comment `tracer les données chargées <04_Plotting.ipynb>`__"
 
 #: 
 msgid "**Keywords**: :index:`beginner's guide; analysis`, :index:`analysis; beginner's guide`, :index:`data used; landsat 8`, :index:`band index; NDVI`, :index:`data methods; exporting`"
@@ -8909,7 +8910,7 @@ msgstr "Introduction à Numpy"
 
 #: 
 msgid "How to run a `Jupyter notebook <01_jupyter_notebooks.ipynb>`__"
-msgstr "Comment faire fonctionner un `Jupyter notebook <01_jupyter_notebooks.ipynb>`___."
+msgstr "Comment faire fonctionner un `Jupyter notebook <01_jupyter_notebooks.ipynb>`__"
 
 #: 
 msgid "**Keywords** :index:`beginner's guide; numpy`, :index:`python package; numpy`, :index:`python package; matplotlib`"
@@ -9169,7 +9170,7 @@ msgstr "Introduction à xarray"
 
 #: 
 msgid "How to work with `numpy <06_Intro_to_numpy.ipynb>`__"
-msgstr "Comment travailler avec `numpy <06_Intro_to_numpy.ipynb>`___."
+msgstr "Comment travailler avec `numpy <06_Intro_to_numpy.ipynb>`__"
 
 #: 
 msgid "``Xarray`` is a python library which simplifies working with labelled multi-dimension arrays. ``Xarray`` introduces labels in the forms of dimensions, coordinates and attributes on top of raw ``numpy`` arrays, allowing for more intitutive and concise development. More information about ``xarray`` data structures and functions can be found `here <http://xarray.pydata.org/en/stable/>`__."
@@ -9293,7 +9294,7 @@ msgstr "**Produits utilisés:** `gm_s2_annual <https://explorer.digitalearth.afr
 
 #: 
 msgid "How to `run a basic analysis <05_Basic_analysis.ipynb>`__"
-msgstr "Comment `exécuter une analyse de base <05_Basic_analysis.ipynb>`___."
+msgstr "Comment `exécuter une analyse de base <05_Basic_analysis.ipynb>`__"
 
 #: 
 msgid "**Keywords** :index:`beginner's guide; parallel processing`, :index:`parallel processing; dask`, :index:`parallel processing; beginner's guide`, :index:`data used; landsat 8 geomedian`, :index:`python package; dask`"
@@ -9657,7 +9658,7 @@ msgstr "Mosaïques annuelles ALOS/ALOS-2 PALSAR/PALSAR-2 |91d7076732504255b94ad8
 
 #: 
 msgid "**Products used:** `alos_palsar_mosaic <https://explorer.digitalearth.africa/products/alos_palsar_mosaic>`__, `jers_sar_mosaic <https://explorer.digitalearth.africa/products/jers_sar_mosaic>`__"
-msgstr "**Produits utilisés:** `alos_palsar_mosaique <https://explorer.digitalearth.africa/products/alos_palsar_mosaic>`__, `jers_sar_mosaique <https://explorer.digitalearth.africa/products/jers_sar_mosaic>`__"
+msgstr "**Produits utilisés:** `alos_palsar_mosaic <https://explorer.digitalearth.africa/products/alos_palsar_mosaic>`__, `jers_sar_mosaic <https://explorer.digitalearth.africa/products/jers_sar_mosaic>`__"
 
 #: 
 msgid "**Keywords** :index:`data used; ALOS PALSAR`, :index:`data used; ALOS-2 PALSAR-2`, :index:`datasets; ALOS/ALOS-2 PALSAR/PALSAR-2`, :index:`data used; JERS SAR`, :index:`datasets; JERS SAR`, index:`SAR`"
@@ -9837,7 +9838,7 @@ msgstr "Données climatiques grillées de l'ERA5"
 
 #: 
 msgid "**Products used:** `ERA5 <https://registry.opendata.aws/ecmwf-era5/>`__"
-msgstr "**Produits utilisés:** `ERA5 <https://registry.opendata.aws/ecmwf-era5/>`___."
+msgstr "**Produits utilisés:** `ERA5 <https://registry.opendata.aws/ecmwf-era5/>`__"
 
 #: 
 msgid "This dataset is external to the Digital Earth Africa platform."
@@ -16389,15 +16390,15 @@ msgstr "Pour commencer à travailler sur les notebooks de ce workflow \"Scalable
 
 #: 
 msgid "`Extract_training_data <1_Extract_training_data.ipynb>`__"
-msgstr "`Extrait_training_data <1_Extract_training_data.ipynb>`___."
+msgstr "`Extrait_training_data <1_Extract_training_data.ipynb>`__"
 
 #: 
 msgid "`Inspect_training_data <2_Inspect_training_data.ipynb>`__"
-msgstr "`Inspect_training_data <2_Inspect_training_data.ipynb>`___."
+msgstr "`Inspect_training_data <2_Inspect_training_data.ipynb>`__"
 
 #: 
 msgid "`Evaluate_optimize_fit_classifier <3_Evaluate_optimize_fit_classifier.ipynb>`__"
-msgstr "`Evaluate_optimize_fit_classifier <3_Evaluate_optimize_fit_classifier.ipynb>`___."
+msgstr "`Evaluate_optimize_fit_classifier <3_Evaluate_optimize_fit_classifier.ipynb>`__"
 
 #: 
 msgid "`Classify_satellite_data <4_Classify_satellite_data.ipynb>`__"
@@ -16725,7 +16726,7 @@ msgstr "Pour continuer à travailler sur les notebooks de ce flux de travail \"A
 
 #: 
 msgid "`Extracting_training_data <1_Extract_training_data.ipynb>`__"
-msgstr "Extraction des données d'entraînement <1_Extraction des données d'entraînement.ipynb>___."
+msgstr "Extraction des données d'entraînement <1_Extraction des données d'entraînement.ipynb>__"
 
 #: 
 msgid "**Inspect_training_data (this notebook)**"
@@ -18921,5 +18922,213 @@ msgstr ""
 
 #: 
 msgid "|114fb00205cb4780bf403dfdfc863779|"
+msgstr ""
+
+#: 
+msgid "|f346e1da88d640a085d7fadd1cdc175c|"
+msgstr ""
+
+#: 
+msgid "|c04f9fc9b44148feb8832937f98f3232|"
+msgstr ""
+
+#: 
+msgid "|359e791e60c3422593278f230de5e738|"
+msgstr ""
+
+#: 
+msgid "|9f8b15fc741345349e307447eef9d73b|"
+msgstr ""
+
+#: 
+msgid "|ab866b2c4d5d4373a88b33d43c4e83f5|"
+msgstr ""
+
+#: 
+msgid "|161cd6edab1d43549272a8574007a36b|"
+msgstr ""
+
+#: 
+msgid "|ccd834f2b941423ca2bf1e325132eb2b|"
+msgstr ""
+
+#: 
+msgid "|51835535e0cb4c5d9d5995ca914e9592|"
+msgstr ""
+
+#: 
+msgid "|b2ff773332fe49e1a67a24b2eaf08f54|"
+msgstr ""
+
+#: 
+msgid "For Landsat 8, aerosol retrieval information that may have impacted the product is provided in a SR_Aerosol_QA band. The default “Aerosol Level” is Climatology (00), which means no aerosol correction was applied. Pixels with an “Aerosol Level” classified as high are not recommended for use."
+msgstr "Pour Landsat 8, les informations de récupération des aérosols qui ont pu avoir un impact sur le produit sont fournies dans une bande SR_Aerosol_QA. Le \"Niveau d'aérosol\" par défaut est Climatologie (00), ce qui signifie qu'aucune correction d'aérosol n'a été appliquée. Il n'est pas recommandé d'utiliser des pixels dont le \"niveau d'aérosol\" est élevé."
+
+#: 
+msgid "|f3895ae2e2d0477cb6b9841adb3c31dc|"
+msgstr ""
+
+#: 
+msgid "|51ba8404af9142aeb9710138211b826c|"
+msgstr ""
+
+#: 
+msgid "|773492d994474399b221acf2778cb69d|"
+msgstr ""
+
+#: 
+msgid "|c0183bd2525b438fb38cffab7c8f63c3|"
+msgstr ""
+
+#: 
+msgid "|83f706c4874b4b2f810563fe2f828d73|"
+msgstr ""
+
+#: 
+msgid "|c8656e9f79db49719f9b8df7cd5d02b1|"
+msgstr ""
+
+#: 
+msgid "|823f90a248e041fbb65547b4d60ebb80|"
+msgstr ""
+
+#: 
+msgid "|4768e43f59ac4148a3bd793ef11ba330|"
+msgstr ""
+
+#: 
+msgid "|a6e07ba763984b948aa51ffffb7dae1d|"
+msgstr ""
+
+#: 
+msgid "|b3a2e93467594fa19a30d1fd92b6fdcd|"
+msgstr ""
+
+#: 
+msgid "|1dde61aaa2a94e22834b355da9371165|"
+msgstr ""
+
+#: 
+msgid "|76d8d64c028e43dd8e84ca87ea55eec9|"
+msgstr ""
+
+#: 
+msgid "|c657718fdcce496cacafdc82484eb465|"
+msgstr ""
+
+#: 
+msgid "|a7061f5b3a174c29bbd61292b8b2d8ef|"
+msgstr ""
+
+#: 
+msgid "|47d8dc5edee14b5d85e841f2dd3aaad2|"
+msgstr ""
+
+#: 
+msgid "|630d6460ef3e47b2b8fc70da11c4ccc9|"
+msgstr ""
+
+#: 
+msgid "|8b811a4895744c0fa1aea9873d40fea3|"
+msgstr ""
+
+#: 
+msgid "|f8a1425ba04a4285809a693685f74589|"
+msgstr ""
+
+#: 
+msgid "|fcbfb44ff5a04669824cb60643de9eb5|"
+msgstr ""
+
+#: 
+msgid "ALOS/ALOS-2 PALSAR/PALSAR-2 Annual Mosaics |0a9169a9f25540c19a66e5f9f9fe2976|"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Reflectance |d0bb054494724d5ca871b2204afda862|"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Temperature |678ee883b3d047b9bef6fe44d61a094a|"
+msgstr ""
+
+#: 
+msgid "Sentinel-1 |2a97eba4ef114f42b8dffb8bc0e9a61a|"
+msgstr ""
+
+#: 
+msgid "Sentinel-2 |2055218fd184433c8dd65b94906598a4|"
+msgstr ""
+
+#: 
+msgid "Water Observations from Space (WOfS) |a391a0e9e4ed478ba2882abfdcdb82f5|"
+msgstr ""
+
+#: 
+msgid "Displaying satellite imagery on a web map |9bec4f8c57d245008b57294d61318735|"
+msgstr ""
+
+#: 
+msgid "Rasterising vectors & vectorising rasters |03f00902ef134efc81b200933f5948ec|"
+msgstr ""
+
+#: 
+msgid "|fdc11639f71b41a3b4dad955a5a421c8|"
+msgstr ""
+
+#: 
+msgid "Inspecting training data |6c3b927710334407af8ada405307a597|"
+msgstr ""
+
+#: 
+msgid "Evaluate, optimize, and fit a classifier |69ceaf574c3648f9ba4ce10de0696d1f|"
+msgstr ""
+
+#: 
+msgid "|77f5d6a70ee84a9ea10a99c940a27cd6|"
+msgstr ""
+
+#: 
+msgid "|32856fa05423485297b7eebd9a892012|"
+msgstr ""
+
+#: 
+msgid "Classifying satellite data |183d528ad9e74471a166a5f24b94c114|"
+msgstr ""
+
+#: 
+msgid "Object-based filtering of pixel classifications |0a9c8affcbea43f5ba868222e2301635|"
+msgstr ""
+
+#: 
+msgid "|2e730141239b467cad1f94c8501b21ad|"
+msgstr ""
+
+#: 
+msgid "|0a4a32b7103142a686fbd36f6175229b|"
+msgstr ""
+
+#: 
+msgid "|a9ea063a4a714c6690163a212ab45886|"
+msgstr ""
+
+#: 
+msgid "|adec4b16dec547d6952dec99e092d00b|"
+msgstr ""
+
+#: 
+msgid "|5edf642bfa1343ad982b6d11144e0b8f|"
+msgstr ""
+
+#: 
+msgid "|70596c5779bd4cfa8503449c36f101d2|"
+msgstr ""
+
+#: 
+msgid "|9fe204f0540a46f09366e0bebb381e09|"
+msgstr ""
+
+#: 
+msgid "|2cbdb757ed9e4a80985628c45bf8a21e|"
 msgstr ""
 
