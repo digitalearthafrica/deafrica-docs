@@ -21,7 +21,7 @@ help:
 
 fetchnotebooks:
 	[ -d sandbox/notebooks ] || git clone https://github.com/digitalearthafrica/deafrica-sandbox-notebooks.git sandbox/notebooks
-	cd sandbox/notebooks && git checkout minty-fresh-sandbox && git reset --hard origin/minty-fresh-sandbox && git pull
+	cd sandbox/notebooks && git checkout master && git reset --hard origin/master && git pull
 
 buildtools:
 	cd sandbox/notebooks/Tools && pip install . --no-dependencies
