@@ -19132,3 +19132,615 @@ msgstr ""
 msgid "|2cbdb757ed9e4a80985628c45bf8a21e|"
 msgstr ""
 
+#: 
+msgid "|146ab0df37f64694a17af44fa948e0e3|"
+msgstr ""
+
+#: 
+msgid "|1fdb75ed647f4e57bb71e5d08ea31102|"
+msgstr ""
+
+#: 
+msgid "|736273da2e0f45518e17e88b26ddcbc8|"
+msgstr ""
+
+#: 
+msgid "|c53c51847a9c4c22a0bca21692b4a276|"
+msgstr ""
+
+#: 
+msgid "|c4a90f51ded24dad886060528fd01769|"
+msgstr ""
+
+#: 
+msgid "|cb19612fa8364eccbd2ed23d975f9108|"
+msgstr ""
+
+#: 
+msgid "|bc8ecfedf7ff442fae7d85c0933eb8da|"
+msgstr ""
+
+#: 
+msgid "|594a44f0295e40a38ca8a94ff23c161b|"
+msgstr ""
+
+#: 
+msgid "|fa55913df34943d18760d54496205071|"
+msgstr ""
+
+#: 
+msgid "|216a10269ce24f75bb3fd540b58f4808|"
+msgstr ""
+
+#: 
+msgid "|aa6c46bac0b54243aba738b99f78b8c4|"
+msgstr ""
+
+#: 
+msgid "|40dd6ab059d4474090a178bd8906a208|"
+msgstr ""
+
+#: 
+msgid "|b08110e6f4834cdb89159c80e8a455a8|"
+msgstr ""
+
+#: 
+msgid "|917bb8a4fbb547e6beb88d35b3b3de12|"
+msgstr ""
+
+#: 
+msgid "|fe9f91016c1b47c98f81a4c108c4ae7e|"
+msgstr ""
+
+#: 
+msgid "|51988b4a71734a09a54b666417ccce21|"
+msgstr ""
+
+#: 
+msgid "|347f49ac7df24683bcc96c00ba63c0ac|"
+msgstr ""
+
+#: 
+msgid "|8143ef962ca64f8e8b4770e3de6c400f|"
+msgstr ""
+
+#: 
+msgid "|99c469918c8e4a0c884d38b4f09f1724|"
+msgstr ""
+
+#: 
+msgid "|86f1bbffe39347119ee3050b42df0449|"
+msgstr ""
+
+#: 
+msgid "|7dc747782a0d4f2997384eb2e7a4f6dd|"
+msgstr ""
+
+#: 
+msgid "|56f12468916e48ac915b209dd60699f7|"
+msgstr ""
+
+#: 
+msgid "|01cbf9f9ad3a44388eec9333e76ce500|"
+msgstr ""
+
+#: 
+msgid "|dce33da74b5640388ddaac47793c2a7e|"
+msgstr ""
+
+#: 
+msgid "|d690a96c27aa4e7cbd53af6d49e220f6|"
+msgstr ""
+
+#: 
+msgid "|a67294a18fce4f7eb6fb2df5d4740f9d|"
+msgstr ""
+
+#: 
+msgid "|993f2b96ed28470280ce4faa652c0a46|"
+msgstr ""
+
+#: 
+msgid "|b71bd4fe4e9541728fb907b7fd5001a4|"
+msgstr ""
+
+#: 
+msgid "ALOS/ALOS-2 PALSAR/PALSAR-2 Annual Mosaics |32c02c5826514b6aa72bf2f7fde263fe|"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Reflectance |5b3de0279a6848aab5792f6362af523b|"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Temperature |2230c9eb03874f1498064d068b74e51c|"
+msgstr ""
+
+#: 
+msgid "Sentinel-1 |1222095cd05346c2bd33b9004f472ecd|"
+msgstr ""
+
+#: 
+msgid "Sentinel-2 |cd684e9591cd4fe2b6892dd0be5cd19d|"
+msgstr ""
+
+#: 
+msgid "Water Observations from Space (WOfS) |7d05c07173c54b70889101ffa9957a3e|"
+msgstr ""
+
+#: 
+msgid "Displaying satellite imagery on a web map |8ad20d84d1314e1893f34887396ede43|"
+msgstr ""
+
+#: 
+msgid "Rasterising vectors & vectorising rasters |d836c7ae66244984afa594d5e8e0e439|"
+msgstr ""
+
+#: 
+msgid "|140340baa0234d4c9017778b8ac6c136|"
+msgstr ""
+
+#: 
+msgid "Inspecting training data |5e26deff5ca8476fa64522997fc3ed1c|"
+msgstr ""
+
+#: 
+msgid "Evaluate, optimize, and fit a classifier |0f1802b3f6e34bd2a372a7761e3e6903|"
+msgstr ""
+
+#: 
+msgid "|284c637495e547b2937f87644abdb172|"
+msgstr ""
+
+#: 
+msgid "|466bd31da5184b6eb23377b783638173|"
+msgstr ""
+
+#: 
+msgid "Classifying satellite data |569a8dcde89b4e94aded1c3f9a0845d5|"
+msgstr ""
+
+#: 
+msgid "Object-based filtering of pixel classifications |c30a98f7f27e428e9113e466893dab92|"
+msgstr ""
+
+#: 
+msgid "|4af6db4b2c1440f19640463875e64452|"
+msgstr ""
+
+#: 
+msgid "|de95780b151d4173a7f8334ecad0e0cf|"
+msgstr ""
+
+#: 
+msgid "|765f2b4a8d27400ca4c2850c161e0b93|"
+msgstr ""
+
+#: 
+msgid "|c68d9eae0cd94ec4b4d49d36cda68c0c|"
+msgstr ""
+
+#: 
+msgid "|68fde77e10364f0c84ba4474c97b468c|"
+msgstr ""
+
+#: 
+msgid "|a19baf9e794a45369ab8af446f0e9642|"
+msgstr ""
+
+#: 
+msgid "|dddbb7bf71684d71a8db933fca22ce97|"
+msgstr ""
+
+#: 
+msgid "|f688c041488e48398c777648adff5a12|"
+msgstr ""
+
+#: 
+msgid "|d023ada5f8c64a7982c55898e7c19085|"
+msgstr ""
+
+#: 
+msgid "|da6248a74e4841838162e8ac30bf059d|"
+msgstr ""
+
+#: 
+msgid "|4814e916a8f64c9c875033bdcc54632e|"
+msgstr ""
+
+#: 
+msgid "|4846c7e2ced742809bd6fb97d246bcd0|"
+msgstr ""
+
+#: 
+msgid "|48c50cc5f2414d718b7e4d8d1c613385|"
+msgstr ""
+
+#: 
+msgid "|daf39af6c077434f8ebafcbde6f9c2ea|"
+msgstr ""
+
+#: 
+msgid "|18214a2a633846eabd50555886a0f22d|"
+msgstr ""
+
+#: 
+msgid "|f9fc4c5cb98745af83a6e16b9cc4d95a|"
+msgstr ""
+
+#: 
+msgid "|38b2e3cfea304523be3ec3503b913632|"
+msgstr ""
+
+#: 
+msgid "|5823f81784f84885884d7b18bc45bbaf|"
+msgstr ""
+
+#: 
+msgid "|0ed53b45596e42e595d0277a775ccd37|"
+msgstr ""
+
+#: 
+msgid "|982cc730b24a44b29c5b0812fe7e9492|"
+msgstr ""
+
+#: 
+msgid "|fec28d8098fe4db3967f2d5b7f49d254|"
+msgstr ""
+
+#: 
+msgid "|4d204051e06942e4b97f31ad9b51cdec|"
+msgstr ""
+
+#: 
+msgid "|fd941cc06ae84290b00c7ee1eb096230|"
+msgstr ""
+
+#: 
+msgid "|0a31f60ddfe04cc4b104b434bf212a70|"
+msgstr ""
+
+#: 
+msgid "|e9004e0a2c544f678430f73f098896d7|"
+msgstr ""
+
+#: 
+msgid "|1eaffbd32614437abe716c1f106cff30|"
+msgstr ""
+
+#: 
+msgid "|81e522448bf24b9489b69a8439a72a9d|"
+msgstr ""
+
+#: 
+msgid "|5690d46aea2543d1bef9fef98d3e74ea|"
+msgstr ""
+
+#: 
+msgid "|c8400980d65a4b87bf292cb1a89d3a77|"
+msgstr ""
+
+#: 
+msgid "|1288395262784449b0d7d81993d63aef|"
+msgstr ""
+
+#: 
+msgid "|9eb3cd1408c442cba087bddb5cc29a6d|"
+msgstr ""
+
+#: 
+msgid "|d1b434f759c04e3fabd7022ebdabce89|"
+msgstr ""
+
+#: 
+msgid "|1a5810e647a94f88bf5b8ea13b8569b6|"
+msgstr ""
+
+#: 
+msgid "|a9e5f90de7994633b8a9dbf369f2af53|"
+msgstr ""
+
+#: 
+msgid "|e300fa37bec84d36a0db26a4719025c9|"
+msgstr ""
+
+#: 
+msgid "|9beb50920af046e3954531c7d6982da5|"
+msgstr ""
+
+#: 
+msgid "ALOS/ALOS-2 PALSAR/PALSAR-2 Annual Mosaics |2071249535f340ac8e8c3e2e1527348e|"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Reflectance |0145fece8571447d86ba9eb7b869d9ea|"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Temperature |aae19fb0c9ba4b80a4023dbe6b736e8e|"
+msgstr ""
+
+#: 
+msgid "Sentinel-1 |8e366c76430a40fa8f66d97adf063a08|"
+msgstr ""
+
+#: 
+msgid "Sentinel-2 |21cc0ebb91df49bf884f295e942a9366|"
+msgstr ""
+
+#: 
+msgid "Water Observations from Space (WOfS) |fb6b60aedf1b417180c105eb5cd0c2db|"
+msgstr ""
+
+#: 
+msgid "Displaying satellite imagery on a web map |4e58989bb33b4147998dbad71b9b62ea|"
+msgstr ""
+
+#: 
+msgid "Rasterising vectors & vectorising rasters |6d1559a083154499a963b965e90a5a69|"
+msgstr ""
+
+#: 
+msgid "|657d7dc26ee54d0e981192cf5f1fe07a|"
+msgstr ""
+
+#: 
+msgid "Inspecting training data |274d15715a07464ca3d2e9724edecf6f|"
+msgstr ""
+
+#: 
+msgid "Evaluate, optimize, and fit a classifier |a83f3c831f334d8ba51f635e7e320d28|"
+msgstr ""
+
+#: 
+msgid "|da56aa7ae983488dbf2ced0e1255ffd3|"
+msgstr ""
+
+#: 
+msgid "|0b940e21750a4aada92006ffd6a68078|"
+msgstr ""
+
+#: 
+msgid "Classifying satellite data |d0607bc96ede4d38b09b4036e9d36a95|"
+msgstr ""
+
+#: 
+msgid "Object-based filtering of pixel classifications |213acdf09ceb48779f3d1f96b8323317|"
+msgstr ""
+
+#: 
+msgid "|d6d670794f7147e7ac99a5c31108eb21|"
+msgstr ""
+
+#: 
+msgid "|dc0e0a8f9d3841e6ae269c9c69ff8896|"
+msgstr ""
+
+#: 
+msgid "|bb3cfbe199cd4d40892e2492889a32bd|"
+msgstr ""
+
+#: 
+msgid "|ae0f4e89944348d1923acb0c458ff8f5|"
+msgstr ""
+
+#: 
+msgid "|b4cb73a026c84acfbd38471593fa1147|"
+msgstr ""
+
+#: 
+msgid "|a3a322e2723b4fbc8a58dc79eb825ce2|"
+msgstr ""
+
+#: 
+msgid "|58e2644de29d44918247daba12412c9f|"
+msgstr ""
+
+#: 
+msgid "|e2b9867f4a0a4ab08ae3dd46a0b906b5|"
+msgstr ""
+
+#: 
+msgid "|a8e7d042323b4af291f0d64d0118bcfb|"
+msgstr ""
+
+#: 
+msgid "|cdde25f919134cb5994671e918f6b6c1|"
+msgstr ""
+
+#: 
+msgid "|e99f12c7b02045849f0b0839e04d5497|"
+msgstr ""
+
+#: 
+msgid "|3fbf10930b3543ef9d40425f9cd63d51|"
+msgstr ""
+
+#: 
+msgid "|b6c1f11b22d542129cb512c17c5c17f2|"
+msgstr ""
+
+#: 
+msgid "|7b10404f9105405d9f41d6260ccdb007|"
+msgstr ""
+
+#: 
+msgid "|d91c55cee8774560945d7d8d4c12b365|"
+msgstr ""
+
+#: 
+msgid "|e0cadda9d0804a928904681274c5da27|"
+msgstr ""
+
+#: 
+msgid "|d379ca39a5dc4e9f9fb016a46b43e968|"
+msgstr ""
+
+#: 
+msgid "|e46b7748252440a78864d1d5baaa7612|"
+msgstr ""
+
+#: 
+msgid "|67df3e449a0f413e96ff9ec7808a03ef|"
+msgstr ""
+
+#: 
+msgid "|47d070a201874c3ebb786cf6ea193542|"
+msgstr ""
+
+#: 
+msgid "|b157525eba154ec29401f4b743f33238|"
+msgstr ""
+
+#: 
+msgid "|81680f1951cc4f23bf740a4698f98ee1|"
+msgstr ""
+
+#: 
+msgid "|52fdbb8da33b41ea99733b02f0472972|"
+msgstr ""
+
+#: 
+msgid "|6e56a064b7ab47c0b3f8897123893de8|"
+msgstr ""
+
+#: 
+msgid "|1ab8ef57516f4dbba9ba9956f6daa227|"
+msgstr ""
+
+#: 
+msgid "|b495549210574562872ab6ed16763e34|"
+msgstr ""
+
+#: 
+msgid "|74bbcadb606f4b3db36b5446e76b592d|"
+msgstr ""
+
+#: 
+msgid "|c8bca07ac74b4a319370b831d592a378|"
+msgstr ""
+
+#: 
+msgid "|0dc0cfa7ea9d49ac87eb2b1835e9aa20|"
+msgstr ""
+
+#: 
+msgid "|f391fd443a2c44e9a4547502a0ff207e|"
+msgstr ""
+
+#: 
+msgid "|dc5c1ebf0f6e4fafa266b46ee8ef775c|"
+msgstr ""
+
+#: 
+msgid "|93992044641d440bacf583910aac7244|"
+msgstr ""
+
+#: 
+msgid "|2639d0dca6164a42bd3295401e43227a|"
+msgstr ""
+
+#: 
+msgid "|0548f0e7ab1e4a7aa156472c3340bba3|"
+msgstr ""
+
+#: 
+msgid "|8057e6c10fa546a7b85264caec813f59|"
+msgstr ""
+
+#: 
+msgid "|bc59935ed3a44652bf31d98677989112|"
+msgstr ""
+
+#: 
+msgid "ALOS/ALOS-2 PALSAR/PALSAR-2 Annual Mosaics |d40c86587e134d1e85863bddd7e26a07|"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Reflectance |a8426c62ec4742dbb1c044f3aa70d9a7|"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Temperature |bead178215f641aa82ddf58fb9622de2|"
+msgstr ""
+
+#: 
+msgid "Sentinel-1 |ced6cb709662429997490fd2ec59b0aa|"
+msgstr ""
+
+#: 
+msgid "Sentinel-2 |24855c864cc34498b3437e9d0d2de482|"
+msgstr ""
+
+#: 
+msgid "Water Observations from Space (WOfS) |169102077219449fa64ca2d867230975|"
+msgstr ""
+
+#: 
+msgid "Displaying satellite imagery on a web map |a887041e4310485db1e007cc017a7b75|"
+msgstr ""
+
+#: 
+msgid "Rasterising vectors & vectorising rasters |0b4a2a861d274b7f819d158f0a78288e|"
+msgstr ""
+
+#: 
+msgid "|98136e17fb5240c79af92fc35b0fa10d|"
+msgstr ""
+
+#: 
+msgid "Inspecting training data |d54d4b526a37445b82b481b319191b0e|"
+msgstr ""
+
+#: 
+msgid "Evaluate, optimize, and fit a classifier |0da29108b1504a70949266763cf39bb9|"
+msgstr ""
+
+#: 
+msgid "|405468c4058747259b1423006ad67953|"
+msgstr ""
+
+#: 
+msgid "|f66b1601cdb34043ae35a677cbccc05e|"
+msgstr ""
+
+#: 
+msgid "Classifying satellite data |53205155a4d645f6a2230774947a17d9|"
+msgstr ""
+
+#: 
+msgid "Object-based filtering of pixel classifications |2273d5fd62c748ea8f9990ef8ea73181|"
+msgstr ""
+
+#: 
+msgid "|9b4276e4224b40169c3e9a3b94059eef|"
+msgstr ""
+
+#: 
+msgid "|73879f1e7b9e448f815374e8f9fd18e2|"
+msgstr ""
+
+#: 
+msgid "|021e81f0cded4d5f95ed9cb6cb14e6d0|"
+msgstr ""
+
+#: 
+msgid "|fab83197371741bea79723361567f46f|"
+msgstr ""
+
+#: 
+msgid "|0ad85496d85b4da38b7e8cf6ed315944|"
+msgstr ""
+
+#: 
+msgid "|273131b4a5b347bdb0e637b6195c2808|"
+msgstr ""
+
+#: 
+msgid "|9ba00c85c9114f6ca091c3d189f4556a|"
+msgstr ""
+
+#: 
+msgid "|386168a10ef34b329ff42c08c273d13d|"
+msgstr ""
+
