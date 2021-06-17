@@ -24,3 +24,4 @@ data access, and relevant technical information.
    
    GeoMAD_specs
    Landsat_WOfS_specs
+   Cropland_extent_specs
