@@ -18,6 +18,7 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
    register
    access
    navigate
+   git-howto/index
    userfaq
    gallery
    api
