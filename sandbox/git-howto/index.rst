@@ -24,3 +24,8 @@ you agree to the `Sandbox Terms and Conditions <../termsconditions.rst>`_.
    :maxdepth: 1
 
    01_what_is_git
+   02_connect_git
+   03_sidebar_git
+   04_terminal_git
+   05_pull_request
+   06_git_glossary
