@@ -19,14 +19,14 @@ view and analyse that data.
     :class: fakeheading
     
 .. topic:: :doc:`data_specs/index`
-   :class: data
+   :class: platform
 
    Access up-to-date technical specifications of all Digital Earth Africa datasets
 
    :doc:`See all available data specifications <data_specs/index>`
 
 .. topic:: :doc:`data_specs/access`
-   :class: data
+   :class: platform
 
    Directly access Digital Earth Africa data as COG files, from AWS S3 buckets, or through STAC
 
