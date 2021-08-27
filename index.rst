@@ -15,8 +15,27 @@ view and analyse that data.
 
    Home <self>
 
+.. rubric:: Data
+    :class: fakeheading
+    
+.. topic:: :doc:`data_specs/index`
+   :class: platform
+
+   Access up-to-date technical specifications of all Digital Earth Africa datasets
+
+   :doc:`See all available data specifications <data_specs/index>`
+
+.. topic:: :doc:`data_specs/access`
+   :class: platform
+
+   Directly access Digital Earth Africa data as COG files, from AWS S3 buckets, or through STAC
+
+   :doc:`Find out more <data_specs/access>`
+    
+
 .. toctree::
    :caption: Data
+   :hidden:
    :maxdepth: 1
 
    data_specs/index
@@ -69,7 +88,7 @@ view and analyse that data.
 .. topic:: :doc:`web_services/explorer`
    :class: platform
 
-   The explorer allows you to see where and when you can find data
+   The Metadata Explorer allows you to see where and when you can find data
 
    :doc:`More <web_services/explorer>`
 
