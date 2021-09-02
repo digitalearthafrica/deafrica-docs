@@ -1,7 +1,7 @@
 .. _data_specs:
 
 Dataset specifications
-== == == == == == == == == == == ==
+========================
 
 Digital Earth Africa hosts a repository of Earth observation datasets
 spanning continental Africa.
@@ -17,20 +17,23 @@ An operational service is continuously updated as required input
 datasets become available. Services may be updated, based on user feedback, 
 to incorporate new sensors, new algorithms and auxiliary data.
 
-.. toctree: :
-    : caption: Input datasets
-    : maxdepth: 1
+If you have any feedback for the DE Africa services, please contact us at 
+helpdesk@digitalearthafrica.org.
 
-    Landsat_C2_SR_specs
-    Landsat_C2_ST_specs
-    Sentinel-1_specs
-    Sentinel-2_Level-2A_specs
-    ALOS_PALSAR_annual_mosaic_specs
+.. toctree::
+   :caption: Input datasets
+   :maxdepth: 1
 
-.. toctree: :
-    : caption: Services
-    : maxdepth: 1
-
-    GeoMAD_specs
-    Landsat_WOfS_specs
-    Cropland_extent_specs
+   Landsat_C2_SR_specs
+   Landsat_C2_ST_specs
+   Sentinel-1_specs
+   Sentinel-2_Level-2A_specs
+   ALOS_PALSAR_annual_mosaic_specs
+   
+.. toctree::
+   :caption: Derived products
+   :maxdepth: 1
+   
+   GeoMAD_specs
+   Landsat_WOfS_specs
+   Cropland_extent_specs
