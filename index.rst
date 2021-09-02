@@ -15,7 +15,7 @@ view and analyse that data.
 
    Home <self>
 
-.. rubric:: Data and Services
+.. rubric:: Data
     :class: fakeheading
     
 .. topic:: :doc:`data_specs/index`
