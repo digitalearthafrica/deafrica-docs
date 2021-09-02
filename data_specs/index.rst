@@ -10,16 +10,6 @@ The input datasets, including CEOS Analysis Ready Data and
 ancillary data, are used to derive output services and
 can be accessed directly through the DE Africa Platform.
 
-DE Africa also provide services which are information products
-derived from input datasets. The services are co-developed with partners
-and may be released at beta, provisional or operational maturity level.
-An operational service is continuously updated as required input 
-datasets become available. Services may be updated, based on user feedback, 
-to incorporate new sensors, new algorithms and auxiliary data.
-
-If you have any feedback for the DE Africa services, please contact us at 
-helpdesk@digitalearthafrica.org.
-
 .. toctree::
    :caption: Input datasets
    :maxdepth: 1
@@ -30,10 +20,20 @@ helpdesk@digitalearthafrica.org.
    Sentinel-2_Level-2A_specs
    ALOS_PALSAR_annual_mosaic_specs
    
+DE Africa also provide services which are information products
+derived from input datasets. The services are co-developed with partners
+and may be released at beta, provisional or operational maturity level.
+An operational service is continuously updated as required input 
+datasets become available. Services may be updated, based on user feedback, 
+to incorporate new sensors, new algorithms and auxiliary data.
+
 .. toctree::
-   :caption: Derived products
+   :caption: Services
    :maxdepth: 1
    
    GeoMAD_specs
    Landsat_WOfS_specs
    Cropland_extent_specs
+
+If you have any feedback for the DE Africa data and services, please contact us at 
+helpdesk@digitalearthafrica.org.
