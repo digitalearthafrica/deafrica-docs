@@ -27,5 +27,4 @@ you agree to the `Sandbox Terms and Conditions <../termsconditions.rst>`_.
    02_connect_git
    03_sidebar_git
    04_terminal_git
-   05_pull_request-Copy1
-   06_git_glossary-Copy1
+   05_pull_request
