@@ -33,6 +33,7 @@ to incorporate new sensors, new algorithms and auxiliary data.
    
    GeoMAD_specs
    Landsat_WOfS_specs
+   Fractional_Cover_specs
    Cropland_extent_specs
 
 If you have any feedback for the DE Africa data and services, please contact us at 
