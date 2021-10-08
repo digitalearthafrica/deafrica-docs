@@ -18,6 +18,10 @@ and output data from Digital Earth Africa.
    deafrica_tools.spatial
    deafrica_tools.temporal
 
+   deafrica_tools.app.changefilmstrips
+   deafrica_tools.app.crophealth
+   deafrica_tools.app.imageexport
+
 License
 -------
 The code in this module is licensed under the Apache License,
