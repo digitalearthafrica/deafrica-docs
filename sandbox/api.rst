@@ -1,8 +1,13 @@
-DEAfricaTools Module
+DE Africa Tools Package
 ====================
 
-This python package contains several modules with functions to load, analyse
-and output data from Digital Earth Africa.
+``deafrica_tools`` is a Python package contains several modules with functions to load, analyse
+and output data from Digital Earth Africa. It is automatically installed in the Digital Earth 
+Africa Sandbox environment. More information on installing this package can be found on the `Tools
+<https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/tree/master/Tools/>`_ section of the GitHub repository.
+
+Core modules
+-----------------
 
 .. autosummary::
    :toctree: gen
@@ -18,6 +23,14 @@ and output data from Digital Earth Africa.
    deafrica_tools.spatial
    deafrica_tools.temporal
 
+Apps and widgets
+-----------------
+
+``deafrica_tools`` app subpackages can be accessed through ``deafrica_tools.app``.
+
+.. autosummary::
+   :toctree: gen
+   
    deafrica_tools.app.changefilmstrips
    deafrica_tools.app.crophealth
    deafrica_tools.app.imageexport
