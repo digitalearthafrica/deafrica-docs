@@ -27,6 +27,35 @@ An operational service is continuously updated as required input
 datasets become available. Services may be updated, based on user feedback, 
 to incorporate new sensors, new algorithms and auxiliary data.
 
+.. rubric:: Services
+   :class: fakeheading
+
+.. topic:: :doc:`GeoMAD_specs`
+   :class: platform
+
+   .. image:: ../_static/maps/Workbench.jpg
+      :target: GeoMAD_specs
+      :width: 160px
+      :height: 112px
+      :align: left
+
+   Sentinel-2, Landsat GeoMAD services
+
+   :doc:`More <GeoMAD_specs>`
+
+.. topic:: :doc:`Landsat_WOfS_specs`
+   :class: platform
+
+   .. image:: ../_static/sandbox/sandbox_mini.png
+      :target: Landsat_WOfS_specs
+      :width: 160px
+      :height: 120px
+      :align: left
+
+   Our JupyterLab Analysis Platform for exploring the data with access to analysis tools
+
+   :doc:`Water Observations from Space <Landsat_WOfS_specs>`
+
 .. toctree::
    :caption: Services
    :maxdepth: 1
