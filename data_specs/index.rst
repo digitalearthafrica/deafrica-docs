@@ -20,6 +20,9 @@ can be accessed directly through the DE Africa Platform.
    Sentinel-2_Level-2A_specs
    ALOS_PALSAR_annual_mosaic_specs
    
+.. rubric:: Services
+   :class: fakeheading
+
 DE Africa also provide services which are information products
 derived from input datasets. The services are co-developed with partners
 and may be released at beta, provisional or operational maturity level.
@@ -27,37 +30,35 @@ An operational service is continuously updated as required input
 datasets become available. Services may be updated, based on user feedback, 
 to incorporate new sensors, new algorithms and auxiliary data.
 
-.. rubric:: Services
-   :class: fakeheading
-
 .. topic:: :doc:`GeoMAD_specs`
    :class: platform
 
    .. image:: ../_static/maps/Workbench.jpg
       :target: GeoMAD_specs
-      :width: 160px
+      :width: 80px
       :height: 112px
       :align: left
 
    Sentinel-2, Landsat GeoMAD services
 
-   :doc:`More <GeoMAD_specs>`
+   :doc:`Learn more <GeoMAD_specs>`
 
 .. topic:: :doc:`Landsat_WOfS_specs`
    :class: platform
 
    .. image:: ../_static/sandbox/sandbox_mini.png
       :target: Landsat_WOfS_specs
-      :width: 160px
+      :width: 80px
       :height: 120px
       :align: left
 
    Our JupyterLab Analysis Platform for exploring the data with access to analysis tools
 
-   :doc:`Water Observations from Space <Landsat_WOfS_specs>`
+   :doc:`Learn more <Landsat_WOfS_specs>`
 
 .. toctree::
    :caption: Services
+   :hidden:
    :maxdepth: 1
    
    GeoMAD_specs
