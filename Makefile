@@ -21,7 +21,7 @@ help:
 
 fetchnotebooks:
 	[ -d sandbox/notebooks ] || git clone https://github.com/digitalearthafrica/deafrica-sandbox-notebooks.git sandbox/notebooks
-	cd sandbox/notebooks && git checkout master && git reset --hard origin/master && git pull
+	cd sandbox/notebooks && git checkout main && git reset --hard origin/main && git pull
 
 buildtools:
 	cd sandbox/notebooks/Tools && pip install . --no-dependencies
