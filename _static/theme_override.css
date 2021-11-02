@@ -36,7 +36,8 @@ h1,h2,h3,h4,h5 {
 .wy-menu {
     color: #336699;
 }
-.wy-menu-vertical p.caption {
+.wy-menu-vertical p.caption,
+.wy-menu-vertical .caption-text {
     color: #FF6633;
 }
 
