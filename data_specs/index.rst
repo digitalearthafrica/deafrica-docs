@@ -6,6 +6,10 @@ Dataset specifications
 Digital Earth Africa hosts a repository of Earth observation datasets
 spanning continental Africa.
 
+.. rubric:: Input datasets
+    :class: fakeheading
+
+
 The input datasets, including CEOS Analysis Ready Data and
 ancillary data, are used to derive output services and
 can be accessed directly through the DE Africa Platform.
@@ -13,6 +17,7 @@ can be accessed directly through the DE Africa Platform.
 .. toctree::
    :caption: Input datasets
    :maxdepth: 1
+   :hidden:
 
    Landsat_C2_SR_specs
    Landsat_C2_ST_specs
@@ -20,19 +25,16 @@ can be accessed directly through the DE Africa Platform.
    Sentinel-2_Level-2A_specs
    ALOS_PALSAR_annual_mosaic_specs
 
-.. rubric:: Input datasets
-    :class: fakeheading
-
 .. topic:: :doc:`Landsat_C2_SR_specs`
    :class: platform
 
-   .. image:: _static/data_specs/Landsat_C2_SR_specs/thumbnail.png
+   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
       :target: Landsat_C2_SR_specs
       :width: 160px
       :height: 112px
       :align: left
 
-   Surface Reflectance from Landsat 5, 7 and 8
+   Surface Reflectance from Landsat 5, 7 and 8.
 
    :doc:`View data specifications <Landsat_C2_SR_specs>`
 
@@ -40,44 +42,46 @@ can be accessed directly through the DE Africa Platform.
 .. topic:: :doc:`Landsat_C2_ST_specs`
    :class: platform
 
-   .. image:: _static/data_specs/Landsat_C2_SR_specs/thumbnail.png
+   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
       :target: Landsat_C2_ST_specs
       :width: 160px
       :height: 112px
       :align: left
 
-   Surface Temperature from Landsat 5, 7 and 8
+   Surface Temperature from Landsat 5, 7 and 8.
+
+   :doc:`View data specifications <Landsat_C2_ST_specs>`
 
 .. topic:: :doc:`Sentinel-1_specs`
    :class: platform
 
-   .. image:: _static/data_specs/Landsat_C2_SR_specs/thumbnail.png
+   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
       :target: Sentinel-1_specs
       :width: 160px
       :height: 112px
       :align: left
 
-   Sentinel-1 Synthetic Aperture Radar
+   Sentinel-1 Synthetic Aperture Radar.
 
    :doc:`View data specifications <Sentinel-1_specs>`
 
 .. topic:: :doc:`Sentinel-2_Level-2A_specs`
    :class: platform
 
-   .. image:: _static/data_specs/Landsat_C2_SR_specs/thumbnail.png
+   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
       :target: Sentinel-2_Level-2A_specs
       :width: 160px
       :height: 112px
       :align: left
 
-   Sentinel-2 Surface Reflectance
+   Sentinel-2 Surface Reflectance.
 
    :doc:`View data specifications <Sentinel-2_Level-2A_specs>`
 
 .. topic:: :doc:`ALOS_PALSAR_annual_mosaic_specs`
    :class: platform
 
-   .. image:: _static/data_specs/Landsat_C2_SR_specs/thumbnail.png
+   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
       :target: ALOS_PALSAR_annual_mosaic_specs
       :width: 160px
       :height: 112px
@@ -86,6 +90,10 @@ can be accessed directly through the DE Africa Platform.
    Synthetic Aperture Radar annual mosaics from JAXA for the years 1996 (JERS) and 2007-2018 (PALSAR).
 
    :doc:`View data specifications <ALOS_PALSAR_annual_mosaic_specs>`
+
+
+.. rubric:: Services
+    :class: fakeheading
 
 DE Africa also provide services which are information products
 derived from input datasets. The services are co-developed with partners
@@ -107,7 +115,7 @@ to incorporate new sensors, new algorithms and auxiliary data.
 .. topic:: :doc:`GeoMAD_specs`
    :class: platform
 
-   .. image:: _static/data_specs/Landsat_C2_SR_specs/thumbnail.png
+   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
       :target: GeoMAD_specs
       :width: 160px
       :height: 112px
@@ -122,7 +130,7 @@ to incorporate new sensors, new algorithms and auxiliary data.
 .. topic:: :doc:`Landsat_WOfS_specs`
    :class: platform
 
-   .. image:: _static/data_specs/Landsat_C2_SR_specs/thumbnail.png
+   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
       :target: Landsat_WOfS_specs
       :width: 160px
       :height: 112px
@@ -136,7 +144,7 @@ to incorporate new sensors, new algorithms and auxiliary data.
 .. topic:: :doc:`Fractional_Cover_specs`
    :class: platform
 
-   .. image:: _static/data_specs/Landsat_C2_SR_specs/thumbnail.png
+   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
       :target: Fractional_Cover_specs
       :width: 160px
       :height: 112px
@@ -149,7 +157,7 @@ to incorporate new sensors, new algorithms and auxiliary data.
 .. topic:: :doc:`Cropland_extent_specs`
    :class: platform
 
-   .. image:: _static/data_specs/Landsat_C2_SR_specs/thumbnail.png
+   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
       :target: Cropland_extent_specs
       :width: 160px
       :height: 112px
