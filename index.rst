@@ -39,6 +39,7 @@ view and analyse that data.
    :maxdepth: 1
 
    data_specs/index
+   data_specs/index2
    data_specs/access
 
 
