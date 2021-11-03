@@ -37,6 +37,10 @@ h1,h2,h3,h4,h5 {
     color: #336699;
 }
 
+.wy-menu-vertical p {
+    margin-bottom: 0;
+}
+
 .wy-menu-vertical .caption-text {
     color: #FF6633;
     height: 32px;
@@ -47,6 +51,7 @@ h1,h2,h3,h4,h5 {
     text-transform: uppercase;
     font-size: 85%;
     white-space: nowrap;
+    padding-left: 1.618em;
 }
 
 div.wy-side-nav-search {
