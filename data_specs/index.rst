@@ -31,7 +31,7 @@ can be accessed directly through the DE Africa Platform.
 
        :doc:`Landsat_C2_SR_specs`
 
-       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
           :target: Landsat_C2_SR_specs
           :align: left
 
@@ -44,7 +44,7 @@ can be accessed directly through the DE Africa Platform.
 
        :doc:`Landsat_C2_ST_specs`
 
-       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya_st.jpg
           :target: Landsat_C2_ST_specs
           :align: left
 
@@ -56,7 +56,7 @@ can be accessed directly through the DE Africa Platform.
 
        :doc:`Sentinel-1_specs`
 
-       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+       .. image:: https://www.digitalearthafrica.org/sites/default/files/images/Sentinel-1.jpg
           :target: Sentinel-1_specs
           :align: left
 
@@ -68,7 +68,7 @@ can be accessed directly through the DE Africa Platform.
 
        :doc:`Sentinel-2_Level-2A_specs`
 
-       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+       .. image:: https://www.digitalearthafrica.org/sites/default/files/images/sentinel-2.jpg
           :target: Sentinel-2_Level-2A_specs
           :align: left
 
@@ -80,7 +80,7 @@ can be accessed directly through the DE Africa Platform.
 
        :doc:`ALOS_PALSAR_annual_mosaic_specs`
 
-       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+       .. image:: https://digital-earth-africa--42.org.readthedocs.build/en/42/_images/sandbox_notebooks_Datasets_ALOS_PALSAR_Annual_Mosaic_33_0.png
           :target: ALOS_PALSAR_annual_mosaic_specs
           :align: left
 
@@ -115,7 +115,7 @@ to incorporate new sensors, new algorithms and auxiliary data.
 
        :doc:`GeoMAD_specs`
 
-       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+       .. image:: https://www.digitalearthafrica.org/sites/default/files/file-uploads/GeoMAD_composite.jpeg
           :target: GeoMAD_specs
           :align: left
 
@@ -129,7 +129,7 @@ to incorporate new sensors, new algorithms and auxiliary data.
 
        :doc:`Landsat_WOfS_specs`
 
-       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+       .. image:: https://www.digitalearthafrica.org/sites/default/files/gallery/cover/49972457726_3e8bf9e856_w.jpg
           :target: Landsat_WOfS_specs
           :align: left
 
@@ -142,7 +142,7 @@ to incorporate new sensors, new algorithms and auxiliary data.
 
        :doc:`Fractional_Cover_specs`
 
-       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/sandbox_notebooks_Datasets_Fractional_Cover_27_0.png
           :target: Fractional_Cover_specs
           :align: left
 
@@ -154,7 +154,7 @@ to incorporate new sensors, new algorithms and auxiliary data.
 
        :doc:`Cropland_extent_specs`
 
-       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/crop_mask_example_ethiopia_labelled.png
           :target: Cropland_extent_specs
           :align: left
 

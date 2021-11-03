@@ -85,7 +85,7 @@ Radar backscatter
 
        :doc:`ALOS_PALSAR_annual_mosaic_specs`
 
-       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+       .. image:: https://digital-earth-africa--42.org.readthedocs.build/en/42/_images/sandbox_notebooks_Datasets_ALOS_PALSAR_Annual_Mosaic_33_0.png
           :target: ALOS_PALSAR_annual_mosaic_specs
 
        Synthetic Aperture Radar annual mosaics from JAXA for the years 1996 (JERS) and 2007-2018 (PALSAR).
