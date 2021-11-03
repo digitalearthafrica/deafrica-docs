@@ -97,6 +97,38 @@ div.document a:visited {
     font-size: 125%;
 }
 
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+
+.product-item {
+    padding: 1rem;
+    transition: all 0.4s ease-in-out;
+    border-radius: 5px;
+    box-shadow: 2px 1px 25px 5px rgb(166 166 166 / 20%);
+    border: 1px solid #f0f0f0;
+}
+
+.product-item:hover {
+    box-shadow: 2px 1px 25px 5px rgb(166 166 166 / 70%);
+}
+
+.product-item p:first-child {
+    display: block;
+    font-size: 125%;
+    margin-bottom: 12px;
+}
+
+.product-item img {
+    width: 100%;
+}
+
+.product-item p {
+    margin: 0;
+}
+
 .document a[href^="http"] {
     background: url(external.png) center right no-repeat;
     padding-right: 13px;

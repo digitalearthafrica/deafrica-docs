@@ -25,71 +25,68 @@ can be accessed directly through the DE Africa Platform.
    Sentinel-2_Level-2A_specs
    ALOS_PALSAR_annual_mosaic_specs
 
-.. topic:: :doc:`Landsat_C2_SR_specs`
-   :class: platform
+.. container:: product-list
 
-   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
-      :target: Landsat_C2_SR_specs
-      :width: 160px
-      :height: 112px
-      :align: left
+    .. container:: product-item
 
-   Surface Reflectance from Landsat 5, 7 and 8.
+       :doc:`Landsat_C2_SR_specs`
 
-   :doc:`View data specifications <Landsat_C2_SR_specs>`
+       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+          :target: Landsat_C2_SR_specs
+          :align: left
+
+       Surface Reflectance from Landsat 5, 7 and 8.
+
+       :doc:`View data specifications <Landsat_C2_SR_specs>`
 
 
-.. topic:: :doc:`Landsat_C2_ST_specs`
-   :class: platform
+    .. container:: product-item
 
-   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
-      :target: Landsat_C2_ST_specs
-      :width: 160px
-      :height: 112px
-      :align: left
+       :doc:`Landsat_C2_ST_specs`
 
-   Surface Temperature from Landsat 5, 7 and 8.
+       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+          :target: Landsat_C2_ST_specs
+          :align: left
 
-   :doc:`View data specifications <Landsat_C2_ST_specs>`
+       Surface Temperature from Landsat 5, 7 and 8.
 
-.. topic:: :doc:`Sentinel-1_specs`
-   :class: platform
+       :doc:`View data specifications <Landsat_C2_ST_specs>`
 
-   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
-      :target: Sentinel-1_specs
-      :width: 160px
-      :height: 112px
-      :align: left
+    .. container:: product-item
 
-   Sentinel-1 Synthetic Aperture Radar.
+       :doc:`Sentinel-1_specs`
 
-   :doc:`View data specifications <Sentinel-1_specs>`
+       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+          :target: Sentinel-1_specs
+          :align: left
 
-.. topic:: :doc:`Sentinel-2_Level-2A_specs`
-   :class: platform
+       Sentinel-1 Synthetic Aperture Radar.
 
-   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
-      :target: Sentinel-2_Level-2A_specs
-      :width: 160px
-      :height: 112px
-      :align: left
+       :doc:`View data specifications <Sentinel-1_specs>`
 
-   Sentinel-2 Surface Reflectance.
+    .. container:: product-item
 
-   :doc:`View data specifications <Sentinel-2_Level-2A_specs>`
+       :doc:`Sentinel-2_Level-2A_specs`
 
-.. topic:: :doc:`ALOS_PALSAR_annual_mosaic_specs`
-   :class: platform
+       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+          :target: Sentinel-2_Level-2A_specs
+          :align: left
 
-   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
-      :target: ALOS_PALSAR_annual_mosaic_specs
-      :width: 160px
-      :height: 112px
-      :align: left
+       Sentinel-2 Surface Reflectance.
 
-   Synthetic Aperture Radar annual mosaics from JAXA for the years 1996 (JERS) and 2007-2018 (PALSAR).
+       :doc:`View data specifications <Sentinel-2_Level-2A_specs>`
 
-   :doc:`View data specifications <ALOS_PALSAR_annual_mosaic_specs>`
+    .. container:: product-item
+
+       :doc:`ALOS_PALSAR_annual_mosaic_specs`
+
+       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+          :target: ALOS_PALSAR_annual_mosaic_specs
+          :align: left
+
+       Synthetic Aperture Radar annual mosaics from JAXA for the years 1996 (JERS) and 2007-2018 (PALSAR).
+
+       :doc:`View data specifications <ALOS_PALSAR_annual_mosaic_specs>`
 
 
 .. rubric:: Services
@@ -98,74 +95,72 @@ can be accessed directly through the DE Africa Platform.
 DE Africa also provide services which are information products
 derived from input datasets. The services are co-developed with partners
 and may be released at beta, provisional or operational maturity level.
-An operational service is continuously updated as required input 
-datasets become available. Services may be updated, based on user feedback, 
+An operational service is continuously updated as required input
+datasets become available. Services may be updated, based on user feedback,
 to incorporate new sensors, new algorithms and auxiliary data.
 
-.. toctree::
-   :caption: Services
-   :maxdepth: 1
-   :hidden:
-   
-   GeoMAD_specs
-   Landsat_WOfS_specs
-   Fractional_Cover_specs
-   Cropland_extent_specs
+    .. toctree::
+       :caption: Services
+       :maxdepth: 1
+       :hidden:
 
-.. topic:: :doc:`GeoMAD_specs`
-   :class: platform
+       GeoMAD_specs
+       Landsat_WOfS_specs
+       Fractional_Cover_specs
+       Cropland_extent_specs
 
-   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
-      :target: GeoMAD_specs
-      :width: 160px
-      :height: 112px
-      :align: left
+.. container:: product-list
 
-   Annual and semi-annual cloud-free mosaics from Landsat and Sentinel-2 satellites.
-   Includes Geomedian showing surface reflectance and Median Absolute Deviations, showing variation.
+    .. container:: product-item
 
-   :doc:`View data specifications <GeoMAD_specs>`
+       :doc:`GeoMAD_specs`
 
+       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+          :target: GeoMAD_specs
+          :align: left
 
-.. topic:: :doc:`Landsat_WOfS_specs`
-   :class: platform
+       Annual and semi-annual cloud-free mosaics from Landsat and Sentinel-2 satellites.
+       Includes Geomedian showing surface reflectance and Median Absolute Deviations, showing variation.
 
-   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
-      :target: Landsat_WOfS_specs
-      :width: 160px
-      :height: 112px
-      :align: left
-
-   Individual, annual and historic water observations.
-
-   :doc:`View data specifications <Landsat_WOfS_specs>`
+       :doc:`View data specifications <GeoMAD_specs>`
 
 
-.. topic:: :doc:`Fractional_Cover_specs`
-   :class: platform
+    .. container:: product-item
 
-   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
-      :target: Fractional_Cover_specs
-      :width: 160px
-      :height: 112px
-      :align: left
+       :doc:`Landsat_WOfS_specs`
 
-   Shows the fractions of green vegetation, non-green vegetation and bare soils for every Landsat pixel.
+       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+          :target: Landsat_WOfS_specs
+          :align: left
 
-   :doc:`View data specifications <Fractional_Cover_specs>`
+       Individual, annual and historic water observations.
 
-.. topic:: :doc:`Cropland_extent_specs`
-   :class: platform
+       :doc:`View data specifications <Landsat_WOfS_specs>`
 
-   .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
-      :target: Cropland_extent_specs
-      :width: 160px
-      :height: 112px
-      :align: left
 
-   Shows the estimated location of croplands for 2019.
+    .. container:: product-item
 
-   :doc:`View data specifications <Cropland_extent_specs>`
+       :doc:`Fractional_Cover_specs`
+
+       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+          :target: Fractional_Cover_specs
+          :align: left
+
+       Shows the fractions of green vegetation, non-green vegetation and bare soils for every Landsat pixel.
+
+       :doc:`View data specifications <Fractional_Cover_specs>`
+
+    .. container:: product-item
+
+       :doc:`Cropland_extent_specs`
+
+       .. image:: /_static/data_specs/Landsat_C2_specs/thumbnail.png
+          :target: Cropland_extent_specs
+          :align: left
+
+       Shows the estimated location of croplands for 2019.
+
+       :doc:`View data specifications <Cropland_extent_specs>`
 
 If you have any feedback for the DE Africa data and services, please contact us at 
 helpdesk@digitalearthafrica.org.
