@@ -4833,20 +4833,20 @@ msgid "Africa GeoPortal"
 msgstr "Géoportail Afrique"
 
 #: 
-msgid "Esri provides geographic information system software, web GIS and geodatabase management applications. They have developed the `Africa GeoPortal <https://www.africageoportal.com/>`_, which uses imagery from DE Africa to provide location for geospatial tools data and training free for users working on Africa geospatial challenges."
-msgstr "Esri fournit des logiciels de système d'information géographique, des SIG web et des applications de gestion de géodatabase. Ils ont développé le `Africa GeoPortal <https://www.africageoportal.com/>`_, qui utilise l'imagerie de DE Afrique pour fournir la localisation des données des outils géospatiaux et la formation gratuite pour les utilisateurs travaillant sur les défis géospatiaux de l'Afrique."
+msgid "Esri provides geographic information system software, web GIS and geodatabase management applications. They have developed the `Africa GeoPortal <https://deafrica.africageoportal.com/>`_, which uses imagery from DE Africa to provide location for geospatial tools data and training free for users working on Africa geospatial challenges."
+msgstr "Esri fournit des logiciels de système d'information géographique, des SIG web et des applications de gestion de géodatabase. Ils ont développé le `Africa GeoPortal <https://deafrica.africageoportal.com/>`_, qui utilise l'imagerie de DE Afrique pour fournir la localisation des données des outils géospatiaux et la formation gratuite pour les utilisateurs travaillant sur les défis géospatiaux de l'Afrique."
 
 #: 
 msgid "Sign up to the geoportal at:"
 msgstr "Inscrivez-vous au géoportail à l'adresse suivante :"
 
 #: 
-msgid "`africageoportal.com <https://www.africageoportal.com/>`_"
-msgstr "`africageoportal.com <https://www.africageoportal.com/>`_"
+msgid "`africageoportal.com <https://deafrica.africageoportal.com/>`_"
+msgstr "`africageoportal.com <https://deafrica.africageoportal.com/>`_"
 
 #: 
-msgid "Training material and courses for the Africa Geoportal are available on the `Learning Resources <https://www.africageoportal.com/pages/learning>`_ page."
-msgstr "Le matériel de formation et les cours pour le Géoportail Afrique sont disponibles sur la page `Ressources d'apprentissage <https://www.africageoportal.com/pages/learning>`_."
+msgid "Training material and courses for the Africa Geoportal are available on the `Learning Resources <https://deafrica.africageoportal.com/pages/Learning%20Resources>`_ page."
+msgstr "Le matériel de formation et les cours pour le Géoportail Afrique sont disponibles sur la page `Ressources d'apprentissage <https://deafrica.africageoportal.com/pages/Learning%20Resources>`_."
 
 #: 
 msgid "DE Africa Map"
