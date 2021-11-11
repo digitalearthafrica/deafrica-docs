@@ -25,13 +25,6 @@ view and analyse that data.
 
    :doc:`See all available data specifications <data_specs/index>`
 
-.. topic:: :doc:`data_specs/access`
-   :class: platform
-
-   Directly access Digital Earth Africa data as COG files, from AWS S3 buckets, or through STAC
-
-   :doc:`Find out more <data_specs/access>`
-    
 
 .. toctree::
    :caption: Data and Services

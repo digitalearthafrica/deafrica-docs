@@ -14,7 +14,7 @@ These buckets are:
 * ``deafrica-input-datasets``
 * ``deafrica-services``
 
-For information on where products can be found, see :doc:`data_specs`.
+For information on where products can be found, see :ref:`data_specs`.
 
 More information on inventory and notification services for some of the buckets can be found on their respective
 datasets pages on the
