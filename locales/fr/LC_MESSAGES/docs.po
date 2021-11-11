@@ -924,7 +924,7 @@ msgid "hh"
 msgstr "hh"
 
 #: 
-msgid "–"
+msgid "-"
 msgstr "-"
 
 #: 
@@ -1032,7 +1032,7 @@ msgid "EPSG: 6933"
 msgstr "EPSG : 6933"
 
 #: 
-msgid "2017 – 2020"
+msgid "2017 - 2020"
 msgstr "2017 - 2020"
 
 #: 
@@ -1236,7 +1236,7 @@ msgid "**Count — 1 band:** The number of clear satellite measurements of a pix
 msgstr "**Count - 1 band:** Le nombre de mesures satellitaires claires d'un pixel pour cette année civile. Ce nombre est d'environ 60 à 70 pour la plupart des pixels, mais il double dans les zones de chevauchement entre les scènes. Le \"Count\" n'est pas incorporé dans les calculs géomédiatiques ou MADs. Il est destiné à l'analyse des métadonnées et à la validation des données."
 
 #: 
-msgid "All clear observations for the given calendar year are collated from the parent dataset. Cloudy pixels are identified and excluded. The geomedian and MADs calculations are then performed by the `hdstats <https://libraries.io/pypi/hdstats>`__ package. 2017 – 2020 GeoMAD datasets use ``hdstats`` version 0.2."
+msgid "All clear observations for the given calendar year are collated from the parent dataset. Cloudy pixels are identified and excluded. The geomedian and MADs calculations are then performed by the `hdstats <https://libraries.io/pypi/hdstats>`__ package. 2017 - 2020 GeoMAD datasets use ``hdstats`` version 0.2."
 msgstr "Toutes les observations claires pour l'année civile donnée sont rassemblées à partir de l'ensemble de données parent. Les pixels nuageux sont identifiés et exclus. Les calculs des géomédians et des MADs sont ensuite effectués par le paquet `hdstats <https://libraries.io/pypi/hdstats>`__. Les jeux de données GeoMAD 2017 - 2020 utilisent la version 0.2 de ``hdstats``."
 
 #: 
@@ -1268,7 +1268,7 @@ msgid "`Landsat 8 Annual Geomedian 2018 <https://explorer.digitalearth.africa/pr
 msgstr "`Landsat 8 Geomedian Annuel 2018 <https://explorer.digitalearth.africa/products/ga_ls8c_gm_2_annual/extents>`__"
 
 #: 
-msgid "Roberts, D., Mueller, N., & Mcintyre, A. (2017). High-dimensional pixel composites from Earth observation time series. *IEEE Transactions on Geoscience and Remote Sensing*, 55(11), 6254–6264. https://doi.org/10.1109/TGRS.2017.2723896"
+msgid "Roberts, D., Mueller, N., & Mcintyre, A. (2017). High-dimensional pixel composites from Earth observation time series. *IEEE Transactions on Geoscience and Remote Sensing*, 55(11), 6254-6264. https://doi.org/10.1109/TGRS.2017.2723896"
 msgstr "Roberts, D., Mueller, N., & Mcintyre, A. (2017). Composites de pixels à haute dimension à partir de séries temporelles d'observation de la Terre. *IEEE Transactions on Geoscience and Remote Sensing*, 55(11), 6254-6264. https://doi.org/10.1109/TGRS.2017.2723896"
 
 #: 
@@ -1784,7 +1784,7 @@ msgid ":nbsphinx-math:`\\begin{align*} \\text{SMAD} = \\text{median} \\left( \\l
 msgstr ":nbsphinx-math:``begin{align*} \\text{SMAD} = \\text{médiane} \\left( \\left\\{cosdist}\\left( \\mathbf{x}^{(t)}, \\mathbf{m} \\right), t = 1, \\dots , N \\right\\}  \\right) \\end{align*}`"
 
 #: 
-msgid "As with the other distances and dissimilarities used in the MADs, this results in a positive scalar value, thus SMAD is a positive scalar. Valid values for SMAD fall between ``0`` – ``1``."
+msgid "As with the other distances and dissimilarities used in the MADs, this results in a positive scalar value, thus SMAD is a positive scalar. Valid values for SMAD fall between ``0`` - ``1``."
 msgstr "Comme pour les autres distances et dissimilarités utilisées dans les MAD, il en résulte une valeur scalaire positive, donc SMAD est un scalaire positif. Les valeurs valides pour SMAD sont comprises entre ``0`` et ``1``."
 
 #: 
@@ -2056,15 +2056,15 @@ msgid "Every 16 days"
 msgstr "Tous les 16 jours"
 
 #: 
-msgid "1984 – 2012"
+msgid "1984 - 2012"
 msgstr "1984 - 2012"
 
 #: 
-msgid "1999 – present"
+msgid "1999 - present"
 msgstr "1999 - aujourd'hui"
 
 #: 
-msgid "2013 – present"
+msgid "2013 - present"
 msgstr "2013 - aujourd'hui"
 
 #: 
@@ -2528,7 +2528,7 @@ msgid "Dropped Pixel"
 msgstr "Pixel perdu"
 
 #: 
-msgid "0 Pixel present; 1 detector doesn’t have a value – no data"
+msgid "0 Pixel present; 1 detector doesn’t have a value - no data"
 msgstr "0 Pixel présent ; 1 détecteur n'a pas de valeur - pas de données"
 
 #: 
@@ -3361,7 +3361,7 @@ msgid "16 days"
 msgstr "16 jours"
 
 #: 
-msgid "2013-03-19 – 2019-06-30"
+msgid "2013-03-19 - 2019-06-30"
 msgstr "2013-03-19 - 2019-06-30"
 
 #: 
@@ -3485,7 +3485,7 @@ msgid "**Table 4: WOfS Annual Summary product specifications**"
 msgstr "**Tableau 4 : Spécifications des produits du résumé annuel du WOfS**."
 
 #: 
-msgid "2017 – 2019"
+msgid "2017 - 2019"
 msgstr "2017 - 2019"
 
 #: 
@@ -3569,7 +3569,7 @@ msgid "`Landsat Collection 2 <https://docs.digitalearthafrica.org/en/latest/data
 msgstr "`Landsat Collection 2 <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_specs.html>`__"
 
 #: 
-msgid "Mueller, N., Lewis, A., Roberts, D., Ring, S., Melrose, R., Sixsmith, J., Lymburner, L., McIntyre, A., Tan, P., Curnow, S., & Ip, A. (2016). Water observations from space: Mapping surface water from 25 years of Landsat imagery across Australia. Remote Sensing of Environment, 174, 341–352. `https://doi.org/10.1016/j.rse.2015.11.003 <%5Bhttps://doi.org/10.1016/j.rse.2015.11.003%5D>`__"
+msgid "Mueller, N., Lewis, A., Roberts, D., Ring, S., Melrose, R., Sixsmith, J., Lymburner, L., McIntyre, A., Tan, P., Curnow, S., & Ip, A. (2016). Water observations from space: Mapping surface water from 25 years of Landsat imagery across Australia. Remote Sensing of Environment, 174, 341-352. `https://doi.org/10.1016/j.rse.2015.11.003 <%5Bhttps://doi.org/10.1016/j.rse.2015.11.003%5D>`__"
 msgstr "Mueller, N., Lewis, A., Roberts, D., Ring, S., Melrose, R., Sixsmith, J., Lymburner, L., McIntyre, A., Tan, P., Curnow, S. et Ip, A. (2016). Observations de l'eau depuis l'espace : Cartographie des eaux de surface à partir de 25 ans d'imagerie Landsat à travers l'Australie. Télédétection de l'environnement, 174, 341-352. `https://doi.org/10.1016/j.rse.2015.11.003 <%5Bhttps://doi.org/10.1016/j.rse.2015.11.003%5D>`__"
 
 #: 
@@ -3913,7 +3913,7 @@ msgid "Every 12 days"
 msgstr "Tous les 12 jours"
 
 #: 
-msgid "2017-01-01 – present"
+msgid "2017-01-01 - present"
 msgstr "2017-01-01 - aujourd'hui"
 
 #: 
@@ -4285,7 +4285,7 @@ msgid "Every 5 days"
 msgstr "Tous les 5 jours"
 
 #: 
-msgid "2017-05-29 00:00:00 – present"
+msgid "2017-05-29 00:00:00 - present"
 msgstr "2017-05-29 00:00:00 - présent"
 
 #: 
@@ -4297,7 +4297,7 @@ msgid "Ongoing"
 msgstr "En cours"
 
 #: 
-msgid "The specifications listed in Table 1 refer to the period where both Sentinel-2 satellites have been operational. Standalone Sentinel-2A data exists for the period of 2015 – 2017, before Sentinel-2B was launched, but it has a reduced temporal resolution."
+msgid "The specifications listed in Table 1 refer to the period where both Sentinel-2 satellites have been operational. Standalone Sentinel-2A data exists for the period of 2015 - 2017, before Sentinel-2B was launched, but it has a reduced temporal resolution."
 msgstr "Les spécifications énumérées dans le tableau 1 font référence à la période où les deux satellites Sentinel-2 ont été opérationnels. Des données Sentinel-2A autonomes existent pour la période 2015-2017, avant le lancement de Sentinel-2B, mais leur résolution temporelle est réduite."
 
 #: 
@@ -10181,7 +10181,7 @@ msgid "In order to produce a single, complete view of a certain area, satellite 
 msgstr "Afin de produire une vue unique et complète d'une certaine zone, les données satellitaires doivent être consolidées, en empilant les mesures de différents points dans le temps pour créer une image composite."
 
 #: 
-msgid "The Digital Earth Africa (DE Africa) Sentinel-2 Annual GeoMAD (**Geo**\\ median and **M**\\ edian **A**\\ bsolute **D**\\ eviations) is a cloud-free composite of Sentinel-2 satellite data compiled for each calendar year between 2017 – 2020."
+msgid "The Digital Earth Africa (DE Africa) Sentinel-2 Annual GeoMAD (**Geo**\\ median and **M**\\ edian **A**\\ bsolute **D**\\ eviations) is a cloud-free composite of Sentinel-2 satellite data compiled for each calendar year between 2017 - 2020."
 msgstr "Le GeoMAD annuel Sentinel-2 de Digital Earth Africa (DE Africa) (**Geo**\\ médiane et **M**\\ edian **A**\\ bsolute **D**\\ eviations) est un composite sans nuage de données satellitaires Sentinel-2 compilées pour chaque année civile entre 2017 - 2020."
 
 #: 
@@ -10205,7 +10205,7 @@ msgid "Geomedian surface reflectance product"
 msgstr "Produit géomédiatique de réflectance de surface"
 
 #: 
-msgid "Valid scaling range: ``1 – 10,000``"
+msgid "Valid scaling range: ``1 - 10,000``"
 msgstr "Plage de mise à l'échelle valide : \"1 - 10,000\"."
 
 #: 
@@ -10229,7 +10229,7 @@ msgid "Status: Operational"
 msgstr "Statut : Opérationnel"
 
 #: 
-msgid "Date-range: 2017 – 2020"
+msgid "Date-range: 2017 - 2020"
 msgstr "Période : 2017 - 2020"
 
 #: 
@@ -10365,7 +10365,7 @@ msgid "Surface reflectance product"
 msgstr "Produit de réflectance de surface"
 
 #: 
-msgid "Native scaling range: ``1 – 65,455`` (``0`` is ``no-data``)"
+msgid "Native scaling range: ``1 - 65,455`` (``0`` is ``no-data``)"
 msgstr "Plage de mise à l'échelle native : ``1 - 65,455`` (``0`` est ``no-data``)"
 
 #: 
@@ -10373,7 +10373,7 @@ msgid "To achieve surface reflectance values, normalise values to ``0 - 1`` usin
 msgstr "Pour obtenir des valeurs de réflectance de surface, normalisez les valeurs à \"0 - 1\" en utilisant \"ds = ds * 2,75e-5 - 0,2\"."
 
 #: 
-msgid "Using ``dc.load`` will load data in the native scaling range ``1 – 65,455``, while using ``load_ard`` will scale the values"
+msgid "Using ``dc.load`` will load data in the native scaling range ``1 - 65,455``, while using ``load_ard`` will scale the values"
 msgstr "L'utilisation de ``dc.load`` chargera les données dans l'échelle native ``1 - 65,455``, tandis que l'utilisation de ``load_ard`` mettra les valeurs à l'échelle."
 
 #: 
@@ -10381,7 +10381,7 @@ msgid "`CFMask <https://github.com/USGS-EROS/espa-cloud-masking/tree/master/cfma
 msgstr "`CFMask <https://github.com/USGS-EROS/espa-cloud-masking/tree/master/cfmask>`__ utilisé comme masque de nuage"
 
 #: 
-msgid "Date-range: 1984 – present"
+msgid "Date-range: 1984 - present"
 msgstr "Fourchette de dates : 1984 - aujourd'hui"
 
 #: 
@@ -10517,7 +10517,7 @@ msgid "Surface temperature product"
 msgstr "Produit de la température de surface"
 
 #: 
-msgid "Native scaling range: ``1 – 65,535`` (``0`` is ``no-data``)"
+msgid "Native scaling range: ``1 - 65,535`` (``0`` is ``no-data``)"
 msgstr "Plage de mise à l'échelle native : \" 1 - 65 535 \" (0 est \" sans données \")"
 
 #: 
@@ -10525,7 +10525,7 @@ msgid "To achieve surface temperature values, normalise values to ``0 - 1`` usin
 msgstr "Pour obtenir des valeurs de température de surface, normaliser les valeurs à \"0 - 1\" en utilisant \"ds = ds * 0.00341802 + 149.0\"."
 
 #: 
-msgid "Using ``dc.load`` will load data in the native scaling range ``1 – 65,535``, while using ``load_ard`` will scale the values as above"
+msgid "Using ``dc.load`` will load data in the native scaling range ``1 - 65,535``, while using ``load_ard`` will scale the values as above"
 msgstr "L'utilisation de ``dc.load`` chargera les données dans l'échelle native ``1 - 65,535``, tandis que l'utilisation de ``load_ard`` mettra les valeurs à l'échelle comme ci-dessus."
 
 #: 
@@ -10729,7 +10729,7 @@ msgid "Surface reflectance product (Level 2A)"
 msgstr "Produit de réflectance de surface (niveau 2A)"
 
 #: 
-msgid "Valid SR scaling range: ``1 – 10,000 (0 is no-data)``"
+msgid "Valid SR scaling range: ``1 - 10,000 (0 is no-data)``"
 msgstr "Plage de mise à l'échelle SR valide : ``1 - 10,000 (0 est sans données)``"
 
 #: 
@@ -10737,7 +10737,7 @@ msgid "`SCL <https://earth.esa.int/web/sentinel/technical-guides/sentinel-2-msi/
 msgstr "`SCL <https://earth.esa.int/web/sentinel/technical-guides/sentinel-2-msi/level-2a/algorithm>`__ utilisé comme bande de qualité de pixel"
 
 #: 
-msgid "Date-range: 2017 – present"
+msgid "Date-range: 2017 - present"
 msgstr "Période : 2017 - aujourd'hui"
 
 #: 
@@ -18541,11 +18541,11 @@ msgid "DE Africa provides two types of maps services:"
 msgstr "DE Africa fournit deux types de services cartographiques :"
 
 #: 
-msgid "Web Map Service (WMS) – A standard protocol for serving georeferenced map images over the internet that are generated from a map server using data from a GIS database. It is important to note that with a WMS, you are essentially getting an image of geospatial data (i.e. JPG, GIF, PNG file). While this has its uses, it is an image only, and therefore does not contain any of the underlying geospatial data that was used to create the image."
+msgid "Web Map Service (WMS) - A standard protocol for serving georeferenced map images over the internet that are generated from a map server using data from a GIS database. It is important to note that with a WMS, you are essentially getting an image of geospatial data (i.e. JPG, GIF, PNG file). While this has its uses, it is an image only, and therefore does not contain any of the underlying geospatial data that was used to create the image."
 msgstr "Service de cartographie Web (WMS) - Protocole standard permettant de diffuser sur Internet des images cartographiques géoréférencées générées par un serveur cartographique à partir des données d'une base de données SIG. Il est important de noter qu'avec un WMS, vous obtenez essentiellement une image de données géospatiales (c'est-à-dire un fichier JPG, GIF ou PNG). Bien que cela ait son utilité, il s'agit uniquement d'une image et elle ne contient donc aucune des données géospatiales sous-jacentes qui ont été utilisées pour créer l'image."
 
 #: 
-msgid "Web Coverage Service (WCS) – A standard protocol for serving coverage data which returns data with its original semantics (instead of just pictures) which may be interpreted, extrapolated, etc., and not just portrayed. Essentially, a WCS can be thought of as the raw geospatial raster data behind an image. Using a WCS, you can pull the raw raster information you need to perform further analysis."
+msgid "Web Coverage Service (WCS) - A standard protocol for serving coverage data which returns data with its original semantics (instead of just pictures) which may be interpreted, extrapolated, etc., and not just portrayed. Essentially, a WCS can be thought of as the raw geospatial raster data behind an image. Using a WCS, you can pull the raw raster information you need to perform further analysis."
 msgstr "Service de couverture Web (WCS) - Protocole standard pour servir des données de couverture qui renvoie des données avec leur sémantique originale (au lieu de simples images) qui peuvent être interprétées, extrapolées, etc. et pas seulement représentées. Essentiellement, un WCS peut être considéré comme les données géospatiales matricielles brutes derrière une image. En utilisant un WCS, vous pouvez extraire les informations matricielles brutes dont vous avez besoin pour effectuer une analyse plus approfondie."
 
 #: 
