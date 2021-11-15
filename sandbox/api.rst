@@ -1,5 +1,5 @@
 DE Africa Tools Package
-====================
+=======================
 
 ``deafrica_tools`` is a Python package contains several modules with functions to load, analyse
 and output data from Digital Earth Africa. It is automatically installed in the Digital Earth 
@@ -19,9 +19,9 @@ Core modules
    deafrica_tools.datahandling
    deafrica_tools.load_era5
    deafrica_tools.plotting
-   deafrica_tools.segmentation
    deafrica_tools.spatial
    deafrica_tools.temporal
+   deafrica_tools.wetlands
 
 Apps and widgets
 -----------------
@@ -34,6 +34,8 @@ Apps and widgets
    deafrica_tools.app.changefilmstrips
    deafrica_tools.app.crophealth
    deafrica_tools.app.imageexport
+   deafrica_tools.app.wetlandsinsighttool
+   deafrica_tools.app.widgetconstructors
 
 License
 -------
