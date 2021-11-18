@@ -32,7 +32,7 @@ view and analyse that data.
    :maxdepth: 1
 
    data_specs/index
-
+   
 
 .. rubric:: Platforms
    :class: fakeheading
