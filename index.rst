@@ -25,13 +25,6 @@ view and analyse that data.
 
    :doc:`See all available data specifications <data_specs/index>`
 
-.. topic:: :doc:`data_specs/access`
-   :class: platform
-
-   Directly access Digital Earth Africa data as COG files, from AWS S3 buckets, or through STAC
-
-   :doc:`Find out more <data_specs/access>`
-    
 
 .. toctree::
    :caption: Data and Services
@@ -39,9 +32,7 @@ view and analyse that data.
    :maxdepth: 1
 
    data_specs/index
-   data_specs/index2
-   data_specs/access
-
+   
 
 .. rubric:: Platforms
    :class: fakeheading
@@ -86,6 +77,13 @@ view and analyse that data.
 
    :doc:`Web Services User Guide <web_services/index>`
 
+.. topic:: :doc:`web_services/access`
+   :class: platform
+
+   Directly access the data and metadata from cloud data storage
+
+   :doc:`More <web_services/access>`
+
 .. topic:: :doc:`web_services/explorer`
    :class: platform
 
@@ -103,6 +101,7 @@ view and analyse that data.
    sandbox/index
    maps/geoportal
    web_services/index
+   web_services/access
    web_services/explorer
 
 

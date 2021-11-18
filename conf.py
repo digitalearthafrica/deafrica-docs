@@ -78,10 +78,12 @@ autodoc_mock_imports = ['aiohttp',
                         'rios',
                         'rsgislib',
                         'scipy',
+                        'seaborn',
                         'shapely',
                         'skimage',
                         'sklearn',
                         'tqdm',
+                        'traitlets',
                         'xarray']
 autosummary_mock_imports = autodoc_mock_imports
 
