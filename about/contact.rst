@@ -6,15 +6,19 @@ Digital Earth Africa Help Desk
 
 Explore the `Help Desk <https://helpdesk.digitalearthafrica.org/>`_. It's full of useful materials such as the
 **Knowledge Base** of articles, **FAQs** and **User Guides**.
+
 For members you can submit and view tickets, join the community for discussions and ask your own questions.
 
 `helpdesk.digitalearthafrica.org <https://helpdesk.digitalearthafrica.org/>`_
+
+If you can't find what you are looking for, you can ask for help by
+`submitting a ticket <https://helpdesk.digitalearthafrica.org/portal/en/newticket>`_.
 
 
 Email
 -----
 
-Contact us on helpdesk@digitalearthafrica.org.
+Email us at helpdesk@digitalearthafrica.org.
 
 
 GIS Stack Exchange
