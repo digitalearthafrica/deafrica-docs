@@ -884,8 +884,8 @@ msgid "Digital Earth Africa OWS details can be found at https://ows.digitalearth
 msgstr "Les détails de Digital Earth Africa OWS peuvent être trouvés sur https://ows.digitalearth.africa/."
 
 #: 
-msgid "For instructions on how to connect to OWS, see `this tutorial <https://training.digitalearthafrica.org/en/latest/OWS_tutorial.html>`__."
-msgstr "Pour obtenir des instructions sur la manière de se connecter à OWS, consultez `ce tutoriel <https://training.digitalearthafrica.org/en/latest/OWS_tutorial.html>`__."
+msgid "For instructions on how to connect to OWS, see `this tutorial <../web_services/>`__."
+msgstr "Pour obtenir des instructions sur la manière de se connecter à OWS, consultez `ce tutoriel <../web_services/>`__."
 
 #: 
 msgid "Open Data Cube (ODC)"
