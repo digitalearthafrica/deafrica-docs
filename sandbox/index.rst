@@ -34,7 +34,7 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
        :doc:`access`
 
        .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
-          :target: `access.rst`
+          :target: `./access.html`
 
        Creating an account on the sandbox
 
@@ -44,7 +44,7 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
        :doc:`notebooks/Beginners_guide/index`
 
        .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
-          :target: notebooks/Beginners_guide/index.rst
+          :target: ./notebooks/Beginners_guide/index.html
 
        An introduction to using the sandbox
 
@@ -54,7 +54,7 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
        :doc:`notebooks/Datasets/index`
 
        .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
-          :target: notebooks/Datasets/index.rst
+          :target: ./notebooks/Datasets/index.html
 
        Examples on using the each of the datasets
 
@@ -64,7 +64,7 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
        :doc:`notebooks/Frequently_used_code/index`
 
        .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
-          :target: notebooks/Frequently_used_code/index.rst
+          :target: ./notebooks/Frequently_used_code/index.html
 
        Simple code examples demonstrating how to perform common tasks
 
@@ -74,7 +74,7 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
        :doc:`notebooks/Real_world_examples/index`
 
        .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
-          :target: notebooks/Real_world_examples/index.rst
+          :target: ./notebooks/Real_world_examples/index.html
 
        Complex workflows on how to address real-world problems
 
@@ -84,7 +84,7 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
        :doc:`notebooks/Use_cases/index`
 
        .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
-          :target: notebooks/Use_cases/index.rst
+          :target: ./notebooks/Use_cases/index.html
 
        Advanced examples looking at specific use-cases
 
@@ -94,7 +94,7 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
        :doc:`notebooks/Tools/index`
 
        .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
-          :target: notebooks/Tools/index.rst
+          :target: ./notebooks/Tools/index.html
 
        Reference guide for ``deafrica_tools`` functions and algorithms
 
@@ -108,7 +108,7 @@ More
        :doc:`help`
 
        .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
-          :target: help.rst
+          :target: ./help.html
 
        How to get help using the Sandbox
 
@@ -118,7 +118,7 @@ More
        :doc:`git-howto/index`
 
        .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
-          :target: git-howto/index.rst
+          :target: ./git-howto/index.html
 
        Guide to using notebooks with ``git`` version control
 

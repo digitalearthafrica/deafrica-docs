@@ -35,6 +35,7 @@ extensions = [
     "sphinx.ext.napoleon",
     "nbsphinx",
     "sphinx_rtd_theme",
+    "sphinx.ext.autosectionlabel",
 ]
 
 # Autodoc conf

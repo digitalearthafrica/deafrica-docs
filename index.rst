@@ -41,7 +41,7 @@ view and analyse that data.
    :class: platform
 
    .. image:: _static/maps/Workbench.jpg
-      :target: maps/index
+      :target: ./maps/
       :width: 160px
       :height: 112px
       :align: left
@@ -54,7 +54,7 @@ view and analyse that data.
    :class: platform
 
    .. image:: _static/sandbox/sandbox_mini.png
-      :target: maps/index
+      :target: ./sandbox/
       :width: 160px
       :height: 120px
       :align: left
