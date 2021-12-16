@@ -118,9 +118,9 @@ div.document a:visited {
 }
 
 .product-item {
-    padding: 1rem;
     transition: all 0.4s ease-in-out;
     border-radius: 5px;
+    overflow: hidden;
     box-shadow: 2px 1px 25px 5px rgb(166 166 166 / 20%);
     border: 1px solid #f0f0f0;
 }
@@ -129,10 +129,24 @@ div.document a:visited {
     box-shadow: 2px 1px 25px 5px rgb(166 166 166 / 70%);
 }
 
+.product-item p {
+    margin: 0.5rem;
+}
+
 .product-item p:first-child {
     display: block;
-    font-size: 125%;
     margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.product-item p:last-child {
+    display: inline-block;
+    background-color: #336699;
+    color: white;
+    font-size: 12px;
+    padding: 8px 17px 8px 17px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .product-item img {
