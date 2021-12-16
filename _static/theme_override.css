@@ -133,28 +133,35 @@ div.document a:visited {
     margin: 0.5rem;
 }
 
-.product-item p:first-child {
+.product-item p:first-of-type {
     display: block;
     margin-bottom: 12px;
     font-weight: 700;
 }
 
-.product-item p:last-child {
+.product-item p:last-child a {
     display: inline-block;
+    padding: 8px 17px 8px 17px;
+    color: white;
+    border: 1px solid  #336699;
     background-color: #336699;
+    transition: all 0.2s ease-in-out;
+}
+
+.product-item p:last-child a:hover {
+    color: #336699;
+    background-color: white;
+}
+
+.product-item p:last-child {
     color: white;
     font-size: 12px;
-    padding: 8px 17px 8px 17px;
     text-transform: uppercase;
     font-weight: 600;
 }
 
 .product-item img {
     width: 100%;
-}
-
-.product-item p {
-    margin: 0;
 }
 
 .document a[href^="http"] {
