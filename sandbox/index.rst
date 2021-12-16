@@ -12,13 +12,114 @@ When you create a DE Africa Sandbox account or use the DE Africa Sandbox,
 you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
 
 .. toctree::
+   :hidden:
    :maxdepth: 1
 
-   termsconditions
-   register
    access
-   navigate
+   notebooks/Beginners_guide/index
+   notebooks/Datasets/index
+   notebooks/Frequently_used_code/index
+   notebooks/Real_world_examples/index
+   notebooks/Use_cases/index
+   notebooks/Tools/index
+   help
    git-howto/index
-   userfaq
-   gallery
-   api
+   termsconditions
+
+
+.. container:: product-list
+
+    .. container:: product-item
+
+       :doc:`access`
+
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+          :target: `access.rst`
+
+       Creating an account on the sandbox
+
+
+    .. container:: product-item
+
+       :doc:`notebooks/Beginners_guide/index`
+
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+          :target: notebooks/Beginners_guide/index.rst
+
+       An introduction to using the sandbox
+
+
+    .. container:: product-item
+
+       :doc:`notebooks/Datasets/index`
+
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+          :target: notebooks/Datasets/index.rst
+
+       Examples on using the each of the datasets
+
+
+    .. container:: product-item
+
+       :doc:`notebooks/Frequently_used_code/index`
+
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+          :target: notebooks/Frequently_used_code/index.rst
+
+       Simple code examples demonstrating how to perform common tasks
+
+
+    .. container:: product-item
+
+       :doc:`notebooks/Real_world_examples/index`
+
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+          :target: notebooks/Real_world_examples/index.rst
+
+       Complex workflows on how to address real-world problems
+
+
+    .. container:: product-item
+
+       :doc:`notebooks/Use_cases/index`
+
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+          :target: notebooks/Use_cases/index.rst
+
+       Advanced examples looking at specific use-cases
+
+
+    .. container:: product-item
+
+       :doc:`notebooks/Tools/index`
+
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+          :target: notebooks/Tools/index.rst
+
+       Reference guide for ``deafrica_tools`` functions and algorithms
+
+More
+----
+
+.. container:: product-list
+
+    .. container:: product-item
+
+       :doc:`help`
+
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+          :target: help.rst
+
+       How to get help using the Sandbox
+
+
+    .. container:: product-item
+
+       :doc:`git-howto/index`
+
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+          :target: git-howto/index.rst
+
+       Guide to using notebooks with ``git`` version control
+
+
