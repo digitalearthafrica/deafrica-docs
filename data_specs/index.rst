@@ -3,6 +3,30 @@
 Data Catalog
 ============
 
+
+.. toctree::
+   :caption: Satellite images
+   :hidden:
+   :maxdepth: 1
+
+   Landsat_C2_SR_specs
+   Sentinel-2_Level-2A_specs
+   GeoMAD_specs
+   Landsat_C2_ST_specs
+   Sentinel-1_specs
+   ALOS_PALSAR_annual_mosaic_specs
+
+
+.. toctree::
+   :caption: Land and water
+   :hidden:
+   :maxdepth: 1
+
+   Landsat_WOfS_specs
+   Cropland_extent_specs
+   Fractional_Cover_specs
+
+
 Digital Earth Africa hosts a repository of Earth observation datasets
 spanning continental Africa.
 
@@ -16,36 +40,33 @@ Surface reflectance
 
     .. container:: product-item
 
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+
        :doc:`Landsat_C2_SR_specs`
 
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
-          :target: Landsat_C2_SR_specs
+       Daily satellite images from Landsat 5, 7 and 8.
 
-       Surface Reflectance from Landsat 5, 7 and 8.
-
-       :doc:`View data specifications <Landsat_C2_SR_specs>`
+       :doc:`More <Landsat_C2_SR_specs>`
 
     .. container:: product-item
+
+       .. image:: https://www.digitalearthafrica.org/sites/default/files/images/sentinel-2.jpg
 
        :doc:`Sentinel-2_Level-2A_specs`
 
-       .. image:: https://www.digitalearthafrica.org/sites/default/files/images/sentinel-2.jpg
-          :target: Sentinel-2_Level-2A_specs
+       Daily satellite images from Sentinel-2.
 
-       Sentinel-2 Surface Reflectance.
-
-       :doc:`View data specifications <Sentinel-2_Level-2A_specs>`
+       :doc:`More <Sentinel-2_Level-2A_specs>`
 
     .. container:: product-item
 
+       .. image:: https://www.digitalearthafrica.org/sites/default/files/file-uploads/GeoMAD_composite.jpeg
+
        :doc:`GeoMAD_specs`
 
-       .. image:: https://www.digitalearthafrica.org/sites/default/files/file-uploads/GeoMAD_composite.jpeg
-          :target: GeoMAD_specs
+       Cloud-free mosaics from Landsat and Sentinel-2 satellites.
 
-       Annual and semi-annual cloud-free mosaics from Landsat and Sentinel-2 satellites, including variation.
-
-       :doc:`View data specifications <GeoMAD_specs>`
+       :doc:`More <GeoMAD_specs>`
 
 
 Surface temperature
@@ -55,14 +76,13 @@ Surface temperature
 
     .. container:: product-item
 
-       :doc:`Landsat_C2_ST_specs`
-
        .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya_st.jpg
-          :target: Landsat_C2_ST_specs
+
+       :doc:`Landsat_C2_ST_specs`
 
        Surface Temperature from Landsat 5, 7 and 8.
 
-       :doc:`View data specifications <Landsat_C2_ST_specs>`
+       :doc:`More <Landsat_C2_ST_specs>`
 
 
 Radar backscatter
@@ -72,14 +92,13 @@ Radar backscatter
 
     .. container:: product-item
 
+       .. image:: https://www.digitalearthafrica.org/sites/default/files/images/Sentinel-1.jpg
+
        :doc:`Sentinel-1_specs`
 
-       .. image:: https://www.digitalearthafrica.org/sites/default/files/images/Sentinel-1.jpg
-          :target: Sentinel-1_specs
+       Synthetic Aperture Radar from Sentinel-1.
 
-       Sentinel-1 Synthetic Aperture Radar.
-
-       :doc:`View data specifications <Sentinel-1_specs>`
+       :doc:`More <Sentinel-1_specs>`
 
 
     .. container:: product-item
@@ -87,11 +106,10 @@ Radar backscatter
        :doc:`ALOS_PALSAR_annual_mosaic_specs`
 
        .. image:: https://digital-earth-africa--42.org.readthedocs.build/en/42/_images/sandbox_notebooks_Datasets_ALOS_PALSAR_Annual_Mosaic_33_0.png
-          :target: ALOS_PALSAR_annual_mosaic_specs
 
-       Synthetic Aperture Radar annual mosaics from JAXA for the years 1996 (JERS) and 2007-2018 (PALSAR).
+       Synthetic Aperture Radar annual mosaics from JAXA.
 
-       :doc:`View data specifications <ALOS_PALSAR_annual_mosaic_specs>`
+       :doc:`More <ALOS_PALSAR_annual_mosaic_specs>`
 
 
 Land and water
@@ -101,38 +119,36 @@ Land and water
 
     .. container:: product-item
 
-       :doc:`Landsat_WOfS_specs`
-
        .. image:: https://www.digitalearthafrica.org/sites/default/files/gallery/cover/49972457726_3e8bf9e856_w.jpg
-          :target: Landsat_WOfS_specs
+
+       :doc:`Landsat_WOfS_specs`
 
        Individual, annual and historic water observations.
 
-       :doc:`View data specifications <Landsat_WOfS_specs>`
+       :doc:`More <Landsat_WOfS_specs>`
 
 
     .. container:: product-item
+
+
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/crop_mask_example_ethiopia_labelled.png
 
        :doc:`Cropland_extent_specs`
 
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/crop_mask_example_ethiopia_labelled.png
-          :target: Cropland_extent_specs
+       Estimated location of croplands.
 
-       Shows the estimated location of croplands for 2019.
-
-       :doc:`View data specifications <Cropland_extent_specs>`
+       :doc:`More <Cropland_extent_specs>`
 
 
     .. container:: product-item
 
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/sandbox_notebooks_Datasets_Fractional_Cover_27_0.png
+
        :doc:`Fractional_Cover_specs`
 
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/sandbox_notebooks_Datasets_Fractional_Cover_27_0.png
-          :target: Fractional_Cover_specs
+       Green vegetation, non-green vegetation and bare soil for every Landsat image.
 
-       Shows the fractions of green vegetation, non-green vegetation and bare soils for every Landsat pixel.
-
-       :doc:`View data specifications <Fractional_Cover_specs>`
+       :doc:`More <Fractional_Cover_specs>`
 
 
 If you have any feedback for the DE Africa data and services, please contact us at 
