@@ -884,8 +884,8 @@ msgid "Digital Earth Africa OWS details can be found at https://ows.digitalearth
 msgstr "Les détails de Digital Earth Africa OWS peuvent être trouvés sur https://ows.digitalearth.africa/."
 
 #: 
-msgid "For instructions on how to connect to OWS, see `this tutorial <../web_services/>`__."
-msgstr "Pour obtenir des instructions sur la manière de se connecter à OWS, consultez `ce tutoriel <../web_services/>`__."
+msgid "For instructions on how to connect to OWS, see `this tutorial <../web_services/index.ipynb>`__."
+msgstr "Pour obtenir des instructions sur la manière de se connecter à OWS, consultez `ce tutoriel <../web_services/index.ipynb>`__."
 
 #: 
 msgid "Open Data Cube (ODC)"
@@ -4813,8 +4813,8 @@ msgid "Access to DE Africa data using Web Map Service and Web Coverage Service"
 msgstr "Accès aux données de DE Afrique à l'aide de Web Map Service et Web Coverage Service"
 
 #: 
-msgid ":doc:`Web Services User Guide <web_services/index>`"
-msgstr ":doc:`Guide d'utilisation des services Web <web_services/index>`"
+msgid ":doc:`Web Services User Guide <web_services/index.ipynb>`"
+msgstr ":doc:`Guide d'utilisation des services Web <web_services/index.ipynb>`"
 
 #: 
 msgid ":doc:`web_services/explorer`"
