@@ -31,12 +31,14 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
 
     .. container:: product-item
 
+       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+          :target: ./access.html
+
        :doc:`access`
 
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
-          :target: `./access.html`
-
        Creating an account on the sandbox
+
+       :doc:`More <access>`
 
 
     .. container:: product-item
@@ -48,6 +50,8 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
 
        An introduction to using the sandbox
 
+       :doc:`More <notebooks/Beginners_guide/index>`
+
 
     .. container:: product-item
 
@@ -57,6 +61,8 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
           :target: ./notebooks/Datasets/index.html
 
        Examples on using the each of the datasets
+
+       :doc:`More <notebooks/Datasets/index>`
 
 
     .. container:: product-item
@@ -68,6 +74,8 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
 
        Simple code examples demonstrating how to perform common tasks
 
+       :doc:`More <notebooks/Frequently_used_code/index>`
+
 
     .. container:: product-item
 
@@ -78,6 +86,8 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
 
        Complex workflows on how to address real-world problems
 
+       :doc:`More <notebooks/Real_world_examples/index>`
+
 
     .. container:: product-item
 
@@ -87,7 +97,13 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
           :target: ./notebooks/Use_cases/index.html
 
        Advanced examples looking at specific use-cases
+       :doc:`More <notebooks/Use_cases/index>`
 
+
+Additional Guides
+-----------------
+
+.. container:: product-list
 
     .. container:: product-item
 
@@ -98,10 +114,8 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
 
        Reference guide for ``deafrica_tools`` functions and algorithms
 
-More
-----
+       :doc:`More <notebooks/Tools/index>`
 
-.. container:: product-list
 
     .. container:: product-item
 
@@ -112,6 +126,8 @@ More
 
        How to get help using the Sandbox
 
+       :doc:`More <help>`
+
 
     .. container:: product-item
 
@@ -121,5 +137,7 @@ More
           :target: ./git-howto/index.html
 
        Guide to using notebooks with ``git`` version control
+
+       :doc:`More <git-howto/index>`
 
 
