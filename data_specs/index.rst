@@ -103,9 +103,9 @@ Radar backscatter
 
     .. container:: product-item
 
-       :doc:`ALOS_PALSAR_annual_mosaic_specs`
-
        .. image:: https://digital-earth-africa--42.org.readthedocs.build/en/42/_images/sandbox_notebooks_Datasets_ALOS_PALSAR_Annual_Mosaic_33_0.png
+
+       :doc:`ALOS_PALSAR_annual_mosaic_specs`
 
        Synthetic Aperture Radar annual mosaics from JAXA.
 
