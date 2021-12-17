@@ -3,30 +3,6 @@
 Data Catalog
 ============
 
-
-.. toctree::
-   :caption: Satellite images
-   :hidden:
-   :maxdepth: 1
-
-   Landsat_C2_SR_specs
-   Sentinel-2_Level-2A_specs
-   GeoMAD_specs
-   Landsat_C2_ST_specs
-   Sentinel-1_specs
-   ALOS_PALSAR_annual_mosaic_specs
-
-
-.. toctree::
-   :caption: Land and water
-   :hidden:
-   :maxdepth: 1
-
-   Landsat_WOfS_specs
-   Cropland_extent_specs
-   Fractional_Cover_specs
-
-
 Digital Earth Africa hosts a repository of Earth observation datasets
 spanning continental Africa.
 
@@ -36,11 +12,20 @@ Satellite images
 Surface reflectance
 ^^^^^^^^^^^^^^^^^^^
 
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+   Landsat_C2_SR_specs
+   Sentinel-2_Level-2A_specs
+   GeoMAD_specs
+
+
 .. container:: product-list
 
     .. container:: product-item
 
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+       .. image:: ../_static/data_specs/Landsat_thumbnail.png
 
        :doc:`Landsat_C2_SR_specs`
 
@@ -48,9 +33,10 @@ Surface reflectance
 
        :doc:`More <Landsat_C2_SR_specs>`
 
+
     .. container:: product-item
 
-       .. image:: https://www.digitalearthafrica.org/sites/default/files/images/sentinel-2.jpg
+       .. image:: ../_static/data_specs/S2_thumbnail.png
 
        :doc:`Sentinel-2_Level-2A_specs`
 
@@ -58,9 +44,10 @@ Surface reflectance
 
        :doc:`More <Sentinel-2_Level-2A_specs>`
 
+
     .. container:: product-item
 
-       .. image:: https://www.digitalearthafrica.org/sites/default/files/file-uploads/GeoMAD_composite.jpeg
+       .. image:: ../_static/data_specs/GeoMAD_thumbnail.png
 
        :doc:`GeoMAD_specs`
 
@@ -72,11 +59,18 @@ Surface reflectance
 Surface temperature
 ^^^^^^^^^^^^^^^^^^^
 
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+   Landsat_C2_ST_specs
+
+
 .. container:: product-list
 
     .. container:: product-item
 
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya_st.jpg
+       .. image:: ../_static/data_specs/ST_thumbnail.png
 
        :doc:`Landsat_C2_ST_specs`
 
@@ -88,11 +82,19 @@ Surface temperature
 Radar backscatter
 ^^^^^^^^^^^^^^^^^
 
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+   Sentinel-1_specs
+   ALOS_PALSAR_annual_mosaic_specs
+
+
 .. container:: product-list
 
     .. container:: product-item
 
-       .. image:: https://www.digitalearthafrica.org/sites/default/files/images/Sentinel-1.jpg
+       .. image:: ../_static/data_specs/S1_thumbnail.png
 
        :doc:`Sentinel-1_specs`
 
@@ -103,7 +105,7 @@ Radar backscatter
 
     .. container:: product-item
 
-       .. image:: https://digital-earth-africa--42.org.readthedocs.build/en/42/_images/sandbox_notebooks_Datasets_ALOS_PALSAR_Annual_Mosaic_33_0.png
+       .. image:: ../_static/data_specs/ALOS_thumbnail.png
 
        :doc:`ALOS_PALSAR_annual_mosaic_specs`
 
@@ -115,11 +117,21 @@ Radar backscatter
 Land and water
 --------------
 
+.. toctree::
+   :caption: Land and water
+   :hidden:
+   :maxdepth: 1
+
+   Landsat_WOfS_specs
+   Cropland_extent_specs
+   Fractional_Cover_specs
+
+
 .. container:: product-list
 
     .. container:: product-item
 
-       .. image:: https://www.digitalearthafrica.org/sites/default/files/gallery/cover/49972457726_3e8bf9e856_w.jpg
+       .. image:: ../_static/data_specs/wofs_thumbnail.png
 
        :doc:`Landsat_WOfS_specs`
 
@@ -131,7 +143,7 @@ Land and water
     .. container:: product-item
 
 
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/crop_mask_example_ethiopia_labelled.png
+       .. image:: ../_static/data_specs/crop_thumbnail.png
 
        :doc:`Cropland_extent_specs`
 
@@ -142,7 +154,7 @@ Land and water
 
     .. container:: product-item
 
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/sandbox_notebooks_Datasets_Fractional_Cover_27_0.png
+       .. image:: ../_static/data_specs/fc_thumbnail.png
 
        :doc:`Fractional_Cover_specs`
 

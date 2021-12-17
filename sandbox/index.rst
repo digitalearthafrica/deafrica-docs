@@ -21,17 +21,13 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
    notebooks/Frequently_used_code/index
    notebooks/Real_world_examples/index
    notebooks/Use_cases/index
-   notebooks/Tools/index
-   help
-   git-howto/index
-   termsconditions
 
 
 .. container:: product-list
 
     .. container:: product-item
 
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+       .. image:: ../_static/sandbox/start.png
           :target: ./access.html
 
        :doc:`access`
@@ -43,10 +39,10 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
 
     .. container:: product-item
 
-       :doc:`notebooks/Beginners_guide/index`
-
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+       .. image:: ../_static/sandbox/beginner.png
           :target: ./notebooks/Beginners_guide/index.html
+
+       :doc:`notebooks/Beginners_guide/index`
 
        An introduction to using the sandbox
 
@@ -55,10 +51,10 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
 
     .. container:: product-item
 
-       :doc:`notebooks/Datasets/index`
-
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+       .. image:: ../_static/sandbox/datasets.png
           :target: ./notebooks/Datasets/index.html
+
+       :doc:`notebooks/Datasets/index`
 
        Examples on using the each of the datasets
 
@@ -67,10 +63,10 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
 
     .. container:: product-item
 
-       :doc:`notebooks/Frequently_used_code/index`
-
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+       .. image:: ../_static/sandbox/frequent.png
           :target: ./notebooks/Frequently_used_code/index.html
+
+       :doc:`notebooks/Frequently_used_code/index`
 
        Simple code examples demonstrating how to perform common tasks
 
@@ -79,10 +75,10 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
 
     .. container:: product-item
 
-       :doc:`notebooks/Real_world_examples/index`
-
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+       .. image:: ../_static/sandbox/real_world.png
           :target: ./notebooks/Real_world_examples/index.html
+
+       :doc:`notebooks/Real_world_examples/index`
 
        Complex workflows on how to address real-world problems
 
@@ -91,26 +87,38 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
 
     .. container:: product-item
 
-       :doc:`notebooks/Use_cases/index`
-
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+       .. image:: ../_static/sandbox/use_cases.png
           :target: ./notebooks/Use_cases/index.html
 
+       :doc:`notebooks/Use_cases/index`
+
        Advanced examples looking at specific use-cases
+
        :doc:`More <notebooks/Use_cases/index>`
 
 
+------
+
 Additional Guides
 -----------------
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+   notebooks/Tools/index
+   help
+   git-howto/index
+   termsconditions
 
 .. container:: product-list
 
     .. container:: product-item
 
-       :doc:`notebooks/Tools/index`
-
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+       .. image:: ../_static/sandbox/tools.png
           :target: ./notebooks/Tools/index.html
+
+       :doc:`notebooks/Tools/index`
 
        Reference guide for ``deafrica_tools`` functions and algorithms
 
@@ -119,10 +127,10 @@ Additional Guides
 
     .. container:: product-item
 
-       :doc:`help`
-
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+       .. image:: ../_static/sandbox/help.png
           :target: ./help.html
+
+       :doc:`help`
 
        How to get help using the Sandbox
 
@@ -131,10 +139,10 @@ Additional Guides
 
     .. container:: product-item
 
-       :doc:`git-howto/index`
-
-       .. image:: https://docs.digitalearthafrica.org/en/latest/_images/ls_libya.png
+       .. image:: ../_static/sandbox/git.png
           :target: ./git-howto/index.html
+
+       :doc:`git-howto/index`
 
        Guide to using notebooks with ``git`` version control
 
