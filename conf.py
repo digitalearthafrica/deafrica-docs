@@ -119,7 +119,6 @@ try:
     html_theme_options = {
         'logo_only': True,
         'display_version': False,
-        'canonical_url': 'https://docs.digitalearthafrica.org/',
     }
 except ImportError:
     html_theme = 'alabaster'
