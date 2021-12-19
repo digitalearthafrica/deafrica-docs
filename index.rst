@@ -15,86 +15,38 @@ view and analyse that data.
 
    Home <self>
 
-.. rubric:: Data and Services
-    :class: fakeheading
-    
-.. topic:: :doc:`data_specs/index`
-   :class: platform
-
-   Access up-to-date technical specifications of all Digital Earth Africa datasets
-
-   :doc:`See all available data specifications <data_specs/index>`
-
+Data
+====
 
 .. toctree::
-   :caption: Data and Services
    :hidden:
+   :caption: Data
    :maxdepth: 1
 
    data_specs/index
+
+
+.. container:: platform-list
+
+   .. container:: product-item
+
+      .. image:: _static/data_specs/S2_thumbnail.png
+         :target: ./data_specs/
+         :align: left
+
+      :doc:`data_specs/index`
+
+      Access up-to-date technical specifications of all Digital Earth Africa datasets
+
+      :doc:`More <data_specs/index>`
    
 
-.. rubric:: Platforms
-   :class: fakeheading
-
-.. topic:: :doc:`maps/index`
-   :class: platform
-
-   .. image:: _static/maps/Workbench.jpg
-      :target: ./maps/
-      :width: 160px
-      :height: 112px
-      :align: left
-
-   Our user friendly map-based access to DE Africa data and products
-
-   :doc:`More <maps/index>`
-
-.. topic:: :doc:`sandbox/index`
-   :class: platform
-
-   .. image:: _static/sandbox/sandbox_mini.png
-      :target: ./sandbox/
-      :width: 160px
-      :height: 120px
-      :align: left
-
-   Our JupyterLab Analysis Platform for exploring the data with access to analysis tools
-
-   :doc:`Analysis Platform User Guide <sandbox/index>`
-
-.. topic:: :doc:`maps/geoportal`
-   :class: platform
-
-   Imagery from DE Africa is available in Esri’s Africa GeoPortal, providing geospatial tools, data and training
-
-   :doc:`More <maps/geoportal>`
-
-.. topic:: :doc:`web_services/index`
-   :class: platform
-
-   Access to DE Africa data using Web Map Service and Web Coverage Service
-
-   :doc:`Web Services User Guide <web_services/index>`
-
-.. topic:: :doc:`web_services/access`
-   :class: platform
-
-   Directly access the data and metadata from cloud data storage
-
-   :doc:`More <web_services/access>`
-
-.. topic:: :doc:`web_services/explorer`
-   :class: platform
-
-   The Metadata Explorer allows you to see where and when you can find data
-
-   :doc:`More <web_services/explorer>`
-
+Platforms
+=========
 
 .. toctree::
-   :caption: Platforms
    :hidden:
+   :caption: Platforms
    :maxdepth: 1
 
    maps/index
@@ -103,6 +55,86 @@ view and analyse that data.
    web_services/index
    web_services/access
    web_services/explorer
+
+
+.. container:: platform-list
+
+   .. container:: product-item
+
+      .. image:: _static/maps/Workbench.jpg
+         :target: ./maps/
+         :align: left
+
+      :doc:`maps/index`
+
+      Our user friendly map-based access to DE Africa data and products
+
+      :doc:`More <maps/index>`
+
+
+   .. container:: product-item
+
+      .. image:: _static/sandbox/sandbox_mini.png
+         :target: ./sandbox/
+         :align: left
+
+      :doc:`sandbox/index`
+
+      Our JupyterLab Analysis Platform for exploring the data with access to analysis tools
+
+      :doc:`More <sandbox/index>`
+
+
+   .. container:: product-item
+
+      .. image:: _static/data_specs/ST_thumbnail.png
+         :target: ./maps/
+         :align: left
+
+      :doc:`web_services/index`
+
+      Access to DE Africa data from QGIS or ArcGIS using Web Map Service and Web Coverage Service
+
+      :doc:`More <web_services/index>`
+
+
+   .. container:: product-item
+
+      .. image:: _static/data_specs/Landsat_thumbnail.png
+         :target: ./web_services/access.html
+         :align: left
+
+      :doc:`web_services/access`
+
+      Directly access the data and metadata from cloud data storage
+
+      :doc:`More <web_services/access>`
+
+
+   .. container:: product-item
+
+      .. image:: _static/maps/geoportal_logo.png
+         :target: ./maps/geoportal.html
+         :align: left
+
+      :doc:`maps/geoportal`
+
+      Imagery from DE Africa is available in Esri’s Africa GeoPortal, providing geospatial tools, data and training
+
+      :doc:`More <maps/geoportal>`
+
+
+   .. container:: product-item
+
+      .. image:: _static/web_services/metadata.png
+         :target: ./web_services/explorer.html
+         :align: left
+
+      :doc:`web_services/explorer`
+
+      The Metadata Explorer allows you to see where and when you can find data
+
+      :doc:`More <web_services/explorer>`
 
 
 .. toctree::
