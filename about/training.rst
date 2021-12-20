@@ -1,11 +1,16 @@
-Training
-========
+Training Courses
+================
 
-A 6-part training course is available at:
+Training courses on using Digital Earth Africa are available at:
 
-`training.digitalearthafrica.org <https://training.digitalearthafrica.org/>`_
+`learn.digitalearthafrica.org <https://learn.digitalearthafrica.org/>`_
 
-It covers:
+There is a self-paced 6-week introductory training course on using the Sandbox:
+
+* English: `Introduction to Sandbox <https://learn.digitalearthafrica.org/courses/course-v1:digitalearthafrica+DEA101+2021/about>`_
+* Français: `Introduction à la sandbox <https://learn.digitalearthafrica.org/courses/course-v1:digitalearthafrica+DEA101-fr+2021/about>`_
+
+The course covers:
 
 * Using the Digital Earth Africa Sandbox
 * The data products available through Digital Earth Africa
