@@ -884,8 +884,8 @@ msgid "Digital Earth Africa OWS details can be found at https://ows.digitalearth
 msgstr "Les détails de Digital Earth Africa OWS peuvent être trouvés sur https://ows.digitalearth.africa/."
 
 #: 
-msgid "For instructions on how to connect to OWS, see `this tutorial <../web_services/index.ipynb>`__."
-msgstr "Pour obtenir des instructions sur la manière de se connecter à OWS, consultez `ce tutoriel <../web_services/index.ipynb>`__."
+msgid "For instructions on how to connect to OWS, see `this tutorial <https://training.digitalearthafrica.org/en/latest/OWS_tutorial.html>`__."
+msgstr "Pour obtenir des instructions sur la manière de se connecter à OWS, consultez `ce tutoriel <https://training.digitalearthafrica.org/en/latest/OWS_tutorial.html>`__."
 
 #: 
 msgid "Open Data Cube (ODC)"
@@ -924,7 +924,7 @@ msgid "hh"
 msgstr "hh"
 
 #: 
-msgid "-"
+msgid "–"
 msgstr "-"
 
 #: 
@@ -1032,7 +1032,7 @@ msgid "EPSG: 6933"
 msgstr "EPSG : 6933"
 
 #: 
-msgid "2017 - 2020"
+msgid "2017 – 2020"
 msgstr "2017 - 2020"
 
 #: 
@@ -1236,7 +1236,7 @@ msgid "**Count — 1 band:** The number of clear satellite measurements of a pix
 msgstr "**Count - 1 band:** Le nombre de mesures satellitaires claires d'un pixel pour cette année civile. Ce nombre est d'environ 60 à 70 pour la plupart des pixels, mais il double dans les zones de chevauchement entre les scènes. Le \"Count\" n'est pas incorporé dans les calculs géomédiatiques ou MADs. Il est destiné à l'analyse des métadonnées et à la validation des données."
 
 #: 
-msgid "All clear observations for the given calendar year are collated from the parent dataset. Cloudy pixels are identified and excluded. The geomedian and MADs calculations are then performed by the `hdstats <https://libraries.io/pypi/hdstats>`__ package. 2017 - 2020 GeoMAD datasets use ``hdstats`` version 0.2."
+msgid "All clear observations for the given calendar year are collated from the parent dataset. Cloudy pixels are identified and excluded. The geomedian and MADs calculations are then performed by the `hdstats <https://libraries.io/pypi/hdstats>`__ package. 2017 – 2020 GeoMAD datasets use ``hdstats`` version 0.2."
 msgstr "Toutes les observations claires pour l'année civile donnée sont rassemblées à partir de l'ensemble de données parent. Les pixels nuageux sont identifiés et exclus. Les calculs des géomédians et des MADs sont ensuite effectués par le paquet `hdstats <https://libraries.io/pypi/hdstats>`__. Les jeux de données GeoMAD 2017 - 2020 utilisent la version 0.2 de ``hdstats``."
 
 #: 
@@ -1268,7 +1268,7 @@ msgid "`Landsat 8 Annual Geomedian 2018 <https://explorer.digitalearth.africa/pr
 msgstr "`Landsat 8 Geomedian Annuel 2018 <https://explorer.digitalearth.africa/products/ga_ls8c_gm_2_annual/extents>`__"
 
 #: 
-msgid "Roberts, D., Mueller, N., & Mcintyre, A. (2017). High-dimensional pixel composites from Earth observation time series. *IEEE Transactions on Geoscience and Remote Sensing*, 55(11), 6254-6264. https://doi.org/10.1109/TGRS.2017.2723896"
+msgid "Roberts, D., Mueller, N., & Mcintyre, A. (2017). High-dimensional pixel composites from Earth observation time series. *IEEE Transactions on Geoscience and Remote Sensing*, 55(11), 6254–6264. https://doi.org/10.1109/TGRS.2017.2723896"
 msgstr "Roberts, D., Mueller, N., & Mcintyre, A. (2017). Composites de pixels à haute dimension à partir de séries temporelles d'observation de la Terre. *IEEE Transactions on Geoscience and Remote Sensing*, 55(11), 6254-6264. https://doi.org/10.1109/TGRS.2017.2723896"
 
 #: 
@@ -1784,7 +1784,7 @@ msgid ":nbsphinx-math:`\\begin{align*} \\text{SMAD} = \\text{median} \\left( \\l
 msgstr ":nbsphinx-math:``begin{align*} \\text{SMAD} = \\text{médiane} \\left( \\left\\{cosdist}\\left( \\mathbf{x}^{(t)}, \\mathbf{m} \\right), t = 1, \\dots , N \\right\\}  \\right) \\end{align*}`"
 
 #: 
-msgid "As with the other distances and dissimilarities used in the MADs, this results in a positive scalar value, thus SMAD is a positive scalar. Valid values for SMAD fall between ``0`` - ``1``."
+msgid "As with the other distances and dissimilarities used in the MADs, this results in a positive scalar value, thus SMAD is a positive scalar. Valid values for SMAD fall between ``0`` – ``1``."
 msgstr "Comme pour les autres distances et dissimilarités utilisées dans les MAD, il en résulte une valeur scalaire positive, donc SMAD est un scalaire positif. Les valeurs valides pour SMAD sont comprises entre ``0`` et ``1``."
 
 #: 
@@ -2056,15 +2056,15 @@ msgid "Every 16 days"
 msgstr "Tous les 16 jours"
 
 #: 
-msgid "1984 - 2012"
+msgid "1984 – 2012"
 msgstr "1984 - 2012"
 
 #: 
-msgid "1999 - present"
+msgid "1999 – present"
 msgstr "1999 - aujourd'hui"
 
 #: 
-msgid "2013 - present"
+msgid "2013 – present"
 msgstr "2013 - aujourd'hui"
 
 #: 
@@ -2528,7 +2528,7 @@ msgid "Dropped Pixel"
 msgstr "Pixel perdu"
 
 #: 
-msgid "0 Pixel present; 1 detector doesn’t have a value - no data"
+msgid "0 Pixel present; 1 detector doesn’t have a value – no data"
 msgstr "0 Pixel présent ; 1 détecteur n'a pas de valeur - pas de données"
 
 #: 
@@ -3361,7 +3361,7 @@ msgid "16 days"
 msgstr "16 jours"
 
 #: 
-msgid "2013-03-19 - 2019-06-30"
+msgid "2013-03-19 – 2019-06-30"
 msgstr "2013-03-19 - 2019-06-30"
 
 #: 
@@ -3485,7 +3485,7 @@ msgid "**Table 4: WOfS Annual Summary product specifications**"
 msgstr "**Tableau 4 : Spécifications des produits du résumé annuel du WOfS**."
 
 #: 
-msgid "2017 - 2019"
+msgid "2017 – 2019"
 msgstr "2017 - 2019"
 
 #: 
@@ -3569,7 +3569,7 @@ msgid "`Landsat Collection 2 <https://docs.digitalearthafrica.org/en/latest/data
 msgstr "`Landsat Collection 2 <https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_C2_specs.html>`__"
 
 #: 
-msgid "Mueller, N., Lewis, A., Roberts, D., Ring, S., Melrose, R., Sixsmith, J., Lymburner, L., McIntyre, A., Tan, P., Curnow, S., & Ip, A. (2016). Water observations from space: Mapping surface water from 25 years of Landsat imagery across Australia. Remote Sensing of Environment, 174, 341-352. `https://doi.org/10.1016/j.rse.2015.11.003 <%5Bhttps://doi.org/10.1016/j.rse.2015.11.003%5D>`__"
+msgid "Mueller, N., Lewis, A., Roberts, D., Ring, S., Melrose, R., Sixsmith, J., Lymburner, L., McIntyre, A., Tan, P., Curnow, S., & Ip, A. (2016). Water observations from space: Mapping surface water from 25 years of Landsat imagery across Australia. Remote Sensing of Environment, 174, 341–352. `https://doi.org/10.1016/j.rse.2015.11.003 <%5Bhttps://doi.org/10.1016/j.rse.2015.11.003%5D>`__"
 msgstr "Mueller, N., Lewis, A., Roberts, D., Ring, S., Melrose, R., Sixsmith, J., Lymburner, L., McIntyre, A., Tan, P., Curnow, S. et Ip, A. (2016). Observations de l'eau depuis l'espace : Cartographie des eaux de surface à partir de 25 ans d'imagerie Landsat à travers l'Australie. Télédétection de l'environnement, 174, 341-352. `https://doi.org/10.1016/j.rse.2015.11.003 <%5Bhttps://doi.org/10.1016/j.rse.2015.11.003%5D>`__"
 
 #: 
@@ -3913,7 +3913,7 @@ msgid "Every 12 days"
 msgstr "Tous les 12 jours"
 
 #: 
-msgid "2017-01-01 - present"
+msgid "2017-01-01 – present"
 msgstr "2017-01-01 - aujourd'hui"
 
 #: 
@@ -4285,7 +4285,7 @@ msgid "Every 5 days"
 msgstr "Tous les 5 jours"
 
 #: 
-msgid "2017-05-29 00:00:00 - present"
+msgid "2017-05-29 00:00:00 – present"
 msgstr "2017-05-29 00:00:00 - présent"
 
 #: 
@@ -4297,7 +4297,7 @@ msgid "Ongoing"
 msgstr "En cours"
 
 #: 
-msgid "The specifications listed in Table 1 refer to the period where both Sentinel-2 satellites have been operational. Standalone Sentinel-2A data exists for the period of 2015 - 2017, before Sentinel-2B was launched, but it has a reduced temporal resolution."
+msgid "The specifications listed in Table 1 refer to the period where both Sentinel-2 satellites have been operational. Standalone Sentinel-2A data exists for the period of 2015 – 2017, before Sentinel-2B was launched, but it has a reduced temporal resolution."
 msgstr "Les spécifications énumérées dans le tableau 1 font référence à la période où les deux satellites Sentinel-2 ont été opérationnels. Des données Sentinel-2A autonomes existent pour la période 2015-2017, avant le lancement de Sentinel-2B, mais leur résolution temporelle est réduite."
 
 #: 
@@ -4813,8 +4813,8 @@ msgid "Access to DE Africa data using Web Map Service and Web Coverage Service"
 msgstr "Accès aux données de DE Afrique à l'aide de Web Map Service et Web Coverage Service"
 
 #: 
-msgid ":doc:`Web Services User Guide <web_services/index.ipynb>`"
-msgstr ":doc:`Guide d'utilisation des services Web <web_services/index.ipynb>`"
+msgid ":doc:`Web Services User Guide <web_services/index>`"
+msgstr ":doc:`Guide d'utilisation des services Web <web_services/index>`"
 
 #: 
 msgid ":doc:`web_services/explorer`"
@@ -4833,20 +4833,20 @@ msgid "Africa GeoPortal"
 msgstr "Géoportail Afrique"
 
 #: 
-msgid "Esri provides geographic information system software, web GIS and geodatabase management applications. They have developed the `Africa GeoPortal <https://deafrica.africageoportal.com/>`_, which uses imagery from DE Africa to provide location for geospatial tools data and training free for users working on Africa geospatial challenges."
-msgstr "Esri fournit des logiciels de système d'information géographique, des SIG web et des applications de gestion de géodatabase. Ils ont développé le `Africa GeoPortal <https://deafrica.africageoportal.com/>`_, qui utilise l'imagerie de DE Afrique pour fournir la localisation des données des outils géospatiaux et la formation gratuite pour les utilisateurs travaillant sur les défis géospatiaux de l'Afrique."
+msgid "Esri provides geographic information system software, web GIS and geodatabase management applications. They have developed the `Africa GeoPortal <https://www.africageoportal.com/>`_, which uses imagery from DE Africa to provide location for geospatial tools data and training free for users working on Africa geospatial challenges."
+msgstr "Esri fournit des logiciels de système d'information géographique, des SIG web et des applications de gestion de géodatabase. Ils ont développé le `Africa GeoPortal <https://www.africageoportal.com/>`_, qui utilise l'imagerie de DE Afrique pour fournir la localisation des données des outils géospatiaux et la formation gratuite pour les utilisateurs travaillant sur les défis géospatiaux de l'Afrique."
 
 #: 
 msgid "Sign up to the geoportal at:"
 msgstr "Inscrivez-vous au géoportail à l'adresse suivante :"
 
 #: 
-msgid "`africageoportal.com <https://deafrica.africageoportal.com/>`_"
-msgstr "`africageoportal.com <https://deafrica.africageoportal.com/>`_"
+msgid "`africageoportal.com <https://www.africageoportal.com/>`_"
+msgstr "`africageoportal.com <https://www.africageoportal.com/>`_"
 
 #: 
-msgid "Training material and courses for the Africa Geoportal are available on the `Learning Resources <https://deafrica.africageoportal.com/pages/Learning%20Resources>`_ page."
-msgstr "Le matériel de formation et les cours pour le Géoportail Afrique sont disponibles sur la page `Ressources d'apprentissage <https://deafrica.africageoportal.com/pages/Learning%20Resources>`_."
+msgid "Training material and courses for the Africa Geoportal are available on the `Learning Resources <https://www.africageoportal.com/pages/learning>`_ page."
+msgstr "Le matériel de formation et les cours pour le Géoportail Afrique sont disponibles sur la page `Ressources d'apprentissage <https://www.africageoportal.com/pages/learning>`_."
 
 #: 
 msgid "DE Africa Map"
@@ -10181,7 +10181,7 @@ msgid "In order to produce a single, complete view of a certain area, satellite 
 msgstr "Afin de produire une vue unique et complète d'une certaine zone, les données satellitaires doivent être consolidées, en empilant les mesures de différents points dans le temps pour créer une image composite."
 
 #: 
-msgid "The Digital Earth Africa (DE Africa) Sentinel-2 Annual GeoMAD (**Geo**\\ median and **M**\\ edian **A**\\ bsolute **D**\\ eviations) is a cloud-free composite of Sentinel-2 satellite data compiled for each calendar year between 2017 - 2020."
+msgid "The Digital Earth Africa (DE Africa) Sentinel-2 Annual GeoMAD (**Geo**\\ median and **M**\\ edian **A**\\ bsolute **D**\\ eviations) is a cloud-free composite of Sentinel-2 satellite data compiled for each calendar year between 2017 – 2020."
 msgstr "Le GeoMAD annuel Sentinel-2 de Digital Earth Africa (DE Africa) (**Geo**\\ médiane et **M**\\ edian **A**\\ bsolute **D**\\ eviations) est un composite sans nuage de données satellitaires Sentinel-2 compilées pour chaque année civile entre 2017 - 2020."
 
 #: 
@@ -10205,7 +10205,7 @@ msgid "Geomedian surface reflectance product"
 msgstr "Produit géomédiatique de réflectance de surface"
 
 #: 
-msgid "Valid scaling range: ``1 - 10,000``"
+msgid "Valid scaling range: ``1 – 10,000``"
 msgstr "Plage de mise à l'échelle valide : \"1 - 10,000\"."
 
 #: 
@@ -10229,7 +10229,7 @@ msgid "Status: Operational"
 msgstr "Statut : Opérationnel"
 
 #: 
-msgid "Date-range: 2017 - 2020"
+msgid "Date-range: 2017 – 2020"
 msgstr "Période : 2017 - 2020"
 
 #: 
@@ -10365,7 +10365,7 @@ msgid "Surface reflectance product"
 msgstr "Produit de réflectance de surface"
 
 #: 
-msgid "Native scaling range: ``1 - 65,455`` (``0`` is ``no-data``)"
+msgid "Native scaling range: ``1 – 65,455`` (``0`` is ``no-data``)"
 msgstr "Plage de mise à l'échelle native : ``1 - 65,455`` (``0`` est ``no-data``)"
 
 #: 
@@ -10373,7 +10373,7 @@ msgid "To achieve surface reflectance values, normalise values to ``0 - 1`` usin
 msgstr "Pour obtenir des valeurs de réflectance de surface, normalisez les valeurs à \"0 - 1\" en utilisant \"ds = ds * 2,75e-5 - 0,2\"."
 
 #: 
-msgid "Using ``dc.load`` will load data in the native scaling range ``1 - 65,455``, while using ``load_ard`` will scale the values"
+msgid "Using ``dc.load`` will load data in the native scaling range ``1 – 65,455``, while using ``load_ard`` will scale the values"
 msgstr "L'utilisation de ``dc.load`` chargera les données dans l'échelle native ``1 - 65,455``, tandis que l'utilisation de ``load_ard`` mettra les valeurs à l'échelle."
 
 #: 
@@ -10381,7 +10381,7 @@ msgid "`CFMask <https://github.com/USGS-EROS/espa-cloud-masking/tree/master/cfma
 msgstr "`CFMask <https://github.com/USGS-EROS/espa-cloud-masking/tree/master/cfmask>`__ utilisé comme masque de nuage"
 
 #: 
-msgid "Date-range: 1984 - present"
+msgid "Date-range: 1984 – present"
 msgstr "Fourchette de dates : 1984 - aujourd'hui"
 
 #: 
@@ -10517,7 +10517,7 @@ msgid "Surface temperature product"
 msgstr "Produit de la température de surface"
 
 #: 
-msgid "Native scaling range: ``1 - 65,535`` (``0`` is ``no-data``)"
+msgid "Native scaling range: ``1 – 65,535`` (``0`` is ``no-data``)"
 msgstr "Plage de mise à l'échelle native : \" 1 - 65 535 \" (0 est \" sans données \")"
 
 #: 
@@ -10525,7 +10525,7 @@ msgid "To achieve surface temperature values, normalise values to ``0 - 1`` usin
 msgstr "Pour obtenir des valeurs de température de surface, normaliser les valeurs à \"0 - 1\" en utilisant \"ds = ds * 0.00341802 + 149.0\"."
 
 #: 
-msgid "Using ``dc.load`` will load data in the native scaling range ``1 - 65,535``, while using ``load_ard`` will scale the values as above"
+msgid "Using ``dc.load`` will load data in the native scaling range ``1 – 65,535``, while using ``load_ard`` will scale the values as above"
 msgstr "L'utilisation de ``dc.load`` chargera les données dans l'échelle native ``1 - 65,535``, tandis que l'utilisation de ``load_ard`` mettra les valeurs à l'échelle comme ci-dessus."
 
 #: 
@@ -10729,7 +10729,7 @@ msgid "Surface reflectance product (Level 2A)"
 msgstr "Produit de réflectance de surface (niveau 2A)"
 
 #: 
-msgid "Valid SR scaling range: ``1 - 10,000 (0 is no-data)``"
+msgid "Valid SR scaling range: ``1 – 10,000 (0 is no-data)``"
 msgstr "Plage de mise à l'échelle SR valide : ``1 - 10,000 (0 est sans données)``"
 
 #: 
@@ -10737,7 +10737,7 @@ msgid "`SCL <https://earth.esa.int/web/sentinel/technical-guides/sentinel-2-msi/
 msgstr "`SCL <https://earth.esa.int/web/sentinel/technical-guides/sentinel-2-msi/level-2a/algorithm>`__ utilisé comme bande de qualité de pixel"
 
 #: 
-msgid "Date-range: 2017 - present"
+msgid "Date-range: 2017 – present"
 msgstr "Période : 2017 - aujourd'hui"
 
 #: 
@@ -18541,11 +18541,11 @@ msgid "DE Africa provides two types of maps services:"
 msgstr "DE Africa fournit deux types de services cartographiques :"
 
 #: 
-msgid "Web Map Service (WMS) - A standard protocol for serving georeferenced map images over the internet that are generated from a map server using data from a GIS database. It is important to note that with a WMS, you are essentially getting an image of geospatial data (i.e. JPG, GIF, PNG file). While this has its uses, it is an image only, and therefore does not contain any of the underlying geospatial data that was used to create the image."
+msgid "Web Map Service (WMS) – A standard protocol for serving georeferenced map images over the internet that are generated from a map server using data from a GIS database. It is important to note that with a WMS, you are essentially getting an image of geospatial data (i.e. JPG, GIF, PNG file). While this has its uses, it is an image only, and therefore does not contain any of the underlying geospatial data that was used to create the image."
 msgstr "Service de cartographie Web (WMS) - Protocole standard permettant de diffuser sur Internet des images cartographiques géoréférencées générées par un serveur cartographique à partir des données d'une base de données SIG. Il est important de noter qu'avec un WMS, vous obtenez essentiellement une image de données géospatiales (c'est-à-dire un fichier JPG, GIF ou PNG). Bien que cela ait son utilité, il s'agit uniquement d'une image et elle ne contient donc aucune des données géospatiales sous-jacentes qui ont été utilisées pour créer l'image."
 
 #: 
-msgid "Web Coverage Service (WCS) - A standard protocol for serving coverage data which returns data with its original semantics (instead of just pictures) which may be interpreted, extrapolated, etc., and not just portrayed. Essentially, a WCS can be thought of as the raw geospatial raster data behind an image. Using a WCS, you can pull the raw raster information you need to perform further analysis."
+msgid "Web Coverage Service (WCS) – A standard protocol for serving coverage data which returns data with its original semantics (instead of just pictures) which may be interpreted, extrapolated, etc., and not just portrayed. Essentially, a WCS can be thought of as the raw geospatial raster data behind an image. Using a WCS, you can pull the raw raster information you need to perform further analysis."
 msgstr "Service de couverture Web (WCS) - Protocole standard pour servir des données de couverture qui renvoie des données avec leur sémantique originale (au lieu de simples images) qui peuvent être interprétées, extrapolées, etc. et pas seulement représentées. Essentiellement, un WCS peut être considéré comme les données géospatiales matricielles brutes derrière une image. En utilisant un WCS, vous pouvez extraire les informations matricielles brutes dont vous avez besoin pour effectuer une analyse plus approfondie."
 
 #: 
@@ -39256,4 +39256,3456 @@ msgstr "|6652b5ec946d48468844326593a38c93|"
 #: 
 msgid "|3c18d1d0b9d54b8c975ffafb3a59f22e|"
 msgstr "|3c18d1d0b9d54b8c975ffafb3a59f22e|"
+
+#: 
+msgid "|b78d3f160b554fbfa0451370d3f21f6c|"
+msgstr "|b78d3f160b554fbfa0451370d3f21f6c|"
+
+#: 
+msgid "|2fc051e6e1154f759e5d41b5aa16c6b7|"
+msgstr "|2fc051e6e1154f759e5d41b5aa16c6b7|"
+
+#: 
+msgid "|5e194d0b8bee4c39acb339b93f2eb3be|"
+msgstr "|5e194d0b8bee4c39acb339b93f2eb3be|"
+
+#: 
+msgid "|ffade877117245e793b8248e30af6bb0|"
+msgstr "|ffade877117245e793b8248e30af6bb0|"
+
+#: 
+msgid "|eb1d12df19d341bab3f9b3476d0e3504|"
+msgstr "|eb1d12df19d341bab3f9b3476d0e3504|"
+
+#: 
+msgid "|066f5fa7878a4cb3848c354104af7c4e|"
+msgstr "|066f5fa7878a4cb3848c354104af7c4e|"
+
+#: 
+msgid "|88d39602ad0741e094ce996725adadee|"
+msgstr "|88d39602ad0741e094ce996725adadee|"
+
+#: 
+msgid "|fc55e719fa204332bf28ffe78b003de9|"
+msgstr "|fc55e719fa204332bf28ffe78b003de9|"
+
+#: 
+msgid "|bb9cfbeb42734dd7ab1faab34ca16719|"
+msgstr "|bb9cfbeb42734dd7ab1faab34ca16719|"
+
+#: 
+msgid "|ce10ea5dde2248e8a2955e5374875ab5|"
+msgstr "|ce10ea5dde2248e8a2955e5374875ab5|"
+
+#: 
+msgid "|99c20c1e6a6b48e6bc91991035137b61|"
+msgstr "|99c20c1e6a6b48e6bc91991035137b61|"
+
+#: 
+msgid "|7962a0eea879488cbe2ce7eeb3520bd8|"
+msgstr "|7962a0eea879488cbe2ce7eeb3520bd8|"
+
+#: 
+msgid "|9899445bae0d4dcea024a58ebab17c92|"
+msgstr "|9899445bae0d4dcea024a58ebab17c92|"
+
+#: 
+msgid "|df67ff0609c745d59a43b190b0dba647|"
+msgstr "|df67ff0609c745d59a43b190b0dba647|"
+
+#: 
+msgid "|3f94e4fb23f44801b0e98a51c7cb9c9d|"
+msgstr "|3f94e4fb23f44801b0e98a51c7cb9c9d|"
+
+#: 
+msgid "|d8176284f53a474fab4ea3e22ef5ce98|"
+msgstr "|d8176284f53a474fab4ea3e22ef5ce98|"
+
+#: 
+msgid "|949c8f0cd4b74601a9e76002b19d5b33| |86358abdf55048cc9f4b08ab15481c60|"
+msgstr "|949c8f0cd4b74601a9e76002b19d5b33| |86358abdf55048cc9f4b08ab15481c60|"
+
+#: 
+msgid "|bb564826d5fa40cf97583819e66400dd| |45573aa653df4d56a6fbfddfdd72c0d2|"
+msgstr "|bb564826d5fa40cf97583819e66400dd| |45573aa653df4d56a6fbfddfdd72c0d2|"
+
+#: 
+msgid "|56a57bb03bc74c92bcd9081153f14dd2|"
+msgstr "|56a57bb03bc74c92bcd9081153f14dd2|"
+
+#: 
+msgid "|3d3866203e2f4ea9809c0846bf4fa844|"
+msgstr "|3d3866203e2f4ea9809c0846bf4fa844|"
+
+#: 
+msgid "|dfdc0fac4b9e46ad865cecdab3f06dde|"
+msgstr "|dfdc0fac4b9e46ad865cecdab3f06dde|"
+
+#: 
+msgid "|fd9b5f5602e749d48b530683e7b6281a|"
+msgstr "|fd9b5f5602e749d48b530683e7b6281a|"
+
+#: 
+msgid "|fc6ed6d902e6432cbcbe54861d85f4a0|"
+msgstr "|fc6ed6d902e6432cbcbe54861d85f4a0|"
+
+#: 
+msgid "|24b9f1430f68462ba8a2de038f388f65|"
+msgstr "|24b9f1430f68462ba8a2de038f388f65|"
+
+#: 
+msgid "|8215e7ae86754e5891896f627fc501b7|"
+msgstr "|8215e7ae86754e5891896f627fc501b7|"
+
+#: 
+msgid "|97f59ba06bf3424cb0d53b62d6088e94|"
+msgstr "|97f59ba06bf3424cb0d53b62d6088e94|"
+
+#: 
+msgid "|296e5564f8244b37ac94f99de2fcbd22|"
+msgstr "|296e5564f8244b37ac94f99de2fcbd22|"
+
+#: 
+msgid "|8d281468df20487e92ce841bb049d739|"
+msgstr "|8d281468df20487e92ce841bb049d739|"
+
+#: 
+msgid "|34e6730dac6a4581a0fc6e54b2e2c502|"
+msgstr "|34e6730dac6a4581a0fc6e54b2e2c502|"
+
+#: 
+msgid "|34bd87e0bbd948ffadf6ff2bb9f3cf84|"
+msgstr "|34bd87e0bbd948ffadf6ff2bb9f3cf84|"
+
+#: 
+msgid "|15fac5e6d93c4d5298c8ce95cb46d390|"
+msgstr "|15fac5e6d93c4d5298c8ce95cb46d390|"
+
+#: 
+msgid "|a0ad6920f1e24184a6466d7ec3f0e936|"
+msgstr "|a0ad6920f1e24184a6466d7ec3f0e936|"
+
+#: 
+msgid "|bc722a9cae7d4b1a8eafa1bc07a0df7b|"
+msgstr "|bc722a9cae7d4b1a8eafa1bc07a0df7b|"
+
+#: 
+msgid "|be35f2a3955a495eba61217d67095fbc|"
+msgstr "|be35f2a3955a495eba61217d67095fbc|"
+
+#: 
+msgid "|ad2890330898412b96cb27a276d6f208|"
+msgstr "|ad2890330898412b96cb27a276d6f208|"
+
+#: 
+msgid "|52cf7b12e6db414ea87cc64bf4d35522|"
+msgstr "|52cf7b12e6db414ea87cc64bf4d35522|"
+
+#: 
+msgid "|549b1341ff424301ba28510bf5cb76a0|"
+msgstr "|549b1341ff424301ba28510bf5cb76a0|"
+
+#: 
+msgid "|5ea5b2875b8a46d49d7e71fbf6cd70de|"
+msgstr "|5ea5b2875b8a46d49d7e71fbf6cd70de|"
+
+#: 
+msgid "|acc4ce24f9634e9fa2ef6e43c63c40ce|"
+msgstr "|acc4ce24f9634e9fa2ef6e43c63c40ce|"
+
+#: 
+msgid "|699bf61c03ec42e595b48de28695030c|"
+msgstr "|699bf61c03ec42e595b48de28695030c|"
+
+#: 
+msgid "|428d5617a8c246b19c4a9fbc0a7c0b64|"
+msgstr "|428d5617a8c246b19c4a9fbc0a7c0b64|"
+
+#: 
+msgid "|a891010ef099422fa8a2591e5fa252e8|"
+msgstr "|a891010ef099422fa8a2591e5fa252e8|"
+
+#: 
+msgid "|d162106bc208437eae905903cb8c8ce4|"
+msgstr "|d162106bc208437eae905903cb8c8ce4|"
+
+#: 
+msgid "|a1a7d0480ebb45d594af5ac56871ae4e|"
+msgstr "|a1a7d0480ebb45d594af5ac56871ae4e|"
+
+#: 
+msgid "|a768c4cd9a6d49aaa424284cf52783d3|"
+msgstr "|a768c4cd9a6d49aaa424284cf52783d3|"
+
+#: 
+msgid "|4b63d5c3ad7e41748cb9166d32319986|"
+msgstr "|4b63d5c3ad7e41748cb9166d32319986|"
+
+#: 
+msgid "|9338495a9a3e47bbadc14dfe2d8a712d|"
+msgstr "|9338495a9a3e47bbadc14dfe2d8a712d|"
+
+#: 
+msgid "|e9c242e8716247f29ffbe005bedd67a8|"
+msgstr "|e9c242e8716247f29ffbe005bedd67a8|"
+
+#: 
+msgid "|d35cdd97608044c6a09c1654a7bd6b71|"
+msgstr "|d35cdd97608044c6a09c1654a7bd6b71|"
+
+#: 
+msgid "|8dac9f66f1e343c49474bc2a6990cdcf|"
+msgstr "|8dac9f66f1e343c49474bc2a6990cdcf|"
+
+#: 
+msgid "|325fbc538ec34664b48890f12c6be65c|"
+msgstr "|325fbc538ec34664b48890f12c6be65c|"
+
+#: 
+msgid "|a97454d3d0204153bda51654b6886af9|"
+msgstr "|a97454d3d0204153bda51654b6886af9|"
+
+#: 
+msgid "|5ca878186c4a4777a3ecb8c1bc80053c|"
+msgstr "|5ca878186c4a4777a3ecb8c1bc80053c|"
+
+#: 
+msgid "|e8484a89bcd248719d77625da32b7ca1|"
+msgstr "|e8484a89bcd248719d77625da32b7ca1|"
+
+#: 
+msgid "|dd01f84e505a487ea3d4bfdde3fb8b83|"
+msgstr "|dd01f84e505a487ea3d4bfdde3fb8b83|"
+
+#: 
+msgid "|a1e3edb14eea4ec9bbe52aa55ddb51dd|"
+msgstr "|a1e3edb14eea4ec9bbe52aa55ddb51dd|"
+
+#: 
+msgid "|2c112943fb8b4dada371c97e4c57668e|"
+msgstr "|2c112943fb8b4dada371c97e4c57668e|"
+
+#: 
+msgid "|0831f81d636c4ff69d45480a80b0ef2f|"
+msgstr "|0831f81d636c4ff69d45480a80b0ef2f|"
+
+#: 
+msgid "|f32b50b6b4d94821b844ef0b69850871|"
+msgstr "|f32b50b6b4d94821b844ef0b69850871|"
+
+#: 
+msgid "|9c0731200c2648a8b0ee49d6f5d0cf78|"
+msgstr "|9c0731200c2648a8b0ee49d6f5d0cf78|"
+
+#: 
+msgid "|55909efb93c14e8a9bc84c2304ac4d56|"
+msgstr "|55909efb93c14e8a9bc84c2304ac4d56|"
+
+#: 
+msgid "|c43d39255066467380031cf03ba861fb|"
+msgstr "|c43d39255066467380031cf03ba861fb|"
+
+#: 
+msgid "|bff69b280fb14ba9936d3ec5070ea6f4|"
+msgstr "|bff69b280fb14ba9936d3ec5070ea6f4|"
+
+#: 
+msgid "|31cf29ed304e4d3391bcc13e3b4be5c9|"
+msgstr "|31cf29ed304e4d3391bcc13e3b4be5c9|"
+
+#: 
+msgid "|0430e7cf8a0843b6a2ab2f2d68b32515|"
+msgstr "|0430e7cf8a0843b6a2ab2f2d68b32515|"
+
+#: 
+msgid "|347b83fab0f44bdfa4e59fde560aedae|"
+msgstr "|347b83fab0f44bdfa4e59fde560aedae|"
+
+#: 
+msgid "|b60ea1b1094b47e2b42fa171af8c698f|"
+msgstr "|b60ea1b1094b47e2b42fa171af8c698f|"
+
+#: 
+msgid "|7132d7e4448a4fa086bfc683a984754f|"
+msgstr "|7132d7e4448a4fa086bfc683a984754f|"
+
+#: 
+msgid "|7e264dc200bb4188a20d0dd338c48ea8|"
+msgstr "|7e264dc200bb4188a20d0dd338c48ea8|"
+
+#: 
+msgid "|28cbcb63e3de4ccca58d922bfe438dd0|"
+msgstr "|28cbcb63e3de4ccca58d922bfe438dd0|"
+
+#: 
+msgid "|72fc211e8f134bf3a64a2734bcf412d0|"
+msgstr "|72fc211e8f134bf3a64a2734bcf412d0|"
+
+#: 
+msgid "|ed296e9585ed4feb8226408d6b36071a|"
+msgstr "|ed296e9585ed4feb8226408d6b36071a|"
+
+#: 
+msgid "|e829fa1ddf0e42099378053b05ac3019|"
+msgstr "|e829fa1ddf0e42099378053b05ac3019|"
+
+#: 
+msgid "|cec61c0284e74720abba9e7f5af649a7|"
+msgstr "|cec61c0284e74720abba9e7f5af649a7|"
+
+#: 
+msgid "|ab311620ea654b829db1c34713c2ad03|"
+msgstr "|ab311620ea654b829db1c34713c2ad03|"
+
+#: 
+msgid "|349a99594d2245e4bf7e187e209c4e3e|"
+msgstr "|349a99594d2245e4bf7e187e209c4e3e|"
+
+#: 
+msgid "|95300a34b8b34b5b9bfc00b03c5a131d|"
+msgstr "|95300a34b8b34b5b9bfc00b03c5a131d|"
+
+#: 
+msgid "|0afddc8013cb48e4a83ba8fc4d764bd5|"
+msgstr "|0afddc8013cb48e4a83ba8fc4d764bd5|"
+
+#: 
+msgid "|aff6bf2853964d548f3025bf921a00db|"
+msgstr "|aff6bf2853964d548f3025bf921a00db|"
+
+#: 
+msgid "|7e957c5d072f4a48a34a54ac0dc91361|"
+msgstr "|7e957c5d072f4a48a34a54ac0dc91361|"
+
+#: 
+msgid "|5249bf26708a42b29f5b9b08db29578a|"
+msgstr "|5249bf26708a42b29f5b9b08db29578a|"
+
+#: 
+msgid "|d052803ad9e64735af13bb2cf463bf64|"
+msgstr "|d052803ad9e64735af13bb2cf463bf64|"
+
+#: 
+msgid "|92967de6555945c7b4562a46c62128b7|"
+msgstr "|92967de6555945c7b4562a46c62128b7|"
+
+#: 
+msgid "|8214506dddbc4bf78b330c06c6663c7b|"
+msgstr "|8214506dddbc4bf78b330c06c6663c7b|"
+
+#: 
+msgid "|cb537fc6ec6d4ab894972119800e9e32|"
+msgstr "|cb537fc6ec6d4ab894972119800e9e32|"
+
+#: 
+msgid "|a0a4e5b1d07f41ca83e6fefd51638239|"
+msgstr "|a0a4e5b1d07f41ca83e6fefd51638239|"
+
+#: 
+msgid "|9236364075294263aae478732e661db6|"
+msgstr "|9236364075294263aae478732e661db6|"
+
+#: 
+msgid "|f6cc4c559b6d447cade4da0e67b0ce03|"
+msgstr "|f6cc4c559b6d447cade4da0e67b0ce03|"
+
+#: 
+msgid "|2436996ac6c54ffe80f2c4d363ae5da1|"
+msgstr "|2436996ac6c54ffe80f2c4d363ae5da1|"
+
+#: 
+msgid "|89b6901650d54921835fe0150efdceec|"
+msgstr "|89b6901650d54921835fe0150efdceec|"
+
+#: 
+msgid "|eff8522c3b4b48c4bb22ffbf46191701|"
+msgstr "|eff8522c3b4b48c4bb22ffbf46191701|"
+
+#: 
+msgid "|8b55da62a89744c387261b4f70a5e54f|"
+msgstr "|8b55da62a89744c387261b4f70a5e54f|"
+
+#: 
+msgid "|dc1bfeee5f5d4f18bd4e132c82ac1a56|"
+msgstr "|dc1bfeee5f5d4f18bd4e132c82ac1a56|"
+
+#: 
+msgid "|a5c5f8a0aca64095abceb2fefee8f15b|"
+msgstr "|a5c5f8a0aca64095abceb2fefee8f15b|"
+
+#: 
+msgid "|c1c62ac090c041c1a0d89204ec850ac6|"
+msgstr "|c1c62ac090c041c1a0d89204ec850ac6|"
+
+#: 
+msgid "|b5d403b81afc443a82cc96182fbf11d0|"
+msgstr "|b5d403b81afc443a82cc96182fbf11d0|"
+
+#: 
+msgid "|1850222385ad43d496845d13bfc5edfb|"
+msgstr "|1850222385ad43d496845d13bfc5edfb|"
+
+#: 
+msgid "|abea66635efd4853ba0a9c2845f51b39|"
+msgstr "|abea66635efd4853ba0a9c2845f51b39|"
+
+#: 
+msgid "|7acefbf6981944a0b99836c770fde33d|"
+msgstr "|7acefbf6981944a0b99836c770fde33d|"
+
+#: 
+msgid "ALOS/ALOS-2 PALSAR/PALSAR-2 Annual Mosaics |4462be879d4d4ebfb1ee311da3162650|"
+msgstr "Mosaïques annuelles ALOS/ALOS-2 PALSAR/PALSAR-2 |4462be879d4d4ebfb1ee311da3162650|"
+
+#: 
+msgid "|72c0b66484bf4bc2af369800b227bdf3|"
+msgstr "|72c0b66484bf4bc2af369800b227bdf3|"
+
+#: 
+msgid "|acfdbaabd3244bfea64c7d499260bbae|"
+msgstr "|acfdbaabd3244bfea64c7d499260bbae|"
+
+#: 
+msgid "Landsat Surface Reflectance |e74efd586db34b42b193dfc118a73040|"
+msgstr "Réflectance de la surface Landsat |e74efd586db34b42b193dfc118a73040|"
+
+#: 
+msgid "Landsat Surface Temperature |34bc76cdd6d24bffaaaa17a395982972|"
+msgstr "Température de surface Landsat |34bc76cdd6d24bffaaaa17a395982972|"
+
+#: 
+msgid "Sentinel-1 |284e1013f3a34dd88519d560df57b937|"
+msgstr "Sentinel-1 |284e1013f3a34dd88519d560df57b937|"
+
+#: 
+msgid "Sentinel-2 |ce52c63307e941e1836cfa48e7cb2b78|"
+msgstr "Sentinel-2 |ce52c63307e941e1836cfa48e7cb2b78|"
+
+#: 
+msgid "Displaying satellite imagery on a web map |74aeea5c4bc143c18aea5c7348907670|"
+msgstr "Affichage de l'imagerie satellite sur une carte Web |74aeea5c4bc143c18aea5c7348907670|"
+
+#: 
+msgid "|62607307fb8344cab74572e3f2d3bc8a|"
+msgstr "|62607307fb8344cab74572e3f2d3bc8a|"
+
+#: 
+msgid "Water detection with Sentinel-1 |5394638fb24841ddb70710e1c8fa0622|"
+msgstr "Détection d'eau avec Sentinel-1 |5394638fb24841ddb70710e1c8fa0622|"
+
+#: 
+msgid "|8122b1548f5f45c989b15fdfe935fa0d|"
+msgstr "|8122b1548f5f45c989b15fdfe935fa0d|"
+
+#: 
+msgid "|61226bd6805c42ff98598f85b796bfe6|"
+msgstr "|61226bd6805c42ff98598f85b796bfe6|"
+
+#: 
+msgid "|a6e9e3edee4e477ea8e3cbd2feaaaf73|"
+msgstr "|a6e9e3edee4e477ea8e3cbd2feaaaf73|"
+
+#: 
+msgid "|d839b838c38c435d8a9739f04e82f55d|"
+msgstr "|d839b838c38c435d8a9739f04e82f55d|"
+
+#: 
+msgid "|21cc438d34e94e06bd90682a2a6bf6d4|"
+msgstr "|21cc438d34e94e06bd90682a2a6bf6d4|"
+
+#: 
+msgid "|ba1b6bc372cf4e2a9289d8a5fea0e861|"
+msgstr "|ba1b6bc372cf4e2a9289d8a5fea0e861|"
+
+#: 
+msgid "|1d2bb9d923af4d0fa3ca0ab3d2f098d2|"
+msgstr "|1d2bb9d923af4d0fa3ca0ab3d2f098d2|"
+
+#: 
+msgid "|b7843b3d192e4599b3e21d12e2484c41|"
+msgstr "|b7843b3d192e4599b3e21d12e2484c41|"
+
+#: 
+msgid "|080ade71044f477c8cf822ec0da565ec|"
+msgstr "|080ade71044f477c8cf822ec0da565ec|"
+
+#: 
+msgid "|bf23be38e7724f41b60c060871049bec|"
+msgstr "|bf23be38e7724f41b60c060871049bec|"
+
+#: 
+msgid "|0349aacfd81245c7ba2301c6fcfcf250|"
+msgstr "|0349aacfd81245c7ba2301c6fcfcf250|"
+
+#: 
+msgid "|57b1c14bcb7143e6973ba0c9ebd6596c|"
+msgstr "|57b1c14bcb7143e6973ba0c9ebd6596c|"
+
+#: 
+msgid "|c28b540a836d4beb864e7673da6467a4|"
+msgstr "|c28b540a836d4beb864e7673da6467a4|"
+
+#: 
+msgid "|3f2705b3685d4bb390d90c589737fd37|"
+msgstr "|3f2705b3685d4bb390d90c589737fd37|"
+
+#: 
+msgid "|9d8c57cbbdee4246991a9d30497a78f1|"
+msgstr "|9d8c57cbbdee4246991a9d30497a78f1|"
+
+#: 
+msgid "|bc0e3dd9b40a4ee78e584e41ada2a215|"
+msgstr "|bc0e3dd9b40a4ee78e584e41ada2a215|"
+
+#: 
+msgid "|c9a7563a99f04f329ec50cf7b72c19ce|"
+msgstr "|c9a7563a99f04f329ec50cf7b72c19ce|"
+
+#: 
+msgid "|83ab6eb7a9a945ff9ec09828d38cbd56|"
+msgstr "|83ab6eb7a9a945ff9ec09828d38cbd56|"
+
+#: 
+msgid "|f420c32425924df3a917dbe286b5a165|"
+msgstr "|f420c32425924df3a917dbe286b5a165|"
+
+#: 
+msgid "|b2b715a4cca34f93a4938e9f6a0f6825|"
+msgstr "|b2b715a4cca34f93a4938e9f6a0f6825|"
+
+#: 
+msgid "|1da5516b57bb409d8df6259d5a2ee347|"
+msgstr "|1da5516b57bb409d8df6259d5a2ee347|"
+
+#: 
+msgid "|5cf619ce4a0449588070949c21f0b1d2|"
+msgstr "|5cf619ce4a0449588070949c21f0b1d2|"
+
+#: 
+msgid "|904ff5133da142d4a4e30fc693c5cbfc|"
+msgstr "|904ff5133da142d4a4e30fc693c5cbfc|"
+
+#: 
+msgid "|c3915f512aee441cbd42fb31bd2c551c|"
+msgstr "|c3915f512aee441cbd42fb31bd2c551c|"
+
+#: 
+msgid "|ba6396d749c642d3a3bdad8fecd8ae06|"
+msgstr "|ba6396d749c642d3a3bdad8fecd8ae06|"
+
+#: 
+msgid "|11768e7f80da42dea9a50383442e446b|"
+msgstr "|11768e7f80da42dea9a50383442e446b|"
+
+#: 
+msgid "|b15868e8b13b4e6cb1f9e0de8eaa56bb|"
+msgstr "|b15868e8b13b4e6cb1f9e0de8eaa56bb|"
+
+#: 
+msgid "|8dd6e35fb17841c592e90d68f508ff47|"
+msgstr "|8dd6e35fb17841c592e90d68f508ff47|"
+
+#: 
+msgid "|3ce6d2353cb94551a04a9a61dd34ba6e|"
+msgstr "|3ce6d2353cb94551a04a9a61dd34ba6e|"
+
+#: 
+msgid "|6799b884f4fc435b8c6f42c1d408b49b|"
+msgstr "|6799b884f4fc435b8c6f42c1d408b49b|"
+
+#: 
+msgid "|f93c92f3333b4cc48933bf1fd9181991|"
+msgstr "|f93c92f3333b4cc48933bf1fd9181991|"
+
+#: 
+msgid "|c5b93b8d5eec4c828eebf0016253de2c| |8752c782063740efb6e6ebf148423ba4|"
+msgstr "|c5b93b8d5eec4c828eebf0016253de2c| |8752c782063740efb6e6ebf148423ba4|"
+
+#: 
+msgid "|816ebe74a9034f389d0016a916fef6fd| |cdafa093d92446b394867f2abfe3133d|"
+msgstr "|816ebe74a9034f389d0016a916fef6fd| |cdafa093d92446b394867f2abfe3133d|"
+
+#: 
+msgid "|b794a8234caa4c3a9f6a23a7c0cfb87b|"
+msgstr "|b794a8234caa4c3a9f6a23a7c0cfb87b|"
+
+#: 
+msgid "|769ee78892524450a81c00975586195f|"
+msgstr "|769ee78892524450a81c00975586195f|"
+
+#: 
+msgid "|eaa53d92b41e4e66bb10e624c8d72b36|"
+msgstr "|eaa53d92b41e4e66bb10e624c8d72b36|"
+
+#: 
+msgid "|770723ea09db43599bbeab43d36d823f|"
+msgstr "|770723ea09db43599bbeab43d36d823f|"
+
+#: 
+msgid "|f1d0f715600b409b87ea3297324f5507|"
+msgstr "|f1d0f715600b409b87ea3297324f5507|"
+
+#: 
+msgid "|7291495b5f164399ad3d08373d2bb877|"
+msgstr "|7291495b5f164399ad3d08373d2bb877|"
+
+#: 
+msgid "|0ebba135e24743348308915f61a69372|"
+msgstr "|0ebba135e24743348308915f61a69372|"
+
+#: 
+msgid "|9ebfadd05fd24f34a29604124fe6afb1|"
+msgstr "|9ebfadd05fd24f34a29604124fe6afb1|"
+
+#: 
+msgid "|94041299d1a54fe98c2e879feb7a1870|"
+msgstr "|94041299d1a54fe98c2e879feb7a1870|"
+
+#: 
+msgid "|e837ba74c93f477f8c77f06ab54dd7d6|"
+msgstr "|e837ba74c93f477f8c77f06ab54dd7d6|"
+
+#: 
+msgid "|0850f41bc7884d68b074d733ad280bce|"
+msgstr "|0850f41bc7884d68b074d733ad280bce|"
+
+#: 
+msgid "|01859858bab84a7a973878fbf0b48a73|"
+msgstr "|01859858bab84a7a973878fbf0b48a73|"
+
+#: 
+msgid "|cb56c6aeb283442bb0ef9cfceedec169|"
+msgstr "|cb56c6aeb283442bb0ef9cfceedec169|"
+
+#: 
+msgid "|278c2a56481d46408bdf3e404a457d1a|"
+msgstr "|278c2a56481d46408bdf3e404a457d1a|"
+
+#: 
+msgid "|adf2c2a187614b05b76d0c058ff2cd96|"
+msgstr "|adf2c2a187614b05b76d0c058ff2cd96|"
+
+#: 
+msgid "|81e2149db9da41ee91958818223bfe83|"
+msgstr "|81e2149db9da41ee91958818223bfe83|"
+
+#: 
+msgid "|a491eb48fdc743cca73acff3ec44d8be|"
+msgstr "|a491eb48fdc743cca73acff3ec44d8be|"
+
+#: 
+msgid "|b3f7db8ca105415eb4620a0631690fed|"
+msgstr "|b3f7db8ca105415eb4620a0631690fed|"
+
+#: 
+msgid "|38434465a92b4c6ea63af8840a62c67b|"
+msgstr "|38434465a92b4c6ea63af8840a62c67b|"
+
+#: 
+msgid "|cbeec4d04656461da92ba431b1ff73ee|"
+msgstr "|cbeec4d04656461da92ba431b1ff73ee|"
+
+#: 
+msgid "|8756ffb0d1524225b24d950ff66f4a66|"
+msgstr "|8756ffb0d1524225b24d950ff66f4a66|"
+
+#: 
+msgid "|ae29f73adebf4c60a7337c474e24e9d6|"
+msgstr "|ae29f73adebf4c60a7337c474e24e9d6|"
+
+#: 
+msgid "|f5b45385e6404d59be39a74497bf9dea|"
+msgstr "|f5b45385e6404d59be39a74497bf9dea|"
+
+#: 
+msgid "|15ff8ec076fa4683931d27e41c68bcb9|"
+msgstr "|15ff8ec076fa4683931d27e41c68bcb9|"
+
+#: 
+msgid "|b3cb1601007042149895f386d45a3da5|"
+msgstr "|b3cb1601007042149895f386d45a3da5|"
+
+#: 
+msgid "|364133772a714d81918403a6e5d15c19|"
+msgstr "|364133772a714d81918403a6e5d15c19|"
+
+#: 
+msgid "|7c7b884e5a974da090ceb3d28e3cf6a7|"
+msgstr "|7c7b884e5a974da090ceb3d28e3cf6a7|"
+
+#: 
+msgid "|1341223c095e4b36b078e1403ed462dc|"
+msgstr "|1341223c095e4b36b078e1403ed462dc|"
+
+#: 
+msgid "|ac96dd075b624c0a8b3a233f6f7859e6|"
+msgstr "|ac96dd075b624c0a8b3a233f6f7859e6|"
+
+#: 
+msgid "|cf39d3ce8e904e6ea4466b38420dd66e|"
+msgstr "|cf39d3ce8e904e6ea4466b38420dd66e|"
+
+#: 
+msgid "|f038de51eb78474ab4aeea0739da8aba|"
+msgstr "|f038de51eb78474ab4aeea0739da8aba|"
+
+#: 
+msgid "|d1969442d3ad481db5ff5db8c45efb9c|"
+msgstr "|d1969442d3ad481db5ff5db8c45efb9c|"
+
+#: 
+msgid "|4164796c19454c62ae8a7e992900b475|"
+msgstr "|4164796c19454c62ae8a7e992900b475|"
+
+#: 
+msgid "|2e7e5d4e80fa421b9bf00fd04bea6ba2|"
+msgstr "|2e7e5d4e80fa421b9bf00fd04bea6ba2|"
+
+#: 
+msgid "|db1eb605d70241458a418dbacfa8f9f2|"
+msgstr "|db1eb605d70241458a418dbacfa8f9f2|"
+
+#: 
+msgid "|73c316ac7034422b96c268d2ca90cee4|"
+msgstr "|73c316ac7034422b96c268d2ca90cee4|"
+
+#: 
+msgid "|d406977b61e14168babb1f82b04bbcc5|"
+msgstr "|d406977b61e14168babb1f82b04bbcc5|"
+
+#: 
+msgid "|79016edfa57f464197375a6a4ac06e05|"
+msgstr "|79016edfa57f464197375a6a4ac06e05|"
+
+#: 
+msgid "|11fee2dbe8b6445ea5b900713fa324af|"
+msgstr "|11fee2dbe8b6445ea5b900713fa324af|"
+
+#: 
+msgid "|a0c1dc7295554f81944bab3ce3ccc979|"
+msgstr "|a0c1dc7295554f81944bab3ce3ccc979|"
+
+#: 
+msgid "|fbb60622124f4b47a4bc14b3b78f53b0|"
+msgstr "|fbb60622124f4b47a4bc14b3b78f53b0|"
+
+#: 
+msgid "|bf92d1c5d34f449588a00b15144fb01c|"
+msgstr "|bf92d1c5d34f449588a00b15144fb01c|"
+
+#: 
+msgid "|606725a621b741fc9acffa2851e40376|"
+msgstr "|606725a621b741fc9acffa2851e40376|"
+
+#: 
+msgid "|42367634fc1548caa006f5b553d69775|"
+msgstr "|42367634fc1548caa006f5b553d69775|"
+
+#: 
+msgid "|b0c2c7563aef428d8b5f48e88740266c|"
+msgstr "|b0c2c7563aef428d8b5f48e88740266c|"
+
+#: 
+msgid "|aa9f9dd20c4b4727b01e8612a005e762|"
+msgstr "|aa9f9dd20c4b4727b01e8612a005e762|"
+
+#: 
+msgid "|8a37b3be2392466b93f342f007a76332|"
+msgstr "|8a37b3be2392466b93f342f007a76332|"
+
+#: 
+msgid "|d1916e57520b4a3781ce204bffd1c851|"
+msgstr "|d1916e57520b4a3781ce204bffd1c851|"
+
+#: 
+msgid "|335b195253234a26b7b77a3e0015d0c3|"
+msgstr "|335b195253234a26b7b77a3e0015d0c3|"
+
+#: 
+msgid "|cdfe5c91b2c04d9c87a71d7599293cf0|"
+msgstr "|cdfe5c91b2c04d9c87a71d7599293cf0|"
+
+#: 
+msgid "|10c098be1e2c41e0a22862b822e936a5|"
+msgstr "|10c098be1e2c41e0a22862b822e936a5|"
+
+#: 
+msgid "|6c7e9473dcde4a24a6dbfddba1a05e07|"
+msgstr "|6c7e9473dcde4a24a6dbfddba1a05e07|"
+
+#: 
+msgid "|691fef0066e945b09fed636161c49770|"
+msgstr "|691fef0066e945b09fed636161c49770|"
+
+#: 
+msgid "|a71611376c9d4af886e0bf89e21dace4|"
+msgstr "|a71611376c9d4af886e0bf89e21dace4|"
+
+#: 
+msgid "|7eb4dd5cb66841a8b75e3838460de886|"
+msgstr "|7eb4dd5cb66841a8b75e3838460de886|"
+
+#: 
+msgid "|2b930840c5514ceaa4241903ec4169e8|"
+msgstr "|2b930840c5514ceaa4241903ec4169e8|"
+
+#: 
+msgid "|924967a209d749cabea4d8e06ae4ae7a|"
+msgstr "|924967a209d749cabea4d8e06ae4ae7a|"
+
+#: 
+msgid "|9d4cb7b535524b709facba0cd3600581|"
+msgstr "|9d4cb7b535524b709facba0cd3600581|"
+
+#: 
+msgid "|1792cbf734f74b059340f1a6eb979db2|"
+msgstr "|1792cbf734f74b059340f1a6eb979db2|"
+
+#: 
+msgid "|c14a1c11e8454f81bad447cfd5528092|"
+msgstr "|c14a1c11e8454f81bad447cfd5528092|"
+
+#: 
+msgid "|28191f91d9f448d7ba25385c4ba53d0f|"
+msgstr "|28191f91d9f448d7ba25385c4ba53d0f|"
+
+#: 
+msgid "|dcd7ad8ad47d4e889fc1c505c06d6ad4|"
+msgstr "|dcd7ad8ad47d4e889fc1c505c06d6ad4|"
+
+#: 
+msgid "|736d9e4ca7454e9aa1653e46c9cca8b5|"
+msgstr "|736d9e4ca7454e9aa1653e46c9cca8b5|"
+
+#: 
+msgid "|5a36a46adf334e78b86215ecbb815bec|"
+msgstr "|5a36a46adf334e78b86215ecbb815bec|"
+
+#: 
+msgid "|dd9e2c57b71a49e3ba3182f12beed1b3|"
+msgstr "|dd9e2c57b71a49e3ba3182f12beed1b3|"
+
+#: 
+msgid "|6418a1af10474f5a803650aff2597390|"
+msgstr "|6418a1af10474f5a803650aff2597390|"
+
+#: 
+msgid "|923dc2dcb1d84369b0d80a5171157778|"
+msgstr "|923dc2dcb1d84369b0d80a5171157778|"
+
+#: 
+msgid "|a38fff5890a849e2a6fea806cad1885f|"
+msgstr "|a38fff5890a849e2a6fea806cad1885f|"
+
+#: 
+msgid "|48de763ee2ac4372b76ef588ad68d61c|"
+msgstr "|48de763ee2ac4372b76ef588ad68d61c|"
+
+#: 
+msgid "|37bbd7fd922c4734b959291caaefa92c|"
+msgstr "|37bbd7fd922c4734b959291caaefa92c|"
+
+#: 
+msgid "|9770924fcab54b74b8477214ee9ec38f|"
+msgstr "|9770924fcab54b74b8477214ee9ec38f|"
+
+#: 
+msgid "|ec2f10a74e634f9bb59ddb20f9f60917|"
+msgstr "|ec2f10a74e634f9bb59ddb20f9f60917|"
+
+#: 
+msgid "|7535c85fa83b4733adc3190638dcfb19|"
+msgstr "|7535c85fa83b4733adc3190638dcfb19|"
+
+#: 
+msgid "|33d8d1ad8d584b049fbb3e2e14a17578|"
+msgstr "|33d8d1ad8d584b049fbb3e2e14a17578|"
+
+#: 
+msgid "|09965d61a6b349e0b3c6dfd3cd561c9b|"
+msgstr "|09965d61a6b349e0b3c6dfd3cd561c9b|"
+
+#: 
+msgid "|238917df2afa4ac79e08876f3632fd11|"
+msgstr "|238917df2afa4ac79e08876f3632fd11|"
+
+#: 
+msgid "|66e0af70701945599007771ce3eb965b|"
+msgstr "|66e0af70701945599007771ce3eb965b|"
+
+#: 
+msgid "|3a1236c89ead4785928fdaa303973dc9|"
+msgstr "|3a1236c89ead4785928fdaa303973dc9|"
+
+#: 
+msgid "|56478846a33f436cba177b12d3b2fc0c|"
+msgstr "|56478846a33f436cba177b12d3b2fc0c|"
+
+#: 
+msgid "|7dfdedfd48884d36a7b73980e43b201e|"
+msgstr "|7dfdedfd48884d36a7b73980e43b201e|"
+
+#: 
+msgid "|9ee51549cade4310aa26044fe3c66e1a|"
+msgstr "|9ee51549cade4310aa26044fe3c66e1a|"
+
+#: 
+msgid "ALOS/ALOS-2 PALSAR/PALSAR-2 Annual Mosaics |121bb7d1a88943eda1e04257135e44f5|"
+msgstr "Mosaïques annuelles de ALOS/ALOS-2 PALSAR/PALSAR-2 |121bb7d1a88943eda1e04257135e44f5|"
+
+#: 
+msgid "|8791723e71bc4e0584a8487fe522cb20|"
+msgstr "|8791723e71bc4e0584a8487fe522cb20|"
+
+#: 
+msgid "|73a8a80b729341a8aa8c724d2d2d9cdf|"
+msgstr "|73a8a80b729341a8aa8c724d2d2d9cdf|"
+
+#: 
+msgid "Landsat Surface Reflectance |0837f14be58a4a788790be7385f14154|"
+msgstr "Réflectance de la surface Landsat |0837f14be58a4a788790be7385f14154|"
+
+#: 
+msgid "Landsat Surface Temperature |02cbb759906d4a02a219fba7cbedcaae|"
+msgstr "Température de surface Landsat |02cbb759906d4a02a219fba7cbedcaae|"
+
+#: 
+msgid "**Products used:** `rainfall_chirps_monthly <https://explorer.digitalearth.africa/products/rainfall_chirps_monthly>`__, `rainfall_chirps_daily <https://explorer.digitalearth.africa/products/rainfall_chirps_daily>`__"
+msgstr "**Produits utilisés:** `rainfall_chirps_monthly <https://explorer.digitalearth.africa/products/rainfall_chirps_monthly>`__, `rainfall_chirps_daily <https://explorer.digitalearth.africa/products/rainfall_chirps_daily>`__."
+
+#: 
+msgid "The current CHIRPS datasets that are accessible from DE Africa’s platforms are the ``CHIRPS-2.0 Africa Monthly`` dataset, copied from `here <https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/>`__ and the ``CHIRPS-2.0 Africa Daily`` dataset, copied from `here <https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_daily/tifs/>`__. They have been converted to cloud-opitmized geotiffs, and indexed into DE Africa’s Open-Data-Cube."
+msgstr "Les jeux de données actuels du CHIRPS qui sont accessibles depuis les plateformes de DE Africa sont le jeu de données ``CHIRPS-2.0 Africa Monthly``, copié depuis `here <https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/>`__ et le jeu de données ``CHIRPS-2.0 Africa Daily``, copié depuis `here <https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_daily/tifs/>`__. Elles ont été converties en geotiffs optimisés pour les nuages, et indexées dans le Open-Data-Cube de DE Africa."
+
+#: 
+msgid "Date-range: ``1981-01`` to present"
+msgstr "Période : \"1981-01\" à aujourd'hui"
+
+#: 
+msgid "Datacube product name: ``rainfall_chirps_daily``"
+msgstr "Nom du produit Datacube : \"rainfall_chirps_daily\"."
+
+#: 
+msgid "Precipitation Units: Total mm/day"
+msgstr "Unités de précipitation : Total mm/jour"
+
+#: 
+msgid "Loading and plotting daily rainfall"
+msgstr "Chargement et traçage des précipitations quotidiennes"
+
+#: 
+msgid "In the above plot we can see that a lot of rain fell in July 2020. We’ll load the daily rainfall data for this month, aggregrate it across the region, and plot the daily totals to see how this rainfall was distributed within the month."
+msgstr "Dans le graphique ci-dessus, nous pouvons voir que beaucoup de pluie est tombée en juillet 2020. Nous allons charger les données de précipitations quotidiennes pour ce mois, les agréger à travers la région, et tracer les totaux quotidiens pour voir comment ces précipitations ont été distribuées au cours du mois."
+
+#: 
+msgid "Sentinel-1 |6d3e3641d24a44eebb166b69cfb69349|"
+msgstr "Sentinel-1 |6d3e3641d24a44eebb166b69cfb69349|"
+
+#: 
+msgid "Sentinel-2 |cd8757981c394dafb6cfcf46ffc1d3b4|"
+msgstr "Sentinel-2 |cd8757981c394dafb6cfcf46ffc1d3b4|"
+
+#: 
+msgid "Displaying satellite imagery on a web map |a3227c0f7ac94d8e9f0e3ae604942f95|"
+msgstr "Affichage de l'imagerie satellite sur une carte Web |a3227c0f7ac94d8e9f0e3ae604942f95|"
+
+#: 
+msgid "|9223d9328a3d4b72badb5bf9c5d42e0e|"
+msgstr "|9223d9328a3d4b72badb5bf9c5d42e0e|"
+
+#: 
+msgid "Water detection with Sentinel-1 |0e243cc038424b57a8acedd3f1fd451f|"
+msgstr "La détection de l'eau avec Sentinel-1 |0e243cc038424b57a8acedd3f1fd451f|"
+
+#: 
+msgid "|617cc3462d5f4dde9e2f64d6012e37d1|"
+msgstr "|617cc3462d5f4dde9e2f64d6012e37d1|"
+
+#: 
+msgid "|d6d784a88c4c49ddab251978fab2e324|"
+msgstr "|d6d784a88c4c49ddab251978fab2e324|"
+
+#: 
+msgid "|8820d8b78619489ba0dbe6ed4fb6d945|"
+msgstr "|8820d8b78619489ba0dbe6ed4fb6d945|"
+
+#: 
+msgid "|edb39e4c56654db49c7886fa5d573966|"
+msgstr "|edb39e4c56654db49c7886fa5d573966|"
+
+#: 
+msgid "|f400f07b029043d0b6621e9b917bcc88|"
+msgstr "|f400f07b029043d0b6621e9b917bcc88|"
+
+#: 
+msgid "|1331f5fa03344d019f8f3445b3edc967|"
+msgstr "|1331f5fa03344d019f8f3445b3edc967|"
+
+#: 
+msgid "|816d1497374f45c8ac9b4436d4102da5|"
+msgstr "|816d1497374f45c8ac9b4436d4102da5|"
+
+#: 
+msgid "|c7e4b7d86d3f42aa978b29808b617463|"
+msgstr "|c7e4b7d86d3f42aa978b29808b617463|"
+
+#: 
+msgid "The tutorials below cover:"
+msgstr "Les tutoriels ci-dessous couvrent :"
+
+#: 
+msgid "Setting up WMS"
+msgstr "Mise en place du WMS"
+
+#: 
+msgid "Adding WMS-T (time-supported) layers"
+msgstr "Ajout de couches WMS-T (time-supported)"
+
+#: 
+msgid "Connecting to WCS"
+msgstr "Se connecter à WCS"
+
+#: 
+msgid "The tutorials have been created with QGIS3. The same processes can be used to connect other Desktop GIS applications. `QGIS <https://qgis.org/en/site/>`__ is a free and open-source desktop GIS application. You can download it from https://qgis.org/en/site/."
+msgstr "Les tutoriels ont été créés avec QGIS3. Les mêmes processus peuvent être utilisés pour connecter d'autres applications SIG de bureau. `QGIS <https://qgis.org/en/site/>`__ est une application SIG de bureau gratuite et open-source. Vous pouvez la télécharger à partir de https://qgis.org/en/site/."
+
+#: 
+msgid "|b130b50939f44676b73e366e6dca8497|"
+msgstr "|b130b50939f44676b73e366e6dca8497|"
+
+#: 
+msgid "|96f976d7ec434667b600c4cca2474f8a|"
+msgstr "|96f976d7ec434667b600c4cca2474f8a|"
+
+#: 
+msgid "|583ab51a9ab9404d910ff30600a6e7d3|"
+msgstr "|583ab51a9ab9404d910ff30600a6e7d3|"
+
+#: 
+msgid "|8663cef9a4824221a63eb6e8943065d2|"
+msgstr "|8663cef9a4824221a63eb6e8943065d2|"
+
+#: 
+msgid "Tutorial: Add WMS-T (time-supported) layers"
+msgstr "Tutoriel : Ajouter des couches WMS-T (time-supported)"
+
+#: 
+msgid "Digital Earth Africa web services support WMS-T (WMS with time). WMS-T layers allow users to navigate different time periods."
+msgstr "Les services web de Digital Earth Africa supportent le WMS-T (WMS avec temps). Les couches WMS-T permettent aux utilisateurs de naviguer dans différentes périodes de temps."
+
+#: 
+msgid "**How to add WMS-T layers using QGIS**"
+msgstr "**Comment ajouter des couches WMS-T à l'aide de QGIS**"
+
+#: 
+msgid "Connect to the Web Map Service in QGIS by following the instructions in `Setting up WMS tutorial <#Tutorial:-Setting-up-WMS>`__."
+msgstr "Connectez-vous au service de cartographie Web dans QGIS en suivant les instructions du `Tutoriel de configuration du WMS <#Tutorial:-Setting-up-WMS>`__."
+
+#: 
+msgid "In the QGIS **Browser Panel** navigate to the **WMS/WMTS** provider item and expand it to show the **DE Africa Services** connection."
+msgstr "Dans le **Panneau de navigation** de QGIS, naviguez jusqu'à l'élément fournisseur **WMS/WMTS** et développez-le pour afficher la connexion **DE Africa Services**."
+
+#: 
+msgid "|0387b1c3c886426d90630b496a29b80b|"
+msgstr "|0387b1c3c886426d90630b496a29b80b|"
+
+#: 
+msgid "Select a WMS-T layer from the **DE Africa Services** connection layers by either double clicking on the layer item in the **Browser Panel** or right clicking on it and selecting **Add Layer to Project** to add the layer onto the map canvas."
+msgstr "Sélectionnez une couche WMS-T à partir des couches de connexion de **DE Africa Services** en double-cliquant sur l'élément de couche dans le **Panneau de navigation** ou en faisant un clic droit dessus et en sélectionnant **Add Layer to Project** pour ajouter la couche sur le canevas de la carte."
+
+#: 
+msgid "|a94928199ec14ce196ce1729d3e9b1e2|"
+msgstr "|a94928199ec14ce196ce1729d3e9b1e2|"
+
+#: 
+msgid "The layer will be loaded in the **Layers Panel** with a clock symbol |temporal indicator| next it to indicate that it is a temporal layer."
+msgstr "La couche sera chargée dans le **Panneau des couches** avec un symbole d'horloge |indicateur temporel| à côté pour indiquer qu'il s'agit d'une couche temporelle."
+
+#: 
+msgid "|1c9364e6f76044f881549bf62e101fd3|"
+msgstr "|1c9364e6f76044f881549bf62e101fd3|"
+
+#: 
+msgid "**How to use the QGIS Temporal Controller with WMS-T layers**"
+msgstr "**Comment utiliser le contrôleur temporel QGIS avec les couches WMS-T**."
+
+#: 
+msgid "To use the **Temporal Controller** for WMS-T layers, ensure that in the Temporal section of the layer’s **Layer Properties**, the **Dynamic Temporal Control** is selected. You can select the time range to be **Automatic** or **Fixed time range**."
+msgstr "Pour utiliser le **Contrôleur temporel** pour les couches WMS-T, assurez-vous que dans la section Temporel des **Propriétés de la couche**, le **Contrôle temporel dynamique** est sélectionné. Vous pouvez sélectionner la plage de temps comme étant **Automatique** ou **Plage de temps fixe**."
+
+#: 
+msgid "For the **Automatic** setting, the temporal handling is delegated to the data provider and time based filtering is applied to the features of the layer such that the features will be visualized for the animation range set by the **Temporal Controller**."
+msgstr "Pour le paramètre **Automatique**, la gestion temporelle est déléguée au fournisseur de données et un filtrage basé sur le temps est appliqué aux caractéristiques de la couche de sorte que les caractéristiques seront visualisées pour la plage d'animation définie par le **Contrôleur temporel**."
+
+#: 
+msgid "|c76ba0c8f6f84e42a71bf5ab28e3d19c|"
+msgstr "|c76ba0c8f6f84e42a71bf5ab28e3d19c|"
+
+#: 
+msgid "For the **Fixed time range** setting the user manually sets the temporal range in which all the features of the layer will be visualised only if the animation range from the **Temporal Controller** is within this temporal range."
+msgstr "Pour le paramètre **Plage temporel fixe**, l'utilisateur définit manuellement la plage temporelle dans laquelle toutes les caractéristiques de la couche seront visualisées uniquement si la plage d'animation du **Contrôleur temporel** est comprise dans cette plage temporelle."
+
+#: 
+msgid "|929a539b028f42c2baa995410f9d3bdd|"
+msgstr "|929a539b028f42c2baa995410f9d3bdd|"
+
+#: 
+msgid "On the **Map Navigation Toolbar** select the clock symbol for the **Temporal Controller Panel** to activate the **Temporal Controller** dock widget."
+msgstr "Dans la **Barre d'outils de navigation cartographique**, sélectionnez le symbole de l'horloge pour le **Panneau de contrôle temporel** pour activer le widget de dock **Contrôleur temporel**."
+
+#: 
+msgid "|0992858737e84e289b9e2a52766f4740|"
+msgstr "|0992858737e84e289b9e2a52766f4740|"
+
+#: 
+msgid "**Temporal controller** dock widget activated after click on the **Temporal Controller** toolbar icon."
+msgstr "Le widget de dock **Contrôleur temporel** est activé après avoir cliqué sur l'icône de la barre d'outils **Contrôleur temporel**."
+
+#: 
+msgid "|f2805ad6fc9944d0a054552816a66df1|"
+msgstr "|f2805ad6fc9944d0a054552816a66df1|"
+
+#: 
+msgid "To turn on the Fixed range temporal navigation, select the **Fixed range temporal navigation** icon |Temporal Navigation Fixed Range| on the **Temporal Controller Panel** and set the time range for the layer features to be visualized."
+msgstr "Pour activer la navigation temporelle à plage fixe, sélectionnez l'icône **Navigation temporelle à plage fixe** |Navigation temporelle à plage fixe| sur le **Panneau de contrôle temporel** et définissez la plage temporelle pour les caractéristiques de la couche à visualiser."
+
+#: 
+msgid "|7bc23ec1825f470c89da6a1a94ce9eb3|"
+msgstr "|7bc23ec1825f470c89da6a1a94ce9eb3|"
+
+#: 
+msgid "To turn on the Animated temporal navigation, select the **Animated temporal navigation** icon |Temporal Navigation Animated| on the **Temporal Controller Panel**, and set animation range and the time step for the animation."
+msgstr "Pour activer la navigation temporelle animée, sélectionnez l'icône **Navigation temporelle animée** |Navigation temporelle animée| sur le **Panneau de contrôle temporel**, et définissez la plage d'animation et le pas de temps pour l'animation."
+
+#: 
+msgid "|2959acbe3a3b4d3db4ce7d5785939fdf|"
+msgstr "|2959acbe3a3b4d3db4ce7d5785939fdf|"
+
+#: 
+msgid "⁣"
+msgstr ""
+
+#: 
+msgid "|29c9fe146e7f4563935ad60a6223e86b|"
+msgstr "|29c9fe146e7f4563935ad60a6223e86b|"
+
+#: 
+msgid "Click on the **Play** icon |play| to view the animation."
+msgstr "Cliquez sur l'icône **Play** |play| pour visualiser l'animation."
+
+#: 
+msgid "|c480b402bcd74cc98f55322d03e6fe63|"
+msgstr "|c480b402bcd74cc98f55322d03e6fe63|"
+
+#: 
+msgid "To rewind the animation to the beginning i.e. the start of the animation range, click on the **Rewind to start** icon |rewindToStart|."
+msgstr "Pour rembobiner l'animation au début, c'est-à-dire au début de la plage d'animation, cliquez sur l'icône **Rewind to start** |rewindToStart|."
+
+#: 
+msgid "|02213dd329e54db9a3e198175f027352|"
+msgstr "|02213dd329e54db9a3e198175f027352|"
+
+#: 
+msgid "To go back to the previous frame of the animation, click on the **Go to previous frame** icon |previous|. The time difference (time step) between consecutive frames is determined by the **Step** defined by the user."
+msgstr "Pour revenir à l'image précédente de l'animation, cliquez sur l'icône **Aller à l'image précédente** |previous|. La différence de temps (pas de temps) entre des images consécutives est déterminée par le **Pas** défini par l'utilisateur."
+
+#: 
+msgid "|d121c1b089554adc953f77a025c1f66c|"
+msgstr "|d121c1b089554adc953f77a025c1f66c|"
+
+#: 
+msgid "To rewind the animation, click on the **Reverse** icon |back|."
+msgstr "Pour rembobiner l'animation, cliquez sur l'icône **Reverse** |back|."
+
+#: 
+msgid "|4d5ef5797fab418f9447ca1bab933d06|"
+msgstr "|4d5ef5797fab418f9447ca1bab933d06|"
+
+#: 
+msgid "To go to the next frame of the animation, click on the **Go to next frame** icon |next|. The time difference (time step) between consecutive frames is determined by the **Step** defined by the user."
+msgstr "Pour passer à l'image suivante de l'animation, cliquez sur l'icône **Go to next frame** |next|. La différence de temps (pas de temps) entre des images consécutives est déterminée par le **Pas** défini par l'utilisateur."
+
+#: 
+msgid "|f8b738a06c644f8287abaf995ff483fd|"
+msgstr "|f8b738a06c644f8287abaf995ff483fd|"
+
+#: 
+msgid "To fast forward the animation to the end i.e. skip to the end of the animation range, click on the **Fast forward to end** icon |skipToEnd|."
+msgstr "Pour avancer rapidement l'animation jusqu'à la fin, c'est-à-dire pour passer à la fin de la plage d'animation, cliquez sur l'icône **Avance rapide jusqu'à la fin** |skipToEnd|."
+
+#: 
+msgid "|ecba351c97ee496aa93e59454a1a8a83|"
+msgstr "|ecba351c97ee496aa93e59454a1a8a83|"
+
+#: 
+msgid "**How to export the animation from QGIS Temporal Controller**"
+msgstr "**Comment exporter l'animation à partir du contrôleur temporel QGIS**."
+
+#: 
+msgid "The animation can be exported from the QGIS temporal controller as a series of images. To export the animation click on the **Export animation** icon |save| on the **Temporal Controller Panel**."
+msgstr "L'animation peut être exportée à partir du contrôleur temporel QGIS sous la forme d'une série d'images. Pour exporter l'animation, cliquez sur l'icône **Exporter l'animation** |save| sur le **Panneau du contrôleur temporel**."
+
+#: 
+msgid "|fab2dcfd4e22472780df4f90f9a4d711|"
+msgstr "|fab2dcfd4e22472780df4f90f9a4d711|"
+
+#: 
+msgid "In the **Export Map animation** dialogue, specify:"
+msgstr "Dans la boîte de dialogue **Exportation de l'animation de la carte**, spécifiez :"
+
+#: 
+msgid "The naming template to be used for labelling the images."
+msgstr "Le modèle de dénomination à utiliser pour étiqueter les images."
+
+#: 
+msgid "The output directory where the images will be saved."
+msgstr "Le répertoire de sortie où les images seront enregistrées."
+
+#: 
+msgid "The map extent to be covered by the images."
+msgstr "L'étendue de la carte à couvrir par les images."
+
+#: 
+msgid "The width and height of the images."
+msgstr "La largeur et la hauteur des images."
+
+#: 
+msgid "The temporal range and time step for the animation."
+msgstr "La plage temporelle et le pas de temps pour l'animation."
+
+#: 
+msgid "|5fbcbe8a4a0a41eeb35e457c4b91f0e5|"
+msgstr "|5fbcbe8a4a0a41eeb35e457c4b91f0e5|"
+
+#: 
+msgid "The exported images will be saved in the specified ouput directory. Using your preferred software, you can use the images to create an animation."
+msgstr "Les images exportées seront enregistrées dans le répertoire ouput spécifié. À l'aide de votre logiciel préféré, vous pouvez utiliser les images pour créer une animation."
+
+#: 
+msgid "|8fee680b76b4414492dab8b1795fd734|"
+msgstr "|8fee680b76b4414492dab8b1795fd734|"
+
+#: 
+msgid "|8ba318adba104fdc918cab8ca10a4504|"
+msgstr "|8ba318adba104fdc918cab8ca10a4504|"
+
+#: 
+msgid "**How to use the WMS-T layers in QGIS without the Temporal Controller**"
+msgstr "**Comment utiliser les couches WMS-T dans QGIS sans le contrôleur temporel ?"
+
+#: 
+msgid "To use the WMS-T layers in QGIS without the Temporal Controller, first disable the **Dynamic Temporal Control** in the layer’s **Layer Properties** to enable the **Static WMS-T Temporal Range** settings. The default setting is the **Server default** temporal range for visualizing the layer features. This is a predefined temporal range set by the data service provider."
+msgstr "Pour utiliser les couches WMS-T dans QGIS sans le contrôleur temporel, désactivez d'abord le **Contrôle temporel dynamique** dans les **Propriétés de la couche** pour activer les paramètres de la **Plage temporel statique WMS-T**. Le paramètre par défaut est la plage temporelle **par défaut du serveur** pour la visualisation des caractéristiques de la couche. Il s'agit d'une plage temporelle prédéfinie définie par le fournisseur de services de données."
+
+#: 
+msgid "You will notice after disabling **Dynamic Temporal Control** that the layer no longer has the temporal indicator symbol |temporal indicator| next to the layer name in the **Layers Panel**, this means that the layer is no longer considered a temporal layer by QGIS, hence can’t be used by the **Temporal Controller**."
+msgstr "Vous remarquerez après avoir désactivé le **Contrôle dynamique temporel** que la couche n'a plus le symbole de l'indicateur temporel |temporal indicator| à côté du nom de la couche dans le **Panneau des couches**, cela signifie que la couche n'est plus considérée comme une couche temporelle par QGIS, et ne peut donc pas être utilisée par le **Contrôleur temporel**."
+
+#: 
+msgid "|c58300a685bd4f2fa0d533230332ddac|"
+msgstr "|c58300a685bd4f2fa0d533230332ddac|"
+
+#: 
+msgid "|6093fc49fbec4cfeb3e901f20537239a|"
+msgstr "|6093fc49fbec4cfeb3e901f20537239a|"
+
+#: 
+msgid "Using the **Predefined range** you can set the temporal range for the layer features to be visualized using the **Start date** and **End date**. A time-based filter will be applied to the layer and the fetched features will be the features within the predefined temporal range."
+msgstr "En utilisant la **Plage prédéfinie**, vous pouvez définir la plage temporelle pour les caractéristiques de la couche à visualiser en utilisant la **Date de début** et la **Date de fin**. Un filtre temporel sera appliqué à la couche et les caractéristiques récupérées seront les caractéristiques comprises dans la plage temporelle prédéfinie."
+
+#: 
+msgid "|4080c8f3a29e405bb9b08dd014be33bf|"
+msgstr "|4080c8f3a29e405bb9b08dd014be33bf|"
+
+#: 
+msgid "To use the **Follow project’s temporal range** setting, the project temporal range in the **Temporal** section (Project > Properties> Temporal) of the **Project Properties** must be set. After setting the project temporal range, applying this setting will result in fetching the WMS layer features that are within the projects temporal range."
+msgstr "Pour utiliser le paramètre **Suivre la plage temporelle du projet**, la plage temporelle du projet dans la section **Temporal** (Projet > Propriétés> Temporel) des **Propriétés du projet** doit être définie. Après avoir défini la plage temporelle du projet, l'application de ce paramètre entraînera la récupération des caractéristiques de la couche WMS qui se trouvent dans la plage temporelle du projet."
+
+#: 
+msgid "|f1964f08d7bf4b2d81697fea7ca78f7c|"
+msgstr "|f1964f08d7bf4b2d81697fea7ca78f7c|"
+
+#: 
+msgid "|ffa200f43c4d4d2e851714d4dd1c117d|"
+msgstr "|ffa200f43c4d4d2e851714d4dd1c117d|"
+
+#: 
+msgid "|32af30bca57c4fd9ac93cac44f7d46ea|"
+msgstr "|32af30bca57c4fd9ac93cac44f7d46ea|"
+
+#: 
+msgid "**WMS-T Settings**"
+msgstr "**Réglages WMS-T**"
+
+#: 
+msgid "You can also specify the time slice mode used for both the **Dynamic Temporal Control** and the **Static WMS-T Temporal Range**. There are four options available for the time slice mode:"
+msgstr "Vous pouvez également spécifier le mode de tranche de temps utilisé pour le **Contrôle temporel dynamique** et la **Plage temporel statique WMS-T**. Quatre options sont disponibles pour le mode de tranche de temps :"
+
+#: 
+msgid "**Use Whole Temporal Range**: Allows the user to set the temporal range for the layer features to be visualized/plotted."
+msgstr "**Utiliser toute la plage temporelle** : Permet à l'utilisateur de définir la plage temporelle pour les caractéristiques de la couche à visualiser/tracer."
+
+#: 
+msgid "**Match to Start of Range**: The layer features visualized will be features that match the start of the layer’s time range."
+msgstr "**Correspondance avec le début de la plage** : Les caractéristiques de la couche visualisées seront celles qui correspondent au début de la plage temporelle de la couche."
+
+#: 
+msgid "**Match to End of Range**: The layer features visualized will be features that match the end of the layer’s time range."
+msgstr "**Correspondance avec la fin de la plage** : Les caractéristiques de la couche visualisées seront celles qui correspondent à la fin de l'intervalle de temps de la couche."
+
+#: 
+msgid "**Closest Match to Start of Range**: Visualizes the layer features whose date and time stamp are the closest to the start of the defined temporal range."
+msgstr "**Correspondance la plus proche du début de la plage** : Visualise les caractéristiques de la couche dont la date et l'heure sont les plus proches du début de la plage temporelle définie."
+
+#: 
+msgid "**Closet Match to End of Range**: Visualizes the layer features whose date and time stamp are the closest to the end of the defined temporal range."
+msgstr "**Correspondance avec la fin de la plage** : Visualise les caractéristiques de la couche dont la date et l'heure sont les plus proches de la fin de la plage temporelle définie."
+
+#: 
+msgid "You can also enable the option for **Ignoring time components** which allows QGIS to only consider the dates when applying a time based filter to the layer features based on a defined temporal range, without considering the time component."
+msgstr "Vous pouvez également activer l'option **Ignorer les composantes temporelles** qui permet à QGIS de ne prendre en compte que les dates lors de l'application d'un filtre temporel aux caractéristiques de la couche en fonction d'une plage temporelle définie, sans tenir compte de la composante temporelle."
+
+#: 
+msgid "|e5f48ad0cd334b08ae58a3250ebb4d3f|"
+msgstr "|e5f48ad0cd334b08ae58a3250ebb4d3f|"
+
+#: 
+msgid "**How to connect to WCS using QGIS**"
+msgstr "**Comment se connecter à WCS en utilisant QGIS**"
+
+#: 
+msgid "|72e9f81c675647b9bbcbea9c4c3389a3|"
+msgstr "|72e9f81c675647b9bbcbea9c4c3389a3|"
+
+#: 
+msgid "|fafe1a2fd3594d928ed11f06310fe76d|"
+msgstr "|fafe1a2fd3594d928ed11f06310fe76d|"
+
+#: 
+msgid "|53b4f063b62b423bb397add74fbedb38|"
+msgstr "|53b4f063b62b423bb397add74fbedb38|"
+
+#: 
+msgid "Digital Earth Africa Help Desk"
+msgstr "Service d'assistance de Digital Earth Africa"
+
+#: 
+msgid "Explore the `Help Desk <https://helpdesk.digitalearthafrica.org/>`_. It's full of useful materials such as the **Knowledge Base** of articles, **FAQs** and **User Guides**."
+msgstr "Explorez le `Help Desk <https://helpdesk.digitalearthafrica.org/>`_. Il regorge de documents utiles tels que la **Base de connaissances** d'articles, les **FAQ** et les **Guides d'utilisation**."
+
+#: 
+msgid "For members you can submit and view tickets, join the community for discussions and ask your own questions."
+msgstr "Les membres peuvent soumettre et consulter des tickets, rejoindre la communauté pour des discussions et poser leurs propres questions."
+
+#: 
+msgid "`helpdesk.digitalearthafrica.org <https://helpdesk.digitalearthafrica.org/>`_"
+msgstr "`helpdesk.digitalearthafrica.org <https://helpdesk.digitalearthafrica.org/>`_"
+
+#: 
+msgid "If you can't find what you are looking for, you can ask for help by `submitting a ticket <https://helpdesk.digitalearthafrica.org/portal/en/newticket>`_."
+msgstr "Si vous ne trouvez pas ce que vous cherchez, vous pouvez demander de l'aide en `submettant un ticket <https://helpdesk.digitalearthafrica.org/portal/en/newticket>`_."
+
+#: 
+msgid "Email"
+msgstr "Courriel :"
+
+#: 
+msgid "Email us at helpdesk@digitalearthafrica.org."
+msgstr "Envoyez-nous un courriel à helpdesk@digitalearthafrica.org."
+
+#: 
+msgid "GIS Stack Exchange"
+msgstr "Stack Exchange SIG"
+
+#: 
+msgid "Open Data Cube Slack"
+msgstr "Open Data Cube Slack"
+
+#: 
+msgid "Training Courses"
+msgstr "Cours de formation"
+
+#: 
+msgid "Training courses on using Digital Earth Africa are available at:"
+msgstr "Des cours de formation sur l'utilisation de Digital Earth Africa sont disponibles sur le site :"
+
+#: 
+msgid "`learn.digitalearthafrica.org <https://learn.digitalearthafrica.org/>`_"
+msgstr "`learn.digitalearthafrica.org <https://learn.digitalearthafrica.org/>`_"
+
+#: 
+msgid "There is a self-paced 6-week introductory training course on using the Sandbox:"
+msgstr "Il existe une formation d'introduction à l'utilisation de l'Environnement de test, d'une durée de 6 semaines et à son rythme :"
+
+#: 
+msgid "English: `Introduction to Sandbox <https://learn.digitalearthafrica.org/courses/course-v1:digitalearthafrica+DEA101+2021/about>`_"
+msgstr "English : `Introduction à Sandbox <https://learn.digitalearthafrica.org/courses/course-v1:digitalearthafrica+DEA101+2021/about>`_"
+
+#: 
+msgid "Français: `Introduction à la sandbox <https://learn.digitalearthafrica.org/courses/course-v1:digitalearthafrica+DEA101-fr+2021/about>`_"
+msgstr "Français : `Introduction à la sandbox <https://learn.digitalearthafrica.org/courses/course-v1:digitalearthafrica+DEA101-fr+2021/about>`_"
+
+#: 
+msgid "The course covers:"
+msgstr "Le cours couvre :"
+
+#: 
+msgid "Synthetic Aperture Radar (SAR) data have been shown to provide different and complementary information to the more common optical remote sensing data. Radar backscatter response is a function of topography, land cover structure, orientation, and moisture characteristics-including vegetation biomass-and the radar signal can penetrate clouds, providing information about the earth’s surface where optical sensors cannot. Digital Earth Africa provides access to Normalized Radar Backscatter data, for which Radiometric Terrain Correction (RTC) has been applied so data acquired with different imaging geometries over the same region can be compared."
+msgstr "Il a été démontré que les données du radar à synthèse d'ouverture (SAR) fournissent des informations différentes et complémentaires des données de télédétection optique plus courantes. La réponse de rétrodiffusion radar est une fonction de la topographie, de la structure de la couverture terrestre, de l'orientation et des caractéristiques d'humidité - y compris la biomasse végétale - et le signal radar peut pénétrer les nuages, fournissant des informations sur la surface de la terre là où les capteurs optiques ne le peuvent pas. Digital Earth Africa donne accès aux données de rétrodiffusion radar normalisées, pour lesquelles la correction radiométrique du terrain (RTC) a été appliquée afin de pouvoir comparer les données acquises avec différentes géométries d'imagerie sur la même région."
+
+#: 
+msgid "|4082a2316b3c4e45a1f204bccdd0a4b6|"
+msgstr "|4082a2316b3c4e45a1f204bccdd0a4b6|"
+
+#: 
+msgid "ALOS annual mosaics for crop near Cairo"
+msgstr "Mosaïques annuelles ALOS pour les cultures près du Caire"
+
+#: 
+msgid "For instructions on how to connect to OWS, see `this tutorial <../web_services/index.ipynb>`__."
+msgstr "Pour obtenir des instructions sur la manière de se connecter à OWS, consultez `ce tutoriel <../web_services/index.ipynb>`__."
+
+#: 
+msgid "|e5db7341906e4e9b97bd8687f700a1c4|"
+msgstr "|e5db7341906e4e9b97bd8687f700a1c4|"
+
+#: 
+msgid "e5db7341906e4e9b97bd8687f700a1c4"
+msgstr "e5db7341906e4e9b97bd8687f700a1c4"
+
+#: 
+msgid "|2448822c8a0b4d3b9315a77c871af0a2|"
+msgstr "|2448822c8a0b4d3b9315a77c871af0a2|"
+
+#: 
+msgid "2448822c8a0b4d3b9315a77c871af0a2"
+msgstr "2448822c8a0b4d3b9315a77c871af0a2"
+
+#: 
+msgid "|0b3bb895825049f59534026dc5681bc7|"
+msgstr "|0b3bb895825049f59534026dc5681bc7|"
+
+#: 
+msgid "0b3bb895825049f59534026dc5681bc7"
+msgstr "0b3bb895825049f59534026dc5681bc7"
+
+#: 
+msgid "|02297e5293a848b58ab6e7cf057adc1f|"
+msgstr "|02297e5293a848b58ab6e7cf057adc1f|"
+
+#: 
+msgid "02297e5293a848b58ab6e7cf057adc1f"
+msgstr "02297e5293a848b58ab6e7cf057adc1f"
+
+#: 
+msgid "|9f31d8e5f0da4d9ab6831617a728ba49|"
+msgstr "|9f31d8e5f0da4d9ab6831617a728ba49|"
+
+#: 
+msgid "9f31d8e5f0da4d9ab6831617a728ba49"
+msgstr "9f31d8e5f0da4d9ab6831617a728ba49"
+
+#: 
+msgid "|55facae801ba40168c04f5765ee22f1c|"
+msgstr "|55facae801ba40168c04f5765ee22f1c|"
+
+#: 
+msgid "55facae801ba40168c04f5765ee22f1c"
+msgstr "55facae801ba40168c04f5765ee22f1c"
+
+#: 
+msgid "|4d09e759e8594c4ba455c8af6753d490|"
+msgstr "|4d09e759e8594c4ba455c8af6753d490|"
+
+#: 
+msgid "4d09e759e8594c4ba455c8af6753d490"
+msgstr "4d09e759e8594c4ba455c8af6753d490"
+
+#: 
+msgid "|8aad0393ffbe4e12accd7a8733f970ca|"
+msgstr "|8aad0393ffbe4e12accd7a8733f970ca|"
+
+#: 
+msgid "8aad0393ffbe4e12accd7a8733f970ca"
+msgstr "8aad0393ffbe4e12accd7a8733f970ca"
+
+#: 
+msgid "|b3e2593af0644033a1ffaf3f9aabfabe|"
+msgstr "|b3e2593af0644033a1ffaf3f9aabfabe|"
+
+#: 
+msgid "b3e2593af0644033a1ffaf3f9aabfabe"
+msgstr "b3e2593af0644033a1ffaf3f9aabfabe"
+
+#: 
+msgid "|6c58f7eb462942ebbc83c7770a02a036|"
+msgstr "|6c58f7eb462942ebbc83c7770a02a036|"
+
+#: 
+msgid "6c58f7eb462942ebbc83c7770a02a036"
+msgstr "6c58f7eb462942ebbc83c7770a02a036"
+
+#: 
+msgid "|1f990f44a707434ba9b2099e7bf91e17|"
+msgstr "|1f990f44a707434ba9b2099e7bf91e17|"
+
+#: 
+msgid "Fractional Cover data extent"
+msgstr "Étendue des données sur la couverture fractionnée"
+
+#: 
+msgid "|f9f5a6f9a3a646429c1934098e567087|"
+msgstr "|f9f5a6f9a3a646429c1934098e567087|"
+
+#: 
+msgid "Fractional Cover along Dawa river."
+msgstr "Couverture fractionnée le long de la rivière Dawa."
+
+#: 
+msgid "|28e7cf6d31274833a65a21eae7537a9e|"
+msgstr "|28e7cf6d31274833a65a21eae7537a9e|"
+
+#: 
+msgid "28e7cf6d31274833a65a21eae7537a9e"
+msgstr "28e7cf6d31274833a65a21eae7537a9e"
+
+#: 
+msgid "Flood, N. (2014). Continuity of reflectance data between Landsat-7 ETM+ and Landsat-8 OLI, for both top-of-atmosphere and surface reflectance: A study in the Australian landscape. Remote Sensing, 6(9), 7952-7970. https://doi.org/10.3390/rs6097952"
+msgstr "Flood, N. (2014). Continuité des données de réflectance entre Landsat-7 ETM+ et Landsat-8 OLI, à la fois pour la réflectance du sommet de l'atmosphère et de la surface : Une étude dans le paysage australien. Remote Sensing, 6(9), 7952-7970. https://doi.org/10.3390/rs6097952"
+
+#: 
+msgid "|62c5f01ee6884621818d68c4c8fdce94|"
+msgstr "|62c5f01ee6884621818d68c4c8fdce94|"
+
+#: 
+msgid "Header image - A section of Olifantsrivier in South Africa, imaged using the 2019 Sentinel-2 Annual GeoMAD. Contains modified Copernicus Sentinel data 2019, processed by Digital Earth Africa."
+msgstr "Image d'en-tête - Une section d'Olifantsrivier en Afrique du Sud, imagée à l'aide du GeoMAD annuel 2019 de Sentinel-2. Contient des données Copernicus Sentinel 2019 modifiées, traitées par Digital Earth Africa."
+
+#: 
+msgid "|38bca6339183429cb0b366eac9c13243|"
+msgstr "|38bca6339183429cb0b366eac9c13243|"
+
+#: 
+msgid "S-2 GeoMAD data extent"
+msgstr "S-2 Étendue des données GeoMAD"
+
+#: 
+msgid "|b0043b5d4a1047d78bdfb06623d0fcc6| |2ed756f4b1f6476ea90e9fce291dd667|"
+msgstr "|b0043b5d4a1047d78bdfb06623d0fcc6| |2ed756f4b1f6476ea90e9fce291dd667|"
+
+#: 
+msgid "LS5-7 GeoMAD data extent over time"
+msgstr "LS5-7 L'étendue des données GeoMAD dans le temps"
+
+#: 
+msgid "LS5-7 GeoMAD count summary"
+msgstr "LS5-7 Résumé du comptage GeoMAD"
+
+#: 
+msgid "|3f577c815a444863888dc43ab07e7525| |299ca76c7b31443da17e8843ae1ee37b|"
+msgstr "|3f577c815a444863888dc43ab07e7525| |299ca76c7b31443da17e8843ae1ee37b|"
+
+#: 
+msgid "3f577c815a444863888dc43ab07e7525"
+msgstr "3f577c815a444863888dc43ab07e7525"
+
+#: 
+msgid "299ca76c7b31443da17e8843ae1ee37b"
+msgstr "299ca76c7b31443da17e8843ae1ee37b"
+
+#: 
+msgid "|2f2f1a29914a4d1884ae962e60b02f37|"
+msgstr "|2f2f1a29914a4d1884ae962e60b02f37|"
+
+#: 
+msgid "Geomedian composite"
+msgstr "Composite géomédiatique"
+
+#: 
+msgid "|69a61ee4d5794e6d8cf42b0679d738f6|"
+msgstr "|69a61ee4d5794e6d8cf42b0679d738f6|"
+
+#: 
+msgid "MADs"
+msgstr "MADs"
+
+#: 
+msgid "|00645adb7861477db0e27d8749241905|"
+msgstr "|00645adb7861477db0e27d8749241905|"
+
+#: 
+msgid "Semiannual geomedian"
+msgstr "Géomédias semestriels"
+
+#: 
+msgid "|8d90c0a0c04d4273ab3689e60bb27b95|"
+msgstr "|8d90c0a0c04d4273ab3689e60bb27b95|"
+
+#: 
+msgid "Annual LS8 geomedian"
+msgstr "Géomédecine annuelle LS8"
+
+#: 
+msgid "|44f37643e9e44da7b7b6084e227156a1|"
+msgstr "|44f37643e9e44da7b7b6084e227156a1|"
+
+#: 
+msgid "|47405f0f2bf743a29f1e3d02b5326790|"
+msgstr "|47405f0f2bf743a29f1e3d02b5326790|"
+
+#: 
+msgid "|56b973cbf15f4fd8b89b097f05beaae2|"
+msgstr "|56b973cbf15f4fd8b89b097f05beaae2|"
+
+#: 
+msgid "Euclidean"
+msgstr "Euclidien"
+
+#: 
+msgid "|7919f45d07cc4a2bb84375d8d5ff6580|"
+msgstr "|7919f45d07cc4a2bb84375d8d5ff6580|"
+
+#: 
+msgid "|5ed745cacbe04599b0e14ed59de84c23|"
+msgstr "|5ed745cacbe04599b0e14ed59de84c23|"
+
+#: 
+msgid "Cosine distance"
+msgstr "Distance cosinus"
+
+#: 
+msgid "0 Pixel present; 1 detector doesn’t have a value - no data"
+msgstr "0 Pixel présent ; 1 détecteur n'a pas de valeur - pas de données"
+
+#: 
+msgid "|5d26397ea07d46adb83534f64e9235e2|"
+msgstr "|5d26397ea07d46adb83534f64e9235e2|"
+
+#: 
+msgid "Landsat composites for Libya"
+msgstr "Composites Landsat pour la Libye"
+
+#: 
+msgid "|3076b4845d7b4ea4b413a80464dae412|"
+msgstr "|3076b4845d7b4ea4b413a80464dae412|"
+
+#: 
+msgid "Landsat surface temperature for Libya"
+msgstr "Température de surface Landsat pour la Libye"
+
+#: 
+msgid "|f14c7bd96bf74ad3b44c600a42dcb117|"
+msgstr "|f14c7bd96bf74ad3b44c600a42dcb117|"
+
+#: 
+msgid "|8ca1fb3bfbab4437b833dda6afb17ba6|"
+msgstr "|8ca1fb3bfbab4437b833dda6afb17ba6|"
+
+#: 
+msgid "WOfS All-Time Summary over Tagrin Bay."
+msgstr "Résumé de tous les temps de WOfS sur Tagrin Bay."
+
+#: 
+msgid "|38592ff96c92447a988dc8d3b642a538|"
+msgstr "|38592ff96c92447a988dc8d3b642a538|"
+
+#: 
+msgid "WOfS Annual Summary over Bui Dam, animated."
+msgstr "Résumé annuel du WOfS sur le barrage de Bui, animé."
+
+#: 
+msgid "|7c13f2ca211646e3bec1354f5e216408|"
+msgstr "|7c13f2ca211646e3bec1354f5e216408|"
+
+#: 
+msgid "WOFL over Shiroro Reservoir."
+msgstr "WOFL au-dessus du réservoir de Shiroro."
+
+#: 
+msgid "|f065e28fd6734d65a9baaece03a97337|"
+msgstr "|f065e28fd6734d65a9baaece03a97337|"
+
+#: 
+msgid "The decision tree underlying the WOfS algorithm."
+msgstr "L'arbre de décision sous-jacent à l'algorithme WOfS."
+
+#: 
+msgid "|1dcc4b0d63964edcbaf9b4adaa9cbc26|"
+msgstr "|1dcc4b0d63964edcbaf9b4adaa9cbc26|"
+
+#: 
+msgid "WOfS accuracies mapped by Agro-Ecological Zone."
+msgstr "Précisions WOfS cartographiées par zone agro-écologique."
+
+#: 
+msgid "|b60161f84efd48449d77d5ab976227fa|"
+msgstr "|b60161f84efd48449d77d5ab976227fa|"
+
+#: 
+msgid "False color backscatter over Okavango"
+msgstr "Rétrodiffusion de fausses couleurs sur l'Okavango"
+
+#: 
+msgid "|092383c881bf40d58fdbac4f8947aa6c|"
+msgstr "|092383c881bf40d58fdbac4f8947aa6c|"
+
+#: 
+msgid "Normalization areas for SAR backscatter"
+msgstr "Zones de normalisation pour la rétrodiffusion SAR"
+
+#: 
+msgid "|18e73ed50dcd4a7ab8586827b639a359|"
+msgstr "|18e73ed50dcd4a7ab8586827b639a359|"
+
+#: 
+msgid "Backscatter with and without RTC"
+msgstr "Backscatter avec et sans RTC"
+
+#: 
+msgid "|2339c7f850a24e269c379a5d47a7e6a8|"
+msgstr "|2339c7f850a24e269c379a5d47a7e6a8|"
+
+#: 
+msgid "Sentinel-2 data extent"
+msgstr "L'étendue des données de Sentinel-2"
+
+#: 
+msgid "|b366a4ab18ec49f7908b7ef475ca2dee|"
+msgstr "|b366a4ab18ec49f7908b7ef475ca2dee|"
+
+#: 
+msgid "Sentinel-2 true-colour image"
+msgstr "Image en couleur de Sentinel-2"
+
+#: 
+msgid "|f729c419f3c649a59875e07e922abafd|"
+msgstr "|f729c419f3c649a59875e07e922abafd|"
+
+#: 
+msgid "Land and water"
+msgstr "Terre et eau"
+
+#: 
+msgid "Data Catalogue"
+msgstr "Catalogue de données"
+
+#: 
+msgid "Satellite images"
+msgstr "Images satellites"
+
+#: 
+msgid "Surface reflectance"
+msgstr "Réflexion de la surface"
+
+#: 
+msgid ":doc:`Landsat_C2_SR_specs`"
+msgstr ":doc:`Landsat_C2_SR_specs`"
+
+#: 
+msgid "Daily satellite images from Landsat 5, 7 and 8."
+msgstr "Images satellites quotidiennes de Landsat 5, 7 et 8."
+
+#: 
+msgid ":doc:`More <Landsat_C2_SR_specs>`"
+msgstr ":doc:`Plus de <Landsat_C2_SR_specs>`"
+
+#: 
+msgid ":doc:`Sentinel-2_Level-2A_specs`"
+msgstr ":doc:`Sentinel-2_Niveau-2A_specs`"
+
+#: 
+msgid "Daily satellite images from Sentinel-2."
+msgstr "Images satellites quotidiennes de Sentinel-2."
+
+#: 
+msgid ":doc:`More <Sentinel-2_Level-2A_specs>`"
+msgstr ":doc:`Plus de <Sentinel-2_Niveau-2A_specs>`"
+
+#: 
+msgid ":doc:`GeoMAD_specs`"
+msgstr ":doc:`GeoMAD_specs`"
+
+#: 
+msgid "Cloud-free mosaics from Landsat and Sentinel-2 satellites."
+msgstr "Mosaïques sans nuages des satellites Landsat et Sentinel-2."
+
+#: 
+msgid ":doc:`More <GeoMAD_specs>`"
+msgstr ":doc:`More <GeoMAD_specs>`"
+
+#: 
+msgid "Surface temperature"
+msgstr "Température de surface"
+
+#: 
+msgid ":doc:`Landsat_C2_ST_specs`"
+msgstr ":doc:`Landsat_C2_ST_specs`"
+
+#: 
+msgid "Surface Temperature from Landsat 5, 7 and 8."
+msgstr "Température de surface à partir de Landsat 5, 7 et 8."
+
+#: 
+msgid ":doc:`More <Landsat_C2_ST_specs>`"
+msgstr ":doc:`Plus de <Landsat_C2_ST_specs>`"
+
+#: 
+msgid "Radar backscatter"
+msgstr "Rétrodiffusion radar"
+
+#: 
+msgid ":doc:`Sentinel-1_specs`"
+msgstr ":doc:`Sentinel-1_specs`"
+
+#: 
+msgid "Synthetic Aperture Radar from Sentinel-1."
+msgstr "Radar à ouverture synthétique de Sentinel-1."
+
+#: 
+msgid ":doc:`More <Sentinel-1_specs>`"
+msgstr ":doc:`Plus de <Sentinel-1_specs>`"
+
+#: 
+msgid ":doc:`ALOS_PALSAR_annual_mosaic_specs`"
+msgstr ":doc:`ALOS_PALSAR_mosaique_annuelle_specs`"
+
+#: 
+msgid "Synthetic Aperture Radar annual mosaics from JAXA."
+msgstr "Mosaïques annuelles du radar à ouverture synthétique de la JAXA."
+
+#: 
+msgid ":doc:`More <ALOS_PALSAR_annual_mosaic_specs>`"
+msgstr ":doc:`More <ALOS_PALSAR_annual_mosaic_specs>`"
+
+#: 
+msgid ":doc:`Landsat_WOfS_specs`"
+msgstr ":doc:`Landsat_WOfS_specs`"
+
+#: 
+msgid "Individual, annual and historic water observations."
+msgstr "Observations individuelles, annuelles et historiques de l'eau."
+
+#: 
+msgid ":doc:`More <Landsat_WOfS_specs>`"
+msgstr ":doc:`More <Landsat_WOfS_specs>`"
+
+#: 
+msgid ":doc:`Cropland_extent_specs`"
+msgstr ":doc:`Cropland_extent_specs`"
+
+#: 
+msgid "Estimated location of croplands."
+msgstr "Localisation estimée des terres cultivées."
+
+#: 
+msgid ":doc:`More <Cropland_extent_specs>`"
+msgstr ":doc:`More <Cropland_extent_specs>`"
+
+#: 
+msgid ":doc:`Fractional_Cover_specs`"
+msgstr ":doc:`Fractional_Cover_specs`"
+
+#: 
+msgid "Green vegetation, non-green vegetation and bare soil for every Landsat image."
+msgstr "Végétation verte, végétation non verte et sol nu pour chaque image Landsat."
+
+#: 
+msgid ":doc:`More <Fractional_Cover_specs>`"
+msgstr ":doc:`More <Fractional_Cover_specs>`"
+
+#: 
+msgid ":doc:`More <data_specs/index>`"
+msgstr ":doc:`Plus de <data_specs/index>`"
+
+#: 
+msgid ":doc:`More <sandbox/index>`"
+msgstr ":doc:`Plus de <sandbox/index>`"
+
+#: 
+msgid "Access to DE Africa data from QGIS or ArcGIS using Web Map Service and Web Coverage Service"
+msgstr "Accès aux données de DE Africa à partir de QGIS ou ArcGIS en utilisant Web Map Service et Web Coverage Service."
+
+#: 
+msgid ":doc:`More <web_services/index>`"
+msgstr ":doc:`Plus de <web_services/index>`"
+
+#: 
+msgid ":doc:`web_services/access`"
+msgstr ":doc:`web_services/access`"
+
+#: 
+msgid "Directly access the data and metadata from cloud data storage"
+msgstr "Accéder directement aux données et aux métadonnées à partir du stockage de données en nuage."
+
+#: 
+msgid ":doc:`More <web_services/access>`"
+msgstr ":doc:`Plus de <web_services/access>`"
+
+#: 
+msgid "Esri provides geographic information system software, web GIS and geodatabase management applications. They have developed the `Africa GeoPortal <https://deafrica.africageoportal.com/>`_, which uses imagery from DE Africa to provide location for geospatial tools data and training free for users working on Africa geospatial challenges."
+msgstr "Esri fournit des logiciels de système d'information géographique, des SIG web et des applications de gestion de géodatabase. Ils ont développé le `Africa GeoPortal <https://deafrica.africageoportal.com/>`_, qui utilise l'imagerie de DE Afrique pour fournir la localisation des données des outils géospatiaux et la formation gratuite pour les utilisateurs travaillant sur les défis géospatiaux de l'Afrique."
+
+#: 
+msgid "`deafrica.africageoportal.com <https://deafrica.africageoportal.com/>`_"
+msgstr "`deafrica.africageoportal.com <https://deafrica.africageoportal.com/>`_"
+
+#: 
+msgid "Training material and courses for the Africa Geoportal are available on the `Learning Resources <https://deafrica.africageoportal.com/pages/Learning%20Resources>`_ page."
+msgstr "Le matériel de formation et les cours pour le Géoportail Afrique sont disponibles sur la page `Ressources d'apprentissage <https://deafrica.africageoportal.com/pages/Learning%20Resources>`_."
+
+#: 
+msgid "|c5b4f6f203dd486f94970f0f9938243f|"
+msgstr "|c5b4f6f203dd486f94970f0f9938243f|"
+
+#: 
+msgid "DE Africa maps image"
+msgstr "DE Afrique cartes image"
+
+#: 
+msgid "|39c0862b07bd4be087386d731fc66dd6|"
+msgstr "|39c0862b07bd4be087386d731fc66dd6|"
+
+#: 
+msgid "|09bd6dfd0daa4b74b48ecc6de3af3b62|"
+msgstr "|09bd6dfd0daa4b74b48ecc6de3af3b62|"
+
+#: 
+msgid "Spreadsheets where each row refers to a country using ISO 3166 2-letter or 3-letter code. Columns must be named cnt2, iso2, cnt3 or iso4 according to the `CSV-geo-au standard <https://github.com/TerriaJS/nationalmap/wiki/csv-geo-au#country-boundaries>`__. These will be displayed as regions, highlighting the actual shape of each area."
+msgstr "Des feuilles de calcul où chaque ligne fait référence à un pays en utilisant le code ISO 3166 à 2 ou 3 lettres. Les colonnes doivent être nommées cnt2, iso2, cnt3 ou iso4 selon la norme `CSV-geo-au <https://github.com/TerriaJS/nationalmap/wiki/csv-geo-au#country-boundaries>`__. Elles seront affichées sous forme de régions, mettant en évidence la forme réelle de chaque zone."
+
+#: 
+msgid "The Sandbox is free to use. Visit `sandbox.digitalearth.africa <https://sandbox.digitalearth.africa/>`__ to sign up for a new account, or sign in if you have an existing account."
+msgstr "L'utilisation de la Sandbox est gratuite. Visitez `sandbox.digitalearth.africa <https://sandbox.digitalearth.africa/>`__ pour vous inscrire pour un nouveau compte, ou connectez-vous si vous avez un compte existant."
+
+#: 
+msgid "Visit `sandbox.digitalearth.africa <https://sandbox.digitalearth.africa>`__ and click **Login or Sign up**."
+msgstr "Visitez `sandbox.digitalearth.africa <https://sandbox.digitalearth.africa>`__ et cliquez sur **Login ou Sign up**."
+
+#: 
+msgid "The DE Africa Sandbox new user registration page."
+msgstr "La page d'enregistrement des nouveaux utilisateurs de DE Africa Sandbox."
+
+#: 
+msgid "The DE Africa Sandbox new user confirm account page."
+msgstr "La page de confirmation du compte du nouvel utilisateur de DE Africa Sandbox."
+
+#: 
+msgid "Sign in at: `sandbox.digitalearth.africa <https://sandbox.digitalearth.africa>`__"
+msgstr "Connectez-vous à : `sandbox.digitalearth.africa <https://sandbox.digitalearth.africa>`__"
+
+#: 
+msgid "You may see other options as well. For regular users, the default environment should be enough for most of your needs."
+msgstr "Vous verrez peut-être d'autres options. Pour les utilisateurs réguliers, l'environnement par défaut devrait être suffisant pour la plupart de vos besoins."
+
+#: 
+msgid "The DE Africa Sandbox start server page."
+msgstr "La page du serveur de démarrage de DE Africa Sandbox."
+
+#: 
+msgid "Select **Default environment** and click **Start**."
+msgstr "Sélectionnez **Environnement par défaut** et cliquez sur **Démarrer**."
+
+#: 
+msgid "The Sandbox will then prepare a JupyterLab environment for you; this can take a few minutes.  You will automatically be redirected to the Sandbox environment."
+msgstr "L'Environnement de travail préparera ensuite un environnement JupyterLab pour vous ; cela peut prendre quelques minutes.  Vous serez automatiquement redirigé vers l'environnement Sandbox."
+
+#: 
+msgid "The Sandbox runs completely in-browser and all necessary software is provided as part of this environment, so no additional installation or configuration is required."
+msgstr "L'Environnement de test fonctionne entièrement dans le navigateur et tous les logiciels nécessaires sont fournis dans le cadre de cet environnement, de sorte qu'aucune installation ou configuration supplémentaire n'est requise."
+
+#: 
+msgid "JupyterLab Start Up"
+msgstr "Démarrage de JupyterLab"
+
+#: 
+msgid "|f6db722a7a4841a4b631939159fe7984|"
+msgstr "|f6db722a7a4841a4b631939159fe7984|"
+
+#: 
+msgid "The DE Africa Sandbox Jupyterlab launcher."
+msgstr "Le lanceur Jupyterlab de DE Africa Sandbox."
+
+#: 
+msgid "|a8f52e93c35844779e122b88ae32a8bc|"
+msgstr "|a8f52e93c35844779e122b88ae32a8bc|"
+
+#: 
+msgid "The DE Africa Sandbox Jupyterlab terminal."
+msgstr "Le terminal Jupyterlab de DE Africa Sandbox."
+
+#: 
+msgid "|efc2bc8ac36644f28fcaabb36a7eb0a6|"
+msgstr "|efc2bc8ac36644f28fcaabb36a7eb0a6|"
+
+#: 
+msgid "Set your Git username."
+msgstr "Définissez votre nom d'utilisateur Git."
+
+#: 
+msgid "|cde5695ad2104dfe8b1a7fd715b826a6|"
+msgstr "|cde5695ad2104dfe8b1a7fd715b826a6|"
+
+#: 
+msgid "Fork a repo from the GitHub website."
+msgstr "Fork un repo à partir du site GitHub."
+
+#: 
+msgid "|3040506d99a04e1f8d12aab88e8df1b3|"
+msgstr "|3040506d99a04e1f8d12aab88e8df1b3|"
+
+#: 
+msgid "A forked repo."
+msgstr "Un repo à fourche."
+
+#: 
+msgid "|0de0c2ccbf934be699e52f1dd847529f|"
+msgstr "|0de0c2ccbf934be699e52f1dd847529f|"
+
+#: 
+msgid "New folder."
+msgstr "Nouveau dossier."
+
+#: 
+msgid "|fc1c392d80cd4916a18ecac4cbb14a38|"
+msgstr "|fc1c392d80cd4916a18ecac4cbb14a38|"
+
+#: 
+msgid "dev folder."
+msgstr "dossier de développement."
+
+#: 
+msgid "|a1e01064278a481491c73f7cfe3d1654|"
+msgstr "|a1e01064278a481491c73f7cfe3d1654|"
+
+#: 
+msgid "Inside dev folder."
+msgstr "Dans le dossier de développement."
+
+#: 
+msgid "|1d792f7ca4bc4008aceaa585fdd5874c|"
+msgstr "|1d792f7ca4bc4008aceaa585fdd5874c|"
+
+#: 
+msgid "Clone button."
+msgstr "Bouton de clonage."
+
+#: 
+msgid "|b19519a7ad004022bf088e6a6407f0e0|"
+msgstr "|b19519a7ad004022bf088e6a6407f0e0|"
+
+#: 
+msgid "|ee970b123dee48c08de11b3901ea7d0a|"
+msgstr "|ee970b123dee48c08de11b3901ea7d0a|"
+
+#: 
+msgid "Clone on GitHub."
+msgstr "Clone sur GitHub."
+
+#: 
+msgid "|f6d097575010494285a50c603310ec0c|"
+msgstr "|f6d097575010494285a50c603310ec0c|"
+
+#: 
+msgid "Paste and clone."
+msgstr "Coller et cloner."
+
+#: 
+msgid "|6f5d091210f548b1adc47335e3ac35dd|"
+msgstr "|6f5d091210f548b1adc47335e3ac35dd|"
+
+#: 
+msgid "Clone successful."
+msgstr "Clone réussi."
+
+#: 
+msgid "|305a92f881894d94a3935cfdd204323d|"
+msgstr "|305a92f881894d94a3935cfdd204323d|"
+
+#: 
+msgid "|783ca8433d9742fd8f7163ad69b05ceb|"
+msgstr "|783ca8433d9742fd8f7163ad69b05ceb|"
+
+#: 
+msgid "Pull and push mechanisms in Git"
+msgstr "Mécanismes de traction et de poussée dans Git"
+
+#: 
+msgid "|72d88fa1c20d4532bf4735337ccd0b52|"
+msgstr "|72d88fa1c20d4532bf4735337ccd0b52|"
+
+#: 
+msgid "This branch is behind by 12 commits."
+msgstr "Cette branche est en retard de 12 commits."
+
+#: 
+msgid "|409c36148e1c47718cc578dba91a1159|"
+msgstr "|409c36148e1c47718cc578dba91a1159|"
+
+#: 
+msgid "Select the Git menu."
+msgstr "Sélectionnez le menu Git."
+
+#: 
+msgid "|eb141ac037464a4382698dd239602438|"
+msgstr "|eb141ac037464a4382698dd239602438|"
+
+#: 
+msgid "Git menu."
+msgstr "Menu Git."
+
+#: 
+msgid "|adc2cfdcaf5741b685100effd49b8e49|"
+msgstr "|adc2cfdcaf5741b685100effd49b8e49|"
+
+#: 
+msgid "Parts of the Git menu."
+msgstr "Parties du menu Git."
+
+#: 
+msgid "|3acf36b63af2451dbb20e6ef3fad4701|"
+msgstr "|3acf36b63af2451dbb20e6ef3fad4701|"
+
+#: 
+msgid "|5965cbd5ce514449ba6977c7bdddcd12|"
+msgstr "|5965cbd5ce514449ba6977c7bdddcd12|"
+
+#: 
+msgid "|576e0d62ad964387be3a0bd54c6f3fce|"
+msgstr "|576e0d62ad964387be3a0bd54c6f3fce|"
+
+#: 
+msgid "|30398f1ea6d94005a1791de11c3731c9|"
+msgstr "|30398f1ea6d94005a1791de11c3731c9|"
+
+#: 
+msgid "Return to the folder view"
+msgstr "Retourner à la vue des dossiers"
+
+#: 
+msgid "|e94aeccd4aa741e1a98a5c40b8c5b8f0|"
+msgstr "|e94aeccd4aa741e1a98a5c40b8c5b8f0|"
+
+#: 
+msgid "Make a new file"
+msgstr "Créer un nouveau fichier"
+
+#: 
+msgid "|f73de4a9513844b2b78b8fd9887127c3|"
+msgstr "|f73de4a9513844b2b78b8fd9887127c3|"
+
+#: 
+msgid "Type something in the file."
+msgstr "Tapez quelque chose dans le fichier."
+
+#: 
+msgid "|a3ebeb5a0b1849cebd8c893ade10b920|"
+msgstr "|a3ebeb5a0b1849cebd8c893ade10b920|"
+
+#: 
+msgid "Rename the file"
+msgstr "Renommer le fichier"
+
+#: 
+msgid "|ff32dc30f4334c488bd02abee59671ba|"
+msgstr "|ff32dc30f4334c488bd02abee59671ba|"
+
+#: 
+msgid "File is renamed."
+msgstr "Le fichier est renommé."
+
+#: 
+msgid "|a935870adcd34f38b6c039b13fe97d15|"
+msgstr "|a935870adcd34f38b6c039b13fe97d15|"
+
+#: 
+msgid "|083582dbf2894607b61f5b2ba096721b|"
+msgstr "|083582dbf2894607b61f5b2ba096721b|"
+
+#: 
+msgid "|0821566518f34215bdfc6d8fe16d2b39|"
+msgstr "|0821566518f34215bdfc6d8fe16d2b39|"
+
+#: 
+msgid "Change a staged file."
+msgstr "Modifier un fichier mis à disposition."
+
+#: 
+msgid "|66508a68201547bc9ea5ec2d823290ac|"
+msgstr "|66508a68201547bc9ea5ec2d823290ac|"
+
+#: 
+msgid "|7349a5640d9e46b0a4b09d25cee7595f|"
+msgstr "|7349a5640d9e46b0a4b09d25cee7595f|"
+
+#: 
+msgid "|5367e2f0a79e4a60882797c6521b2cea|"
+msgstr "|5367e2f0a79e4a60882797c6521b2cea|"
+
+#: 
+msgid "Staged changes have been removed."
+msgstr "Les changements échelonnés ont été supprimés."
+
+#: 
+msgid "|b82df8b0581d45999f6f56f12015bd06|"
+msgstr "|b82df8b0581d45999f6f56f12015bd06|"
+
+#: 
+msgid "Github local remote branch diagram."
+msgstr "Diagramme de la branche locale distante de Github."
+
+#: 
+msgid "|fd29e657aae246f7a2632f2ef2a8604d|"
+msgstr "|fd29e657aae246f7a2632f2ef2a8604d|"
+
+#: 
+msgid "Set upstream remote branch."
+msgstr "Définir la branche distante en amont."
+
+#: 
+msgid "|24ad18ae8bd4489495b43aadf48a6c82|"
+msgstr "|24ad18ae8bd4489495b43aadf48a6c82|"
+
+#: 
+msgid "Successfully linked remote branch."
+msgstr "Succès de la liaison avec la branche distante."
+
+#: 
+msgid "|dd76d486f2fa48d68514abd9ad3a67f6|"
+msgstr "|dd76d486f2fa48d68514abd9ad3a67f6|"
+
+#: 
+msgid "Authenticate to push changes."
+msgstr "S'authentifier pour pousser les changements."
+
+#: 
+msgid "|6057e59217154011af9eecccbd7b485d|"
+msgstr "|6057e59217154011af9eecccbd7b485d|"
+
+#: 
+msgid "|71e30e74474746a08432f74f3ba91514|"
+msgstr "|71e30e74474746a08432f74f3ba91514|"
+
+#: 
+msgid "The new branch has the changes."
+msgstr "La nouvelle branche contient les changements."
+
+#: 
+msgid "|382367cf97c6467198ae36387dab8651|"
+msgstr "|382367cf97c6467198ae36387dab8651|"
+
+#: 
+msgid "|1bda83c8193248dd8f693f5183f50a10|"
+msgstr "|1bda83c8193248dd8f693f5183f50a10|"
+
+#: 
+msgid "Terminal interface screenshot."
+msgstr "Capture d'écran de l'interface du terminal."
+
+#: 
+msgid "|834c5ce736774afab7dc426e2adcc855|"
+msgstr "|834c5ce736774afab7dc426e2adcc855|"
+
+#: 
+msgid "Files in your home directory."
+msgstr "Fichiers dans votre répertoire personnel."
+
+#: 
+msgid "|fdb2dc2021cf4e5aaf71fe4c02152305|"
+msgstr "|fdb2dc2021cf4e5aaf71fe4c02152305|"
+
+#: 
+msgid "Change your Terminal directory."
+msgstr "Changez le répertoire de votre terminal."
+
+#: 
+msgid "|40c8241ec0844df0b64360f3a95a06e5|"
+msgstr "|40c8241ec0844df0b64360f3a95a06e5|"
+
+#: 
+msgid "|83e63480a9a64718a1adc7f7b9742b7e|"
+msgstr "|83e63480a9a64718a1adc7f7b9742b7e|"
+
+#: 
+msgid "|ddc07761d2764d618c4b0cb8280909ca|"
+msgstr "|ddc07761d2764d618c4b0cb8280909ca|"
+
+#: 
+msgid "|045116a3e39e418b8f829482adb9f285|"
+msgstr "|045116a3e39e418b8f829482adb9f285|"
+
+#: 
+msgid "|bc2a16f270764ab7b10ac6c3dad93042|"
+msgstr "|bc2a16f270764ab7b10ac6c3dad93042|"
+
+#: 
+msgid "New files are untracked."
+msgstr "Les nouveaux fichiers ne sont pas suivis."
+
+#: 
+msgid "|8960c23f4482443581a8582439a86f1f|"
+msgstr "|8960c23f4482443581a8582439a86f1f|"
+
+#: 
+msgid "Add new file to track it."
+msgstr "Ajouter un nouveau fichier pour le suivre."
+
+#: 
+msgid "|612def16787b4a14b392a2ee79208d32|"
+msgstr "|612def16787b4a14b392a2ee79208d32|"
+
+#: 
+msgid "Unstaged changes."
+msgstr "Modifications non échelonnées."
+
+#: 
+msgid "|c2b2919551a04f04ad3e06c0b192deee|"
+msgstr "|c2b2919551a04f04ad3e06c0b192deee|"
+
+#: 
+msgid "Contribute button."
+msgstr "Bouton de contribution."
+
+#: 
+msgid "|2dbc7804b43e4a4681d92edbd0e91408|"
+msgstr "|2dbc7804b43e4a4681d92edbd0e91408|"
+
+#: 
+msgid "Open PR template."
+msgstr "Ouvrir le modèle PR."
+
+#: 
+msgid "Getting Help with the Sandbox"
+msgstr "Obtenir de l'aide avec l'Environnement de test"
+
+#: 
+msgid "Having issues with the Sandbox? Check the Help Desk Knowledgebase for more issues:"
+msgstr "Vous avez des problèmes avec l'Environnement de test ? Consultez la base de connaissances du service d'assistance pour d'autres problèmes :"
+
+#: 
+msgid "`Digital Earth Africa Help Desk <https://helpdesk.digitalearthafrica.org/portal/en/kb/sandbox>`_"
+msgstr "`Digital Earth Africa Help Desk <https://helpdesk.digitalearthafrica.org/portal/en/kb/sandbox>`_"
+
+#: 
+msgid "If you can't find what you are looing for, you can ask a question at:"
+msgstr "Si vous ne trouvez pas ce que vous cherchez, vous pouvez poser une question à l'adresse suivante :"
+
+#: 
+msgid "`Submit a ticket <https://helpdesk.digitalearthafrica.org/portal/newticket>`_"
+msgstr "`Soumettre un ticket <https://helpdesk.digitalearthafrica.org/portal/newticket>`_"
+
+#: 
+msgid ":doc:`access`"
+msgstr ":doc:`access`"
+
+#: 
+msgid "Creating an account on the sandbox"
+msgstr "Créer un compte sur le bac à sable"
+
+#: 
+msgid ":doc:`More <access>`"
+msgstr ":doc:`More <access>`"
+
+#: 
+msgid ":doc:`notebooks/Beginners_guide/index`"
+msgstr ":doc:`notebooks/Beginners_guide/index`"
+
+#: 
+msgid "An introduction to using the sandbox"
+msgstr "Une introduction à l'utilisation du bac à sable"
+
+#: 
+msgid ":doc:`More <notebooks/Beginners_guide/index>`"
+msgstr ":doc:`More <notebooks/Beginners_guide/index>`"
+
+#: 
+msgid ":doc:`notebooks/Datasets/index`"
+msgstr ":doc:`notebooks/Datasets/index`"
+
+#: 
+msgid "Examples on using the each of the datasets"
+msgstr "Exemples d'utilisation de chacun des ensembles de données"
+
+#: 
+msgid ":doc:`More <notebooks/Datasets/index>`"
+msgstr ":doc:`More <notebooks/Datasets/index>`"
+
+#: 
+msgid ":doc:`notebooks/Frequently_used_code/index`"
+msgstr ":doc:`notebooks/Frequently_used_code/index`"
+
+#: 
+msgid "Simple code examples demonstrating how to perform common tasks"
+msgstr "Des exemples de code simples démontrant comment effectuer des tâches courantes"
+
+#: 
+msgid ":doc:`More <notebooks/Frequently_used_code/index>`"
+msgstr ":doc:`More <notebooks/Frequently_used_code/index>`"
+
+#: 
+msgid ":doc:`notebooks/Real_world_examples/index`"
+msgstr ":doc:`notebooks/Real_world_examples/index`"
+
+#: 
+msgid "Complex workflows on how to address real-world problems"
+msgstr "Flux de travail complexes sur la manière de traiter les problèmes du monde réel."
+
+#: 
+msgid ":doc:`More <notebooks/Real_world_examples/index>`"
+msgstr ":doc:`More <notebooks/Real_world_examples/index>`"
+
+#: 
+msgid ":doc:`notebooks/Use_cases/index`"
+msgstr ":doc:`notebooks/Use_cases/index`"
+
+#: 
+msgid "Advanced examples looking at specific use-cases"
+msgstr "Exemples avancés portant sur des cas d'utilisation spécifiques"
+
+#: 
+msgid ":doc:`More <notebooks/Use_cases/index>`"
+msgstr ":doc:`More <notebooks/Use_cases/index>`"
+
+#: 
+msgid "Additional Guides"
+msgstr "Guides supplémentaires"
+
+#: 
+msgid ":doc:`notebooks/Tools/index`"
+msgstr ":doc:`notebooks/Tools/index`"
+
+#: 
+msgid "Reference guide for ``deafrica_tools`` functions and algorithms"
+msgstr "Guide de référence pour les fonctions et algorithmes de ``deafrica_tools`'."
+
+#: 
+msgid ":doc:`More <notebooks/Tools/index>`"
+msgstr ":doc:`More <notebooks/Tools/index>`"
+
+#: 
+msgid ":doc:`help`"
+msgstr ":doc:`help`"
+
+#: 
+msgid "How to get help using the Sandbox"
+msgstr "Comment obtenir de l'aide pour utiliser le bac à sable"
+
+#: 
+msgid ":doc:`More <help>`"
+msgstr ":doc:`More <help>`"
+
+#: 
+msgid ":doc:`git-howto/index`"
+msgstr ":doc:`git-howto/index`"
+
+#: 
+msgid "Guide to using notebooks with ``git`` version control"
+msgstr "Guide d'utilisation des carnets de notes avec le contrôle de version \"git\"."
+
+#: 
+msgid ":doc:`More <git-howto/index>`"
+msgstr ":doc:`More <git-howto/index>`"
+
+#: 
+msgid "|0cf3e25695764681aef832cc78ab791c|"
+msgstr "|0cf3e25695764681aef832cc78ab791c|"
+
+#: 
+msgid "0cf3e25695764681aef832cc78ab791c"
+msgstr "0cf3e25695764681aef832cc78ab791c"
+
+#: 
+msgid "|329ac65b481043a6a8b756c57ae022fe|"
+msgstr "|329ac65b481043a6a8b756c57ae022fe|"
+
+#: 
+msgid "drawing"
+msgstr "dessin"
+
+#: 
+msgid "|302c1d4343674fd383da6f6b018e5420|"
+msgstr "|302c1d4343674fd383da6f6b018e5420|"
+
+#: 
+msgid "Image"
+msgstr "Image"
+
+#: 
+msgid "These notebooks can also be found in your home folder on the sandbox, or accessed from GitHub at:"
+msgstr "Ces carnets peuvent également être trouvés dans votre dossier personnel sur le bac à sable, ou accessibles depuis GitHub à l'adresse suivante :"
+
+#: 
+msgid "ALOS/ALOS-2 PALSAR/PALSAR-2 Annual Mosaics |960c6993f75b4e3f8374e79d04f1f005|"
+msgstr "Mosaïques annuelles ALOS/ALOS-2 PALSAR/PALSAR-2 |960c6993f75b4e3f8374e79d04f1f005|"
+
+#: 
+msgid "960c6993f75b4e3f8374e79d04f1f005"
+msgstr "960c6993f75b4e3f8374e79d04f1f005"
+
+#: 
+msgid "|e57e3fc6da3b420789bea839e8f5d7c3|"
+msgstr "|e57e3fc6da3b420789bea839e8f5d7c3|"
+
+#: 
+msgid "e57e3fc6da3b420789bea839e8f5d7c3"
+msgstr "e57e3fc6da3b420789bea839e8f5d7c3"
+
+#: 
+msgid "|a900fa6d5e6c4563a6bece519937d18f|"
+msgstr "|a900fa6d5e6c4563a6bece519937d18f|"
+
+#: 
+msgid "a900fa6d5e6c4563a6bece519937d18f"
+msgstr "a900fa6d5e6c4563a6bece519937d18f"
+
+#: 
+msgid "Landsat Surface Reflectance |18e5d4a182d943c998fd5c2f2e918f2d|"
+msgstr "Réflectance de la surface Landsat |18e5d4a182d943c998fd5c2f2e918f2d|"
+
+#: 
+msgid "18e5d4a182d943c998fd5c2f2e918f2d"
+msgstr "18e5d4a182d943c998fd5c2f2e918f2d"
+
+#: 
+msgid "Landsat Surface Temperature |36a199d90f494725b7478bffb29d3318|"
+msgstr "Température de surface Landsat |36a199d90f494725b7478bffb29d3318|"
+
+#: 
+msgid "36a199d90f494725b7478bffb29d3318"
+msgstr "36a199d90f494725b7478bffb29d3318"
+
+#: 
+msgid "To achieve surface temperature values, convert the values to Kelvin using ``ds = ds * 0.00341802 + 149.0``"
+msgstr "Pour obtenir des valeurs de température de surface, convertissez les valeurs en Kelvin en utilisant \"ds = ds * 0.00341802 + 149.0\"."
+
+#: 
+msgid "Using ``dc.load`` will load data in the native scaling range ``1 - 65,535``, while using ``load_ard`` will convert to Kelvin"
+msgstr "L'utilisation de ``dc.load`` chargera les données dans l'échelle native ``1 - 65,535``, alors que l'utilisation de ``load_ard`` convertira en Kelvin."
+
+#: 
+msgid "Sentinel-1 |9c752963625243a1a691cb215e82f5cd|"
+msgstr "Sentinel-1 |9c752963625243a1a691cb215e82f5cd|"
+
+#: 
+msgid "9c752963625243a1a691cb215e82f5cd"
+msgstr "9c752963625243a1a691cb215e82f5cd"
+
+#: 
+msgid "Sentinel-2 |182bc0b789ce42cfadac7f1ea139e113|"
+msgstr "Sentinel-2 |182bc0b789ce42cfadac7f1ea139e113|"
+
+#: 
+msgid "182bc0b789ce42cfadac7f1ea139e113"
+msgstr "182bc0b789ce42cfadac7f1ea139e113"
+
+#: 
+msgid "image0"
+msgstr "image0"
+
+#: 
+msgid "image1"
+msgstr "image1"
+
+#: 
+msgid "image2"
+msgstr "image2"
+
+#: 
+msgid "Displaying satellite imagery on a web map |8931a84222934de686b84fe96774ab5e|"
+msgstr "Affichage de l'imagerie satellite sur une carte Web |8931a84222934de686b84fe96774ab5e|"
+
+#: 
+msgid "8931a84222934de686b84fe96774ab5e"
+msgstr "8931a84222934de686b84fe96774ab5e"
+
+#: 
+msgid "Example of filmstrip plot"
+msgstr "Exemple de tracé de bande de film"
+
+#: 
+msgid "Area of interest"
+msgstr "Domaine d'intérêt"
+
+#: 
+msgid "|73a53280bdbd4868930751e0a150c051|"
+msgstr "|73a53280bdbd4868930751e0a150c051|"
+
+#: 
+msgid "73a53280bdbd4868930751e0a150c051"
+msgstr "73a53280bdbd4868930751e0a150c051"
+
+#: 
+msgid "Water detection with Sentinel-1 |c9d9df54b58f4e6889ca3d4b704a1801|"
+msgstr "Détection d'eau avec Sentinel-1 |c9d9df54b58f4e6889ca3d4b704a1801|"
+
+#: 
+msgid "c9d9df54b58f4e6889ca3d4b704a1801"
+msgstr "c9d9df54b58f4e6889ca3d4b704a1801"
+
+#: 
+msgid "|851d1ca91a93489588019bf49efbeae8|"
+msgstr "|851d1ca91a93489588019bf49efbeae8|"
+
+#: 
+msgid "851d1ca91a93489588019bf49efbeae8"
+msgstr "851d1ca91a93489588019bf49efbeae8"
+
+#: 
+msgid "|2f7a874e045044028d7e98e6cb5c946b|"
+msgstr "|2f7a874e045044028d7e98e6cb5c946b|"
+
+#: 
+msgid "2f7a874e045044028d7e98e6cb5c946b"
+msgstr "2f7a874e045044028d7e98e6cb5c946b"
+
+#: 
+msgid "|56915beb0ff449dead9513d07ba70bbf|"
+msgstr "|56915beb0ff449dead9513d07ba70bbf|"
+
+#: 
+msgid "56915beb0ff449dead9513d07ba70bbf"
+msgstr "56915beb0ff449dead9513d07ba70bbf"
+
+#: 
+msgid "|f3ca68ee3c2740deb2522bd3cd474d25|"
+msgstr "|f3ca68ee3c2740deb2522bd3cd474d25|"
+
+#: 
+msgid "f3ca68ee3c2740deb2522bd3cd474d25"
+msgstr "f3ca68ee3c2740deb2522bd3cd474d25"
+
+#: 
+msgid "|e2daef32564243f7951bfb9b99a84be1|"
+msgstr "|e2daef32564243f7951bfb9b99a84be1|"
+
+#: 
+msgid "e2daef32564243f7951bfb9b99a84be1"
+msgstr "e2daef32564243f7951bfb9b99a84be1"
+
+#: 
+msgid "deafrica\\_tools.app.wetlandsinsighttool"
+msgstr "outils_deafricaine.app.wetlandsinsighttools"
+
+#: 
+msgid "Wetlands insight tool widget, which can be used to run an interactive version of the wetlands insight tool."
+msgstr "Le widget de l'outil Wetlands insight, qui peut être utilisé pour exécuter une version interactive de l'outil Wetlands insight."
+
+#: 
+msgid ":obj:`create_expanded_button <deafrica_tools.app.wetlandsinsighttool.create_expanded_button>`\\ \\(description\\, button\\_style\\)"
+msgstr ":obj:`create_expanded_button <deafrica_tools.app.wetlandsinsighttool.create_expanded_button>```(description\\, button\\_style\\)"
+
+#: 
+msgid ":obj:`make_box_layout <deafrica_tools.app.wetlandsinsighttool.make_box_layout>`\\ \\(\\)"
+msgstr ":obj:`make_box_layout <deafrica_tools.app.wetlandsinsighttool.make_box_layout>` \\(\\ i)"
+
+#: 
+msgid ":obj:`wit_app <deafrica_tools.app.wetlandsinsighttool.wit_app>`\\ \\(\\*\\*kwargs\\)"
+msgstr ":obj:`wit_app <deafrica_tools.app.wetlandsinsighttool.wit_app>` \\(\\*\\*kwargs\\)"
+
+#: 
+msgid "deafrica\\_tools.app.widgetconstructors"
+msgstr "outils_deafricaine.app.widgetconstructeurs"
+
+#: 
+msgid "Functions for easily defining widgets in the context of DE Africa notebooks."
+msgstr "Fonctions permettant de définir facilement les widgets dans le contexte des carnets DE Africa."
+
+#: 
+msgid "These are largely customised wrappers around existing widgets."
+msgstr "Il s'agit essentiellement d'enveloppes personnalisées autour de widgets existants."
+
+#: 
+msgid ":obj:`create_boundedfloattext <deafrica_tools.app.widgetconstructors.create_boundedfloattext>`\\ \\(value\\, min\\_val\\, ...\\)"
+msgstr ":obj:`create_boundedfloattext <deafrica_tools.app.widgetconstructors.create_boundedfloattext>` \\(valeur\\, min\\_val\\, ...\\)"
+
+#: 
+msgid "Create a BoundedFloatText widget"
+msgstr "Créer un widget BoundedFloatText"
+
+#: 
+msgid ":obj:`create_datepicker <deafrica_tools.app.widgetconstructors.create_datepicker>`\\ \\(\\[description\\, layout\\]\\)"
+msgstr ":obj:`create_datepicker <deafrica_tools.app.widgetconstructors.create_datepicker> ``(\\[description\\, layout\\] \\)"
+
+#: 
+msgid "Create a DatePicker widget"
+msgstr "Créer un widget DatePicker"
+
+#: 
+msgid ":obj:`create_dea_wms_layer <deafrica_tools.app.widgetconstructors.create_dea_wms_layer>`\\ \\(product\\, date\\)"
+msgstr ":obj:`create_dea_wms_layer <deafrica_tools.app.widgetconstructors.create_dea_wms_layer> ``(product\\, date\\)"
+
+#: 
+msgid "Create a Digital Earth Africa WMS layer to add to a map"
+msgstr "Créer une couche Digital Earth Africa WMS à ajouter à une carte"
+
+#: 
+msgid ":obj:`create_drawcontrol <deafrica_tools.app.widgetconstructors.create_drawcontrol>`\\ \\(\\[draw\\_controls\\, ...\\]\\)"
+msgstr ":obj:`create_drawcontrol <deafrica_tools.app.widgetconstructors.create_drawcontrol> ``(\\[draw\\_controls\\, ...\\]\\)"
+
+#: 
+msgid "Create a draw control widget to add to ipyleaflet maps"
+msgstr "Créer un widget de contrôle de dessin à ajouter aux cartes ipyleaflet"
+
+#: 
+msgid ":obj:`create_dropdown <deafrica_tools.app.widgetconstructors.create_dropdown>`\\ \\(options\\, value\\[\\, ...\\]\\)"
+msgstr ":obj:`create_dropdown <deafrica_tools.app.widgetconstructors.create_dropdown>`` \\(options\\, valeur\\[\\, ...\\]\\)"
+
+#: 
+msgid "Create a Dropdown widget"
+msgstr "Créer un widget Dropdown"
+
+#: 
+msgid ":obj:`create_html <deafrica_tools.app.widgetconstructors.create_html>`\\ \\(value\\)"
+msgstr ":obj:`create_html <deafrica_tools.app.widgetconstructors.create_html> ``(value\\)"
+
+#: 
+msgid "Create a HTML widget"
+msgstr "Créer un widget HTML"
+
+#: 
+msgid ":obj:`create_inputtext <deafrica_tools.app.widgetconstructors.create_inputtext>`\\ \\(value\\, placeholder\\[\\, ...\\]\\)"
+msgstr ":obj:`create_inputtext <deafrica_tools.app.widgetconstructors.create_inputtext>` \\(value\\, placeholder\\[\\, ...\\]\\)"
+
+#: 
+msgid "Create a Text widget"
+msgstr "Créer un widget Texte"
+
+#: 
+msgid ":obj:`create_map <deafrica_tools.app.widgetconstructors.create_map>`\\ \\(\\[map\\_center\\, zoom\\_level\\, ...\\]\\)"
+msgstr ":obj:`create_map <deafrica_tools.app.widgetconstructors.create_map> ``(\\[map_center\\, zoom\\_level\\, ...\\]\\)"
+
+#: 
+msgid "Create an interactive ipyleaflet map"
+msgstr "Créer une carte interactive de l'ipyleaflet"
+
+#: 
+msgid "initial value of the widget"
+msgstr "valeur initiale du widget"
+
+#: 
+msgid "minimum allowed value for the float"
+msgstr "valeur minimale autorisée pour le flotteur"
+
+#: 
+msgid "maximum allowed value for the float"
+msgstr "valeur maximale autorisée pour le flotteur"
+
+#: 
+msgid "allowed increment for the float"
+msgstr "incrément autorisé pour le flotteur"
+
+#: 
+msgid "descirption label to attach"
+msgstr "étiquette de descente à joindre"
+
+#: 
+msgid "any layout commands for the widget"
+msgstr "toute commande de mise en page pour le widget"
+
+#: 
+msgid "**float_text**"
+msgstr "**texte_float**"
+
+#: 
+msgid "**date_picker**"
+msgstr "**date_picker**"
+
+#: 
+msgid "The Digital Earth Africa product to load (e.g. 'gm_s2_annual')"
+msgstr "Le produit Digital Earth Africa à charger (par exemple, 'gm_s2_annual')."
+
+#: 
+msgid "The date to load the product for"
+msgstr "La date à laquelle il faut charger le produit pour"
+
+#: 
+msgid "**time_wms**"
+msgstr "**time_wms**"
+
+#: 
+msgid "List of draw controls to add to the map. Defaults to adding all Viable options are 'rectangle', 'polygon', 'circle', 'polyline', 'marker', 'circlemarker'"
+msgstr "Liste des contrôles de dessin à ajouter à la carte. Par défaut, tous les contrôles sont ajoutés. Les options viables sont 'rectangle', 'polygone', 'cercle', 'polyligne', 'marqueur', 'marqueur circulaire'."
+
+#: 
+msgid "Options to customise the appearence of the relevant shape User can supply, or leave blank to get default DE Africa appearence"
+msgstr "Options permettant de personnaliser l'apparence de la forme concernée L'utilisateur peut fournir des informations, ou laisser vide pour obtenir l'apparence par défaut de DE Africa."
+
+#: 
+msgid "**draw_control**"
+msgstr "**draw_control**"
+
+#: 
+msgid "a list of options for the user to select from"
+msgstr "une liste d'options parmi lesquelles l'utilisateur peut choisir"
+
+#: 
+msgid "**dropdown**"
+msgstr "**dropdown**"
+
+#: 
+msgid "HTML text to display"
+msgstr "Texte HTML à afficher"
+
+#: 
+msgid "**html**"
+msgstr "**html**"
+
+#: 
+msgid "placeholder text to display to the user before intput"
+msgstr "Texte de remplacement à afficher à l'utilisateur avant la saisie."
+
+#: 
+msgid "**input_text**"
+msgstr "**input_text**"
+
+#: 
+msgid "A tuple containing the latitude and longitude to focus on. Defaults to center of Africa, (4, 20)"
+msgstr "Un tuple contenant la latitude et la longitude sur lesquelles se concentrer. La valeur par défaut est le centre de l'Afrique, (4, 20)."
+
+#: 
+msgid "Zoom level for the map Defaults to 3 to view all of Africa"
+msgstr "Niveau de zoom pour la carte La valeur par défaut est 3 pour visualiser toute l'Afrique."
+
+#: 
+msgid "Basemap to use, can be any from https://ipyleaflet.readthedocs.io/en/latest/api_reference/basemaps.html Defaults to Open Street Map (basemaps.OpenStreetMap.Mapnik)"
+msgstr "Carte de base à utiliser, peut être n'importe laquelle de https://ipyleaflet.readthedocs.io/en/latest/api_reference/basemaps.html. Par défaut, c'est Open Street Map (basemaps.OpenStreetMap.Mapnik)."
+
+#: 
+msgid "Layer name for the basemap"
+msgstr "Nom de la couche pour le plan de base"
+
+#: 
+msgid "**m** -- interactive ipyleaflet map"
+msgstr "**m** -- carte interactive de l'ipyleaflet"
+
+#: 
+msgid "deafrica\\_tools.wetlands"
+msgstr "deafrica\\_tools.wetlands"
+
+#: 
+msgid "Functions for working with the Wetlands Insight Tool (WIT)"
+msgstr "Fonctions pour travailler avec le Wetlands Insight Tool (WIT)"
+
+#: 
+msgid ":obj:`WIT_drill <deafrica_tools.wetlands.WIT_drill>`\\ \\(gdf\\, time\\[\\, min\\_gooddata\\, ...\\]\\)"
+msgstr ":obj:`WIT_drill <deafrica_tools.wetlands.WIT_drill>` \\(gdf\\, time\\[\\, min\\_gooddata\\, ...\\]\\)"
+
+#: 
+msgid "The Wetlands Insight Tool run onver an extent covered by a polygon."
+msgstr "L'outil de visualisation des zones humides fonctionne sur une étendue couverte par un polygone."
+
+#: 
+msgid ":obj:`animated_timeseries_WIT <deafrica_tools.wetlands.animated_timeseries_WIT>`\\ \\(ds\\, df\\, output\\_path\\)"
+msgstr ":obj:`animated_timeseries_WIT <deafrica_tools.wetlands.animated_timeseries_WIT> ``(ds\\, df\\, output\\_path\\)"
+
+#: 
+msgid "The Wetlands Insight Tool run onver an extent covered by a polygon. This function loads FC, WOfS, and Landsat data, and calculates tasseled cap wetness, in order to determine the dominant land cover class within a polygon at each satellite observation."
+msgstr "L'outil Wetlands Insight fonctionne sur une étendue couverte par un polygone. Cette fonction charge les données FC, WOfS et Landsat, et calcule l'humidité du chapeau tassé, afin de déterminer la classe de couverture terrestre dominante dans un polygone à chaque observation satellite."
+
+#: 
+msgid "The output is a pandas dataframe containing a timeseries of the relative fractions of each class at each time-step. This forms the input to produce a stacked line-plot."
+msgstr "La sortie est un cadre de données pandas contenant une série temporelle des fractions relatives de chaque classe à chaque pas de temps. Ceci constitue l'entrée pour produire un graphique linéaire empilé."
+
+#: 
+msgid "Last modified: Oct 2021"
+msgstr "Dernière modification : Oct 2021"
+
+#: 
+msgid "The dataframe must only contain a single row, containing the polygon you wish to interrograte."
+msgstr "Le cadre de données ne doit contenir qu'une seule ligne, contenant le polygone que vous souhaitez interroger."
+
+#: 
+msgid "a tuple containing the time range over which to run the WIT. e.g. ('2015-01' , '2019-12')"
+msgstr "un tuple contenant l'intervalle de temps sur lequel le WIT doit être exécuté, par exemple ('2015-01' , '2019-12')."
+
+#: 
+msgid "A number between 0 and 1 (e.g 0.8) indicating the minimum percentage of good quality pixels required for a satellite observation to be loaded and therefore included in the WIT plot. This number should, at a minimum, be set to 0.80 to limit biases in the result if not resampling the time-series. If resampling the data using the parameter `resample_frequency`, then setting this number to 0 (or a low float number) is acceptable."
+msgstr "Un nombre entre 0 et 1 (par exemple 0,8) indiquant le pourcentage minimum de pixels de bonne qualité requis pour qu'une observation satellite soit chargée et donc incluse dans le tracé WIT. Ce nombre doit, au minimum, être fixé à 0,80 pour limiter les biais dans le résultat si l'on ne rééchantillonne pas les séries temporelles. Si vous ré-échantillonnez les données en utilisant le paramètre `resample_frequency`, alors la définition de ce nombre à 0 (ou un nombre flottant faible) est acceptable."
+
+#: 
+msgid "The tasseled cap wetness threshold, beyond which a pixel will be considered 'wet'. Defaults to -0.035."
+msgstr "Le seuil de mouillure du chapeau à tasse, au-delà duquel un pixel sera considéré comme \"mouillé\". La valeur par défaut est -0.035."
+
+#: 
+msgid "Option for resampling time-series of input datasets. This option is useful for either smoothing the WIT plot, or because the area of analysis is larger than a scene width and therefore requires composites. Options include any str accepted by `xarray.resample(time=)`. The resampling method used is .max()"
+msgstr "Option permettant de rééchantillonner les séries temporelles des ensembles de données d'entrée. Cette option est utile soit pour lisser le tracé WIT, soit parce que la zone d'analyse est plus grande qu'une largeur de scène et nécessite donc des composites. Les options comprennent toutes les chaînes acceptées par `xarray.resample(time=)`. La méthode de rééchantillonnage utilisée est .max()."
+
+#: 
+msgid "To save the returned pandas dataframe as a .csv file, pass a a location string (e.g. 'output/results.csv')"
+msgstr "Pour enregistrer le cadre de données pandas retourné dans un fichier .csv, passez une chaîne d'emplacement (par exemple, 'output/results.csv')."
+
+#: 
+msgid "To lazily load the datasets using dask, pass a dictionary containing the dimensions over which to chunk e.g. {'time':-1, 'x':250, 'y':250}."
+msgstr "Pour charger paresseusement les ensembles de données à l'aide de dask, passez un dictionnaire contenant les dimensions sur lesquelles il faut effectuer le chunk, par exemple {'time':-1, 'x':250, 'y':250}."
+
+#: 
+msgid "If true, print statements are putput detailing the progress of the tool."
+msgstr "Si c'est le cas, des instructions d'impression détaillant la progression de l'outil sont émises."
+
+#: 
+msgid "For use with Dask progress bar"
+msgstr "À utiliser avec la barre de progression de Dask"
+
+#: 
+msgid "**df** -- A pandas dataframe containing the timeseries of relative fractions of each land cover class (WOfs, FC, TCW)"
+msgstr "**df** -- Un dataframe pandas contenant les séries temporelles des fractions relatives de chaque classe de couverture végétale (WOfs, FC, TCW)"
+
+#: 
+msgid ":obj:`deafrica_tools.wetlands <deafrica_tools.wetlands>`\\"
+msgstr ":obj:`deafrica_tools.wetlands <deafrica_tools.wetlands>``"
+
+#: 
+msgid ":obj:`deafrica_tools.app.wetlandsinsighttool <deafrica_tools.app.wetlandsinsighttool>`\\"
+msgstr ":obj:`deafrica_tools.app.wetlandsinsighttool <deafrica_tools.app.wetlandsinsighttool>`."
+
+#: 
+msgid ":obj:`deafrica_tools.app.widgetconstructors <deafrica_tools.app.widgetconstructors>`\\"
+msgstr ":obj:`deafrica_tools.app.widgetconstructors <deafrica_tools.app.widgetconstructors>``."
+
+#: 
+msgid "Dask can be used to better manage memory use and conduct the analysis in parallel. For an introduction to using Dask with Digital Earth Africa, see the `Dask notebook <../../Beginners_guide/06_Parallel_processing_with_dask.ipynb>`__."
+msgstr "Dask peut être utilisé pour mieux gérer l'utilisation de la mémoire et mener l'analyse en parallèle. Pour une introduction à l'utilisation de Dask avec Digital Earth Africa, voir le `Notebook Dask <../../Beginners_guide/06_Parallel_processing_with_dask.ipynb>`__."
+
+#: 
+msgid "**Note**: We recommend opening the Dask processing window to view the different computations that are being executed; to do this, see the *Dask dashboard in DE Africa* section of the `Dask notebook <../../Beginners_guide/06_Parallel_processing_with_dask.ipynb>`__."
+msgstr "**Note** : Nous recommandons d'ouvrir la fenêtre de traitement de Dask pour visualiser les différents calculs en cours d'exécution ; pour ce faire, voir la section *Tableau de bord de Dask en DE Afrique* du `Notebook Dask <../../Beginners_guide/06_Parallel_processing_with_dask.ipynb>`__."
+
+#: 
+msgid "Lake Baringo Grazing"
+msgstr "Pâturage du lac Baringo"
+
+#: 
+msgid "Okavango"
+msgstr "Okavango"
+
+#: 
+msgid "Use Cases"
+msgstr "Cas d'utilisation"
+
+#: 
+msgid "These use cases are used by Digital Earth Africa to provide analyses to decision makers for a particular area."
+msgstr "Ces cas d'utilisation sont utilisés par Digital Earth Africa pour fournir des analyses aux décideurs pour une zone particulière."
+
+#: 
+msgid "Notebooks in this collection are developed for specific use-cases of the Digital Earth Africa platform and may not run as seamlessly as notebooks in the other folders of this repository. Notebooks may contain less descriptive markdown, contain more complicated or bespoke analysis, and may take a long time to run. However, they contain useful analysis procedures and provide further examples for advanced users."
+msgstr "Les blocs-notes de cette collection sont développés pour des cas d'utilisation spécifiques de la plateforme Digital Earth Africa et peuvent ne pas fonctionner de manière aussi fluide que les blocs-notes des autres dossiers de ce dépôt. Les blocs-notes peuvent contenir des balises moins descriptives, des analyses plus compliquées ou sur mesure, et peuvent prendre beaucoup de temps à s'exécuter. Cependant, ils contiennent des procédures d'analyse utiles et fournissent des exemples supplémentaires pour les utilisateurs avancés."
+
+#: 
+msgid "Digital Earth Africa data is stored on Amazon Web Services in several publicly accessible S3 buckets."
+msgstr "Les données de Digital Earth Africa sont stockées sur Amazon Web Services dans plusieurs buckets S3 accessibles au public."
+
+#: 
+msgid "These buckets are:"
+msgstr "Ces seaux sont :"
+
+#: 
+msgid "``deafrica-landsat``"
+msgstr "``deafrica-landsat``"
+
+#: 
+msgid "``deafrica-sentinel-1``"
+msgstr "``deafrica-sentinel-1``"
+
+#: 
+msgid "``deafrica-sentinel-2``"
+msgstr "``deafrica-sentinel-2``"
+
+#: 
+msgid "``deafrica-input-datasets``"
+msgstr "``deafrica-input-datasets`` (jeux de données d'entrée)"
+
+#: 
+msgid "``deafrica-services``"
+msgstr "``deafrica-services``"
+
+#: 
+msgid "For information on where products can be found, see :ref:`data_specs`."
+msgstr "Pour savoir où se trouvent les produits, voir :ref:`data_specs`."
+
+#: 
+msgid "More information on inventory and notification services for some of the buckets can be found on their respective datasets pages on the `Digital Earth Africa Registry of Open Data on AWS <https://registry.opendata.aws/collab/deafrica/>`_"
+msgstr "De plus amples informations sur les services d'inventaire et de notification pour certains des buckets peuvent être trouvées sur leurs pages respectives sur le registre de données ouvertes de `Digital Earth Africa sur AWS <https://registry.opendata.aws/collab/deafrica/>`_."
+
+#: 
+msgid "These buckets are in the AWS region ``af-south-1`` (Capetown)."
+msgstr "Ces buckets sont dans la région AWS ``af-south-1`` (Capetown)."
+
+#: 
+msgid "To list the contents of a bucket using the `AWS Command Line <https://docs.aws.amazon.com/cli/latest/userguide/>`_::"
+msgstr "Pour lister le contenu d'un seau en utilisant la ligne de commande `AWS <https://docs.aws.amazon.com/cli/latest/userguide/>`_: :"
+
+#: 
+msgid "While Digital Earth Africa is committed to releasing its data to the public for free, the unfortunate reality is that data leaving (data egress) the AWS region incurs a non-trivial cost to DEA. In the future, to avoid out of control costs for hosting our data, we may need to enable \"Requester Pays\" on the data provided here."
+msgstr "Bien que Digital Earth Africa s'engage à mettre ses données à la disposition du public gratuitement, la triste réalité est que les données qui quittent (data egress) la région AWS entraînent un coût non négligeable pour DEA. A l'avenir, pour éviter des coûts hors de contrôle pour l'hébergement de nos données, nous devrons peut-être activer le \"Requester Pays\" sur les données fournies ici."
+
+#: 
+msgid "This will mean:"
+msgstr "Cela signifie :"
+
+#: 
+msgid "Data that is transferred from this bucket to AWS compute resources and services within the AWS region will remain free of cost;"
+msgstr "Les données qui sont transférées de ce seau vers les ressources de calcul et les services AWS dans la région AWS resteront gratuites ;"
+
+#: 
+msgid "All other downloads will require a user have an AWS account, this AWS account will incur the charges for data egress."
+msgstr "Pour tous les autres téléchargements, l'utilisateur devra disposer d'un compte AWS. Ce compte AWS supportera les frais de sortie des données."
+
+#: 
+msgid "If you would like to avoid disruption if and when and if this change is applied, you will need to configure your S3 download client to use an AWS account/identity and send the accept requester pays header ``x-amz-request-charged:requester`` most clients offer a simple checkbox or configuration flag to accept requester pays."
+msgstr "Si vous souhaitez éviter toute perturbation si et quand ce changement est appliqué, vous devrez configurer votre client de téléchargement S3 pour utiliser un compte/une identité AWS et envoyer l'en-tête \"accept requester pays\" ``x-amz-request-charged:requester`` ; la plupart des clients proposent une simple case à cocher ou un drapeau de configuration pour accepter le paiement du demandeur."
+
+#: 
+msgid "The SpatioTemporal Asset Catalog (STAC) specification provides a common language to describe a range of geospatial information, so it can more easily be indexed and discovered. A **'spatiotemporal asset'** is any file that represents information about Earth captured in a certain space and time."
+msgstr "La spécification du SpatioTemporal Asset Catalog (STAC) fournit un langage commun pour décrire une gamme d'informations géospatiales, afin qu'elles puissent être plus facilement indexées et découvertes. Un **'actif spatio-temporel'** est tout fichier qui représente des informations sur la Terre capturées dans un certain espace et temps."
+
+#: 
+msgid "For more on how to use the Metadata Explorer, see the guide on :doc:`explorer_guide`."
+msgstr "Pour en savoir plus sur l'utilisation de l'explorateur de métadonnées, consultez le guide sur :doc:`explorer_guide`."
+
+#: 
+msgid "Using the Metadata Explorer"
+msgstr "Utilisation de l'explorateur de métadonnées"
+
+#: 
+msgid "How do we know specifically **where** and **when** data is available? Before we start any analysis, we can answer this question by verifying existing data on the `Digital Earth Africa Metadata Explorer <https://explorer.digitalearth.africa/>`__. The Metadata Explorer can be found at https://explorer.digitalearth.africa/."
+msgstr "Comment savoir précisément **où** et **quand** les données sont disponibles ? Avant de commencer toute analyse, nous pouvons répondre à cette question en vérifiant les données existantes sur le `Digital Earth Africa Metadata Explorer <https://explorer.digitalearth.africa/>`__. L'explorateur de métadonnées peut être trouvé à https://explorer.digitalearth.africa/."
+
+#: 
+msgid "Map or Explorer?"
+msgstr "Carte ou Explorer ?"
+
+#: 
+msgid "The `Digital Earth Africa Metadata Explorer <https://explorer.digitalearth.africa/>`__ and `Digital Earth Africa Map <https://maps.digitalearth.africa/>`__ look similar, but they are designed for different purposes."
+msgstr "Le `Digital Earth Africa Metadata Explorer <https://explorer.digitalearth.africa/>`__ et la `Digital Earth Africa Map <https://maps.digitalearth.africa/>`__ se ressemblent, mais ils sont conçus à des fins différentes."
+
+#: 
+msgid "Use the `Digital Earth Africa Map <https://maps.digitalearth.africa/>`__ if you:"
+msgstr "Utilisez la `Carte Afrique de Digital Earth <https://maps.digitalearth.africa/>`__ si vous :"
+
+#: 
+msgid "Want to see what the product or dataset looks like"
+msgstr "Vous voulez voir à quoi ressemble le produit ou l'ensemble de données."
+
+#: 
+msgid "Use the `Digital Earth Africa Metadata Explorer <https://explorer.digitalearth.africa/>`__ if you:"
+msgstr "Utilisez le `Digital Earth Africa Metadata Explorer <https://explorer.digitalearth.africa/>`__ si vous :"
+
+#: 
+msgid "Want to know exactly where and when you can find data"
+msgstr "Vous voulez savoir exactement où et quand vous pouvez trouver des données."
+
+#: 
+msgid "Open the Digital Earth Africa Metadata Explorer"
+msgstr "Ouvrez l'explorateur de métadonnées de Digital Earth Africa"
+
+#: 
+msgid "Open https://explorer.digitalearth.africa/. This will display the Metadata Explorer user interface."
+msgstr "Ouvrez https://explorer.digitalearth.africa/. L'interface utilisateur de Metadata Explorer s'affiche."
+
+#: 
+msgid "|b686363e546f4e0a9dcbb7c8371dca1d|"
+msgstr "|b686363e546f4e0a9dcbb7c8371dca1d|"
+
+#: 
+msgid "The DE Africa Metadata Explorer."
+msgstr "L'explorateur de métadonnées DE Africa."
+
+#: 
+msgid "The Digital Earth Africa Metadata Explorer has four main sections."
+msgstr "L'explorateur de métadonnées de Digital Earth Africa comporte quatre sections principales."
+
+#: 
+msgid "**Product selection:** This shows the currently-selected product. Click the selected product name to open the products dropdown menu."
+msgstr "**Sélection de produits:** Ceci montre le produit actuellement sélectionné. Cliquez sur le nom du produit sélectionné pour ouvrir le menu déroulant des produits."
+
+#: 
+msgid "**Time period:** This shows the time period for which the selected product is being displayed. Click the selected time period to open the time selection dropdown menu."
+msgstr "**Période de temps:** Ceci montre la période de temps pour laquelle le produit sélectionné est affiché. Cliquez sur la période sélectionnée pour ouvrir le menu déroulant de sélection de la période."
+
+#: 
+msgid "**Map display:** This shows where data is available, for the selected time and product. Blue shaded tiles indicate the presence of data."
+msgstr "**Affichage de la carte:** Cela montre où les données sont disponibles, pour la période et le produit sélectionnés. Les tuiles ombragées en bleu indiquent la présence de données."
+
+#: 
+msgid "**Product information:** The sidebar shows more information about the data for the selected time and product. For example, this includes how many datasets are selected, the name of the datasets in the product, and its coordinate reference system."
+msgstr "**Informations sur le produit:** La barre latérale montre plus d'informations sur les données pour le temps et le produit sélectionnés. Par exemple, cela inclut le nombre de jeux de données sélectionnés, le nom des jeux de données dans le produit et son système de référence de coordonnées."
+
+#: 
+msgid "Select the Landsat 8 product"
+msgstr "Sélectionnez le produit Landsat 8"
+
+#: 
+msgid "Click the **product selection** bar to open the dropdown menu. Select **ls8_sr**. This selects the Landsat 8 product."
+msgstr "Cliquez sur la barre **sélection de produits** pour ouvrir le menu déroulant. Sélectionnez **ls8_sr**. Ceci sélectionne le produit Landsat 8."
+
+#: 
+msgid "|c1d1debfb6c448fba484dd4b85366819|"
+msgstr "|c1d1debfb6c448fba484dd4b85366819|"
+
+#: 
+msgid "Metadata Explorer Landsat 8."
+msgstr "Metadata Explorer Landsat 8."
+
+#: 
+msgid "Click the **time** bar to open the dropdown menu. Select **2018**. This will show all Landsat 8 datasets for 2018."
+msgstr "Cliquez sur la barre **time** pour ouvrir le menu déroulant. Sélectionnez **2018**. Cela affichera tous les jeux de données Landsat 8 pour 2018."
+
+#: 
+msgid "|e5751838545340db99cdd2352fcfca54|"
+msgstr "|e5751838545340db99cdd2352fcfca54|"
+
+#: 
+msgid "Metadata Explorer Landsat 8 2018."
+msgstr "Metadata Explorer Landsat 8 2018."
+
+#: 
+msgid "Click the **all months** bar to open the dropdown menu. Select **August**. This will show all the Landsat 8 datasets for August 2018."
+msgstr "Cliquez sur la barre **tous les mois** pour ouvrir le menu déroulant. Sélectionnez **Août**. Cela affichera tous les jeux de données Landsat 8 pour août 2018."
+
+#: 
+msgid "|b37e03892a264ff3b8301750d12ae990|"
+msgstr "|b37e03892a264ff3b8301750d12ae990|"
+
+#: 
+msgid "Click the **all days** bar to open the dropdown menu. Select **11th**. This will show all the Landsat 8 datasets for 11 August 2018."
+msgstr "Cliquez sur la barre **tous les jours** pour ouvrir le menu déroulant. Sélectionnez **11e**. Cela affichera tous les jeux de données Landsat 8 pour le 11 août 2018."
+
+#: 
+msgid "|1095bf7b10274b7f92454e3b643325e4|"
+msgstr "|1095bf7b10274b7f92454e3b643325e4|"
+
+#: 
+msgid "The **map display** will now show all the Landsat 8 datasets for 11 August 2018 as blue shaded boxes. Use the **+** button on the map to zoom in, and click and drag to pan the map."
+msgstr "L'affichage **de la carte** montrera maintenant tous les ensembles de données Landsat 8 pour le 11 août 2018 sous forme de boîtes ombrées en bleu. Utilisez le bouton **+** sur la carte pour effectuer un zoom avant, et cliquez et faites glisser pour effectuer un panoramique de la carte."
+
+#: 
+msgid "|883de17cc9d74ee480296deba56dceda|"
+msgstr "|883de17cc9d74ee480296deba56dceda|"
+
+#: 
+msgid "We can see that there is only data available for some African countries. Let’s take a closer look at Tanzania."
+msgstr "Nous pouvons constater qu'il n'y a de données disponibles que pour certains pays africains. Regardons de plus près la Tanzanie."
+
+#: 
+msgid "Zoom in on Tanzania"
+msgstr "Zoom sur la Tanzanie"
+
+#: 
+msgid "Use the map’s **+** button to zoom in on Africa. Click and drag to see Tanzania."
+msgstr "Utilisez le bouton **+** de la carte pour zoomer sur l'Afrique. Cliquez et faites glisser pour voir la Tanzanie."
+
+#: 
+msgid "|c2f02a3fa4f64c8a91116093fe4390b0|"
+msgstr "|c2f02a3fa4f64c8a91116093fe4390b0|"
+
+#: 
+msgid "We can see the data for 11 August 2018 (blue shaded boxes) covers certain parts of Tanzania, which means areas within Tanzania are a suitable location to choose for data analysis for that day. For example, for that day (11 August 2018) we would not be able to do any Landsat 8 analysis over the city of Dodoma in Tanzania, as it does not have any data available for that time."
+msgstr "Nous pouvons voir que les données pour le 11 août 2018 (cases ombrées en bleu) couvrent certaines parties de la Tanzanie, ce qui signifie que les zones au sein de la Tanzanie sont un endroit approprié à choisir pour l'analyse des données pour ce jour. Par exemple, pour cette journée (11 août 2018), nous ne pourrions pas faire d'analyse Landsat 8 au-dessus de la ville de Dodoma en Tanzanie, car elle ne dispose d'aucune donnée pour cette période."
+
+#: 
+msgid "|c90816571ad44f029177346732405d91|"
+msgstr "|c90816571ad44f029177346732405d91|"
+
+#: 
+msgid "QGIS - Add Layer"
+msgstr "QGIS - Ajouter une couche"
+
+#: 
+msgid "|80a4f31b6bab45ee9ce1ead6e130bb43|"
+msgstr "|80a4f31b6bab45ee9ce1ead6e130bb43|"
+
+#: 
+msgid "QGIS - New Layer"
+msgstr "QGIS - Nouvelle couche"
+
+#: 
+msgid "|fc1ba4144048490d839c3bd061100a59|"
+msgstr "|fc1ba4144048490d839c3bd061100a59|"
+
+#: 
+msgid "QGIS - Create New Connection"
+msgstr "QGIS - Créer une nouvelle connexion"
+
+#: 
+msgid "|de3575d47a0049f0b405618d44293358|"
+msgstr "|de3575d47a0049f0b405618d44293358|"
+
+#: 
+msgid "QGIS - View Connection"
+msgstr "QGIS - Connexion à la vue"
+
+#: 
+msgid "|a89975e699e14d09be99a825ad5f668c|"
+msgstr "|a89975e699e14d09be99a825ad5f668c|"
+
+#: 
+msgid "|74ee0c8f12004ac08181b5b6df89ef55|"
+msgstr "|74ee0c8f12004ac08181b5b6df89ef55|"
+
+#: 
+msgid "QGIS - Add Temporal Layer to Project"
+msgstr "QGIS - Ajouter une couche temporelle au projet"
+
+#: 
+msgid "temporal indicator"
+msgstr "indicateur temporel"
+
+#: 
+msgid "|f9dfcb0c236a48d088e1696ccc83c1d3|"
+msgstr "|f9dfcb0c236a48d088e1696ccc83c1d3|"
+
+#: 
+msgid "QGIS - View Temporal Layer in Layer Panel"
+msgstr "QGIS - Afficher la couche temporelle dans le panneau des couches"
+
+#: 
+msgid "|79f9fdbf7b464586ac6cb158248ceb1c|"
+msgstr "|79f9fdbf7b464586ac6cb158248ceb1c|"
+
+#: 
+msgid "QGIS - Dynamic Temporal Control - Automatic"
+msgstr "QGIS - Contrôle dynamique temporel - Automatique"
+
+#: 
+msgid "|7a4e0b0f4013422db69b19e7d3a210a5|"
+msgstr "|7a4e0b0f4013422db69b19e7d3a210a5|"
+
+#: 
+msgid "QGIS - Dynamic Temporal Control - Fixed time range"
+msgstr "QGIS - Contrôle dynamique du temps - Plage de temps fixe"
+
+#: 
+msgid "|45054a996dc6492e85d29aee39d30161|"
+msgstr "|45054a996dc6492e85d29aee39d30161|"
+
+#: 
+msgid "QGIS - Activate Temporal Controller Dock Widget"
+msgstr "QGIS - Activation du Widget Dock du contrôleur temporel"
+
+#: 
+msgid "|93da24b4b7cb420280044bc6574ffcd4|"
+msgstr "|93da24b4b7cb420280044bc6574ffcd4|"
+
+#: 
+msgid "QGIS - Temporal Controller Dock Widget"
+msgstr "QGIS - Widget Dock du contrôleur temporel"
+
+#: 
+msgid "Temporal Navigation Fixed Range"
+msgstr "Navigation temporelle Plage fixe"
+
+#: 
+msgid "|5802e79f1aa94c1ea4c61f0af4ac5baa|"
+msgstr "|5802e79f1aa94c1ea4c61f0af4ac5baa|"
+
+#: 
+msgid "QGIS - Fixed Range Temporal Navigation"
+msgstr "QGIS - Navigation temporelle à distance fixe"
+
+#: 
+msgid "Temporal Navigation Animated"
+msgstr "Navigation temporelle animée"
+
+#: 
+msgid "|4272a7d052ff4506ad6a760b20a369ad|"
+msgstr "|4272a7d052ff4506ad6a760b20a369ad|"
+
+#: 
+msgid "QGIS - Animated Temporal Navigation - Animation Range"
+msgstr "QGIS - Navigation temporelle animée - Gamme d'animations"
+
+#: 
+msgid "|c1b328ddbb3e43c3b6e7f101ed974e0d|"
+msgstr "|c1b328ddbb3e43c3b6e7f101ed974e0d|"
+
+#: 
+msgid "QGIS - Animated Temporal Navigation - Time Step"
+msgstr "QGIS - Navigation temporelle animée - Pas de temps"
+
+#: 
+msgid "play"
+msgstr "jouer"
+
+#: 
+msgid "|901d779f959844b69cb278f6cee05b83|"
+msgstr "|901d779f959844b69cb278f6cee05b83|"
+
+#: 
+msgid "QGIS - Play Animation"
+msgstr "QGIS - Jouer l'animation"
+
+#: 
+msgid "rewindToStart"
+msgstr "rewindToStart"
+
+#: 
+msgid "|005f97ace0b1480fa8e425d2adc34451|"
+msgstr "|005f97ace0b1480fa8e425d2adc34451|"
+
+#: 
+msgid "QGIS - Rewind Animation to Start"
+msgstr "QGIS - Rembobiner l'animation au départ"
+
+#: 
+msgid "previous"
+msgstr "précédent"
+
+#: 
+msgid "|be4e310cecd144f089c55748362c75d9|"
+msgstr "|be4e310cecd144f089c55748362c75d9|"
+
+#: 
+msgid "QGIS - Rewind Animation to Previous Frame"
+msgstr "QGIS - Retourner l'animation à l'image précédente"
+
+#: 
+msgid "back"
+msgstr "arrière"
+
+#: 
+msgid "|02004563af3945b194f43ea7aeec49cc|"
+msgstr "|02004563af3945b194f43ea7aeec49cc|"
+
+#: 
+msgid "QGIS - Rewind Animation"
+msgstr "QGIS - Animation de rembobinage"
+
+#: 
+msgid "next"
+msgstr "suivant"
+
+#: 
+msgid "|df1c246906f840b6b1b986bfe7e78c1b|"
+msgstr "|df1c246906f840b6b1b986bfe7e78c1b|"
+
+#: 
+msgid "QGIS - Forward Animation to Next Frame"
+msgstr "QGIS - Faire avancer l'animation à l'image suivante"
+
+#: 
+msgid "skipToEnd"
+msgstr "skipToEnd"
+
+#: 
+msgid "|cbc66b52add64c108f693578356dbe9b|"
+msgstr "|cbc66b52add64c108f693578356dbe9b|"
+
+#: 
+msgid "QGIS - Forward Animation to End"
+msgstr "QGIS - Animation de l'avant vers l'arrière"
+
+#: 
+msgid "save"
+msgstr "sauver"
+
+#: 
+msgid "|11e8f2d2ea574114a5d2b2e5203e2755|"
+msgstr "|11e8f2d2ea574114a5d2b2e5203e2755|"
+
+#: 
+msgid "QGIS - Export Animation"
+msgstr "QGIS - Animation d'exportation"
+
+#: 
+msgid "|98e1780b080c43c0ace12273832a68b2|"
+msgstr "|98e1780b080c43c0ace12273832a68b2|"
+
+#: 
+msgid "QGIS - Export Animation Options"
+msgstr "QGIS - Options d'animation pour l'exportation"
+
+#: 
+msgid "|d71d6121899c4c8ab8b7a51b4bd4329c|"
+msgstr "|d71d6121899c4c8ab8b7a51b4bd4329c|"
+
+#: 
+msgid "QGIS - Exported Animation as Images"
+msgstr "QGIS - Animation exportée en tant qu'image"
+
+#: 
+msgid "|80a4d5eefe97440287192d9832a49e08|"
+msgstr "|80a4d5eefe97440287192d9832a49e08|"
+
+#: 
+msgid "GIF from Exported Animation Images"
+msgstr "GIF à partir d'images d'animation exportées"
+
+#: 
+msgid "|1270202168d245da818369790420b974|"
+msgstr "|1270202168d245da818369790420b974|"
+
+#: 
+msgid "QGIS - Disable Dynamic Temporal Control"
+msgstr "QGIS - Désactiver le contrôle dynamique temporel"
+
+#: 
+msgid "|3070af1172f641e1b767b83ec5833e28|"
+msgstr "|3070af1172f641e1b767b83ec5833e28|"
+
+#: 
+msgid "QGIS - Static WMS-T Layer"
+msgstr "QGIS - Couche statique WMS-T"
+
+#: 
+msgid "|329220f68d3746599fc40e37478efbb4|"
+msgstr "|329220f68d3746599fc40e37478efbb4|"
+
+#: 
+msgid "QGIS - Static WMS-T Temporal Range - Predefined Range"
+msgstr "QGIS - Plage temporelle statique de WMS-T - Plage prédéfinie"
+
+#: 
+msgid "|213f80737b00452f9e7374ca5034edac|"
+msgstr "|213f80737b00452f9e7374ca5034edac|"
+
+#: 
+msgid "QGIS - Set Project Temporal Range"
+msgstr "QGIS - Définir la plage temporelle du projet"
+
+#: 
+msgid "|31c60444a2a94ba29d3b1a2facadc310|"
+msgstr "|31c60444a2a94ba29d3b1a2facadc310|"
+
+#: 
+msgid "QGIS - Static WMS-T Temporal Range - Follow Project's Temporal Range"
+msgstr "QGIS - Plage temporelle statique de WMS-T - Suivre la plage temporelle du projet"
+
+#: 
+msgid "|d9291373b93140faa70f333f31c4611c|"
+msgstr "|d9291373b93140faa70f333f31c4611c|"
+
+#: 
+msgid "QGIS - View Static WMS-T Layer Features in Project Temporal Range"
+msgstr "QGIS - Afficher les caractéristiques statiques de la couche WMS-T dans la plage temporelle du projet"
+
+#: 
+msgid "|1a210649ceea46aabded41b5c46a6d9e|"
+msgstr "|1a210649ceea46aabded41b5c46a6d9e|"
+
+#: 
+msgid "QGIS - WMS-T Settings"
+msgstr "QGIS - Paramètres de WMS-T"
+
+#: 
+msgid "|602b529aee4244c19a96cffe4b86e60f|"
+msgstr "|602b529aee4244c19a96cffe4b86e60f|"
+
+#: 
+msgid "QGIS - Add WCS"
+msgstr "QGIS - Ajouter WCS"
+
+#: 
+msgid "|29a57f2dfb0546158543d3b4f69e7f1e|"
+msgstr "|29a57f2dfb0546158543d3b4f69e7f1e|"
+
+#: 
+msgid "QGIS - WCS Connection"
+msgstr "Connexion QGIS - WCS"
+
+#: 
+msgid "|61aac52fcc9e4f2ea3f3a913fbb99ca9|"
+msgstr "|61aac52fcc9e4f2ea3f3a913fbb99ca9|"
+
+#: 
+msgid "QGIS - Loaded WCS"
+msgstr "QGIS - WCS chargé"
 
