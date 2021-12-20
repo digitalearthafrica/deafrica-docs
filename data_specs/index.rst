@@ -1,7 +1,7 @@
 .. _data_specs:
 
-Data Catalog
-============
+Data Catalogue
+==============
 
 Digital Earth Africa hosts a repository of Earth observation datasets
 spanning continental Africa.
