@@ -51,9 +51,9 @@ Platforms
 
    maps/index
    sandbox/index
-   maps/geoportal
    web_services/index
    web_services/access
+   maps/geoportal
    web_services/explorer
 
 
