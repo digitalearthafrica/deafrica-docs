@@ -8,5 +8,4 @@ It can be found at `explorer.digitalearth.africa <https://explorer.digitalearth.
 
 The explorer allows you to see where and when you can find data.
 
-For more on how to use the Metadata Explorer, see the tutorial `Session 2:
-Data availability <https://training.digitalearthafrica.org/en/latest/session_2/03_data_availability.html>`_
+For more on how to use the Metadata Explorer, see the  :doc:`explorer_guide`_
