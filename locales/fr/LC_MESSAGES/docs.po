@@ -5510,7 +5510,7 @@ msgstr "Cette fonction exécute les fonctions de données d'entraînement et tra
 
 #: 
 msgid ":obj:`fit_xr <deafrica_tools.classification.fit_xr>`\\ \\(model\\, input\\_xr\\)"
-msgstr ":obj:`fit_xr <deafrica_tools.classification.fit_xr>` ``(model\\, input\\_xr\\)"
+msgstr ":obj:`fit_xr <deafrica_tools.classification.fit_xr>`\\ \\(model\\, input\\_xr\\)"
 
 #: 
 msgid "Utilise our wrappers to fit a vanilla sklearn model."
@@ -5518,7 +5518,7 @@ msgstr "Utilisez nos wrappers pour adapter un modèle sklearn vanille."
 
 #: 
 msgid ":obj:`predict_xr <deafrica_tools.classification.predict_xr>`\\ \\(model\\, input\\_xr\\[\\, chunk\\_size\\, ...\\]\\)"
-msgstr ":obj:`predict_xr <deafrica_tools.classification.predict_xr> ``(model\\, input\\_xr\\[\\, chunk\\_size\\, ...\\]\\)"
+msgstr ":obj:`predict_xr <deafrica_tools.classification.predict_xr>`\\ \\(model\\, input\\_xr\\[\\, chunk\\_size\\, ...\\]\\)"
 
 #: 
 msgid "Using dask-ml `ParallelPostfit()`, runs the parallel predict and predict_proba methods of sklearn estimators."
@@ -5562,7 +5562,7 @@ msgstr "Classes"
 
 #: 
 msgid ":obj:`HiddenPrints <deafrica_tools.classification.HiddenPrints>`\\ \\(\\)"
-msgstr ":obj:`HiddenPrints <deafrica_tools.classification.HiddenPrints> `\\(\\ i)"
+msgstr ":obj:`HiddenPrints <deafrica_tools.classification.HiddenPrints>`\\ \\(\\)"
 
 #: 
 msgid "For concealing unwanted print statements called by other functions"
@@ -6122,7 +6122,7 @@ msgstr ":obj:`create_dask_gateway_cluster <deafrica_tools.dask.create_dask_gatew
 
 #: 
 msgid ":obj:`create_local_dask_cluster <deafrica_tools.dask.create_local_dask_cluster>`\\ \\(\\[spare\\_mem\\, ...\\]\\)"
-msgstr ":obj:`create_local_dask_cluster <deafrica_tools.dask.create_local_dask_cluster> ``(\\[spare_mem\\, ...\\]\\)"
+msgstr ":obj:`create_local_dask_cluster <deafrica_tools.dask.create_local_dask_cluster>`\\ \\(\\[spare\\_mem\\, ...\\]\\)"
 
 #: 
 msgid "Using the datacube utils function 'start_local_dask', generate a local dask cluster."
@@ -6162,7 +6162,7 @@ msgstr "deafrica\\_tools.datahandling"
 
 #: 
 msgid ":obj:`array_to_geotiff <deafrica_tools.datahandling.array_to_geotiff>`\\ \\(fname\\, data\\, geo\\_transform\\, ...\\)"
-msgstr ":obj:`tableau_à_géotiff <deafrica_tools.datahandling.array_to_geotiff>` \\\\(nom_, données\\, geo\\_transform\\, ...\\)"
+msgstr ":obj:`array_to_geotiff <deafrica_tools.datahandling.array_to_geotiff>`\\ \\(fname\\, data\\, geo\\_transform\\, ...\\)"
 
 #: 
 msgid "Create a single band GeoTIFF file with data from an array."
@@ -6194,7 +6194,7 @@ msgstr "Trouve la première valeur non nulle dans la dimension donnée."
 
 #: 
 msgid ":obj:`last <deafrica_tools.datahandling.last>`\\ \\(array\\, dim\\[\\, index\\_name\\]\\)"
-msgstr ":obj:`dernier <deafrica_tools.datahandling.last>` \\(array\\, dim\\[\\, index\\_name\\]\\)"
+msgstr ":obj:`last <deafrica_tools.datahandling.last>`\\ \\(array\\, dim\\[\\, index\\_name\\]\\)"
 
 #: 
 msgid "Finds the last occuring non-null value along the given dimension."
@@ -6202,7 +6202,7 @@ msgstr "Trouve la dernière valeur non nulle dans la dimension donnée."
 
 #: 
 msgid ":obj:`load_ard <deafrica_tools.datahandling.load_ard>`\\ \\(dc\\[\\, products\\, min\\_gooddata\\, ...\\]\\)"
-msgstr ":obj:`load_ard <deafrica_tools.datahandling.load_ard> \\(dc\\[\\, produits\\, min\\_gooddata\\, ...\\]\\)"
+msgstr ":obj:`load_ard <deafrica_tools.datahandling.load_ard>`\\ \\(dc\\[\\, products\\, min\\_gooddata\\, ...\\]\\)"
 
 #: 
 msgid "Loads analysis ready data."
@@ -6614,7 +6614,7 @@ msgstr "Si vous souhaitez signaler un problème avec ce script, déposez-en un s
 
 #: 
 msgid ":obj:`display_map <deafrica_tools.plotting.display_map>`\\ \\(x\\, y\\[\\, crs\\, margin\\, zoom\\_bias\\]\\)"
-msgstr ":obj:`display_map <deafrica_tools.plotting.display_map> `\\(x\\, y\\[\\, crs\\, margin\\, zoom\\_bias\\]\\)"
+msgstr ":obj:`display_map <deafrica_tools.plotting.display_map>`\\ \\(x\\, y\\[\\, crs\\, margin\\, zoom\\_bias\\]\\)"
 
 #: 
 msgid "Given a set of x and y coordinates, this function generates an interactive map with a bounded rectangle overlayed on Google Maps imagery."
@@ -6990,7 +6990,7 @@ msgstr "deafrica\\_tools.spatial"
 
 #: 
 msgid ":obj:`contours_to_arrays <deafrica_tools.spatial.contours_to_arrays>`\\ \\(gdf\\, col\\)"
-msgstr ":obj:`contours_to_arrays <deafrica_tools.spatial.contours_to_arrays> ``(gdf\\, col\\)"
+msgstr ":obj:`contours_to_arrays <deafrica_tools.spatial.contours_to_arrays>`\\ \\(gdf\\, col\\)"
 
 #: 
 msgid "This function converts a polyline shapefile into an array with three columns giving the X, Y and Z coordinates of each vertex."
@@ -6998,7 +6998,7 @@ msgstr "Cette fonction convertit un fichier de forme de polyligne en un tableau 
 
 #: 
 msgid ":obj:`interpolate_2d <deafrica_tools.spatial.interpolate_2d>`\\ \\(ds\\, x\\_coords\\, y\\_coords\\, z\\_coords\\)"
-msgstr ":obj:`interpolate_2d <deafrica_tools.spatial.interpolate_2d> `\\(ds\\, x\\_coords\\, y\\_coords\\, z\\_coords\\)"
+msgstr ":obj:`interpolate_2d <deafrica_tools.spatial.interpolate_2d>`\\ \\(ds\\, x\\_coords\\, y\\_coords\\, z\\_coords\\)"
 
 #: 
 msgid "This function takes points with X, Y and Z coordinates, and interpolates Z-values across the extent of an existing xarray dataset."
@@ -7030,7 +7030,7 @@ msgstr "Prend un dictionnaire geojson et le convertit de WGS84 (EPSG:4326) en EP
 
 #: 
 msgid ":obj:`xr_rasterize <deafrica_tools.spatial.xr_rasterize>`\\ \\(gdf\\, da\\[\\, attribute\\_col\\, crs\\, ...\\]\\)"
-msgstr ":obj:`xr_rasterize <deafrica_tools.spatial.xr_rasterize> `\\(gdf\\, da\\[\\, attribute\\_col\\, crs\\, ...\\]\\)"
+msgstr ":obj:`xr_rasterize <deafrica_tools.spatial.xr_rasterize>`\\ \\(gdf\\, da\\[\\, attribute\\_col\\, crs\\, ...\\]\\)"
 
 #: 
 msgid "Rasterizes a geopandas.GeoDataFrame into an xarray.DataArray."
@@ -7046,7 +7046,7 @@ msgstr "Vectorise un tableau de données xarray.DataArray en un cadre de donnée
 
 #: 
 msgid ":obj:`zonal_stats_parallel <deafrica_tools.spatial.zonal_stats_parallel>`\\ \\(shp\\, raster\\, ...\\)"
-msgstr ":obj:`zonal_stats_parallel <deafrica_tools.spatial.zonal_stats_parallel> `\\(shp\\, raster\\, ...\\)"
+msgstr ":obj:`zonal_stats_parallel <deafrica_tools.spatial.zonal_stats_parallel>`\\ \\(shp\\, raster\\, ...\\)"
 
 #: 
 msgid "Summarizing raster datasets based on vector geometries in parallel."
@@ -7314,7 +7314,7 @@ msgstr "Les principales fonctions sont les suivantes :"
 
 #: 
 msgid ":obj:`xr_phenology <deafrica_tools.temporal.xr_phenology>`"
-msgstr ":obj:`xr_phénologie <deafrica_tools.temporal.xr_phenology>`"
+msgstr ":obj:`xr_phenology <deafrica_tools.temporal.xr_phenology>`"
 
 #: 
 msgid "Obtain land surface phenology metrics from an xarray.DataArray containing a timeseries of a vegetation index like NDVI."
@@ -7354,7 +7354,7 @@ msgstr ":obj:`temporal_statistics <deafrica_tools.temporal.temporal_statistics>`
 
 #: 
 msgid ":obj:`xr_phenology <deafrica_tools.temporal.xr_phenology>`\\ \\(da\\[\\, stats\\, method\\_sos\\, ...\\]\\)"
-msgstr ":obj:`xr_phénologie <deafrica_tools.temporal.xr_phenology> \\(da\\[\\, stats\\, method\\_sos\\, ...\\]\\)"
+msgstr ":obj:`xr_phenology <deafrica_tools.temporal.xr_phenology>`\\ \\(da\\[\\, stats\\, method\\_sos\\, ...\\]\\)"
 
 #: 
 msgid "Calculate da.argmax() or da.argmin() while handling all-NaN slices. Fills all-NaN locations with an float and then masks the offending cells."
@@ -26947,7 +26947,7 @@ msgstr "|793dda56f61b4e5c9b8deb6843e25508|"
 
 #: 
 msgid ":obj:`plot_wofs <deafrica_tools.plotting.plot_wofs>`\\ \\(wofs\\[\\, legend\\]\\)"
-msgstr ":obj:`plot_wofs <deafrica_tools.plotting.plot_wofs> `\\(wofs\\[\\, legend\\]\\)"
+msgstr ":obj:`plot_wofs <deafrica_tools.plotting.plot_wofs>`\\ \\(wofs\\[\\, legend\\]\\)"
 
 #: 
 msgid "Plot a water observation bit flag image."
@@ -30723,7 +30723,7 @@ msgstr "load_crophealth_data run_crophelath_app"
 
 #: 
 msgid ":obj:`load_crophealth_data <deafrica_tools.app.crophealth.load_crophealth_data>`\\ \\(lat\\, lon\\, buffer\\)"
-msgstr ":obj:`load_crophealth_data <deafrica_tools.app.crophealth.load_crophealth_data> ``(lat\\, lon\\, buffer\\)"
+msgstr ":obj:`load_crophealth_data <deafrica_tools.app.crophealth.load_crophealth_data>`\\ \\(lat\\, lon\\, buffer\\)"
 
 #: 
 msgid "Loads Sentinel-2 analysis-ready data (ARD) product for the crop health case-study area over the last two years."
@@ -30731,7 +30731,7 @@ msgstr "Charge le produit des données prêtes à l'analyse (ARD) de Sentinel-2 
 
 #: 
 msgid ":obj:`run_crophealth_app <deafrica_tools.app.crophealth.run_crophealth_app>`\\ \\(ds\\, lat\\, lon\\, buffer\\)"
-msgstr ":obj:`run_crophealth_app <deafrica_tools.app.crophealth.run_crophealth_app>` ``(ds\\, lat\\, lon\\, buffer\\)"
+msgstr ":obj:`run_crophealth_app <deafrica_tools.app.crophealth.run_crophealth_app>`\\ \\(ds\\, lat\\, lon\\, buffer\\)"
 
 #: 
 msgid "Plots an interactive map of the crop health case-study area and allows the user to draw polygons."
@@ -31543,7 +31543,7 @@ msgstr "|3df0989d29854c9e9e852533eb06308d|"
 
 #: 
 msgid ":obj:`load_crophealth_data <deafrica_tools.app.crophealth.load_crophealth_data>`\\ \\(lat\\, lon\\, buffer\\, date\\)"
-msgstr ":obj:`load_crophealth_data <deafrica_tools.app.crophealth.load_crophealth_data> ``(lat\\, lon\\, buffer\\, date\\)"
+msgstr ":obj:`load_crophealth_data <deafrica_tools.app.crophealth.load_crophealth_data>`\\ \\(lat\\, lon\\, buffer\\, date\\)"
 
 #: 
 msgid "The most recent date to show data for. The app will automatically load all data available for the two years prior to this date."
@@ -33859,7 +33859,7 @@ msgstr "Affiche un GeoDataFrame geopandas sur une carte de base interactive ipyl
 
 #: 
 msgid ":obj:`plot_lulc <deafrica_tools.plotting.plot_lulc>`\\ \\(lulc\\[\\, product\\, legend\\]\\)"
-msgstr ":obj:`plot_lulc <deafrica_tools.plotting.plot_lulc> `\\(lulc\\[\\, product\\, legend\\]\\)"
+msgstr ":obj:`plot_lulc <deafrica_tools.plotting.plot_lulc>`\\ \\(lulc\\[\\, product\\, legend\\]\\)"
 
 #: 
 msgid "Plot a LULC image."
@@ -42095,7 +42095,7 @@ msgstr "L'outil de visualisation des zones humides fonctionne sur une étendue c
 
 #: 
 msgid ":obj:`animated_timeseries_WIT <deafrica_tools.wetlands.animated_timeseries_WIT>`\\ \\(ds\\, df\\, output\\_path\\)"
-msgstr ":obj:`animated_timeseries_WIT <deafrica_tools.wetlands.animated_timeseries_WIT> ``(ds\\, df\\, output\\_path\\)"
+msgstr ":obj:`animated_timeseries_WIT <deafrica_tools.wetlands.animated_timeseries_WIT>`\\ \\(ds\\, df\\, output\\_path\\)"
 
 #: 
 msgid "The Wetlands Insight Tool run onver an extent covered by a polygon. This function loads FC, WOfS, and Landsat data, and calculates tasseled cap wetness, in order to determine the dominant land cover class within a polygon at each satellite observation."
@@ -44179,5 +44179,741 @@ msgstr ""
 
 #: 
 msgid "|4e35d3372c1343869fbb6e0abf0692bb|"
+msgstr ""
+
+#: 
+msgid "|b893644efd344b6eaad4454e8d61d842|"
+msgstr ""
+
+#: 
+msgid "|f86ad625240444fd9ffb8dde9a5a196c|"
+msgstr ""
+
+#: 
+msgid "f86ad625240444fd9ffb8dde9a5a196c"
+msgstr ""
+
+#: 
+msgid "|81741eff640745bfa229baeedf43ca40|"
+msgstr ""
+
+#: 
+msgid "81741eff640745bfa229baeedf43ca40"
+msgstr ""
+
+#: 
+msgid "|b01f5fbee08c4bfda251e43474961a5e|"
+msgstr ""
+
+#: 
+msgid "b01f5fbee08c4bfda251e43474961a5e"
+msgstr ""
+
+#: 
+msgid "|62f24b9266c94dd6a12773e54fa608bf|"
+msgstr ""
+
+#: 
+msgid "62f24b9266c94dd6a12773e54fa608bf"
+msgstr ""
+
+#: 
+msgid "|03112fafc058403cae4105eeb96f618d|"
+msgstr ""
+
+#: 
+msgid "03112fafc058403cae4105eeb96f618d"
+msgstr ""
+
+#: 
+msgid "|5e83da6fe5744ed7a2da8d15a237cf25|"
+msgstr ""
+
+#: 
+msgid "5e83da6fe5744ed7a2da8d15a237cf25"
+msgstr ""
+
+#: 
+msgid "|2a49c58ce451401b8ca3a18373eff44a|"
+msgstr ""
+
+#: 
+msgid "2a49c58ce451401b8ca3a18373eff44a"
+msgstr ""
+
+#: 
+msgid "|bc050a49934b4aaa86675093347ca8e9|"
+msgstr ""
+
+#: 
+msgid "bc050a49934b4aaa86675093347ca8e9"
+msgstr ""
+
+#: 
+msgid "|a592e41e955b4621ba349d2ceffe00db|"
+msgstr ""
+
+#: 
+msgid "a592e41e955b4621ba349d2ceffe00db"
+msgstr ""
+
+#: 
+msgid "|7329ee5fad984385a45019fa00f54014|"
+msgstr ""
+
+#: 
+msgid "7329ee5fad984385a45019fa00f54014"
+msgstr ""
+
+#: 
+msgid "|364762d59c23476c9949f3a8b693c6c8|"
+msgstr ""
+
+#: 
+msgid "|976867d175224b249f30f10dfd6b0418|"
+msgstr ""
+
+#: 
+msgid "|6fba5ac58e494091a0b93ebd7816dc3c|"
+msgstr ""
+
+#: 
+msgid "6fba5ac58e494091a0b93ebd7816dc3c"
+msgstr ""
+
+#: 
+msgid "|be11311e3131480790d3a1132b0dc305|"
+msgstr ""
+
+#: 
+msgid "|b8236e2dc8574d668f23d9e4ab992c67|"
+msgstr ""
+
+#: 
+msgid "|1c434e23632742bcabb2827b58f5ca34| |89b6d0d09f204ee5945aae1ae8cf7341|"
+msgstr ""
+
+#: 
+msgid "|d0c9b0701db8470a951e38c3c1d0cf52| |5708bdc30a6d42df901724b72926bd96|"
+msgstr ""
+
+#: 
+msgid "d0c9b0701db8470a951e38c3c1d0cf52"
+msgstr ""
+
+#: 
+msgid "5708bdc30a6d42df901724b72926bd96"
+msgstr ""
+
+#: 
+msgid "|bda16da67bab41449be56796c73addc6|"
+msgstr ""
+
+#: 
+msgid "|7281a1a365ca4b9991f6d1d0796faa7d|"
+msgstr ""
+
+#: 
+msgid "|8bb1edfd19bf44dda0a22178f0b98eb1|"
+msgstr ""
+
+#: 
+msgid "|69f735946d2441b391d063b5ece6840d|"
+msgstr ""
+
+#: 
+msgid "|38164f6cd0714bbbbc70424acfddc4ed|"
+msgstr ""
+
+#: 
+msgid "|d86d0c6e2d674be2affcd0fd12461027|"
+msgstr ""
+
+#: 
+msgid "|53b662f16a40454a9ef37a094468c939|"
+msgstr ""
+
+#: 
+msgid "|b9dc201c82fb4c139a7e0992f9838ae6|"
+msgstr ""
+
+#: 
+msgid "|2f3fa43bfaf54fcf8ca887e832291538|"
+msgstr ""
+
+#: 
+msgid "|ad7266464318462dba5258d990f43f81|"
+msgstr ""
+
+#: 
+msgid "|c7b63739e6674271a829ad8bac483733|"
+msgstr ""
+
+#: 
+msgid "|cd3381ed10aa4fd49667dc0884a8f91a|"
+msgstr ""
+
+#: 
+msgid "|24931282cbd04c37a67e8e20b1445efe|"
+msgstr ""
+
+#: 
+msgid "|3b09c0b4c5de4fc5ad0d6265ffde62cc|"
+msgstr ""
+
+#: 
+msgid "|b2a8eaccb36d457ca4dc7f8f087921d3|"
+msgstr ""
+
+#: 
+msgid "|fb3f32954ff8415083d57a54af33f9f6|"
+msgstr ""
+
+#: 
+msgid "|46b599a2390b4e8ea8aca8fa6dbea683|"
+msgstr ""
+
+#: 
+msgid "|0b887f3e939948748eb8f81047e8a925|"
+msgstr ""
+
+#: 
+msgid "|7646fdf11a6040b0a3dde302efb6f055|"
+msgstr ""
+
+#: 
+msgid "|902afcd3190b41eda5198f86bdea9d9b|"
+msgstr ""
+
+#: 
+msgid "|cae54f3da822459d8b37448b1314a1f4|"
+msgstr ""
+
+#: 
+msgid "|5b754217c9744a9699bfb4d447f69781|"
+msgstr ""
+
+#: 
+msgid "|ee7e0b1607c648efab53cb1b1a26a942|"
+msgstr ""
+
+#: 
+msgid "|93c050c826aa4ae697dcb1573b1e3b67|"
+msgstr ""
+
+#: 
+msgid "|f4c472d20293420386cfb23da3073d71|"
+msgstr ""
+
+#: 
+msgid "|ee1cb1f236094b719ba838bff6afbc06|"
+msgstr ""
+
+#: 
+msgid "|d1c3e978aedc42ef898f2028ceeed781|"
+msgstr ""
+
+#: 
+msgid "|f6fbf7c3eeef46108cfc1747363c5438|"
+msgstr ""
+
+#: 
+msgid "|fa9a438596be4bd8b661c2af8fe222b5|"
+msgstr ""
+
+#: 
+msgid "|d100e7189d31405ab4107dd3baa744fc|"
+msgstr ""
+
+#: 
+msgid "|4d37f932ddf245f78fc34b66c55e55bb|"
+msgstr ""
+
+#: 
+msgid "|e0e92f037e654eabae25b0e24fa3529d|"
+msgstr ""
+
+#: 
+msgid "|0e78396b6e7b4d6f9d9163958aef72fa|"
+msgstr ""
+
+#: 
+msgid "|39d5b91d1cb7444d910ee1c61626d153|"
+msgstr ""
+
+#: 
+msgid "|6b682235d77c4c708ca857100eeaa5f5|"
+msgstr ""
+
+#: 
+msgid "|d0037a71ddbd4406ace6cc066bd89609|"
+msgstr ""
+
+#: 
+msgid "|47fb1991a49a4962b0476ae25a10fecd|"
+msgstr ""
+
+#: 
+msgid "|63138aa372e24dd6bb1afeca328339cb|"
+msgstr ""
+
+#: 
+msgid "|428011c716804136946cf6624911ed48|"
+msgstr ""
+
+#: 
+msgid "|746765da222b4aa7b13c117289d9e4d0|"
+msgstr ""
+
+#: 
+msgid "|4f62aa1e1a104654bd822d1c05ee2737|"
+msgstr ""
+
+#: 
+msgid "|c9a2300df7fb4797b93ea7561d325b9b|"
+msgstr ""
+
+#: 
+msgid "|1fcd71eb16a341a7a16571106ab6efd2|"
+msgstr ""
+
+#: 
+msgid "|c9edb2b3bca6400b92d44d9951cc70df|"
+msgstr ""
+
+#: 
+msgid "|67d571e18814473996f3cf0f112122c3|"
+msgstr ""
+
+#: 
+msgid "|19f1e2840b51412aa01277afd2090580|"
+msgstr ""
+
+#: 
+msgid "|f3c4581046004d1bbf4955ae802a339a|"
+msgstr ""
+
+#: 
+msgid "|055f43e0c06f4a949d6d0af327db9b53|"
+msgstr ""
+
+#: 
+msgid "|5b61d93de02c480dbb3fca47d0b53e1b|"
+msgstr ""
+
+#: 
+msgid "|77c9a6b7da404099af23bf8b3f404c44|"
+msgstr ""
+
+#: 
+msgid "|56013023e840436e8bf4aa99248f7e06|"
+msgstr ""
+
+#: 
+msgid "|0cde3e52e48440dfb30957cf0fc75591|"
+msgstr ""
+
+#: 
+msgid "|79b0f06bc6484fcd95c13bfedd9443aa|"
+msgstr ""
+
+#: 
+msgid "|8430ac78af7b40d48fd1d3a1d511d5e5|"
+msgstr ""
+
+#: 
+msgid "|cf1bc37b36a24900bc036e8b40dc3dc4|"
+msgstr ""
+
+#: 
+msgid "|8585a5b1ad5a4af69560f8268e08c52e|"
+msgstr ""
+
+#: 
+msgid "|6aedc83d52db4728a06cdf4fc0bf50bc|"
+msgstr ""
+
+#: 
+msgid "|70e105342f674b2689d489dca945ed18|"
+msgstr ""
+
+#: 
+msgid "|54ce8313ff6946e49f42e1c6084da439|"
+msgstr ""
+
+#: 
+msgid "|69a664873499420aa566ce32c5b1fb21|"
+msgstr ""
+
+#: 
+msgid "|3a63e1ae258b4d328146c9be3bb1d22f|"
+msgstr ""
+
+#: 
+msgid "|7badf962a9fc4f75a060b3c0927df4ed|"
+msgstr ""
+
+#: 
+msgid "|a6ff3502a9c1408a8689ce4d96cebd82|"
+msgstr ""
+
+#: 
+msgid "|d81ac5be8fbd4d52b46b0f946963faea|"
+msgstr ""
+
+#: 
+msgid "|ec5d775917a84d14b223c4e3a43b1c06|"
+msgstr ""
+
+#: 
+msgid "|3ce89eebf80b47cdb5ab99184c6f2ced|"
+msgstr ""
+
+#: 
+msgid "|92bb99e0bc044103a95dc9a69fcb01a2|"
+msgstr ""
+
+#: 
+msgid "|13da41138bd4414cbd1ada9b7d4af6a3|"
+msgstr ""
+
+#: 
+msgid "|86b5075b80d34c798895675ba3489f11|"
+msgstr ""
+
+#: 
+msgid "|6dd6b4b7d6524246a2fa49a7c47d6d94|"
+msgstr ""
+
+#: 
+msgid "|6619b729523c45918830be6f5a5de555|"
+msgstr ""
+
+#: 
+msgid "|05ece50b322b46ea9813f2cd8f921fca|"
+msgstr ""
+
+#: 
+msgid "|4941cbb7a65e4bdcbc07f52a809921f9|"
+msgstr ""
+
+#: 
+msgid "|ea86e6e8dc54415ea08bc017bcb54f0e|"
+msgstr ""
+
+#: 
+msgid "|4671c2256b7149fbbcf238eff5e37f5b|"
+msgstr ""
+
+#: 
+msgid "|4e4d9cdca75349a8b83d6f8038dd59ea|"
+msgstr ""
+
+#: 
+msgid "|bd3a9bdda4c24bddab328c47690a4bed|"
+msgstr ""
+
+#: 
+msgid "|f3dae9d97bf94027a889660fbeb978db|"
+msgstr ""
+
+#: 
+msgid "|329720c8b04246b8a37898476faf9d21|"
+msgstr ""
+
+#: 
+msgid "329720c8b04246b8a37898476faf9d21"
+msgstr ""
+
+#: 
+msgid "|3037476650764676b059b78533b2340d|"
+msgstr ""
+
+#: 
+msgid "|ebaeaa8ca8ac42a5827d3fe746d98226|"
+msgstr ""
+
+#: 
+msgid "ALOS/ALOS-2 PALSAR/PALSAR-2 Annual Mosaics |250210747d0f4db2b12ada6ab63354f6|"
+msgstr ""
+
+#: 
+msgid "250210747d0f4db2b12ada6ab63354f6"
+msgstr ""
+
+#: 
+msgid "|753756e6f00145e182106a875e357a40|"
+msgstr ""
+
+#: 
+msgid "753756e6f00145e182106a875e357a40"
+msgstr ""
+
+#: 
+msgid "|0aef813eba854cca8a78c0769305baaa|"
+msgstr ""
+
+#: 
+msgid "0aef813eba854cca8a78c0769305baaa"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Reflectance |cea78848ae3549069bc9138cc79c9cec|"
+msgstr ""
+
+#: 
+msgid "cea78848ae3549069bc9138cc79c9cec"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Temperature |c1ac3d59929145278fdbfe0f947063ba|"
+msgstr ""
+
+#: 
+msgid "c1ac3d59929145278fdbfe0f947063ba"
+msgstr ""
+
+#: 
+msgid "Sentinel-1 |c306c6b58ab84ac9b9f4011c9b5da889|"
+msgstr ""
+
+#: 
+msgid "c306c6b58ab84ac9b9f4011c9b5da889"
+msgstr ""
+
+#: 
+msgid "Sentinel-2 |9d1a7c887162429fa0db020ad1ab6777|"
+msgstr ""
+
+#: 
+msgid "9d1a7c887162429fa0db020ad1ab6777"
+msgstr ""
+
+#: 
+msgid "Displaying satellite imagery on a web map |249cce4eb8a04fd3bc3727cd4a4aaea0|"
+msgstr ""
+
+#: 
+msgid "249cce4eb8a04fd3bc3727cd4a4aaea0"
+msgstr ""
+
+#: 
+msgid "|7805a705ab1a4de7b5d94cc3a2a3c89e|"
+msgstr ""
+
+#: 
+msgid "7805a705ab1a4de7b5d94cc3a2a3c89e"
+msgstr ""
+
+#: 
+msgid "Water detection with Sentinel-1 |b721aec14dfd484f979d0f434fbf2e04|"
+msgstr ""
+
+#: 
+msgid "b721aec14dfd484f979d0f434fbf2e04"
+msgstr ""
+
+#: 
+msgid "|42c15799d7384957bc0418cf011bda4c|"
+msgstr ""
+
+#: 
+msgid "42c15799d7384957bc0418cf011bda4c"
+msgstr ""
+
+#: 
+msgid "|107fd1aabdc242e5bf88a52c8b28b38d|"
+msgstr ""
+
+#: 
+msgid "107fd1aabdc242e5bf88a52c8b28b38d"
+msgstr ""
+
+#: 
+msgid "|c3d26986d15a49139a803cdfedc01090|"
+msgstr ""
+
+#: 
+msgid "c3d26986d15a49139a803cdfedc01090"
+msgstr ""
+
+#: 
+msgid "|07ff2fbc10bd4ab58548b497746d5084|"
+msgstr ""
+
+#: 
+msgid "07ff2fbc10bd4ab58548b497746d5084"
+msgstr ""
+
+#: 
+msgid "|c70aa6fd09db4fb0a3b7dde989eae7a4|"
+msgstr ""
+
+#: 
+msgid "c70aa6fd09db4fb0a3b7dde989eae7a4"
+msgstr ""
+
+#: 
+msgid "|9fca15e37e3c4ca5a46535622ecffe0c|"
+msgstr ""
+
+#: 
+msgid "|9a2d836423b548b2b3503772ff3f4dce|"
+msgstr ""
+
+#: 
+msgid "|e5446f83588d49f69985695762e7a3da|"
+msgstr ""
+
+#: 
+msgid "|cb763011a8c74f4f8ec0fe92d9725504|"
+msgstr ""
+
+#: 
+msgid "|3e7857d062bb4a93a3d0aabfa9cc676c|"
+msgstr ""
+
+#: 
+msgid "|389d653efa984ec8b5d03a5cdf38c8f5|"
+msgstr ""
+
+#: 
+msgid "|8c7860940c1846c3ba43c48b8514093c|"
+msgstr ""
+
+#: 
+msgid "|4878724edfae41e085497aff13b7a2e8|"
+msgstr ""
+
+#: 
+msgid "|3dc9d779f3fa46299f98cfe36764caaf|"
+msgstr ""
+
+#: 
+msgid "|4eb66cd7b35c403ea97972c09b8f16b6|"
+msgstr ""
+
+#: 
+msgid "|d8d96200915e410e969a197103d1f5fd|"
+msgstr ""
+
+#: 
+msgid "|3c9210ad4d824340a13fac3b01e60eb1|"
+msgstr ""
+
+#: 
+msgid "|1f4a196b7c1d4bf4a80c6b1fefa0924e|"
+msgstr ""
+
+#: 
+msgid "|f369811879514abe80eaac4a2e26e606|"
+msgstr ""
+
+#: 
+msgid "|91152957118146f0b2b2c9197ea66630|"
+msgstr ""
+
+#: 
+msgid "|9f9eb9bdecc64ea396b4aaff2c918624|"
+msgstr ""
+
+#: 
+msgid "|504beb6cc8e74ccf98051c36ba23d9b0|"
+msgstr ""
+
+#: 
+msgid "|22524b15ee00462c963e651b9dff5abe|"
+msgstr ""
+
+#: 
+msgid "|d248aa47242d493f93ed0f3635fa6969|"
+msgstr ""
+
+#: 
+msgid "|b296934d71fe444da63ae1ae6ba05ee7|"
+msgstr ""
+
+#: 
+msgid "|b47c28e86c0a45dfaf617b54c22ec881|"
+msgstr ""
+
+#: 
+msgid "|b397600806164698be813714c31aca52|"
+msgstr ""
+
+#: 
+msgid "|b8cc3ec889904df3b0a5669a46fe32e5|"
+msgstr ""
+
+#: 
+msgid "|845c0b993fd847ac901917665ced542d|"
+msgstr ""
+
+#: 
+msgid "|379305230024467cb73b546804f40d84|"
+msgstr ""
+
+#: 
+msgid "|145f0fe01e474dc2b193539bb1f459fd|"
+msgstr ""
+
+#: 
+msgid "|9b90cb23769b4560a30ad8b8f133e416|"
+msgstr ""
+
+#: 
+msgid "|80209942bf10452d93c2ecfe825f8847|"
+msgstr ""
+
+#: 
+msgid "|a533d998ea054467b8b2c828c450c751|"
+msgstr ""
+
+#: 
+msgid "|ce2c0418881e47ddbab356de8f7e3d23|"
+msgstr ""
+
+#: 
+msgid "|a1398a134931497c8b890b41b6f8412d|"
+msgstr ""
+
+#: 
+msgid "|41fb37607ada4a599e6e22d1d6707a08|"
+msgstr ""
+
+#: 
+msgid "|de688af7c21f4532b0cfb916b71e81ef|"
+msgstr ""
+
+#: 
+msgid "|0226bc8a016a4ce08223f8a72f1a5282|"
+msgstr ""
+
+#: 
+msgid "|811e9a63e3c643f4957bd6193b9ca0cc|"
+msgstr ""
+
+#: 
+msgid "|fc16cadd113f45729a09e49f6b372dbe|"
+msgstr ""
+
+#: 
+msgid "|d8193f01ef5949b687332fb5b0f771b1|"
+msgstr ""
+
+#: 
+msgid "|d03fd5d4b3a147fa8d88404e5429f2f6|"
+msgstr ""
+
+#: 
+msgid "|94eb89ff244f416980bb067c080ef2eb|"
+msgstr ""
+
+#: 
+msgid "|957d5cb3d71647eb999bf363728b695f|"
+msgstr ""
+
+#: 
+msgid "|0e227664f276486090a6f7ece1b34142|"
 msgstr ""
 
