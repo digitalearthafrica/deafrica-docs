@@ -1361,7 +1361,7 @@ msgstr "``période de temps``"
 
 #: 
 msgid "Year of data collection followed by period of time and time unit in the format ``YYYY--P<period><unit>``. Time units are designated by capitalised letters, ``Y`` for years and ``M`` for months. Annual data is ``P1Y`` while 6-monthly data is ``P6M``."
-msgstr "Année de collecte des données suivie de la période et de l'unité de temps sous le format \"AAAA--P<période><unité>\". Les unités de temps sont désignées par des lettres majuscules, \"A\" pour les années et \"M\" pour les mois. Les données annuelles sont désignées par \"P1Y\" tandis que les données semestrielles sont désignées par \"P6M\"."
+msgstr "Année de collecte des données suivie de la période et de l'unité de temps sous le format ``YYYY--P<période><unité>``. Les unités de temps sont désignées par des lettres majuscules, ``Y`` pour les années et ``M`` pour les mois. Les données annuelles sont désignées par ``P1Y`` tandis que les données semestrielles sont désignées par ``P6M``."
 
 #: 
 msgid "``2019--P1Y``"
@@ -3710,7 +3710,7 @@ msgstr "Noms des couches"
 
 #: 
 msgid "``ga_ls8c_wofs_2``, ``wofs_2_annual_summary_frequency``, ``wofs_2_summary_frequency``"
-msgstr "``ga_ls8c_wofs_2'', ``wofs_2_annual_summary_frequency'', ``wofs_2_summary_frequency''."
+msgstr "``ga_ls8c_wofs_2``, ``wofs_2_annual_summary_frequency``, ``wofs_2_summary_frequency``."
 
 #: 
 msgid "The WOfS suite of datasets can be accessed through the Digital Earth Africa ODC API, which is available through the `Digital Earth Africa Sandbox <https://sandbox.digitalearth.africa/hub/login>`__."
@@ -4138,7 +4138,7 @@ msgstr "``bande``"
 
 #: 
 msgid "band ID, ``VV``, ``VH``, ``MASK``, ``ANGLE``, ``AREA``, ``metadata`` or ``userdata``"
-msgstr "ID de la bande, ``VV'', ``VH'', ``MASK'', ``ANGLE'', ``AREA'', ``metadata'' ou ``userdata''."
+msgstr "ID de la bande, ``VV``, ``VH``, ``MASK``, ``ANGLE``, ``AREA``, ``metadata`` ou ``userdata``"
 
 #: 
 msgid "``VV``"
@@ -5138,7 +5138,7 @@ msgstr "Ce paquet python contient plusieurs modules avec des fonctions pour char
 
 #: 
 msgid ":obj:`deafrica_tools.bandindices <deafrica_tools.bandindices>`\\"
-msgstr ":obj:`deafrica_tools.bandindices <deafrica_tools.bandindices>``."
+msgstr ":obj:`deafrica_tools.bandindices <deafrica_tools.bandindices>`\\"
 
 #: 
 msgid "Functions for computing remote sensing band indices on Digital Earth Africa data."
@@ -5170,7 +5170,7 @@ msgstr "Fonctions pour simplifier la création d'un cluster dask local."
 
 #: 
 msgid ":obj:`deafrica_tools.datahandling <deafrica_tools.datahandling>`\\"
-msgstr ":obj:`deafrica_tools.datahandling <deafrica_tools.datahandling>``"
+msgstr ":obj:`deafrica_tools.datahandling <deafrica_tools.datahandling>`\\"
 
 #: 
 msgid "Functions for loading and handling Digital Earth Africa data."
@@ -5502,7 +5502,7 @@ msgstr "Générer des indices spatiaux de validation croisée k-fold en utilisan
 
 #: 
 msgid ":obj:`collect_training_data <deafrica_tools.classification.collect_training_data>`\\ \\(gdf\\, products\\, dc\\_query\\)"
-msgstr ":obj:`collect_training_data <deafrica_tools.classification.collect_training_data>` ``(gdf\\, products\\, dc\\_query\\\\)"
+msgstr ":obj:`collect_training_data <deafrica_tools.classification.collect_training_data>`\\ \\(gdf\\, products\\, dc\\_query\\)"
 
 #: 
 msgid "This function executes the training data functions and tidies the results into a 'model_input' object containing stacked training data arrays with all NaNs & Infs removed."
@@ -5526,7 +5526,7 @@ msgstr "En utilisant dask-ml `ParallelPostfit()`, exécute les méthodes parall�
 
 #: 
 msgid ":obj:`sklearn_flatten <deafrica_tools.classification.sklearn_flatten>`\\ \\(input\\_xr\\)"
-msgstr ":obj:`sklearn_flatten <deafrica_tools.classification.sklearn_flatten>`` \\(input\\_xr\\)"
+msgstr ":obj:`sklearn_flatten <deafrica_tools.classification.sklearn_flatten>`\\ \\(input\\_xr\\)"
 
 #: 
 msgid "Reshape a DataArray or Dataset with spatial (and optionally temporal) structure into an np.array with the spatial and temporal dimensions flattened into one dimension."
@@ -5534,7 +5534,7 @@ msgstr "Remodèle un DataArray ou un Dataset avec une structure spatiale (et év
 
 #: 
 msgid ":obj:`sklearn_unflatten <deafrica_tools.classification.sklearn_unflatten>`\\ \\(output\\_np\\, input\\_xr\\)"
-msgstr ":obj:`sklearn_unflatten <deafrica_tools.classification.sklearn_unflatten>`` \\(output\\_np\\, input\\_xr\\)"
+msgstr ":obj:`sklearn_unflatten <deafrica_tools.classification.sklearn_unflatten>`\\ \\(output\\_np\\, input\\_xr\\)"
 
 #: 
 msgid "Reshape a numpy array with no 'missing' elements (NaNs) and 'flattened' spatiotemporal structure into a DataArray matching the spatiotemporal structure of the DataArray."
@@ -6210,7 +6210,7 @@ msgstr "Charge les données prêtes à être analysées."
 
 #: 
 msgid ":obj:`mostcommon_crs <deafrica_tools.datahandling.mostcommon_crs>`\\ \\(dc\\, product\\, query\\)"
-msgstr ":obj:`maximum_crs <deafrica_tools.datahandling.mostcommon_crs>`` \\(dc\\, product\\, query\\)"
+msgstr ":obj:`mostcommon_crs <deafrica_tools.datahandling.mostcommon_crs>`\\ \\(dc\\, product\\, query\\)"
 
 #: 
 msgid "Takes a given query and returns the most common CRS for observations returned for that spatial extent."
@@ -6226,7 +6226,7 @@ msgstr "Trouve les valeurs les plus proches d'une étiquette cible le long de la
 
 #: 
 msgid ":obj:`wofs_fuser <deafrica_tools.datahandling.wofs_fuser>`\\ \\(dest\\, src\\)"
-msgstr ":obj:`wofs_fuser <deafrica_tools.datahandling.wofs_fuser>`` \\(dest\\, src\\)"
+msgstr ":obj:`wofs_fuser <deafrica_tools.datahandling.wofs_fuser>`\\ \\(dest\\, src\\)"
 
 #: 
 msgid "Fuse two WOfS water measurements represented as `ndarray` objects."
@@ -6914,7 +6914,7 @@ msgstr "Fonction d'utilité pour appeler l'algorithme de segmentation de Shepher
 
 #: 
 msgid ":obj:`RSGISTiledShepherdSegmentationSingleThread <deafrica_tools.segmentation.RSGISTiledShepherdSegmentationSingleThread>`\\ \\(\\)"
-msgstr ":obj:`RSGISTiledShepherdSegmentationSingleThread <deafrica_tools.segmentation.RSGISTiledShepherdSegmentationSingleThread>`` \\(\\ i)"
+msgstr ":obj:`RSGISTiledShepherdSegmentationSingleThread <deafrica_tools.segmentation.RSGISTiledShepherdSegmentationSingleThread>`\\ \\(\\)"
 
 #: 
 msgid "A class for running the tiled version of the shepherd segmentation algorithm."
@@ -7330,7 +7330,7 @@ msgstr "Calculer diverses statistiques sommaires génériques sur n'importe quel
 
 #: 
 msgid ":obj:`allNaN_arg <deafrica_tools.temporal.allNaN_arg>`\\ \\(da\\, dim\\, stat\\)"
-msgstr ":obj:`allNaN_arg <deafrica_tools.temporal.allNaN_arg>`` \\(da\\, dim\\, stat\\)"
+msgstr ":obj:`allNaN_arg <deafrica_tools.temporal.allNaN_arg>`\\ \\(da\\, dim\\, stat\\)"
 
 #: 
 msgid "Calculate da.argmax() or da.argmin() while handling all-NaN slices."
@@ -7338,7 +7338,7 @@ msgstr "Calculer da.argmax() ou da.argmin() tout en manipulant des tranches all-
 
 #: 
 msgid ":obj:`fast_completion <deafrica_tools.temporal.fast_completion>`\\ \\(da\\)"
-msgstr ":obj:`complétion rapide <deafrica_tools.temporal.fast_completion>`` \\(da\\)"
+msgstr ":obj:`fast_completion <deafrica_tools.temporal.fast_completion>`\\ \\(da\\)"
 
 #: 
 msgid "gap-fill a timeseries"
@@ -7350,7 +7350,7 @@ msgstr ":obj:`smooth <deafrica_tools.temporal.smooth>` \\(da\\[\\, k\\]\\)"
 
 #: 
 msgid ":obj:`temporal_statistics <deafrica_tools.temporal.temporal_statistics>`\\ \\(da\\, stats\\)"
-msgstr ":obj:`statistiques_temporelles <deafrica_tools.temporal.temporal_statistics>`` \\(da\\, stats\\)"
+msgstr ":obj:`temporal_statistics <deafrica_tools.temporal.temporal_statistics>`\\ \\(da\\, stats\\)"
 
 #: 
 msgid ":obj:`xr_phenology <deafrica_tools.temporal.xr_phenology>`\\ \\(da\\[\\, stats\\, method\\_sos\\, ...\\]\\)"
@@ -7790,7 +7790,7 @@ msgstr "`Loading data <03_Loading_data.ipynb>`__"
 
 #: 
 msgid "`Plotting <04_Plotting.ipynb>`__"
-msgstr "`Plotting <04_Plotting.ipynb>``."
+msgstr "`Plotting <04_Plotting.ipynb>`__"
 
 #: 
 msgid "`Performing a basic analysis <05_Basic_analysis.ipynb>`__"
@@ -8046,7 +8046,7 @@ msgstr "Chargement des données à l'aide d'une requête de dictionnaire réutil
 
 #: 
 msgid "Loading matching data from multiple products using ``like``"
-msgstr "Chargement des données correspondantes de plusieurs produits à l'aide de ``like`''."
+msgstr "Chargement des données correspondantes de plusieurs produits à l'aide de ``like``."
 
 #: 
 msgid "Adding a progress bar to the data load"
@@ -8062,7 +8062,7 @@ msgstr "Tout d'abord, nous devons charger le paquet \"datacube\". Cela nous perm
 
 #: 
 msgid "We then need to connect to the datacube database. We will then be able to use the ``dc`` datacube object to load data. The ``app`` parameter is a unique name used to identify the notebook that does not have any effect on the analysis."
-msgstr "Nous devons ensuite nous connecter à la base de données du datacube. Nous pourrons alors utiliser l'objet datacube ``dc`` pour charger les données. Le paramètre ``app`'' est un nom unique utilisé pour identifier le notebook qui n'a aucun effet sur l'analyse."
+msgstr "Nous devons ensuite nous connecter à la base de données du datacube. Nous pourrons alors utiliser l'objet datacube ``dc`` pour charger les données. Le paramètre ``app`` est un nom unique utilisé pour identifier le notebook qui n'a aucun effet sur l'analyse."
 
 #: 
 msgid "Loading data from the datacube uses the `dc.load() <https://datacube-core.readthedocs.io/en/latest/dev/api/generate/datacube.Datacube.load.html>`__ function."
@@ -8486,7 +8486,7 @@ msgstr "Sélection et traçage d'un seul pas de temps"
 
 #: 
 msgid "You can see in the object header that this ``xarray.DataArray`` has data for six timesteps (i.e. ``<xarray.DataArray 'swir_1' (time: 6, y: 834, x: 644)>``). To make a plot for a single timestep only, we need to select it using one of the following options:"
-msgstr "Vous pouvez voir dans l'en-tête de l'objet que ce ``xarray.DataArray`` contient des données pour six pas de temps (c'est-à-dire ``<xarray.DataArray 'swir_1' (time : 6, y : 834, x : 644)>`). Pour réaliser un tracé pour un seul pas de temps, nous devons le sélectionner en utilisant l'une des options suivantes :"
+msgstr "Vous pouvez voir dans l'en-tête de l'objet que ce ``xarray.DataArray`` contient des données pour six pas de temps (c'est-à-dire ``<xarray.DataArray 'swir_1' (time : 6, y : 834, x : 644)>``). Pour réaliser un tracé pour un seul pas de temps, nous devons le sélectionner en utilisant l'une des options suivantes :"
 
 #: 
 msgid "``.isel()``: This stands for “index selection”, and lets us easily select individual timesteps from a dataset by providing the number of the observation we want. Counting in Python begins at 0, so to select the first timestep in the ``xarray.DataArray`` we can specify ``.isel(time=0)``:"
@@ -9234,7 +9234,7 @@ msgstr "|528ed88cc64b465dbd6adc6256cff06f|"
 
 #: 
 msgid "To access a variable we can access as if it were a Python dictionary, or using the ``.`` notation, which is more convenient."
-msgstr "Pour accéder à une variable, on peut le faire comme s'il s'agissait d'un dictionnaire Python, ou en utilisant la notation ``.`'', qui est plus pratique."
+msgstr "Pour accéder à une variable, on peut le faire comme s'il s'agissait d'un dictionnaire Python, ou en utilisant la notation ``.``, qui est plus pratique."
 
 #: 
 msgid "Dimensions are also stored as numeric arrays that we can easily access"
@@ -10706,7 +10706,7 @@ msgstr "Sentinel-2 |a8ccd6b61e1e420c9a2604c9ef21ff42|"
 
 #: 
 msgid "**Products used:** `s2_l2a <https://explorer.digitalearth.africa/s2_l2a>`__"
-msgstr "**Produits utilisés:** `s2_l2a <https://explorer.digitalearth.africa/s2_l2a>```"
+msgstr "**Produits utilisés:** `s2_l2a <https://explorer.digitalearth.africa/s2_l2a>`__"
 
 #: 
 msgid "**Keywords**: :index:`data used; sentinel-2`, :index:`datasets; sentinel-2`"
@@ -11738,7 +11738,7 @@ msgstr "Pour démontrer l'extraction des contours, nous devons d'abord obtenir u
 
 #: 
 msgid "The returned ``xarray`` has a single entry in the time dimension. To make the ``xarray`` easier to work with, we can apply the ``.squeeze()`` method, which remove any dimensions where there is only one entry (``time`` in this case)."
-msgstr "Le tableau retourné n'a qu'une seule entrée dans la dimension temps. Pour rendre le tableau \"xarray\" plus facile à utiliser, nous pouvons appliquer la méthode \"squeeze()``, qui supprime toutes les dimensions où il n'y a qu'une seule entrée (le \"temps\" dans ce cas)."
+msgstr "Le tableau retourné n'a qu'une seule entrée dans la dimension temps. Pour rendre le tableau ``xarray`` plus facile à utiliser, nous pouvons appliquer la méthode ``.squeeze()``, qui supprime toutes les dimensions où il n'y a qu'une seule entrée (le ``time`` temps dans ce cas)."
 
 #: 
 msgid "Plot the loaded data"
@@ -11978,7 +11978,7 @@ msgstr "Composites du temps le plus proche"
 
 #: 
 msgid "Connect to the datacube so we can access DE Africa data. The ``app`` parameter is a unique name for the analysis which is based on the notebook file name."
-msgstr "Connectez-vous au datacube pour que nous puissions accéder aux données de DE Africa. Le paramètre ``app'' est un nom unique pour l'analyse qui est basé sur le nom du fichier notebook."
+msgstr "Connectez-vous au datacube pour que nous puissions accéder aux données de DE Africa. Le paramètre ``app`` est un nom unique pour l'analyse qui est basé sur le nom du fichier notebook."
 
 #: 
 msgid "Load Sentinel-2 data"
@@ -13622,7 +13622,7 @@ msgstr "La fonction ``tidal_stats`` peut aider à évaluer comment la gamme des 
 
 #: 
 msgid "**Note**: For a more detailed discussion of the issue of tidal bias in sun-synchronous satellite observations of the coastline, refer to the `‘Limitations and future work’ section in Bishop-Taylor et al. 2018 <https://www.sciencedirect.com/science/article/pii/S0272771418308783#sec3>`__."
-msgstr "**Note** : Pour une discussion plus détaillée de la question du biais de marée dans les observations par satellite héliosynchrone du littoral, se référer à la section ``Limitations et travaux futurs'' dans Bishop-Taylor et al. 2018 <https://www.sciencedirect.com/science/article/pii/S0272771418308783#sec3>`__."
+msgstr "**Note** : Pour une discussion plus détaillée de la question du biais de marée dans les observations par satellite héliosynchrone du littoral, se référer à la section ``Limitations et travaux futurs`` dans Bishop-Taylor et al. 2018 <https://www.sciencedirect.com/science/article/pii/S0272771418308783#sec3>`__."
 
 #: 
 msgid "The function also outputs a ``pandas.Series`` object containing a set of statistics that compare the observed vs. full modelled tidal ranges. These statistics include:"
@@ -14642,7 +14642,7 @@ msgstr "Exporter les résultats sous forme de GeoTIFF."
 
 #: 
 msgid "Connect to the datacube so we can access DEA data. The ``app`` parameter is a unique name for the analysis which is based on the notebook file name."
-msgstr "Connectez-vous au datacube pour pouvoir accéder aux données DEA. Le paramètre ``app'' est un nom unique pour l'analyse qui est basé sur le nom du fichier notebook."
+msgstr "Connectez-vous au datacube pour pouvoir accéder aux données DEA. Le paramètre ``app`` est un nom unique pour l'analyse qui est basé sur le nom du fichier notebook."
 
 #: 
 msgid "The following cell sets the parameters, which define the area of interest and the length of time to conduct the analysis over. The parameters are"
@@ -16506,7 +16506,7 @@ msgstr "``time`` : L'intervalle de temps à partir duquel les données doivent �
 
 #: 
 msgid "``calc_indices``: This parameter provides a method for calculating a number of remote sensing indices (e.g. ``['NDWI', 'NDVI']``). Any of the indices found in the `deafrica_bandindices <../../Scripts/deafrica_bandindices.py>`__ script can be used here"
-msgstr "``calc_indices`` : Ce paramètre fournit une méthode pour calculer un certain nombre d'indices de télédétection (par exemple, ``['NDWI'', 'NDVI']``). Tous les indices trouvés dans le script `deafrica_bandindices <../../Scripts/deafrica_bandindices.py>`__ peuvent être utilisés ici."
+msgstr "``calc_indices`` : Ce paramètre fournit une méthode pour calculer un certain nombre d'indices de télédétection (par exemple, ``['NDWI', 'NDVI']``). Tous les indices trouvés dans le script `deafrica_bandindices <../../Scripts/deafrica_bandindices.py>`__ peuvent être utilisés ici"
 
 #: 
 msgid "``drop``: If this variable is set to ``True``, and ‘calc_indices’ are supplied, the spectral bands will be dropped from the dataset leaving only the band indices as data variables in the dataset."
@@ -18118,7 +18118,7 @@ msgstr "Cartographie de l'évolution des étendues d'eau dans le temps"
 
 #: 
 msgid "**Products used:** `s2_l2a <https://explorer.digitalearth.africa/products/s2_l2a>`__"
-msgstr "**Produits utilisés:** `s2_l2a <https://explorer.digitalearth.africa/products/s2_l2a>```"
+msgstr "**Produits utilisés:** `s2_l2a <https://explorer.digitalearth.africa/products/s2_l2a>`__"
 
 #: 
 msgid "The United Nations have prescribed 17 “Sustainable Development Goals” (SDGs). This notebook attempts to monitor SDG Indicator 6.6.1 - change in the extent of water-related ecosystems. Indicator 6.6.1 has 4 sub-indicators:"
@@ -20899,7 +20899,7 @@ msgstr "Nous disposons maintenant de données nous donnant à la fois la hauteur
 
 #: 
 msgid "**Note**: For a more detailed discussion of the issue of tidal bias in sun-synchronous satellite observations of the coastline, refer to the `‘Limitations and future work' section in Bishop-Taylor et al. 2018 <https://www.sciencedirect.com/science/article/pii/S0272771418308783#sec3>`__."
-msgstr "**Note** : Pour une discussion plus détaillée de la question du biais de marée dans les observations par satellite héliosynchrone du littoral, se référer à la section ``Limitations et travaux futurs'' dans Bishop-Taylor et al. 2018 <https://www.sciencedirect.com/science/article/pii/S0272771418308783#sec3>`__."
+msgstr "**Note** : Pour une discussion plus détaillée de la question du biais de marée dans les observations par satellite héliosynchrone du littoral, se référer à la section ``Limitations et travaux futurs`` dans Bishop-Taylor et al. 2018 <https://www.sciencedirect.com/science/article/pii/S0272771418308783#sec3>`__."
 
 #: 
 msgid "There are many different urbanization indices with different characteristics and use cases. It is often convenient to be able to compare the performance of several indicies for an area - determining which is the best for an area based on the outputs and a \"ground truth\" dataset of urbanization."
@@ -21951,7 +21951,7 @@ msgstr "Si vous souhaitez signaler un problème avec ce script, vous pouvez en d
 
 #: 
 msgid ":obj:`collect_training_data <deafrica_tools.classification.collect_training_data>`\\ \\(gdf\\, dc\\_query\\[\\, ...\\]\\)"
-msgstr ":obj:`collect_training_data <deafrica_tools.classification.collect_training_data> ``(gdf\\, dc\\_query\\[\\, ...\\]\\)"
+msgstr ":obj:`collect_training_data <deafrica_tools.classification.collect_training_data>`\\ \\(gdf\\, dc\\_query\\[\\, ...\\]\\)"
 
 #: 
 msgid "This function provides methods for gathering training data from the ODC over geometries stored within a geopandas geodataframe."
@@ -23327,7 +23327,7 @@ msgstr "Ci-dessous, nous reconstituons ``clear_filtered`` en couleurs réelles. 
 
 #: 
 msgid "Cloud masking, morphological filtering, and rescaling with ``load_ard``"
-msgstr "Masquage des nuages, filtrage morphologique et remise à l'échelle avec ``load_ard`''."
+msgstr "Masquage des nuages, filtrage morphologique et remise à l'échelle avec ``load_ard``"
 
 #: 
 msgid "Most of the steps undertaken above can be achieved by using the function ``deafrica_tools.datahanding.load_ard``. This function will create a cloud mask, apply morphological filters (if desired), and apply the Landsat scale and offset factors."
@@ -24795,7 +24795,7 @@ msgstr "``gm_s2_annuel``, ``gm_s2_semiannuel`', ``gm_s2_semiannuel`'."
 
 #: 
 msgid "Year of data collection followed by period of time and time unit in the format ``YYYY--P<period><unit>``. Time units are designated by capitalised letters, ``Y`` for years and ``M`` for months. Annual data is ``P1Y`` while 6-monthly data (such as the semiannuals) is ``P6M``."
-msgstr "Année de collecte des données suivie de la période et de l'unité de temps sous le format \"AAAA--P<période><unité>\". Les unités de temps sont désignées par des lettres majuscules, \"A\" pour les années et \"M\" pour les mois. Les données annuelles sont désignées par \"P1Y\", tandis que les données semestrielles (telles que les semestrielles) sont désignées par \"P6M\"."
+msgstr "Année de collecte des données suivie de la période et de l'unité de temps sous le format ``YYYY--P<période><unité>``. Les unités de temps sont désignées par des lettres majuscules, ``Y`` pour les années et ``M`` pour les mois. Les données annuelles sont désignées par ``P1Y``, tandis que les données semestrielles (telles que les semestrielles) sont désignées par ``P6M``."
 
 #: 
 msgid "The GeoMAD dataset is accessible in the Digital Earth Africa ODC API, which is available through the `Digital Earth Africa Sandbox <https://sandbox.digitalearth.africa/hub/login>`__."
@@ -27975,7 +27975,7 @@ msgstr "Tracer l'étendue des terres cultivées"
 
 #: 
 msgid "Above, we can see the ``crop_mask_<region>`` products contains three measurements:"
-msgstr "Ci-dessus, nous pouvons voir que les produits ``crop_mask_<region>` contiennent trois mesures :"
+msgstr "Ci-dessus, nous pouvons voir que les produits ``crop_mask_<region>`` contiennent trois mesures :"
 
 #: 
 msgid "Below, we will plot the three measurements side-by-side:"
@@ -28935,7 +28935,7 @@ msgstr "Dans chaque section de ce guide sur Git, la nouvelle terminologie Git se
 
 #: 
 msgid "**Repository:** Often shortened to ‘repo’. A Git repository is like a folder that lives on GitHub. It contains all the files related to your project. For example, all of the DE Africa Sandbox documentation has been added to a repository called ``deafrica-sandbox-notebooks``. Even if you don’t have a GitHub account, you can view the files on the repo’s `GitHub website <https://github.com/digitalearthafrica/deafrica-sandbox-notebooks>`__. To edit or suggest contributions to them, you will need to log in to GitHub. You can do this with most public repos."
-msgstr "**Repository:** Souvent raccourci en \"repo\". Un dépôt Git est comme un dossier qui vit sur GitHub. Il contient tous les fichiers liés à votre projet. Par exemple, toute la documentation de DE Africa Sandbox a été ajoutée à un dépôt appelé ``deafrica-sandbox-notebooks``. Même si vous n'avez pas de compte GitHub, vous pouvez consulter les fichiers sur le site ``GitHub'' du dépôt <https://github.com/digitalearthafrica/deafrica-sandbox-notebooks>`__. Pour les modifier ou suggérer des contributions, vous devrez vous connecter à GitHub. Vous pouvez le faire avec la plupart des dépôts publics."
+msgstr "**Repository:** Souvent raccourci en \"repo\". Un dépôt Git est comme un dossier qui vit sur GitHub. Il contient tous les fichiers liés à votre projet. Par exemple, toute la documentation de DE Africa Sandbox a été ajoutée à un dépôt appelé ``deafrica-sandbox-notebooks``. Même si vous n'avez pas de compte GitHub, vous pouvez consulter les fichiers sur le site `GitHub du dépôt <https://github.com/digitalearthafrica/deafrica-sandbox-notebooks>`__. Pour les modifier ou suggérer des contributions, vous devrez vous connecter à GitHub. Vous pouvez le faire avec la plupart des dépôts publics."
 
 #: 
 msgid "Create a GitHub account"
@@ -29083,7 +29083,7 @@ msgstr "Connectez-vous au bac à sable Digital Earth Africa."
 
 #: 
 msgid "Create a new folder to store your copied repos in. By convention we will call it ``dev``, although you can name it something else. Click the **New Folder** button and name your folder ``dev``, then double-click the folder to navigate inside it. It is currently empty."
-msgstr "Créez un nouveau dossier pour y stocker vos dépôts copiés. Par convention, nous l'appellerons ``dev`'', bien que vous puissiez le nommer autrement. Cliquez sur le bouton **Nouveau dossier** et nommez votre dossier ``dev``, puis double-cliquez sur le dossier pour naviguer à l'intérieur. Il est actuellement vide."
+msgstr "Créez un nouveau dossier pour y stocker vos dépôts copiés. Par convention, nous l'appellerons ``dev``, bien que vous puissiez le nommer autrement. Cliquez sur le bouton **Nouveau dossier** et nommez votre dossier ``dev``, puis double-cliquez sur le dossier pour naviguer à l'intérieur. Il est actuellement vide."
 
 #: 
 msgid "|60820e74fab643ebbf87830dd1ab9760|"
@@ -29815,7 +29815,7 @@ msgstr "Dans le Terminal, naviguez vers votre répertoire \"deafrica-sandbox-not
 
 #: 
 msgid "Make a new branch using the ``git checkout -b`` command. ``git checkout`` moves between branches, and the ``-b`` creates a new branch."
-msgstr "Créez une nouvelle branche en utilisant la commande ``git checkout -b``. ``git checkout`` se déplace entre les branches, et le ``-b`'' crée une nouvelle branche."
+msgstr "Créez une nouvelle branche en utilisant la commande ``git checkout -b``. ``git checkout`` se déplace entre les branches, et le ``-b`` crée une nouvelle branche."
 
 #: 
 msgid "You will see the message ``Switched to a new branch 'git-terminal'``."
@@ -29991,7 +29991,7 @@ msgstr "Avec un peu de pratique, les commandes du Terminal sont plus rapides que
 
 #: 
 msgid "**Terminal error “fatal: not a git repository”.** This occurs when your Terminal directory location is not a folder linked to a Git repo. Your home directory is not linked to Git, and your ``dev`` folder is not linked to Git."
-msgstr "**Erreur Terminal \"fatal : not a git repository\".** Cela se produit lorsque l'emplacement du répertoire de votre Terminal n'est pas un dossier lié à un repo Git. Votre répertoire personnel n'est pas lié à Git, et votre dossier ``dev`'' n'est pas lié à Git."
+msgstr "**Erreur Terminal ``fatal : not a git repository``.** Cela se produit lorsque l'emplacement du répertoire de votre Terminal n'est pas un dossier lié à un repo Git. Votre répertoire personnel n'est pas lié à Git, et votre dossier ``dev`` n'est pas lié à Git."
 
 #: 
 msgid "**One of my files has disappeared but I did not delete it.** You could be on the wrong branch. Run a ``git status`` to check your current branch. Use ``git checkout <branch name>`` to move between branches."
@@ -34839,7 +34839,7 @@ msgstr "**Produits utilisés :** `ls7_sr <https://explorer.digitalearth.africa/p
 
 #: 
 msgid "The parameters are: \\* ``vector_file``: The path to the shapefile or geojson that will define the analysis area of the study \\* ``products``: The products to load from the datacube, e.g. :literal:`'s2_l2a``, or`\\ ‘ls8_sr’\\ ``*``\\ time_range\\ ``: The date range to analyse (e.g.``\\ (‘2017’, ‘2019’)\\ ``. *``\\ measurements\\ ``: The spectral bands to load from the satellite product.``\\ MNDWI\\ ``requires the``\\ ‘green’\\ ``and``\\ ‘swir_1’\\ ``bands *``\\ resolution\\ ``: The pixel resolution of the satellite data.``\\ (-30,30)``for Landsat or``\\ (-10,10)``for Sentinel-2 *``\\ dask_chunks`: Chunk sizes to use for dask, the default values below are optimized for the full Okavango delta"
-msgstr "Les paramètres sont : \\* ``vector_file`` : Le chemin vers le fichier shapefile ou geojson qui définira la zone d'analyse de l'étude ``produits`` : Les produits à charger à partir du cube de données, par exemple :literal:`'s2_l2a``, ou ``ls8_sr'\\ ``*`'time_range'' : La plage de dates à analyser (par exemple, ```('2017', '2019')``. *```Mesures `` : Les bandes spectrales à charger à partir du produit satellite. MNDWI nécessite les bandes \"verte\" et \"swir_1\" : La résolution en pixels des données satellite : ``(-30,30)`` pour Landsat ou ``(-10,10)`` pour Sentinel-2 *`` dask_chunks` : Taille des morceaux à utiliser pour dask, les valeurs par défaut ci-dessous sont optimisées pour le delta complet de l'Okavango."
+msgstr "Les paramètres sont : \\* ``vector_file`` : Le chemin vers le fichier shapefile ou geojson qui définira la zone d'analyse de l'étude ``products`` : Les produits à charger à partir du cube de données, par exemple :literal:`'s2_l2a``, ou ``ls8_sr'\\ ``*`'time_range'' : La plage de dates à analyser (par exemple, ```('2017', '2019')``. *``\\ measurements\\ ``: Les bandes spectrales à charger à partir du produit satellite. MNDWI nécessite les bandes \"verte\" et \"swir_1\" : La résolution en pixels des données satellite : ``(-30,30)`` pour Landsat ou ``(-10,10)`` pour Sentinel-2 *`` dask_chunks` : Taille des morceaux à utiliser pour dask, les valeurs par défaut ci-dessous sont optimisées pour le delta complet de l'Okavango."
 
 #: 
 msgid "Load cloud-masked Satellite data"
@@ -35427,11 +35427,11 @@ msgstr "La date exacte utilisée pour tracer l'imagerie sur la carte interactive
 
 #: 
 msgid "The satellite data to plot on the interactive map. Three options are currently supported:      * ''`Landsat`'': data from the Landsat 5, 7 and 8 satellites     * ``'Sentinel-2'``: data from Sentinel-2A and Sentinel-2B"
-msgstr "Les données satellitaires à représenter sur la carte interactive. Trois options sont actuellement prises en charge :      * ''Landsat'' : données des satellites Landsat 5, 7 et 8 * ''Sentinel-2'' : données de Sentinel-2A et Sentinel-2B"
+msgstr "Les données satellitaires à représenter sur la carte interactive. Trois options sont actuellement prises en charge :      * ''`Landsat`'' : données des satellites Landsat 5, 7 et 8 * ``'Sentinel-2'`` : données de Sentinel-2A et Sentinel-2B"
 
 #: 
 msgid "''`Landsat`'': data from the Landsat 5, 7 and 8 satellites"
-msgstr "``Landsat'' : données des satellites Landsat 5, 7 et 8"
+msgstr "``Landsat`` : données des satellites Landsat 5, 7 et 8"
 
 #: 
 msgid "``'Sentinel-2'``: data from Sentinel-2A and Sentinel-2B"
@@ -35539,11 +35539,11 @@ msgstr "si kfold_method est paramétré à ''`SpatialShuffleSplit`' : int Le nom
 
 #: 
 msgid "if setting kfold_method to ''`SpatialShuffleSplit`'': int"
-msgstr "si kfold_method est défini comme ''`SpatialShuffleSplit'' : int"
+msgstr "si kfold_method est défini comme ''`SpatialShuffleSplit`'' : int"
 
 #: 
 msgid "if setting kfold_method to ''`SpatialKFold`'': bool"
-msgstr "si kfold_method est défini comme ''``SpatialKFold`'' : bool"
+msgstr "si kfold_method est défini comme ''`SpatialKFold`'' : bool"
 
 #: 
 msgid "A list of product names to load data from. For example:  * Landsat C2: ``['ls5_sr', 'ls7_sr', 'ls8_sr']`` * Sentinel-2: ``['s2_l2a']`` * Sentinel-1: ``['s1_rtc']``"
@@ -35607,7 +35607,7 @@ msgstr "Une fonction optionnelle qui peut être passée pour restreindre les jeu
 
 #: 
 msgid "An optional parameter that controls the data type/dtype that layers are coerced to after loading. Valid values: ''`native`'', ``'auto'``, ``'float{16|32|64}'``. When ``'auto'`` is used, the data will be converted to ``'float32'`` if masking is used, otherwise data will be returned in the native data type of the data. Be aware that if data is loaded in its native dtype, nodata and masked pixels will be returned with the data's native nodata value (typically ``-999``), not ``NaN``. NOTE: If loading Landsat, the data is automatically rescaled so 'native' dtype will return a value error."
-msgstr "Un paramètre facultatif qui contrôle le type de données auquel les couches sont contraintes après le chargement. Valeurs valides : ``native'', ``'auto'``, `` float{16|32|64}'``. Lorsque ``'auto'`` est utilisé, les données seront converties en `` float32'`` si le masquage est utilisé, sinon les données seront retournées dans le type de données natif des données. Sachez que si les données sont chargées dans leur type de données natif, les nodata et les pixels masqués seront retournés avec la valeur nodata native des données (typiquement ``-999``), et non ``NaN``. REMARQUE : si vous chargez des données Landsat, celles-ci sont automatiquement redimensionnées et le dtype \"natif\" renverra une erreur de valeur."
+msgstr "Un paramètre facultatif qui contrôle le type de données auquel les couches sont contraintes après le chargement. Valeurs valides : ``native``, ``'auto'``, ``float{16|32|64}'``. Lorsque ``'auto'`` est utilisé, les données seront converties en ``'float32'`` si le masquage est utilisé, sinon les données seront retournées dans le type de données natif des données. Sachez que si les données sont chargées dans leur type de données natif, les nodata et les pixels masqués seront retournés avec la valeur nodata native des données (typiquement ``-999``), et non ``NaN``. REMARQUE : si vous chargez des données Landsat, celles-ci sont automatiquement redimensionnées et le dtype \"natif\" renverra une erreur de valeur."
 
 #: 
 msgid "A set of keyword arguments to ``dc.load`` that define the spatiotemporal query used to extract data. This typically includes ``measurements``, ``x`, ``y``, ``time``, ``resolution``, ``resampling``, ``group_by`` and ``crs``. Keyword arguments can either be listed directly in the ``load_ard`` call like any other parameter (e.g. ``measurements=['red']``), or by passing in a query kwarg dictionary (e.g. ``**query``). For a list of possible options, see the ``dc.load`` documentation: https://datacube-core.readthedocs.io/en/latest/dev/api/generate/datacube.Datacube.load.html"
@@ -35919,7 +35919,7 @@ msgstr "Définir les paramètres"
 
 #: 
 msgid "``lat``, ``lon``: The central latitude and longitude to analyse e.g. -16.2818, 39.8633 along the coast of Mozambique"
-msgstr "``lat'', ``lon'' : La latitude et la longitude centrales à analyser, par exemple -16.2818, 39.8633 le long de la côte du Mozambique."
+msgstr "``lat``, ``lon`` : La latitude et la longitude centrales à analyser, par exemple -16.2818, 39.8633 le long de la côte du Mozambique."
 
 #: 
 msgid "``buffer``: The number of square degrees to load around the central latitude and longitude. For quick loading times, set this as 0.1 or lower."
@@ -38559,7 +38559,7 @@ msgstr "``20`` : ``Arbustes``"
 
 #: 
 msgid "``30``: ``herbaceous vegetation``"
-msgstr "``30'' : ``végétation herbacée''."
+msgstr "``30`` : ``végétation herbacée``."
 
 #: 
 msgid "``40``: ``cultivated and managed vegetation or agriculture``"
@@ -41891,7 +41891,7 @@ msgstr "Le widget de l'outil Wetlands insight, qui peut être utilisé pour exé
 
 #: 
 msgid ":obj:`create_expanded_button <deafrica_tools.app.wetlandsinsighttool.create_expanded_button>`\\ \\(description\\, button\\_style\\)"
-msgstr ":obj:`create_expanded_button <deafrica_tools.app.wetlandsinsighttool.create_expanded_button>```(description\\, button\\_style\\)"
+msgstr ":obj:`create_expanded_button <deafrica_tools.app.wetlandsinsighttool.create_expanded_button>`\\ \\(description\\, button\\_style\\)"
 
 #: 
 msgid ":obj:`make_box_layout <deafrica_tools.app.wetlandsinsighttool.make_box_layout>`\\ \\(\\)"
@@ -41947,7 +41947,7 @@ msgstr "Créer un widget de contrôle de dessin à ajouter aux cartes ipyleaflet
 
 #: 
 msgid ":obj:`create_dropdown <deafrica_tools.app.widgetconstructors.create_dropdown>`\\ \\(options\\, value\\[\\, ...\\]\\)"
-msgstr ":obj:`create_dropdown <deafrica_tools.app.widgetconstructors.create_dropdown>`` \\(options\\, valeur\\[\\, ...\\]\\)"
+msgstr ":obj:`create_dropdown <deafrica_tools.app.widgetconstructors.create_dropdown>`\\ \\(options\\, value\\[\\, ...\\]\\)"
 
 #: 
 msgid "Create a Dropdown widget"
@@ -42151,7 +42151,7 @@ msgstr "**df** -- Un dataframe pandas contenant les séries temporelles des frac
 
 #: 
 msgid ":obj:`deafrica_tools.wetlands <deafrica_tools.wetlands>`\\"
-msgstr ":obj:`deafrica_tools.wetlands <deafrica_tools.wetlands>``"
+msgstr ":obj:`deafrica_tools.wetlands <deafrica_tools.wetlands>`\\"
 
 #: 
 msgid ":obj:`deafrica_tools.app.wetlandsinsighttool <deafrica_tools.app.wetlandsinsighttool>`\\"
@@ -42159,7 +42159,7 @@ msgstr ":obj:`deafrica_tools.app.wetlandsinsighttool <deafrica_tools.app.wetland
 
 #: 
 msgid ":obj:`deafrica_tools.app.widgetconstructors <deafrica_tools.app.widgetconstructors>`\\"
-msgstr ":obj:`deafrica_tools.app.widgetconstructors <deafrica_tools.app.widgetconstructors>``."
+msgstr ":obj:`deafrica_tools.app.widgetconstructors <deafrica_tools.app.widgetconstructors>`\\"
 
 #: 
 msgid "Dask can be used to better manage memory use and conduct the analysis in parallel. For an introduction to using Dask with Digital Earth Africa, see the `Dask notebook <../../Beginners_guide/06_Parallel_processing_with_dask.ipynb>`__."
@@ -43443,5 +43443,741 @@ msgstr ""
 
 #: 
 msgid "|88831c07991c4108bef397371924d4ea|"
+msgstr ""
+
+#: 
+msgid "|47526227d332485aa0ae26311fa5ff5b|"
+msgstr ""
+
+#: 
+msgid "|8874408b51024a88aefc5810bb701ce3|"
+msgstr ""
+
+#: 
+msgid "8874408b51024a88aefc5810bb701ce3"
+msgstr ""
+
+#: 
+msgid "|521f96154f7b4bc983090018d6cbff3e|"
+msgstr ""
+
+#: 
+msgid "521f96154f7b4bc983090018d6cbff3e"
+msgstr ""
+
+#: 
+msgid "|71880d2f970f40e4af8d50c9220d49e9|"
+msgstr ""
+
+#: 
+msgid "71880d2f970f40e4af8d50c9220d49e9"
+msgstr ""
+
+#: 
+msgid "|fab9f176303346ca9a96bf17e9c65711|"
+msgstr ""
+
+#: 
+msgid "fab9f176303346ca9a96bf17e9c65711"
+msgstr ""
+
+#: 
+msgid "|48c844b5e2d3404c83008aec46964559|"
+msgstr ""
+
+#: 
+msgid "48c844b5e2d3404c83008aec46964559"
+msgstr ""
+
+#: 
+msgid "|f9c2fac4874b4b008cb1cd59242b3424|"
+msgstr ""
+
+#: 
+msgid "f9c2fac4874b4b008cb1cd59242b3424"
+msgstr ""
+
+#: 
+msgid "|b6a5e7851c6043cdb61a9f289d7f51ea|"
+msgstr ""
+
+#: 
+msgid "b6a5e7851c6043cdb61a9f289d7f51ea"
+msgstr ""
+
+#: 
+msgid "|eb71627b823045beb8b5b42aef13aaca|"
+msgstr ""
+
+#: 
+msgid "eb71627b823045beb8b5b42aef13aaca"
+msgstr ""
+
+#: 
+msgid "|1b8decfab5f74926be09654f3bc07262|"
+msgstr ""
+
+#: 
+msgid "1b8decfab5f74926be09654f3bc07262"
+msgstr ""
+
+#: 
+msgid "|2180ed493eff4bd093c7083161a69f84|"
+msgstr ""
+
+#: 
+msgid "2180ed493eff4bd093c7083161a69f84"
+msgstr ""
+
+#: 
+msgid "|2e331aeb64da44988330402e6c89888f|"
+msgstr ""
+
+#: 
+msgid "|4e83022733cd4dee85b6ba2a4fb43d2b|"
+msgstr ""
+
+#: 
+msgid "|f542f66c43bd4b74ad1e85cba8b8d3dc|"
+msgstr ""
+
+#: 
+msgid "f542f66c43bd4b74ad1e85cba8b8d3dc"
+msgstr ""
+
+#: 
+msgid "|06745ed143ac45f68c142f3964bbb994|"
+msgstr ""
+
+#: 
+msgid "|e8296c3a44474deca10e0fe0a9abfd53|"
+msgstr ""
+
+#: 
+msgid "|f3de8dde29f14326a6131f9ddca41661| |1a8777f459794db184a3568a3dd3aab9|"
+msgstr ""
+
+#: 
+msgid "|2bde4677befb4982a29f23bda469720a| |b65a45f674e74087aca7fe229ff90835|"
+msgstr ""
+
+#: 
+msgid "2bde4677befb4982a29f23bda469720a"
+msgstr ""
+
+#: 
+msgid "b65a45f674e74087aca7fe229ff90835"
+msgstr ""
+
+#: 
+msgid "|a4e43e72424244c79492a05f55974dcb|"
+msgstr ""
+
+#: 
+msgid "|51e2e518cd064e87a2297b5704aecd1e|"
+msgstr ""
+
+#: 
+msgid "|4cfe8560c762477abc20655ae5b6f414|"
+msgstr ""
+
+#: 
+msgid "|a479075656b143218823096e1727283e|"
+msgstr ""
+
+#: 
+msgid "|c4b542330eee4e8384248e411fe9caa1|"
+msgstr ""
+
+#: 
+msgid "|550f26767fff447a9a3dc2fcb20df9c5|"
+msgstr ""
+
+#: 
+msgid "|c16c83ad0ef44a86b71a59488969150b|"
+msgstr ""
+
+#: 
+msgid "|823a4ee8a3444ee38826abf5102bd72b|"
+msgstr ""
+
+#: 
+msgid "|c0617fac9c5e456db9f6251d740554e4|"
+msgstr ""
+
+#: 
+msgid "|51e08cb342494910a36f85b75d8bba6d|"
+msgstr ""
+
+#: 
+msgid "|18619aa28f1842e6b7b8dc11e76130d1|"
+msgstr ""
+
+#: 
+msgid "|99482c1edf0947238ff720ab427c1100|"
+msgstr ""
+
+#: 
+msgid "|ed098d44ffcf4398bcdf16bc54c09524|"
+msgstr ""
+
+#: 
+msgid "|d262d5c1cf764c759892bec5fad85023|"
+msgstr ""
+
+#: 
+msgid "|e076d92e641c4c33ab69c239483fb8c7|"
+msgstr ""
+
+#: 
+msgid "|c3efd32c32ac4fc2a6979a4ba12a4ea8|"
+msgstr ""
+
+#: 
+msgid "|6e57ddf9a87e4d8891b944ed0de1a018|"
+msgstr ""
+
+#: 
+msgid "|4c5bed165e8445d988db8aa7d76d8f53|"
+msgstr ""
+
+#: 
+msgid "|7242573ab29b4de9acca9ca1c245f462|"
+msgstr ""
+
+#: 
+msgid "|adb875eea92b40bb88e6ff9e57a46eb3|"
+msgstr ""
+
+#: 
+msgid "|2381145ff4a143478a530f7bed108e74|"
+msgstr ""
+
+#: 
+msgid "|c05983a6ff5a4c9d9b05dae56e9dceef|"
+msgstr ""
+
+#: 
+msgid "|78ac717a9148416d866fa3cb55009f07|"
+msgstr ""
+
+#: 
+msgid "|02ed14d869c54db197f97934350f13c1|"
+msgstr ""
+
+#: 
+msgid "|5bb385db9f704e8e92957b179028f98a|"
+msgstr ""
+
+#: 
+msgid "|488ee469a0554bf197d313a8a36af4df|"
+msgstr ""
+
+#: 
+msgid "|ffdeda49debc4985b888ec95ab7a44e8|"
+msgstr ""
+
+#: 
+msgid "|85c6719ef51f4f58b700104e3d3ff93e|"
+msgstr ""
+
+#: 
+msgid "|765fe78c7c9841079f24aaeee9b87e91|"
+msgstr ""
+
+#: 
+msgid "|d660b38f888a4396b12f6576d4259e53|"
+msgstr ""
+
+#: 
+msgid "|17bd7378b9df4e0aa44118c4a01cd76a|"
+msgstr ""
+
+#: 
+msgid "|00b031bcd9c84673910c64377ff2a1a8|"
+msgstr ""
+
+#: 
+msgid "|9db43c8f7fea47edbb05b0271c083621|"
+msgstr ""
+
+#: 
+msgid "|26c6866337a04afc96632c3eaef8600b|"
+msgstr ""
+
+#: 
+msgid "|e5396a07053040dd9cada40d621ea6e4|"
+msgstr ""
+
+#: 
+msgid "|3f14b4f8f6854ab69ca103448739658b|"
+msgstr ""
+
+#: 
+msgid "|f9476cb189cf47c49a655a754bb0ac9b|"
+msgstr ""
+
+#: 
+msgid "|df98c5a36fea41f195f52b647adfded3|"
+msgstr ""
+
+#: 
+msgid "|a2a081593a9042b8a99801e7273d12b5|"
+msgstr ""
+
+#: 
+msgid "|faf906da5ede4cdd80cdf89a86d73037|"
+msgstr ""
+
+#: 
+msgid "|d8839a26776a4f22982593bb34ad1caf|"
+msgstr ""
+
+#: 
+msgid "|39c118ba9c594aadac3e33711aeaa8d6|"
+msgstr ""
+
+#: 
+msgid "|4da13ca4ba684cef9d0dca5f2bf7ba2d|"
+msgstr ""
+
+#: 
+msgid "|cc59d10985014b34b626cd28b3453b82|"
+msgstr ""
+
+#: 
+msgid "|fded289a6a434436bef8967028774bea|"
+msgstr ""
+
+#: 
+msgid "|6571a18bd3104b86bb372c1959556273|"
+msgstr ""
+
+#: 
+msgid "|64907f7a1b9946719fb2c211f61267e8|"
+msgstr ""
+
+#: 
+msgid "|89781def0e3d4f819747a599a041e285|"
+msgstr ""
+
+#: 
+msgid "|46e7240475324c24aec88408457a18aa|"
+msgstr ""
+
+#: 
+msgid "|93be87cbfebe4d1bb3edbfb82ae170c8|"
+msgstr ""
+
+#: 
+msgid "|e92428e5c101416c9ce5ba6a2518181f|"
+msgstr ""
+
+#: 
+msgid "|3fc06bc763724a9d89cc869bafa467b6|"
+msgstr ""
+
+#: 
+msgid "|3968693673644837bee96c69042e0127|"
+msgstr ""
+
+#: 
+msgid "|c810eb4e1c3f46c1916a604a7cbef28d|"
+msgstr ""
+
+#: 
+msgid "|6498720ff7074400b3feda861155d03f|"
+msgstr ""
+
+#: 
+msgid "|be44961fa77344e3aba13bfd58f0a87a|"
+msgstr ""
+
+#: 
+msgid "|112d6905c5f04f2baf5a35ae9a94cd15|"
+msgstr ""
+
+#: 
+msgid "|47bacfc92d4a4758bd7a66b91dcb9a83|"
+msgstr ""
+
+#: 
+msgid "|0326bfdeca224cadad4b474cb2a44327|"
+msgstr ""
+
+#: 
+msgid "|0948cb4d71b54208a3f348ff9e9604ad|"
+msgstr ""
+
+#: 
+msgid "|4e184c6f87cb426cbd08f01d89926540|"
+msgstr ""
+
+#: 
+msgid "|47a95cf1487b4975baf28d10f03200a2|"
+msgstr ""
+
+#: 
+msgid "|4a90f8ce66134d9a947d28bc6824fb93|"
+msgstr ""
+
+#: 
+msgid "|27f47f4b9ac443f8adcb98c91bfd6759|"
+msgstr ""
+
+#: 
+msgid "|a687b941892e4967a93667b6b7fd5a42|"
+msgstr ""
+
+#: 
+msgid "|2dc3285315664ef3aa74dbd21b79abb7|"
+msgstr ""
+
+#: 
+msgid "|b836891d10814e7fb9bd8c5ab548aa77|"
+msgstr ""
+
+#: 
+msgid "|f3a3dea45dd6414698716df1ac63cc9b|"
+msgstr ""
+
+#: 
+msgid "|486f139c365e4ab4badd7887a9ce5c63|"
+msgstr ""
+
+#: 
+msgid "|10ddcb79d0f64ab29bf9d5cfc8058c84|"
+msgstr ""
+
+#: 
+msgid "|690e07d2b2634995b711730563062920|"
+msgstr ""
+
+#: 
+msgid "|bd2339919d4346fb943682ff7a2b6bb9|"
+msgstr ""
+
+#: 
+msgid "|9c172b80ee704938a3370037f4abe477|"
+msgstr ""
+
+#: 
+msgid "|9d69c4871c304a7c8d024e0f0ac5edbe|"
+msgstr ""
+
+#: 
+msgid "|5d17250004754740a9281bd794c19b38|"
+msgstr ""
+
+#: 
+msgid "|1382a9b7263d435c80e417d7f722876b|"
+msgstr ""
+
+#: 
+msgid "|6493974f0f944828b3bac4c5a346c484|"
+msgstr ""
+
+#: 
+msgid "|5db41780340044b8973ca0ed38895984|"
+msgstr ""
+
+#: 
+msgid "|2dcb7f04829d45cbb3e14750929a762e|"
+msgstr ""
+
+#: 
+msgid "2dcb7f04829d45cbb3e14750929a762e"
+msgstr ""
+
+#: 
+msgid "|086c9c26e1d74893a08081c1ac8902a9|"
+msgstr ""
+
+#: 
+msgid "|9abbea8b583649878aae15b1dc6e0b91|"
+msgstr ""
+
+#: 
+msgid "ALOS/ALOS-2 PALSAR/PALSAR-2 Annual Mosaics |3b048d3ad2f94581a4af79795737e119|"
+msgstr ""
+
+#: 
+msgid "3b048d3ad2f94581a4af79795737e119"
+msgstr ""
+
+#: 
+msgid "|8cb28326ae4f4c5eb320a91545f211ca|"
+msgstr ""
+
+#: 
+msgid "8cb28326ae4f4c5eb320a91545f211ca"
+msgstr ""
+
+#: 
+msgid "|1185e24ab4d741bc860b82132b66465a|"
+msgstr ""
+
+#: 
+msgid "1185e24ab4d741bc860b82132b66465a"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Reflectance |c84c5fce789c494fb32334fec1134062|"
+msgstr ""
+
+#: 
+msgid "c84c5fce789c494fb32334fec1134062"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Temperature |bc3e4fe6a8f34629ab3a7556e075fdb8|"
+msgstr ""
+
+#: 
+msgid "bc3e4fe6a8f34629ab3a7556e075fdb8"
+msgstr ""
+
+#: 
+msgid "Sentinel-1 |28967acc2689450fa9bd73628f304920|"
+msgstr ""
+
+#: 
+msgid "28967acc2689450fa9bd73628f304920"
+msgstr ""
+
+#: 
+msgid "Sentinel-2 |3c9661ad785d41c1b499f7999f454e9d|"
+msgstr ""
+
+#: 
+msgid "3c9661ad785d41c1b499f7999f454e9d"
+msgstr ""
+
+#: 
+msgid "Displaying satellite imagery on a web map |15ce4e5b04bf4d52b7cdbb123f152361|"
+msgstr ""
+
+#: 
+msgid "15ce4e5b04bf4d52b7cdbb123f152361"
+msgstr ""
+
+#: 
+msgid "|ace7ae3f12ea428e96eba5316e25eb0b|"
+msgstr ""
+
+#: 
+msgid "ace7ae3f12ea428e96eba5316e25eb0b"
+msgstr ""
+
+#: 
+msgid "Water detection with Sentinel-1 |57cb6a3b4da24547a08c210b766d79e3|"
+msgstr ""
+
+#: 
+msgid "57cb6a3b4da24547a08c210b766d79e3"
+msgstr ""
+
+#: 
+msgid "|d78b9c554d0c44f3918e79fb296527d4|"
+msgstr ""
+
+#: 
+msgid "d78b9c554d0c44f3918e79fb296527d4"
+msgstr ""
+
+#: 
+msgid "|502ef3942bcb4bcc935b06438da613d1|"
+msgstr ""
+
+#: 
+msgid "502ef3942bcb4bcc935b06438da613d1"
+msgstr ""
+
+#: 
+msgid "|c03007bd7127484c927b7551118bd8a5|"
+msgstr ""
+
+#: 
+msgid "c03007bd7127484c927b7551118bd8a5"
+msgstr ""
+
+#: 
+msgid "|d33be5d496c249d38e7f2080178731e5|"
+msgstr ""
+
+#: 
+msgid "d33be5d496c249d38e7f2080178731e5"
+msgstr ""
+
+#: 
+msgid "|fe4f3b9047e34d1fa0ad0f68969a3913|"
+msgstr ""
+
+#: 
+msgid "fe4f3b9047e34d1fa0ad0f68969a3913"
+msgstr ""
+
+#: 
+msgid "|438f5fdc675f46e69134dec7eebffd82|"
+msgstr ""
+
+#: 
+msgid "|eac8691dc3234697bc8916485522cb03|"
+msgstr ""
+
+#: 
+msgid "|fe712d3b5d124b63972c070be3cfbe2d|"
+msgstr ""
+
+#: 
+msgid "|ba0aeadd7c2a4fc3b9b5187b0eb9edff|"
+msgstr ""
+
+#: 
+msgid "|fafce3a0487740048f9dc20a9b8a2094|"
+msgstr ""
+
+#: 
+msgid "|38f434bf5be248558ad7abb0b8b80126|"
+msgstr ""
+
+#: 
+msgid "|34bbfccdf30d46368bee1b96cafcb8c7|"
+msgstr ""
+
+#: 
+msgid "|929ae5d77b3c4663b71770b7487a752f|"
+msgstr ""
+
+#: 
+msgid "|49b1df328fee4ed7a34c35bb5fc6fc73|"
+msgstr ""
+
+#: 
+msgid "|3d2392856ef9499583240f81321d305c|"
+msgstr ""
+
+#: 
+msgid "|63d66e7d0b114f4e854db69eb44cd280|"
+msgstr ""
+
+#: 
+msgid "|64f0394d22124ebca28e8be03e365ce0|"
+msgstr ""
+
+#: 
+msgid "|2de5849d49dd4652a1914d5309849b0b|"
+msgstr ""
+
+#: 
+msgid "|585f000441b04fcf972ac38856ebad77|"
+msgstr ""
+
+#: 
+msgid "|206f1cb692304ca1927bdd894cd3e2aa|"
+msgstr ""
+
+#: 
+msgid "|cc7326da338e436dbb3b29b0733c86ff|"
+msgstr ""
+
+#: 
+msgid "|7feb19f994b14813a94724bc1d187f01|"
+msgstr ""
+
+#: 
+msgid "|91db61a0db134e2da5290f7d16dd32e0|"
+msgstr ""
+
+#: 
+msgid "|856d553fa40344c3816a8c1e1f73805f|"
+msgstr ""
+
+#: 
+msgid "|7087117a83c8433498d78e79740f98b9|"
+msgstr ""
+
+#: 
+msgid "|8590fc8e25174b0badf06dca8fae704a|"
+msgstr ""
+
+#: 
+msgid "|3b4f936fb21b4b809b4a3ae76a36c5b1|"
+msgstr ""
+
+#: 
+msgid "|f9a46b24ea354dc19ddf10203e9e2ba4|"
+msgstr ""
+
+#: 
+msgid "|118fecebbff44448866bdc4afd5f8b9f|"
+msgstr ""
+
+#: 
+msgid "|7db8913f0dd141a082398d2a437726f0|"
+msgstr ""
+
+#: 
+msgid "|2f48ca1888ec4bd98beb361256ea31e8|"
+msgstr ""
+
+#: 
+msgid "|151f2251d64847ee9050f3acfb44c28f|"
+msgstr ""
+
+#: 
+msgid "|d9b6f2b15f024d88a9d1f510b84e5abc|"
+msgstr ""
+
+#: 
+msgid "|d64636a7392c473e9ee631b9f9ebc1c7|"
+msgstr ""
+
+#: 
+msgid "|e87d6e11a3ad41ad9ac0d0c444d3e059|"
+msgstr ""
+
+#: 
+msgid "|8fbf6c4904664b21ab08124b357aa522|"
+msgstr ""
+
+#: 
+msgid "|d11057fa493b4d3981ce923a57a3d9dd|"
+msgstr ""
+
+#: 
+msgid "|584f66aef80e47c8a83a4361466337e4|"
+msgstr ""
+
+#: 
+msgid "|ccd04b7d6ba74e3eb197ef2562e6e2a7|"
+msgstr ""
+
+#: 
+msgid "|c4be6b861156493b8cc3c3129ed51c16|"
+msgstr ""
+
+#: 
+msgid "|1bb0a5bbaad14b67a3537e36ae490dfd|"
+msgstr ""
+
+#: 
+msgid "|b37a433246b444289ff1841c6a126496|"
+msgstr ""
+
+#: 
+msgid "|4f739a9b63f8410abb81ebae3a54d4de|"
+msgstr ""
+
+#: 
+msgid "|fca3516cf5dd4341b1d76ff3cd0a541c|"
+msgstr ""
+
+#: 
+msgid "|b81fb2c78ca842e3b1e2e7f1bb349625|"
+msgstr ""
+
+#: 
+msgid "|4e35d3372c1343869fbb6e0abf0692bb|"
 msgstr ""
 
