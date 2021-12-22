@@ -5,8 +5,8 @@
 <script>
     jQuery(document).ready(function() {
         jQuery("a[href^='http']").attr('target','_blank');
-        jQuery(".wy-breadcrumbs").after(
-            '<a href="/en/latest/">English</a> | <a href="/fr/latest/">Français</a> | '
+        jQuery(".wy-breadcrumbs").before(
+            '<div class="lang-picker"> | <a href="/en/latest/">English</a> | <a href="/fr/latest/">Français</a></div>'
         );
     });
 </script>
