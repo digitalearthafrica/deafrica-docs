@@ -163,5 +163,28 @@ Land and water
        :doc:`More <Fractional_Cover_specs>`
 
 
+About the data
+----------------
+
+.. toctree::
+   :caption: About the data
+   :hidden:
+   :maxdepth: 1
+
+   Landsat_tiers
+
+
+.. container:: product-list
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/tiers_thumbnail.png
+
+       :doc:`Landsat_tiers`
+
+       Information about Landsat Collection 2 data tiers.
+
+       :doc:`More <Landsat_tiers>`
+
 If you have any feedback for the DE Africa data and services, please contact us at 
 helpdesk@digitalearthafrica.org.
