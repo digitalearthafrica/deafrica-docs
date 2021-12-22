@@ -85,6 +85,12 @@ div.document a:visited {
     color: #FF6633;
 }
 
+
+.lang-picker {
+    float: right;
+    padding-top: 5px;
+}
+
 /*.platform {*/
 /*    transition: all 0.4s ease-in-out;*/
 /*    border-radius: 5px;*/
