@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: Digital Earth Africa\n"
+"Project-Id-Version: Digital Earth Africa Docs\n"
 "Language: fr\n"
 
 #: 
@@ -5314,7 +5314,33 @@ msgstr "Tableau bidimensionnel ou multidimensionnel contenant les bandes spectra
 
 #: 
 msgid "A string giving the name of the index to calculate or a list of strings giving the names of the indices to calculate:  * ``'AWEI_ns'`` (Automated Water Extraction Index, no shadows, Feyisa 2014) * ``'AWEI_sh'`` (Automated Water Extraction Index, shadows, Feyisa 2014) * ``'BAEI'`` (Built-Up Area Extraction Index, Bouzekri et al. 2015) * ``'BAI'`` (Burn Area Index, Martin 1998) * ``'BSI'`` (Bare Soil Index, Rikimaru et al. 2002) * ``'BUI'`` (Built-Up Index, He et al. 2010) * ``'CMR'`` (Clay Minerals Ratio, Drury 1987) * ``'ENDISI'`` (Enhanced Normalised Difference for Impervious Surfaces Index, Chen et al. 2019) * ``'EVI'`` (Enhanced Vegetation Index, Huete 2002) * ``'FMR'`` (Ferrous Minerals Ratio, Segal 1982) * ``'IOR'`` (Iron Oxide Ratio, Segal 1982) * ``'LAI'`` (Leaf Area Index, Boegh 2002) * ``'MNDWI'`` (Modified Normalised Difference Water Index, Xu 1996) * ``'MSAVI'`` (Modified Soil Adjusted Vegetation Index, Qi et al. 1994) * ``'NBI'`` (New Built-Up Index, Jieli et al. 2010) * ``'NBR'`` (Normalised Burn Ratio, Lopez Garcia 1991) * ``'NDBI'`` (Normalised Difference Built-Up Index, Zha 2003) * ``'NDCI'`` (Normalised Difference Chlorophyll Index, Mishra & Mishra, 2012) * ``'NDMI'`` (Normalised Difference Moisture Index, Gao 1996) * ``'NDSI'`` (Normalised Difference Snow Index, Hall 1995) * ``'NDVI'`` (Normalised Difference Vegetation Index, Rouse 1973) * ``'NDWI'`` (Normalised Difference Water Index, McFeeters 1996) * ``'SAVI'`` (Soil Adjusted Vegetation Index, Huete 1988) * ``'TCB'`` (Tasseled Cap Brightness, Crist 1985) * ``'TCG'`` (Tasseled Cap Greeness, Crist 1985) * ``'TCW'`` (Tasseled Cap Wetness, Crist 1985) * ``'WI'`` (Water Index, Fisher 2016)"
-msgstr "Une chaîne de caractères donnant le nom de l'indice à calculer ou une liste de chaînes de caractères donnant les noms des indices à calculer :  * ``'AWEI_ns'`` (Indice d'extraction d'eau automatisé, sans ombres, Feyisa 2014) * ``'AWEI_sh'`` (Indice d'extraction d'eau automatisé, ombres, Feyisa 2014) * ``'BAEI'`` (Indice d'extraction d'aire bâtie, Bouzekri et al. 2015) * ``'BAI'`` (Burn Area Index, Martin 1998) * ``'BSI'`` (Bare Soil Index, Rikimaru et al. 2002) * ``'BUI'`` (Built-Up Index, He et al. 2010) * ``'CMR'`` (Clay Minerals Ratio, Drury 1987) * ``'ENDISI'`` (Enhanced Normalised Difference for Impervious Surfaces Index, Chen et al. 2019) * ``'EVI'`` (Enhanced Vegetation Index, Huete 2002) * ``'FMR'`` (Ferrous Minerals Ratio, Segal 1982) * ``'IOR'`` (Iron Oxide Ratio, Segal 1982) * ``'LAI'`` (Leaf Area Index, Boegh 2002) * ``'MNDWI'`` (Modified Normalised Difference Water Index, Xu 1996) * ``'MSAVI'`` (Modified Soil Adjusted Vegetation Index, Qi et al. 1994) * ``'NBI'`` (New Built-Up Index, Jieli et al. 2010) * ``'NBR'`` (Normalised Burn Ratio, Lopez Garcia 1991) * ``'NDBI'`` (Normalised Difference Built-Up Index, Zha 2003) * ``'NDCI'`` (Normalised Difference Chlorophyll Index, Mishra & Mishra, 2012) * ``'NDMI'`` (Indice d'humidité par différence normalisée, Gao 1996) * ``'NDSI'`` (Indice de neige par différence normalisée, Hall 1995) * ``'NDVI'`` (Indice de végétation par différence normalisée, Rouse 1973) * ``'NDWI'`` (Normalised Difference Water Index, McFeeters 1996) * ``'SAVI'`` (Soil Adjusted Vegetation Index, Huete 1988) * ``'TCB'`` (Tasseled Cap Brightness, Crist 1985) * ``'TCG'`` (Tasseled Cap Greeness, Crist 1985) * ``'TCW'`` (Tasseled Cap Wetness, Crist 1985) * ``'WI'`` (Water Index, Fisher 2016)"
+msgstr "Une chaîne de caractères donnant le nom de l'indice à calculer ou une liste de chaînes de caractères donnant les noms des indices à calculer:\n"
+"\n"
+"  * ``'AWEI_ns'`` (Indice d'extraction d'eau automatisé, sans ombres, Feyisa 2014)\n"
+" * ``'AWEI_sh'`` (Indice d'extraction d'eau automatisé, ombres, Feyisa 2014)\n"
+" * ``'BAEI'`` (Indice d'extraction d'aire bâtie, Bouzekri et al. 2015)\n"
+" * ``'BAI'`` (Burn Area Index, Martin 1998) * ``'BSI'`` (Bare Soil Index, Rikimaru et al. 2002) * ``'BUI'`` (Built-Up Index, He et al. 2010)\n"
+" * ``'CMR'`` (Clay Minerals Ratio, Drury 1987)\n"
+" * ``'ENDISI'`` (Enhanced Normalised Difference for Impervious Surfaces Index, Chen et al. 2019)\n"
+" * ``'EVI'`` (Enhanced Vegetation Index, Huete 2002)\n"
+" * ``'FMR'`` (Ferrous Minerals Ratio, Segal 1982)\n"
+" * ``'IOR'`` (Iron Oxide Ratio, Segal 1982)\n"
+" * ``'LAI'`` (Leaf Area Index, Boegh 2002)\n"
+" * ``'MNDWI'`` (Modified Normalised Difference Water Index, Xu 1996)\n"
+" * ``'MSAVI'`` (Modified Soil Adjusted Vegetation Index, Qi et al. 1994)\n"
+" * ``'NBI'`` (New Built-Up Index, Jieli et al. 2010)\n"
+" * ``'NBR'`` (Normalised Burn Ratio, Lopez Garcia 1991)\n"
+" * ``'NDBI'`` (Normalised Difference Built-Up Index, Zha 2003)\n"
+" * ``'NDCI'`` (Normalised Difference Chlorophyll Index, Mishra & Mishra, 2012)\n"
+" * ``'NDMI'`` (Indice d'humidité par différence normalisée, Gao 1996)\n"
+" * ``'NDSI'`` (Indice de neige par différence normalisée, Hall 1995)\n"
+" * ``'NDVI'`` (Indice de végétation par différence normalisée, Rouse 1973)\n"
+" * ``'NDWI'`` (Normalised Difference Water Index, McFeeters 1996)\n"
+" * ``'SAVI'`` (Soil Adjusted Vegetation Index, Huete 1988)\n"
+" * ``'TCB'`` (Tasseled Cap Brightness, Crist 1985)\n"
+" * ``'TCG'`` (Tasseled Cap Greeness, Crist 1985)\n"
+" * ``'TCW'`` (Tasseled Cap Wetness, Crist 1985)\n"
+" * ``'WI'`` (Water Index, Fisher 2016)"
 
 #: 
 msgid "A string giving the name of the index to calculate or a list of strings giving the names of the indices to calculate:"
@@ -23075,7 +23101,14 @@ msgstr "Nom de la mesure pour la bande de polarisation croisée. La valeur par d
 
 #: 
 msgid "A string giving the name of the index to calculate or a list of strings giving the names of the indices to calculate:  * ``'RVI'`` (Radar Vegetation Index for dual-pol, Trudel et al. 2012; Nasirzadehdizaji et al., 2019; Gururaj et al., 2019) * ``'VDDPI'`` (Vertical dual depolarization index, Periasamy 2018) * ``'theta'`` (pseudo scattering-type, Bhogapurapu et al. 2021) * ``'entropy'`` (pseudo scattering entropy, Bhogapurapu et al. 2021) * ``'purity'`` (co-pol purity, Bhogapurapu et al. 2021) * ``'ratio'`` (cross-pol/co-pol ratio)"
-msgstr "Une chaîne de caractères donnant le nom de l'indice à calculer ou une liste de chaînes de caractères donnant les noms des indices à calculer :  * ``'RVI'`` (Radar Vegetation Index for dual-pol, Trudel et al. 2012 ; Nasirzadehdizaji et al., 2019 ; Gururaj et al, 2019) * ``'VDDPI'`` (Vertical dual depolarization index, Periasamy 2018) * `'theta'`` (pseudo scattering-type, Bhogapurapu et al. 2021) * `'entropy'`` (pseudo scattering entropy, Bhogapurapu et al. 2021) * `'purity'`` (co-pol purity, Bhogapurapu et al. 2021) * `'ratio'`` (cross-pol/co-pol ratio)"
+msgstr "Une chaîne de caractères donnant le nom de l'indice à calculer ou une liste de chaînes de caractères donnant les noms des indices à calculer:  \n"
+"\n"
+"* ``'RVI'`` (Radar Vegetation Index for dual-pol, Trudel et al. 2012 ; Nasirzadehdizaji et al., 2019 ; Gururaj et al, 2019)\n"
+"* ``'VDDPI'`` (Vertical dual depolarization index, Periasamy 2018)\n"
+"* `'theta'`` (pseudo scattering-type, Bhogapurapu et al. 2021) \n"
+"* `'entropy'`` (pseudo scattering entropy, Bhogapurapu et al. 2021) \n"
+"* `'purity'`` (co-pol purity, Bhogapurapu et al. 2021) \n"
+"* `'ratio'`` (cross-pol/co-pol ratio)"
 
 #: 
 msgid "``'RVI'`` (Radar Vegetation Index for dual-pol, Trudel et al. 2012; Nasirzadehdizaji et al., 2019; Gururaj et al., 2019)"
@@ -44915,5 +44948,741 @@ msgstr ""
 
 #: 
 msgid "|0e227664f276486090a6f7ece1b34142|"
+msgstr ""
+
+#: 
+msgid "|70d6f99d0ca247a6aa2dd40c3e80355e|"
+msgstr ""
+
+#: 
+msgid "|d6abe5b7a4b841d2ba6c637007c3eb15|"
+msgstr ""
+
+#: 
+msgid "d6abe5b7a4b841d2ba6c637007c3eb15"
+msgstr ""
+
+#: 
+msgid "|43b2d13da86f4e9db03f47b8383c1815|"
+msgstr ""
+
+#: 
+msgid "43b2d13da86f4e9db03f47b8383c1815"
+msgstr ""
+
+#: 
+msgid "|6370d015c1994ec8a0da7fb5c7352729|"
+msgstr ""
+
+#: 
+msgid "6370d015c1994ec8a0da7fb5c7352729"
+msgstr ""
+
+#: 
+msgid "|41bb45b5ca5e434ea87f04d1ae2396a0|"
+msgstr ""
+
+#: 
+msgid "41bb45b5ca5e434ea87f04d1ae2396a0"
+msgstr ""
+
+#: 
+msgid "|91f03bb4c84a48858a21f6d102814612|"
+msgstr ""
+
+#: 
+msgid "91f03bb4c84a48858a21f6d102814612"
+msgstr ""
+
+#: 
+msgid "|40fe942df6c348a287d26448cbf78621|"
+msgstr ""
+
+#: 
+msgid "40fe942df6c348a287d26448cbf78621"
+msgstr ""
+
+#: 
+msgid "|570dab7289424ceb9bb1f61e5b2299e4|"
+msgstr ""
+
+#: 
+msgid "570dab7289424ceb9bb1f61e5b2299e4"
+msgstr ""
+
+#: 
+msgid "|f7c9fb797c044c47ae14456362946a1d|"
+msgstr ""
+
+#: 
+msgid "f7c9fb797c044c47ae14456362946a1d"
+msgstr ""
+
+#: 
+msgid "|4ca070dfed194af0974a6d27126b585d|"
+msgstr ""
+
+#: 
+msgid "4ca070dfed194af0974a6d27126b585d"
+msgstr ""
+
+#: 
+msgid "|b7b11854eb1e470ea93eab2fbac5caac|"
+msgstr ""
+
+#: 
+msgid "b7b11854eb1e470ea93eab2fbac5caac"
+msgstr ""
+
+#: 
+msgid "|21f1133b20e64676ab16f5f6e500b4f3|"
+msgstr ""
+
+#: 
+msgid "|3f52ec7bc6c845299553262953ac4fd5|"
+msgstr ""
+
+#: 
+msgid "|6109169198d24ffdb48594726e6e20c0|"
+msgstr ""
+
+#: 
+msgid "6109169198d24ffdb48594726e6e20c0"
+msgstr ""
+
+#: 
+msgid "|9f1ef74714474e3b9d0d018a8c5bee7d|"
+msgstr ""
+
+#: 
+msgid "|6c4dc63e924f47e88ab082619822d3a0|"
+msgstr ""
+
+#: 
+msgid "|cb48359fbebf426c8652cd07941f8ef8| |0af9cc9115d44fd9b6c296d5966833ea|"
+msgstr ""
+
+#: 
+msgid "|76ee5ab8b53a463ea912a9e4fccf6039| |1ac3e88fadb74dc0be5ee35230c38a08|"
+msgstr ""
+
+#: 
+msgid "76ee5ab8b53a463ea912a9e4fccf6039"
+msgstr ""
+
+#: 
+msgid "1ac3e88fadb74dc0be5ee35230c38a08"
+msgstr ""
+
+#: 
+msgid "|9bd968be5e254bbc8cb973e685f5ef50|"
+msgstr ""
+
+#: 
+msgid "|0bbf446804e34a7d89f59f2cae3aa1a1|"
+msgstr ""
+
+#: 
+msgid "|b2da4b4e4a3c40e8bd5efd0f1d5f8fab|"
+msgstr ""
+
+#: 
+msgid "|35f4fd0f93d148048f1d1ebbc6a760af|"
+msgstr ""
+
+#: 
+msgid "|20dd5dca6ea148b1b88e09f169e8195c|"
+msgstr ""
+
+#: 
+msgid "|1b5f4685448147e2a697e190c62ef0bd|"
+msgstr ""
+
+#: 
+msgid "|7003ec50fa9e4db49b1f82d102c2b376|"
+msgstr ""
+
+#: 
+msgid "|5d018c4d47be4333a333818ea5ef7551|"
+msgstr ""
+
+#: 
+msgid "|c37e55aa231740ad8e8c9d6b8d1b5817|"
+msgstr ""
+
+#: 
+msgid "|bfa3684eada1402785d0291870e96363|"
+msgstr ""
+
+#: 
+msgid "|54cd3354238b4c67a11598353ba74f1e|"
+msgstr ""
+
+#: 
+msgid "|b47fc7ce7df440219c47cc9ea8a8e48a|"
+msgstr ""
+
+#: 
+msgid "|f5c3a7bc83a24189960b4d1b640ddf17|"
+msgstr ""
+
+#: 
+msgid "|20dddb605bf04d6eb842536cdfd52b34|"
+msgstr ""
+
+#: 
+msgid "|7b947415ca5d4f778e2021c8f1870fa9|"
+msgstr ""
+
+#: 
+msgid "|164577e1e3024d5f9cb32e7ff9deb047|"
+msgstr ""
+
+#: 
+msgid "|f29a881cade04fba8f3158220ed6a076|"
+msgstr ""
+
+#: 
+msgid "|c1acb4fb523443e18eefe3dab96a7846|"
+msgstr ""
+
+#: 
+msgid "|f91f3e42582041ed973a31e8a7bb897f|"
+msgstr ""
+
+#: 
+msgid "|66c6f328b6274e139c680f16ed4cdb1b|"
+msgstr ""
+
+#: 
+msgid "|420834aec53f4af8abb3f7be30bfc72e|"
+msgstr ""
+
+#: 
+msgid "|0dd8ebabf66f493fb54f7fcdcc1bae85|"
+msgstr ""
+
+#: 
+msgid "|ffb8e47c854a49acb9cd24d5871193b0|"
+msgstr ""
+
+#: 
+msgid "|d3716ae5fc1e4e048524c5becebc049b|"
+msgstr ""
+
+#: 
+msgid "|2211a7f1de234f0f89267b0e0557f191|"
+msgstr ""
+
+#: 
+msgid "|a3cf5aec2bec4c76b63b1e9bec7ed58d|"
+msgstr ""
+
+#: 
+msgid "|2fc6102516fb4e01aca6c76692da656b|"
+msgstr ""
+
+#: 
+msgid "|8774eed2934a4ed28e1150ea42dd013d|"
+msgstr ""
+
+#: 
+msgid "|0718e960af0e4b7aba33a95952938376|"
+msgstr ""
+
+#: 
+msgid "|a33ba02884bd4ce984d94b0ff9dc7cd2|"
+msgstr ""
+
+#: 
+msgid "|b7412af0db5148d2b24d54de9c43605c|"
+msgstr ""
+
+#: 
+msgid "|d4fa84ef94754dee83cfd45f432cda6f|"
+msgstr ""
+
+#: 
+msgid "|f94a15be98db4a1fad4584d886d963d8|"
+msgstr ""
+
+#: 
+msgid "|73ae796b5375476eba1a5707e4c55f07|"
+msgstr ""
+
+#: 
+msgid "|e689c91cb40c439b8c2d9e25ef97824d|"
+msgstr ""
+
+#: 
+msgid "|cdf9c6dd42a24366b0eeb7317a4defd0|"
+msgstr ""
+
+#: 
+msgid "|24e4c6bf1acc456ba07e903c400c5864|"
+msgstr ""
+
+#: 
+msgid "|3b73a37f69fd4dfb968baa85b6c1081a|"
+msgstr ""
+
+#: 
+msgid "|2a8cf17fc40043d685195bc11d822ecc|"
+msgstr ""
+
+#: 
+msgid "|c5f1d8c10722408eadb77bddc770832c|"
+msgstr ""
+
+#: 
+msgid "|ab3405fe442f4584a4536a50f3f145d0|"
+msgstr ""
+
+#: 
+msgid "|f4385e3b70794af7aa50976e2e8433e6|"
+msgstr ""
+
+#: 
+msgid "|866dcc603fdf4fedbed93a5a507199f6|"
+msgstr ""
+
+#: 
+msgid "|d4968028925d42af8c0548d025a1c934|"
+msgstr ""
+
+#: 
+msgid "|be885a05892042f2a9a52d15283d0d1b|"
+msgstr ""
+
+#: 
+msgid "|a7719dd0bcda4306b99422002cbf5211|"
+msgstr ""
+
+#: 
+msgid "|22b01a4996ef44d3a969ae291b0d4a63|"
+msgstr ""
+
+#: 
+msgid "|8df07d905a0c4d2d92ae5b0049bac6dd|"
+msgstr ""
+
+#: 
+msgid "|e09ca6aae0f74f5392fc22feae95ddeb|"
+msgstr ""
+
+#: 
+msgid "|04ee39bec2f049fca78db9b74bd1310e|"
+msgstr ""
+
+#: 
+msgid "|66c6280c9a354ed289fee6493f56fef8|"
+msgstr ""
+
+#: 
+msgid "|e8132536c6644a1bbfdf29db473ad1a8|"
+msgstr ""
+
+#: 
+msgid "|38e132897fed42cd9649226c972b69a2|"
+msgstr ""
+
+#: 
+msgid "|fa8441bd298445d799eb2a23f79b92b3|"
+msgstr ""
+
+#: 
+msgid "|d7b67693b2664ae58ae2e51c3b55dda1|"
+msgstr ""
+
+#: 
+msgid "|a272b431fea546a0bd6329491920f89b|"
+msgstr ""
+
+#: 
+msgid "|1bf7eab4787e4b37b313516f908fd39c|"
+msgstr ""
+
+#: 
+msgid "|37ddbda0c79a412d9bd83f86edb7bc48|"
+msgstr ""
+
+#: 
+msgid "|4fc9ac794d8146acb1bf3dc971a5013e|"
+msgstr ""
+
+#: 
+msgid "|c9462dc04f3b4a089acd9eb2db26d091|"
+msgstr ""
+
+#: 
+msgid "|8f6db8760fb4449fb6ea3dd57b62d663|"
+msgstr ""
+
+#: 
+msgid "|1db7034618cb48a78fa9ba569747ef85|"
+msgstr ""
+
+#: 
+msgid "|ce6a0b20352446e1af7bb448d080b82b|"
+msgstr ""
+
+#: 
+msgid "|32c5fe4efad84f1eb6b9dc02cb05bd5b|"
+msgstr ""
+
+#: 
+msgid "|45dcf8d52985452cb6f70a48ae90c724|"
+msgstr ""
+
+#: 
+msgid "|4d86b1faabbb481087e3b2f1ca60f450|"
+msgstr ""
+
+#: 
+msgid "|1609ef11a9034522a3e29dc06ed3379f|"
+msgstr ""
+
+#: 
+msgid "|4e12af313d054592a211638bcfa9f44a|"
+msgstr ""
+
+#: 
+msgid "|9857a34da7a947d39f6f723a0176b823|"
+msgstr ""
+
+#: 
+msgid "|105590fdf0b94ac9bf1dbd2cd068c1cc|"
+msgstr ""
+
+#: 
+msgid "|1ca717ca310c4b49b381bc6eed577983|"
+msgstr ""
+
+#: 
+msgid "|66ab49e7406e41a2a661d1ca6516a420|"
+msgstr ""
+
+#: 
+msgid "|6de48bde0af843429eab8ee6e9c2221d|"
+msgstr ""
+
+#: 
+msgid "|a3e5bb12fcda47798585cbae17ff2bc2|"
+msgstr ""
+
+#: 
+msgid "|25be6704785e4f7795112746e5b3f01d|"
+msgstr ""
+
+#: 
+msgid "|88829153837b4c4996a666de642503e5|"
+msgstr ""
+
+#: 
+msgid "|ca097ba7715845a4a111e2df6ea2cbdb|"
+msgstr ""
+
+#: 
+msgid "|3dd3151589344ca6b4a6123dceb45c3f|"
+msgstr ""
+
+#: 
+msgid "|a7a8ae6ecdab4e2d9dfd770b86d0a893|"
+msgstr ""
+
+#: 
+msgid "a7a8ae6ecdab4e2d9dfd770b86d0a893"
+msgstr ""
+
+#: 
+msgid "|1ea8a020395a41a5b5300ef92dfa8417|"
+msgstr ""
+
+#: 
+msgid "|c67a16f0a723400a86abb66f4e5853ec|"
+msgstr ""
+
+#: 
+msgid "ALOS/ALOS-2 PALSAR/PALSAR-2 Annual Mosaics |2bc14b2ef2224948b8e1e9dca9a59c7a|"
+msgstr ""
+
+#: 
+msgid "2bc14b2ef2224948b8e1e9dca9a59c7a"
+msgstr ""
+
+#: 
+msgid "|b010afa9464b4455944e917e74135e0f|"
+msgstr ""
+
+#: 
+msgid "b010afa9464b4455944e917e74135e0f"
+msgstr ""
+
+#: 
+msgid "|973ada0478064dc89d5fa4163e250677|"
+msgstr ""
+
+#: 
+msgid "973ada0478064dc89d5fa4163e250677"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Reflectance |9554efc51a7a4e19bd9503078506bf57|"
+msgstr ""
+
+#: 
+msgid "9554efc51a7a4e19bd9503078506bf57"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Temperature |6ca5b4020a624fcda5111277c8784167|"
+msgstr ""
+
+#: 
+msgid "6ca5b4020a624fcda5111277c8784167"
+msgstr ""
+
+#: 
+msgid "Sentinel-1 |e41cc29805c6494596bc027264b73952|"
+msgstr ""
+
+#: 
+msgid "e41cc29805c6494596bc027264b73952"
+msgstr ""
+
+#: 
+msgid "Sentinel-2 |bf3b745c0c2d4e018332e59bc7d81a6f|"
+msgstr ""
+
+#: 
+msgid "bf3b745c0c2d4e018332e59bc7d81a6f"
+msgstr ""
+
+#: 
+msgid "Displaying satellite imagery on a web map |a6e24a0a7ea047dca4565228650ee25d|"
+msgstr ""
+
+#: 
+msgid "a6e24a0a7ea047dca4565228650ee25d"
+msgstr ""
+
+#: 
+msgid "|68ec919917fb436e8ac88bfacc17ecd4|"
+msgstr ""
+
+#: 
+msgid "68ec919917fb436e8ac88bfacc17ecd4"
+msgstr ""
+
+#: 
+msgid "Water detection with Sentinel-1 |422bc4dc484c4250a7d96261cd47b347|"
+msgstr ""
+
+#: 
+msgid "422bc4dc484c4250a7d96261cd47b347"
+msgstr ""
+
+#: 
+msgid "|f2907d28a44742b9b7e5c2fcec2d76f9|"
+msgstr ""
+
+#: 
+msgid "f2907d28a44742b9b7e5c2fcec2d76f9"
+msgstr ""
+
+#: 
+msgid "|b27f46115d164124a1a988c5bf655761|"
+msgstr ""
+
+#: 
+msgid "b27f46115d164124a1a988c5bf655761"
+msgstr ""
+
+#: 
+msgid "|089b0377968c48b2a83a6b3891efbe7e|"
+msgstr ""
+
+#: 
+msgid "089b0377968c48b2a83a6b3891efbe7e"
+msgstr ""
+
+#: 
+msgid "|9f91a6d0ff6c4d529b6c8f82dbeaba5d|"
+msgstr ""
+
+#: 
+msgid "9f91a6d0ff6c4d529b6c8f82dbeaba5d"
+msgstr ""
+
+#: 
+msgid "|a1422a0a190443d8847acf335ca7c730|"
+msgstr ""
+
+#: 
+msgid "a1422a0a190443d8847acf335ca7c730"
+msgstr ""
+
+#: 
+msgid "|d367d2d2a95846c49b578a6f5664fdea|"
+msgstr ""
+
+#: 
+msgid "|7d80ce6804b142d98666d8b53a5244bf|"
+msgstr ""
+
+#: 
+msgid "|253989095ece483a97eba285ce4854e2|"
+msgstr ""
+
+#: 
+msgid "|ee984f9b637f471eba166bb5e65e97e5|"
+msgstr ""
+
+#: 
+msgid "|3188d6f9ab494be584c115ca7c7fbc11|"
+msgstr ""
+
+#: 
+msgid "|b3828526df1048fb88a4387bbf6e7634|"
+msgstr ""
+
+#: 
+msgid "|fc6e3882e58f400d8f80b75e80304265|"
+msgstr ""
+
+#: 
+msgid "|10bdc625e08544afb8d6c9e9509dd4a2|"
+msgstr ""
+
+#: 
+msgid "|f1623c8c13c643189fbfb8d5de10247f|"
+msgstr ""
+
+#: 
+msgid "|7638f77af27046218b42ad0ec2e3036d|"
+msgstr ""
+
+#: 
+msgid "|25ac29cd94b34015a763a9195221a945|"
+msgstr ""
+
+#: 
+msgid "|7d8752edce904e2a934e443cba15de9a|"
+msgstr ""
+
+#: 
+msgid "|ecab5ceffe81444ea57ead9d54cc49ae|"
+msgstr ""
+
+#: 
+msgid "|4e509a0d37b848dab545eed4af231e43|"
+msgstr ""
+
+#: 
+msgid "|61f1a3ca9fb647de91f4498c9d475028|"
+msgstr ""
+
+#: 
+msgid "|f193c47e414b4d439fa6c1199166082b|"
+msgstr ""
+
+#: 
+msgid "|a2d67468543f467ba999cbf39f47e4d3|"
+msgstr ""
+
+#: 
+msgid "|2bae05c39e49418586bb0befca6af183|"
+msgstr ""
+
+#: 
+msgid "|f2487c0e34554cbd9da7f2783307d707|"
+msgstr ""
+
+#: 
+msgid "|efd38678b3a9474dbb35c7ccf1211ac7|"
+msgstr ""
+
+#: 
+msgid "|a5e6f7d145174a069128d42d4498e148|"
+msgstr ""
+
+#: 
+msgid "|801492ab8601418eb2156a7dc291cc5a|"
+msgstr ""
+
+#: 
+msgid "|4cd41c99ea674d44b681a873aad3b768|"
+msgstr ""
+
+#: 
+msgid "|b688a92fce3649ffa34cb95f6039e3a6|"
+msgstr ""
+
+#: 
+msgid "|7705d31586d841779a1c22a609cdc39c|"
+msgstr ""
+
+#: 
+msgid "|793180f7e4ee474987e172eaf6a5e358|"
+msgstr ""
+
+#: 
+msgid "|5dfb252ddc584688b7936b795c0d374a|"
+msgstr ""
+
+#: 
+msgid "|57c7a946862e4c47bcbe0c0e8c7a41e6|"
+msgstr ""
+
+#: 
+msgid "|c784c113eaec41179e50aca03a20337f|"
+msgstr ""
+
+#: 
+msgid "|0235b76f23984d8d87bea215ed358353|"
+msgstr ""
+
+#: 
+msgid "|25695f2b225f43c485a046430eda113b|"
+msgstr ""
+
+#: 
+msgid "|f28be8adc779415eb079da37737f35ba|"
+msgstr ""
+
+#: 
+msgid "|19661340ac304918b9c46ea84484f4e5|"
+msgstr ""
+
+#: 
+msgid "|34f8fc124e1546c8957226e6d377fb37|"
+msgstr ""
+
+#: 
+msgid "|429f2662d49d4a6481107d78587501e8|"
+msgstr ""
+
+#: 
+msgid "|82bcecc2ae64458f89802940b8a4d992|"
+msgstr ""
+
+#: 
+msgid "|1daaa472b6d24e3fa082bceb5e94fa24|"
+msgstr ""
+
+#: 
+msgid "|9a6da66fcab14883aa6cbcd8d3aa91ce|"
+msgstr ""
+
+#: 
+msgid "|8c44aa6a0f2b4eeea2ca92e0b0116ff7|"
+msgstr ""
+
+#: 
+msgid "|eea2a916bebe4595862457301e59ede8|"
+msgstr ""
+
+#: 
+msgid "|bcc305f0a9704fe5806723bafefe6b47|"
 msgstr ""
 
