@@ -32,7 +32,7 @@ on your user experience to Helpdesk@digitalearthafrica.org.
 
 1. You agree not to use this service to knowingly run malicious code. You agree not to exploit the platform by running applications that are not related to Earth observation data exploration. 
 
-2. We define an account as inactive after no usage for 6 months. 
+2. We define an account as inactive after no usage for 3 months. 
 
 3. We reserve the right to remove the data of inactive accounts. After this data is removed, new logins will result in a fresh environment.  
 

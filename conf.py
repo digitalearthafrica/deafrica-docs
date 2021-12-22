@@ -35,10 +35,11 @@ extensions = [
     "sphinx.ext.napoleon",
     "nbsphinx",
     "sphinx_rtd_theme",
+    "sphinx.ext.autosectionlabel",
 ]
 
 # Autodoc conf
-autosummary_generate = ['sandbox/api.rst']
+autosummary_generate = ['sandbox/notebooks/Tools/index.rst']
 autodoc_default_options = {
     'members': True,
 }
@@ -78,10 +79,12 @@ autodoc_mock_imports = ['aiohttp',
                         'rios',
                         'rsgislib',
                         'scipy',
+                        'seaborn',
                         'shapely',
                         'skimage',
                         'sklearn',
                         'tqdm',
+                        'traitlets',
                         'xarray']
 autosummary_mock_imports = autodoc_mock_imports
 
@@ -116,7 +119,6 @@ try:
     html_theme_options = {
         'logo_only': True,
         'display_version': False,
-        'canonical_url': 'https://docs.digitalearthafrica.org/',
     }
 except ImportError:
     html_theme = 'alabaster'
