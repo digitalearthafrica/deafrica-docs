@@ -5294,7 +5294,7 @@ msgstr "Fonctions"
 
 #: 
 msgid ":obj:`calculate_indices <deafrica_tools.bandindices.calculate_indices>`\\ \\(ds\\[\\, index\\, collection\\, ...\\]\\)"
-msgstr ":obj:`calculer_indices <deafrica_tools.bandindices.calculate_indices>` \\(ds\\[\\, index\\, collection\\, ...\\]\\)"
+msgstr ":obj:`calculate_indices <deafrica_tools.bandindices.calculate_indices>`\\ \\(ds\\[\\, index\\, collection\\, ...\\]\\)"
 
 #: 
 msgid "Takes an xarray dataset containing spectral bands, calculates one of a set of remote sensing indices, and adds the resulting array as a new variable in the original dataset."
@@ -5315,7 +5315,6 @@ msgstr "Tableau bidimensionnel ou multidimensionnel contenant les bandes spectra
 #: 
 msgid "A string giving the name of the index to calculate or a list of strings giving the names of the indices to calculate:  * ``'AWEI_ns'`` (Automated Water Extraction Index, no shadows, Feyisa 2014) * ``'AWEI_sh'`` (Automated Water Extraction Index, shadows, Feyisa 2014) * ``'BAEI'`` (Built-Up Area Extraction Index, Bouzekri et al. 2015) * ``'BAI'`` (Burn Area Index, Martin 1998) * ``'BSI'`` (Bare Soil Index, Rikimaru et al. 2002) * ``'BUI'`` (Built-Up Index, He et al. 2010) * ``'CMR'`` (Clay Minerals Ratio, Drury 1987) * ``'ENDISI'`` (Enhanced Normalised Difference for Impervious Surfaces Index, Chen et al. 2019) * ``'EVI'`` (Enhanced Vegetation Index, Huete 2002) * ``'FMR'`` (Ferrous Minerals Ratio, Segal 1982) * ``'IOR'`` (Iron Oxide Ratio, Segal 1982) * ``'LAI'`` (Leaf Area Index, Boegh 2002) * ``'MNDWI'`` (Modified Normalised Difference Water Index, Xu 1996) * ``'MSAVI'`` (Modified Soil Adjusted Vegetation Index, Qi et al. 1994) * ``'NBI'`` (New Built-Up Index, Jieli et al. 2010) * ``'NBR'`` (Normalised Burn Ratio, Lopez Garcia 1991) * ``'NDBI'`` (Normalised Difference Built-Up Index, Zha 2003) * ``'NDCI'`` (Normalised Difference Chlorophyll Index, Mishra & Mishra, 2012) * ``'NDMI'`` (Normalised Difference Moisture Index, Gao 1996) * ``'NDSI'`` (Normalised Difference Snow Index, Hall 1995) * ``'NDVI'`` (Normalised Difference Vegetation Index, Rouse 1973) * ``'NDWI'`` (Normalised Difference Water Index, McFeeters 1996) * ``'SAVI'`` (Soil Adjusted Vegetation Index, Huete 1988) * ``'TCB'`` (Tasseled Cap Brightness, Crist 1985) * ``'TCG'`` (Tasseled Cap Greeness, Crist 1985) * ``'TCW'`` (Tasseled Cap Wetness, Crist 1985) * ``'WI'`` (Water Index, Fisher 2016)"
 msgstr "Une chaîne de caractères donnant le nom de l'indice à calculer ou une liste de chaînes de caractères donnant les noms des indices à calculer:\n"
-"\n"
 "  * ``'AWEI_ns'`` (Indice d'extraction d'eau automatisé, sans ombres, Feyisa 2014)\n"
 " * ``'AWEI_sh'`` (Indice d'extraction d'eau automatisé, ombres, Feyisa 2014)\n"
 " * ``'BAEI'`` (Indice d'extraction d'aire bâtie, Bouzekri et al. 2015)\n"
@@ -11576,7 +11575,7 @@ msgstr "Dans l'image ci-dessus, la végétation apparaît en vert (NDVI > 0). Le
 
 #: 
 msgid "Use the ``calculate_indices`` function to calculate an index"
-msgstr "Utilisez la fonction ``calculer_indices`` pour calculer un indice"
+msgstr "Utilisez la fonction ``calculate_indices`` pour calculer un indice"
 
 #: 
 msgid "The ``calculate_indices`` function provides an easier way to calculate a wide range of remote sensing indices, including:"
@@ -11700,7 +11699,7 @@ msgstr "La fonction fournit un moyen simple de calculer les indices de bande san
 
 #: 
 msgid "**Note**: when using the ``calculate_indices`` function, it is important to set the ``collection`` parameter correctly. This is because different satellite collections use different names for the same bands, which can lead to invalid results if not accounted for. For Sentinel-2 , specify ``collection='s2'``. For Landsat Collection 2, specify ``collection='c2'``."
-msgstr "**Note** : lorsque vous utilisez la fonction ``calculer_indices``, il est important de définir correctement le paramètre ``collection``. En effet, les différentes collections de satellites utilisent des noms différents pour les mêmes bandes, ce qui peut conduire à des résultats invalides si l'on n'en tient pas compte. Pour Sentinel-2 , spécifiez ``collection='s2'``. Pour la collection Landsat 2, spécifiez ``collection='c2'``."
+msgstr "**Note** : lorsque vous utilisez la fonction ``calculate_indices``, il est important de définir correctement le paramètre ``collection``. En effet, les différentes collections de satellites utilisent des noms différents pour les mêmes bandes, ce qui peut conduire à des résultats invalides si l'on n'en tient pas compte. Pour Sentinel-2 , spécifiez ``collection='s2'``. Pour la collection Landsat 2, spécifiez ``collection='c2'``."
 
 #: 
 msgid "Using ``calculate_indices`` to calculate multiple indices at once"
@@ -34872,7 +34871,7 @@ msgstr "**Produits utilisés :** `ls7_sr <https://explorer.digitalearth.africa/p
 
 #: 
 msgid "The parameters are: \\* ``vector_file``: The path to the shapefile or geojson that will define the analysis area of the study \\* ``products``: The products to load from the datacube, e.g. :literal:`'s2_l2a``, or`\\ ‘ls8_sr’\\ ``*``\\ time_range\\ ``: The date range to analyse (e.g.``\\ (‘2017’, ‘2019’)\\ ``. *``\\ measurements\\ ``: The spectral bands to load from the satellite product.``\\ MNDWI\\ ``requires the``\\ ‘green’\\ ``and``\\ ‘swir_1’\\ ``bands *``\\ resolution\\ ``: The pixel resolution of the satellite data.``\\ (-30,30)``for Landsat or``\\ (-10,10)``for Sentinel-2 *``\\ dask_chunks`: Chunk sizes to use for dask, the default values below are optimized for the full Okavango delta"
-msgstr "Les paramètres sont : \\* ``vector_file`` : Le chemin vers le fichier shapefile ou geojson qui définira la zone d'analyse de l'étude ``products`` : Les produits à charger à partir du cube de données, par exemple :literal:`'s2_l2a``, ou ``ls8_sr'\\ ``*`'time_range'' : La plage de dates à analyser (par exemple, ```('2017', '2019')``. *``\\ measurements\\ ``: Les bandes spectrales à charger à partir du produit satellite. MNDWI nécessite les bandes \"verte\" et \"swir_1\" : La résolution en pixels des données satellite : ``(-30,30)`` pour Landsat ou ``(-10,10)`` pour Sentinel-2 *`` dask_chunks` : Taille des morceaux à utiliser pour dask, les valeurs par défaut ci-dessous sont optimisées pour le delta complet de l'Okavango."
+msgstr "Les paramètres sont : \\* ``vector_file`` : Le chemin vers le fichier shapefile ou geojson qui définira la zone d'analyse de l'étude \\* ``products`` : Les produits à charger à partir du cube de données, par exemple :literal:`'s2_l2a``, ou ``ls8_sr'\\ ``*`'time_range'' : La plage de dates à analyser (par exemple, ```('2017', '2019')``. *``\\ measurements\\ ``: Les bandes spectrales à charger à partir du produit satellite. MNDWI nécessite les bandes \"verte\" et \"swir_1\" : La résolution en pixels des données satellite : ``(-30,30)`` pour Landsat ou ``(-10,10)`` pour Sentinel-2 *`` dask_chunks` : Taille des morceaux à utiliser pour dask, les valeurs par défaut ci-dessous sont optimisées pour le delta complet de l'Okavango."
 
 #: 
 msgid "Load cloud-masked Satellite data"
@@ -45684,5 +45683,1477 @@ msgstr ""
 
 #: 
 msgid "|bcc305f0a9704fe5806723bafefe6b47|"
+msgstr ""
+
+#: 
+msgid "|7e88bc0d15554770ad2ced129948513a|"
+msgstr ""
+
+#: 
+msgid "|67ee0159166244ca8a7be1ca63be8e5e|"
+msgstr ""
+
+#: 
+msgid "67ee0159166244ca8a7be1ca63be8e5e"
+msgstr ""
+
+#: 
+msgid "|51b3225e5a974aea9690e86ac3986b57|"
+msgstr ""
+
+#: 
+msgid "51b3225e5a974aea9690e86ac3986b57"
+msgstr ""
+
+#: 
+msgid "|9b0a60e7e53249668bc5e657ab35caf4|"
+msgstr ""
+
+#: 
+msgid "9b0a60e7e53249668bc5e657ab35caf4"
+msgstr ""
+
+#: 
+msgid "|a44b0c592481408bb948569e41239a52|"
+msgstr ""
+
+#: 
+msgid "a44b0c592481408bb948569e41239a52"
+msgstr ""
+
+#: 
+msgid "|3d14c24f6a1f4c32afbe7925490848bd|"
+msgstr ""
+
+#: 
+msgid "3d14c24f6a1f4c32afbe7925490848bd"
+msgstr ""
+
+#: 
+msgid "|2213a8cabed64a4eb9ef1c9e76ef5508|"
+msgstr ""
+
+#: 
+msgid "2213a8cabed64a4eb9ef1c9e76ef5508"
+msgstr ""
+
+#: 
+msgid "|20a42636747f443c9a256837af1d81f8|"
+msgstr ""
+
+#: 
+msgid "20a42636747f443c9a256837af1d81f8"
+msgstr ""
+
+#: 
+msgid "|847d3a7fcefc402ca4806802e2df2b41|"
+msgstr ""
+
+#: 
+msgid "847d3a7fcefc402ca4806802e2df2b41"
+msgstr ""
+
+#: 
+msgid "|26fc11c0bc18476684f76a8b3b9c60f7|"
+msgstr ""
+
+#: 
+msgid "26fc11c0bc18476684f76a8b3b9c60f7"
+msgstr ""
+
+#: 
+msgid "|7a2118fb0790473f904f1f45733b3f0a|"
+msgstr ""
+
+#: 
+msgid "7a2118fb0790473f904f1f45733b3f0a"
+msgstr ""
+
+#: 
+msgid "|b1c663c478634dd087350a9b74132b06|"
+msgstr ""
+
+#: 
+msgid "|088f025d425b40c98f015d9d63b1223a|"
+msgstr ""
+
+#: 
+msgid "|5f5ef9a8aa21472bade2cdbe37e379c7|"
+msgstr ""
+
+#: 
+msgid "5f5ef9a8aa21472bade2cdbe37e379c7"
+msgstr ""
+
+#: 
+msgid "|3d6473828c7f4054868cae79f6e16b7b|"
+msgstr ""
+
+#: 
+msgid "|a967f0712e3c47d6b07c75c17e73facd|"
+msgstr ""
+
+#: 
+msgid "|106010b49ad742d698a318ac66acb0fc| |0bc686c142de496c91c5fcbf5c63267a|"
+msgstr ""
+
+#: 
+msgid "|4f57d82a0ec5494b8ad01d6c000986d6| |64c9866fcbdb4d4b813a9e2083b36595|"
+msgstr ""
+
+#: 
+msgid "4f57d82a0ec5494b8ad01d6c000986d6"
+msgstr ""
+
+#: 
+msgid "64c9866fcbdb4d4b813a9e2083b36595"
+msgstr ""
+
+#: 
+msgid "|637a399b7cd0443ab817ee48a774df9d|"
+msgstr ""
+
+#: 
+msgid "|6dccfe6d3e0a4d08b05460854d20237e|"
+msgstr ""
+
+#: 
+msgid "|d60535f6ae0d482b8cc98d18e4c2a1c8|"
+msgstr ""
+
+#: 
+msgid "|3b7dae4d4ea94816a295dcc1672afa9a|"
+msgstr ""
+
+#: 
+msgid "|8573885bfb7e4b0cbc619d4476c0cb7c|"
+msgstr ""
+
+#: 
+msgid "|fbe227a2f5c040b0811bed240e50cabe|"
+msgstr ""
+
+#: 
+msgid "|e2f136557e984233a22fcbe1e2510f8b|"
+msgstr ""
+
+#: 
+msgid "|4182ce612c224234b9bf7de49016386b|"
+msgstr ""
+
+#: 
+msgid "|aa4366541d6b479b89803d66a5dc0c54|"
+msgstr ""
+
+#: 
+msgid "|490440bd834e402e8538155befc45158|"
+msgstr ""
+
+#: 
+msgid "|9da08bd1152a47619ead6be5ca23f5db|"
+msgstr ""
+
+#: 
+msgid "|e33aec37c98d42d6a9e03fba236f030d|"
+msgstr ""
+
+#: 
+msgid "|25e8b6a402954d5f9fc80909ae012840|"
+msgstr ""
+
+#: 
+msgid "|cb66763eccfa4aea908d8470b0509c27|"
+msgstr ""
+
+#: 
+msgid "|aa1fd0c308f2422194acdca865ac65ca|"
+msgstr ""
+
+#: 
+msgid "|6a05cda9decf4d62af024aede0fc2669|"
+msgstr ""
+
+#: 
+msgid "|c02a2eb3810a4926abe39518f41faa3c|"
+msgstr ""
+
+#: 
+msgid "|c046292f9c5b4c17ae60270a65b52bff|"
+msgstr ""
+
+#: 
+msgid "|eae99279dd9240fa9dc5cf40929a6bc5|"
+msgstr ""
+
+#: 
+msgid "|f88cb72b0823472ca6df0a72728f9a33|"
+msgstr ""
+
+#: 
+msgid "|2acc07f49e574246bf337c88f8b30401|"
+msgstr ""
+
+#: 
+msgid "|8a42abd039824a708dbb780e5d5ed9e5|"
+msgstr ""
+
+#: 
+msgid "|16ba63aff4de4475a70d9ac160c60c45|"
+msgstr ""
+
+#: 
+msgid "|67623cef84464ead906fd1991fa50661|"
+msgstr ""
+
+#: 
+msgid "|5457886260b4471abe84a1f7d25b7f01|"
+msgstr ""
+
+#: 
+msgid "|924b80b99b2346a99b2ced4d2efd23cf|"
+msgstr ""
+
+#: 
+msgid "|01c2bc3f0a714e20832a1ae1745ea116|"
+msgstr ""
+
+#: 
+msgid "|55e312378d2c41ff821fa9766d9416f0|"
+msgstr ""
+
+#: 
+msgid "|12da6bb9b1e14650a8c2806aeab77abf|"
+msgstr ""
+
+#: 
+msgid "|b6eb9363eed24a50b4daa142946d08b6|"
+msgstr ""
+
+#: 
+msgid "|5bf60df0e95a4d4d846a776380bd4773|"
+msgstr ""
+
+#: 
+msgid "|ea11974055a14be297334d1a093ca5fb|"
+msgstr ""
+
+#: 
+msgid "|50915f51395c43779cab3a8bb4fe2825|"
+msgstr ""
+
+#: 
+msgid "|b2ca65c3fc5344f1b590d0d124158b17|"
+msgstr ""
+
+#: 
+msgid "|b5e554e16b0b4475ba423ff4a4233764|"
+msgstr ""
+
+#: 
+msgid "|e2e67b9527a945e0ab89993df204f581|"
+msgstr ""
+
+#: 
+msgid "|b90e538314c4447d8c936c33e1135121|"
+msgstr ""
+
+#: 
+msgid "|a25830f47be746bea2eeb4447b2d2410|"
+msgstr ""
+
+#: 
+msgid "|87777c1ee30140bba028209ea03b313a|"
+msgstr ""
+
+#: 
+msgid "|4be3552dd77a45cca11d050c8a9d2111|"
+msgstr ""
+
+#: 
+msgid "|d7184774f32f4837979856903823b4dc|"
+msgstr ""
+
+#: 
+msgid "|28ac2e2841da46b380c11675846dc94f|"
+msgstr ""
+
+#: 
+msgid "|9e994efb8d3143f3905f6d8df2338b59|"
+msgstr ""
+
+#: 
+msgid "|6e598b22c666462990ab8ca59425f188|"
+msgstr ""
+
+#: 
+msgid "|d5974ab92ed24ce18b0e568d50fd66b3|"
+msgstr ""
+
+#: 
+msgid "|6d30db2aebb2471693c11925eb1250a1|"
+msgstr ""
+
+#: 
+msgid "|769d6bc304184c64a6e452b4c0e8b645|"
+msgstr ""
+
+#: 
+msgid "|b7ef578a136747a2a54e9309ebe9af24|"
+msgstr ""
+
+#: 
+msgid "|0dec4f5251244e309e10002658aa52a7|"
+msgstr ""
+
+#: 
+msgid "|13d2e96efcfb4a239dcb905e754cbc9c|"
+msgstr ""
+
+#: 
+msgid "|38492ec4d08444f8a7944e4c83cd89b0|"
+msgstr ""
+
+#: 
+msgid "|f8ebd802dc4f4f4ba6e1f3b987459456|"
+msgstr ""
+
+#: 
+msgid "|b97c6922b4d24bc08ada07b86f01ec4c|"
+msgstr ""
+
+#: 
+msgid "|31d32cdb062a44d0b10c4cca3008f8da|"
+msgstr ""
+
+#: 
+msgid "|42810e0484994be79a02c5dfb6fd0403|"
+msgstr ""
+
+#: 
+msgid "|f12a58f53d914e04a6c4e0c99051cef2|"
+msgstr ""
+
+#: 
+msgid "|d7993e6c794f4788bcd0092723dbff8b|"
+msgstr ""
+
+#: 
+msgid "|c34cafffacd544678816bcb4b4a58902|"
+msgstr ""
+
+#: 
+msgid "|d5fa1fba9f834eed9f9c33f79fc6d937|"
+msgstr ""
+
+#: 
+msgid "|937c2c8166c14e79926a971b87d89028|"
+msgstr ""
+
+#: 
+msgid "|cadce2839a4d4066b10982c1eaa522d2|"
+msgstr ""
+
+#: 
+msgid "|4d8ad3057bc548fe881ad3069a466e50|"
+msgstr ""
+
+#: 
+msgid "|d740dcb2953349f6b04089b0509ee5bc|"
+msgstr ""
+
+#: 
+msgid "|212a109fd4eb4413b340f68e759a4df5|"
+msgstr ""
+
+#: 
+msgid "|1ca1335f538748ac967d8db0a1704a9c|"
+msgstr ""
+
+#: 
+msgid "|34cbeebdc3cd473f99f67881298a97c4|"
+msgstr ""
+
+#: 
+msgid "|5a072c51afb4495d8fb39b06c3e039d6|"
+msgstr ""
+
+#: 
+msgid "|23170ae448864b5e9131d0d18df02f13|"
+msgstr ""
+
+#: 
+msgid "|c51ff2298c924e5eaabd6bb28917011b|"
+msgstr ""
+
+#: 
+msgid "|a076613a842a4066bf57612d306bda95|"
+msgstr ""
+
+#: 
+msgid "|31594c0267bc496abd34952a3036a39d|"
+msgstr ""
+
+#: 
+msgid "|500d04a15e7a4626a479ee277dfdabae|"
+msgstr ""
+
+#: 
+msgid "|512b0da58b5c4f8da6bdc811e823ef6e|"
+msgstr ""
+
+#: 
+msgid "|9f84c036f13547b3874d599ca19a8c04|"
+msgstr ""
+
+#: 
+msgid "|138a1c44224649e8b1bd3633d2e7975b|"
+msgstr ""
+
+#: 
+msgid "|de257f63d8d040378232fdc93d69248e|"
+msgstr ""
+
+#: 
+msgid "|63851dd297f8461083df7c24913486db|"
+msgstr ""
+
+#: 
+msgid "|80bc55fffb4b4709b159951c30ba7791|"
+msgstr ""
+
+#: 
+msgid "|e8f0a6be3b7d41a184f71f8ada79baa2|"
+msgstr ""
+
+#: 
+msgid "e8f0a6be3b7d41a184f71f8ada79baa2"
+msgstr ""
+
+#: 
+msgid "|6040f42d911f421692c8f21fb4e4c16c|"
+msgstr ""
+
+#: 
+msgid "|512d9850710245d5b6b6406e4cb991e8|"
+msgstr ""
+
+#: 
+msgid "ALOS/ALOS-2 PALSAR/PALSAR-2 Annual Mosaics |f993e45d891a4aefa94b8473c6334e56|"
+msgstr ""
+
+#: 
+msgid "f993e45d891a4aefa94b8473c6334e56"
+msgstr ""
+
+#: 
+msgid "|a7ac40da58ee4e68816b2132dc59c1ad|"
+msgstr ""
+
+#: 
+msgid "a7ac40da58ee4e68816b2132dc59c1ad"
+msgstr ""
+
+#: 
+msgid "|a5e73786ecd84659b16e2b6f801c7103|"
+msgstr ""
+
+#: 
+msgid "a5e73786ecd84659b16e2b6f801c7103"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Reflectance |8b73fc641f6446c1845748e4c6dedec2|"
+msgstr ""
+
+#: 
+msgid "8b73fc641f6446c1845748e4c6dedec2"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Temperature |08879f9d88cb4a10896c711bf2deba38|"
+msgstr ""
+
+#: 
+msgid "08879f9d88cb4a10896c711bf2deba38"
+msgstr ""
+
+#: 
+msgid "Sentinel-1 |649886e530e1420686978c7ae5d6fde8|"
+msgstr ""
+
+#: 
+msgid "649886e530e1420686978c7ae5d6fde8"
+msgstr ""
+
+#: 
+msgid "Sentinel-2 |05a9c2fbc01b497a8ae54047b460b6a9|"
+msgstr ""
+
+#: 
+msgid "05a9c2fbc01b497a8ae54047b460b6a9"
+msgstr ""
+
+#: 
+msgid "Displaying satellite imagery on a web map |3ef7d463505245f5a2fc2d6a3df2b745|"
+msgstr ""
+
+#: 
+msgid "3ef7d463505245f5a2fc2d6a3df2b745"
+msgstr ""
+
+#: 
+msgid "|91e2bd3ae10f4623a6f29962dd274e9f|"
+msgstr ""
+
+#: 
+msgid "91e2bd3ae10f4623a6f29962dd274e9f"
+msgstr ""
+
+#: 
+msgid "Water detection with Sentinel-1 |bfb24f71aff040528a5288fe6c0d6231|"
+msgstr ""
+
+#: 
+msgid "bfb24f71aff040528a5288fe6c0d6231"
+msgstr ""
+
+#: 
+msgid "|f9cb51786f694d32b66098791bb2b05c|"
+msgstr ""
+
+#: 
+msgid "f9cb51786f694d32b66098791bb2b05c"
+msgstr ""
+
+#: 
+msgid "|9eb0f648d0924538b3fcf67bf32d4ea4|"
+msgstr ""
+
+#: 
+msgid "9eb0f648d0924538b3fcf67bf32d4ea4"
+msgstr ""
+
+#: 
+msgid "|61cc36fde3694474a86f1e88a5cb4ec4|"
+msgstr ""
+
+#: 
+msgid "61cc36fde3694474a86f1e88a5cb4ec4"
+msgstr ""
+
+#: 
+msgid "|a64ce9a41aa54d22bf396066537ee247|"
+msgstr ""
+
+#: 
+msgid "a64ce9a41aa54d22bf396066537ee247"
+msgstr ""
+
+#: 
+msgid "|a026f43b35d247ddba05e1cc4075820f|"
+msgstr ""
+
+#: 
+msgid "a026f43b35d247ddba05e1cc4075820f"
+msgstr ""
+
+#: 
+msgid "|0a968ca7824248ccb1554a58348d9572|"
+msgstr ""
+
+#: 
+msgid "|8c81e6553de24d12ac941449926575f9|"
+msgstr ""
+
+#: 
+msgid "|84dbc922e3404127a84a451867a9807c|"
+msgstr ""
+
+#: 
+msgid "|2ffb5d1474e84e3d8e908ecb8e08ded6|"
+msgstr ""
+
+#: 
+msgid "|b1bda31d7ebb471cabeebe78de57dea1|"
+msgstr ""
+
+#: 
+msgid "|0a1342b987674866a6c005635a82c744|"
+msgstr ""
+
+#: 
+msgid "|a45605dca84042e9bde36e2c97dc6397|"
+msgstr ""
+
+#: 
+msgid "|de051db8c87c40f6950fb9c200dc7caf|"
+msgstr ""
+
+#: 
+msgid "|e06ccc7f08a64624a1a2e05e06d9036d|"
+msgstr ""
+
+#: 
+msgid "|2d97ad4e3415432d93ef849ee3d9281f|"
+msgstr ""
+
+#: 
+msgid "|946169a7876e40abbf4e009e77b9a2a0|"
+msgstr ""
+
+#: 
+msgid "|ff56a627d9404c6f91cdcc7d2d667e18|"
+msgstr ""
+
+#: 
+msgid "|0cb5c30a07144eb88436ae70919883e8|"
+msgstr ""
+
+#: 
+msgid "|d00b89c651ce4a389f67d5d84af18848|"
+msgstr ""
+
+#: 
+msgid "|bfc14a7722b0421ca9261e103ffb3b7f|"
+msgstr ""
+
+#: 
+msgid "|523c33009bf340c28eb18cf7211b3e7b|"
+msgstr ""
+
+#: 
+msgid "|400bec6c6eee49889c74030b2dc028e8|"
+msgstr ""
+
+#: 
+msgid "|fb956492235d4043a67b11d3de2c325f|"
+msgstr ""
+
+#: 
+msgid "|68cf97e447aa432bb60f4c082ca98362|"
+msgstr ""
+
+#: 
+msgid "|73f8ed38fd184126b9ae03aed845824a|"
+msgstr ""
+
+#: 
+msgid "|2232abb28f18475fba6a321194130a45|"
+msgstr ""
+
+#: 
+msgid "|84a8281ccb054f2a8b167b55ac29100c|"
+msgstr ""
+
+#: 
+msgid "|5804df48d4c546fea2a32b161c235a0b|"
+msgstr ""
+
+#: 
+msgid "|9b491a5ca7fa4f81bfcc7bfda9d5d774|"
+msgstr ""
+
+#: 
+msgid "|0b25fd5831e443b2b4fd5eea2c87d955|"
+msgstr ""
+
+#: 
+msgid "|8399a3de17b24b0084d55a6222b579b7|"
+msgstr ""
+
+#: 
+msgid "|5629923ae1b047f096a1c58335855e12|"
+msgstr ""
+
+#: 
+msgid "|a5b133a72b144e92bcdd5ca49d3f8a7d|"
+msgstr ""
+
+#: 
+msgid "|6fb4d77fdbc7403c812ca2e1b5e183c7|"
+msgstr ""
+
+#: 
+msgid "|2e34c2d2f6bb4ac2b0f595ddf8cb4310|"
+msgstr ""
+
+#: 
+msgid "|15e1ab58799746a9b84139dd2a40fbe2|"
+msgstr ""
+
+#: 
+msgid "|f94d886ac4434fcdb97d156f96c0fab5|"
+msgstr ""
+
+#: 
+msgid "|2488e56de2f14fc5aaf31e522a31bb83|"
+msgstr ""
+
+#: 
+msgid "|ff43f763f7104d44a615827d45ac7bd9|"
+msgstr ""
+
+#: 
+msgid "|1813f679e08d46819c2f710cb9b02d57|"
+msgstr ""
+
+#: 
+msgid "|0e78b56277cf476ea888db0e2c0a8289|"
+msgstr ""
+
+#: 
+msgid "|16a40e1eda4c4278ad7392cbd3ef9c11|"
+msgstr ""
+
+#: 
+msgid "|133f2182eb2d4e528aba8611accba8de|"
+msgstr ""
+
+#: 
+msgid "|514f1a84809c4742b7259424370343a4|"
+msgstr ""
+
+#: 
+msgid "|cb84e5b1a24143e3906389ad7ce5e2f5|"
+msgstr ""
+
+#: 
+msgid "|78d7513e60af4d76b1c0cd6035c3b7e6|"
+msgstr ""
+
+#: 
+msgid "|6e556f3a293a4b139df2177fde02996a|"
+msgstr ""
+
+#: 
+msgid "|978b848a526a45959584db0cac247fa1|"
+msgstr ""
+
+#: 
+msgid "978b848a526a45959584db0cac247fa1"
+msgstr ""
+
+#: 
+msgid "|002ea0e1dd8d4adb80e5ec8bb6d7fadb|"
+msgstr ""
+
+#: 
+msgid "002ea0e1dd8d4adb80e5ec8bb6d7fadb"
+msgstr ""
+
+#: 
+msgid "|f37d8aa0b0c848a8aca71ce83f0321e3|"
+msgstr ""
+
+#: 
+msgid "f37d8aa0b0c848a8aca71ce83f0321e3"
+msgstr ""
+
+#: 
+msgid "|0b74eb7a2d9545c8a60960ed1f06fe77|"
+msgstr ""
+
+#: 
+msgid "0b74eb7a2d9545c8a60960ed1f06fe77"
+msgstr ""
+
+#: 
+msgid "|f68218d78d164c28af2804844969d19a|"
+msgstr ""
+
+#: 
+msgid "f68218d78d164c28af2804844969d19a"
+msgstr ""
+
+#: 
+msgid "|7ae30347217b4b178d1ddd50e7ebabb5|"
+msgstr ""
+
+#: 
+msgid "7ae30347217b4b178d1ddd50e7ebabb5"
+msgstr ""
+
+#: 
+msgid "|9919779368e740d6885adfd7050c2df2|"
+msgstr ""
+
+#: 
+msgid "9919779368e740d6885adfd7050c2df2"
+msgstr ""
+
+#: 
+msgid "|dc846dfa1e874d008d4759ce3ccc5cbb|"
+msgstr ""
+
+#: 
+msgid "dc846dfa1e874d008d4759ce3ccc5cbb"
+msgstr ""
+
+#: 
+msgid "|a1fb3c04513646119a33dadf17930037|"
+msgstr ""
+
+#: 
+msgid "a1fb3c04513646119a33dadf17930037"
+msgstr ""
+
+#: 
+msgid "|ed6421d7b1e74d878d9d2275855fa8a6|"
+msgstr ""
+
+#: 
+msgid "ed6421d7b1e74d878d9d2275855fa8a6"
+msgstr ""
+
+#: 
+msgid "|b6ee9c24d1054c6ca65167187749c4e6|"
+msgstr ""
+
+#: 
+msgid "|29e7d886acb641d38f30b6824ca32205|"
+msgstr ""
+
+#: 
+msgid "|f93f0fb44b22495697087f975add3c1f|"
+msgstr ""
+
+#: 
+msgid "f93f0fb44b22495697087f975add3c1f"
+msgstr ""
+
+#: 
+msgid "|4c26e7b7ffcf40cca433d04faba051a5|"
+msgstr ""
+
+#: 
+msgid "|b26bd65c8baa4c47bd4966c7ba6dcb55|"
+msgstr ""
+
+#: 
+msgid "|21643f1ed020488cb5567ddcc5c0e035| |41bd9ae1194047b1bb60a16d8a12c3fe|"
+msgstr ""
+
+#: 
+msgid "|e8fef830f3ed45b0be86e9870b4ff13c| |7233632e397042c9bdbe0bb5d94d551f|"
+msgstr ""
+
+#: 
+msgid "e8fef830f3ed45b0be86e9870b4ff13c"
+msgstr ""
+
+#: 
+msgid "7233632e397042c9bdbe0bb5d94d551f"
+msgstr ""
+
+#: 
+msgid "|53e510d883fb4934bba022108eb6ab99|"
+msgstr ""
+
+#: 
+msgid "|f828b1ea4d5f45a5af0cc405a7b705ba|"
+msgstr ""
+
+#: 
+msgid "|754b398a62e740788effe7fa472b7799|"
+msgstr ""
+
+#: 
+msgid "|33dd1e28e1a54bd99c749f824103e860|"
+msgstr ""
+
+#: 
+msgid "|32c7ecd725ec45d1abd9d8c32726864c|"
+msgstr ""
+
+#: 
+msgid "|984d500a44f04f99a35ab8f1c9d68287|"
+msgstr ""
+
+#: 
+msgid "|30a7c2bf64f2479bb9fa37de09d39cfe|"
+msgstr ""
+
+#: 
+msgid "|80a21a86e0564ca2ad4bae0ac98ce385|"
+msgstr ""
+
+#: 
+msgid "|fdcf180c843444fb8423b071ca10d05b|"
+msgstr ""
+
+#: 
+msgid "|317779f560814c0ea993b7a36e7a953d|"
+msgstr ""
+
+#: 
+msgid "|2fd80be9e6b141e08d83541565a3a894|"
+msgstr ""
+
+#: 
+msgid "|9ae7f6b31c0f469096fee954ef3f4035|"
+msgstr ""
+
+#: 
+msgid "|1389a1d8f2584cf1bfe1dd8b4f7899aa|"
+msgstr ""
+
+#: 
+msgid "|c871cda89a3e4f0787f6c9563ae8f96a|"
+msgstr ""
+
+#: 
+msgid "|a0bdadeb470d4cc88445e05e630f9198|"
+msgstr ""
+
+#: 
+msgid "|e06735028c614469bdc25611f0800750|"
+msgstr ""
+
+#: 
+msgid "|f93ceaaf8da645efac9e2e2d3c0a649a|"
+msgstr ""
+
+#: 
+msgid "|73b82b01af194003bcf770b444de1489|"
+msgstr ""
+
+#: 
+msgid "|4340761830bb472aa5768d2a1a053f46|"
+msgstr ""
+
+#: 
+msgid "|0ecc243abc704809815b8d56506e1cf7|"
+msgstr ""
+
+#: 
+msgid "|356cfe297d694631843208835ed3fcec|"
+msgstr ""
+
+#: 
+msgid "|c245f1a1e10d4399b766fc3eb7a06287|"
+msgstr ""
+
+#: 
+msgid "|d801672648a04fe69f033344710c78ec|"
+msgstr ""
+
+#: 
+msgid "|be6012c98dff407697bee9b3f04969fa|"
+msgstr ""
+
+#: 
+msgid "|805ddb2b270b48108dac7128152ab9e8|"
+msgstr ""
+
+#: 
+msgid "|7b84065887ba44de83a09b12c98cc682|"
+msgstr ""
+
+#: 
+msgid "|08f759548b3e4ce988975b09c2c8feea|"
+msgstr ""
+
+#: 
+msgid "|a43880ad0c7747448c9783fb2b5f43a1|"
+msgstr ""
+
+#: 
+msgid "|bc558833f8cf4be896ff0d2628f3d64f|"
+msgstr ""
+
+#: 
+msgid "|142d61b39cd14f3c8c551dfa1cca3ad3|"
+msgstr ""
+
+#: 
+msgid "|64e04365e90b41b89251d6897cb894ad|"
+msgstr ""
+
+#: 
+msgid "|ab1c35973a6640a691c62e7c1a1f85f4|"
+msgstr ""
+
+#: 
+msgid "|e4093df9c4e64ade988c0ba9e86b9f3d|"
+msgstr ""
+
+#: 
+msgid "|636609a6f1764d53ae1ea24b28505179|"
+msgstr ""
+
+#: 
+msgid "|ca1d1b28867942ccbf8ee5ab8455cdab|"
+msgstr ""
+
+#: 
+msgid "|d6fbd7656e62415eafb0e5b66ecee9fd|"
+msgstr ""
+
+#: 
+msgid "|2d0f3a5e7e2d4e108a28b868a1aa4793|"
+msgstr ""
+
+#: 
+msgid "|c77d3a354af847aa96997d0f3dca6c21|"
+msgstr ""
+
+#: 
+msgid "|183dea727392448bbb71a2736f25eabe|"
+msgstr ""
+
+#: 
+msgid "|b82f1f89bb8c4b1eb961b650d64061cb|"
+msgstr ""
+
+#: 
+msgid "|08273a2e068c4970bdc2169081d51736|"
+msgstr ""
+
+#: 
+msgid "|fd2566c8309e461f8b93a8622728c8d1|"
+msgstr ""
+
+#: 
+msgid "|6dab6b2a51154ca68c4f9c3c3b364c04|"
+msgstr ""
+
+#: 
+msgid "|d82c3555aae94ef4b317d51336acc1a0|"
+msgstr ""
+
+#: 
+msgid "|ac3a7e6c72304fcda079eca55a0524e9|"
+msgstr ""
+
+#: 
+msgid "|f7cf0e7ecb554ffb9b89d0c15b060f9b|"
+msgstr ""
+
+#: 
+msgid "|842c7567adbf4ae19346c1a2c9a502f1|"
+msgstr ""
+
+#: 
+msgid "|41a73f5ab565465daf8720ca2aa23007|"
+msgstr ""
+
+#: 
+msgid "|728507a2716a40a98b6b0d92bf41c2ef|"
+msgstr ""
+
+#: 
+msgid "|eeb1cc4f23a047e7af1c1c72f3c92484|"
+msgstr ""
+
+#: 
+msgid "|9065610a43ae44eb868ac571d9eb5344|"
+msgstr ""
+
+#: 
+msgid "|abb3f50d3d2b4c9c9f61e89bfae7167d|"
+msgstr ""
+
+#: 
+msgid "|2aa017e61ef145868e66021c167f7a6c|"
+msgstr ""
+
+#: 
+msgid "|69da25bf29844aebb9fd9901e755948f|"
+msgstr ""
+
+#: 
+msgid "|2e33886ad4fe4fe692a124920e4b3850|"
+msgstr ""
+
+#: 
+msgid "|002a7ec118bb455ab314462330883bbc|"
+msgstr ""
+
+#: 
+msgid "|895efd3e9e8f446898f5a4c6f6dc3fd4|"
+msgstr ""
+
+#: 
+msgid "|ce2c43bc868d4dd2829083fafe702b19|"
+msgstr ""
+
+#: 
+msgid "|40dd2c9cbdce4a919118e4dfbf092647|"
+msgstr ""
+
+#: 
+msgid "|236d0cfc6ab7493ba7fdbc217dba9eeb|"
+msgstr ""
+
+#: 
+msgid "|134267599ea14d819451c70e65b7dbeb|"
+msgstr ""
+
+#: 
+msgid "|20595a1630b24fbda4553b7ca644f706|"
+msgstr ""
+
+#: 
+msgid "|4f5e52e92b3d4f81a29f2ce9af2a594e|"
+msgstr ""
+
+#: 
+msgid "|18a0da2a86fb478495ab3bda56cfde9c|"
+msgstr ""
+
+#: 
+msgid "|cf16c95688914956beffcd869fd193a2|"
+msgstr ""
+
+#: 
+msgid "|4313f67308fb4ee5ad2f28c16ae181dc|"
+msgstr ""
+
+#: 
+msgid "|7988bcac0b034111a3e749f7cf08fae6|"
+msgstr ""
+
+#: 
+msgid "|04e86630f0754af1afd31b3d74a688ac|"
+msgstr ""
+
+#: 
+msgid "|4af670fc84164bde8ddcef46f6bf3ead|"
+msgstr ""
+
+#: 
+msgid "|0f34503308b044cf8229e1a537368e68|"
+msgstr ""
+
+#: 
+msgid "|442ce416216f4427ae45d4a2afed44a5|"
+msgstr ""
+
+#: 
+msgid "|92a98464380d48508384321c78d86325|"
+msgstr ""
+
+#: 
+msgid "|9a5e2f98923e4c29858bc25f65add593|"
+msgstr ""
+
+#: 
+msgid "|b6d6a714a25f43fc89fcd228e08c9115|"
+msgstr ""
+
+#: 
+msgid "|ec7811c5dbfa48e3bc36aa8e6688b662|"
+msgstr ""
+
+#: 
+msgid "|8a461f93e52646a4b30c6b903702f3ed|"
+msgstr ""
+
+#: 
+msgid "|07a85d05214f4c3daabc47bc98d76f68|"
+msgstr ""
+
+#: 
+msgid "|652b1db06d2c46e08dbab4bb0f0c955b|"
+msgstr ""
+
+#: 
+msgid "|6422593ba3384b03ae2003519b9c86c2|"
+msgstr ""
+
+#: 
+msgid "6422593ba3384b03ae2003519b9c86c2"
+msgstr ""
+
+#: 
+msgid "|bad47f7aae86414c9265992292cd830b|"
+msgstr ""
+
+#: 
+msgid "|458f2aa94e0e4525b3d98a2dbb02415c|"
+msgstr ""
+
+#: 
+msgid "ALOS/ALOS-2 PALSAR/PALSAR-2 Annual Mosaics |3178ae6cf29f493d80ebe556ee33b6ae|"
+msgstr ""
+
+#: 
+msgid "3178ae6cf29f493d80ebe556ee33b6ae"
+msgstr ""
+
+#: 
+msgid "|a211268fc86c46c9aaf1e46cef6e02d7|"
+msgstr ""
+
+#: 
+msgid "a211268fc86c46c9aaf1e46cef6e02d7"
+msgstr ""
+
+#: 
+msgid "|34e8f7306e7742f5bfdd1f08724ca093|"
+msgstr ""
+
+#: 
+msgid "34e8f7306e7742f5bfdd1f08724ca093"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Reflectance |48463d3cb4704683b43b750d876e39bd|"
+msgstr ""
+
+#: 
+msgid "48463d3cb4704683b43b750d876e39bd"
+msgstr ""
+
+#: 
+msgid "Landsat Surface Temperature |432c8aab287c41af8ed72bc4eb6a477e|"
+msgstr ""
+
+#: 
+msgid "432c8aab287c41af8ed72bc4eb6a477e"
+msgstr ""
+
+#: 
+msgid "Sentinel-1 |b2791ce7330c47ef833054a597c51ace|"
+msgstr ""
+
+#: 
+msgid "b2791ce7330c47ef833054a597c51ace"
+msgstr ""
+
+#: 
+msgid "Sentinel-2 |6dea4a65c69747a7b2e5c67326f36568|"
+msgstr ""
+
+#: 
+msgid "6dea4a65c69747a7b2e5c67326f36568"
+msgstr ""
+
+#: 
+msgid "Displaying satellite imagery on a web map |d1a84b5346eb4970b8f1c5c963e6657c|"
+msgstr ""
+
+#: 
+msgid "d1a84b5346eb4970b8f1c5c963e6657c"
+msgstr ""
+
+#: 
+msgid "|e1240d482d794ec8b32b44be6a63ef93|"
+msgstr ""
+
+#: 
+msgid "e1240d482d794ec8b32b44be6a63ef93"
+msgstr ""
+
+#: 
+msgid "Water detection with Sentinel-1 |d024a98641f148f59db7463346050961|"
+msgstr ""
+
+#: 
+msgid "d024a98641f148f59db7463346050961"
+msgstr ""
+
+#: 
+msgid "|bbb9bfb306a240548fd73569adf0b601|"
+msgstr ""
+
+#: 
+msgid "bbb9bfb306a240548fd73569adf0b601"
+msgstr ""
+
+#: 
+msgid "|ec26bd74df13427690322c39432b6073|"
+msgstr ""
+
+#: 
+msgid "ec26bd74df13427690322c39432b6073"
+msgstr ""
+
+#: 
+msgid "|42af1c9362c94435ae81aba8348eea6b|"
+msgstr ""
+
+#: 
+msgid "42af1c9362c94435ae81aba8348eea6b"
+msgstr ""
+
+#: 
+msgid "|9a67db74e61c41629a79bc87e55742e3|"
+msgstr ""
+
+#: 
+msgid "9a67db74e61c41629a79bc87e55742e3"
+msgstr ""
+
+#: 
+msgid "|4b5b7ecb321949398dbf15d82a23b184|"
+msgstr ""
+
+#: 
+msgid "4b5b7ecb321949398dbf15d82a23b184"
+msgstr ""
+
+#: 
+msgid "|b398f35d8fdd430ea8ef436c927e7066|"
+msgstr ""
+
+#: 
+msgid "|3dc5d40480e647b283746bc22edf43ed|"
+msgstr ""
+
+#: 
+msgid "|144974e3fb3b4ed7bb0a2011ca426695|"
+msgstr ""
+
+#: 
+msgid "|90cc0b75e4764964989d0835dd538c9d|"
+msgstr ""
+
+#: 
+msgid "|67d4f48684f44681a45572a87aaee5be|"
+msgstr ""
+
+#: 
+msgid "|86fab5307e574d2daedac7bb86909728|"
+msgstr ""
+
+#: 
+msgid "|f232b13dd55e4755be4a4ae748e2486b|"
+msgstr ""
+
+#: 
+msgid "|aa7d928a2aaf4a558dc3a1852540d1c5|"
+msgstr ""
+
+#: 
+msgid "|a16eb55e07174400804f5b1a3001e652|"
+msgstr ""
+
+#: 
+msgid "|1692410ee03545318448506223c70121|"
+msgstr ""
+
+#: 
+msgid "|bb32de03fc2b49c497ab721c9daf8c52|"
+msgstr ""
+
+#: 
+msgid "|4bd9f4bbd0a3493f898961a02cb9aa6b|"
+msgstr ""
+
+#: 
+msgid "|e67d797d00984e629b63ad1427d6f286|"
+msgstr ""
+
+#: 
+msgid "|ab85d41f2b1c4f3da647d84929c4134c|"
+msgstr ""
+
+#: 
+msgid "|32ab835f758e47a2bc97892dc4bd9877|"
+msgstr ""
+
+#: 
+msgid "|a9065e46afe94b5f83b67acfa9bb2e37|"
+msgstr ""
+
+#: 
+msgid "|d1fe6809d9dd48b29c27c0e73cf49bf6|"
+msgstr ""
+
+#: 
+msgid "|864f88b3b6834484b30eee2ba5c853c1|"
+msgstr ""
+
+#: 
+msgid "|10ed6d76ae344997ae20286e951b7072|"
+msgstr ""
+
+#: 
+msgid "|05fc08a473fb48ee95ed52b9b575ff40|"
+msgstr ""
+
+#: 
+msgid "|dea721e040314694a416ae3464c37e44|"
+msgstr ""
+
+#: 
+msgid "|0e0f8fee776e4032825da62979a7a12a|"
+msgstr ""
+
+#: 
+msgid "|a1c9c5b73c2841fc8adc6611742431e2|"
+msgstr ""
+
+#: 
+msgid "|f645f2ddd145410da73a22d5e1a275b3|"
+msgstr ""
+
+#: 
+msgid "|de8e868b292c4ee99329034fb27075e8|"
+msgstr ""
+
+#: 
+msgid "|ddf2aa75bc8a4718bee9da10238d0077|"
+msgstr ""
+
+#: 
+msgid "|56a0563c14cb46f3a79f31a283ac984f|"
+msgstr ""
+
+#: 
+msgid "|efafb11559e1408fa12f6a55d4cfdc9a|"
+msgstr ""
+
+#: 
+msgid "|938f97f294014a75ba3144c2dfd39e8e|"
+msgstr ""
+
+#: 
+msgid "|318173e6b4fb49ef9722d8c686554adb|"
+msgstr ""
+
+#: 
+msgid "|5f536b380ed7431c9e371fa5e14e658b|"
+msgstr ""
+
+#: 
+msgid "|dd2b7a4d48b747c698f739a4938b529b|"
+msgstr ""
+
+#: 
+msgid "|f29b9198b18144c89bfe78f2b523e54d|"
+msgstr ""
+
+#: 
+msgid "|a5281a47c78240e7bbbed4b1027d061a|"
+msgstr ""
+
+#: 
+msgid "|c6d7bbe824e644c9976952231a1b549e|"
+msgstr ""
+
+#: 
+msgid "|2817ed4130904fce9c8c76be058c5aa3|"
+msgstr ""
+
+#: 
+msgid "|9831cf497d7a41659e8f034295a43cf4|"
+msgstr ""
+
+#: 
+msgid "|9db05be9f29c4efb8154edc93e0d2c9f|"
+msgstr ""
+
+#: 
+msgid "|6b4fc9d4898945deb1d52077db605771|"
+msgstr ""
+
+#: 
+msgid "|3f7414f6326d422db8f1436ab88e40cb|"
+msgstr ""
+
+#: 
+msgid "|318dd829f4804ff097e83ce4c4b8e73d|"
 msgstr ""
 
