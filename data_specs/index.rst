@@ -182,7 +182,7 @@ About the data
 
        :doc:`Landsat_tiers`
 
-       Information about Landsat Collection 2 data tiers.
+       How Landsat Collection 2 data tiers are used in Digital Earth Africa.
 
        :doc:`More <Landsat_tiers>`
 
