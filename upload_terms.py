@@ -10,7 +10,8 @@ print(f"Before update, {project['name']} (id: {project['id']}) has {project['ter
 
 update_results = client.update_terms(
     project_id=project_id,
-    file_path='_build/docs.pot'
+    file_path='_build/docs.pot',
+    sync_terms=True,
 )
 
 terms = update_results['terms']
