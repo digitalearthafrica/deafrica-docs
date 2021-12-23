@@ -25,3 +25,6 @@ fetchnotebooks:
 
 buildtools:
 	cd sandbox/notebooks/Tools && pip install . --no-dependencies
+
+fetchtranslation:
+    pip install poeditor || python ./download_translations.py
