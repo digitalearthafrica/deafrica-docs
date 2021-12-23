@@ -21,6 +21,6 @@ if __name__ == '__main__':
     api_token = os.environ['POEDITOR_API_TOKEN']
 
     file_path = './locales/fr/LC_MESSAGES/docs.po'
-    print("Downloading translation to {file_path}")
+    print(f"Downloading translation to {file_path}")
 
     download_translation(file_path, project_id, api_token)

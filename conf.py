@@ -156,12 +156,14 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 on_gha = os.environ.get('GITHUB_ACTIONS', None) == 'True'
 get_translation = os.environ.get('POEDITOR_PROJECT_ID', None) is not None
 
+# If we are on ReadTheDocs, and translation is required, download the translation file from poeditor
+if on_rtd and get_translation:
+    import subprocess
+    subprocess.run(["make", "fetchtranslation"])
+
 # If we are on ReadtheDocs, load the latest version of the notebooks
 if on_rtd or on_gha:
     import subprocess
     subprocess.run(["make", "fetchnotebooks"])
     subprocess.run(["make", "buildtools"])
-
-if on_rtd and get_translation:
-    subprocess.run(["make", "fetchtranslation"])
 
