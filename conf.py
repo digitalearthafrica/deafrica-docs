@@ -149,7 +149,7 @@ html_context = {
 
 # Translation options
 gettext_compact = "docs"  # makes a single "docs.po" file
-gettext_location = True
+gettext_location = False  # This causes the build to break?
 locale_dirs = ['locales/']
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
