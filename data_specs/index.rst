@@ -161,6 +161,17 @@ Land and water
        Green vegetation, non-green vegetation and bare soil for every Landsat image.
 
        :doc:`More <Fractional_Cover_specs>`
+       
+       
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/CHIRPS_thumbnail.png
+
+       :doc:`Rainfall_CHIRPS_specs`
+
+       Daily and monthly rainfall estimates from rain gauge and satellite Observations.
+
+       :doc:`More <Rainfall_CHIRPS_specs>`
 
 
 About the data
