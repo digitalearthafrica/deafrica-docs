@@ -172,6 +172,17 @@ Land and water
        Daily and monthly rainfall estimates from rain gauge and satellite Observations.
 
        :doc:`More <Rainfall_CHIRPS_specs>`
+    
+       
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/CGLS_thumbnail.png
+
+       :doc:`CGLS_LULC_specs`
+
+       Copernicus Global Land Service land cover classification layers at 100 m resolution.
+
+       :doc:`More <CGLS_LULC_specs>`
 
 
 About the data
