@@ -183,6 +183,17 @@ Land and water
        Copernicus Global Land Service land cover classification layers at 100 m resolution.
 
        :doc:`More <CGLS_LULC_specs>`
+       
+    
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/IO_LULC_thumbnail.png
+
+       :doc:`IO_LULC_specs`
+
+       ESRI 10-meter resolution land cover/land use map.
+
+       :doc:`More <IO_LULC_specs>`
 
 
 About the data
