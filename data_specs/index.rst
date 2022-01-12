@@ -169,11 +169,11 @@ Land and water
 
        .. image:: ../_static/data_specs/CHIRPS_thumbnail.png
 
-       :doc:`Rainfall_CHIRPS_specs`
+       :doc:`CHIRPS_specs`
 
        Daily and monthly rainfall estimates from rain gauge and satellite observations.
 
-       :doc:`More <Rainfall_CHIRPS_specs>`
+       :doc:`More <CHIRPS_specs>`
 
 
 
