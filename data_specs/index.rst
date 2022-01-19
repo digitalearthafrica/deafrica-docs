@@ -125,6 +125,8 @@ Land and water
    Landsat_WOfS_specs
    Cropland_extent_specs
    Fractional_Cover_specs
+   CHIRPS_specs
+   
 
 
 .. container:: product-list
@@ -161,6 +163,18 @@ Land and water
        Green vegetation, non-green vegetation and bare soil for every Landsat image.
 
        :doc:`More <Fractional_Cover_specs>`
+    
+    
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/CHIRPS_thumbnail.png
+
+       :doc:`CHIRPS_specs`
+
+       Daily and monthly rainfall estimates from rain gauge and satellite observations.
+
+       :doc:`More <CHIRPS_specs>`
+
 
 
 About the data
