@@ -126,6 +126,7 @@ Land and water
    Cropland_extent_specs
    Fractional_Cover_specs
    CHIRPS_specs
+   CGLS_LULC_specs
    
 
 
