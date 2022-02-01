@@ -185,6 +185,17 @@ Land and water
        Copernicus Global Land Service annual land cover layers at 100 m spatial resolution.
 
        :doc:`More <CGLS_LULC_specs>`
+       
+    
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/IO_LULC_thumbnail.png
+
+       :doc:`IO_LULC_specs`
+
+       ESRI 10-meter resolution global land use land cover map for the year 2020.
+
+       :doc:`More <IO_LULC_specs>`
 
 
 
