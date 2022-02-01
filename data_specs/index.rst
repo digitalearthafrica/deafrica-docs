@@ -145,7 +145,6 @@ Land and water
 
     .. container:: product-item
 
-
        .. image:: ../_static/data_specs/crop_thumbnail.png
 
        :doc:`Cropland_extent_specs`
@@ -177,7 +176,7 @@ Land and water
        :doc:`More <CHIRPS_specs>`
        
        
-     .. container:: product-item
+    .. container:: product-item
 
        .. image:: ../_static/data_specs/CGLS_thumbnail.png
 
