@@ -126,6 +126,7 @@ Land and water
    Cropland_extent_specs
    Fractional_Cover_specs
    CHIRPS_specs
+   CGLS_LULC_specs
    
 
 
@@ -143,7 +144,6 @@ Land and water
 
 
     .. container:: product-item
-
 
        .. image:: ../_static/data_specs/crop_thumbnail.png
 
@@ -174,6 +174,17 @@ Land and water
        Daily and monthly rainfall estimates from rain gauge and satellite observations.
 
        :doc:`More <CHIRPS_specs>`
+       
+       
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/CGLS_thumbnail.png
+
+       :doc:`CGLS_LULC_specs`
+
+       Copernicus Global Land Service annual land cover layers at 100 m spatial resolution.
+
+       :doc:`More <CGLS_LULC_specs>`
 
 
 
