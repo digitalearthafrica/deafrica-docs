@@ -127,6 +127,8 @@ Land and water
    Fractional_Cover_specs
    CHIRPS_specs
    CGLS_LULC_specs
+   IO_LULC_specs
+   ESA_WorldCover_specs
    
 
 
@@ -196,7 +198,19 @@ Land and water
        ESRI 10-meter resolution global land use land cover map for the year 2020.
 
        :doc:`More <IO_LULC_specs>`
+       
+          
+    .. container:: product-item
 
+       .. image:: ../_static/data_specs/ESA_WorldCover_thumbnail.png
+
+       :doc:`ESA_WorldCover_specs`
+
+       ESA WorldCover global land cover map at 10 m resolution for 2020.
+
+       :doc:`More <ESA_WorldCover_specs>`
+       
+       
 
 
 About the data
