@@ -210,7 +210,15 @@ Land and water
 
        :doc:`More <ESA_WorldCover_specs>`
        
-       
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/CCI_Landcover_thumbnail.png
+
+       :doc:`CCI_Landcover_specs`
+
+       ESA Climate Change Initiative Land Cover at 300 m resolution.
+
+       :doc:`More <CCI_Landcover_specs>`       
 
 
 About the data
