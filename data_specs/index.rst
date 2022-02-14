@@ -236,8 +236,6 @@ Elevation
        :doc:`More <COP_DEM_specs>`
 
 
-.. container:: product-list
-
     .. container:: product-item
 
        .. image:: ../_static/data_specs/SRTM_DEM_thumbnail.png
