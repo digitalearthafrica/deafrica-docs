@@ -29,7 +29,7 @@ Surface reflectance
 
        :doc:`Landsat_C2_SR_specs`
 
-       Daily satellite images from Landsat 5, 7 and 8.
+       Daily satellite images from Landsat 5, 7, 8 and 9.
 
        :doc:`More <Landsat_C2_SR_specs>`
 
@@ -74,7 +74,7 @@ Surface temperature
 
        :doc:`Landsat_C2_ST_specs`
 
-       Surface Temperature from Landsat 5, 7 and 8.
+       Surface Temperature from Landsat 5, 7, 8 and 9.
 
        :doc:`More <Landsat_C2_ST_specs>`
 
