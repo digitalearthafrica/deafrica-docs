@@ -212,7 +212,7 @@ Land and water
        
        
 Elevation
-----------------
+---------
 
 .. toctree::
    :caption: Elevation
