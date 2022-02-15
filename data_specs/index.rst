@@ -220,6 +220,28 @@ Land and water
        :doc:`More <ESA_WorldCover_specs>`
        
        
+Elevation
+----------------
+
+.. toctree::
+   :caption: Elevation
+   :hidden:
+   :maxdepth: 1
+
+   COP_DEM_specs
+
+
+.. container:: product-list
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/COP-DEM_thumbnail.png
+
+       :doc:`COP_DEM_specs`
+
+       Corpenicus Digital Elevation Model with limited worldwide coverage at 30 metres and global coverage at 90 metres spatial resolution.
+
+       :doc:`More <COP_DEM_specs>`
 
 
 About the data
