@@ -219,7 +219,6 @@ Land and water
 
        :doc:`More <ESA_WorldCover_specs>`
        
-<<<<<<< HEAD
     .. container:: product-item
 
        .. image:: ../_static/data_specs/CCI_Landcover_thumbnail.png
