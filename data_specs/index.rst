@@ -29,7 +29,7 @@ Surface reflectance
 
        :doc:`Landsat_C2_SR_specs`
 
-       Daily satellite images from Landsat 5, 7 and 8.
+       Daily satellite images from Landsat 5, 7, 8 and 9.
 
        :doc:`More <Landsat_C2_SR_specs>`
 
@@ -74,7 +74,7 @@ Surface temperature
 
        :doc:`Landsat_C2_ST_specs`
 
-       Surface Temperature from Landsat 5, 7 and 8.
+       Surface Temperature from Landsat 5, 7, 8 and 9.
 
        :doc:`More <Landsat_C2_ST_specs>`
 
@@ -166,7 +166,16 @@ Land and water
 
        :doc:`More <Fractional_Cover_specs>`
     
-    
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/NDVI_clim_thumbnail.png
+
+       :doc:`NDVI_Climatology_specs`
+
+       Long-term average vegetation condition (NDVI) for every Landsat pixel over the African continent
+
+       :doc:`More <NDVI_Climatology_specs>`
+       
     .. container:: product-item
 
        .. image:: ../_static/data_specs/CHIRPS_thumbnail.png
@@ -210,15 +219,29 @@ Land and water
 
        :doc:`More <ESA_WorldCover_specs>`
        
+       
+Elevation
+----------------
+
+.. toctree::
+   :caption: Elevation
+   :hidden:
+   :maxdepth: 1
+
+   COP_DEM_specs
+
+
+.. container:: product-list
+
     .. container:: product-item
 
-       .. image:: ../_static/data_specs/CCI_Landcover_thumbnail.png
+       .. image:: ../_static/data_specs/COP-DEM_thumbnail.png
 
-       :doc:`CCI_Landcover_specs`
+       :doc:`COP_DEM_specs`
 
-       ESA Climate Change Initiative Land Cover at 300 m resolution.
+       Corpenicus Digital Elevation Model with limited worldwide coverage at 30 metres and global coverage at 90 metres spatial resolution.
 
-       :doc:`More <CCI_Landcover_specs>`       
+       :doc:`More <COP_DEM_specs>`
 
 
 About the data
