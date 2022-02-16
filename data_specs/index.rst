@@ -221,7 +221,7 @@ Land and water
        
        
 Elevation
-----------------
+---------
 
 .. toctree::
    :caption: Elevation
@@ -229,6 +229,7 @@ Elevation
    :maxdepth: 1
 
    COP_DEM_specs
+   SRTM_DEM_specs
 
 
 .. container:: product-list
@@ -242,6 +243,17 @@ Elevation
        Corpenicus Digital Elevation Model with limited worldwide coverage at 30 metres and global coverage at 90 metres spatial resolution.
 
        :doc:`More <COP_DEM_specs>`
+
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/SRTM_DEM_thumbnail.png
+
+       :doc:`SRTM_DEM_specs`
+
+       NASA version 3.0 Shuttle Radar Topography Mission (SRTM) global 1 arc second (~30 metre) DEM and Digital Earth Africa SRTM DEM Derivatives.
+
+       :doc:`More <SRTM_DEM_specs>`
 
 
 About the data
