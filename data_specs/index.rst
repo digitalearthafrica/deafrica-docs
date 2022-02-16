@@ -219,6 +219,7 @@ Land and water
 
        :doc:`More <ESA_WorldCover_specs>`
        
+       
     .. container:: product-item
 
        .. image:: ../_static/data_specs/CCI_Landcover_thumbnail.png
@@ -228,7 +229,7 @@ Land and water
        ESA Climate Change Initiative Land Cover at 300 m resolution.
 
        :doc:`More <CCI_Landcover_specs>`       
-=======
+
        
 Elevation
 ---------
@@ -253,7 +254,6 @@ Elevation
        Corpenicus Digital Elevation Model with limited worldwide coverage at 30 metres and global coverage at 90 metres spatial resolution.
 
        :doc:`More <COP_DEM_specs>`
->>>>>>> main
 
 
     .. container:: product-item
