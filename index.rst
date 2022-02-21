@@ -55,6 +55,7 @@ Platforms
    web_services/access
    maps/geoportal
    web_services/explorer
+   odc_stac/odc_stac
 
 
 .. container:: platform-list
@@ -135,6 +136,19 @@ Platforms
       The Metadata Explorer allows you to see where and when you can find data
 
       :doc:`More <web_services/explorer>`
+
+
+   .. container:: product-item
+
+      .. image:: _static/odc_stac/odc_stac_thumbnail.png
+         :target: ./odc_stac/odc_stac.html
+         :align: left
+
+      :doc:`odc_stac/odc_stac`
+
+      The odc-stac allows you to load STAC items into `xarray` Datasets.
+
+      :doc:`More <odc_stac/odc_stac>`
 
 
 .. toctree::
