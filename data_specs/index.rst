@@ -129,6 +129,7 @@ Land and water
    CGLS_LULC_specs
    IO_LULC_specs
    ESA_WorldCover_specs
+   Global_Mangrove_Watch_specs
    
 
 
@@ -229,6 +230,17 @@ Land and water
        ESA Climate Change Initiative Land Cover at 300 m resolution.
 
        :doc:`More <CCI_Landcover_specs>`       
+
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/Global_Mangrove_Watch_thumbnail.png
+
+       :doc:`Global_Mangrove_Watch_specs`
+
+       Global Mangrove Watch global baseline map of mangroves for 2010 and change maps for 1996, 2007, 2008, 2009, 2015 and 2016. 
+
+       :doc:`More <Global_Mangrove_Watch_specs>`       
 
        
 Elevation
