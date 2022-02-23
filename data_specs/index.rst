@@ -125,6 +125,7 @@ Land and water
    Landsat_WOfS_specs
    Cropland_extent_specs
    Fractional_Cover_specs
+   NDVI_Climatology_specs
    CHIRPS_specs
    CGLS_LULC_specs
    IO_LULC_specs
