@@ -140,15 +140,15 @@ Platforms
 
    .. container:: product-item
 
-      .. image:: _static/odc_stac/odc_stac_thumbnail.png
-         :target: ./odc_stac/odc_stac.html
+      .. image:: _static/web_services/odc_stac_thumbnail.png
+         :target: ./web_services/odc_stac.html
          :align: left
 
-      :doc:`odc_stac/odc_stac`
+      :doc:`web_services/odc_stac`
 
-      The odc-stac allows you to load STAC items into `xarray` Datasets.
+      The odc-stac Python library allows you to load data into an `xarray` from STAC items from a STAC catalog.
 
-      :doc:`More <odc_stac/odc_stac>`
+      :doc:`More <web_services/odc_stac>`
 
 
 .. toctree::
