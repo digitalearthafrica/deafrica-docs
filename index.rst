@@ -55,7 +55,7 @@ Platforms
    web_services/access
    maps/geoportal
    web_services/explorer
-   odc_stac/odc_stac
+   web_services/odc_stac
 
 
 .. container:: platform-list
