@@ -53,9 +53,10 @@ Platforms
    sandbox/index
    web_services/index
    web_services/access
+   web_services/odc_stac
    maps/geoportal
    web_services/explorer
-   web_services/odc_stac
+   
 
 
 .. container:: platform-list
@@ -146,7 +147,7 @@ Platforms
 
       :doc:`web_services/odc_stac`
 
-      The odc-stac Python library allows you to load data into an `xarray` from STAC items from a STAC catalog.
+      The odc-stac Python library allows you to load data into an :code:`xarray` from STAC items from a STAC catalog.
 
       :doc:`More <web_services/odc_stac>`
 
