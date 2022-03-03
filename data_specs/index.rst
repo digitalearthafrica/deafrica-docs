@@ -289,6 +289,8 @@ External Datasets
    :maxdepth: 1
    
    ERA5_Climate_Data_specs
+   GRAFS_specs
+   
    
    
 .. container:: product-list
@@ -302,6 +304,18 @@ External Datasets
        ERA5 global climate reanalysis product by the Copernicus Climate Change Service (C3S) at the ECMWF.
 
        :doc:`More <ERA5_Climate_Data_specs>`
+       
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/GRAFS_thumbnail.png
+
+       :doc:`GRAFS_specs`
+
+       Global Root-zone moisture Analysis & Forecasting System (GRAFS) by the ANU Centre for Water and Landscape Dynamics. 
+
+       :doc:`More <GRAFS_specs>`
+
 
    
 About the data
