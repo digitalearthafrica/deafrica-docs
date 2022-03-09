@@ -55,6 +55,7 @@ Platforms
    web_services/access
    maps/geoportal
    web_services/explorer
+   web_services/cube-in-a-box
 
 
 .. container:: platform-list
@@ -135,6 +136,19 @@ Platforms
       The Metadata Explorer allows you to see where and when you can find data
 
       :doc:`More <web_services/explorer>`
+
+
+   .. container:: product-item
+
+      .. image:: _static/web_services/cube-in-a-box-thumbnail.png
+         :target: ./web_services/cube-in-a-box.html
+         :align: left
+
+      :doc:`web_services/cube-in-a-box`
+
+      The Cube in a Box is a simple way to run the Open Data Cube.
+
+      :doc:`More <web_services/cube-in-a-box>`
 
 
 .. toctree::
