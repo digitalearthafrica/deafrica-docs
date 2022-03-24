@@ -51,11 +51,12 @@ Platforms
 
    maps/index
    sandbox/index
-   web_services/index
-   web_services/access
    maps/geoportal
-   web_services/explorer
-   web_services/cube-in-a-box
+   maps/external_web_services
+   platform_tools/index
+   platform_tools/access
+   platform_tools/explorer
+   platform_tools/cube-in-a-box
 
 
 .. container:: platform-list
