@@ -26,28 +26,11 @@ To list the contents of a bucket using the `AWS Command Line <https://docs.aws.a
 
     aws s3 ls --region=af-south-1 s3://deafrica-services/ --no-sign-request
 
-
-.. warning::
-    While Digital Earth Africa is committed to releasing its data to the public
-    for free, the unfortunate reality is that data leaving (data egress) the AWS
-    region incurs a non-trivial cost to DEA. In the future, to avoid out of
-    control costs for hosting our data, we may need to enable "Requester Pays" on
-    the data provided here.
-
-    This will mean:
-     * Data that is transferred from this bucket to AWS compute resources and
-       services within the AWS region will remain free of cost;
-     * All other downloads will require a user have an AWS account, this AWS
-       account will incur the charges for data egress.
-
-    If you would like to avoid disruption if and when and if this change is
-    applied, you will need to configure your S3 download client to use an AWS
-    account/identity and send the accept requester pays header
-    ``x-amz-request-charged:requester`` most clients offer a simple checkbox or
-    configuration flag to accept requester pays.
+Note that you will need to export the environment variable ``export AWS_S3_ENDPOINT=s3.af-south-1.amazonaws.com``
+to be able to use some tools such as GDAL to access the data.
 
 
-Cloud Optimized GeoTIFF (COG)
+Cloud Optimized GeoTIFFs (COG)
 ______________________________
 Most of the products in Digital Earth Africa are available as Cloud Optimized
 GeoTIFF (:term:`COG`) files.
@@ -58,8 +41,12 @@ For more information on using these files, see the
 For using COGs on S3 with QGIS, see the tutorial `How to read a Cloud
 Optimized GeoTIFF with QGIS <https://www.cogeo.org/qgis-tutorial.html>`_.
 
+To convert an S3 path to a direct HTTPS link that you can use in many applications,
+use the following format: ``https://<bucket>.s3.<region>.amazonaws.com/<key>`` where bucket
+is the name of the bucket, the region is ``af-south-1` and key is the path to the file.
 
-SpatioTemporal Asset Catalog (STAC)
+
+Spatio-Temporal Asset Catalog (STAC)
 ___________________________________
 
 The SpatioTemporal Asset Catalog (STAC) specification provides a common
