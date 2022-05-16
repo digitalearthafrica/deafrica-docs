@@ -47,6 +47,7 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
        Digital Earth Africa Services and Tools for Sustainable Development Goals.
 
        :doc:`More <DEAfrica_Notebooks_and_SDG_Indicators>`
+       
 
 
     .. container:: product-item
