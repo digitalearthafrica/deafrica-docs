@@ -16,7 +16,7 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
    :maxdepth: 1
 
    access
-   Website_DEAfrica_Notebooks_and_SDG_Indicators
+   DEAfrica_Notebooks_and_SDG_Indicators
    notebooks/Beginners_guide/index
    notebooks/Datasets/index
    notebooks/Frequently_used_code/index
@@ -42,12 +42,11 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
 
        .. image:: ../_static/sandbox/E_SDG_logo_without_UN_emblem_Square_WEB.png
 
-       :doc:`Website_DEAfrica_Notebooks_and_SDG_Indicators`
+       :doc:`DEAfrica_Notebooks_and_SDG_Indicators`
 
        Digital Earth Africa Services and Tools for Sustainable Development Goals.
 
-       :doc:`More <Website_DEAfrica_Notebooks_and_SDG_Indicators>`
-       
+       :doc:`More <DEAfrica_Notebooks_and_SDG_Indicators>`
 
 
     .. container:: product-item
