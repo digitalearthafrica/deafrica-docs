@@ -16,6 +16,7 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
    :maxdepth: 1
 
    access
+   notebooks/SDGs/index
    notebooks/Beginners_guide/index
    notebooks/Datasets/index
    notebooks/Frequently_used_code/index
@@ -35,6 +36,18 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
        Creating an account on the sandbox
 
        :doc:`More <access>`
+       
+       
+    .. container:: product-item
+
+       .. image:: ../_static/sandbox/sdg.png
+          :target: ./notebooks/SDGs/index.html
+
+       :doc:`notebooks/SDGs/index`
+
+       Digital Earth Africa Services and Tools for Sustainable Development Goals
+
+       :doc:`More <notebooks/SDGs/index>`
 
 
     .. container:: product-item
