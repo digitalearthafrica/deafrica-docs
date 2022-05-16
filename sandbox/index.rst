@@ -41,13 +41,13 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
     .. container:: product-item
 
        .. image:: ../_static/sandbox/sdg.png
-          :target: ./notebooks/SDGs/index.html
+          :target: ./Website_DEAfrica_Notebooks_and_SDG_Indicators.html
 
-       :doc:`notebooks/SDGs/index`
+       :doc:`Website_DEAfrica_Notebooks_and_SDG_Indicators.html`
 
        Digital Earth Africa Services and Tools for Sustainable Development Goals
 
-       :doc:`More <notebooks/SDGs/index>`
+       :doc:`More <Website_DEAfrica_Notebooks_and_SDG_Indicators.html>`
 
 
     .. container:: product-item
