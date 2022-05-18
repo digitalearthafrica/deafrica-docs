@@ -16,7 +16,7 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
    :maxdepth: 1
 
    access
-   SDGs/index
+   SDGs/DEAfrica_Notebooks_and_SDG_Indicators
    notebooks/Beginners_guide/index
    notebooks/Datasets/index
    notebooks/Frequently_used_code/index
@@ -41,13 +41,13 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
     .. container:: product-item
 
        .. image:: ../_static/sandbox/E_SDG_logo_without_UN_emblem_Square_WEB.png
-           :target: ./SDGs/index.html
 
-       :doc:`SDGs/index`
+
+       :doc:`SDGs/DEAfrica_Notebooks_and_SDG_Indicators`
 
        Notebooks demonstrating how DE Africa data and services can be used to support Sustainable Development Goals.
 
-       :doc:`More <SDGs/index>`
+       :doc:`More <SDGs/DEAfrica_Notebooks_and_SDG_Indicators>`
 
 
     .. container:: product-item
