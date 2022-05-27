@@ -113,8 +113,6 @@ Platforms
       :doc:`More <maps/external_web_services>`
 
 
-
-
    .. container:: product-item
 
       .. image:: _static/data_specs/ST_thumbnail.png
