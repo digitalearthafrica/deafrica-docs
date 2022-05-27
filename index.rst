@@ -116,7 +116,7 @@ Platforms
    .. container:: product-item
 
       .. image:: _static/data_specs/ST_thumbnail.png
-         :target: ./platform_tools/
+         :target: ./platform_tools/web_services.html
          :align: left
 
       :doc:`platform_tools/index`
@@ -129,7 +129,7 @@ Platforms
    .. container:: product-item
 
       .. image:: _static/data_specs/Landsat_thumbnail.png
-         :target: ./platform_tools/access.html
+         :target: ./platform_tools/direct_access.html
          :align: left
 
       :doc:`platform_tools/access`
@@ -155,14 +155,14 @@ Platforms
    .. container:: product-item
 
       .. image:: _static/web_services/cube-in-a-box-thumbnail.png
-         :target: ./web_services/cube-in-a-box.html
+         :target: ./platform_tools/cube-in-a-box.html
          :align: left
 
-      :doc:`web_services/cube-in-a-box`
+      :doc:`platform_tools/cube-in-a-box`
 
       The Cube in a Box is a simple way to run the Open Data Cube.
 
-      :doc:`More <web_services/cube-in-a-box>`
+      :doc:`More <platform_tools/cube-in-a-box>`
 
 
 .. toctree::
