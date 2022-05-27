@@ -142,14 +142,14 @@ Platforms
    .. container:: product-item
 
       .. image:: _static/web_services/metadata.png
-         :target: ./web_services/explorer.html
+         :target: ./platform_tools/explorer.html
          :align: left
 
-      :doc:`web_services/explorer`
+      :doc:`platform_tools/explorer`
 
       The Metadata Explorer allows you to see where and when you can find data
 
-      :doc:`More <web_services/explorer>`
+      :doc:`More <platform_tools/explorer>`
 
 
    .. container:: product-item
