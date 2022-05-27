@@ -98,6 +98,21 @@ Platforms
       Imagery from DE Africa is available in Esri’s Africa GeoPortal, providing geospatial tools, data and training
 
       :doc:`More <maps/geoportal>`
+      
+
+   .. container:: product-item
+
+      .. image:: _static/maps/nicfi_maps.jpg
+         :target: ./maps/external_web_services.html
+         :align: left
+
+      :doc:`maps/external_web_services`
+      
+      Integrating external web services into the Digital Earth Africa platform.
+
+      :doc:`More <web_services/index>`
+
+
 
 
    .. container:: product-item
