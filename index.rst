@@ -110,7 +110,7 @@ Platforms
       
       Integrating external web services into the Digital Earth Africa platform.
 
-      :doc:`More <web_services/index>`
+      :doc:`More <maps/external_web_services>`
 
 
 
