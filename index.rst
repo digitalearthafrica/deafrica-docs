@@ -116,7 +116,7 @@ Platforms
    .. container:: product-item
 
       .. image:: _static/data_specs/ST_thumbnail.png
-         :target: ./platform_tools/web_services.html
+         :target: ./platform_tools/
          :align: left
 
       :doc:`platform_tools/index`
@@ -129,7 +129,7 @@ Platforms
    .. container:: product-item
 
       .. image:: _static/data_specs/Landsat_thumbnail.png
-         :target: ./platform_tools/direct_access.html
+         :target: ./platform_tools/access.html
          :align: left
 
       :doc:`platform_tools/access`
