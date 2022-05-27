@@ -108,7 +108,7 @@ Platforms
 
       :doc:`maps/external_web_services`
       
-      Intergrating external web services into the Digital Earth Africa platform.
+      Intergrating external web services into the DE Africa platform.
 
       :doc:`More <maps/external_web_services>`
 
@@ -129,16 +129,14 @@ Platforms
    .. container:: product-item
 
       .. image:: _static/data_specs/Landsat_thumbnail.png
-         :target: ./web_services/access.html
+         :target: ./platform_tools/access.html
          :align: left
 
-      :doc:`web_services/access`
+      :doc:`platform_tools/access`
 
       Directly access the data and metadata from cloud data storage
 
-      :doc:`More <web_services/access>`
-
-
+      :doc:`More <platform_tools/access>`
 
 
    .. container:: product-item
