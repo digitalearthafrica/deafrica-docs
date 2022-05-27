@@ -108,7 +108,7 @@ Platforms
 
       :doc:`maps/external_web_services`
       
-      Integrating external web services into the Digital Earth Africa platform.
+      Intergrating external web services into the Digital Earth Africa platform.
 
       :doc:`More <maps/external_web_services>`
 
@@ -116,14 +116,14 @@ Platforms
    .. container:: product-item
 
       .. image:: _static/data_specs/ST_thumbnail.png
-         :target: ./maps/
+         :target: ./platform_tools/
          :align: left
 
-      :doc:`web_services/index`
+      :doc:`platform_tools/index`
 
       Access to DE Africa data from QGIS or ArcGIS using Web Map Service and Web Coverage Service
 
-      :doc:`More <web_services/index>`
+      :doc:`More <platform_tools/index>`
 
 
    .. container:: product-item
