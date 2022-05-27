@@ -89,6 +89,19 @@ Platforms
 
    .. container:: product-item
 
+      .. image:: _static/maps/geoportal_logo.png
+         :target: ./maps/geoportal.html
+         :align: left
+
+      :doc:`maps/geoportal`
+
+      Imagery from DE Africa is available in Esri’s Africa GeoPortal, providing geospatial tools, data and training
+
+      :doc:`More <maps/geoportal>`
+
+
+   .. container:: product-item
+
       .. image:: _static/data_specs/ST_thumbnail.png
          :target: ./maps/
          :align: left
@@ -113,17 +126,6 @@ Platforms
       :doc:`More <web_services/access>`
 
 
-   .. container:: product-item
-
-      .. image:: _static/maps/geoportal_logo.png
-         :target: ./maps/geoportal.html
-         :align: left
-
-      :doc:`maps/geoportal`
-
-      Imagery from DE Africa is available in Esri’s Africa GeoPortal, providing geospatial tools, data and training
-
-      :doc:`More <maps/geoportal>`
 
 
    .. container:: product-item
