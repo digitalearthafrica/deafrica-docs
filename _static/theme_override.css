@@ -223,8 +223,12 @@ div.document a:visited {
 
 /* Hack to get images to render side by side */
 
+img.float-left {
+    float: left;
+    
+}
+
 img.float-right {
     float: right;
-    margin-left: 100px;
     
 }
