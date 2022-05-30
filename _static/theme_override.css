@@ -220,3 +220,11 @@ div.document a:visited {
 .rst-content dl.xr-attrs dd {
 	  grid-column: 2 !important;
 }
+
+/* Hack to get images to render side by side */
+
+img.float-right {
+    float: right;
+    margin-left: 100px;
+    
+}
