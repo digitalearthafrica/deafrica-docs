@@ -221,7 +221,7 @@ div.document a:visited {
 	  grid-column: 2 !important;
 }
 
-/* Hack to get images to render side by side */
+/* Hacks to get the SDG notebook page to render correctly */
 
 img.float-left {
     float: left;
@@ -231,4 +231,10 @@ img.float-left {
 img.float-right {
     float: right;
     
+}
+
+div.centered-italic{
+    text-align : center; 
+    font-size : 17px; 
+    font-style : italic
 }
