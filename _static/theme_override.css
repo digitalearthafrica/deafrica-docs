@@ -238,3 +238,7 @@ div.centered-italic{
     font-size : 17px; 
     font-style : italic
 }
+
+p.empty-space{
+    margin-bottom : 4em;
+}
