@@ -240,5 +240,9 @@ div.centered-italic{
 }
 
 p.empty-space{
+    margin-bottom : 12em;
+}
+
+p.empty-space2{
     margin-bottom : 4em;
 }
