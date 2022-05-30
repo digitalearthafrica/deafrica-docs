@@ -89,32 +89,6 @@ Platforms
 
    .. container:: product-item
 
-      .. image:: _static/data_specs/ST_thumbnail.png
-         :target: ./maps/
-         :align: left
-
-      :doc:`web_services/index`
-
-      Access to DE Africa data from QGIS or ArcGIS using Web Map Service and Web Coverage Service
-
-      :doc:`More <web_services/index>`
-
-
-   .. container:: product-item
-
-      .. image:: _static/data_specs/Landsat_thumbnail.png
-         :target: ./web_services/access.html
-         :align: left
-
-      :doc:`web_services/access`
-
-      Directly access the data and metadata from cloud data storage
-
-      :doc:`More <web_services/access>`
-
-
-   .. container:: product-item
-
       .. image:: _static/maps/geoportal_logo.png
          :target: ./maps/geoportal.html
          :align: left
@@ -124,32 +98,71 @@ Platforms
       Imagery from DE Africa is available in Esri’s Africa GeoPortal, providing geospatial tools, data and training
 
       :doc:`More <maps/geoportal>`
+      
+
+   .. container:: product-item
+
+      .. image:: _static/maps/nicfi_maps.jpg
+         :target: ./maps/external_web_services.html
+         :align: left
+
+      :doc:`maps/external_web_services`
+      
+      Intergrating external web services into the DE Africa platform.
+
+      :doc:`More <maps/external_web_services>`
+
+
+   .. container:: product-item
+
+      .. image:: _static/data_specs/ST_thumbnail.png
+         :target: ./platform_tools/
+         :align: left
+
+      :doc:`platform_tools/index`
+
+      Access to DE Africa data from QGIS or ArcGIS using Web Map Service and Web Coverage Service
+
+      :doc:`More <platform_tools/index>`
+
+
+   .. container:: product-item
+
+      .. image:: _static/data_specs/Landsat_thumbnail.png
+         :target: ./platform_tools/access.html
+         :align: left
+
+      :doc:`platform_tools/access`
+
+      Directly access the data and metadata from cloud data storage
+
+      :doc:`More <platform_tools/access>`
 
 
    .. container:: product-item
 
       .. image:: _static/web_services/metadata.png
-         :target: ./web_services/explorer.html
+         :target: ./platform_tools/explorer.html
          :align: left
 
-      :doc:`web_services/explorer`
+      :doc:`platform_tools/explorer`
 
       The Metadata Explorer allows you to see where and when you can find data
 
-      :doc:`More <web_services/explorer>`
+      :doc:`More <platform_tools/explorer>`
 
 
    .. container:: product-item
 
       .. image:: _static/web_services/cube-in-a-box-thumbnail.png
-         :target: ./web_services/cube-in-a-box.html
+         :target: ./platform_tools/cube-in-a-box.html
          :align: left
 
-      :doc:`web_services/cube-in-a-box`
+      :doc:`platform_tools/cube-in-a-box`
 
       The Cube in a Box is a simple way to run the Open Data Cube.
 
-      :doc:`More <web_services/cube-in-a-box>`
+      :doc:`More <platform_tools/cube-in-a-box>`
 
 
 .. toctree::
