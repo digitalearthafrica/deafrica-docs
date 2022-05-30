@@ -121,7 +121,7 @@ Additional Guides
 
        :doc:`SDGs/DEAfrica_Notebooks_and_SDG_Indicators`
 
-        How DE Africa data and services can be used to support the Sustainable Development Goals.
+       How DE Africa data and services can be used to support the Sustainable Development Goals.
 
        :doc:`More <SDGs/DEAfrica_Notebooks_and_SDG_Indicators>`
 
