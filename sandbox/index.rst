@@ -41,6 +41,7 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
     .. container:: product-item
 
        .. image:: ../_static/sandbox/E_SDG_logo_without_UN_emblem_Square_WEB.png
+       :target: ./DEAfrica_Notebooks_and_SDG_Indicators.html
 
 
        :doc:`SDGs/DEAfrica_Notebooks_and_SDG_Indicators`
