@@ -105,13 +105,26 @@ Additional Guides
 .. toctree::
    :hidden:
    :maxdepth: 1
-
+    
+   SDGs/DEAfrica_Notebooks_and_SDG_Indicators
    notebooks/Tools/index
    help
    git-howto/index
    termsconditions
 
 .. container:: product-list
+
+    .. container:: product-item
+
+       .. image:: ../_static/sandbox/E_SDG_3.png
+          :target: ./notebooks/SDGs/DEAfrica_Notebooks_and_SDG_Indicators.html
+
+       :doc:`SDGs/DEAfrica_Notebooks_and_SDG_Indicators`
+
+        How DE Africa data and services can be used to support Sustainable Development Goals.
+
+       :doc:`More <SDGs/DEAfrica_Notebooks_and_SDG_Indicators>`
+
 
     .. container:: product-item
 
