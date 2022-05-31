@@ -106,7 +106,7 @@ Additional Guides
    :hidden:
    :maxdepth: 1
 
-   notebooks/SDGs/DEAfrica_Notebooks_and_SDG_Indicators
+   SDGs/DEAfrica_Notebooks_and_SDG_Indicators
    notebooks/Tools/index
    help
    git-howto/index
@@ -119,11 +119,11 @@ Additional Guides
        .. image:: ../_static/sandbox/E_SDG_logo_without_UN_emblem_Square_Transparent_WEB.png
           :target: ./notebooks/SDGs/DEAfrica_Notebooks_and_SDG_Indicators.html
 
-       :doc:`notebooks/SDGs/DEAfrica_Notebooks_and_SDG_Indicators`
+       :doc:`SDGs/DEAfrica_Notebooks_and_SDG_Indicators`
 
        How DE Africa data and services can be used to support the Sustainable Development Goals.
 
-       :doc:`More <notebooks/SDGs/DEAfrica_Notebooks_and_SDG_Indicators>`
+       :doc:`More <SDGs/DEAfrica_Notebooks_and_SDG_Indicators>`
        
 
     .. container:: product-item
