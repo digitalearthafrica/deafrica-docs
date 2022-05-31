@@ -116,7 +116,7 @@ Additional Guides
 
     .. container:: product-item
 
-       .. image:: ../_static/sandbox/E_SDG_3.png
+       .. image:: ../_static/sandbox/E_SDG_logo_without_UN_emblem_Square_Transparent_WEB.png
           :target: ./notebooks/SDGs/DEAfrica_Notebooks_and_SDG_Indicators.html
 
        :doc:`notebooks/SDGs/DEAfrica_Notebooks_and_SDG_Indicators`
