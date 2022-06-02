@@ -220,3 +220,29 @@ div.document a:visited {
 .rst-content dl.xr-attrs dd {
 	  grid-column: 2 !important;
 }
+
+/* Hacks to get the SDG notebook page to render correctly */
+
+img.float-left {
+    float: left;
+    
+}
+
+img.float-right {
+    float: right;
+    
+}
+
+div.centered-italic{
+    text-align : center; 
+    font-size : 17px; 
+    font-style : italic
+}
+
+p.empty-space{
+    margin-bottom : 15em;
+}
+
+p.empty-space2{
+    margin-bottom : 2em;
+}
