@@ -240,7 +240,9 @@ div.centered-italic{
 }
 
 p.empty-space{
-    margin-bottom : 15em;
+    height: 200px;
+    background-color: #ffffff;
+    opacity: 0.0;
 }
 
 p.empty-space2{
