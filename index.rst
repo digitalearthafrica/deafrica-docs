@@ -141,7 +141,7 @@ Platforms
 
    .. container:: product-item
 
-      .. image:: _static/platform_tools/cube-in-a-box-thumbnail.png
+      .. image:: _static/platform_tools/cube_in_a_box/cube-in-a-box-thumbnail.png
          :target: ./platform_tools/cube-in-a-box.html
          :align: left
 
