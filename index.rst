@@ -54,7 +54,7 @@ Platforms
    maps/geoportal
    maps/external_web_services
    platform_tools/web_services_gis
-   platform_tools/access
+   platform_tools/direct_access
    platform_tools/explorer
    platform_tools/cube-in-a-box
 
@@ -129,14 +129,14 @@ Platforms
    .. container:: product-item
 
       .. image:: _static/data_specs/Landsat_thumbnail.png
-         :target: ./platform_tools/access.html
+         :target: ./platform_tools/direct_access.html
          :align: left
 
-      :doc:`platform_tools/access`
+      :doc:`platform_tools/direct_access`
 
       Directly access the data and metadata from cloud data storage
 
-      :doc:`More <platform_tools/access>`
+      :doc:`More <platform_tools/direct_access>`
 
 
    .. container:: product-item
