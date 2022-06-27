@@ -49,7 +49,7 @@ Platforms
    :caption: Platforms
    :maxdepth: 1
 
-   maps/index
+   maps/deafrica_map
    sandbox/index
    maps/geoportal
    maps/external_web_services
@@ -57,6 +57,7 @@ Platforms
    platform_tools/direct_access
    platform_tools/explorer
    platform_tools/cube-in-a-box
+   platform_tools/odc-stac
 
 
 .. container:: platform-list
@@ -67,11 +68,11 @@ Platforms
          :target: ./maps/
          :align: left
 
-      :doc:`maps/index`
+      :doc:`maps/deafrica_map`
 
       Our user friendly map-based access to DE Africa data and products
 
-      :doc:`More <maps/index>`
+      :doc:`More <maps/deafrica_map>`
 
 
    .. container:: product-item
