@@ -102,7 +102,7 @@ Platforms
 
    .. container:: product-item
 
-      .. image:: _static/web_services/metadata.png
+      .. image:: _static/platform_tools/metadata.png
          :target: ./platform_tools/explorer.html
          :align: left
 
@@ -141,7 +141,7 @@ Platforms
 
    .. container:: product-item
 
-      .. image:: _static/web_services/cube-in-a-box-thumbnail.png
+      .. image:: _static/platform_tools/cube-in-a-box-thumbnail.png
          :target: ./platform_tools/cube-in-a-box.html
          :align: left
 
