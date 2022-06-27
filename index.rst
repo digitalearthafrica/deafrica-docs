@@ -102,7 +102,7 @@ Platforms
 
    .. container:: product-item
 
-      .. image:: _static/platform_tools/metadata.png
+      .. image:: _static/platform_tools/explorer/metadata.png
          :target: ./platform_tools/explorer.html
          :align: left
 
@@ -152,7 +152,20 @@ Platforms
       :doc:`More <platform_tools/cube-in-a-box>`
 
 
-    .. container:: product-item
+   .. container:: product-item
+    
+      .. image:: _static/platform_tools/odc_stac/odc_stac_thumbnail.png
+         :target: ./platform_tools/odc_stac.html
+         :align: left
+            
+      :doc:`platform_tools/odc_stac`
+      
+      Load STAC compliant earth observation data as an `xarray.Dataset` from the python environment of your choice.
+        
+      :doc:`More <platform_tools/odc_stac>`
+   
+   
+   .. container:: product-item
     
       .. image:: _static/data_specs/Landsat_thumbnail.png
          :target: ./platform_tools/direct_access.html
