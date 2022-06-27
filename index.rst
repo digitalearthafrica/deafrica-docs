@@ -151,17 +151,18 @@ Platforms
 
       :doc:`More <platform_tools/cube-in-a-box>`
 
+
     .. container:: product-item
     
-        .. image:: _static/data_specs/Landsat_thumbnail.png
-            :target: ./platform_tools/direct_access.html
-            :align: left
+      .. image:: _static/data_specs/Landsat_thumbnail.png
+         :target: ./platform_tools/direct_access.html
+         :align: left
             
-        :doc:`platform_tools/direct_access`
+      :doc:`platform_tools/direct_access`
         
-        Directly access the data and metadata from cloud data storage
+      Directly access the data and metadata from cloud data storage
         
-        :doc:`More <platform_tools/direct_access>`
+      :doc:`More <platform_tools/direct_access>`
 
 
 .. toctree::
