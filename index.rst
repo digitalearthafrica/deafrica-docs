@@ -53,7 +53,7 @@ Platforms
    sandbox/index
    maps/geoportal
    maps/external_web_services
-   platform_tools/index
+   platform_tools/web_services_gis
    platform_tools/access
    platform_tools/explorer
    platform_tools/cube-in-a-box
@@ -119,11 +119,11 @@ Platforms
          :target: ./platform_tools/
          :align: left
 
-      :doc:`platform_tools/index`
+      :doc:`platform_tools/web_services_gis`
 
       Access to DE Africa data from QGIS or ArcGIS using Web Map Service and Web Coverage Service
 
-      :doc:`More <platform_tools/index>`
+      :doc:`More <platform_tools/web_services_gis>`
 
 
    .. container:: product-item
