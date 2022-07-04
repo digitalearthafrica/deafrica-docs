@@ -56,8 +56,8 @@ Platforms
    maps/geoportal
    platform_tools/web_services_gis
    platform_tools/cube-in-a-box
-   platform_tools/odc-stac
    platform_tools/direct_access
+   platform_tools/odc_stac
 
 .. container:: platform-list
 
