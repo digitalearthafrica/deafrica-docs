@@ -150,19 +150,6 @@ Platforms
       The Cube in a Box is a simple way to run the Open Data Cube.
 
       :doc:`More <platform_tools/cube-in-a-box>`
-
-
-   .. container:: product-item
-    
-      .. image:: _static/platform_tools/odc_stac/odc_stac_thumbnail.png
-         :target: ./platform_tools/odc_stac.html
-         :align: left
-            
-      :doc:`platform_tools/odc_stac`
-      
-      Load STAC compliant earth observation data as an `xarray.Dataset` from the python environment of your choice.
-        
-      :doc:`More <platform_tools/odc_stac>`
    
    
    .. container:: product-item
@@ -176,6 +163,19 @@ Platforms
       Directly access the data and metadata from cloud data storage
         
       :doc:`More <platform_tools/direct_access>`
+      
+
+   .. container:: product-item
+    
+      .. image:: _static/platform_tools/odc_stac/odc_stac_thumbnail.png
+         :target: ./platform_tools/odc_stac.html
+         :align: left
+            
+      :doc:`platform_tools/odc_stac`
+      
+      Load STAC compliant earth observation data as an `xarray.Dataset` from the python environment of your choice.
+        
+      :doc:`More <platform_tools/odc_stac>`
 
 
 .. toctree::
