@@ -59,4 +59,5 @@ The DE Africa STAC endpoint is:
 https://explorer.digitalearth.africa/stac/
 
 For more information, see the
-`SpatioTemporal Asset Catalog <https://stacspec.org/>`_ site.
+`SpatioTemporal Asset Catalog <https://stacspec.org/>`_ site and the
+`DE Africa odc-stac example <odc_stac.ipynb>`_.
