@@ -60,4 +60,4 @@ https://explorer.digitalearth.africa/stac/
 
 For more information, see the
 `SpatioTemporal Asset Catalog <https://stacspec.org/>`_ site and the
-`DE Africa odc-stac example<odc_stac.ipynb>`_.
+`DE Africa odc-stac example <odc_stac.ipynb>`_.
