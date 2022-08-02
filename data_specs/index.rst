@@ -206,7 +206,7 @@ Land and water
 
        :doc:`IO_LULC_specs`
 
-       ESRI 10-meter resolution global land use land cover map for the year 2020.
+       ESRI 10-meter resolution global land use land cover time series.
 
        :doc:`More <IO_LULC_specs>`
        
