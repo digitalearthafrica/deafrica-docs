@@ -244,6 +244,29 @@ Land and water
        :doc:`More <Global_Mangrove_Watch_specs>`       
 
        
+Coastal
+-------
+
+.. toctree::
+   :caption: Coastal
+   :hidden:
+   :maxdepth: 1
+
+   Coastlines_specs
+
+
+.. container:: product-list
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/Coastlines_thumbnail.png
+
+       :doc:`Coastlines_specs`
+
+       Annual shorelines and rates of coastal change along the entire African coastline at a 30 m resolution from 2000 to present. 
+
+       :doc:`More <Coastlines_specs>`
+
 Elevation
 ---------
 
