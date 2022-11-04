@@ -184,7 +184,7 @@ Land and water
 
        :doc:`NDVI_Anomaly_specs`
 
-       Monthly NDVI Anomaly for monitoring of vegetation condition against the long-term baseline measured in NDVI Climatology.
+       Monthly mapping of vegetation condition against the long-term baseline.
 
        :doc:`More <NDVI_Anomaly_specs>`
        
