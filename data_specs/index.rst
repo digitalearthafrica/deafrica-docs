@@ -174,9 +174,19 @@ Land and water
 
        :doc:`NDVI_Climatology_specs`
 
-       Long-term average vegetation condition (NDVI) for every Landsat pixel over the African continent
+       Long-term average vegetation condition (NDVI) for every Landsat pixel over the African continent.
 
        :doc:`More <NDVI_Climatology_specs>`
+       
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/NDVI_anom_thumbnail.png
+
+       :doc:`NDVI_Anomaly_specs`
+
+       Monthly mapping of vegetation condition against the long-term baseline.
+
+       :doc:`More <NDVI_Anomaly_specs>`
        
     .. container:: product-item
 
