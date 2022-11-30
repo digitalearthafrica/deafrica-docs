@@ -1,11 +1,11 @@
 .. _dask-howto:
 
-Dask capabilities within the Sandbox
+Understanding Dask Capabilities 
 ==========================
 
-This documentation builds upon the existing introduction to using Dask with Digital Earth Africa and breaks down the key functions associated with the use of Dask. 
+This documentation builds upon DE Africa’s existing Parallel Processing with Dask notebook. Each of these isolated examples builds on from the previous, with the aim of introducing a new Dask related concept as each example progresses. 
 
-Each of these isolated examples builds on from the previous, with the aim of introducing a new Dask related concept as each example progresses. 
+Dask is a tool used for data management, whereby data is broken down into manageable chunks to allow for scaling up analyses and time efficiency. Breaking data into chunks can allow for easier storage in memory and can draw upon multiple computing cores to speed up computations. 
 
 To find out more, click **Next**, or select `Lazy-loading Data <./01_lazy_loading_dask.ipynb>`_ below.
 
