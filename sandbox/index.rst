@@ -110,6 +110,7 @@ Additional Guides
    notebooks/Tools/index
    help
    git-howto/index
+   dask-howto/index
    termsconditions
 
 .. container:: product-list
@@ -160,5 +161,17 @@ Additional Guides
        Guide to using notebooks with ``git`` version control
 
        :doc:`More <git-howto/index>`
+       
+       
+    .. container:: product-item
+
+       .. image:: ../_static/sandbox/dask.png
+          :target: ./dask-howto/index.html
+
+       :doc:`dask-howto/index`
+
+       Guide to using Dask capabilities within the Sandbox
+
+       :doc:`More <dask-howto/index>`
 
 
