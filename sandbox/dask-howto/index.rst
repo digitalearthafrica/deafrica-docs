@@ -1,6 +1,6 @@
 .. _dask-howto:
 
-Understanding Dask Capabilities 
+Understanding Dask  
 ==========================
 
 This documentation builds upon DE Africa’s existing Parallel Processing with Dask notebook. Each of these isolated examples builds on from the previous, with the aim of introducing a new Dask related concept as each example progresses. 
