@@ -15,7 +15,7 @@ so they can be viewed, reviewed, and edited by your co-workers.
 
 To find out more, click **Next**, or select `What is Git? <./01_what_is_git.ipynb>`_ below.
 
-To see the extensive code available in the Sandbox for spatial analysis, see the `Notebook Gallery <../gallery.rst>`_.
+To see the extensive code available in the Sandbox for spatial analysis, see the `Notebook Gallery <../index.rst>`_.
 
 When you create a DE Africa Sandbox account or use the DE Africa Sandbox, 
 you agree to the `Sandbox Terms and Conditions <../termsconditions.rst>`_.
