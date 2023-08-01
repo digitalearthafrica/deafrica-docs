@@ -227,7 +227,7 @@ Land and water
 
        :doc:`ESA_WorldCover_specs`
 
-       ESA WorldCover global land cover map at 10 m resolution for 2020.
+       ESA WorldCover global land cover map at 10 m resolution.
 
        :doc:`More <ESA_WorldCover_specs>`
        
