@@ -131,6 +131,7 @@ Land and water
    IO_LULC_specs
    ESA_WorldCover_specs
    Global_Mangrove_Watch_specs
+   World_Settlement_Footprint_specs
    
 
 
@@ -251,7 +252,18 @@ Land and water
 
        Global Mangrove Watch global baseline map of mangroves for 2010 and change maps for 1996, 2007, 2008, 2009, 2015 and 2016. 
 
-       :doc:`More <Global_Mangrove_Watch_specs>`       
+       :doc:`More <Global_Mangrove_Watch_specs>`
+       
+       
+       .. container:: product-item
+
+       .. image:: ../_static/data_specs/WSF/WSF_thumbnail.png.png
+
+       :doc:`World Settlement Footprint`
+
+       The World Settlement Footprint WSF is a 10m resolution binary maskoutlining the extent of human settlements globally for the year 2015 and 2019 based on multiple datasets. 
+
+       :doc:`More <World Settlement Footprint>`   
 
        
 Coastal
