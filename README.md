@@ -1,4 +1,5 @@
 # deafrica-docs
+
 Technical documentation website at https://docs.digitalearthafrica.org/
 
 English: [![Documentation Status](https://readthedocs.org/projects/digital-earth-africa/badge/?version=latest)](https://docs.digitalearthafrica.org/en/latest/?badge=latest) | 
