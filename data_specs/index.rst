@@ -255,7 +255,7 @@ Land and water
        :doc:`More <Global_Mangrove_Watch_specs>`
        
        
-       .. container:: product-item
+    .. container:: product-item
 
        .. image:: ../_static/data_specs/WSF/WSF_thumbnail.png.png
 
