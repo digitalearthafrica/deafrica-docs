@@ -257,7 +257,7 @@ Land and water
        
     .. container:: product-item
 
-       .. image:: ../_static/data_specs/WSF/WSF_thumbnail.png.png
+       .. image:: ../_static/data_specs/WSF/WSF_thumbnail.png
 
        :doc:`World Settlement Footprint`
 
