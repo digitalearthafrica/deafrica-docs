@@ -1,4 +1,4 @@
-Sphinx>=3.3.0,<4.1
+Sphinx>=3.3.0,<4.3
 nbsphinx
 sphinx_rtd_theme==0.5.2
 ipython
