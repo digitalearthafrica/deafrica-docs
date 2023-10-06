@@ -321,15 +321,15 @@ Land and water
        :doc:`More <Global_Mangrove_Watch_specs>`
        
        
-       .. container:: product-item
+    .. container:: product-item
 
-       .. image:: ../_static/data_specs/WSF/WSF_thumbnail.png.png
+       .. image:: ../_static/data_specs/WSF_thumbnail.png
 
-       :doc:`World Settlement Footprint`
+       :doc:`World_Settlement_Footprint_specs`
 
        The World Settlement Footprint WSF is a 10m resolution binary maskoutlining the extent of human settlements globally for the year 2015 and 2019 based on multiple datasets. 
 
-       :doc:`More <World Settlement Footprint>`   
+       :doc:`More <World_Settlement_Footprint_specs>`   
 
        
 Coastal
