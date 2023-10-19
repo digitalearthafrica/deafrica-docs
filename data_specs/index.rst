@@ -232,6 +232,16 @@ Land and water
 
        .. image:: ../_static/data_specs/iSDA_Soil_Bedrock_Depth_thumbnail.png
 
+       :doc:`iSDA_Soil_Data`
+
+       iSDA soil bedrock depth at 30 m resolution.
+
+       :doc:`More <iSDA_Soil_Data>` 
+       
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/iSDA_Soil_Bedrock_Depth_thumbnail.png
+
        :doc:`iSDA_Soil_Bedrock_Depth_specs`
 
        iSDA soil bedrock depth at 30 m resolution.
