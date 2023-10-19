@@ -129,6 +129,7 @@ Land and water
    CHIRPS_specs
    CGLS_LULC_specs
    IO_LULC_specs
+   iSDA_Soil_Data
    iSDA_Soil_Bedrock_Depth_specs
    iSDA_Soil_Bulk_Density_specs
    iSDA_Soil_Carbon_Total_specs
@@ -226,6 +227,17 @@ Land and water
        ESRI 10-meter resolution global land use land cover time series.
 
        :doc:`More <IO_LULC_specs>`
+       
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/iSDA_Soil_Bedrock_Depth_thumbnail.png
+
+       :doc:`iSDA_Soil_Data`
+
+       iSDA soil variables at 30 m resolution.
+
+       :doc:`More <iSDA_Soil_Data>`       
+       
        
     .. container:: product-item
 
