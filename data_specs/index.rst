@@ -129,6 +129,7 @@ Land and water
    CHIRPS_specs
    CGLS_LULC_specs
    IO_LULC_specs
+   iSDA_Soil_Data
    iSDA_Soil_Bedrock_Depth_specs
    iSDA_Soil_Bulk_Density_specs
    iSDA_Soil_Carbon_Total_specs
