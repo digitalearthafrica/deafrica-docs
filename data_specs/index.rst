@@ -130,12 +130,6 @@ Land and water
    CGLS_LULC_specs
    IO_LULC_specs
    iSDA_Soil_Data
-   iSDA_Soil_Bedrock_Depth_specs
-   iSDA_Soil_Bulk_Density_specs
-   iSDA_Soil_Carbon_Total_specs
-   iSDA_Soil_Clay_Content_specs
-   iSDA_Soil_Sand_Content_specs
-   iSDA_Soil_Silt_Content_specs
    ESA_WorldCover_specs
    Global_Mangrove_Watch_specs
    World_Settlement_Footprint_specs
@@ -238,68 +232,6 @@ Land and water
 
        :doc:`More <iSDA_Soil_Data>`       
        
-       
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/iSDA_Soil_Bedrock_Depth_thumbnail.png
-
-       :doc:`iSDA_Soil_Bedrock_Depth_specs`
-
-       iSDA soil bedrock depth at 30 m resolution.
-
-       :doc:`More <iSDA_Soil_Bedrock_Depth_specs>`   
-       
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/iSDA_Soil_Bulk_Density_thumbnail.png
-
-       :doc:`iSDA_Soil_Bulk_Density_specs`
-
-       iSDA soil bulk density at 30 m resolution and 0-20cm & 20-50cm depth.
-
-       :doc:`More <iSDA_Soil_Bulk_Density_specs>`   
-       
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/iSDA_Soil_Carbon_Total_thumbnail.png
-
-       :doc:`iSDA_Soil_Carbon_Total_specs`
-
-       iSDA soil carbon total at 30 m resolution and 0-20cm & 20-50cm depth.
-
-       :doc:`More <iSDA_Soil_Carbon_Total_specs>`   
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/iSDA_Soil_Clay_Content_thumbnail.png
-
-       :doc:`iSDA_Soil_Clay_Content_specs`
-
-       iSDA soil clay content at 30 m resolution and 0-20cm & 20-50cm depth.
-
-       :doc:`More <iSDA_Soil_Clay_Content_specs>`   
-       
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/iSDA_Soil_Sand_Content_thumbnail.png
-
-       :doc:`iSDA_Soil_Sand_Content_specs`
-
-       iSDA soil sand content at 30 m resolution and 0-20cm & 20-50cm depth.
-
-       :doc:`More <iSDA_Soil_Sand_Content_specs>`   
-       
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/iSDA_Soil_Silt_Content_thumbnail.png
-
-       :doc:`iSDA_Soil_Silt_Content_specs`
-
-       iSDA soil silt content at 30 m resolution and 0-20cm & 20-50cm depth.
-
-       :doc:`More <iSDA_Soil_Silt_Content_specs>` 
-
-          
     .. container:: product-item
 
        .. image:: ../_static/data_specs/ESA_WorldCover_thumbnail.png
