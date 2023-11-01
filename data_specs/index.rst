@@ -131,7 +131,7 @@ Land and water
    IO_LULC_specs
    ESA_WorldCover_specs
    Global_Mangrove_Watch_specs
-   Water_Bodies_specs
+   Waterbodies_specs
    World_Settlement_Footprint_specs
    
 
@@ -258,13 +258,13 @@ Land and water
 
     .. container:: product-item
 
-       .. image:: ../_static/data_specs/Water_Bodies_thumbnail.png
+       .. image:: ../_static/data_specs/Waterbodies_thumbnail.png
 
-       :doc:`Water_Bodies_specs`
+       :doc:`Waterbodies_specs`
 
        A continental collection of African water bodies locations and surface area change at a 30m resolution from 1987 to present. 
 
-       :doc:`More <Water_Bodies_specs>`
+       :doc:`More <Waterbodies_specs>`
        
     .. container:: product-item
 
