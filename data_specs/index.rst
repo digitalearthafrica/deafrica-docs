@@ -272,7 +272,7 @@ Land and water
 
        :doc:`World_Settlement_Footprint_specs`
 
-       The World Settlement Footprint WSF is a 10m resolution binary maskoutlining the extent of human settlements globally for the year 2015 and 2019 based on multiple datasets. 
+       The World Settlement Footprint WSF is a 10m-resolution binary mask outlining the extent of human settlements globally for the years 2015 and 2019 based on multiple datasets, and the World Settlement Footprint Evolution shows the annual growth of human settlements globally at 30m-resolution. 
 
        :doc:`More <World_Settlement_Footprint_specs>`   
 
