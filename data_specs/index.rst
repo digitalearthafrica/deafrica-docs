@@ -129,6 +129,7 @@ Land and water
    CHIRPS_specs
    CGLS_LULC_specs
    IO_LULC_specs
+   iSDA_Soil_Data
    ESA_WorldCover_specs
    Global_Mangrove_Watch_specs
    Waterbodies_specs
@@ -222,7 +223,16 @@ Land and water
 
        :doc:`More <IO_LULC_specs>`
        
-          
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/iSDA_Soil_Bedrock_Depth_thumbnail.png
+
+       :doc:`iSDA_Soil_Data`
+
+       iSDA soil variables at 30 m resolution.
+
+       :doc:`More <iSDA_Soil_Data>`       
+       
     .. container:: product-item
 
        .. image:: ../_static/data_specs/ESA_WorldCover_thumbnail.png
