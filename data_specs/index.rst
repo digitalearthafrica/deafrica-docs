@@ -392,7 +392,7 @@ External Datasets
 
         Planet NICFI visual mosaics provide optimized, true-color imagery, making them ideal for visual display and interpretation. 
 
-       :doc:`More <Planet NICFI_specs>`
+       :doc:`More <Planet_NICFI_specs>`
 
 
    
