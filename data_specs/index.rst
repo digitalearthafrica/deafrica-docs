@@ -386,7 +386,7 @@ External Datasets
 
     .. container:: product-item
 
-       .. image:: ../_static/data_specs/PLANET_thumbnail.png
+       .. image:: ../_static/data_specs/PLANET_thumbnail.jpg
 
        :doc:`Planet NICFI`
 
