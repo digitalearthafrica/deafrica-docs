@@ -381,6 +381,18 @@ External Datasets
        Global Root-zone moisture Analysis & Forecasting System (GRAFS) by the ANU Centre for Water and Landscape Dynamics. 
 
        :doc:`More <GRAFS_specs>`
+       
+              
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/PLANET_thumbnail.png
+
+       :doc:`Planet NICFI`
+
+        Planet NICFI visual mosaics provide optimized, true-color imagery, making them ideal for visual display and interpretation. 
+
+       :doc:`More <Planet NICFI_specs>`
 
 
    
