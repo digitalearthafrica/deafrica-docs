@@ -356,7 +356,7 @@ External Datasets
    
    ERA5_Climate_Data_specs
    GRAFS_specs
-   GRAFS_specs
+   Planet_NICFI_specs
    
    
    
@@ -390,8 +390,8 @@ External Datasets
        .. image:: ../_static/data_specs/PLANET_thumbnail.jpg
 
        :doc:`Planet_NICFI_specs`
-
-        Planet NICFI visual mosaics provide optimized, true-color imagery, making them ideal for visual display and interpretation. 
+       
+       Planet NICFI visual mosaics provide optimized, true-color imagery, making them ideal for visual display and interpretation. 
 
        :doc:`More <Planet_NICFI_specs>`
 
