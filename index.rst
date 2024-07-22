@@ -58,6 +58,7 @@ Platforms
    platform_tools/cube-in-a-box
    platform_tools/direct_access
    platform_tools/odc_stac
+   platform_tools/googledrive_access
 
 .. container:: platform-list
 
