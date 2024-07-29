@@ -1,9 +1,9 @@
 name: "Export terms to POEditor"
 on:
-  push:
-    branches: [ main ]
-    paths-ignore: 
-      - 'locales/**'
+ push:
+   branches: [ main ]
+   paths-ignore: 
+     - 'locales/**'
 
 jobs:
   docs:
@@ -37,7 +37,7 @@ jobs:
           ./_build/*.pot
     - name: Upload terms
       env:
-        POEDITOR_API_TOKEN: ${{ secrets.POEDITOR_API_TOKEN }}
-        POEDITOR_PROJECT_ID: "432737"
+        POEDITOR_API_TOKEN: "8141b5afb696e463944f55ce80232b87"  #${{ secrets.POEDITOR_API_TOKEN }}
+        POEDITOR_PROJECT_ID: "715168"
       run: |
         python upload_terms.py
