@@ -23,7 +23,8 @@ Data
    :caption: Data
    :maxdepth: 1
 
-
+   data_specs/index
+    
 .. container:: platform-list
 
    .. container:: product-item
@@ -179,7 +180,7 @@ Platforms
       
    .. container:: product-item
     
-      .. image:: _static/platform_tools/odc_stac/odc_stac_thumbnail.png
+      .. image:: _static/platform_tools/googledrive_access/google-drive.png
          :target: ./platform_tools/googledrive_access.html
          :align: left
             
