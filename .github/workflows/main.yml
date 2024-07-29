@@ -2,8 +2,8 @@ name: "Export terms to POEditor"
 on:
  # push:
  #   branches: [ main ]
- #   paths-ignore: 
- #     - 'locales/**'
+   paths-ignore: 
+     - 'locales/**'
 
 jobs:
   docs:
