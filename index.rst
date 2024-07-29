@@ -58,6 +58,7 @@ Platforms
    platform_tools/cube-in-a-box
    platform_tools/direct_access
    platform_tools/odc_stac
+   platform_tools/googledrive_access
 
 .. container:: platform-list
 
@@ -176,6 +177,19 @@ Platforms
       Load STAC compliant earth observation data as an `xarray.Dataset` from the python environment of your choice.
         
       :doc:`More <platform_tools/odc_stac>`
+      
+      
+   .. container:: product-item
+    
+      .. image:: _static/platform_tools/odc_stac/odc_stac_thumbnail.png
+         :target: ./platform_tools/googledrive_access.html
+         :align: left
+            
+      :doc:`platform_tools/googledrive_access`
+      
+      Connecting Google Drive Folder to DE Africa Sandbox
+        
+      :doc:`More <platform_tools/googledrive_access>`
 
 
 .. toctree::
