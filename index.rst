@@ -23,8 +23,6 @@ Data
    :caption: Data
    :maxdepth: 1
 
-   data_specs/index
-
 
 .. container:: platform-list
 
