@@ -261,7 +261,7 @@ Land and water
 
        :doc:`Global_Mangrove_Watch_specs`
 
-       Global Mangrove Watch global baseline map of mangroves for 2010 and change maps for 1996, 2007, 2008, 2009, 2015 and 2016. 
+       Global Mangrove Watch global baseline map of mangroves for 2010 and change maps for 1996, 2007, 2008, 2009, 2015 - 2020. 
 
        :doc:`More <Global_Mangrove_Watch_specs>`
        
