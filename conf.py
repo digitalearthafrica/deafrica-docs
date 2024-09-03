@@ -111,17 +111,17 @@ nbsphinx_execute = 'never'
 # a list of builtin themes.
 #
 
-# try:
-#     import sphinx_rtd_theme
-#     html_theme = 'sphinx_rtd_theme'
+try:
+    import sphinx_rtd_theme
+    html_theme = 'sphinx_rtd_theme'
 
-#     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-#     html_theme_options = {
-#         'logo_only': True,
-#         'display_version': False,
-#     }
-# except ImportError:
-#     html_theme = 'alabaster'
+    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+    html_theme_options = {
+        'logo_only': True,
+        'display_version': False,
+    }
+except ImportError:
+    html_theme = 'alabaster'
 
 
 # Define the canonical URL if you are using a custom domain on Read the Docs
