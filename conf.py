@@ -92,18 +92,18 @@ napoleon_google_docstring = False
 napoleon_numpy_docstring = True
 
 # # Add any paths that contain templates here, relative to this directory.
-# templates_path = ['_templates']
+templates_path = ['_templates']
 
 # # List of patterns, relative to source directory, that match files and
 # # directories to ignore when looking for source files.
 # # This pattern also affects html_static_path and html_extra_path.
-# exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store',
-#                     '**.ipynb_checkpoints',
-#                     'sandbox/notebooks/DEAfrica_notebooks_template.ipynb',
-#                     ]
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store',
+                    '**.ipynb_checkpoints',
+                    'sandbox/notebooks/DEAfrica_notebooks_template.ipynb',
+                    ]
 
 # # Don't execute notebooks
-# nbsphinx_execute = 'never'
+nbsphinx_execute = 'never'
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -113,10 +113,10 @@ napoleon_numpy_docstring = True
 
 try:
     import sphinx_rtd_theme
-    
+    html_theme = 'sphinx_rtd_theme'
     html_theme_options = {
     'logo_only': False,
-    'display_version': True,
+    'display_version': False,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
     'vcs_pageview_mode': '',
