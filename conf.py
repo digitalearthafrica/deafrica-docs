@@ -29,15 +29,14 @@ release = '2021'
 # # Add any Sphinx extension module names here, as strings. They can be
 # # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # # ones.
-# extensions = [
-#     "sphinx.ext.autodoc",
-#     "sphinx.ext.autosummary",
-#     "sphinx.ext.napoleon",
-#     "nbsphinx",
-#     "sphinx_rtd_theme",
-#     "sphinx.ext.autosectionlabel",
-#     "sphinx_build_compatibility.extension",
-# ]
+extensions = [
+    "sphinx.ext.autodoc",
+    "sphinx.ext.autosummary",
+    "sphinx.ext.napoleon",
+    "nbsphinx",
+    "sphinx_rtd_theme",
+    "sphinx.ext.autosectionlabel",
+]
 
 # Autodoc conf
 # autosummary_generate = ['sandbox/notebooks/Tools/index.rst']
