@@ -111,17 +111,17 @@ napoleon_numpy_docstring = True
 # a list of builtin themes.
 #
 
-try:
-    import sphinx_rtd_theme
+# try:
+#     import sphinx_rtd_theme
 
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-    html_theme_options = {
-        'logo_only': True,
-        'display_version': False,
-    }
-except ImportError:
-    html_theme = 'alabaster'
+#     html_theme = 'sphinx_rtd_theme'
+#     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+#     html_theme_options = {
+#         'logo_only': True,
+#         'display_version': False,
+#     }
+# except ImportError:
+#     html_theme = 'alabaster'
 
 
 # html_baseurl = 'https://docs.digitalearthafrica.org/'
@@ -139,7 +139,7 @@ if os.environ.get("READTHEDOCS", "") == "True":
 # # Add any paths that contain custom static files (such as style sheets) here,
 # # relative to this directory. They are copied after the builtin static files,
 # # so a file named "default.css" will overwrite the builtin "default.css".
-# html_static_path = ['_static']
+html_static_path = ['_static']
 
 html_logo = '_static/logo.png'
 
