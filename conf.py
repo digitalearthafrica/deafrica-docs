@@ -34,7 +34,7 @@ extensions = [
     "sphinx.ext.autosummary",
     "sphinx.ext.napoleon",
     "nbsphinx",
-    "sphinx_rtd_theme",
+#     "sphinx_rtd_theme",
     "sphinx.ext.autosectionlabel",
 ]
 
@@ -111,27 +111,17 @@ nbsphinx_execute = 'never'
 # a list of builtin themes.
 #
 
-try:
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
+# try:
+#     import sphinx_rtd_theme
+#     html_theme = 'sphinx_rtd_theme'
 
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-    html_theme_options = {
-        'logo_only': True,
-        'display_version': False,
-    }
-except ImportError:
-    html_theme = 'alabaster'
-
-
-# Define the canonical URL if you are using a custom domain on Read the Docs
-html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "https://docs.digitalearthafrica.org/") 
-
-# Tell Jinja2 templates the build is running on Read the Docs
-if os.environ.get("READTHEDOCS", "") == "True":
-    if "html_context" not in globals():
-        html_context = {}
-    html_context["READTHEDOCS"] = True
+#     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+#     html_theme_options = {
+#         'logo_only': True,
+#         'display_version': False,
+#     }
+# except ImportError:
+#     html_theme = 'alabaster'
 
 
 # # Add any paths that contain custom static files (such as style sheets) here,
@@ -158,6 +148,14 @@ html_css_files = [
     '_static/theme_override.css',  # override wide tables in RTD theme
 ]
 
+# Define the canonical URL if you are using a custom domain on Read the Docs
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "https://docs.digitalearthafrica.org/") 
+
+# Tell Jinja2 templates the build is running on Read the Docs
+if os.environ.get("READTHEDOCS", "") == "True":
+    if "html_context" not in globals():
+        html_context = {}
+    html_context["READTHEDOCS"] = True
 
 # # Translation options
 # gettext_compact = "docs"  # makes a single "docs.po" file
