@@ -154,7 +154,9 @@ html_show_sourcelink = False
 #         '_static/theme_override.css',  # override wide tables in RTD theme
 #     ],
 # }
-
+html_css_files = [
+    '_static/theme_override.css',  # override wide tables in RTD theme
+]
 
 
 # # Translation options
