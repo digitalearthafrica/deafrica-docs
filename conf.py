@@ -148,12 +148,12 @@ html_use_index = True
 # # If true, links to the reST sources are added to the pages.
 html_show_sourcelink = False
 
-# # Use table-wrapping style
-html_context = {
-    'css_files': [
-        '_static/theme_override.css',  # override wide tables in RTD theme
-    ],
-}
+# # # Use table-wrapping style
+# html_context = {
+#     'css_files': [
+#         '_static/theme_override.css',  # override wide tables in RTD theme
+#     ],
+# }
 
 
 
