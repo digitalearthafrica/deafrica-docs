@@ -1,7 +1,6 @@
 Sphinx>=5
 nbsphinx
-sphinx_rtd_theme==0.5.2
+sphinx_rtd_theme==2.1.0rc2
 ipython
 ipywidgets
 pygments>=2.4.1
-git+https://github.com/readthedocs/sphinx-build-compatibility#egg=sphinx-build-compatibility

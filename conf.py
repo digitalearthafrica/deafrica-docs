@@ -111,8 +111,23 @@ napoleon_numpy_docstring = True
 # a list of builtin themes.
 #
 
-# try:
-#     import sphinx_rtd_theme
+try:
+    import sphinx_rtd_theme
+    
+    html_theme_options = {
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    'vcs_pageview_mode': '',
+    'style_nav_header_background': 'white',
+    # Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
+}
 
 #     html_theme = 'sphinx_rtd_theme'
 #     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
@@ -120,8 +135,8 @@ napoleon_numpy_docstring = True
 #         'logo_only': True,
 #         'display_version': False,
 #     }
-# except ImportError:
-#     html_theme = 'alabaster'
+except ImportError:
+    html_theme = 'alabaster'
 
 
 
@@ -148,25 +163,25 @@ html_context = {
     ],
 }
 
-# Translation options
-gettext_compact = "docs"  # makes a single "docs.po" file
-gettext_location = False  # This causes the build to break?
-locale_dirs = ['locales/']
+# # Translation options
+# gettext_compact = "docs"  # makes a single "docs.po" file
+# gettext_location = False  # This causes the build to break?
+# locale_dirs = ['locales/']
 
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-on_gha = os.environ.get('GITHUB_ACTIONS', None) == 'True'
-get_translation = os.environ.get('POEDITOR_PROJECT_ID', None) is not None
+# on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+# on_gha = os.environ.get('GITHUB_ACTIONS', None) == 'True'
+# get_translation = os.environ.get('POEDITOR_PROJECT_ID', None) is not None
 
-# If we are on ReadTheDocs, and translation is required, download the translation file from poeditor
-if on_rtd and get_translation:
-    import subprocess
-    subprocess.run(["make", "fetchtranslation"])
+# # If we are on ReadTheDocs, and translation is required, download the translation file from poeditor
+# if on_rtd and get_translation:
+#     import subprocess
+#     subprocess.run(["make", "fetchtranslation"])
 
-# If we are on ReadtheDocs, load the latest version of the notebooks
-if on_rtd or on_gha:
-    import subprocess
-    subprocess.run(["make", "fetchnotebooks"])
-    subprocess.run(["make", "buildtools"])
+# # If we are on ReadtheDocs, load the latest version of the notebooks
+# if on_rtd or on_gha:
+#     import subprocess
+#     subprocess.run(["make", "fetchnotebooks"])
+#     subprocess.run(["make", "buildtools"])
     
     
 # html_baseurl = 'https://docs.digitalearthafrica.org/'
