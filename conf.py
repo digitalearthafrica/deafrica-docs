@@ -144,9 +144,9 @@ html_show_sourcelink = False
 #         '_static/theme_override.css',  # override wide tables in RTD theme
 #     ],
 # }
-html_css_files = [
-    '_static/theme_override.css',  # override wide tables in RTD theme
-]
+# html_css_files = [
+#     '_static/theme_override.css',  # override wide tables in RTD theme
+# ]
 
 # Define the canonical URL if you are using a custom domain on Read the Docs
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "https://docs.digitalearthafrica.org/") 
