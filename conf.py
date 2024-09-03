@@ -151,12 +151,6 @@ html_context = {
     ],
 }
 
-# Tell Jinja2 templates the build is running on Read the Docs
-if os.environ.get("READTHEDOCS", "") == "True":
-    if "html_context" not in globals():
-        html_context = {}
-    html_context["READTHEDOCS"] = True
-
 # Translation options
 gettext_compact = "docs"  # makes a single "docs.po" file
 gettext_location = False  # This causes the build to break?
