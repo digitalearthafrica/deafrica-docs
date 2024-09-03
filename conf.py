@@ -124,16 +124,7 @@ napoleon_numpy_docstring = True
 #     html_theme = 'alabaster'
 
 
-# html_baseurl = 'https://docs.digitalearthafrica.org/'
 
-# Define the canonical URL if you are using a custom domain on Read the Docs
-html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "https://docs.digitalearthafrica.org/") 
-
-# Tell Jinja2 templates the build is running on Read the Docs
-if os.environ.get("READTHEDOCS", "") == "True":
-    if "html_context" not in globals():
-        html_context = {}
-    html_context["READTHEDOCS"] = True
 
 
 # # Add any paths that contain custom static files (such as style sheets) here,
@@ -176,4 +167,16 @@ if on_rtd or on_gha:
     import subprocess
     subprocess.run(["make", "fetchnotebooks"])
     subprocess.run(["make", "buildtools"])
+    
+    
+# html_baseurl = 'https://docs.digitalearthafrica.org/'
+
+# Define the canonical URL if you are using a custom domain on Read the Docs
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "https://docs.digitalearthafrica.org/") 
+
+# Tell Jinja2 templates the build is running on Read the Docs
+if os.environ.get("READTHEDOCS", "") == "True":
+    if "html_context" not in globals():
+        html_context = {}
+    html_context["READTHEDOCS"] = True
 
