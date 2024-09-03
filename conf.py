@@ -25,7 +25,7 @@ author = 'DEAfrica Team'
 release = '2021'
 
 # -- General configuration ---------------------------------------------------
-
+    
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
@@ -36,6 +36,7 @@ extensions = [
     "nbsphinx",
     "sphinx_rtd_theme",
     "sphinx.ext.autosectionlabel",
+    "sphinx_build_compatibility.extension",
 ]
 
 # Autodoc conf
@@ -125,6 +126,9 @@ except ImportError:
 
 
 html_baseurl = 'https://docs.digitalearthafrica.org/'
+
+# Define the canonical URL if you are using a custom domain on Read the Docs
+# html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
