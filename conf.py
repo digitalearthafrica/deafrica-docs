@@ -39,57 +39,57 @@ extensions = [
 ]
 
 # Autodoc conf
-# autosummary_generate = ['sandbox/notebooks/Tools/index.rst']
-# autodoc_default_options = {
-#     'members': True,
-# }
-# autodoc_mock_imports = ['aiohttp',
-#                         'boto3',
-#                         'botocore',
-#                         'branca',
-#                         'dask',
-#                         'dask_ml',
-#                         'datacube',
-#                         'datacube_stats',
-#                         'dill',
-#                         'distutils',
-#                         'fsspec',
-#                         'fiona',
-#                         'folium',
-#                         'geopandas',
-#                         'geopy',
-#                         'hdstats',
-#                         'ipyleaflet',
-#                         'IPython',
-#                         'joblib',
-#                         'matplotlib',
-#                         'mpl_toolkits',
-#                         'numexpr',
-#                         'numpy',
-#                         'odc',
-#                         'osgeo',
-#                         'otps',
-#                         'packaging',
-#                         'pandas',
-#                         'pathos',
-#                         'psycopg2',
-#                         'pyproj',
-#                         'rasterio',
-#                         'rasterstats',
-#                         'rios',
-#                         'rsgislib',
-#                         'scipy',
-#                         'seaborn',
-#                         'shapely',
-#                         'skimage',
-#                         'sklearn',
-#                         'tqdm',
-#                         'traitlets',
-#                         'xarray']
-# autosummary_mock_imports = autodoc_mock_imports
+autosummary_generate = ['sandbox/notebooks/Tools/index.rst']
+autodoc_default_options = {
+    'members': True,
+}
+autodoc_mock_imports = ['aiohttp',
+                        'boto3',
+                        'botocore',
+                        'branca',
+                        'dask',
+                        'dask_ml',
+                        'datacube',
+                        'datacube_stats',
+                        'dill',
+                        'distutils',
+                        'fsspec',
+                        'fiona',
+                        'folium',
+                        'geopandas',
+                        'geopy',
+                        'hdstats',
+                        'ipyleaflet',
+                        'IPython',
+                        'joblib',
+                        'matplotlib',
+                        'mpl_toolkits',
+                        'numexpr',
+                        'numpy',
+                        'odc',
+                        'osgeo',
+                        'otps',
+                        'packaging',
+                        'pandas',
+                        'pathos',
+                        'psycopg2',
+                        'pyproj',
+                        'rasterio',
+                        'rasterstats',
+                        'rios',
+                        'rsgislib',
+                        'scipy',
+                        'seaborn',
+                        'shapely',
+                        'skimage',
+                        'sklearn',
+                        'tqdm',
+                        'traitlets',
+                        'xarray']
+autosummary_mock_imports = autodoc_mock_imports
 
-# napoleon_google_docstring = False
-# napoleon_numpy_docstring = True
+napoleon_google_docstring = False
+napoleon_numpy_docstring = True
 
 # # Add any paths that contain templates here, relative to this directory.
 # templates_path = ['_templates']
