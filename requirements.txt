@@ -1,6 +1,6 @@
 Sphinx>=5
+sphinx-rtd-theme==2.1.0rc2
 nbsphinx
-sphinx_rtd_theme==0.5.2
 ipython
 ipywidgets
 pygments>=2.4.1
