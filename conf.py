@@ -35,7 +35,6 @@ extensions = [
     "sphinx.ext.napoleon",
     "nbsphinx",
     "sphinx_rtd_theme",
-    "sphinx.ext.autosectionlabel",
 ]
 
 # Autodoc conf
@@ -123,6 +122,7 @@ nbsphinx_execute = 'never'
 # except ImportError:
 #     html_theme = 'alabaster'
 
+# html_baseurl = 'https://docs.digitalearthafrica.org/'
 # Define the canonical URL if you are using a custom domain on Read the Docs
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "https://docs.digitalearthafrica.org/") 
 
@@ -152,11 +152,6 @@ if os.environ.get("READTHEDOCS", "") == "True":
 #         '_static/theme_override.css',  # override wide tables in RTD theme
 #     ],
 # }
-# html_css_files = [
-#     '_static/theme_override.css',  # override wide tables in RTD theme
-# ]
-
-
 
 # # Translation options
 # gettext_compact = "docs"  # makes a single "docs.po" file
@@ -177,9 +172,6 @@ if os.environ.get("READTHEDOCS", "") == "True":
 #     import subprocess
 #     subprocess.run(["make", "fetchnotebooks"])
 #     subprocess.run(["make", "buildtools"])
-    
-    
-# html_baseurl = 'https://docs.digitalearthafrica.org/'
 
 
 
