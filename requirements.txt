@@ -1,5 +1,5 @@
 Sphinx
-sphinx-rtd-theme==2.1.0rc2
+furo
 nbsphinx
 ipython
 ipywidgets

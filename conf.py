@@ -29,13 +29,12 @@ release = '2021'
 # # Add any Sphinx extension module names here, as strings. They can be
 # # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # # ones.
-# extensions = [
-#     "sphinx.ext.autodoc",
-#     "sphinx.ext.autosummary",
-#     "sphinx.ext.napoleon",
-#     "nbsphinx",
-#     "sphinx_rtd_theme",
-# ]
+extensions = [
+    "sphinx.ext.autodoc",
+    "sphinx.ext.autosummary",
+    "sphinx.ext.napoleon",
+    "nbsphinx",
+]
 
 # # Autodoc conf
 # autosummary_generate = ['sandbox/notebooks/Tools/index.rst']
@@ -124,6 +123,8 @@ release = '2021'
 
 # html_baseurl = 'https://docs.digitalearthafrica.org/'
 # Define the canonical URL if you are using a custom domain on Read the Docs
+html_theme = 'furo'
+
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "https://docs.digitalearthafrica.org/") 
 
 # Tell Jinja2 templates the build is running on Read the Docs
