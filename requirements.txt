@@ -1,4 +1,4 @@
-Sphinx
+sphinx==5.3.0
 furo
 nbsphinx
 ipython
