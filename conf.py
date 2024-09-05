@@ -31,6 +31,7 @@ release = '2021'
 # # ones.
 extensions = [
     "sphinx.ext.autodoc",
+#     "sphinx_rtd_theme",
 #     "sphinx.ext.autosummary",
 #     "sphinx.ext.napoleon",
 #     "nbsphinx",
@@ -112,17 +113,17 @@ extensions = [
 # a list of builtin themes.
 #
 
-try:
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
+# try:
+#     import sphinx_rtd_theme
+html_theme = 'PDJ'
 
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-    html_theme_options = {
-        'logo_only': True,
-        'display_version': False,
-    }
-except ImportError:
-    html_theme = 'alabaster'
+#     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+#     html_theme_options = {
+#         'logo_only': True,
+#         'display_version': False,
+#     }
+# except ImportError:
+#     html_theme = 'alabaster'
 
 # html_baseurl = 'https://docs.digitalearthafrica.org/'
 # Define the canonical URL if you are using a custom domain on Read the Docs
@@ -150,11 +151,11 @@ html_use_index = True
 html_show_sourcelink = False
 
 # # Use table-wrapping style
-html_context = {
-    'css_files': [
-        '_static/theme_override.css',  # override wide tables in RTD theme
-    ],
-}
+# html_context = {
+#     'css_files': [
+#         '_static/theme_override.css',  # override wide tables in RTD theme
+#     ],
+# }
 
 # Translation options
 # gettext_compact = "docs"  # makes a single "docs.po" file
