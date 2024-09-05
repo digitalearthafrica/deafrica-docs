@@ -10,99 +10,99 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 
-import os
-import sys
+# import os
+# import sys
 
-sys.path.insert(0, os.path.abspath('./sandbox/notebooks/Tools'))
+# sys.path.insert(0, os.path.abspath('./sandbox/notebooks/Tools'))
 
-# -- Project information -----------------------------------------------------
+# # -- Project information -----------------------------------------------------
 
-project = 'Digital Earth Africa'
-copyright = '2021, DEAfrica Team'
-author = 'DEAfrica Team'
+# project = 'Digital Earth Africa'
+# copyright = '2021, DEAfrica Team'
+# author = 'DEAfrica Team'
 
-# The full version, including alpha/beta/rc tags
-release = '2021'
+# # The full version, including alpha/beta/rc tags
+# release = '2021'
 
 # -- General configuration ---------------------------------------------------
     
 # # Add any Sphinx extension module names here, as strings. They can be
 # # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # # ones.
-extensions = [
-    "sphinx.ext.autodoc",
-    "sphinx.ext.autosummary",
-    "sphinx.ext.napoleon",
-    "nbsphinx",
-    "sphinx_rtd_theme",
-]
+# extensions = [
+#     "sphinx.ext.autodoc",
+#     "sphinx.ext.autosummary",
+#     "sphinx.ext.napoleon",
+#     "nbsphinx",
+#     "sphinx_rtd_theme",
+# ]
 
-# Autodoc conf
-autosummary_generate = ['sandbox/notebooks/Tools/index.rst']
-autodoc_default_options = {
-    'members': True,
-}
-autodoc_mock_imports = ['aiohttp',
-                        'boto3',
-                        'botocore',
-                        'branca',
-                        'dask',
-                        'dask_ml',
-                        'datacube',
-                        'datacube_stats',
-                        'dill',
-                        'distutils',
-                        'fsspec',
-                        'fiona',
-                        'folium',
-                        'geopandas',
-                        'geopy',
-                        'hdstats',
-                        'ipyleaflet',
-                        'IPython',
-                        'joblib',
-                        'matplotlib',
-                        'mpl_toolkits',
-                        'numexpr',
-                        'numpy',
-                        'odc',
-                        'osgeo',
-                        'otps',
-                        'packaging',
-                        'pandas',
-                        'pathos',
-                        'psycopg2',
-                        'pyproj',
-                        'rasterio',
-                        'rasterstats',
-                        'rios',
-                        'rsgislib',
-                        'scipy',
-                        'seaborn',
-                        'shapely',
-                        'skimage',
-                        'sklearn',
-                        'tqdm',
-                        'traitlets',
-                        'xarray']
-autosummary_mock_imports = autodoc_mock_imports
+# # Autodoc conf
+# autosummary_generate = ['sandbox/notebooks/Tools/index.rst']
+# autodoc_default_options = {
+#     'members': True,
+# }
+# autodoc_mock_imports = ['aiohttp',
+#                         'boto3',
+#                         'botocore',
+#                         'branca',
+#                         'dask',
+#                         'dask_ml',
+#                         'datacube',
+#                         'datacube_stats',
+#                         'dill',
+#                         'distutils',
+#                         'fsspec',
+#                         'fiona',
+#                         'folium',
+#                         'geopandas',
+#                         'geopy',
+#                         'hdstats',
+#                         'ipyleaflet',
+#                         'IPython',
+#                         'joblib',
+#                         'matplotlib',
+#                         'mpl_toolkits',
+#                         'numexpr',
+#                         'numpy',
+#                         'odc',
+#                         'osgeo',
+#                         'otps',
+#                         'packaging',
+#                         'pandas',
+#                         'pathos',
+#                         'psycopg2',
+#                         'pyproj',
+#                         'rasterio',
+#                         'rasterstats',
+#                         'rios',
+#                         'rsgislib',
+#                         'scipy',
+#                         'seaborn',
+#                         'shapely',
+#                         'skimage',
+#                         'sklearn',
+#                         'tqdm',
+#                         'traitlets',
+#                         'xarray']
+# autosummary_mock_imports = autodoc_mock_imports
 
-napoleon_google_docstring = False
-napoleon_numpy_docstring = True
+# napoleon_google_docstring = False
+# napoleon_numpy_docstring = True
 
-# # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+# # # Add any paths that contain templates here, relative to this directory.
+# templates_path = ['_templates']
 
-# # List of patterns, relative to source directory, that match files and
-# # directories to ignore when looking for source files.
-# # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store',
-                    '**.ipynb_checkpoints',
-                    'sandbox/notebooks/DEAfrica_notebooks_template.ipynb',
-                    ]
+# # # List of patterns, relative to source directory, that match files and
+# # # directories to ignore when looking for source files.
+# # # This pattern also affects html_static_path and html_extra_path.
+# exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store',
+#                     '**.ipynb_checkpoints',
+#                     'sandbox/notebooks/DEAfrica_notebooks_template.ipynb',
+#                     ]
 
-# # Don't execute notebooks
-nbsphinx_execute = 'never'
+# # # Don't execute notebooks
+# nbsphinx_execute = 'never'
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -154,24 +154,24 @@ if os.environ.get("READTHEDOCS", "") == "True":
 # }
 
 # Translation options
-gettext_compact = "docs"  # makes a single "docs.po" file
-gettext_location = False  # This causes the build to break?
-locale_dirs = ['locales/']
+# gettext_compact = "docs"  # makes a single "docs.po" file
+# gettext_location = False  # This causes the build to break?
+# locale_dirs = ['locales/']
 
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-on_gha = os.environ.get('GITHUB_ACTIONS', None) == 'True'
-get_translation = os.environ.get('POEDITOR_PROJECT_ID', None) is not None
+# on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+# on_gha = os.environ.get('GITHUB_ACTIONS', None) == 'True'
+# get_translation = os.environ.get('POEDITOR_PROJECT_ID', None) is not None
 
-# If we are on ReadTheDocs, and translation is required, download the translation file from poeditor
-if on_rtd and get_translation:
-    import subprocess
-    subprocess.run(["make", "fetchtranslation"])
+# # If we are on ReadTheDocs, and translation is required, download the translation file from poeditor
+# if on_rtd and get_translation:
+#     import subprocess
+#     subprocess.run(["make", "fetchtranslation"])
 
-# If we are on ReadtheDocs, load the latest version of the notebooks
-if on_rtd or on_gha:
-    import subprocess
-    subprocess.run(["make", "fetchnotebooks"])
-    subprocess.run(["make", "buildtools"])
+# # If we are on ReadtheDocs, load the latest version of the notebooks
+# if on_rtd or on_gha:
+#     import subprocess
+#     subprocess.run(["make", "fetchnotebooks"])
+#     subprocess.run(["make", "buildtools"])
 
 
 
