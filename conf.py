@@ -31,80 +31,80 @@ release = '2021'
 # # ones.
 extensions = [
     "sphinx.ext.autodoc",
-    "sphinx.ext.autosummary",
-    "sphinx.ext.napoleon",
-    "nbsphinx",
+#     "sphinx.ext.autosummary",
+#     "sphinx.ext.napoleon",
+#     "nbsphinx",
 ]
 
-# Autodoc conf
-autosummary_generate = ['sandbox/notebooks/Tools/index.rst']
-autodoc_default_options = {
-    'members': True,
-}
-autodoc_mock_imports = [ "aiohttp",
-        "aiobotocore[boto3]", # for boto3
-        "branca",
-        "dask[complete]",
-        "dask-ml",
-        "dask-gateway",
-        "datacube[performance,s3]",
-        "fiona",
-        "folium",
-        "fsspec",
-        "gdal",
-        "geojson",
-        "geopandas",
-        "geopy",
-        "hdstats",
-        "ipyleaflet",
-        "ipython",
-        "ipywidgets",
-        "joblib",
-        "localtileserver",
-        "matplotlib",
-        "numexpr",
-        "numpy",
-        "odc-algo",
-        "odc-geo",
-        "odc-ui",
-        "OWSLib",
-        "packaging",
-        "pandas",
-        "plotly",
-        "pyproj",
-        "pystac-client",  # for pystac
-        "python-dateutil",
-        "pyTMD > 2",
-        "pytz",
-        "rasterio",
-        "rasterstats",
-        "requests",
-        "scikit-image",
-        "scikit-learn",
-        "scipy",
-        "seaborn",
-        "shapely",
-        "tqdm",
-        "xarray",
-        "gcsfs",]
-autosummary_mock_imports = autodoc_mock_imports
+# # Autodoc conf
+# autosummary_generate = ['sandbox/notebooks/Tools/index.rst']
+# autodoc_default_options = {
+#     'members': True,
+# }
+# autodoc_mock_imports = [ "aiohttp",
+#         "aiobotocore[boto3]", # for boto3
+#         "branca",
+#         "dask[complete]",
+#         "dask-ml",
+#         "dask-gateway",
+#         "datacube[performance,s3]",
+#         "fiona",
+#         "folium",
+#         "fsspec",
+#         "gdal",
+#         "geojson",
+#         "geopandas",
+#         "geopy",
+#         "hdstats",
+#         "ipyleaflet",
+#         "ipython",
+#         "ipywidgets",
+#         "joblib",
+#         "localtileserver",
+#         "matplotlib",
+#         "numexpr",
+#         "numpy",
+#         "odc-algo",
+#         "odc-geo",
+#         "odc-ui",
+#         "OWSLib",
+#         "packaging",
+#         "pandas",
+#         "plotly",
+#         "pyproj",
+#         "pystac-client",  # for pystac
+#         "python-dateutil",
+#         "pyTMD > 2",
+#         "pytz",
+#         "rasterio",
+#         "rasterstats",
+#         "requests",
+#         "scikit-image",
+#         "scikit-learn",
+#         "scipy",
+#         "seaborn",
+#         "shapely",
+#         "tqdm",
+#         "xarray",
+#         "gcsfs",]
+# autosummary_mock_imports = autodoc_mock_imports
 
-napoleon_google_docstring = False
-napoleon_numpy_docstring = True
+# napoleon_google_docstring = False
+# napoleon_numpy_docstring = True
 
-# # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+# # # Add any paths that contain templates here, relative to this directory.
+# templates_path = ['_templates']
 
-# # List of patterns, relative to source directory, that match files and
-# # directories to ignore when looking for source files.
-# # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store',
-                    '**.ipynb_checkpoints',
-                    'sandbox/notebooks/DEAfrica_notebooks_template.ipynb',
-                    ]
+# # # List of patterns, relative to source directory, that match files and
+# # # directories to ignore when looking for source files.
+# # # This pattern also affects html_static_path and html_extra_path.
+# exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store',
+#                     '**.ipynb_checkpoints',
+#                     'sandbox/notebooks/DEAfrica_notebooks_template.ipynb',
+#                     ]
 
-# # Don't execute notebooks
-nbsphinx_execute = 'never'
+# # # Don't execute notebooks
+# nbsphinx_execute = 'never'
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -158,24 +158,24 @@ if os.environ.get("READTHEDOCS", "") == "True":
 # }
 
 # Translation options
-gettext_compact = "docs"  # makes a single "docs.po" file
-gettext_location = False  # This causes the build to break?
-locale_dirs = ['locales/']
+# gettext_compact = "docs"  # makes a single "docs.po" file
+# gettext_location = False  # This causes the build to break?
+# locale_dirs = ['locales/']
 
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-on_gha = os.environ.get('GITHUB_ACTIONS', None) == 'True'
-get_translation = os.environ.get('POEDITOR_PROJECT_ID', None) is not None
+# on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+# on_gha = os.environ.get('GITHUB_ACTIONS', None) == 'True'
+# get_translation = os.environ.get('POEDITOR_PROJECT_ID', None) is not None
 
-# If we are on ReadTheDocs, and translation is required, download the translation file from poeditor
-if on_rtd and get_translation:
-    import subprocess
-    subprocess.run(["make", "fetchtranslation"])
+# # If we are on ReadTheDocs, and translation is required, download the translation file from poeditor
+# if on_rtd and get_translation:
+#     import subprocess
+#     subprocess.run(["make", "fetchtranslation"])
 
-# If we are on ReadtheDocs, load the latest version of the notebooks
-if on_rtd or on_gha:
-    import subprocess
-    subprocess.run(["make", "fetchnotebooks"])
-    subprocess.run(["make", "buildtools"])
+# # If we are on ReadtheDocs, load the latest version of the notebooks
+# if on_rtd or on_gha:
+#     import subprocess
+#     subprocess.run(["make", "fetchnotebooks"])
+#     subprocess.run(["make", "buildtools"])
 
 
 
