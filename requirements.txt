@@ -1,3 +1,7 @@
 sphinx==5.3.0
 furo
+nbsphinx
+ipython
+ipywidgets
+pygments>=2.4.1
 

@@ -31,81 +31,80 @@ release = '2021'
 # # ones.
 extensions = [
     "sphinx.ext.autodoc",
-#     "sphinx_rtd_theme",
-#     "sphinx.ext.autosummary",
-#     "sphinx.ext.napoleon",
-#     "nbsphinx",
+    "sphinx.ext.autosummary",
+    "sphinx.ext.napoleon",
+    "nbsphinx",
 ]
 
-# # Autodoc conf
-# autosummary_generate = ['sandbox/notebooks/Tools/index.rst']
-# autodoc_default_options = {
-#     'members': True,
-# }
-# autodoc_mock_imports = [ "aiohttp",
-#         "aiobotocore[boto3]", # for boto3
-#         "branca",
-#         "dask[complete]",
-#         "dask-ml",
-#         "dask-gateway",
-#         "datacube[performance,s3]",
-#         "fiona",
-#         "folium",
-#         "fsspec",
-#         "gdal",
-#         "geojson",
-#         "geopandas",
-#         "geopy",
-#         "hdstats",
-#         "ipyleaflet",
-#         "ipython",
-#         "ipywidgets",
-#         "joblib",
-#         "localtileserver",
-#         "matplotlib",
-#         "numexpr",
-#         "numpy",
-#         "odc-algo",
-#         "odc-geo",
-#         "odc-ui",
-#         "OWSLib",
-#         "packaging",
-#         "pandas",
-#         "plotly",
-#         "pyproj",
-#         "pystac-client",  # for pystac
-#         "python-dateutil",
-#         "pyTMD > 2",
-#         "pytz",
-#         "rasterio",
-#         "rasterstats",
-#         "requests",
-#         "scikit-image",
-#         "scikit-learn",
-#         "scipy",
-#         "seaborn",
-#         "shapely",
-#         "tqdm",
-#         "xarray",
-#         "gcsfs",]
-# autosummary_mock_imports = autodoc_mock_imports
+# Autodoc conf
+autosummary_generate = ['sandbox/notebooks/Tools/index.rst']
+autodoc_default_options = {
+    'members': True,
+}
+autodoc_mock_imports = [ "aiohttp",
+        "aiobotocore[boto3]", # for boto3
+        "branca",
+        "dask[complete]",
+        "dask-ml",
+        "dask-gateway",
+        "datacube[performance,s3]",
+        "fiona",
+        "folium",
+        "fsspec",
+        "gdal",
+        "geojson",
+        "geopandas",
+        "geopy",
+        "hdstats",
+        "ipyleaflet",
+        "ipython",
+        "ipywidgets",
+        "joblib",
+        "localtileserver",
+        "matplotlib",
+        "numexpr",
+        "numpy",
+        "odc-algo",
+        "odc-geo",
+        "odc-ui",
+        "OWSLib",
+        "packaging",
+        "pandas",
+        "plotly",
+        "pyproj",
+        "pystac-client",  # for pystac
+        "python-dateutil",
+        "pyTMD > 2",
+        "pytz",
+        "rasterio",
+        "rasterstats",
+        "requests",
+        "scikit-image",
+        "scikit-learn",
+        "scipy",
+        "seaborn",
+        "shapely",
+        "tqdm",
+        "xarray",
+        "gcsfs",]
+autosummary_mock_imports = autodoc_mock_imports
 
-# napoleon_google_docstring = False
-# napoleon_numpy_docstring = True
+napoleon_google_docstring = False
+napoleon_numpy_docstring = True
 
-# # # Add any paths that contain templates here, relative to this directory.
-# templates_path = ['_templates']
+# # Add any paths that contain templates here, relative to this directory.
+templates_path = ['_templates']
 
-# # # List of patterns, relative to source directory, that match files and
-# # # directories to ignore when looking for source files.
-# # # This pattern also affects html_static_path and html_extra_path.
-# exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store',
-#                     '**.ipynb_checkpoints',
-#                     'sandbox/notebooks/DEAfrica_notebooks_template.ipynb',
-#                     ]
+# # List of patterns, relative to source directory, that match files and
+# # directories to ignore when looking for source files.
+# # This pattern also affects html_static_path and html_extra_path.
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store',
+                    '**.ipynb_checkpoints',
+                    'sandbox/notebooks/DEAfrica_notebooks_template.ipynb',
+                    ]
 
-# # # Don't execute notebooks
-# nbsphinx_execute = 'never'
+# # Don't execute notebooks
+nbsphinx_execute = 'never'
 
 # -- Options for HTML output -------------------------------------------------
 
