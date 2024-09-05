@@ -10,19 +10,19 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 
-# import os
-# import sys
+import os
+import sys
 
-# sys.path.insert(0, os.path.abspath('./sandbox/notebooks/Tools'))
+sys.path.insert(0, os.path.abspath('./sandbox/notebooks/Tools'))
 
-# # -- Project information -----------------------------------------------------
+# -- Project information -----------------------------------------------------
 
-# project = 'Digital Earth Africa'
-# copyright = '2021, DEAfrica Team'
-# author = 'DEAfrica Team'
+project = 'Digital Earth Africa'
+copyright = '2021, DEAfrica Team'
+author = 'DEAfrica Team'
 
-# # The full version, including alpha/beta/rc tags
-# release = '2021'
+# The full version, including alpha/beta/rc tags
+release = '2021'
 
 # -- General configuration ---------------------------------------------------
     
