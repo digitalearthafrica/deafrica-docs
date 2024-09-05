@@ -157,7 +157,7 @@ html_show_sourcelink = False
 #     ],
 # }
 
-Translation options
+# Translation options
 gettext_compact = "docs"  # makes a single "docs.po" file
 gettext_location = False  # This causes the build to break?
 locale_dirs = ['locales/']
