@@ -157,7 +157,7 @@ html_show_sourcelink = False
 #     ],
 # }
 
-html_style = '_static/theme_override.css',  # override wide tables in RTD theme
+
 
 
 ## Use 
