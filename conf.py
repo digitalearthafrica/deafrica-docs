@@ -13,7 +13,7 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath('./sandbox/Tools'))
+sys.path.insert(0, os.path.abspath('./sandbox/notebooks/Tools'))
 
 # -- Project information -----------------------------------------------------
 
