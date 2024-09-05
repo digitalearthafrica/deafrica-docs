@@ -87,6 +87,7 @@ autodoc_mock_imports = [ "aiohttp",
         "tqdm",
         "xarray",
         "gcsfs",]
+
 autosummary_mock_imports = autodoc_mock_imports
 
 napoleon_google_docstring = False
