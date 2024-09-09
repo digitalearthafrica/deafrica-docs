@@ -170,7 +170,7 @@ html_codeblock_linenos_style = 'table'
 # Translation options
 gettext_compact = "docs"  # makes a single "docs.po" file
 gettext_location = False  # This causes the build to break?
-locale_dirs = ['./locales/']
+locale_dirs = ['locales/']
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 on_gha = os.environ.get('GITHUB_ACTIONS', None) == 'True'
