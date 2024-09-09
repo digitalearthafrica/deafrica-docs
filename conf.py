@@ -151,15 +151,15 @@ html_use_index = True
 html_show_sourcelink = False
 
 # # # Use table-wrapping style
-html_css_files = [
-   '_static/theme_override.css',  # override wide tables in RTD theme
-]
+# html_css_files = [
+#    '_static/theme_override.css',  # override wide tables in RTD theme
+# ]
 
-# html_context = {
-#     'css_files': [
-#         '_static/theme_override.css',  # override wide tables in RTD theme
-#     ],
-# }
+html_context = {
+    'css_files': [
+        '_static/theme_override.css',  # override wide tables in RTD theme
+    ],
+}
 
 
 # html_style = '_static/theme_override.css',  # override wide tables in RTD theme
