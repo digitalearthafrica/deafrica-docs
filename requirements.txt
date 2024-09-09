@@ -4,4 +4,3 @@ nbsphinx
 ipython
 ipywidgets
 pygments>=2.4.1
-
