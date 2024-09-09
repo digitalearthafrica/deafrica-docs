@@ -31,7 +31,7 @@ Data
 
       .. image:: _static/data_specs/S2_thumbnail.png
          :target: ./data_specs/
-         :width: 600
+         :width: 400
          :align: left
 
       :doc:`data_specs/index`
@@ -66,7 +66,7 @@ Platforms
 
       .. image:: _static/maps/Workbench.jpg
          :target: ./maps/
-         :width: 600
+         :width: 400
          :align: left
 
       :doc:`maps/deafrica_map`
@@ -80,7 +80,7 @@ Platforms
 
       .. image:: _static/maps/nicfi_maps.jpg
          :target: ./maps/external_web_services.html
-         :width: 600
+         :width: 400
          :align: left
 
       :doc:`maps/external_web_services`
@@ -94,7 +94,7 @@ Platforms
 
       .. image:: _static/sandbox/sandbox_mini.png
          :target: ./sandbox/
-         :width: 600
+         :width: 400
          :align: left
 
       :doc:`sandbox/index`
@@ -108,7 +108,7 @@ Platforms
 
       .. image:: _static/platform_tools/explorer/metadata.png
          :target: ./platform_tools/explorer.html
-         :width: 600
+         :width: 400
          :align: left
 
       :doc:`platform_tools/explorer`
@@ -122,7 +122,7 @@ Platforms
 
       .. image:: _static/maps/geoportal_logo.png
          :target: ./maps/geoportal.html
-         :width: 600
+         :width: 400
          :align: left
 
       :doc:`maps/geoportal`
@@ -136,7 +136,7 @@ Platforms
 
       .. image:: _static/data_specs/ST_thumbnail.png
          :target: ./platform_tools/
-         :width: 600
+         :width: 400
          :align: left
 
       :doc:`platform_tools/web_services_gis`
@@ -150,7 +150,7 @@ Platforms
 
       .. image:: _static/platform_tools/cube_in_a_box/cube-in-a-box-thumbnail.png
          :target: ./platform_tools/cube-in-a-box.html
-         :width: 600
+         :width: 400
          :align: left
 
       :doc:`platform_tools/cube-in-a-box`
@@ -164,7 +164,7 @@ Platforms
     
       .. image:: _static/data_specs/Landsat_thumbnail.png
          :target: ./platform_tools/direct_access.html
-         :width: 600
+         :width: 400
          :align: left
             
       :doc:`platform_tools/direct_access`
@@ -178,7 +178,7 @@ Platforms
     
       .. image:: _static/platform_tools/odc_stac/odc_stac_thumbnail.png
          :target: ./platform_tools/odc_stac.html
-         :width: 600
+         :width: 400
          :align: left
             
       :doc:`platform_tools/odc_stac`
@@ -192,7 +192,7 @@ Platforms
     
       .. image:: _static/platform_tools/googledrive_access/google-drive.png
          :target: ./platform_tools/googledrive_access.html
-         :width: 600
+         :width: 400
          :align: left
             
       :doc:`platform_tools/googledrive_access`
