@@ -151,20 +151,18 @@ html_use_index = True
 html_show_sourcelink = False
 
 # # # Use table-wrapping style
-html_css_files = [
-   'theme_override.css',  # override wide tables in RTD theme
-]
+html_css_files = ['theme_override.css',]  # override wide tables in RTD theme
 
-# html_context = {
-#     'css_files': [
-#         '_static/theme_override.css',  # override wide tables in RTD theme
-#     ],
-# }
+html_context = {
+    'css_files': [
+        'theme_override.css',  # override wide tables in RTD theme
+    ],
+}
 
 ## Use 
-html_theme_options = {
-    "top_of_page_buttons": None,
-}
+# html_theme_options = {
+#     "top_of_page_buttons": None,
+# }
 
 
 
