@@ -152,7 +152,7 @@ html_show_sourcelink = False
 
 # # # Use table-wrapping style
 html_css_files = [
-   '/theme_override.css',  # override wide tables in RTD theme
+   'theme_override.css',  # override wide tables in RTD theme
 ]
 
 # html_context = {
