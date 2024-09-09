@@ -155,7 +155,7 @@ html_css_files = ['theme_override.css',]  # override wide tables in RTD theme
 
 html_context = {
     'css_files': [
-        'theme_override.css',  # override wide tables in RTD theme
+        '_static/theme_override.css',  # override wide tables in RTD theme
     ],
 }
 
