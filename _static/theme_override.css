@@ -110,79 +110,79 @@ div.document a:visited {
 /*}*/
 
 .platform .topic-title a {
-    display: block  !important;
-    font-size: 125%  !important;
+    display: block;
+    font-size: 125%;
 }
 
 .product-list {
-    display: grid  !important;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))  !important;
-    grid-gap: 1rem  !important;
-    margin-bottom: 1rem  !important;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .platform-list {
-    display: grid  !important;
-    grid-template-columns: repeat(auto-fill, 1fr)  !important;
-    grid-gap: 1rem  !important;
-    margin-bottom: 1rem  !important;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .platform-list .product-item img {
-    width: 240px  !important;
-    margin-bottom: 0  !important;
+    width: 240px;
+    margin-bottom: 0;
 }
 
 .product-item {
-    transition: all 0.4s ease-in-out  !important;
-    border-radius: 5px  !important;
-    overflow: hidden  !important;
-    box-shadow: 2px 1px 25px 5px rgb(166 166 166 / 20%)  !important;
-    border: 1px solid #f0f0f0  !important;
+    transition: all 0.4s ease-in-out;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 2px 1px 25px 5px rgb(166 166 166 / 20%);
+    border: 1px solid #f0f0f0;
 }
 
 .product-item:hover {
-    box-shadow: 2px 1px 25px 5px rgb(166 166 166 / 70%)  !important;
+    box-shadow: 2px 1px 25px 5px rgb(166 166 166 / 70%);
 }
 
 .product-item p {
-    margin: 0.5rem  !important;
+    margin: 0.5rem;
 }
 
 .product-item p:first-of-type {
-    display: block  !important;
-    margin-bottom: 12px  !important;
-    font-weight: 700  !important;
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 700;
 }
 
 .product-item p:last-child a {
-    display: inline-block  !important;
-    padding: 8px 17px 8px 17px  !important;
-    color: white  !important;
-    border: 1px solid  #336699  !important;
-    background-color: #336699  !important;
-    transition: all 0.2s ease-in-out  !important;
+    display: inline-block;
+    padding: 8px 17px 8px 17px;
+    color: white;
+    border: 1px solid  #336699;
+    background-color: #336699;
+    transition: all 0.2s ease-in-out;
 }
 
 .product-item p:last-child a:hover {
-    color: #336699  !important;
-    background-color: white  !important;
+    color: #336699;
+    background-color: white;
 }
 
 .product-item p:last-child {
-    color: white  !important;
-    font-size: 12px  !important;
-    text-transform: uppercase  !important;
-    font-weight: 600  !important;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .product-item img {
-    width: 100%  !important;
+    width: 100%;
 }
 
 .document a[href^="http"] {
-    background: url(external.png) center right no-repeat  !important;
-    padding-right: 13px  !important;
+    background: url(external.png) center right no-repeat;
+    padding-right: 13px;
 }
 
 /* Xarray formatting hacks */
