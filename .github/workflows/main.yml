@@ -12,7 +12,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
     - name: Build sphinx terms
-      uses: ammaraskar/sphinx-action@35082eb35b69713fe335801c4d5846a4cc3c91ff
+      uses: ammaraskar/sphinx-action@7.0.0
       env:
         GITHUB_ACTIONS: 1
       with:
