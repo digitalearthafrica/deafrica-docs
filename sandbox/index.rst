@@ -15,7 +15,7 @@ you agree to the `Sandbox Terms and Conditions <termsconditions.rst>`_.
    :hidden:
    :maxdepth: 1
 
-   access
+   
    notebooks/Beginners_guide/index
    notebooks/Datasets/index
    notebooks/Frequently_used_code/index
