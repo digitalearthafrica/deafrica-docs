@@ -1,8 +1,8 @@
 import os
 from poeditor import POEditorAPI
 
-project_id = "715168"
-api_token = ${{ secrets.POEDITOR_API_TOKEN }}
+project_id = os.environ['POEDITOR_PROJECT_ID']
+api_token = os.environ['POEDITOR_API_TOKEN']
 client = POEditorAPI(api_token=api_token)
 
 project = client.view_project_details(project_id)
