@@ -93,6 +93,9 @@ autosummary_mock_imports = autodoc_mock_imports
 napoleon_google_docstring = False
 napoleon_numpy_docstring = True
 
+nb_execution_allow_errors = False
+nb_execution_raise_on_error = True
+
 # # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
