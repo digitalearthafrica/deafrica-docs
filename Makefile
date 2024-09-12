@@ -22,8 +22,8 @@ help:
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 fetchnotebooks:
-	[ -d sandbox/notebooks ] || git clone --branch stable --depth 1 https://github.com/digitalearthafrica/deafrica-sandbox-notebooks.git sandbox/notebooks
-	cd sandbox/notebooks && git checkout stable && git reset --hard origin/stable && git pull
+	[ -d sandbox/notebooks ] || git clone --depth 1 https://github.com/digitalearthafrica/deafrica-sandbox-notebooks.git sandbox/notebooks
+	cd sandbox/notebooks && git switch main && git reset --hard origin/main && git pull
 
 buildtools:
 	cd sandbox/notebooks/Tools && pip install . --no-dependencies
