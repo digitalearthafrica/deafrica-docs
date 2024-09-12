@@ -4,9 +4,11 @@
 # You can set these variables from the command line, and also
 # from the environment for the first two.
 SPHINXOPTS    ?= -v
-SPHINXBUILD   ?= sphinx-build
+SPHINXBUILD   = sphinx-build
+SPHINXPROJ    = DigitalEarthAfrica
 SOURCEDIR     = .
 BUILDDIR      = _build
+
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -20,8 +22,8 @@ help:
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 fetchnotebooks:
-	[ -d sandbox/notebooks ] || git clone https://github.com/digitalearthafrica/deafrica-sandbox-notebooks.git sandbox/notebooks
-	cd sandbox/notebooks && git checkout main && git reset --hard origin/main && git pull
+	[ -d sandbox/notebooks ] || git clone --branch stable --depth 1 https://github.com/digitalearthafrica/deafrica-sandbox-notebooks.git sandbox/notebooks
+	cd sandbox/notebooks && git checkout stable && git reset --hard origin/stable && git pull
 
 buildtools:
 	cd sandbox/notebooks/Tools && pip install . --no-dependencies
