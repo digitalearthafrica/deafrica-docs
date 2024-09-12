@@ -9,6 +9,7 @@ ipython_genutils
 sphinxcontrib.spelling
 myst_parser
 sphinx-autobuild
+pandoc>=2.9.2
 ipywidgets
 sphinxext-rediraffe
 sphinxext-opengraph
