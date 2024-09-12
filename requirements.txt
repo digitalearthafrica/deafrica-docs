@@ -1,8 +1,9 @@
-Sphinx
+Sphinx>=5
 nbsphinx
 nbconvert>=7.2.9
 sphinx_rtd_theme
-jinja2
+jinja2>=3.0
+docutils>=0.18.1
 IPython
 ipython_genutils
 sphinxcontrib.spelling
