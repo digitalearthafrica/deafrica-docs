@@ -10,5 +10,4 @@ sphinxcontrib.spelling
 myst_parser
 pandoc
 ipywidgets
-git+https://github.com/readthedocs/sphinx-build-compatibility#egg=sphinx-build-compatibility
 
