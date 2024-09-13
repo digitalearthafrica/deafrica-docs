@@ -34,6 +34,7 @@ extensions = [
     "sphinx.ext.autosummary",
     "sphinx.ext.napoleon",
     "nbsphinx",
+    "sphinx_build_compatibility.extension",
 ]
 
 # Autodoc conf
