@@ -3,6 +3,7 @@ nbsphinx
 nbconvert>=7.2.9
 sphinx_rtd_theme
 jinja2>=3.0
+sphinx-jinja2-compat
 docutils>=0.18.1
 IPython
 ipython_genutils
