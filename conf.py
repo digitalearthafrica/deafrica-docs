@@ -125,6 +125,7 @@ html_theme_path = ["_themes", ]
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
+     'secondary_sidebar_items': None
 }
 
 html_context = { "default_mode": "light"}
