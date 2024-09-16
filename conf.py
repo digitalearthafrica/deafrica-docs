@@ -118,17 +118,13 @@ nbsphinx_execute = 'never'
 # a list of builtin themes.
 #
 
-#html_theme = "sphinx_rtd_theme"
-html_theme = 'sphinx_book_theme'
+html_theme = "sphinx_rtd_theme"
 
 html_theme_path = ["_themes", ]
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
-     'secondary_sidebar_items': None
 }
-
-html_context = { "default_mode": "light"}
 
 # Define the canonical URL if you are using a custom domain on Read the Docs
 
