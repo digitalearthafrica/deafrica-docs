@@ -127,6 +127,8 @@ html_theme_options = {
     'display_version': False,
 }
 
+html_context = { "default_mode": "light"}
+
 # Define the canonical URL if you are using a custom domain on Read the Docs
 
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "https://docs.digitalearthafrica.org/") 
