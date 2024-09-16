@@ -34,5 +34,5 @@ You can also view `previous asked questions <https://gis.stackexchange.com/quest
 Open Data Cube Slack
 --------------------
 
-To talk to the DE Africa community, please join the `Open Data Cube Slack <http://slack.opendatacube.org/>`_,
+To talk to the DE Africa community, please join the `DE Africa Slack channel <https://digitalearthafrica.slack.com//>`_,
 and join the ``#de-africa`` channel.
