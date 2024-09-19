@@ -116,8 +116,6 @@ nbsphinx_execute = 'never'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
-
 html_theme = "sphinx_rtd_theme"
 
 html_theme_path = ["_themes", ]
@@ -127,7 +125,6 @@ html_theme_options = {
 }
 
 # Define the canonical URL if you are using a custom domain on Read the Docs
-
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "https://docs.digitalearthafrica.org/") 
 
 # Tell Jinja2 templates the build is running on Read the Docs
@@ -152,19 +149,6 @@ html_show_sourcelink = False
 
 # # # Use table-wrapping style
 html_css_files = ['theme_override.css',]  # override wide tables in RTD theme
-
-# html_context = {
-#     'css_files': [
-#         '_static/theme_override.css',  # override wide tables in RTD theme
-#     ],
-# }
-
-## Use 
-# html_theme_options = {
-#     "top_of_page_buttons": None,
-# }
-
-
 
 # Translation options
 gettext_compact = "docs"  # makes a single "docs.po" file
