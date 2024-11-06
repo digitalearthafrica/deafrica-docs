@@ -51,7 +51,7 @@ Surface reflectance
 
        :doc:`GeoMAD_specs`
 
-       Cloud-free mosaics from Landsat and Sentinel-2 satellites
+       Cloud-free mosaics from Landsat and Sentinel-2 satellites.
 
        :doc:`More <GeoMAD_specs>`
 
