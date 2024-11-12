@@ -306,7 +306,7 @@ Coastal
 
        :doc:`Coastlines_specs`
 
-       Annual shorelines and rates of coastal change along the entire African coastline at a 30 m resolution from 2000 to 2023. 
+       Annual shorelines and rates of coastal change along the entire African coastline at a 30 m resolution from 2000 to present. 
 
        :doc:`More <Coastlines_specs>`
 
