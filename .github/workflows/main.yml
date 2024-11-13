@@ -41,3 +41,4 @@ jobs:
         POEDITOR_PROJECT_ID: "715168"
       run: |
         python upload_terms.py
+        python download_translations.py
