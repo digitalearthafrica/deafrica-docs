@@ -16,7 +16,6 @@ def download_translation(file_path, project_id, api_token):
     )
 
 
-
 project_id = os.environ['POEDITOR_PROJECT_ID']
 api_token = os.environ['POEDITOR_API_TOKEN']
 
