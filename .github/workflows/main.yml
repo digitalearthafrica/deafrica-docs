@@ -41,9 +41,3 @@ jobs:
         POEDITOR_PROJECT_ID: "715168"
       run: |
         python upload_terms.py
-    - name: Download terms
-      env:
-        POEDITOR_API_TOKEN: ${{ secrets.POEDITOR_API_TOKEN }}
-        POEDITOR_PROJECT_ID: "715168"
-      run: |
-        python download_translations.py
