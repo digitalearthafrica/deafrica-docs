@@ -16,11 +16,11 @@ def download_translation(file_path, project_id, api_token):
     )
 
 
-if __name__ == '__main__':
-    project_id = os.environ['POEDITOR_PROJECT_ID']
-    api_token = os.environ['POEDITOR_API_TOKEN']
 
-    file_path = 'locales/fr/LC_MESSAGES/docs.po'
-    print(f"Downloading translation to {file_path}")
+project_id = os.environ['POEDITOR_PROJECT_ID']
+api_token = os.environ['POEDITOR_API_TOKEN']
 
-    download_translation(file_path, project_id, api_token)
+file_path = 'locales/fr/LC_MESSAGES/docs.po'
+print(f"Downloading translation to {file_path}")
+
+download_translation(file_path, project_id, api_token)
