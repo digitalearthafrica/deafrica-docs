@@ -48,7 +48,7 @@ jobs:
       run: |
 
         # Run the download_terms.py script
-        python download_terms.py
+        python ./download_terms.py
 
         # Stage the downloaded translation files 
         git add locales/fr/LC_MESSAGES/docs.po
