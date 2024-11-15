@@ -159,8 +159,11 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 on_gha = os.environ.get('GITHUB_ACTIONS', None) == 'True'
 get_translation = os.environ.get('POEDITOR_PROJECT_ID', None) is not None
 
+print('get_translation' + str(get_translation))
+print('on_rtd' + str(on_rtd))
+print('on_gha' + str(on_gha))
 # If we are on ReadTheDocs, and translation is required, download the translation file from poeditor
-if on_rtd and get_translation:
+if on_rtd or get_translation:
     import subprocess
     subprocess.run(["make", "fetchtranslation"])
 
