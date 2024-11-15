@@ -41,3 +41,19 @@ jobs:
         POEDITOR_PROJECT_ID: "715168"
       run: |
         python upload_terms.py
+        run: |
+            # Run the download_terms.py script
+            python download_terms.py
+
+            # Stage the downloaded translation files 
+            git add locales/fr/LC_MESSAGES/docs.po
+
+            # Check if there are any changes that are staged but not committed.
+            if [[ "$(git diff --cached --exit-code)" =  "" ]]; then
+                echo "Nothing to commit, working tree clean";
+            else
+                # Commit the changes
+                git commit -m "Auto update deafrica-tools french translation files"
+                # Update the branch
+                git push
+            fi
