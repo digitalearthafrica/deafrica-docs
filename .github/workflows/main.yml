@@ -37,8 +37,8 @@ jobs:
           ./_build/*.pot
     - name: Upload terms
       env:
-        POEDITOR_API_TOKEN: ${{ secrets.POEDITOR_API_TOKEN }}
-        POEDITOR_PROJECT_ID: "715168"
+         POEDITOR_API_TOKEN: ${{ secrets.POEDITOR_API_TOKEN }}
+         POEDITOR_PROJECT_ID: "715168"
       run: |
         python upload_terms.py
     - name: Download terms poeditor
@@ -46,9 +46,7 @@ jobs:
         POEDITOR_API_TOKEN: ${{ secrets.POEDITOR_API_TOKEN }}
         POEDITOR_PROJECT_ID: "715168"
       run: |
-
-        # Run the download_terms.py script
-        python ../download_terms.py
+        python download_terms.py
 
         # Stage the downloaded translation files 
         git add locales/fr/LC_MESSAGES/docs.po
