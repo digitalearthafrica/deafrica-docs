@@ -285,17 +285,17 @@ Land and water
 
        The World Settlement Footprint WSF is a 10m-resolution binary mask outlining the extent of human settlements globally for the years 2015 and 2019 based on multiple datasets, and the World Settlement Footprint Evolution shows the annual growth of human settlements globally at 30m-resolution. 
 
-       :doc:`More <World_Settlement_Footprint_specs>`   
+       :doc:`More <World_Settlement_Footprint_specs>`
 
     .. container:: product-item
 
-       .. image:: ../_static/data_specs/WaPOR_thumbnail.png
+        .. image:: ../_static/data_specs/WaPOR_thumbnail.png
 
-       :doc:`WaPOR_specs`
+        :doc:`WaPOR_specs`
 
-       The Water Productivity through Open access of Remotely sensed derived data (WaPOR) monitors and reports on agricultural water productivity through biophysical measures with a focus on Africa and the Near East, produced by the FAO.
+        The Water Productivity through Open access of Remotely sensed derived data (WaPOR) monitors and reports on agricultural water productivity through biophysical measures with a focus on Africa and the Near East, produced by the FAO.
 
-       :doc:`More <WaPOR_specs>`
+        :doc:`More <WaPOR_specs>`
 
        
 Coastal
