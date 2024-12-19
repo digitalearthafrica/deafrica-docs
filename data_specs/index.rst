@@ -134,6 +134,7 @@ Land and water
    Global_Mangrove_Watch_specs
    Waterbodies_specs
    World_Settlement_Footprint_specs
+   Africapolis
    
 
 
@@ -344,6 +345,16 @@ Elevation
        NASA version 3.0 Shuttle Radar Topography Mission (SRTM) global 1 arc second (~30 metre) DEM and Digital Earth Africa SRTM DEM Derivatives.
 
        :doc:`More <SRTM_DEM_specs>`
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/Africapolis_urban_specs/Africapolis_urban_specs.png
+
+       :doc:`Africapolis_urban_specs`
+
+       Africapolis is a research and data visualisation tool used to map, analyse and understand urbanisation and urban growth in Africa.
+
+       :doc:`More <Africapolis_urban_specs>`
 
 
 External Datasets
