@@ -285,7 +285,17 @@ Land and water
 
        The World Settlement Footprint WSF is a 10m-resolution binary mask outlining the extent of human settlements globally for the years 2015 and 2019 based on multiple datasets, and the World Settlement Footprint Evolution shows the annual growth of human settlements globally at 30m-resolution. 
 
-       :doc:`More <World_Settlement_Footprint_specs>`   
+       :doc:`More <World_Settlement_Footprint_specs>`
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/Africapolis_urban_specs/Africapolis_urban_specs.png
+
+       :doc:`Africapolis_urban_specs`
+
+       Africapolis dataset enables analysis and understanding of urbanization and urban growth in Africa.
+
+       :doc:`More <Africapolis_urban_specs>`
 
        
 Coastal
@@ -346,15 +356,7 @@ Elevation
 
        :doc:`More <SRTM_DEM_specs>`
 
-    .. container:: product-item
 
-       .. image:: ../_static/data_specs/Africapolis_urban_specs/Africapolis_urban_specs.png
-
-       :doc:`Africapolis_urban_specs`
-
-       Africapolis dataset enables analysis and understanding of urbanization and urban growth in Africa.
-
-       :doc:`More <Africapolis_urban_specs>`
 
 
 External Datasets
