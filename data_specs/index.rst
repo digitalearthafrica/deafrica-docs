@@ -13,46 +13,46 @@ Agriculture
 ^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
-   :caption:Cropland Extent (2019)
+   :caption:Agriculture
    :hidden:
    :maxdepth: 1
 
     Cropland_extent_specs
 
-    .. container:: product-list
+.. container:: product-list
 
-        .. container:: product-item
-    
-           .. image:: ../_static/data_specs/crop_thumbnail.png
-    
-           :doc:`Cropland_extent_specs`
-    
-           Estimated location of croplands.
-    
-           :doc:`More <Cropland_extent_specs>`
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/crop_thumbnail.png
+
+       :doc:`Cropland_extent_specs`
+
+       Estimated location of croplands.
+
+       :doc:`More <Cropland_extent_specs>`
 
 
 Coastal
 ^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
-   :caption: Coastlines Monitoring
+   :caption:Coastal
    :hidden:
    :maxdepth: 1
 
    Coastlines_specs
 
-    .. container:: product-list
-    
-        .. container:: product-item
-    
-           .. image:: ../_static/data_specs/Coastlines_thumbnail.png
-    
-           :doc:`Coastlines_specs`
-    
-           Annual shorelines and rates of coastal change along the entire African coastline at a 30 m resolution from 2000 to present. 
-    
-           :doc:`More <Coastlines_specs>`
+.. container:: product-list
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/Coastlines_thumbnail.png
+
+       :doc:`Coastlines_specs`
+
+       Annual shorelines and rates of coastal change along the entire African coastline at a 30 m resolution from 2000 to present. 
+
+       :doc:`More <Coastlines_specs>`
 
 
 
@@ -60,32 +60,110 @@ Satellite images
 ^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
+   :caption: Satellite images
    :hidden:
    :maxdepth: 1
 
     GeoMAD_specs
 
-    .. container:: product-list
+.. container:: product-list
 
-        .. container:: product-item
-    
-           .. image:: ../_static/data_specs/GeoMAD_thumbnail.png
-    
-           :doc:`GeoMAD_specs`
-    
-           Cloud-free mosaics from Landsat and Sentinel-2 satellites.
-    
-           :doc:`More <GeoMAD_specs>`
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/GeoMAD_thumbnail.png
+
+       :doc:`GeoMAD_specs`
+
+       Cloud-free mosaics from Landsat and Sentinel-2 satellites.
+
+       :doc:`More <GeoMAD_specs>`
 
 
 
 Surface water
 ^^^^^^^^^^^^^^^^^^^
 
+.. toctree::
+   :caption: Surface water
+   :hidden:
+   :maxdepth: 1
+
+   Landsat_WOfS_specs
+   Waterbodies_specs
+
+.. container:: product-list
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/wofs_thumbnail.png
+
+       :doc:`Landsat_WOfS_specs`
+
+       Individual, annual and historic water observations.
+
+       :doc:`More <Landsat_WOfS_specs>`
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/Waterbodies_thumbnail.png
+
+       :doc:`Waterbodies_specs`
+
+       A continental collection of African water bodies locations and surface area change at a 30m resolution from 1987 to present. 
+
+       :doc:`More <Waterbodies_specs>`
+
 
 
 Vegetation
 ^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :caption: Vegetation
+   :hidden:
+   :maxdepth: 1
+
+   
+   Fractional_Cover_specs
+   NDVI_Anomaly_specs
+   NDVI_Climatology_specs
+
+.. container:: product-list
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/fc_thumbnail.png
+
+       :doc:`Fractional_Cover_specs`
+
+       Green vegetation, non-green vegetation and bare soil for every Landsat image.
+
+       :doc:`More <Fractional_Cover_specs>`
+
+    .. container:: product-item
+    
+       .. image:: ../_static/data_specs/NDVI_anom_thumbnail.png
+    
+       :doc:`NDVI_Anomaly_specs`
+    
+       Monthly mapping of vegetation condition against the long-term baseline.
+    
+       :doc:`More <NDVI_Anomaly_specs>`
+
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/NDVI_clim_thumbnail.png
+
+       :doc:`NDVI_Climatology_specs`
+
+       Long-term average vegetation condition (NDVI) for every Landsat pixel over the African continent.
+
+       :doc:`More <NDVI_Climatology_specs>`
+
+
+   
+   
 
 
 
@@ -111,8 +189,6 @@ Surface reflectance
    Landsat_C2_SR_specs
    Sentinel-2_Level-2A_specs
    
-
-
 .. container:: product-list
 
     .. container:: product-item
@@ -204,64 +280,20 @@ Land and water
    :hidden:
    :maxdepth: 1
 
-   Landsat_WOfS_specs
    
-   Fractional_Cover_specs
-   NDVI_Climatology_specs
+   
    CHIRPS_specs
    CGLS_LULC_specs
    IO_LULC_specs
    iSDA_Soil_Data
    ESA_WorldCover_specs
    Global_Mangrove_Watch_specs
-   Waterbodies_specs
    World_Settlement_Footprint_specs
    WaPOR_specs
    
 
-
 .. container:: product-list
 
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/wofs_thumbnail.png
-
-       :doc:`Landsat_WOfS_specs`
-
-       Individual, annual and historic water observations.
-
-       :doc:`More <Landsat_WOfS_specs>`
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/fc_thumbnail.png
-
-       :doc:`Fractional_Cover_specs`
-
-       Green vegetation, non-green vegetation and bare soil for every Landsat image.
-
-       :doc:`More <Fractional_Cover_specs>`
-    
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/NDVI_clim_thumbnail.png
-
-       :doc:`NDVI_Climatology_specs`
-
-       Long-term average vegetation condition (NDVI) for every Landsat pixel over the African continent.
-
-       :doc:`More <NDVI_Climatology_specs>`
-       
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/NDVI_anom_thumbnail.png
-
-       :doc:`NDVI_Anomaly_specs`
-
-       Monthly mapping of vegetation condition against the long-term baseline.
-
-       :doc:`More <NDVI_Anomaly_specs>`
-       
     .. container:: product-item
 
        .. image:: ../_static/data_specs/CHIRPS_thumbnail.png
@@ -336,16 +368,6 @@ Land and water
 
        :doc:`More <Global_Mangrove_Watch_specs>`
        
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/Waterbodies_thumbnail.png
-
-       :doc:`Waterbodies_specs`
-
-       A continental collection of African water bodies locations and surface area change at a 30m resolution from 1987 to present. 
-
-       :doc:`More <Waterbodies_specs>`
        
     .. container:: product-item
 
