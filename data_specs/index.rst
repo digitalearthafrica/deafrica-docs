@@ -1,13 +1,14 @@
 .. _data_specs:
 
+=================
 Data Catalogue
-==============
+=================
 
 Digital Earth Africa hosts a repository of Earth observation datasets
 spanning continental Africa.
 
 DE Africa Continental Services
----------------------------------
+=================================
 
 Agriculture
 ^^^^^^^^^^^^^^^^^^^
@@ -165,7 +166,7 @@ Vegetation
    
    
 External Datasets
---------------------
+=================================
 
 Agriculture
 ^^^^^^^^^^^^^^^^^^^
@@ -475,9 +476,6 @@ Soil
        :doc:`More <GRAFS_specs>`
        
               
-
-
-
    
 About the data
 ----------------
