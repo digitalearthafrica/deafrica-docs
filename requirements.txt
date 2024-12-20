@@ -1,8 +1,7 @@
 Sphinx>=5
 nbsphinx
 nbconvert>=7.2.9
-#sphinx_rtd_theme
-sphinx-adc-theme
+sphinx_rtd_theme
 jinja2>=3.0
 docutils>=0.18.1
 IPython
