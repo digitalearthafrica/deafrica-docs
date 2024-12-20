@@ -134,7 +134,9 @@ Land and water
    Global_Mangrove_Watch_specs
    Waterbodies_specs
    World_Settlement_Footprint_specs
-   Africapolis
+   Africapolis_urban_specs
+   WaPOR_specs
+
    
 
 
@@ -296,6 +298,15 @@ Land and water
        Africapolis dataset enables analysis and understanding of urbanization and urban growth in Africa.
 
        :doc:`More <Africapolis_urban_specs>`
+
+        .. image:: ../_static/data_specs/WaPOR_thumbnail.png
+
+        :doc:`WaPOR_specs`
+
+        The Water Productivity through Open access of Remotely sensed derived data (WaPOR) monitors and reports on agricultural water productivity through biophysical measures with a focus on Africa and the Near East, produced by the FAO.
+
+        :doc:`More <WaPOR_specs>`
+
 
        
 Coastal
