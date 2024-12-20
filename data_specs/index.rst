@@ -7,13 +7,13 @@ Digital Earth Africa hosts a repository of Earth observation datasets
 spanning continental Africa.
 
 DE Africa Continental Services
-----------------
+---------------------------------
 
 Agriculture
 ^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
-   :caption:Agriculture
+   :caption: Agriculture
    :hidden:
    :maxdepth: 1
 
@@ -32,11 +32,12 @@ Agriculture
        :doc:`More <Cropland_extent_specs>`
 
 
+
 Coastal
 ^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
-   :caption:Coastal
+   :caption: Coastal
    :hidden:
    :maxdepth: 1
 
@@ -77,7 +78,6 @@ Satellite images
        Cloud-free mosaics from Landsat and Sentinel-2 satellites.
 
        :doc:`More <GeoMAD_specs>`
-
 
 
 Surface water
@@ -164,220 +164,19 @@ Vegetation
 
    
    
+External Datasets
+--------------------
 
-
-
-
-
-
-
-
-
-
-
-
-Satellite images
-----------------
-
-Surface reflectance
+Agriculture
 ^^^^^^^^^^^^^^^^^^^
-
 .. toctree::
+   :caption: Agriculture
    :hidden:
    :maxdepth: 1
 
-   Landsat_C2_SR_specs
-   Sentinel-2_Level-2A_specs
-   
-.. container:: product-list
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/Landsat_thumbnail.png
-
-       :doc:`Landsat_C2_SR_specs`
-
-       Daily satellite images from Landsat 5, 7, 8 and 9.
-
-       :doc:`More <Landsat_C2_SR_specs>`
-
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/S2_thumbnail.png
-
-       :doc:`Sentinel-2_Level-2A_specs`
-
-       Daily satellite images from Sentinel-2.
-
-       :doc:`More <Sentinel-2_Level-2A_specs>`
-
-
-
-Surface temperature
-^^^^^^^^^^^^^^^^^^^
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-
-   Landsat_C2_ST_specs
-
+    WaPOR_specs
 
 .. container:: product-list
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/ST_thumbnail.png
-
-       :doc:`Landsat_C2_ST_specs`
-
-       Surface Temperature from Landsat 5, 7, 8 and 9.
-
-       :doc:`More <Landsat_C2_ST_specs>`
-
-
-Radar backscatter
-^^^^^^^^^^^^^^^^^
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-
-   Sentinel-1_specs
-   ALOS_PALSAR_annual_mosaic_specs
-
-
-.. container:: product-list
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/S1_thumbnail.png
-
-       :doc:`Sentinel-1_specs`
-
-       Synthetic Aperture Radar from Sentinel-1.
-
-       :doc:`More <Sentinel-1_specs>`
-
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/ALOS_thumbnail.png
-
-       :doc:`ALOS_PALSAR_annual_mosaic_specs`
-
-       Synthetic Aperture Radar annual mosaics from JAXA.
-
-       :doc:`More <ALOS_PALSAR_annual_mosaic_specs>`
-
-
-Land and water
---------------
-
-.. toctree::
-   :caption: Land and water
-   :hidden:
-   :maxdepth: 1
-
-   
-   
-   CHIRPS_specs
-   CGLS_LULC_specs
-   IO_LULC_specs
-   iSDA_Soil_Data
-   ESA_WorldCover_specs
-   Global_Mangrove_Watch_specs
-   World_Settlement_Footprint_specs
-   WaPOR_specs
-   
-
-.. container:: product-list
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/CHIRPS_thumbnail.png
-
-       :doc:`CHIRPS_specs`
-
-       Daily and monthly rainfall estimates from rain gauge and satellite observations.
-
-       :doc:`More <CHIRPS_specs>`
-       
-       
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/CGLS_thumbnail.png
-
-       :doc:`CGLS_LULC_specs`
-
-       Copernicus Global Land Service annual land cover layers at 100 m spatial resolution.
-
-       :doc:`More <CGLS_LULC_specs>`
-       
-    
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/IO_LULC_thumbnail.png
-
-       :doc:`IO_LULC_specs`
-
-       ESRI 10-meter resolution global land use land cover time series.
-
-       :doc:`More <IO_LULC_specs>`
-       
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/iSDA_Soil_Bedrock_Depth_thumbnail.png
-
-       :doc:`iSDA_Soil_Data`
-
-       iSDA soil variables at 30 m resolution.
-
-       :doc:`More <iSDA_Soil_Data>`       
-       
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/ESA_WorldCover_thumbnail.png
-
-       :doc:`ESA_WorldCover_specs`
-
-       ESA WorldCover global land cover map at 10 m resolution.
-
-       :doc:`More <ESA_WorldCover_specs>`
-       
-       
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/CCI_Landcover_thumbnail.png
-
-       :doc:`CCI_Landcover_specs`
-
-       ESA Climate Change Initiative Land Cover at 300 m resolution.
-
-       :doc:`More <CCI_Landcover_specs>`       
-
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/Global_Mangrove_Watch_thumbnail.png
-
-       :doc:`Global_Mangrove_Watch_specs`
-
-       Global Mangrove Watch global baseline map of mangroves for 2010 and change maps for 1996, 2007, 2008, 2009, 2015 - 2020. 
-
-       :doc:`More <Global_Mangrove_Watch_specs>`
-       
-       
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/WSF_thumbnail.png
-
-       :doc:`World_Settlement_Footprint_specs`
-
-       The World Settlement Footprint WSF is a 10m-resolution binary mask outlining the extent of human settlements globally for the years 2015 and 2019 based on multiple datasets, and the World Settlement Footprint Evolution shows the annual growth of human settlements globally at 30m-resolution. 
-
-       :doc:`More <World_Settlement_Footprint_specs>`
 
     .. container:: product-item
 
@@ -389,16 +188,11 @@ Land and water
 
         :doc:`More <WaPOR_specs>`
 
-       
 
-
-
-
-Elevation
----------
-
+Elevation and topography
+^^^^^^^^^^^^^^^^^^^
 .. toctree::
-   :caption: Elevation
+   :caption: Elevation and topography
    :hidden:
    :maxdepth: 1
 
@@ -430,21 +224,98 @@ Elevation
        :doc:`More <SRTM_DEM_specs>`
 
 
-External Datasets
------------------
+Land Cover
+^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
-   :caption: External Datasets
+   :caption: Land Cover
    :hidden:
    :maxdepth: 1
-   
-   ERA5_Climate_Data_specs
-   GRAFS_specs
-   Planet_NICFI_specs
-   
-   
+
+    CCI_Landcover_specs
+    CGLS_LULC_specs   
+    ESA_WorldCover_specs
+    IO_LULC_specs
+    World_Settlement_Footprint_specs
    
 .. container:: product-list
+
+    .. container:: product-item
+    
+           .. image:: ../_static/data_specs/CCI_Landcover_thumbnail.png
+    
+           :doc:`CCI_Landcover_specs`
+    
+           ESA Climate Change Initiative Land Cover at 300 m resolution.
+    
+           :doc:`More <CCI_Landcover_specs>`   
+
+    .. container:: product-item
+    
+           .. image:: ../_static/data_specs/CGLS_thumbnail.png
+    
+           :doc:`CGLS_LULC_specs`
+    
+           Copernicus Global Land Service annual land cover layers at 100 m spatial resolution.
+    
+           :doc:`More <CGLS_LULC_specs>`
+
+    .. container:: product-item
+    
+           .. image:: ../_static/data_specs/ESA_WorldCover_thumbnail.png
+    
+           :doc:`ESA_WorldCover_specs`
+    
+           ESA WorldCover global land cover map at 10 m resolution.
+    
+           :doc:`More <ESA_WorldCover_specs>`
+           
+        
+    .. container:: product-item
+    
+           .. image:: ../_static/data_specs/IO_LULC_thumbnail.png
+    
+           :doc:`IO_LULC_specs`
+    
+           ESRI 10-meter resolution global land use land cover time series.
+    
+           :doc:`More <IO_LULC_specs>`
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/WSF_thumbnail.png
+
+       :doc:`World_Settlement_Footprint_specs`
+
+       The World Settlement Footprint WSF is a 10m-resolution binary mask outlining the extent of human settlements globally for the years 2015 and 2019 based on multiple datasets, and the World Settlement Footprint Evolution shows the annual growth of human settlements globally at 30m-resolution. 
+
+       :doc:`More <World_Settlement_Footprint_specs>`
+
+
+           
+Meteorology           
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :caption: Meteorology     
+   :hidden:
+   :maxdepth: 1
+
+    CHIRPS_specs
+    ERA5_Climate_Data_specs
+           
+
+.. container:: product-list
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/CHIRPS_thumbnail.png
+
+       :doc:`CHIRPS_specs`
+
+       Daily and monthly rainfall estimates from rain gauge and satellite observations.
+
+       :doc:`More <CHIRPS_specs>`
 
     .. container:: product-item
 
@@ -455,6 +326,142 @@ External Datasets
        ERA5 global climate reanalysis product by the Copernicus Climate Change Service (C3S) at the ECMWF.
 
        :doc:`More <ERA5_Climate_Data_specs>`
+
+
+Radar backscatter
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+    ALOS_PALSAR_annual_mosaic_specs   
+    Sentinel-1_specs
+
+.. container:: product-list
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/ALOS_thumbnail.png
+
+       :doc:`ALOS_PALSAR_annual_mosaic_specs`
+
+       Synthetic Aperture Radar annual mosaics from JAXA.
+
+       :doc:`More <ALOS_PALSAR_annual_mosaic_specs>`
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/S1_thumbnail.png
+
+       :doc:`Sentinel-1_specs`
+
+       Synthetic Aperture Radar from Sentinel-1.
+
+       :doc:`More <Sentinel-1_specs>`
+
+
+Satellite images
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+    Landsat_C2_SR_specs
+    Landsat_C2_ST_specs
+    Sentinel-2_Level-2A_specs
+    Planet_NICFI_specs
+   
+.. container:: product-list
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/Landsat_thumbnail.png
+
+       :doc:`Landsat_C2_SR_specs`
+
+       Daily satellite images from Landsat 5, 7, 8 and 9.
+
+       :doc:`More <Landsat_C2_SR_specs>`
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/ST_thumbnail.png
+
+       :doc:`Landsat_C2_ST_specs`
+
+       Surface Temperature from Landsat 5, 7, 8 and 9.
+
+       :doc:`More <Landsat_C2_ST_specs>`
+
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/S2_thumbnail.png
+
+       :doc:`Sentinel-2_Level-2A_specs`
+
+       Daily satellite images from Sentinel-2.
+
+       :doc:`More <Sentinel-2_Level-2A_specs>`
+
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/PLANET_thumbnail.jpg
+
+       :doc:`Planet_NICFI_specs`
+       
+       Planet NICFI visual mosaics provide optimized, true-color imagery, making them ideal for visual display and interpretation. 
+
+       :doc:`More <Planet_NICFI_specs>`
+
+
+Vegetation
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :caption: Vegetation
+   :hidden:
+   :maxdepth: 1
+
+    Global_Mangrove_Watch_specs
+
+.. container:: product-list
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/Global_Mangrove_Watch_thumbnail.png
+
+       :doc:`Global_Mangrove_Watch_specs`
+
+       Global Mangrove Watch global baseline map of mangroves for 2010 and change maps for 1996, 2007, 2008, 2009, 2015 - 2020. 
+
+       :doc:`More <Global_Mangrove_Watch_specs>`
+
+
+Soil
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :caption: Soil
+   :hidden:
+   :maxdepth: 1
+
+   iSDA_Soil_Data
+
+.. container:: product-list
+       
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/iSDA_Soil_Bedrock_Depth_thumbnail.png
+
+       :doc:`iSDA_Soil_Data`
+
+       iSDA soil variables at 30 m resolution.
+
+       :doc:`More <iSDA_Soil_Data>`       
        
 
     .. container:: product-item
@@ -469,15 +476,6 @@ External Datasets
        
               
 
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/PLANET_thumbnail.jpg
-
-       :doc:`Planet_NICFI_specs`
-       
-       Planet NICFI visual mosaics provide optimized, true-color imagery, making them ideal for visual display and interpretation. 
-
-       :doc:`More <Planet_NICFI_specs>`
 
 
    
