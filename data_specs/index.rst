@@ -19,15 +19,17 @@ Agriculture
 
     Cropland_extent_specs
 
-    .. container:: product-item
+    .. container:: product-list
 
-       .. image:: ../_static/data_specs/crop_thumbnail.png
-
-       :doc:`Cropland_extent_specs`
-
-       Estimated location of croplands.
-
-       :doc:`More <Cropland_extent_specs>`
+        .. container:: product-item
+    
+           .. image:: ../_static/data_specs/crop_thumbnail.png
+    
+           :doc:`Cropland_extent_specs`
+    
+           Estimated location of croplands.
+    
+           :doc:`More <Cropland_extent_specs>`
 
 
 Coastal
@@ -63,15 +65,17 @@ Satellite images
 
     GeoMAD_specs
 
-    .. container:: product-item
+    .. container:: product-list
 
-       .. image:: ../_static/data_specs/GeoMAD_thumbnail.png
-
-       :doc:`GeoMAD_specs`
-
-       Cloud-free mosaics from Landsat and Sentinel-2 satellites.
-
-       :doc:`More <GeoMAD_specs>`
+        .. container:: product-item
+    
+           .. image:: ../_static/data_specs/GeoMAD_thumbnail.png
+    
+           :doc:`GeoMAD_specs`
+    
+           Cloud-free mosaics from Landsat and Sentinel-2 satellites.
+    
+           :doc:`More <GeoMAD_specs>`
 
 
 
