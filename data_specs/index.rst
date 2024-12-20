@@ -1,17 +1,18 @@
 .. _data_specs:
 
-=================
+##############
 Data Catalogue
-=================
+##############
 
 Digital Earth Africa hosts a repository of Earth observation datasets
 spanning continental Africa.
 
+******************************
 DE Africa Continental Services
-=================================
+******************************
 
 Agriculture
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^
 
 .. toctree::
    :caption: Agriculture
@@ -35,7 +36,7 @@ Agriculture
 
 
 Coastal
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^
 
 .. toctree::
    :caption: Coastal
@@ -59,7 +60,7 @@ Coastal
 
 
 Satellite images
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
 .. toctree::
    :caption: Satellite images
@@ -82,7 +83,7 @@ Satellite images
 
 
 Surface water
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 .. toctree::
    :caption: Surface water
@@ -117,7 +118,7 @@ Surface water
 
 
 Vegetation
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 .. toctree::
    :caption: Vegetation
@@ -164,12 +165,12 @@ Vegetation
 
 
    
-   
+***************** 
 External Datasets
-=================================
+*****************
 
 Agriculture
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^
 .. toctree::
    :caption: Agriculture
    :hidden:
@@ -191,7 +192,7 @@ Agriculture
 
 
 Elevation and topography
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 .. toctree::
    :caption: Elevation and topography
    :hidden:
@@ -226,7 +227,7 @@ Elevation and topography
 
 
 Land Cover
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 .. toctree::
    :caption: Land Cover
@@ -295,7 +296,7 @@ Land Cover
 
            
 Meteorology           
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^
 
 .. toctree::
    :caption: Meteorology     
@@ -330,7 +331,7 @@ Meteorology
 
 
 Radar backscatter
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :hidden:
@@ -363,7 +364,7 @@ Radar backscatter
 
 
 Satellite images
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
 .. toctree::
    :hidden:
@@ -420,7 +421,7 @@ Satellite images
 
 
 Vegetation
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^
 
 .. toctree::
    :caption: Vegetation
@@ -443,7 +444,7 @@ Vegetation
 
 
 Soil
-^^^^^^^^^^^^^^^^^^^
+^^^^
 
 .. toctree::
    :caption: Soil
