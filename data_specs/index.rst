@@ -6,6 +6,77 @@ Data Catalogue
 Digital Earth Africa hosts a repository of Earth observation datasets
 spanning continental Africa.
 
+DE Africa Continental Services
+----------------
+
+Agriculture
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+    Cropland_extent_specs
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/crop_thumbnail.png
+
+       :doc:`Cropland_extent_specs`
+
+       Estimated location of croplands.
+
+       :doc:`More <Cropland_extent_specs>`
+
+
+Coastal
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :caption: Coastal
+   :hidden:
+   :maxdepth: 1
+
+   Coastlines_specs
+
+.. container:: product-list
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/Coastlines_thumbnail.png
+
+       :doc:`Coastlines_specs`
+
+       Annual shorelines and rates of coastal change along the entire African coastline at a 30 m resolution from 2000 to present. 
+
+       :doc:`More <Coastlines_specs>`
+
+
+
+Satellite images
+^^^^^^^^^^^^^^^^^^^
+
+
+
+Surface water
+^^^^^^^^^^^^^^^^^^^
+
+
+
+Vegetation
+^^^^^^^^^^^^^^^^^^^
+
+
+
+
+
+
+
+
+
+
+
+
 Satellite images
 ----------------
 
@@ -123,7 +194,7 @@ Land and water
    :maxdepth: 1
 
    Landsat_WOfS_specs
-   Cropland_extent_specs
+   
    Fractional_Cover_specs
    NDVI_Climatology_specs
    CHIRPS_specs
@@ -149,18 +220,6 @@ Land and water
        Individual, annual and historic water observations.
 
        :doc:`More <Landsat_WOfS_specs>`
-
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/crop_thumbnail.png
-
-       :doc:`Cropland_extent_specs`
-
-       Estimated location of croplands.
-
-       :doc:`More <Cropland_extent_specs>`
-
 
     .. container:: product-item
 
@@ -298,28 +357,9 @@ Land and water
         :doc:`More <WaPOR_specs>`
 
        
-Coastal
--------
-
-.. toctree::
-   :caption: Coastal
-   :hidden:
-   :maxdepth: 1
-
-   Coastlines_specs
 
 
-.. container:: product-list
 
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/Coastlines_thumbnail.png
-
-       :doc:`Coastlines_specs`
-
-       Annual shorelines and rates of coastal change along the entire African coastline at a 30 m resolution from 2000 to present. 
-
-       :doc:`More <Coastlines_specs>`
 
 Elevation
 ---------
