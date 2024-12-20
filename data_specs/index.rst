@@ -13,6 +13,7 @@ Agriculture
 ^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
+   :caption:Cropland Extent (2019)
    :hidden:
    :maxdepth: 1
 
@@ -33,28 +34,44 @@ Coastal
 ^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
-   :caption: Coastal
+   :caption: Coastlines Monitoring
    :hidden:
    :maxdepth: 1
 
    Coastlines_specs
 
-.. container:: product-list
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/Coastlines_thumbnail.png
-
-       :doc:`Coastlines_specs`
-
-       Annual shorelines and rates of coastal change along the entire African coastline at a 30 m resolution from 2000 to present. 
-
-       :doc:`More <Coastlines_specs>`
+    .. container:: product-list
+    
+        .. container:: product-item
+    
+           .. image:: ../_static/data_specs/Coastlines_thumbnail.png
+    
+           :doc:`Coastlines_specs`
+    
+           Annual shorelines and rates of coastal change along the entire African coastline at a 30 m resolution from 2000 to present. 
+    
+           :doc:`More <Coastlines_specs>`
 
 
 
 Satellite images
 ^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+    GeoMAD_specs
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/GeoMAD_thumbnail.png
+
+       :doc:`GeoMAD_specs`
+
+       Cloud-free mosaics from Landsat and Sentinel-2 satellites.
+
+       :doc:`More <GeoMAD_specs>`
 
 
 
@@ -89,7 +106,7 @@ Surface reflectance
 
    Landsat_C2_SR_specs
    Sentinel-2_Level-2A_specs
-   GeoMAD_specs
+   
 
 
 .. container:: product-list
@@ -115,16 +132,6 @@ Surface reflectance
 
        :doc:`More <Sentinel-2_Level-2A_specs>`
 
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/GeoMAD_thumbnail.png
-
-       :doc:`GeoMAD_specs`
-
-       Cloud-free mosaics from Landsat and Sentinel-2 satellites.
-
-       :doc:`More <GeoMAD_specs>`
 
 
 Surface temperature
