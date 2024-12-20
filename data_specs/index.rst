@@ -352,7 +352,7 @@ Elevation
 
        :doc:`Africapolis_urban_specs`
 
-       Africapolis is a research and data visualisation tool used to map, analyse and understand urbanisation and urban growth in Africa.
+       Africapolis dataset enables analysis and understanding of urbanization and urban growth in Africa.
 
        :doc:`More <Africapolis_urban_specs>`
 
