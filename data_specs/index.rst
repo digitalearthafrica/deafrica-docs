@@ -12,7 +12,7 @@ DE Africa Continental Services
 ******************************
 
 
-*Digital Earth Africa Continental Services are continental scale outputs which are produced by Digital Earth Africa from various combinations of the Input Datasets using specified modelling and calculation techniques, with validation also undertaken. Continental Services are provided with specified levels of update and latency, and may be continuously updated as input datasets become available*
+*Digital Earth Africa Continental Services are continental scale outputs which are produced by Digital Earth Africa from various combinations of the External Datasets using specified modelling and calculation techniques, with validation also undertaken. Continental Services are provided with specified levels of update and latency, and may be continuously updated as input datasets become available*
 
 ---------------------------
 
