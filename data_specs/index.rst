@@ -11,9 +11,9 @@ spanning continental Africa.
 DE Africa Continental Services
 ******************************
 
-==============================================================================================================================================================================================
-DE Africa Continental Services are continental scale outputs which are produced within DE Africa, from various combinations of the Input Datasets along with models, ground-truth data & etc. 
-DE Africa Continental Service is provided with specified levels of update and latency, and may be continuously updated as input datasets become available. 
+
+*DE Africa Continental Services are continental scale outputs which are produced within DE Africa, from various combinations of the Input Datasets along with models, ground-truth data & etc.* 
+*DE Africa Continental Service is provided with specified levels of update and latency, and may be continuously updated as input datasets become available. *
 ==============================================================================================================================================================================================
 
 
@@ -174,6 +174,10 @@ Vegetation
 ***************** 
 External Datasets
 *****************
+
+
+*External Datasets are datasets that are made available to, and within DE Africa, but are not produced or maintained by DE Africa.* 
+=================================================================================================================================
 
 Agriculture
 ^^^^^^^^^^^
