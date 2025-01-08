@@ -12,7 +12,7 @@ DE Africa Continental Services
 ******************************
 
 
-*Digital Earth Africa Continental Services are continental scale outputs which are produced by Digital Earth Africa from various combinations of the External Datasets using specified modelling and calculation techniques, with validation also undertaken. Continental Services are provided with specified levels of update and latency, and may be continuously updated as input datasets become available*
+*Digital Earth Africa Continental services are continental-scale outputs that are produced by Digital Earth Africa from various combinations of the external datasets using specified modelling and calculation techniques, with validation also undertaken. Continental Services are provided with specified levels of update and latency and may be continuously updated as external datasets become available.*
 
 ---------------------------
 
@@ -170,13 +170,15 @@ Vegetation
        :doc:`More <NDVI_Climatology_specs>`
 
 
+
+----------------
    
 ***************** 
 External Datasets
 *****************
 
 
-*External Datasets are datasets that are made available to, and within DE Africa, but are not produced or maintained by DE Africa.*
+*External Datasets are datasets that are made available to, and within Digital Earth Africa, but are not produced or maintained by Digital Earth Africa.*
 
 ----------------
 
