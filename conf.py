@@ -33,6 +33,7 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
     "sphinx.ext.napoleon",
+    "sphinx_wagtail_theme",
     "nbsphinx",
     "sphinx.ext.autosectionlabel",
 ]
@@ -116,7 +117,7 @@ nbsphinx_execute = 'never'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = "ansys_sphinx_theme"
+html_theme = "sphinx_wagtail_theme"
 
 html_theme_path = ["_themes", ]
 html_theme_options = {
