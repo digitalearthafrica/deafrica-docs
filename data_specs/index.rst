@@ -39,8 +39,6 @@ Agriculture
 
        :doc:`More <Cropland_extent_specs>`
 
-
-
 Coastal
 ^^^^^^^
 
@@ -296,15 +294,6 @@ Land Cover
     
            :doc:`More <IO_LULC_specs>`
 
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/WSF_thumbnail.png
-
-       :doc:`World_Settlement_Footprint_specs`
-
-       The World Settlement Footprint WSF is a 10m-resolution binary mask outlining the extent of human settlements globally for the years 2015 and 2019 based on multiple datasets, and the World Settlement Footprint Evolution shows the annual growth of human settlements globally at 30m-resolution. 
-
-       :doc:`More <World_Settlement_Footprint_specs>`
 
 
            
@@ -432,6 +421,37 @@ Satellite images
 
        :doc:`More <Planet_NICFI_specs>`
 
+Urban
+^^^^^
+.. toctree::
+   :caption: Vegetation
+   :hidden:
+   :maxdepth: 1
+
+    Africapolis_urban_specs
+    World_Settlement_Footprint_specs
+
+.. container:: product-list
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/Africapolis_urban_specs/Africapolis_urban_specs.png
+
+       :doc:`Africapolis_urban_specs`
+
+       Africapolis dataset enables analysis and understanding of urbanization and urban growth in Africa.
+
+       :doc:`More <Africapolis_urban_specs>`
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/WSF_thumbnail.png
+
+       :doc:`World_Settlement_Footprint_specs`
+
+       The World Settlement Footprint WSF is a 10m-resolution binary mask outlining the extent of human settlements globally for the years 2015 and 2019 based on multiple datasets, and the World Settlement Footprint Evolution shows the annual growth of human settlements globally at 30m-resolution. 
+
+       :doc:`More <World_Settlement_Footprint_specs>`
 
 Vegetation
 ^^^^^^^^^^
