@@ -63,8 +63,8 @@ Coastal
 
 
 
-Satellite images
-^^^^^^^^^^^^^^^^
+Geomedians
+^^^^^^^^^^
 
 .. toctree::
    :caption: Satellite images
