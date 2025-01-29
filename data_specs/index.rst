@@ -439,7 +439,7 @@ Urban
 
        :doc:`Africapolis_urban_specs`
 
-       Africapolis dataset enables analysis and understanding of urbanization and urban growth in Africa.
+       OECD Sahel and West Africa Club  created Africapolis to provide a much needed standardised geospatial database on urbanisation dynamics in Africa, with the aim of making urban data in Africa comparable across countries and across time.
 
        :doc:`More <Africapolis_urban_specs>`
 
