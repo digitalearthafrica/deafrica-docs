@@ -245,11 +245,12 @@ Land Cover
    :hidden:
    :maxdepth: 1
 
+    
     CCI_Landcover_specs
     CGLS_LULC_specs   
     ESA_WorldCover_specs
     IO_LULC_specs
-    World_Settlement_Footprint_specs
+    Africapolis_urban_specs
    
 .. container:: product-list
 
@@ -293,6 +294,16 @@ Land Cover
            ESRI 10-meter resolution global land use land cover time series.
     
            :doc:`More <IO_LULC_specs>`
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/Africapolis_urban_specs/Africapolis_urban_specs.png
+
+       :doc:`Africapolis_urban_specs`
+
+       OECD Sahel and West Africa Club  created Africapolis to provide a much needed standardised geospatial database on urbanisation dynamics in Africa, with the aim of making urban data in Africa comparable across countries and across time.
+
+       :doc:`More <Africapolis_urban_specs>`
 
 
 
@@ -428,20 +439,10 @@ Urban
    :hidden:
    :maxdepth: 1
 
-    Africapolis_urban_specs
+
     World_Settlement_Footprint_specs
 
 .. container:: product-list
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/Africapolis_urban_specs/Africapolis_urban_specs.png
-
-       :doc:`Africapolis_urban_specs`
-
-       OECD Sahel and West Africa Club  created Africapolis to provide a much needed standardised geospatial database on urbanisation dynamics in Africa, with the aim of making urban data in Africa comparable across countries and across time.
-
-       :doc:`More <Africapolis_urban_specs>`
 
     .. container:: product-item
 
