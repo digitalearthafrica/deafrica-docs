@@ -245,6 +245,7 @@ Land Cover
    :hidden:
    :maxdepth: 1
 
+    Africapolis_urban_specs
     CCI_Landcover_specs
     CGLS_LULC_specs   
     ESA_WorldCover_specs
@@ -252,6 +253,17 @@ Land Cover
     World_Settlement_Footprint_specs
    
 .. container:: product-list
+
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/Africapolis_urban_specs/Africapolis_urban_specs.png
+
+       :doc:`Africapolis_urban_specs`
+
+       OECD Sahel and West Africa Club  created Africapolis to provide a much needed standardised geospatial database on urbanisation dynamics in Africa, with the aim of making urban data in Africa comparable across countries and across time.
+
+       :doc:`More <Africapolis_urban_specs>`
 
     .. container:: product-item
     
@@ -428,20 +440,10 @@ Urban
    :hidden:
    :maxdepth: 1
 
-    Africapolis_urban_specs
+
     World_Settlement_Footprint_specs
 
 .. container:: product-list
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/Africapolis_urban_specs/Africapolis_urban_specs.png
-
-       :doc:`Africapolis_urban_specs`
-
-       OECD Sahel and West Africa Club  created Africapolis to provide a much needed standardised geospatial database on urbanisation dynamics in Africa, with the aim of making urban data in Africa comparable across countries and across time.
-
-       :doc:`More <Africapolis_urban_specs>`
 
     .. container:: product-item
 
