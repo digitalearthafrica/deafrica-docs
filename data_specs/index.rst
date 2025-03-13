@@ -426,7 +426,7 @@ Satellite Image Mosaic
 
     .. container:: product-item
 
-       .. image:: ../_static/data_specs/Sentinel-1_Monthly_Mosaic_thumbnail.jpg
+       .. image:: ../_static/data_specs/Sentinel-1_Monthly_Mosaic_thumbnail.png
 
        :doc:`Sentinel-1_Monthly_Mosaic_specs`
        
