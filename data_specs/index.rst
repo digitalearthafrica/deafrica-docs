@@ -343,39 +343,6 @@ Meteorology
        :doc:`More <ERA5_Climate_Data_specs>`
 
 
-Radar backscatter
-^^^^^^^^^^^^^^^^^
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-
-    ALOS_PALSAR_annual_mosaic_specs   
-    Sentinel-1_specs
-
-.. container:: product-list
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/ALOS_thumbnail.png
-
-       :doc:`ALOS_PALSAR_annual_mosaic_specs`
-
-       Synthetic Aperture Radar annual mosaics from JAXA.
-
-       :doc:`More <ALOS_PALSAR_annual_mosaic_specs>`
-
-    .. container:: product-item
-
-       .. image:: ../_static/data_specs/S1_thumbnail.png
-
-       :doc:`Sentinel-1_specs`
-
-       Synthetic Aperture Radar from Sentinel-1.
-
-       :doc:`More <Sentinel-1_specs>`
-
-
 Satellite images
 ^^^^^^^^^^^^^^^^
 
@@ -385,8 +352,8 @@ Satellite images
 
     Landsat_C2_SR_specs
     Landsat_C2_ST_specs
+    Sentinel-1_specs
     Sentinel-2_Level-2A_specs
-    Planet_NICFI_specs
    
 .. container:: product-list
 
@@ -410,6 +377,16 @@ Satellite images
 
        :doc:`More <Landsat_C2_ST_specs>`
 
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/S1_thumbnail.png
+
+       :doc:`Sentinel-1_specs`
+
+       Synthetic Aperture Radar from Sentinel-1.
+
+       :doc:`More <Sentinel-1_specs>`
+
 
     .. container:: product-item
 
@@ -422,6 +399,41 @@ Satellite images
        :doc:`More <Sentinel-2_Level-2A_specs>`
 
 
+Satellite Image Mosaic
+^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+    ALOS_PALSAR_annual_mosaic_specs
+    Sentinel-1_Monthly_Mosaic_specs
+    Planet_NICFI_specs
+    
+    
+
+.. container:: product-list
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/ALOS_thumbnail.png
+
+       :doc:`ALOS_PALSAR_annual_mosaic_specs`
+
+       Synthetic Aperture Radar annual mosaics from JAXA.
+
+       :doc:`More <ALOS_PALSAR_annual_mosaic_specs>`
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/Sentinel-1_Monthly_Mosaic_thumbnail.png
+
+       :doc:`Sentinel-1_Monthly_Mosaic_specs`
+       
+       Sentinel-1 Monthly Mosaics enables easy time series analysis, either alone or combined with other datasets. 
+
+       :doc:`More <Sentinel-1_Monthly_Mosaic_specs>`
+
     .. container:: product-item
 
        .. image:: ../_static/data_specs/PLANET_thumbnail.jpg
@@ -431,6 +443,8 @@ Satellite images
        Planet NICFI visual mosaics provide optimized, true-color imagery, making them ideal for visual display and interpretation. 
 
        :doc:`More <Planet_NICFI_specs>`
+
+
 
 Urban
 ^^^^^
