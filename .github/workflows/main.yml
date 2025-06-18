@@ -1,7 +1,11 @@
 name: "Export terms to POEditor"
 on:
  push:
-   branches: [ main ]
+   branches:  
+     -main 
+ pull_request:
+   branches:
+     - main
    paths-ignore: 
      - 'locales/**'
 
