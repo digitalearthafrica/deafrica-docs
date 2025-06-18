@@ -1,6 +1,5 @@
 # .github/workflows/docs-preview.yml
 name: Docs Preview
-
 on:
   pull_request:
     paths:
