@@ -10,10 +10,6 @@ spanning continental Africa.
 **Jump to:**  
 `DE Africa Continental Services`_ | `External Datasets`_ 
 
-.. contents::
-    :local:
-    :depth: 1
-
 -------------------------
 DE Africa Continental Services
 -------------------------
