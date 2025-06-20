@@ -1,7 +1,7 @@
 .. _data_specs:
 
 ====================================
-Data Catalogue
+Digital Earth Africa Data & Products
 ====================================
 
 Digital Earth Africa hosts a repository of Earth observation datasets
