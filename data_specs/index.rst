@@ -448,6 +448,32 @@ Satellite Image Mosaic
        :doc:`More <Planet_NICFI_specs>`
 
 
+Surface water
+^^^^^^^^^^^^^
+
+.. toctree::
+   :caption: Surface water
+   :hidden:
+   :maxdepth: 1
+
+   CGLM_Lake_Water_Quality_specs
+
+.. container:: product-list
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/CGLM_Lake_Water_Quality_thumbnail.png
+
+       :doc:`CGLM_Lake_Water_Quality_specs`
+
+       Provides a semi-continuous water quality observation record for medium and large-sized lakes across Africa.
+
+       :doc:`More <CGLM_Lake_Water_Quality_specs>`
+
+
+
+
+
 
 Urban
 ^^^^^
