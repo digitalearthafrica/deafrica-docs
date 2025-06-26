@@ -15,22 +15,22 @@ Digital Earth Africa Map
    :caption: Digital Earth Africa Map
    :maxdepth: 1
 
-   ./maps/deafrica_map
+    maps/deafrica_map
 
 .. container:: platform-list
 
    .. container:: product-item
 
-      .. image:: ./_static/maps/Workbench.jpg
+      .. image:: _static/maps/Workbench.jpg
          :target: ./maps/
          :width: 400
          :align: left
 
-      :doc:`./maps/deafrica_map`
+      :doc:`maps/deafrica_map`
 
       The Digital Earth Africa interactive visualisation map provides users with the tools to visualise satellite images and decision ready data over the African continent, to understand its geographic diversity and how it changes through time.
 
-      :doc:`More <./maps/deafrica_map>`
+      :doc:`More <maps/deafrica_map>`
 
 
 Digital Earth Africa Sandbox
@@ -76,7 +76,7 @@ Digital Earth Africa Metadata Explorer
    
    .. container:: product-item
 
-      .. image:: ./_static/platform_tools/explorer/metadata.png
+      .. image:: _static/platform_tools/explorer/metadata.png
          :target: explorer
          :width: 400
          :align: left
