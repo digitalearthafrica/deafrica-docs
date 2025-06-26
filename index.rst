@@ -49,7 +49,7 @@ Platforms
    :caption: Platforms
    :maxdepth: 1
 
-   platform_tools/index
+   platform_tools/index_pl
     
 .. container:: platform-list
 
@@ -60,11 +60,11 @@ Platforms
          :width: 400
          :align: left
 
-      :doc:`platform_tools/index`
+      :doc:`platform_tools/index_pl`
 
       Access up-to-date technical documentation of all Digital Earth Africa platforms
 
-      :doc:`More <platform_tools/index>`
+      :doc:`More <platform_tools/index_pl>`
 
 
 
