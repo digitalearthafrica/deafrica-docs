@@ -89,7 +89,7 @@ Direct Access
 
       :doc:`platform_tools/index_direct_access`
 
-       Available methods for accessing Digital Earth Africa datasets
+       Available methods for accessing Digital Earth Africa Datasets
 
       :doc:`More <platform_tools/index_direct_access>`
 
