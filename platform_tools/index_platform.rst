@@ -22,7 +22,7 @@ Digital Earth Africa Map
    .. container:: product-item
 
       .. image:: ../_static/maps/Workbench.jpg
-         :target: maps/
+         :target: deafrica_map
          :width: 400
          :align: left
 
@@ -31,6 +31,9 @@ Digital Earth Africa Map
       The Digital Earth Africa interactive visualisation map provides users with the tools to visualise satellite images and decision ready data over the African continent.
 
       :doc:`More <deafrica_map>`
+
+
+
 
 
 Digital Earth Africa Sandbox
@@ -77,15 +80,45 @@ Digital Earth Africa Metadata Explorer
    .. container:: product-item
 
       .. image:: ../_static/platform_tools/explorer/metadata.png
-         :target: explorer
+         :target: explorer_guide
          :width: 400
          :align: left
 
-      :doc:`explorer`
+      :doc:`explorer_guide`
 
-        The Digital Earth Africa Metadata Explorer is a website that uses the Open Data Cube to inspect metadata for Digital Earth Africa services and datasets.
+      The Digital Earth Africa Metadata Explorer is a website that uses the Open Data Cube to inspect metadata for Digital Earth Africa services and datasets.
 
-      :doc:`More <explorer>`
+      :doc:`More <explorer_guide>`
+
+
+Cube in the Box
+^^^^^^^^^^^^^^^
+
+.. toctree::
+   :hidden:
+   :caption: Cube in the Box
+   :maxdepth: 1
+
+   cube-in-a-box
+
+.. container:: platform-list
+
+   .. container:: product-item
+
+      .. image:: ../_static/platform_tools/cube_in_a_box/cube-in-a-box-thumbnail.png
+         :target: cube-in-a-box
+         :width: 400
+         :align: left
+
+      :doc:`cube-in-a-box`
+
+      The Cube-in-a-Box is a convenient, pre-configured solution that allows users to easily set up and run the Open Data Cube on their local machine.
+
+      :doc:`More <cube-in-a-box>`
+
+
+
+
 
 
 
