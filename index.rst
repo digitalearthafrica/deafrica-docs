@@ -56,7 +56,7 @@ Platforms
    .. container:: product-item
 
       .. image:: _static/data_specs/Home_platform.png
-         :target: ./data_specs/
+         :target: ./platform_tools/
          :width: 400
          :align: left
 
@@ -76,22 +76,22 @@ Direct Access
    :caption: Platforms
    :maxdepth: 1
 
-   direct_access/index
+   platform_tools/index_direct_access
     
 .. container:: platform-list
 
    .. container:: product-item
 
       .. image:: _static/data_specs/Home_direct_access.png
-         :target: ./data_specs/
+         :target: ./platform_tools/
          :width: 400
          :align: left
 
-      :doc:`direct_access/index`
+      :doc:`platform_tools/index_direct_access`
 
       Access up-to-date technical documentation of all Digital Earth Africa platforms
 
-      :doc:`More <direct_access/index>`
+      :doc:`More <platform_tools/index_direct_access>`
 
 
 .. toctree::
