@@ -73,7 +73,7 @@ Direct Access
 
 .. toctree::
    :hidden:
-   :caption: Platforms
+   :caption: Direct Access
    :maxdepth: 1
 
    platform_tools/index_direct_access
