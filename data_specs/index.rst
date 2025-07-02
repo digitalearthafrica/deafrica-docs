@@ -1,16 +1,18 @@
 .. _data_specs:
 
-##############
-Data Catalogue
-##############
+====================================
+Digital Earth Africa Data & Products
+====================================
 
 Digital Earth Africa hosts a repository of Earth observation datasets
 spanning continental Africa.
 
-******************************
-DE Africa Continental Services
-******************************
+**Jump to:**  
+`DE Africa Continental Services`_ | `External Datasets`_ 
 
+-------------------------
+DE Africa Continental Services
+-------------------------
 
 *Digital Earth Africa Continental services are continental-scale outputs that are produced by Digital Earth Africa from various combinations of the external datasets using specified modelling and calculation techniques, with validation also undertaken. Continental Services are provided with specified levels of update and latency and may be continuously updated as external datasets become available.*
 
@@ -170,10 +172,11 @@ Vegetation
 
 
 ----------------
-   
-***************** 
+
+
+-------------------------
 External Datasets
-*****************
+-------------------------
 
 
 *External Datasets are datasets that are made available to, and within Digital Earth Africa, but are not produced or maintained by Digital Earth Africa.*
@@ -443,6 +446,32 @@ Satellite Image Mosaic
        Planet NICFI visual mosaics provide optimized, true-color imagery, making them ideal for visual display and interpretation. 
 
        :doc:`More <Planet_NICFI_specs>`
+
+
+Surface water
+^^^^^^^^^^^^^
+
+.. toctree::
+   :caption: Surface water
+   :hidden:
+   :maxdepth: 1
+
+   CGLM_Lake_Water_Quality_specs
+
+.. container:: product-list
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/CGLM_Lake_Water_Quality_thumbnail.png
+
+       :doc:`CGLM_Lake_Water_Quality_specs`
+
+       Provides a semi-continuous water quality observation record for medium and large-sized lakes across Africa.
+
+       :doc:`More <CGLM_Lake_Water_Quality_specs>`
+
+
+
 
 
 
