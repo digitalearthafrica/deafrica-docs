@@ -21,7 +21,7 @@ Digital Earth Africa Map
 
    .. container:: product-item
 
-      .. image:: _static/maps/Workbench.jpg
+      .. image:: ../_static/maps/Workbench.jpg
          :target: ./maps/
          :width: 400
          :align: left
@@ -49,7 +49,7 @@ Digital Earth Africa Sandbox
 
    .. container:: product-item
 
-      .. image:: ./_static/sandbox/sandbox_mini.png
+      .. image:: ../_static/sandbox/sandbox_mini.png
          :target: ./sandbox/
          :width: 400
          :align: left
@@ -76,7 +76,7 @@ Digital Earth Africa Metadata Explorer
    
    .. container:: product-item
 
-      .. image:: _static/platform_tools/explorer/metadata.png
+      .. image:: ../_static/platform_tools/explorer/metadata.png
          :target: explorer
          :width: 400
          :align: left
@@ -104,7 +104,7 @@ Africa GeoPortal (Esri)
 
    .. container:: product-item
 
-      .. image:: _static/maps/geoportal_logo.png
+      .. image:: ../_static/maps/geoportal_logo.png
          :target: ./maps/geoportal
          :width: 400
          :align: left
@@ -130,7 +130,7 @@ Cube in the Box
 
    .. container:: product-item
 
-      .. image:: _static/platform_tools/cube_in_a_box/cube-in-a-box-thumbnail.png
+      .. image:: ../_static/platform_tools/cube_in_a_box/cube-in-a-box-thumbnail.png
          :target: cube-in-a-box
          :width: 400
          :align: left

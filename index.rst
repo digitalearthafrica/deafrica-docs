@@ -82,7 +82,7 @@ Direct Access
 
    .. container:: product-item
 
-      .. image:: _static/data_specs/S2_thumbnail.png
+      .. image:: _static/data_specs/Home_direct_access.png
          :target: ./data_specs/
          :width: 400
          :align: left
