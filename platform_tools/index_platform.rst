@@ -15,22 +15,22 @@ Digital Earth Africa Map
    :caption: Digital Earth Africa Map
    :maxdepth: 1
 
-    maps/deafrica_map
+    ../maps/deafrica_map
 
 .. container:: platform-list
 
    .. container:: product-item
 
       .. image:: ../_static/maps/Workbench.jpg
-         :target: ./maps/
+         :target: ../maps/
          :width: 400
          :align: left
 
-      :doc:`maps/deafrica_map`
+      :doc:`../maps/deafrica_map`
 
-      The Digital Earth Africa interactive visualisation map provides users with the tools to visualise satellite images and decision ready data over the African continent, to understand its geographic diversity and how it changes through time.
+      The Digital Earth Africa interactive visualisation map provides users with the tools to visualise satellite images and decision ready data over the African continent.
 
-      :doc:`More <maps/deafrica_map>`
+      :doc:`More <../maps/deafrica_map>`
 
 
 Digital Earth Africa Sandbox
@@ -42,7 +42,7 @@ Digital Earth Africa Sandbox
    :maxdepth: 1
 
 
-   ./sandbox/index
+   ../sandbox/index
 
 
 .. container:: platform-list
@@ -50,15 +50,15 @@ Digital Earth Africa Sandbox
    .. container:: product-item
 
       .. image:: ../_static/sandbox/sandbox_mini.png
-         :target: ./sandbox/
+         :target: ../sandbox/
          :width: 400
          :align: left
 
-      :doc:`./sandbox/index`
+      :doc:`../sandbox/index`
 
-      The Digital Earth Africa Sandbox is a cloud-based computational platform that operates through a Jupyter Lab environment. A limited, free compute resource is provided for technical users and data scientists to explore Digital Earth Africa data and products. It enables access to remote-sensing data and analysis tools for ad-hoc report generation and rapid development of new algorithms. 
+      The Digital Earth Africa Sandbox is a cloud-based computational platform that operates through a Jupyter Lab environment. 
 
-      :doc:`More <./sandbox/index>`
+      :doc:`More <../sandbox/index>`
 
 
 
@@ -83,7 +83,7 @@ Digital Earth Africa Metadata Explorer
 
       :doc:`explorer`
 
-        The Digital Earth Africa Metadata Explorer is a website that uses the Open Data Cube to inspect metadata for Digital Earth Africa services and datasets. It includes a time-picker and coverage map to help users find datasets. The explorer can be used to locate and download individual data files from Digital Earth Africa.
+        The Digital Earth Africa Metadata Explorer is a website that uses the Open Data Cube to inspect metadata for Digital Earth Africa services and datasets.
 
       :doc:`More <explorer>`
 
@@ -98,22 +98,22 @@ Africa GeoPortal (Esri)
    :maxdepth: 1
 
 
-   ./maps/geoportal
+   ../maps/geoportal
 
 .. container:: platform-list
 
    .. container:: product-item
 
       .. image:: ../_static/maps/geoportal_logo.png
-         :target: ./maps/geoportal
+         :target: ../maps/geoportal
          :width: 400
          :align: left
 
-      :doc:`./maps/geoportal`
+      :doc:`../maps/geoportal`
 
-      Esri provides geographic information system software, web GIS and geodatabase management applications. Esri’s Africa GeoPortal uses imagery from Digital Earth Africa to provide free geospatial tools, data and training for users working on African geospatial challenges.
+      Esri’s Africa GeoPortal uses imagery from Digital Earth Africa to provide free geospatial tools, data and training for users working on African geospatial challenges.
 
-      :doc:`More <./maps/geoportal>`
+      :doc:`More <../maps/geoportal>`
 
 
 Cube in the Box
@@ -137,7 +137,7 @@ Cube in the Box
 
       :doc:`cube-in-a-box`
 
-      The Cube-in-a-Box is a convenient, pre-configured solution that allows users to easily set up and run the Open Data Cube on their local machine. It provides all the necessary components—such as a PostgreSQL database, Python environment, and Jupyter interface—packaged together to streamline the installation process and enable offline or self-managed geospatial data analysis
+      The Cube-in-a-Box is a convenient, pre-configured solution that allows users to easily set up and run the Open Data Cube on their local machine.
 
       :doc:`More <cube-in-a-box>`
    
