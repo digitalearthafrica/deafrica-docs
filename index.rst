@@ -62,7 +62,7 @@ Platforms
 
       :doc:`platform_tools/index_platform`
 
-      Access up-to-date technical documentation of all Digital Earth Africa platforms
+      Access up-to-date technical documentation for all Digital Earth Africa platforms
 
       :doc:`More <platform_tools/index_platform>`
 
@@ -89,7 +89,7 @@ Direct Access
 
       :doc:`platform_tools/index_direct_access`
 
-      Access up-to-date technical documentation of all Digital Earth Africa platforms
+       Available methods for accessing Digital Earth Africa datasets
 
       :doc:`More <platform_tools/index_direct_access>`
 
