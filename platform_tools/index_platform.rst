@@ -91,37 +91,6 @@ Digital Earth Africa Metadata Explorer
       :doc:`More <explorer_guide>`
 
 
-Cube in the Box
-^^^^^^^^^^^^^^^
-
-.. toctree::
-   :hidden:
-   :caption: Cube in the Box
-   :maxdepth: 1
-
-   cube-in-a-box
-
-.. container:: platform-list
-
-   .. container:: product-item
-
-      .. image:: ../_static/platform_tools/cube_in_a_box/cube-in-a-box-thumbnail.png
-         :target: cube-in-a-box
-         :width: 400
-         :align: left
-
-      :doc:`cube-in-a-box`
-
-      The Cube-in-a-Box is a convenient, pre-configured solution that allows users to easily set up and run the Open Data Cube on their local machine.
-
-      :doc:`More <cube-in-a-box>`
-
-
-
-
-
-
-
 Africa GeoPortal (Esri)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
