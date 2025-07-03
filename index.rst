@@ -36,7 +36,7 @@ Data
 
       :doc:`data_specs/index`
 
-      Access up-to-date technical specifications of all Digital Earth Africa datasets
+      Technical specifications of all Digital Earth Africa datasets, products, and services
 
       :doc:`More <data_specs/index>`
    
@@ -62,7 +62,7 @@ Platforms
 
       :doc:`platform_tools/index_platform`
 
-      Access up-to-date technical documentation for all Digital Earth Africa platforms
+      Technical documentation and user guides for Digital Earth Africa Platforms
 
       :doc:`More <platform_tools/index_platform>`
 
@@ -89,7 +89,7 @@ Direct Access
 
       :doc:`platform_tools/index_direct_access`
 
-       Available methods for accessing Digital Earth Africa Datasets
+      Documentation and user guides for accessing data outside Digital Earth Africa Platforms
 
       :doc:`More <platform_tools/index_direct_access>`
 

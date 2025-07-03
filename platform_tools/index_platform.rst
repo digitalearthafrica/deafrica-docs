@@ -1,7 +1,7 @@
 .. _platform_tools:
 
 ====================================
-Platforms
+Digital Earth Africa Platforms
 ====================================
 
 Digital Earth Africa offers a suite of platforms that enable users to access and interact with its datasets
