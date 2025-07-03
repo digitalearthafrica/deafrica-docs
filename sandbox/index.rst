@@ -174,4 +174,15 @@ Additional Guides
 
        :doc:`More <dask-howto/index>`
 
+    .. container:: product-item
+
+       .. image:: ../_static/platform_tools/googledrive_access/google-drive.png
+          :target: ../platform_tools/googledrive_access
+
+       :doc:`../platform_tools/googledrive_access`
+
+       Connecting Google Drive Folder to DE Africa Sandbox
+
+       :doc:`More <../platform_tools/googledrive_access>`
+
 
