@@ -191,6 +191,7 @@ Agriculture
    :maxdepth: 1
 
     WaPOR_specs
+    DIWASA_Blue_and_Green_ET_specs
 
 .. container:: product-list
 
@@ -203,6 +204,16 @@ Agriculture
         The Water Productivity through Open access of Remotely sensed derived data (WaPOR) monitors and reports on agricultural water productivity through biophysical measures with a focus on Africa and the Near East, produced by the FAO.
 
         :doc:`More <WaPOR_specs>`
+
+    .. container:: product-item
+
+        .. image:: ../_static/data_specs/DIWASA_Blue_Green_specs/DIWASA_thumbnail.png
+
+        :doc:`DIWASA_Blue_and_Green_ET_specs`
+
+        Blue ET measures water use from irrigation, while Green ET captures rainfall-driven evapotranspiration—both are key for sustainable water management.
+
+        :doc:`More <DIWASA_Blue_and_Green_ET_specs>`
 
 
 Elevation and topography
