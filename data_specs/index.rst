@@ -213,7 +213,7 @@ Agriculture
 
         The WorldCereal provides seasonal cropland and crop-type maps derived from high-resolution satellite observations, enabling consistent monitoring of agricultural land use and production.
 
-        :doc:`More <ESA_World_Cereal_specs>
+        :doc:`More <ESA_World_Cereal_specs>`
 
 
 
