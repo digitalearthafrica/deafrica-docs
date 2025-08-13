@@ -211,7 +211,7 @@ Agriculture
 
         :doc:`ESA_World_Cereal_specs`
 
-        The WorldCereal project provides global, seasonal cropland and crop-type maps derived from high-resolution satellite observations, enabling consistent monitoring of agricultural land use and production. It offers open-access datasets that support food security assessments and agricultural management worldwide.
+        The WorldCereal provides seasonal cropland and crop-type maps derived from high-resolution satellite observations, enabling consistent monitoring of agricultural land use and production.
 
         :doc:`More <ESA_World_Cereal_specs>
 
