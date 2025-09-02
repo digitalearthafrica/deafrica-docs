@@ -8,7 +8,7 @@ Digital Earth Africa User Guide
 
 The `Digital Earth Africa <https://www.digitalearthafrica.org/>`_ platform
 consists of a repository of Earth Observation data and a set of tools to
-view and analyse that data.
+view and analyse the data.
 
 .. toctree::
    :hidden:
@@ -29,14 +29,14 @@ Data
 
    .. container:: product-item
 
-      .. image:: _static/data_specs/S2_thumbnail.png
+      .. image:: _static/data_specs/Home_datacatogue.png
          :target: ./data_specs/
          :width: 400
          :align: left
 
       :doc:`data_specs/index`
 
-      Access up-to-date technical specifications of all Digital Earth Africa datasets
+      Technical specifications of all Digital Earth Africa datasets, products, and services
 
       :doc:`More <data_specs/index>`
    
@@ -49,157 +49,49 @@ Platforms
    :caption: Platforms
    :maxdepth: 1
 
-   maps/deafrica_map
-   maps/external_web_services
-   sandbox/index
-   platform_tools/explorer
-   maps/geoportal
-   platform_tools/web_services_gis
-   platform_tools/cube-in-a-box
-   platform_tools/direct_access
-   platform_tools/odc_stac
-   platform_tools/googledrive_access
-
+   platform_tools/index_platform
+    
 .. container:: platform-list
 
    .. container:: product-item
 
-      .. image:: _static/maps/Workbench.jpg
-         :target: ./maps/
-         :width: 400
-         :align: left
-
-      :doc:`maps/deafrica_map`
-
-      Our user friendly map-based access to DE Africa data and products
-
-      :doc:`More <maps/deafrica_map>`
-
-
-   .. container:: product-item
-
-      .. image:: _static/maps/nicfi_maps.jpg
-         :target: ./maps/external_web_services.html
-         :width: 400
-         :align: left
-
-      :doc:`maps/external_web_services`
-      
-      Intergrating external web services into the DE Africa platform.
-
-      :doc:`More <maps/external_web_services>`
-
-
-   .. container:: product-item
-
-      .. image:: _static/sandbox/sandbox_mini.png
-         :target: ./sandbox/
-         :width: 400
-         :align: left
-
-      :doc:`sandbox/index`
-
-      Our JupyterLab Analysis Platform for exploring the data with access to analysis tools
-
-      :doc:`More <sandbox/index>`
-
-
-   .. container:: product-item
-
-      .. image:: _static/platform_tools/explorer/metadata.png
-         :target: ./platform_tools/explorer.html
-         :width: 400
-         :align: left
-
-      :doc:`platform_tools/explorer`
-
-      The Metadata Explorer allows you to see where and when you can find data
-
-      :doc:`More <platform_tools/explorer>`
-
-
-   .. container:: product-item
-
-      .. image:: _static/maps/geoportal_logo.png
-         :target: ./maps/geoportal.html
-         :width: 400
-         :align: left
-
-      :doc:`maps/geoportal`
-
-      Imagery from DE Africa is available in Esri’s Africa GeoPortal, providing geospatial tools, data and training
-
-      :doc:`More <maps/geoportal>`
-      
-
-   .. container:: product-item
-
-      .. image:: _static/data_specs/ST_thumbnail.png
+      .. image:: _static/data_specs/Home_platform.png
          :target: ./platform_tools/
          :width: 400
          :align: left
 
-      :doc:`platform_tools/web_services_gis`
+      :doc:`platform_tools/index_platform`
 
-      Access to DE Africa data from QGIS or ArcGIS using Web Map Service and Web Coverage Service
+      Technical documentation and user guides for Digital Earth Africa Platforms
 
-      :doc:`More <platform_tools/web_services_gis>`
+      :doc:`More <platform_tools/index_platform>`
 
 
-   .. container:: product-item
 
-      .. image:: _static/platform_tools/cube_in_a_box/cube-in-a-box-thumbnail.png
-         :target: ./platform_tools/cube-in-a-box.html
-         :width: 400
-         :align: left
+Direct Access
+==============
 
-      :doc:`platform_tools/cube-in-a-box`
+.. toctree::
+   :hidden:
+   :caption: Direct Access
+   :maxdepth: 1
 
-      The Cube in a Box is a simple way to run the Open Data Cube.
-
-      :doc:`More <platform_tools/cube-in-a-box>`
-   
-   
-   .. container:: product-item
+   platform_tools/index_direct_access
     
-      .. image:: _static/data_specs/Landsat_thumbnail.png
-         :target: ./platform_tools/direct_access.html
-         :width: 400
-         :align: left
-            
-      :doc:`platform_tools/direct_access`
-        
-      Directly access the data and metadata from cloud data storage
-        
-      :doc:`More <platform_tools/direct_access>`
-      
+.. container:: platform-list
 
    .. container:: product-item
-    
-      .. image:: _static/platform_tools/odc_stac/odc_stac_thumbnail.png
-         :target: ./platform_tools/odc_stac.html
+
+      .. image:: _static/data_specs/Home_direct_access.png
+         :target: ./platform_tools/
          :width: 400
          :align: left
-            
-      :doc:`platform_tools/odc_stac`
-      
-      Load STAC compliant earth observation data as an `xarray.Dataset` from the python environment of your choice.
-        
-      :doc:`More <platform_tools/odc_stac>`
-      
-      
-   .. container:: product-item
-    
-      .. image:: _static/platform_tools/googledrive_access/google-drive.png
-         :target: ./platform_tools/googledrive_access.html
-         :width: 400
-         :align: left
-            
-      :doc:`platform_tools/googledrive_access`
-      
-      Connecting Google Drive Folder to DE Africa Sandbox
-        
-      :doc:`More <platform_tools/googledrive_access>`
+
+      :doc:`platform_tools/index_direct_access`
+
+      Documentation and user guides for accessing data outside Digital Earth Africa Platforms
+
+      :doc:`More <platform_tools/index_direct_access>`
 
 
 .. toctree::
