@@ -36,16 +36,16 @@ Cloud Computing Platform
       :doc:`More <cloud_platform>`
 
 
-Python Packages
+Local Environment
 ^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :hidden:
-   :caption: Python Packages
+   :caption: Local Environment
    :maxdepth: 1
 
 
-   python_package
+   local_environment
 
 
 .. container:: platform-list
@@ -57,11 +57,11 @@ Python Packages
          :width: 400
          :align: left
 
-      :doc:`python_package`
+      :doc:`local_environment`
 
-      Connecting to Python Packages Using DE Africa Direct Access
+      Connecting to Local Environment Using DE Africa Direct Access
 
-      :doc:`More <python_package>`
+      :doc:`More <local_environment>`
 
 
 If you have any feedback for the DE Africa data and services, please contact us at 
