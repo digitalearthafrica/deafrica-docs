@@ -1,4 +1,4 @@
-.. _direct_access:
+.. _index_direct_access:
 
 ======================================================================
 Digital Earth Africa: Direct Access to Datasets on External Platforms 
