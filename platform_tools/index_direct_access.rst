@@ -22,8 +22,8 @@ Direct Access to Data
 
    .. container:: product-item
     
-      .. image:: ../_static/data_specs/Landsat_thumbnail.png
-         :target: direct_access
+      .. image:: ../_static/platform_tools/direct_access/direct_access_main_page.png
+         :target: ../direct_access/index.rst
          :width: 400
          :align: left
             
