@@ -15,7 +15,7 @@ Direct Access to Data
    :caption: Direct Access to Data
    :maxdepth: 1
 
-   direct_access
+   index_access
 
 
 .. container:: platform-list
@@ -23,15 +23,15 @@ Direct Access to Data
    .. container:: product-item
     
       .. image:: ../_static/platform_tools/direct_access/direct_access_main_page.png
-         :target: ../direct_access/index.rst
+         :target: index_access
          :width: 400
          :align: left
             
-      :doc:`direct_access`
+      :doc:`index_access`
         
       Directly access the data and metadata from cloud data storage
         
-      :doc:`More <direct_access>`
+      :doc:`More <index_access>`
 
 
 odc-stac
