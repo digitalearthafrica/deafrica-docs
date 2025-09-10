@@ -10,12 +10,12 @@ Digital Earth Africa enables users to directly access its datasets through integ
 Below are some of the methods available for accessing the data through other platforms:
 
 
-Google Colab 
-^^^^^^^^^^^^
+Cloud Computing Platform
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :hidden:
-   :caption: Google Colab
+   :caption: Cloud Computing Platform
    :maxdepth: 1
 
     google_colab
@@ -24,16 +24,16 @@ Google Colab
 
    .. container:: product-item
 
-      .. image:: ../_static/platform_tools/direct_access/direct_access_google.png
-         :target: google_colab
+      .. image:: ../_static/platform_tools/direct_access/direct_access_env.png
+         :target: cloud_platform
          :width: 400
          :align: left
 
-      :doc:`google_colab`
+      :doc:`cloud_platform`
 
-      Connecting to Google Colab Using DE Africa Direct Access.
+      Connecting to Cloud Computing Platforms with DE Africa Direct Access.
 
-      :doc:`More <google_colab>`
+      :doc:`More <cloud_platform>`
 
 
 Python Packages
