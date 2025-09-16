@@ -5,7 +5,7 @@ Digital Earth Africa: Direct Access to Datasets on External Platforms
 ======================================================================
 
 
-Digital Earth Africa enables users to directly access its datasets through integration with other platforms. With Direct Data Access, users can connect to DE Africa data computing environments via Google Colab, AWS, or even their local machines. This makes it possible to build custom workflows, link datasets into web applications, and use them seamlessly outside the DE Africa Sandbox environment.
+Digital Earth Africa enables users to directly access its datasets through integration with other platforms. With Direct Access, users can access DE Africa datasets from their own environments such Google Colab, AWS, or even their local machines. This makes it possible to build custom workflows, link datasets into web applications, and use them seamlessly outside the DE Africa Sandbox environment.
 
 Below are some of the methods available for accessing the data through other platforms:
 
