@@ -357,6 +357,7 @@ Satellite images
     Landsat_C2_ST_specs
     Sentinel-1_specs
     Sentinel-2_Level-2A_specs
+    Sentinel-3_OLCI_L2_LAND_specs
    
 .. container:: product-list
 
@@ -400,6 +401,16 @@ Satellite images
        Daily satellite images from Sentinel-2.
 
        :doc:`More <Sentinel-2_Level-2A_specs>`
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/Sentinel-3_OLCI_L2_LAND_specs/S3_LAND_thumbnail.png
+
+       :doc:`Sentinel-3_OLCI_L2_LAND_specs`
+
+       Daily satellite images from Sentinel-2.
+
+       :doc:`More <Sentinel-3_OLCI_L2_LAND_specs>`
 
 
 Satellite Image Mosaic
