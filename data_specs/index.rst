@@ -408,7 +408,7 @@ Satellite images
 
        :doc:`Sentinel-3_OLCI_L2_LAND_specs`
 
-       Daily satellite images from Sentinel-2.
+       Sentinel-3 monitors land with 300 m vegetation condition products.
 
        :doc:`More <Sentinel-3_OLCI_L2_LAND_specs>`
 
