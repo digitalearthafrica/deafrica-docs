@@ -191,6 +191,7 @@ Agriculture
    :maxdepth: 1
 
     WaPOR_specs
+    ESA_World_Cereal_specs
 
 .. container:: product-list
 
@@ -203,6 +204,17 @@ Agriculture
         The Water Productivity through Open access of Remotely sensed derived data (WaPOR) monitors and reports on agricultural water productivity through biophysical measures with a focus on Africa and the Near East, produced by the FAO.
 
         :doc:`More <WaPOR_specs>`
+
+    .. container:: product-item
+
+        .. image:: ../_static/data_specs/WorldCereal_thumbnail.png
+
+        :doc:`ESA_World_Cereal_specs`
+
+        The WorldCereal provides seasonal cropland and crop-type maps derived from high-resolution satellite observations, enabling consistent monitoring of agricultural land use and production.
+
+        :doc:`More <ESA_World_Cereal_specs>`
+
 
 
 Elevation and topography
