@@ -48,7 +48,7 @@ on your user experience to Helpdesk@digitalearthafrica.org.
 
 **Do No Harm Clause**
 
-1.By accessing or using the Digital Earth Africa Sandbox, you agree to use all data, tools, and services in a lawful, responsible, and ethical manner. 
+1. By accessing or using the Digital Earth Africa Sandbox, you agree to use all data, tools, and services in a lawful, responsible, and ethical manner. 
 
 2. Users must not engage in any activity that may cause harm to people, communities, environments, or institutions.
 
