@@ -56,10 +56,14 @@ on your user experience to Helpdesk@digitalearthafrica.org.
 
     - Exploit natural resources in ways that may lead to environmental degradation, unsustainable extraction, or ecological harm.
 
+
     - Support or enable activities that are unethical, unlawful, or that negatively impact communities, ecosystems, or public welfare.
+
 
     - Facilitate surveillance, discrimination, or any action that could infringe on human rights.
 
+
     - Misrepresent, distort, or manipulate data for deceptive or harmful purposes.
 
-    - Digital Earth Africa reserves the right to restrict or terminate access to any user found to be engaging in harmful or unethical practices.
+
+    - *Digital Earth Africa reserves the right to restrict or terminate access to any user found to be engaging in harmful or unethical practices.*
