@@ -45,3 +45,21 @@ on your user experience to Helpdesk@digitalearthafrica.org.
 7. We reserve the right to remove your files at any time without warning. If you need files hosted in the Sandbox you should download or export them regularly. 
 
 8. We reserve the right to restrict or close accounts at our own discretion.
+
+**Do No Harm Clause**
+
+1.By accessing or using the Digital Earth Africa Sandbox, you agree to use all data, tools, and services in a lawful, responsible, and ethical manner. 
+
+2. Users must not engage in any activity that may cause harm to people, communities, environments, or institutions.
+
+3. You expressly agree not to use the Sandbox or any data derived from it to:
+
+    - Exploit natural resources in ways that may lead to environmental degradation, unsustainable extraction, or ecological harm.
+
+    - Support or enable activities that are unethical, unlawful, or that negatively impact communities, ecosystems, or public welfare.
+
+    - Facilitate surveillance, discrimination, or any action that could infringe on human rights.
+
+    - Misrepresent, distort, or manipulate data for deceptive or harmful purposes.
+
+    - Digital Earth Africa reserves the right to restrict or terminate access to any user found to be engaging in harmful or unethical practices.
