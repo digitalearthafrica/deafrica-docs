@@ -26,7 +26,7 @@ on your user experience to Helpdesk@digitalearthafrica.org.
 
 4. Your personal data, including your files, email address and identity will not be shared with anyone without your consent. 
 
-5. If you are experiencing an issue with the Sandbox that is not identified on the status page, please submit this issue to helpdesk@digitalearthafrica.org.
+5. If you are experiencing an issue with the Sandbox, please submit this issue to helpdesk@digitalearthafrica.org.
   
 **Responsibilities**
 
