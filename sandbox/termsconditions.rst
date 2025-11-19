@@ -20,13 +20,13 @@ on your user experience to Helpdesk@digitalearthafrica.org.
 
 1. You have the right to export your files from the Sandbox at any time. 
 
-2. You can close your account at any time by emailing the DE Africa team (Helpdesk@digitalearthafrica.org). 
+2. You can close your account at any time by emailing the DE Africa team (helpdesk@digitalearthafrica.org). 
 
 3. Your files will not be intentionally shown to other users or shared with third parties. 
 
 4. Your personal data, including your files, email address and identity will not be shared with anyone without your consent. 
 
-5. You can view the current system status on the website `status.digitalearth.africa <https://status.digitalearth.africa/>`_.  If you are experiencing an issue with the Sandbox that is not identified on the status page, please submit this issue to Helpdesk@digitalearthafrica.org.
+5. If you are experiencing an issue with the Sandbox that is not identified on the status page, please submit this issue to helpdesk@digitalearthafrica.org.
   
 **Responsibilities**
 
