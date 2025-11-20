@@ -20,13 +20,13 @@ on your user experience to Helpdesk@digitalearthafrica.org.
 
 1. You have the right to export your files from the Sandbox at any time. 
 
-2. You can close your account at any time by emailing the DE Africa team (Helpdesk@digitalearthafrica.org). 
+2. You can close your account at any time by emailing the DE Africa team (helpdesk@digitalearthafrica.org). 
 
 3. Your files will not be intentionally shown to other users or shared with third parties. 
 
 4. Your personal data, including your files, email address and identity will not be shared with anyone without your consent. 
 
-5. You can view the current system status on the website `status.digitalearth.africa <https://status.digitalearth.africa/>`_.  If you are experiencing an issue with the Sandbox that is not identified on the status page, please submit this issue to Helpdesk@digitalearthafrica.org.
+5. If you are experiencing an issue with the Sandbox, please submit this issue to helpdesk@digitalearthafrica.org.
   
 **Responsibilities**
 
@@ -45,3 +45,25 @@ on your user experience to Helpdesk@digitalearthafrica.org.
 7. We reserve the right to remove your files at any time without warning. If you need files hosted in the Sandbox you should download or export them regularly. 
 
 8. We reserve the right to restrict or close accounts at our own discretion.
+
+**Do No Harm Clause**
+
+1. By accessing or using the Digital Earth Africa Sandbox, you agree to use all data, tools, and services in a lawful, responsible, and ethical manner. 
+
+2. Users must not engage in any activity that may cause harm to people, communities, environments, or institutions.
+
+3. You expressly agree not to use the Sandbox or any data derived from it to:
+
+    - Exploit natural resources in ways that may lead to environmental degradation, unsustainable extraction, or ecological harm.
+
+
+    - Support or enable activities that are unethical, unlawful, or that negatively impact communities, ecosystems, or public welfare.
+
+
+    - Facilitate surveillance, discrimination, or any action that could infringe on human rights.
+
+
+    - Misrepresent, distort, or manipulate data for deceptive or harmful purposes.
+
+
+    - *Digital Earth Africa reserves the right to restrict or terminate access to any user found to be engaging in harmful or unethical practices.*
