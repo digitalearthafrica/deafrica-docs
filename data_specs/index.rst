@@ -98,6 +98,7 @@ Surface water
 
    Landsat_WOfS_specs
    Waterbodies_specs
+   Water_Quality_specs
 
 .. container:: product-list
 
@@ -121,6 +122,15 @@ Surface water
 
        :doc:`More <Waterbodies_specs>`
 
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/Water_quality_thumbnail.png
+
+       :doc:`Water_Quality_specs`
+
+       Annual water quality maps for African water bodies from 2000. 
+
+       :doc:`More <Water_Quality_specs>`
 
 
 Vegetation
