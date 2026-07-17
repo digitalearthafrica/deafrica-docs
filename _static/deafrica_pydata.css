@@ -536,3 +536,113 @@ html[data-theme="auto"] .bd-header button {
     box-shadow: inset 0 -3px 0 #f97316 !important;
     font-weight: 800 !important;
 }
+
+/* ==========================================================
+   Fix homepage card text and image sizing
+   ========================================================== */
+
+/* Keep card text readable in both light and dark modes */
+.de-home-card,
+.de-home-intro-card,
+.de-home-card .sd-card-body,
+.de-home-card .sd-card-footer,
+.de-home-intro-card .sd-card-body {
+    color: #0d2347 !important;
+    background: #ffffff !important;
+}
+
+.de-home-card .sd-card-title,
+.de-home-intro-card .sd-card-title {
+    color: #0d2347 !important;
+    font-weight: 800;
+}
+
+.de-home-card p,
+.de-home-intro-card p {
+    color: #334155 !important;
+}
+
+.de-home-card .sd-card-footer {
+    color: #0b55a0 !important;
+    background: #ffffff !important;
+    border-top: 1px solid #d8e0ea;
+}
+
+.de-home-card .sd-card-footer a {
+    color: #0b55a0 !important;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+/* Intro card */
+.de-home-intro-card {
+    color: #0d2347 !important;
+    background: linear-gradient(
+        90deg,
+        #eff6ff 0%,
+        #ffffff 72%
+    ) !important;
+    border: 1px solid #cfe4ff;
+    border-left: 6px solid #0b55a0;
+}
+
+.de-home-intro-card .sd-card-header {
+    color: #0d2347 !important;
+    background: transparent !important;
+    border-bottom: 0;
+}
+
+/* Make card images fill the available image area */
+.de-home-card .sd-card-img-top {
+    display: block;
+    width: 100%;
+    height: 240px;
+    padding: 0;
+    object-fit: cover;
+    object-position: center;
+    background: #f1f5f9;
+}
+
+/* Keep card heights balanced */
+.de-home-card {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.de-home-card .sd-card-body {
+    flex: 1;
+    padding: 1.25rem;
+}
+
+.de-home-card .sd-card-footer {
+    padding: 0.85rem 1.25rem;
+}
+
+/* Dark-mode protection */
+html[data-theme="dark"] .de-home-card,
+html[data-theme="dark"] .de-home-card .sd-card-body,
+html[data-theme="dark"] .de-home-card .sd-card-footer {
+    color: #e5edf7 !important;
+    background: #172033 !important;
+}
+
+html[data-theme="dark"] .de-home-card .sd-card-title,
+html[data-theme="dark"] .de-home-card p {
+    color: #e5edf7 !important;
+}
+
+html[data-theme="dark"] .de-home-card .sd-card-footer a {
+    color: #66b3ff !important;
+}
+
+html[data-theme="dark"] .de-home-intro-card {
+    color: #e5edf7 !important;
+    background: #172033 !important;
+}
+
+html[data-theme="dark"] .de-home-intro-card .sd-card-title,
+html[data-theme="dark"] .de-home-intro-card p {
+    color: #e5edf7 !important;
+}
