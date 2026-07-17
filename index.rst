@@ -11,9 +11,8 @@ analysing, and applying satellite information across Africa.
 
 .. toctree::
    :hidden:
-   :maxdepth: 2
+   :maxdepth: 3
 
-   Home <self>
    Data <data_specs/index>
    Platforms <platform_tools/index_platform>
    Direct Access <platform_tools/index_direct_access>
@@ -94,6 +93,7 @@ Getting Started
 New to Digital Earth Africa? Begin with the platform documentation, explore
 available data products, or check the current service status before starting
 an analysis.
+
 
 .. grid:: 1 1 3 3
    :gutter: 2
