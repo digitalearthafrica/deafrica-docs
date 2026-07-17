@@ -209,7 +209,7 @@ html_show_sourcelink = False
 
 html_js_files = [
     "external-links.js", 
-    "active-navbar.js", 
+    ("active-navbar.js", {"defer": "defer"}),
 ]
 
 # Canonical URL
