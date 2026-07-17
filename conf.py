@@ -164,6 +164,15 @@ html_theme_options = {
         "image_light": "_static/logo.png",
         "image_dark": "_static/logo.png",
     },
+
+        "secondary_sidebar_items": [
+        "page-toc",
+    ],
+
+    "show_toc_level": 2,
+    "navigation_depth": 4,
+    "show_nav_level": 1,
+    "collapse_navigation": False,
 }
 
 html_sidebars = {
@@ -171,6 +180,8 @@ html_sidebars = {
         "sidebar-collapse",
         "sidebar-nav-bs",
     ],
+
+    
 }
 
 html_static_path = ["_static"]
