@@ -12,9 +12,9 @@ Service Status and Tech Alerts
 Overview
 --------
 
-This page provides a single source of truth for Digital Earth Africa service
-disruptions, planned maintenance, resolved incidents, data-pipeline notices,
-and software or package updates.
+Tech Alerts help users understand changes that may affect data availability,
+platforms, notebooks, APIs, and analytical tools. They allow users to plan
+their work and avoid unexpected interruptions.
 
 .. container:: status-summary status-operational
 
@@ -65,12 +65,6 @@ Software and Package Updates
    Software, Python package, and Analysis Sandbox environment updates will be
    published here.
 
-Why We Publish Tech Alerts
---------------------------
-
-Tech Alerts help users understand changes that may affect data availability,
-platforms, notebooks, APIs, and analytical tools. They allow users to plan
-their work and avoid unexpected interruptions.
 
 Support
 -------
