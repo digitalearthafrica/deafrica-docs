@@ -235,3 +235,27 @@
   color: var(--de-orange, #ff7900);
   text-decoration: underline;
 }
+
+/* White header like the reference design */
+
+html[data-theme="light"] .bd-header,
+html[data-theme="auto"] .bd-header {
+  background: #ffffff !important;
+  border-bottom: 1px solid #d8e0ea;
+  box-shadow: 0 2px 10px rgba(15, 35, 70, 0.05);
+}
+
+html[data-theme="light"] .bd-header .navbar-nav > .nav-item > .nav-link,
+html[data-theme="auto"] .bd-header .navbar-nav > .nav-item > .nav-link {
+  color: #0d2347 !important;
+}
+
+html[data-theme="light"] .navbar-brand,
+html[data-theme="auto"] .navbar-brand {
+  color: #0d2347 !important;
+}
+
+html[data-theme="light"] .bd-header button,
+html[data-theme="auto"] .bd-header button {
+  color: #0d2347;
+}

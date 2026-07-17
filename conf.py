@@ -165,7 +165,10 @@ html_theme_options = {
 }
 
 html_sidebars = {
-    "**": ["sidebar-nav-bs"],
+    "**": [
+        "sidebar-collapse",
+        "sidebar-nav-bs",
+    ],
 }
 
 html_static_path = ["_static"]
