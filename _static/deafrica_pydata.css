@@ -642,3 +642,46 @@ html[data-theme="auto"] .bd-header button {
     border-left-color: #f97316 !important;
     font-weight: 800;
 }
+
+/* ==========================================================
+   Highlight active top navigation item
+   ========================================================== */
+
+.bd-header .navbar-nav > li > a,
+.bd-header .navbar-nav > .nav-item > .nav-link {
+    padding: 0.75rem 0.9rem;
+    color: #0d2347 !important;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+/* Hover */
+.bd-header .navbar-nav > li > a:hover,
+.bd-header .navbar-nav > .nav-item > .nav-link:hover {
+    color: #ea580c !important;
+    background-color: #fff7ed !important;
+    border-color: #fed7aa !important;
+}
+
+/* Active/current top-level page */
+.bd-header .navbar-nav > li.current > a,
+.bd-header .navbar-nav > li.active > a,
+.bd-header .navbar-nav > li > a.current,
+.bd-header .navbar-nav > li > a.active,
+.bd-header .navbar-nav > li > a[aria-current="page"],
+.bd-header .navbar-nav > .nav-item.current > .nav-link,
+.bd-header .navbar-nav > .nav-item.active > .nav-link,
+.bd-header .navbar-nav > .nav-item > .nav-link.current,
+.bd-header .navbar-nav > .nav-item > .nav-link.active,
+.bd-header .navbar-nav > .nav-item > .nav-link[aria-current="page"] {
+    color: #ea580c !important;
+    background-color: #fff1e8 !important;
+    border-color: #fb923c !important;
+    box-shadow: inset 0 -3px 0 #f97316 !important;
+    font-weight: 800 !important;
+}
+
+.bd-header .navbar-nav > .nav-item > .nav-link {
+    color: #0d2347 !important;
+}

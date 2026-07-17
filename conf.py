@@ -208,7 +208,8 @@ html_use_index = True
 html_show_sourcelink = False
 
 html_js_files = [
-    "js/external-links.js",
+    "js/external-links.js", 
+    "js/active-navbar.js", 
 ]
 
 # Canonical URL
