@@ -1,28 +1,44 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const currentPath = window.location.pathname.replace(/\/index\.html$/, "/");
-    const links = document.querySelectorAll(
-        ".bd-header .navbar-nav a.nav-link, " +
-        ".bd-header .navbar-nav li > a"
+document.addEventListener("DOMContentLoaded", () => {
+    const normalisePath = (value) => {
+        let path = new URL(value, window.location.origin).pathname;
+
+        // Treat /index.html and a trailing slash as the same page.
+        path = path.replace(/\/index\.html$/, "/");
+
+        // Ensure directory-style paths end with one slash.
+        if (!path.endsWith("/") && !path.split("/").pop().includes(".")) {
+            path += "/";
+        }
+
+        return path;
+    };
+
+    const currentPath = normalisePath(window.location.href);
+
+    const navbarLinks = document.querySelectorAll(
+        ".bd-header .navbar-nav a"
     );
 
-    links.forEach(function (link) {
-        const linkPath = new URL(link.href, window.location.origin)
-            .pathname
-            .replace(/\/index\.html$/, "/");
+    navbarLinks.forEach((link) => {
+        const linkPath = normalisePath(link.href);
 
-        const isHomepage =
-            currentPath.endsWith("/") &&
-            (link.textContent.trim().toLowerCase() === "home");
+        // Clear any incorrect active states first.
+        link.classList.remove("active", "current");
+        link.removeAttribute("aria-current");
 
-        const isCurrentPage = currentPath === linkPath;
+        const parent = link.closest("li");
 
-        if (isHomepage || isCurrentPage) {
-            link.classList.add("active");
+        if (parent) {
+            parent.classList.remove("active", "current");
+        }
+
+        // Mark the exact matching navbar link as active.
+        if (linkPath === currentPath) {
+            link.classList.add("active", "current");
             link.setAttribute("aria-current", "page");
 
-            const parent = link.closest("li");
             if (parent) {
-                parent.classList.add("current", "active");
+                parent.classList.add("active", "current");
             }
         }
     });
