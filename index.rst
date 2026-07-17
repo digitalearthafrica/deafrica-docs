@@ -37,19 +37,6 @@ About This Documentation
    analytical tools, technical services, and operational systems.
 
 
-Explore Digital Earth Africa
-----------------------------
-
-.. card:: Digital Earth Africa Documentation
-   :class-card: de-alert-card de-home-intro-card
-   :class-header: de-alert-header
-
-   This documentation provides technical guidance for using Digital Earth
-   Africa datasets, platforms, direct-access services, notebooks, and
-   analytical tools.
-
-   Select one of the documentation areas below to begin.
-
 
 Documentation Sections
 ----------------------
@@ -112,52 +99,3 @@ Documentation Sections
       +++
 
       **View Current Status →**
-
-
-Quick Access
-------------
-
-.. grid:: 1 1 3 3
-   :gutter: 3
-   :class-container: de-quick-links-grid
-
-   .. grid-item-card:: Browse Data
-      :link: data_specs/index
-      :link-type: doc
-      :class-card: de-info-card de-maintenance-card
-
-      :octicon:`database;2em;sd-text-primary`
-
-      Find available datasets and product specifications.
-
-      +++
-
-      **Browse data →**
-
-
-   .. grid-item-card:: Use the Platforms
-      :link: platform_tools/index_platform
-      :link-type: doc
-      :class-card: de-info-card de-resolved-card
-
-      :octicon:`browser;2em;sd-text-success`
-
-      Access platform documentation and user guidance.
-
-      +++
-
-      **Explore platforms →**
-
-
-   .. grid-item-card:: Check Service Status
-      :link: service_status/index
-      :link-type: doc
-      :class-card: de-info-card de-software-card
-
-      :octicon:`alert;2em;sd-text-warning`
-
-      Check active alerts and planned maintenance.
-
-      +++
-
-      **Check status →**
