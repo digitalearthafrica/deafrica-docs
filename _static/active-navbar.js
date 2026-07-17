@@ -10,6 +10,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const pageName =
         window.DOCUMENTATION_OPTIONS?.pagename || "";
 
+    const currentPath = window.location.pathname;
+
+    const isHomePage =
+        pageName === "index" ||
+        pageName === "homepage" ||
+        currentPath.endsWith("/") ||
+        currentPath.endsWith("/index.html");
+
     navbarLinks.forEach(function (link) {
         const label = link.textContent.trim().toLowerCase();
         const parent = link.closest("li");
@@ -23,12 +31,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         let shouldActivate = false;
 
-        // Homepage
-        if (pageName === "index" && label === "home") {
+        /* Homepage */
+        if (isHomePage && label === "home") {
             shouldActivate = true;
         }
 
-        // Data section
+        /* Data section */
         if (
             pageName.startsWith("data_specs/") &&
             label === "data"
@@ -36,15 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
             shouldActivate = true;
         }
 
-        // Platforms section
-        if (
-            pageName.startsWith("platform_tools/") &&
-            label === "platforms"
-        ) {
-            shouldActivate = true;
-        }
-
-        // Direct Access section
+        /* Direct Access must be checked before Platforms */
         if (
             pageName.startsWith("platform_tools/") &&
             pageName.includes("direct_access") &&
@@ -53,7 +53,16 @@ document.addEventListener("DOMContentLoaded", function () {
             shouldActivate = true;
         }
 
-        // Service Status section
+        /* Platforms section */
+        if (
+            pageName.startsWith("platform_tools/") &&
+            !pageName.includes("direct_access") &&
+            label === "platforms"
+        ) {
+            shouldActivate = true;
+        }
+
+        /* Service Status section */
         if (
             pageName.startsWith("service_status/") &&
             label === "service status"
@@ -61,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
             shouldActivate = true;
         }
 
-        // About section
+        /* About section */
         if (
             pageName.startsWith("about/") &&
             label === "about"
