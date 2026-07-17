@@ -109,47 +109,41 @@ exclude_patterns = [
 
 # -- Options for HTML output -------------------------------------------------
 
+# -- Options for HTML output -------------------------------------------------
+
 html_theme = "pydata_sphinx_theme"
 
 html_theme_options = {
-    # Header layout
     "navbar_start": ["navbar-logo"],
     "navbar_center": ["navbar-nav"],
     "navbar_persistent": ["search-button-field"],
     "navbar_end": ["theme-switcher", "navbar-icon-links"],
     "navbar_align": "left",
 
-    # Sidebars and navigation
     "secondary_sidebar_items": ["page-toc"],
     "navigation_depth": 4,
     "show_nav_level": 1,
     "collapse_navigation": False,
     "show_toc_level": 2,
 
-    # Page controls
     "back_to_top_button": True,
     "search_bar_text": "Search the docs",
     "show_prev_next": False,
 
-    # Service announcement
     "announcement": """
     <div class="de-announcement">
       <span class="de-announcement-icon" aria-hidden="true">!</span>
-
       <strong>SERVICE NOTICE:</strong>
-
       <span>
         Sentinel-1, Sentinel-3, and Sentinel-5P data supply is
         temporarily affected.
       </span>
-
-      <a href="https://docs.digitalearthafrica.org/en/latest/service_status/">
+      <a href="/en/latest/service_status/">
         View Tech Alert →
       </a>
     </div>
     """,
 
-    # Header icons
     "icon_links": [
         {
             "name": "GitHub",
@@ -159,25 +153,18 @@ html_theme_options = {
         },
     ],
 
-    # Logo for light and dark modes
     "logo": {
         "text": "",
+        "alt_text": "Digital Earth Africa documentation",
         "image_light": "_static/logo.png",
         "image_dark": "_static/logo.png",
     },
-
-    # Footer
-    "footer_start": ["copyright"],
-    "footer_center": [],
-    "footer_end": ["sphinx-version", "theme-version"],
 }
 
-# Use the PyData left navigation sidebar.
 html_sidebars = {
     "**": ["sidebar-nav-bs"],
 }
 
-# Static files
 html_static_path = ["_static"]
 
 html_logo = "_static/logo.png"
@@ -217,20 +204,20 @@ on_gha = os.environ.get("GITHUB_ACTIONS", "") == "True"
 get_translation = os.environ.get("POEDITOR_PROJECT_ID") is not None
 
 # Download translations only when required.
-if on_rtd or get_translation:
-    subprocess.run(
-        ["make", "fetchtranslation"],
-        check=False,
-    )
+# if on_rtd or get_translation:
+#     subprocess.run(
+#         ["make", "fetchtranslation"],
+#         check=False,
+#     )
 
-# Download notebooks and build tools only in RTD or GitHub Actions.
-if on_rtd or on_gha:
-    subprocess.run(
-        ["make", "fetchnotebooks"],
-        check=False,
-    )
+# # Download notebooks and build tools only in RTD or GitHub Actions.
+# if on_rtd or on_gha:
+#     subprocess.run(
+#         ["make", "fetchnotebooks"],
+#         check=False,
+#     )
 
-    subprocess.run(
-        ["make", "buildtools"],
-        check=False,
-    )
+#     subprocess.run(
+#         ["make", "buildtools"],
+#         check=False,
+#     )
