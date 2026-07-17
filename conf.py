@@ -159,6 +159,9 @@ html_theme_options = {
         "image_light": "_static/logo.png",
         "image_dark": "_static/logo.png",
     },
+        "article_header_end": [
+        "language-switcher",
+    ],
 }
 
 html_sidebars = {
@@ -177,6 +180,10 @@ html_css_files = [
 
 html_use_index = True
 html_show_sourcelink = False
+
+html_js_files = [
+    "js/external-links.js",
+]
 
 # Canonical URL
 html_baseurl = os.environ.get(

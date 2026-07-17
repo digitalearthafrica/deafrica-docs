@@ -214,3 +214,24 @@
     border-radius: 0;
   }
 }
+
+/* Language selector */
+
+.lang-picker {
+  width: 100%;
+  margin-bottom: 0.65rem;
+  color: var(--de-muted, #64748b);
+  font-size: 0.82rem;
+  text-align: right;
+}
+
+.lang-picker a {
+  color: var(--de-blue, #0b55a0);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.lang-picker a:hover {
+  color: var(--de-orange, #ff7900);
+  text-decoration: underline;
+}
