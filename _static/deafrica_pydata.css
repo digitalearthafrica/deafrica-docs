@@ -549,3 +549,96 @@ html[data-theme="auto"] .bd-header button {
     max-width: 100%;
     height: auto;
 }
+
+/* ==========================================================
+   Active top navigation
+   ========================================================== */
+
+.bd-header .navbar-nav > .nav-item > .nav-link {
+    position: relative;
+    color: #0d2347 !important;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+/* Hover state */
+.bd-header .navbar-nav > .nav-item > .nav-link:hover {
+    color: #ea580c !important;
+    background: #fff7ed;
+    border-color: #fdba74;
+}
+
+/* Active top-level section */
+.bd-header .navbar-nav > .nav-item.current > .nav-link,
+.bd-header .navbar-nav > .nav-item.active > .nav-link,
+.bd-header .navbar-nav > .nav-item > .nav-link.active,
+.bd-header .navbar-nav > .nav-item > .nav-link[aria-current="page"] {
+    color: #ea580c !important;
+    background: #fff1e8 !important;
+    border-color: #fb923c !important;
+    box-shadow: inset 0 -3px 0 #f97316;
+    font-weight: 800;
+}
+
+
+/* ==========================================================
+   Active left sidebar navigation
+   ========================================================== */
+
+.bd-sidebar-primary .nav-link,
+.bd-sidebar-primary .reference.internal {
+    display: block;
+    padding: 0.5rem 0.7rem;
+    color: #475569;
+    border-left: 4px solid transparent;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* Hover state */
+.bd-sidebar-primary .nav-link:hover,
+.bd-sidebar-primary .reference.internal:hover {
+    color: #0b55a0;
+    background: #f1f5f9;
+}
+
+/* Current page */
+.bd-sidebar-primary .nav-link.active,
+.bd-sidebar-primary .reference.internal.current,
+.bd-sidebar-primary a[aria-current="page"] {
+    color: #ea580c !important;
+    background: #fff1e8 !important;
+    border-left-color: #f97316 !important;
+    font-weight: 800;
+}
+
+/* Current parent section */
+.bd-sidebar-primary li.current > a,
+.bd-sidebar-primary li.active > a,
+.bd-sidebar-primary li.toctree-l1.current > a,
+.bd-sidebar-primary li.toctree-l2.current > a {
+    color: #ea580c !important;
+    background: #fff7ed;
+    border-left-color: #fb923c;
+    font-weight: 700;
+}
+
+/* Keep nested links readable */
+.bd-sidebar-primary li.current ul a:not(.current),
+.bd-sidebar-primary li.active ul a:not(.active) {
+    color: #475569;
+    background: transparent;
+    border-left-color: transparent;
+    font-weight: 500;
+}
+
+/* Highlight nested active child */
+.bd-sidebar-primary li.current ul a.current,
+.bd-sidebar-primary li.active ul a.active,
+.bd-sidebar-primary li.current ul a[aria-current="page"] {
+    color: #ea580c !important;
+    background: #fff1e8 !important;
+    border-left-color: #f97316 !important;
+    font-weight: 800;
+}
