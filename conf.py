@@ -138,9 +138,6 @@ if os.environ.get("READTHEDOCS", "") == "True":
 # # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-def setup(app):
-    app.add_css_file("service_status.css")
-
 html_logo = '_static/logo.png'
 
 html_favicon = '_static/favicon.png'
@@ -151,7 +148,10 @@ html_use_index = True
 html_show_sourcelink = False
 
 # # # Use table-wrapping style
-html_css_files = ['theme_override.css',]  # override wide tables in RTD theme
+html_css_files = ['theme_override.css', 'css/service_status_rtd.css']  # override wide tables in RTD theme
+
+def setup(app):
+    app.add_css_file("service_status_rtd.css")
 
 # Translation options
 gettext_compact = "docs"  # makes a single "docs.po" file

@@ -1,3 +1,10 @@
+.. toctree::
+   :hidden:
+   :caption: Service Status
+   :maxdepth: 1
+
+   service_status/index
+
 Service Status and Tech Alerts
 ==============================
 
