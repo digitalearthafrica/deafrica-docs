@@ -6,6 +6,8 @@ Digital Earth Africa User Guide
 Access Digital Earth Africa data, platforms, analytical tools, technical
 documentation, and service information.
 
+.. meta::
+   :page-id: home
 
 .. Main navigation used by the PyData Sphinx Theme.
 
