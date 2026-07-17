@@ -518,3 +518,34 @@ html[data-theme="auto"] .bd-header button {
     border-left: 4px solid #f97316;
     font-weight: 700;
 }
+
+/* Read the Docs advert below the page content */
+
+.de-footer-ad {
+    width: 100%;
+    margin: 1.25rem auto 0;
+    padding: 1rem;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #d8e0ea;
+    border-radius: 10px;
+}
+
+.de-footer-ad #ethical-ad-placement {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.de-footer-ad .ethical-content,
+.de-footer-ad .ethical-sidebar {
+    width: 100% !important;
+    max-width: 760px !important;
+    margin: 0 auto !important;
+    box-shadow: none !important;
+}
+
+.de-footer-ad img {
+    max-width: 100%;
+    height: auto;
+}

@@ -131,6 +131,11 @@ html_theme_options = {
     "secondary_sidebar_items": [
         "page-toc",
     ],
+    
+      "content_footer_items": [
+        "footer-ad",
+    ],
+    
     "show_toc_level": 2,
 
     "back_to_top_button": True,
