@@ -6,6 +6,9 @@ Digital Earth Africa User Guide
 Access Digital Earth Africa data, platforms, analytical tools, technical
 documentation, and service information.
 
+
+.. Main navigation used by the PyData Sphinx Theme.
+
 .. toctree::
    :hidden:
    :maxdepth: 3
@@ -18,32 +21,18 @@ documentation, and service information.
    About <about/index>
 
 
-Platform Overview
------------------
+About This Documentation
+------------------------
 
-Digital Earth Africa provides free and open Earth observation data, services,
-and analytical tools for viewing, analysing, and applying satellite
-information across Africa.
+.. admonition:: Documentation information
+   :class: de-info-panel
 
+   The Digital Earth Africa documentation provides guidance for accessing
+   datasets, using platforms, connecting to direct-access services, working
+   with notebooks, and reviewing current service information.
 
-.. grid:: 1 1 2 2
-   :gutter: 3
-   :class-container: de-status-heading-grid
-
-   .. grid-item::
-      :columns: 12 12 8 8
-
-      Use the sections below to explore datasets, access platforms, connect
-      directly to DE Africa services, and review current technical alerts.
-
-   .. grid-item-card::
-      :columns: 12 12 4 4
-      :class-card: de-overall-status
-
-      :octicon:`check-circle-fill;2em;sd-text-success`
-      **Digital Earth Africa services**
-
-      Access data, platforms, documentation, and current service information.
+   It is regularly updated to reflect changes to datasets, platforms,
+   analytical tools, technical services, and operational systems.
 
 
 Explore Digital Earth Africa
@@ -128,6 +117,7 @@ Quick Access
 
 .. grid:: 1 1 3 3
    :gutter: 3
+   :class-container: de-quick-links-grid
 
    .. grid-item-card:: Browse Data
       :link: data_specs/index
@@ -169,13 +159,3 @@ Quick Access
       +++
 
       **Check status →**
-
-
-About This Documentation
-------------------------
-
-.. admonition:: Documentation information
-   :class: de-info-panel
-
-   The Digital Earth Africa documentation is regularly updated to reflect
-   changes to datasets, platforms, analytical tools, and operational services.
