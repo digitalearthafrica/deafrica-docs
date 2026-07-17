@@ -1,7 +1,8 @@
-Sphinx>=5
+sphinx>=7,<9
+pydata-sphinx-theme>=0.16,<0.21
+sphinx-design>=0.6,<0.8
 nbsphinx
 nbconvert>=7.2.9
-sphinx_rtd_theme
 jinja2>=3.0
 docutils>=0.18.1
 IPython

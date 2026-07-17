@@ -35,6 +35,7 @@ extensions = [
     "sphinx.ext.napoleon",
     "nbsphinx",
     "sphinx.ext.autosectionlabel",
+    "sphinx_design"
 ]
 
 # Autodoc conf
@@ -116,13 +117,63 @@ nbsphinx_execute = 'never'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = "sphinx_rtd_theme"
+html_theme = "pydata_sphinx_theme"
 
 html_theme_path = ["_themes", ]
+
 html_theme_options = {
-    'logo_only': True,
+    "navbar_start": ["navbar-logo"],
+    "navbar_center": ["navbar-nav"],
+    "navbar_end": ["theme-switcher", "navbar-icon-links"],
+    "navbar_persistent": ["search-button-field"],
+    "navbar_align": "left",
+
+    "secondary_sidebar_items": ["page-toc"],
+    "navigation_depth": 4,
+    "show_nav_level": 1,
+    "collapse_navigation": False,
+    "show_toc_level": 2,
+
+    "back_to_top_button": True,
+    "search_bar_text": "Search the docs",
+    "show_prev_next": False,
+
+    "announcement": """
+    <div class="de-announcement">
+      <strong>SERVICE NOTICE:</strong>
+      <span>
+        Sentinel-1, Sentinel-3, and Sentinel-5P data supply is
+        temporarily affected.
+      </span>
+      <a href="service_status/index.html">
+        View Tech Alert →
+      </a>
+    </div>
+    """,
+
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/digitalearthafrica",
+            "icon": "fa-brands fa-github",
+            "type": "fontawesome",
+        },
+    ],
+
+    "logo": {
+        "text": "",
+        "image_light": "_static/deafrica-logo.png",
+        "image_dark": "_static/deafrica-logo-dark.png",
+    },
+
+     'logo_only': True,
     'display_version': False,
 }
+
+
+# html_theme_options = {
+
+# }
 
 # Define the canonical URL if you are using a custom domain on Read the Docs
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "https://docs.digitalearthafrica.org/") 
@@ -148,10 +199,7 @@ html_use_index = True
 html_show_sourcelink = False
 
 # # # Use table-wrapping style
-html_css_files = ['theme_override.css', 'css/service_status_rtd.css']  # override wide tables in RTD theme
-
-def setup(app):
-    app.add_css_file("service_status_rtd.css")
+html_css_files = ['theme_override.css',]  # override wide tables in RTD theme
 
 # Translation options
 gettext_compact = "docs"  # makes a single "docs.po" file
@@ -161,8 +209,6 @@ locale_dirs = ['locales/']
 on_rtd = True #os.environ.get('READTHEDOCS', None) == 'True'
 on_gha = True #os.environ.get('GITHUB_ACTIONS', None) == 'True'
 get_translation = True  #os.environ.get('POEDITOR_PROJECT_ID', None) is not None
-
-
 
 # If we are on ReadTheDocs, and translation is required, download the translation file from poeditor
 if on_rtd or get_translation:
