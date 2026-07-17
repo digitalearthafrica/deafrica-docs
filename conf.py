@@ -138,6 +138,9 @@ if os.environ.get("READTHEDOCS", "") == "True":
 # # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+def setup(app):
+    app.add_css_file("service_status.css")
+
 html_logo = '_static/logo.png'
 
 html_favicon = '_static/favicon.png'
@@ -158,6 +161,8 @@ locale_dirs = ['locales/']
 on_rtd = True #os.environ.get('READTHEDOCS', None) == 'True'
 on_gha = True #os.environ.get('GITHUB_ACTIONS', None) == 'True'
 get_translation = True  #os.environ.get('POEDITOR_PROJECT_ID', None) is not None
+
+
 
 # If we are on ReadTheDocs, and translation is required, download the translation file from poeditor
 if on_rtd or get_translation:

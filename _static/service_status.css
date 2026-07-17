@@ -1,0 +1,49 @@
+/* Service Status and Tech Alerts */
+
+.tech-alert-home-card {
+  border-top: 5px solid #f59e0b;
+}
+
+.status-summary,
+.tech-alert,
+.status-card {
+  margin: 1.25rem 0;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid #dbe2ea;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 3px 12px rgba(15, 23, 42, 0.06);
+}
+
+.status-operational {
+  border-left: 6px solid #16a34a;
+  background: #f0fdf4;
+}
+
+.tech-alert-warning {
+  border-left: 6px solid #f59e0b;
+  background: #fff7ed;
+}
+
+.status-maintenance {
+  border-left: 6px solid #2563eb;
+  background: #eff6ff;
+}
+
+.status-resolved {
+  border-left: 6px solid #16a34a;
+  background: #f0fdf4;
+}
+
+.status-software {
+  border-left: 6px solid #9333ea;
+  background: #faf5ff;
+}
+
+.tech-alert-warning .field-list {
+  margin-top: 0.8rem;
+}
+
+.tech-alert-warning strong {
+  color: #9a3412;
+}
