@@ -117,13 +117,19 @@ html_theme_options = {
     "navbar_start": ["navbar-logo"],
     "navbar_center": ["navbar-nav"],
     "navbar_persistent": ["search-button-field"],
-    "navbar_end": ["theme-switcher", "navbar-icon-links"],
+    "navbar_end": [
+        "theme-switcher",
+        "navbar-icon-links",
+    ],
     "navbar_align": "left",
 
-    "secondary_sidebar_items": ["page-toc"],
     "navigation_depth": 4,
-    "show_nav_level": 1,
+    "show_nav_level": 2,
     "collapse_navigation": False,
+
+    "secondary_sidebar_items": [
+        "page-toc",
+    ],
     "show_toc_level": 2,
 
     "back_to_top_button": True,
@@ -155,13 +161,9 @@ html_theme_options = {
 
     "logo": {
         "text": "",
-        "alt_text": "Digital Earth Africa documentation",
         "image_light": "_static/logo.png",
         "image_dark": "_static/logo.png",
     },
-        "article_header_end": [
-        "language-switcher",
-    ],
 }
 
 html_sidebars = {

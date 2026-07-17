@@ -259,3 +259,120 @@ html[data-theme="light"] .bd-header button,
 html[data-theme="auto"] .bd-header button {
   color: #0d2347;
 }
+
+/* ==========================================================
+   Shared Digital Earth Africa documentation layout
+   ========================================================== */
+
+.bd-page-width {
+    max-width: 1560px;
+}
+
+/* White header on all pages */
+.bd-header {
+    min-height: 78px;
+    background: #ffffff !important;
+    border-bottom: 1px solid #d8e0ea;
+    box-shadow: 0 2px 10px rgba(15, 35, 70, 0.05);
+}
+
+.bd-header .navbar-nav > .nav-item > .nav-link {
+    color: #0d2347 !important;
+    font-weight: 700;
+}
+
+.bd-header .navbar-nav > .nav-item.current > .nav-link,
+.bd-header .navbar-nav > .nav-item > .nav-link:hover {
+    color: #ea580c !important;
+    background: #fff7ed;
+    border-radius: 8px;
+}
+
+/* Shared page background */
+.bd-container {
+    background: #f7f9fc;
+}
+
+/* Left navigation on all pages */
+.bd-sidebar-primary {
+    width: 285px;
+    margin: 1rem 0 1rem 1rem;
+    padding: 0.85rem;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(15, 35, 70, 0.05);
+}
+
+.bd-sidebar-primary .nav-link {
+    padding: 0.45rem 0.65rem;
+    color: #163052;
+    border-radius: 6px;
+}
+
+.bd-sidebar-primary .nav-link:hover {
+    background: #f1f5f9;
+}
+
+.bd-sidebar-primary .nav-link.active {
+    color: #ea580c;
+    background: #fff1e8;
+    border-left: 4px solid #f97316;
+    font-weight: 700;
+}
+
+/* Shared central article panel */
+.bd-main .bd-content .bd-article-container {
+    max-width: 980px;
+}
+
+.bd-article {
+    margin-top: 1rem;
+    padding: 2rem 2.4rem;
+    background: #ffffff;
+    border: 1px solid #d8e0ea;
+    border-radius: 12px;
+    box-shadow: 0 3px 14px rgba(15, 35, 70, 0.04);
+}
+
+.bd-article h1,
+.bd-article h2,
+.bd-article h3,
+.bd-article h4 {
+    color: #0d2347;
+}
+
+/* Right page contents on all pages */
+.bd-sidebar-secondary {
+    width: 235px;
+    margin-top: 1rem;
+    background: #ffffff;
+    border-left: 1px solid #d8e0ea;
+}
+
+.bd-sidebar-secondary .onthispage {
+    color: #0d2347;
+    font-weight: 800;
+}
+
+/* Shared footer */
+.bd-footer {
+    margin-top: 1rem;
+    background: #ffffff;
+    border-top: 1px solid #d8e0ea;
+}
+
+/* Mobile */
+@media screen and (max-width: 959px) {
+    .bd-sidebar-primary,
+    .bd-sidebar-secondary {
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .bd-article {
+        margin-top: 0;
+        padding: 1.25rem;
+        border-radius: 0;
+    }
+}

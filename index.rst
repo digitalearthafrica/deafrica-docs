@@ -9,6 +9,8 @@ provides Earth observation data, services, and analytical tools for viewing,
 analysing, and applying satellite information across Africa.
 
 
+.. Main navigation used by the PyData Sphinx Theme header and sidebars.
+
 .. toctree::
    :hidden:
    :maxdepth: 3
@@ -52,7 +54,7 @@ technical alerts, and supporting documentation.
       :class-card: de-home-card de-platform-card
 
       Access documentation and user guides for Digital Earth Africa platforms,
-      including the Analysis Sandbox and DE Africa Map.
+      including the Analysis Sandbox, DE Africa Map, and related services.
 
       +++
 
@@ -66,7 +68,7 @@ technical alerts, and supporting documentation.
       :class-card: de-home-card de-access-card
 
       Learn how to access Digital Earth Africa data outside the main platforms
-      using supported tools, services, and interfaces.
+      using supported tools, services, APIs, and interfaces.
 
       +++
 
@@ -90,20 +92,26 @@ technical alerts, and supporting documentation.
 Getting Started
 ---------------
 
-New to Digital Earth Africa? Begin with the platform documentation, explore
-available data products, or check the current service status before starting
-an analysis.
+New to Digital Earth Africa? Begin by browsing available data products,
+reviewing platform documentation, or checking the current service status
+before starting an analysis.
 
 
 .. grid:: 1 1 3 3
    :gutter: 2
+   :class-container: de-quick-links-grid
 
    .. grid-item-card:: Browse Data
       :link: data_specs/index
       :link-type: doc
       :class-card: de-quick-link-card
 
-      Find datasets and product specifications.
+      Find available datasets, product descriptions, specifications, and
+      update information.
+
+      +++
+
+      **Browse Data →**
 
 
    .. grid-item-card:: Use the Platforms
@@ -111,7 +119,11 @@ an analysis.
       :link-type: doc
       :class-card: de-quick-link-card
 
-      Access platform documentation and guidance.
+      Access platform documentation, user guides, and practical resources.
+
+      +++
+
+      **Explore Platforms →**
 
 
    .. grid-item-card:: Check Service Status
@@ -119,4 +131,8 @@ an analysis.
       :link-type: doc
       :class-card: de-quick-link-card
 
-      Review active alerts and maintenance notices.
+      Review active alerts, pipeline disruptions, and planned maintenance.
+
+      +++
+
+      **Check Status →**
