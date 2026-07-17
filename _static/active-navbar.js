@@ -1,44 +1,80 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const normalisePath = (value) => {
-        let path = new URL(value, window.location.origin).pathname;
-
-        // Treat /index.html and a trailing slash as the same page.
-        path = path.replace(/\/index\.html$/, "/");
-
-        // Ensure directory-style paths end with one slash.
-        if (!path.endsWith("/") && !path.split("/").pop().includes(".")) {
-            path += "/";
-        }
-
-        return path;
-    };
-
-    const currentPath = normalisePath(window.location.href);
-
+document.addEventListener("DOMContentLoaded", function () {
     const navbarLinks = document.querySelectorAll(
         ".bd-header .navbar-nav a"
     );
 
-    navbarLinks.forEach((link) => {
-        const linkPath = normalisePath(link.href);
+    if (!navbarLinks.length) {
+        return;
+    }
 
-        // Clear any incorrect active states first.
-        link.classList.remove("active", "current");
-        link.removeAttribute("aria-current");
+    const pageName =
+        window.DOCUMENTATION_OPTIONS?.pagename || "";
 
+    navbarLinks.forEach(function (link) {
+        const label = link.textContent.trim().toLowerCase();
         const parent = link.closest("li");
 
+        link.classList.remove("de-nav-active");
+        link.removeAttribute("aria-current");
+
         if (parent) {
-            parent.classList.remove("active", "current");
+            parent.classList.remove("de-nav-active");
         }
 
-        // Mark the exact matching navbar link as active.
-        if (linkPath === currentPath) {
-            link.classList.add("active", "current");
+        let shouldActivate = false;
+
+        // Homepage
+        if (pageName === "index" && label === "home") {
+            shouldActivate = true;
+        }
+
+        // Data section
+        if (
+            pageName.startsWith("data_specs/") &&
+            label === "data"
+        ) {
+            shouldActivate = true;
+        }
+
+        // Platforms section
+        if (
+            pageName.startsWith("platform_tools/") &&
+            label === "platforms"
+        ) {
+            shouldActivate = true;
+        }
+
+        // Direct Access section
+        if (
+            pageName.startsWith("platform_tools/") &&
+            pageName.includes("direct_access") &&
+            label === "direct access"
+        ) {
+            shouldActivate = true;
+        }
+
+        // Service Status section
+        if (
+            pageName.startsWith("service_status/") &&
+            label === "service status"
+        ) {
+            shouldActivate = true;
+        }
+
+        // About section
+        if (
+            pageName.startsWith("about/") &&
+            label === "about"
+        ) {
+            shouldActivate = true;
+        }
+
+        if (shouldActivate) {
+            link.classList.add("de-nav-active");
             link.setAttribute("aria-current", "page");
 
             if (parent) {
-                parent.classList.add("active", "current");
+                parent.classList.add("de-nav-active");
             }
         }
     });
