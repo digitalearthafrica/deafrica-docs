@@ -176,6 +176,10 @@ html_theme_options = {
 }
 
 html_sidebars = {
+    "index": [
+        "sidebar-collapse",
+        "index-navigation",
+    ],
     "**": [
         "sidebar-collapse",
         "sidebar-nav-bs",

@@ -461,3 +461,60 @@ html[data-theme="auto"] .bd-header button {
 .de-status-card {
     border-top: 5px solid #f59e0b;
 }
+
+/* ==========================================================
+   Index page section navigation
+   ========================================================== */
+
+.bd-sidebar-primary .sidebar-title {
+    margin: 0 0 1rem;
+    padding: 0.35rem 0 0.9rem;
+    color: #0d2347;
+    border-bottom: 1px solid #d8e0ea;
+    font-size: 1.35rem;
+    font-weight: 800;
+}
+
+.bd-sidebar-primary .caption {
+    margin: 1rem 0 0.4rem;
+    padding: 0 0.2rem;
+}
+
+.bd-sidebar-primary .caption-text {
+    color: #c7d1dc;
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.bd-sidebar-primary .bd-sidenav {
+    margin: 0;
+    padding: 0;
+}
+
+.bd-sidebar-primary .bd-sidenav > li {
+    margin: 0.15rem 0;
+    list-style: none;
+}
+
+.bd-sidebar-primary .bd-sidenav > li > a {
+    display: block;
+    padding: 0.55rem 0.75rem;
+    color: #667085;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    text-decoration: none;
+}
+
+.bd-sidebar-primary .bd-sidenav > li > a:hover {
+    color: #0b55a0;
+    background: #f1f5f9;
+}
+
+.bd-sidebar-primary .bd-sidenav > li > a.current {
+    color: #ea580c;
+    background: #fff1e8;
+    border-left: 4px solid #f97316;
+    font-weight: 700;
+}
