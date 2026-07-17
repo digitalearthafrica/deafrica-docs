@@ -1,14 +1,22 @@
+# Core Sphinx build
 sphinx>=7,<9
+docutils>=0.18.1
+jinja2>=3.0
+
+# Theme and interface components
 pydata-sphinx-theme>=0.16,<0.21
 sphinx-design>=0.6,<0.8
-nbsphinx
+
+# Notebook support
+nbsphinx>=0.9
 nbconvert>=7.2.9
-jinja2>=3.0
-docutils>=0.18.1
 IPython
 ipython_genutils
-sphinxcontrib.spelling
-myst_parser
-pandoc
 ipywidgets
 
+# Markdown and documentation extensions
+myst-parser
+sphinxcontrib-spelling
+
+# Document conversion
+pandoc

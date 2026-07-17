@@ -1,0 +1,216 @@
+/* Digital Earth Africa styling for PyData Sphinx Theme */
+
+:root {
+  --de-navy: #082553;
+  --de-blue: #0b55a0;
+  --de-orange: #ff7900;
+  --de-yellow: #ffb800;
+  --de-green: #16875b;
+  --de-purple: #8d3295;
+  --de-text: #0d2347;
+  --de-muted: #52647e;
+  --de-border: #d8e0ea;
+  --de-page: #f7f9fc;
+
+  --pst-color-primary: var(--de-blue);
+  --pst-color-link: var(--de-blue);
+  --pst-header-height: 5rem;
+}
+
+/* Allow the three-column interface to use the browser width. */
+.bd-page-width {
+  max-width: 100%;
+}
+
+.bd-main .bd-content .bd-article-container {
+  max-width: 100%;
+}
+
+.bd-container {
+  background: var(--de-page);
+}
+
+/* Top navigation */
+.bd-header {
+  min-height: 5rem;
+  background: #fff;
+  border-bottom: 1px solid var(--de-border);
+  box-shadow: 0 2px 10px rgba(15, 35, 70, 0.05);
+}
+
+.navbar-brand img {
+  width: auto;
+  max-height: 3.5rem;
+}
+
+.bd-header .navbar-nav > .nav-item > .nav-link {
+  padding: 1rem;
+  color: var(--de-text);
+  border-radius: 9px;
+  font-weight: 650;
+}
+
+.bd-header .navbar-nav > .nav-item.current > .nav-link,
+.bd-header .navbar-nav > .nav-item > .nav-link:hover {
+  color: var(--de-orange);
+  background: #fff7ed;
+}
+
+/* Search field */
+.search-button-field {
+  min-width: 230px;
+  border: 1px solid var(--de-border);
+  border-radius: 8px;
+}
+
+/* Service alert banner */
+.bd-header-announcement {
+  color: #1f2937;
+  background: linear-gradient(90deg, #ffbd24, #ffad00);
+}
+
+.de-announcement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  min-height: 58px;
+  padding: 0.55rem 1rem;
+}
+
+.de-announcement-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+  background: #f05a00;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.de-announcement a {
+  margin-left: 1rem;
+  padding: 0.65rem 1.15rem;
+  color: #fff;
+  background: var(--de-navy);
+  border-radius: 7px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Left navigation sidebar */
+.bd-sidebar-primary {
+  background: #fff;
+  border-right: 1px solid var(--de-border);
+}
+
+.bd-sidebar-primary .nav-link {
+  border-radius: 6px;
+}
+
+.bd-sidebar-primary .nav-link.active {
+  color: var(--de-orange);
+  background: #fff4e9;
+  border-left: 4px solid var(--de-orange);
+  font-weight: 700;
+}
+
+/* Right "On this page" sidebar */
+.bd-sidebar-secondary {
+  background: #fff;
+  border-left: 1px solid var(--de-border);
+}
+
+/* Main article panel */
+.bd-article {
+  padding: 2rem 2.5rem;
+  background: #fff;
+  border: 1px solid var(--de-border);
+  border-radius: 12px;
+  box-shadow: 0 3px 14px rgba(15, 35, 70, 0.04);
+}
+
+.bd-article h1,
+.bd-article h2,
+.bd-article h3 {
+  color: var(--de-text);
+}
+
+.bd-article h1 {
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+/* Sphinx Design alert card */
+.de-alert-card {
+  border: 1px solid #ffbf81;
+  border-left: 6px solid var(--de-orange);
+  border-radius: 12px;
+  background: linear-gradient(90deg, #fff8f1 0%, #fff 72%);
+  box-shadow: none;
+}
+
+.de-alert-header {
+  color: var(--de-text);
+  background: transparent;
+  border-bottom: 0;
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+/* Supporting information cards */
+.de-info-card {
+  height: 100%;
+  border: 1px solid var(--de-border);
+  border-radius: 12px;
+  box-shadow: none;
+}
+
+.de-info-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 18px rgba(15, 35, 70, 0.08);
+}
+
+.de-maintenance-card {
+  border-top: 5px solid #2766b1;
+}
+
+.de-resolved-card {
+  border-top: 5px solid var(--de-green);
+}
+
+.de-software-card {
+  border-top: 5px solid var(--de-purple);
+}
+
+/* Informational panel */
+.de-info-panel {
+  border: 1px solid #cfe4ff;
+  border-left: 6px solid #3987df;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #eef6ff, #f8fbff);
+}
+
+/* Footer */
+.bd-footer {
+  background: #fff;
+  border-top: 1px solid var(--de-border);
+}
+
+/* Responsive behaviour */
+@media (max-width: 959px) {
+  .de-announcement {
+    flex-wrap: wrap;
+  }
+
+  .de-announcement a {
+    margin-left: 0;
+  }
+
+  .bd-article {
+    padding: 1.25rem;
+    border-radius: 0;
+  }
+}

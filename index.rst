@@ -5,12 +5,9 @@ Digital Earth Africa User Guide
 ===============================
 
 The `Digital Earth Africa <https://www.digitalearthafrica.org/>`_ platform
-provides a repository of Earth observation data and tools for viewing,
-analysing, and applying Earth observation data across Africa.
+provides Earth observation data, services, and analytical tools for viewing,
+analysing, and applying satellite information across Africa.
 
-
-Main Navigation
----------------
 
 .. toctree::
    :hidden:
@@ -24,85 +21,102 @@ Main Navigation
    About <about/index>
 
 
-Data
-====
+Explore Digital Earth Africa
+----------------------------
 
-.. container:: platform-list
-
-   .. container:: product-item
-
-      .. image:: _static/data_specs/Home_datacatogue.png
-         :target: data_specs/index.html
-         :width: 400
-         :align: left
-         :alt: Digital Earth Africa data and products
-
-      :doc:`Data and Products <data_specs/index>`
-
-      Technical specifications for Digital Earth Africa datasets, products,
-      and operational services.
-
-      :doc:`Explore Data and Products <data_specs/index>`
+Select a section below to access datasets, platforms, direct-access guidance,
+technical alerts, and supporting documentation.
 
 
-Platforms
-=========
+.. grid:: 1 1 2 2
+   :gutter: 3
+   :class-container: de-home-grid
 
-.. container:: platform-list
+   .. grid-item-card:: Data and Products
+      :img-top: _static/data_specs/Home_datacatogue.png
+      :link: data_specs/index
+      :link-type: doc
+      :class-card: de-home-card de-data-card
 
-   .. container:: product-item
+      Explore technical specifications for Digital Earth Africa datasets,
+      products, and operational services.
 
-      .. image:: _static/data_specs/Home_platform.png
-         :target: platform_tools/index_platform.html
-         :width: 400
-         :align: left
-         :alt: Digital Earth Africa platforms
+      +++
 
-      :doc:`Digital Earth Africa Platforms <platform_tools/index_platform>`
-
-      Technical documentation and user guides for Digital Earth Africa
-      platforms, including the Analysis Sandbox and DE Africa Map.
-
-      :doc:`Explore Platforms <platform_tools/index_platform>`
+      **Explore Data and Products →**
 
 
-Direct Access
-=============
+   .. grid-item-card:: Platforms
+      :img-top: _static/data_specs/Home_platform.png
+      :link: platform_tools/index_platform
+      :link-type: doc
+      :class-card: de-home-card de-platform-card
 
-.. container:: platform-list
+      Access documentation and user guides for Digital Earth Africa platforms,
+      including the Analysis Sandbox and DE Africa Map.
 
-   .. container:: product-item
+      +++
 
-      .. image:: _static/data_specs/Home_direct_access.png
-         :target: platform_tools/index_direct_access.html
-         :width: 400
-         :align: left
-         :alt: Direct access to Digital Earth Africa data
-
-      :doc:`Direct Access <platform_tools/index_direct_access>`
-
-      Documentation and user guides for accessing Digital Earth Africa data
-      outside the main platforms.
-
-      :doc:`Explore Direct Access <platform_tools/index_direct_access>`
+      **Explore Platforms →**
 
 
-Service Status
-==============
+   .. grid-item-card:: Direct Access
+      :img-top: _static/data_specs/Home_direct_access.png
+      :link: platform_tools/index_direct_access
+      :link-type: doc
+      :class-card: de-home-card de-access-card
 
-.. container:: platform-list
+      Learn how to access Digital Earth Africa data outside the main platforms
+      using supported tools, services, and interfaces.
 
-   .. container:: product-item tech-alert-home-card
+      +++
 
-      .. image:: _static/service_status/service_status.png
-         :target: service_status/index.html
-         :width: 400
-         :align: left
-         :alt: Service Status and Tech Alerts
+      **Explore Direct Access →**
 
-      :doc:`Service Status and Tech Alerts <service_status/index>`
+
+   .. grid-item-card:: Service Status and Tech Alerts
+      :img-top: _static/service_status/service_status.png
+      :link: service_status/index
+      :link-type: doc
+      :class-card: de-home-card de-status-card
 
       View current service disruptions, planned maintenance, resolved
-      incidents, data-pipeline notices, and software or package updates.
+      incidents, data-pipeline notices, and software updates.
 
-      :doc:`View Current Status <service_status/index>`
+      +++
+
+      **View Current Status →**
+
+
+Getting Started
+---------------
+
+New to Digital Earth Africa? Begin with the platform documentation, explore
+available data products, or check the current service status before starting
+an analysis.
+
+.. grid:: 1 1 3 3
+   :gutter: 2
+
+   .. grid-item-card:: Browse Data
+      :link: data_specs/index
+      :link-type: doc
+      :class-card: de-quick-link-card
+
+      Find datasets and product specifications.
+
+
+   .. grid-item-card:: Use the Platforms
+      :link: platform_tools/index_platform
+      :link-type: doc
+      :class-card: de-quick-link-card
+
+      Access platform documentation and guidance.
+
+
+   .. grid-item-card:: Check Service Status
+      :link: service_status/index
+      :link-type: doc
+      :class-card: de-quick-link-card
+
+      Review active alerts and maintenance notices.

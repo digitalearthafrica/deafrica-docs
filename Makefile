@@ -1,32 +1,60 @@
-# Minimal makefile for Sphinx documentation
-#
+# Minimal Makefile for Digital Earth Africa Sphinx documentation
 
-# You can set these variables from the command line, and also
-# from the environment for the first two.
-SPHINXOPTS    ?= -v
-SPHINXBUILD   = sphinx-build
-SPHINXPROJ    = DigitalEarthAfrica
-SOURCEDIR     = .
-BUILDDIR      = _build
+SPHINXOPTS   ?= -v
+SPHINXBUILD  ?= sphinx-build
+SPHINXPROJ   = DigitalEarthAfrica
+SOURCEDIR    = .
+BUILDDIR     = _build
+PYTHON       ?= python
 
-
-# Put it first so that "make" without argument is like "make help".
+# Running "make" without a target displays Sphinx help.
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help Makefile
+.PHONY: help cleanall install-docs fetchnotebooks buildtools fetchtranslation Makefile
 
-# Catch-all target: route all unknown targets to Sphinx using the new
-# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
+
+# Build any standard Sphinx target, for example:
+# make html
+# make clean
+# make linkcheck
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+
+# Remove the complete Sphinx build directory.
+cleanall:
+	@echo "Removing $(BUILDDIR)..."
+	@rm -rf "$(BUILDDIR)"
+	@echo "Build directory removed."
+
+
+# Install the documentation dependencies.
+install-docs:
+	$(PYTHON) -m pip install --upgrade pip
+	$(PYTHON) -m pip install -r requirements.txt
+
+
+# Download or refresh the DE Africa Sandbox notebooks.
 fetchnotebooks:
-	[ -d sandbox/notebooks ] || git clone https://github.com/digitalearthafrica/deafrica-sandbox-notebooks.git sandbox/notebooks
-	cd sandbox/notebooks && git checkout main && git reset --hard origin/main && git pull
+	@if [ ! -d "sandbox/notebooks/.git" ]; then \
+		echo "Cloning DE Africa Sandbox notebooks..."; \
+		git clone https://github.com/digitalearthafrica/deafrica-sandbox-notebooks.git sandbox/notebooks; \
+	else \
+		echo "Updating DE Africa Sandbox notebooks..."; \
+	fi
+	cd sandbox/notebooks && \
+		git fetch origin && \
+		git checkout main && \
+		git reset --hard origin/main
 
+
+# Install the notebook tools package without resolving its dependencies.
 buildtools:
-	cd sandbox/notebooks/Tools && pip install . --no-dependencies
+	$(PYTHON) -m pip install ./sandbox/notebooks/Tools --no-dependencies
 
+
+# Install POEditor and download translation files.
 fetchtranslation:
-	pip install poeditor && python download_translations.py
+	$(PYTHON) -m pip install poeditor
+	$(PYTHON) download_translations.py
