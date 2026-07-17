@@ -116,6 +116,7 @@ html_theme = "pydata_sphinx_theme"
 html_theme_options = {
     "navbar_start": ["navbar-logo"],
     "navbar_center": ["navbar-nav"],
+    "header_links_before_dropdown": 6,
     "navbar_persistent": ["search-button-field"],
     "navbar_end": [
         "theme-switcher",

@@ -10,6 +10,7 @@ documentation, and service information.
    :hidden:
    :maxdepth: 3
 
+   Home <self>
    Data <data_specs/index>
    Platforms <platform_tools/index_platform>
    Direct Access <platform_tools/index_direct_access>
