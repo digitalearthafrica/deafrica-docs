@@ -562,3 +562,28 @@ html[data-theme="dark"] .de-home-intro-card .sd-card-title,
 html[data-theme="dark"] .de-home-intro-card p {
     color: #e5edf7 !important;
 }
+
+/* Make the Documentation information title visible */
+
+.de-info-panel > .admonition-title,
+.de-info-panel .admonition-title {
+    color: #0b55a0 !important;
+    background: #082553 !important;
+    border-bottom: 0;
+    font-weight: 800;
+}
+
+.de-info-panel > .admonition-title::before,
+.de-info-panel .admonition-title::before {
+    color: #7db7ff !important;
+}
+
+/* Body text */
+.de-info-panel,
+.de-info-panel p {
+    color: #0d2347 !important;
+}
+
+.de-info-panel {
+    background: #eef6ff !important;
+}
