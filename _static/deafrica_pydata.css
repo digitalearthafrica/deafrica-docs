@@ -417,39 +417,6 @@ html[data-theme="auto"] .bd-header button {
 }
 
 /* ==========================================================
-   Read the Docs advert
-   ========================================================== */
-
-.de-footer-ad {
-  width: 100%;
-  margin: 1.25rem auto 0;
-  padding: 1rem;
-  text-align: center;
-  background: #fff;
-  border: 1px solid var(--de-border);
-  border-radius: 10px;
-}
-
-.de-footer-ad #ethical-ad-placement {
-  width: 100%;
-  max-width: 760px;
-  margin: 0 auto;
-}
-
-.de-footer-ad .ethical-content,
-.de-footer-ad .ethical-sidebar {
-  width: 100% !important;
-  max-width: 760px !important;
-  margin: 0 auto !important;
-  box-shadow: none !important;
-}
-
-.de-footer-ad img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* ==========================================================
    Footer
    ========================================================== */
 
