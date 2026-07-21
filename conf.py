@@ -161,6 +161,14 @@ html_theme_options = {
     "navigation_depth": 4,
     "show_nav_level": 1,
     "collapse_navigation": False,
+    
+    "footer_start": [
+        "deafrica-footer",
+    ],
+
+    "footer_center": [],
+
+    "footer_end": [],
 }
 
 html_sidebars = {
@@ -202,6 +210,8 @@ if os.environ.get("READTHEDOCS", "") == "True":
     html_context = globals().get("html_context", {})
     html_context["READTHEDOCS"] = True
 
+# -- copyright -----------------------------------------------------
+copyright = "2026"
 
 # -- Translation options -----------------------------------------------------
 
