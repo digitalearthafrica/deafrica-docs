@@ -222,25 +222,36 @@ locale_dirs = ["locales/"]
 
 # -- Build environment -------------------------------------------------------
 
-on_rtd = os.environ.get("READTHEDOCS", "") == "True"
-on_gha = os.environ.get("GITHUB_ACTIONS", "") == "True"
-get_translation = os.environ.get("POEDITOR_PROJECT_ID") is not None
+on_rtd = os.environ.get("READTHEDOCS") == "True"
+on_gha = os.environ.get("GITHUB_ACTIONS") == "True"
 
-# Download translations only when required.
-if on_rtd or get_translation:
-    subprocess.run(
-        ["make", "fetchtranslation"],
+poeditor_project_id = os.environ.get("POEDITOR_PROJECT_ID")
+poeditor_api_token = os.environ.get("POEDITOR_API_TOKEN")
+
+has_poeditor_credentials = bool(
+    poeditor_project_id and poeditor_api_token
+)
+
+
+def run_make_target(target: str, required: bool = True) -> None:
+    """Run a Makefile target from the documentation root."""
+    result = subprocess.run(
+        ["make", target],
         check=False,
+        text=True,
     )
 
-# Download notebooks and build tools only in RTD or GitHub Actions.
+    if required and result.returncode != 0:
+        raise RuntimeError(
+            f"Make target '{target}' failed with "
+            f"exit code {result.returncode}."
+        )
+
+
+# Download translations only when both POEditor credentials are available.
+if has_poeditor_credentials:
+    run_make_target("fetchtranslation")
+
+# buildtools already depends on fetchnotebooks, so only call buildtools.
 if on_rtd or on_gha:
-    subprocess.run(
-        ["make", "fetchnotebooks"],
-        check=False,
-    )
-
-    subprocess.run(
-        ["make", "buildtools"],
-        check=False,
-    )
+    run_make_target("buildtools")
