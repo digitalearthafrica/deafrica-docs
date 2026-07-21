@@ -587,3 +587,20 @@ html[data-theme="dark"] .de-home-intro-card p {
 .de-info-panel {
     background: #eef6ff !important;
 }
+
+.de-info-panel .admonition-title {
+    color: #0d2347 !important;
+    background: #ffffff !important;
+    border-bottom: 1px solid #d8e0ea !important;
+    font-weight: 800;
+}
+
+.de-info-panel .admonition-title::before {
+    color: #0b55a0 !important;
+}
+
+.de-info-panel,
+.de-info-panel p {
+    color: #0d2347 !important;
+    background: #eef6ff !important;
+}
