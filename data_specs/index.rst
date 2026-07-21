@@ -27,19 +27,21 @@ Agriculture
    :hidden:
    :maxdepth: 1
 
-    Cropland_extent_specs
+   Cropland_extent_specs
 
 .. container:: product-list
 
-    .. container:: product-item
+   .. container:: product-item
 
-       .. image:: ../_static/data_specs/crop_thumbnail.png
+      .. image:: ../_static/data_specs/crop_thumbnail.png
+         :alt: Cropland extent
+         :loading: lazy
 
-       :doc:`Cropland_extent_specs`
+      :doc:`Cropland extent <Cropland_extent_specs>`
 
-       Estimated location of croplands.
+      Estimated location of croplands.
 
-       :doc:`More <Cropland_extent_specs>`
+      :doc:`More <Cropland_extent_specs>`
 
 Coastal
 ^^^^^^^
