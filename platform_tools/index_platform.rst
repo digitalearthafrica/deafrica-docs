@@ -4,7 +4,18 @@
 Digital Earth Africa Platforms
 ====================================
 
-Digital Earth Africa offers a suite of platforms that enable users to access and interact with its datasets
+Digital Earth Africa offers a suite of platforms that enable users to access
+and interact with its datasets.
+
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+
+   DE Africa Map <deafrica_map>
+   Digital Earth Africa Sandbox <sandbox/index>
+   Digital Earth Africa Metadata Explorer <metadata_explorer>
+   Africa GeoPortal <africa_geoportal>
+   Cube in a Box <cube_in_a_box>
 
 
 Digital Earth Africa Map
