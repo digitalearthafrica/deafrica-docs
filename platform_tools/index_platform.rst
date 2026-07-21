@@ -1,159 +1,118 @@
 .. _platform_tools:
 
-====================================
 Digital Earth Africa Platforms
-====================================
+==============================
 
-Digital Earth Africa offers a suite of platforms that enable users to access
-and interact with its datasets.
+Digital Earth Africa provides a suite of platforms that enable users to
+access, explore, analyse, and interact with Earth observation datasets and
+decision-ready products across Africa.
+
 
 .. toctree::
    :hidden:
    :maxdepth: 2
 
    DE Africa Map <deafrica_map>
-   Digital Earth Africa Sandbox <sandbox/index>
+   Digital Earth Africa Sandbox <../sandbox/index>
    Digital Earth Africa Metadata Explorer <metadata_explorer>
-   Africa GeoPortal <africa_geoportal>
-   Cube in a Box <cube_in_a_box>
+   Africa GeoPortal <../maps/geoportal>
+   Cube in a Box <cube-in-a-box>
 
 
 Digital Earth Africa Map
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. toctree::
-   :hidden:
-   :caption: Digital Earth Africa Map
-   :maxdepth: 1
-
-    deafrica_map
+------------------------
 
 .. container:: platform-list
 
    .. container:: product-item
 
       .. image:: ../_static/maps/Workbench.jpg
-         :target: deafrica_map
-         :width: 400
-         :align: left
+         :alt: Digital Earth Africa Map interface
+         :loading: lazy
 
-      :doc:`deafrica_map`
+      :doc:`Digital Earth Africa Map <deafrica_map>`
 
-      The Digital Earth Africa interactive visualisation map provides users with the tools to visualise satellite images and decision ready data over the African continent.
+      The Digital Earth Africa Map is an interactive visualisation platform
+      that enables users to explore satellite imagery and decision-ready data
+      across the African continent.
 
       :doc:`More <deafrica_map>`
 
 
-
-
-
 Digital Earth Africa Sandbox
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. toctree::
-   :hidden:
-   :caption: Digital Earth Africa Sandbox
-   :maxdepth: 1
-
-
-   ../sandbox/index
-
+----------------------------
 
 .. container:: platform-list
 
    .. container:: product-item
 
       .. image:: ../_static/sandbox/sandbox_mini.png
-         :target: ../sandbox/
-         :width: 400
-         :align: left
+         :alt: Digital Earth Africa Analysis Sandbox
+         :loading: lazy
 
-      :doc:`../sandbox/index`
+      :doc:`Digital Earth Africa Sandbox <../sandbox/index>`
 
-      The Digital Earth Africa Sandbox is a cloud-based computational platform that operates through a Jupyter Lab environment. 
+      The Digital Earth Africa Analysis Sandbox is a cloud-based computational
+      platform that operates through a JupyterLab environment. It provides
+      access to datasets, notebooks, and analytical tools.
 
       :doc:`More <../sandbox/index>`
 
 
-
 Digital Earth Africa Metadata Explorer
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. toctree::
-   :hidden:
-   :caption: Digital Earth Africa Metadata Explorer
-   :maxdepth: 1
-
-    explorer
+--------------------------------------
 
 .. container:: platform-list
-   
+
    .. container:: product-item
 
       .. image:: ../_static/platform_tools/explorer/metadata.png
-         :target: explorer_guide
-         :width: 400
-         :align: left
+         :alt: Digital Earth Africa Metadata Explorer
+         :loading: lazy
 
-      :doc:`explorer_guide`
+      :doc:`Digital Earth Africa Metadata Explorer <metadata_explorer>`
 
-      The Digital Earth Africa Metadata Explorer is a website that uses the Open Data Cube to inspect metadata for Digital Earth Africa services and datasets.
+      The Digital Earth Africa Metadata Explorer provides information about
+      available datasets, products, measurements, spatial coverage, and data
+      availability.
 
-      :doc:`More <explorer_guide>`
-
-
-Africa GeoPortal (Esri)
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. toctree::
-   :hidden:
-   :caption: Africa GeoPortal (Esri)
-   :maxdepth: 1
+      :doc:`More <metadata_explorer>`
 
 
-   ../maps/geoportal
+Africa GeoPortal
+----------------
 
 .. container:: platform-list
 
    .. container:: product-item
 
       .. image:: ../_static/maps/geoportal_logo.png
-         :target: ../maps/geoportal
-         :width: 400
-         :align: left
+         :alt: Esri Africa GeoPortal
+         :loading: lazy
 
-      :doc:`../maps/geoportal`
+      :doc:`Africa GeoPortal <../maps/geoportal>`
 
-      Esri’s Africa GeoPortal uses imagery from Digital Earth Africa to provide free geospatial tools, data and training for users working on African geospatial challenges.
+      Esri's Africa GeoPortal uses Digital Earth Africa imagery to provide
+      geospatial tools, datasets, applications, and training resources for
+      users working on geospatial challenges across Africa.
 
       :doc:`More <../maps/geoportal>`
 
 
-Cube in the Box
-^^^^^^^^^^^^^^^
-
-.. toctree::
-   :hidden:
-   :caption: Cube in the Box
-   :maxdepth: 1
-
-   cube-in-a-box
+Cube in a Box
+-------------
 
 .. container:: platform-list
 
    .. container:: product-item
 
       .. image:: ../_static/platform_tools/cube_in_a_box/cube-in-a-box-thumbnail.png
-         :target: cube-in-a-box
-         :width: 400
-         :align: left
+         :alt: Cube in a Box
+         :loading: lazy
 
-      :doc:`cube-in-a-box`
+      :doc:`Cube in a Box <cube-in-a-box>`
 
-      The Cube-in-a-Box is a convenient, pre-configured solution that allows users to easily set up and run the Open Data Cube on their local machine.
+      Cube in a Box is a preconfigured solution that enables users to set up
+      and run an Open Data Cube environment on a local computer.
 
       :doc:`More <cube-in-a-box>`
-   
-   
-  
-

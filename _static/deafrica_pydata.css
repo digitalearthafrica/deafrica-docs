@@ -415,17 +415,6 @@ html[data-theme="auto"] .bd-header button {
   color: var(--de-orange);
   text-decoration: underline;
 }
-
-/* ==========================================================
-   Footer
-   ========================================================== */
-
-.bd-footer {
-  margin-top: 1rem;
-  background: #fff;
-  border-top: 1px solid var(--de-border);
-}
-
 /* ==========================================================
    Responsive behaviour
    ========================================================== */
