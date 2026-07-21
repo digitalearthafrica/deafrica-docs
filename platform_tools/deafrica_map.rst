@@ -1,3 +1,5 @@
+.. _deaafrica_map:
+
 DE Africa Map
 =============
 
