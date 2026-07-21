@@ -2,6 +2,7 @@
 sphinx>=8,<9
 docutils>=0.21,<0.23
 jinja2>=3.1
+sphinx-intl>=2.3
 
 # Theme and interface components
 pydata-sphinx-theme>=0.20,<0.21
