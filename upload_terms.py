@@ -12,7 +12,7 @@ from poeditor import POEditorAPI
 
 LOGGER = logging.getLogger(__name__)
 
-DEFAULT_POT_FILE = Path("_build/docs.pot")
+POT_FILE = Path("_build/docs.pot")
 
 
 def get_required_env(name: str) -> str:
@@ -127,11 +127,11 @@ def main() -> None:
         "Before update",
     )
 
-    update_result = update_project_terms(
-        client=client,
-        project_id=project_id,
-        pot_file=DEFAULT_POT_FILE,
-        sync_terms=True,
+    update_results = client.update_terms(
+    project_id=project_id,
+    file_path=str(POT_FILE),
+    sync_terms=True,
+    
     )
     print_update_results(update_result)
 
