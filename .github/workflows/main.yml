@@ -28,7 +28,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -48,16 +48,20 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
 
-          if [ -f requirements.txt ]; then
-            python -m pip install -r requirements.txt
+      - name: Verify required secrets
+        shell: bash
+        run: |
+          if [ -z "$POEDITOR_PROJECT_ID" ]; then
+            echo "POEDITOR_PROJECT_ID is not configured."
+            exit 1
           fi
 
-          python -m pip install \
-            nbsphinx \
-            nbconvert \
-            nbformat \
-            poeditor
+          if [ -z "$POEDITOR_API_TOKEN" ]; then
+            echo "POEDITOR_API_TOKEN is not configured."
+            exit 1
+          fi
 
       - name: Fetch notebooks
         run: make fetchnotebooks
@@ -69,6 +73,8 @@ jobs:
         env:
           GITHUB_ACTIONS: "1"
         run: |
+          rm -rf _build/gettext
+
           python -m sphinx \
             -E \
             -a \
@@ -78,36 +84,53 @@ jobs:
             _build/gettext
 
       - name: List generated POT files
+        shell: bash
         run: |
           echo "Generated POT files:"
           find _build/gettext -type f -name "*.pot" -print
 
       - name: Verify POT files exist
+        shell: bash
         run: |
-          if ! find _build/gettext -type f -name "*.pot" -print -quit \
-            | grep -q .; then
+          if ! find _build/gettext \
+            -type f \
+            -name "*.pot" \
+            -print -quit |
+            grep -q .; then
             echo "No POT files were generated."
             exit 1
           fi
 
       - name: Merge POT files
+        shell: bash
         run: |
-          find _build/gettext \
-            -type f \
-            -name "*.pot" \
-            -print0 \
-            | sort -z \
-            | xargs -0 msgcat \
-                --use-first \
-                --output-file=_build/docs.pot
+          mapfile -d '' POT_FILES < <(
+            find _build/gettext \
+              -type f \
+              -name "*.pot" \
+              -print0 |
+            sort -z
+          )
+
+          msgcat \
+            --use-first \
+            --output-file=_build/docs.pot \
+            "${POT_FILES[@]}"
 
           test -s _build/docs.pot
 
           echo "Merged catalogue:"
           ls -lh _build/docs.pot
 
+      - name: Check merged catalogue
+        shell: bash
+        run: |
+          echo "Number of translation messages:"
+          msgattrib --no-obsolete _build/docs.pot |
+            grep --count '^msgid "' || true
+
       - name: Upload POT artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: digital-earth-africa-docs-pot
           path: _build/docs.pot
