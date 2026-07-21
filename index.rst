@@ -88,7 +88,7 @@ Documentation Sections
 
 
    .. grid-item-card:: Tech Alerts
-      :img-top: _static/service_status/service_status.png
+      :img-top: _static/data_specs/tech_alert.png
       :link: service_status/index
       :link-type: doc
       :class-card: de-home-card de-status-card
