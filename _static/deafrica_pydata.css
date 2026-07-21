@@ -103,46 +103,6 @@ html[data-theme="auto"] .bd-header button {
 }
 
 /* ==========================================================
-   Service alert banner
-   ========================================================== */
-
-.bd-header-announcement {
-  color: #1f2937;
-  background: linear-gradient(90deg, #ffbd24, #ffad00);
-}
-
-.de-announcement {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.9rem;
-  min-height: 58px;
-  padding: 0.55rem 1rem;
-}
-
-.de-announcement-icon {
-  display: inline-grid;
-  place-items: center;
-  width: 2rem;
-  height: 2rem;
-  color: #fff;
-  background: #f05a00;
-  border-radius: 50%;
-  font-size: 1.2rem;
-  font-weight: 800;
-}
-
-.de-announcement a {
-  margin-left: 1rem;
-  padding: 0.65rem 1.15rem;
-  color: #fff;
-  background: var(--de-navy);
-  border-radius: 7px;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-/* ==========================================================
    Left navigation sidebar
    ========================================================== */
 

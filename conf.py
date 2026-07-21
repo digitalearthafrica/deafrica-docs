@@ -141,21 +141,6 @@ html_theme_options = {
     "back_to_top_button": True,
     "search_bar_text": "Search the docs",
     "show_prev_next": False,
-
-    "announcement": """
-    <div class="de-announcement">
-      <span class="de-announcement-icon" aria-hidden="true">!</span>
-      <strong>SERVICE NOTICE:</strong>
-      <span>
-        Sentinel-1, Sentinel-3, and Sentinel-5P data supply is
-        temporarily affected.
-      </span>
-      <a href="/en/latest/service_status/">
-        View Tech Alert →
-      </a>
-    </div>
-    """,
-
     "icon_links": [
         {
             "name": "GitHub",

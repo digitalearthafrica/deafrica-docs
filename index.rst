@@ -19,7 +19,7 @@ documentation, and service information.
    Data <data_specs/index>
    Platforms <platform_tools/index_platform>
    Direct Access <platform_tools/index_direct_access>
-   Service Status <service_status/index>
+   Tech Alert <service_status/index>
    About <about/index>
 
 
@@ -87,7 +87,7 @@ Documentation Sections
       **Explore Direct Access →**
 
 
-   .. grid-item-card:: Service Status and Tech Alerts
+   .. grid-item-card:: Tech Alerts
       :img-top: _static/service_status/service_status.png
       :link: service_status/index
       :link-type: doc
