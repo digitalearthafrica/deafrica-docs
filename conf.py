@@ -18,12 +18,13 @@ release = "2021"
 # -- General configuration ---------------------------------------------------
 
 extensions = [
+     "nbsphinx",
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
     "sphinx.ext.napoleon",
-    "nbsphinx",
     "sphinx.ext.autosectionlabel",
     "sphinx_design",
+    "myst_parser",
 ]
 
 # Autodoc configuration
