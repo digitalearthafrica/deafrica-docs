@@ -211,7 +211,7 @@ if os.environ.get("READTHEDOCS", "") == "True":
     html_context["READTHEDOCS"] = True
 
 # -- copyright -----------------------------------------------------
-copyright = "2026"
+copyright = "2026 Digital Earth Africa"
 
 # -- Translation options -----------------------------------------------------
 

@@ -604,3 +604,104 @@ html[data-theme="dark"] .de-home-intro-card p {
     color: #0d2347 !important;
     background: #eef6ff !important;
 }
+
+/* ==========================================================
+   Digital Earth Africa footer
+   ========================================================== */
+
+.bd-footer {
+    margin-top: 1.5rem;
+    padding: 0 !important;
+    color: #ffffff !important;
+    background: #111827 !important;
+    border-top: 4px solid #ff7900;
+}
+
+.bd-footer p,
+.bd-footer span,
+.bd-footer strong,
+.bd-footer div {
+    color: #ffffff !important;
+}
+
+.deafrica-footer {
+    display: grid;
+    grid-template-columns: minmax(260px, 1fr) auto auto;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1560px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    color: #ffffff !important;
+}
+
+.deafrica-footer__brand {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.deafrica-footer__brand strong {
+    color: #ffffff !important;
+    font-size: 1.05rem;
+    font-weight: 800;
+}
+
+.deafrica-footer__brand span {
+    color: #cbd5e1 !important;
+    font-size: 0.86rem;
+}
+
+.deafrica-footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.deafrica-footer__links a {
+    color: #67d8f4 !important;
+    font-size: 0.88rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.deafrica-footer__links a:hover {
+    color: #ffb800 !important;
+    text-decoration: underline;
+}
+
+.deafrica-footer__copyright {
+    color: #cbd5e1 !important;
+    font-size: 0.82rem;
+    white-space: nowrap;
+}
+
+/* Ensure PyData footer containers use the full width */
+.bd-footer .footer-items {
+    width: 100%;
+}
+
+.bd-footer .footer-items__start {
+    width: 100%;
+    flex: 1 1 100%;
+}
+
+/* Mobile footer */
+@media screen and (max-width: 959px) {
+    .deafrica-footer {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1.25rem;
+        text-align: center;
+    }
+
+    .deafrica-footer__links {
+        justify-content: center;
+    }
+
+    .deafrica-footer__copyright {
+        white-space: normal;
+    }
+}
