@@ -227,20 +227,20 @@ on_gha = os.environ.get("GITHUB_ACTIONS", "") == "True"
 get_translation = os.environ.get("POEDITOR_PROJECT_ID") is not None
 
 # Download translations only when required.
-# if on_rtd or get_translation:
-#     subprocess.run(
-#         ["make", "fetchtranslation"],
-#         check=False,
-#     )
+if on_rtd or get_translation:
+    subprocess.run(
+        ["make", "fetchtranslation"],
+        check=False,
+    )
 
-# # Download notebooks and build tools only in RTD or GitHub Actions.
-# if on_rtd or on_gha:
-#     subprocess.run(
-#         ["make", "fetchnotebooks"],
-#         check=False,
-#     )
+# Download notebooks and build tools only in RTD or GitHub Actions.
+if on_rtd or on_gha:
+    subprocess.run(
+        ["make", "fetchnotebooks"],
+        check=False,
+    )
 
-#     subprocess.run(
-#         ["make", "buildtools"],
-#         check=False,
-#     )
+    subprocess.run(
+        ["make", "buildtools"],
+        check=False,
+    )
