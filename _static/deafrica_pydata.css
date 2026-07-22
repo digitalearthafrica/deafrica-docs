@@ -743,16 +743,16 @@ html[data-theme="dark"] .bd-article table.genindextable ul ul {
 }
 
 /* ==========================================================
-   Horizontal platform cards
+   Digital Earth Africa platform list
    ========================================================== */
 
 .de-platform-horizontal-card {
   overflow: hidden;
-  margin: 1rem 0 2rem;
+  margin: 1rem 0 1.5rem;
   background: #ffffff;
-  border: 1px solid var(--de-border);
-  border-radius: 9px;
-  box-shadow: 0 3px 12px rgba(15, 35, 70, 0.07);
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(15, 35, 70, 0.06);
 }
 
 .de-platform-horizontal-card > .sd-row {
@@ -760,9 +760,12 @@ html[data-theme="dark"] .bd-article table.genindextable ul ul {
   margin: 0;
 }
 
+
+/* Platform image */
+
 .de-platform-horizontal-media {
   display: flex;
-  min-height: 185px;
+  min-height: 175px;
   padding: 0 !important;
   background: #f8fafc;
 }
@@ -770,89 +773,121 @@ html[data-theme="dark"] .bd-article table.genindextable ul ul {
 .de-platform-horizontal-media img {
   display: block;
   width: 100%;
-  height: 100%;
-  min-height: 185px;
+  height: 175px;
   margin: 0;
   object-fit: cover;
   object-position: center;
 }
 
+
+/* Platform content */
+
 .de-platform-horizontal-content {
   display: flex;
+  min-height: 175px;
+  padding: 0.7rem 1.5rem !important;
   flex-direction: column;
   justify-content: center;
-  min-height: 185px;
-  padding: 1.25rem 1.5rem !important;
-  color: var(--de-text);
+  color: #111827;
   background: #ffffff;
 }
 
 .de-platform-horizontal-content > p:first-child {
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.8rem;
 }
 
 .de-platform-horizontal-content > p:first-child a {
-  color: var(--de-blue) !important;
-  font-size: 1.15rem;
+  color: #1672bd !important;
+  font-size: 1.05rem;
   font-weight: 800;
   text-decoration: none;
 }
 
 .de-platform-horizontal-content > p:first-child a:hover {
-  color: var(--de-orange) !important;
+  color: #ff7900 !important;
   text-decoration: underline;
 }
 
 .de-platform-horizontal-content p {
-  margin-top: 0;
-  margin-bottom: 0.9rem;
-  color: var(--de-text);
-  line-height: 1.55;
+  margin: 0 0 0.8rem;
+  color: #111827 !important;
+  font-size: 1rem;
+  line-height: 1.5;
 }
+
+
+/* MORE button */
 
 .de-platform-more-button {
   align-self: flex-start;
-  margin-top: 0.15rem;
-  padding: 0.65rem 1rem !important;
+  margin-top: 0.1rem;
+  padding: 0.65rem 1.05rem !important;
   color: #ffffff !important;
   background: #356da7 !important;
   border: 1px solid #356da7 !important;
   border-radius: 0 !important;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 800;
+  line-height: 1.2;
   text-decoration: none !important;
+}
+
+.de-platform-more-button:visited {
+  color: #ffffff !important;
 }
 
 .de-platform-more-button:hover,
 .de-platform-more-button:focus {
   color: #ffffff !important;
-  background: var(--de-blue) !important;
-  border-color: var(--de-blue) !important;
+  background: #0b55a0 !important;
+  border-color: #0b55a0 !important;
 }
 
-html[data-theme="dark"] .de-platform-horizontal-card,
-html[data-theme="dark"] .de-platform-horizontal-content {
-  color: #e5edf7;
+
+/* Remove unnecessary spacing inside grid items */
+
+.de-platform-horizontal-card .sd-col {
+  margin-bottom: 0 !important;
+}
+
+.de-platform-horizontal-content > :last-child {
+  margin-bottom: 0;
+}
+
+
+/* Dark mode */
+
+html[data-theme="dark"] .de-platform-horizontal-card {
   background: #172033;
   border-color: #334155;
 }
 
+html[data-theme="dark"] .de-platform-horizontal-content {
+  color: #ffffff;
+  background: #172033;
+}
+
 html[data-theme="dark"] .de-platform-horizontal-content p {
-  color: #e5edf7;
+  color: #e5edf7 !important;
+}
+
+html[data-theme="dark"]
+.de-platform-horizontal-content > p:first-child a {
+  color: #66b3ff !important;
 }
 
 html[data-theme="dark"] .de-platform-horizontal-media {
   background: #111827;
 }
 
-@media screen and (max-width: 767px) {
-  .de-platform-horizontal-media {
-    min-height: 180px;
-  }
 
+/* Mobile layout */
+
+@media screen and (max-width: 767px) {
+  .de-platform-horizontal-media,
   .de-platform-horizontal-media img {
-    height: 180px;
-    min-height: 180px;
+    height: 190px;
+    min-height: 190px;
   }
 
   .de-platform-horizontal-content {
