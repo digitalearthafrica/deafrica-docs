@@ -181,12 +181,6 @@ jobs:
           set -euo pipefail
           python upload_terms.py
 
-      - name: Automatically translate empty French terms
-        shell: bash
-        run: |
-          set -euo pipefail
-          python automatic_translate.py
-
       - name: Download French translations
         shell: bash
         run: |
