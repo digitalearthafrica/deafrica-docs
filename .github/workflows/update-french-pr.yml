@@ -186,35 +186,23 @@ jobs:
         run: |
           set -euo pipefail
           make fetchtranslation
-
-      - name: Verify downloaded French PO files
+      
+      - name: Normalize French PO files
         shell: bash
         run: |
           set -euo pipefail
-
-          echo "Downloaded French translation files:"
-          find locales/fr/LC_MESSAGES \
-            -type f \
-            -name "*.po" \
-            -print
-
-          if ! find locales/fr/LC_MESSAGES \
-            -type f \
-            -name "*.po" \
-            -print -quit |
-            grep -q .; then
-            echo "::error::No French PO files were downloaded."
-            exit 1
-          fi
-
+          python normalize_po_files.py
+      
       - name: Validate French PO files
         shell: bash
         run: |
           set -euo pipefail
-
+      
           while IFS= read -r -d '' po_file; do
             echo "Checking ${po_file}"
-            msgfmt --check \
+      
+            msgfmt \
+              --check \
               --check-format \
               --output-file=/dev/null \
               "${po_file}"
@@ -224,68 +212,68 @@ jobs:
               -name "*.po" \
               -print0
           )
-
-      - name: Compile French translation catalogues
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          python -m sphinx_intl build \
-            --locale-dir locales \
-            --language fr
-
-      - name: Build French documentation
-        shell: bash
-        env:
-          READTHEDOCS_LANGUAGE: fr
-        run: |
-          set -euo pipefail
-
-          rm -rf _build/html/fr
-
-          python -m sphinx \
-            -E \
-            -a \
-            -T \
-            -b html \
-            -D language=fr \
-            -D locale_dirs=locales \
-            . \
-            _build/html/fr
-
-      - name: Verify French HTML build
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          test -f _build/html/fr/index.html
-
-          echo "French documentation built successfully:"
-          echo "_build/html/fr/index.html"
-
-      - name: Commit French translations to PR branch
-        if: github.event_name == 'pull_request'
-        shell: bash
-        env:
-          PR_BRANCH: ${{ github.event.pull_request.head.ref }}
-        run: |
-          set -euo pipefail
-
-          git config user.name "github-actions[bot]"
-          git config user.email \
-            "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add locales/fr/LC_MESSAGES
-
-          if git diff --cached --quiet; then
-            echo "No French translation changes were found."
-            exit 0
-          fi
-
-          git commit \
-            -m "Update French translations for PR [skip french]"
-
-          git push origin "HEAD:${PR_BRANCH}"
+      
+            - name: Compile French translation catalogues
+              shell: bash
+              run: |
+                set -euo pipefail
+            
+                python -m sphinx_intl build \
+                  --locale-dir locales \
+                  --language fr
+      
+            - name: Build French documentation
+              shell: bash
+              env:
+                READTHEDOCS_LANGUAGE: fr
+              run: |
+                set -euo pipefail
+      
+                rm -rf _build/html/fr
+      
+                python -m sphinx \
+                  -E \
+                  -a \
+                  -T \
+                  -b html \
+                  -D language=fr \
+                  -D locale_dirs=locales \
+                  . \
+                  _build/html/fr
+      
+            - name: Verify French HTML build
+              shell: bash
+              run: |
+                set -euo pipefail
+      
+                test -f _build/html/fr/index.html
+      
+                echo "French documentation built successfully:"
+                echo "_build/html/fr/index.html"
+      
+            - name: Commit French translations to PR branch
+              if: github.event_name == 'pull_request'
+              shell: bash
+              env:
+                PR_BRANCH: ${{ github.event.pull_request.head.ref }}
+              run: |
+                set -euo pipefail
+      
+                git config user.name "github-actions[bot]"
+                git config user.email \
+                  "41898282+github-actions[bot]@users.noreply.github.com"
+      
+                git add locales/fr/LC_MESSAGES
+      
+                if git diff --cached --quiet; then
+                  echo "No French translation changes were found."
+                  exit 0
+                fi
+      
+                git commit \
+                  -m "Update French translations for PR [skip french]"
+      
+                git push origin "HEAD:${PR_BRANCH}"
 
       - name: Upload French HTML preview
         uses: actions/upload-artifact@v7
