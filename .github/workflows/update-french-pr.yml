@@ -1,4 +1,4 @@
-name: Update French translation for PR
+name: Update French translations for PR
 
 on:
   pull_request:
@@ -6,39 +6,59 @@ on:
       - main
     types:
       - opened
-      - synchronize
       - reopened
+      - synchronize
+
+  workflow_dispatch:
 
 permissions:
   contents: write
-  pull-requests: write
+  pull-requests: read
 
 concurrency:
-  group: french-pr-${{ github.event.pull_request.number }}
+  group: french-pr-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
 jobs:
   update-french:
-    name: Translate and update French files
+    name: Translate and validate French documentation
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
 
-    # Do not expose POEditor credentials to pull requests from forks.
-    if: github.event.pull_request.head.repo.full_name == github.repository
+    # Repository secrets are unavailable to pull requests from forks.
+    # Also skip the extra run caused by the workflow's own translation commit.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (
+        github.event.pull_request.head.repo.full_name == github.repository &&
+        github.actor != 'github-actions[bot]'
+      )
 
     env:
       POEDITOR_PROJECT_ID: ${{ secrets.POEDITOR_PROJECT_ID }}
       POEDITOR_API_TOKEN: ${{ secrets.POEDITOR_API_TOKEN }}
+
       POEDITOR_SOURCE_LANGUAGE: en
       POEDITOR_TARGET_LANGUAGE: fr
+
+      # Supported values include google, microsoft, and deepl.
       POEDITOR_TRANSLATION_PROVIDER: deepl
 
     steps:
-      - name: Check out the pull-request branch
-        uses: actions/checkout@v4
+      - name: Check out pull-request branch
+        if: github.event_name == 'pull_request'
+        uses: actions/checkout@v6
         with:
-          ref: ${{ github.event.pull_request.head.ref }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Check out selected branch
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.ref_name }}
           fetch-depth: 0
           persist-credentials: true
 
@@ -50,7 +70,10 @@ jobs:
           cache-dependency-path: requirements.txt
 
       - name: Install system dependencies
+        shell: bash
         run: |
+          set -euo pipefail
+
           sudo apt-get update
           sudo apt-get install --yes \
             gettext \
@@ -58,16 +81,43 @@ jobs:
             pandoc
 
       - name: Install Python dependencies
+        shell: bash
         run: |
+          set -euo pipefail
+
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
-      - name: Fetch notebooks and install tools
-        run: make buildtools
-
-      - name: Build English translation terms
+      - name: Verify POEditor secrets
+        shell: bash
         run: |
+          set -euo pipefail
+
+          if [ -z "${POEDITOR_PROJECT_ID:-}" ]; then
+            echo "::error::POEDITOR_PROJECT_ID is not configured."
+            exit 1
+          fi
+
+          if [ -z "${POEDITOR_API_TOKEN:-}" ]; then
+            echo "::error::POEDITOR_API_TOKEN is not configured."
+            exit 1
+          fi
+
+      - name: Fetch notebooks and install notebook tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          make buildtools
+
+      - name: Build Sphinx gettext catalogues
+        shell: bash
+        env:
+          GITHUB_ACTIONS: "True"
+        run: |
+          set -euo pipefail
+
           rm -rf _build/gettext
+          mkdir -p _build/gettext
 
           python -m sphinx \
             -E \
@@ -77,9 +127,31 @@ jobs:
             . \
             _build/gettext
 
+      - name: Verify generated POT files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "Generated POT files:"
+          find _build/gettext \
+            -type f \
+            -name "*.pot" \
+            -print
+
+          if ! find _build/gettext \
+            -type f \
+            -name "*.pot" \
+            -print -quit |
+            grep -q .; then
+            echo "::error::No POT files were generated."
+            exit 1
+          fi
+
       - name: Merge POT files
         shell: bash
         run: |
+          set -euo pipefail
+
           mapfile -d '' POT_FILES < <(
             find _build/gettext \
               -type f \
@@ -89,7 +161,7 @@ jobs:
           )
 
           if [ "${#POT_FILES[@]}" -eq 0 ]; then
-            echo "No POT files were generated."
+            echo "::error::No POT files were available for merging."
             exit 1
           fi
 
@@ -100,22 +172,111 @@ jobs:
 
           test -s _build/docs.pot
 
+          echo "Merged translation template:"
+          ls -lh _build/docs.pot
+
       - name: Upload English terms to POEditor
-        run: python upload_terms.py
-
-      - name: Automatically translate empty French terms
-        run: python automatic_translate.py
-
-      - name: Download French translations
-        run: python download_translations.py
-
-      - name: Verify French translation file
-        run: |
-          test -f locales/fr/LC_MESSAGES/docs.po
-
-      - name: Commit updated French translations
         shell: bash
         run: |
+          set -euo pipefail
+          python upload_terms.py
+
+      - name: Automatically translate empty French terms
+        shell: bash
+        run: |
+          set -euo pipefail
+          python automatic_translate.py
+
+      - name: Download French translations
+        shell: bash
+        run: |
+          set -euo pipefail
+          make fetchtranslation
+
+      - name: Verify downloaded French PO files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "Downloaded French translation files:"
+          find locales/fr/LC_MESSAGES \
+            -type f \
+            -name "*.po" \
+            -print
+
+          if ! find locales/fr/LC_MESSAGES \
+            -type f \
+            -name "*.po" \
+            -print -quit |
+            grep -q .; then
+            echo "::error::No French PO files were downloaded."
+            exit 1
+          fi
+
+      - name: Validate French PO files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          while IFS= read -r -d '' po_file; do
+            echo "Checking ${po_file}"
+            msgfmt --check \
+              --check-format \
+              --output-file=/dev/null \
+              "${po_file}"
+          done < <(
+            find locales/fr/LC_MESSAGES \
+              -type f \
+              -name "*.po" \
+              -print0
+          )
+
+      - name: Compile French translation catalogues
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python -m sphinx_intl build \
+            --locale-dir locales \
+            --language fr
+
+      - name: Build French documentation
+        shell: bash
+        env:
+          READTHEDOCS_LANGUAGE: fr
+        run: |
+          set -euo pipefail
+
+          rm -rf _build/html/fr
+
+          python -m sphinx \
+            -E \
+            -a \
+            -T \
+            -b html \
+            -D language=fr \
+            -D locale_dirs=locales \
+            . \
+            _build/html/fr
+
+      - name: Verify French HTML build
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          test -f _build/html/fr/index.html
+
+          echo "French documentation built successfully:"
+          echo "_build/html/fr/index.html"
+
+      - name: Commit French translations to PR branch
+        if: github.event_name == 'pull_request'
+        shell: bash
+        env:
+          PR_BRANCH: ${{ github.event.pull_request.head.ref }}
+        run: |
+          set -euo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email \
             "41898282+github-actions[bot]@users.noreply.github.com"
@@ -127,5 +288,15 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update French translations for PR"
-          git push origin HEAD:${{ github.event.pull_request.head.ref }}
+          git commit \
+            -m "Update French translations for PR [skip french]"
+
+          git push origin "HEAD:${PR_BRANCH}"
+
+      - name: Upload French HTML preview
+        uses: actions/upload-artifact@v7
+        with:
+          name: french-documentation-preview-${{ github.event.pull_request.number || github.run_number }}
+          path: _build/html/fr
+          if-no-files-found: error
+          retention-days: 7
