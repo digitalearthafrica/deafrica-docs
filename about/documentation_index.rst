@@ -1,13 +1,7 @@
-:orphan:
-
 Documentation Index
 ===================
 
-.. raw:: html
+Use the link below to open the complete alphabetical index of terms,
+topics, datasets, tools, and documentation pages.
 
-   <meta http-equiv="refresh" content="0; url=../genindex.html">
-
-   <p>
-     Redirecting to the
-     <a href="../genindex.html">Documentation Index</a>.
-   </p>
+`Open the Documentation Index <../genindex.html>`_

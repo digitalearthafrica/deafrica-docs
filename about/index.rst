@@ -6,9 +6,9 @@ explore training resources, and review key terminology.
 
 .. toctree::
    :maxdepth: 1
-   :caption: 
+   :caption:
 
    Contact & Help <contact>
    Training Courses <training>
    Glossary <glossary>
-   Index <documentation_index>
+   Documentation Index <documentation_index>
