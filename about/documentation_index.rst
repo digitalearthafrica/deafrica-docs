@@ -1,7 +1,7 @@
 Documentation Index
 ===================
 
-Use the link below to open the complete alphabetical index of terms,
-topics, datasets, tools, and documentation pages.
+The documentation index provides an alphabetical list of terms, topics,
+datasets, tools, and pages included in the Digital Earth Africa documentation.
 
-`Open the Documentation Index <../genindex.html>`_
+`Open the complete Documentation Index <../genindex.html>`_

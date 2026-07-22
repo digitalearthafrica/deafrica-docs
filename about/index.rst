@@ -6,7 +6,7 @@ explore training resources, and review key terminology.
 
 .. toctree::
    :maxdepth: 1
-   :caption:
+   :caption: About
 
    Contact & Help <contact>
    Training Courses <training>
