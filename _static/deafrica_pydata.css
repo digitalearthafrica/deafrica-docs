@@ -702,3 +702,29 @@ html[data-theme="dark"] .bd-article table.genindextable ul ul {
     margin-bottom: 1rem;
   }
 }
+/* Make generated index entries white */
+
+.bd-article table.genindextable,
+.bd-article table.genindextable td,
+.bd-article table.genindextable li,
+.bd-article table.genindextable span,
+.bd-article table.genindextable strong {
+  color: #ffffff !important;
+}
+
+.bd-article table.genindextable a,
+.bd-article table.genindextable a:visited {
+  color: #ffffff !important;
+}
+
+.bd-article table.genindextable a:hover,
+.bd-article table.genindextable a:focus {
+  color: #ffb800 !important;
+  text-decoration: underline;
+}
+
+/* Nested index entries */
+.bd-article table.genindextable ul ul,
+.bd-article table.genindextable ul ul li {
+  color: #ffffff !important;
+}
