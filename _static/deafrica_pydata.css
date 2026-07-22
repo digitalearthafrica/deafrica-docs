@@ -728,3 +728,16 @@ html[data-theme="dark"] .bd-article table.genindextable ul ul {
 .bd-article table.genindextable ul ul li {
   color: #ffffff !important;
 }
+
+/* Reduce empty space around platform card images */
+.de-home-card .sd-card-img-top,
+.de-platform-card .sd-card-img-top {
+  display: block;
+  width: 100%;
+  height: 170px;
+  padding: 0.5rem;
+  object-fit: contain;
+  object-position: center;
+  background: #ffffff;
+  border-bottom: 1px solid var(--de-border);
+}
