@@ -576,150 +576,129 @@ html[data-theme="dark"] .de-home-card .sd-card-footer a {
    Sphinx-generated documentation index
    ========================================================== */
 
-/* Main index container */
 .bd-article .genindex-jumpbox {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.45rem;
-    margin: 1.25rem 0 2rem;
-    padding: 1rem;
-    background: #f8fafc;
-    border: 1px solid #d8e0ea;
-    border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.25rem 0 2rem;
+  padding: 1rem;
+  background: #172033 !important;
+  border: 1px solid #334155 !important;
+  border-radius: 10px;
 }
 
-/* Alphabet links */
 .bd-article .genindex-jumpbox a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 2.15rem;
-    min-height: 2.15rem;
-    padding: 0.3rem 0.55rem;
-    color: #0b55a0 !important;
-    background: #ffffff;
-    border: 1px solid #cbd5e1;
-    border-radius: 6px;
-    font-weight: 800;
-    text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.15rem;
+  min-height: 2.15rem;
+  padding: 0.3rem 0.55rem;
+  color: #ffffff !important;
+  background: #172033 !important;
+  border: 1px solid #475569 !important;
+  border-radius: 6px;
+  font-weight: 800;
+  text-decoration: none !important;
 }
 
-.bd-article .genindex-jumpbox a:hover {
-    color: #ffffff !important;
-    background: #0b55a0;
-    border-color: #0b55a0;
+.bd-article .genindex-jumpbox a:visited {
+  color: #ffffff !important;
 }
 
-/* Letter headings */
+.bd-article .genindex-jumpbox a:hover,
+.bd-article .genindex-jumpbox a:focus {
+  color: #ffffff !important;
+  background: var(--de-blue) !important;
+  border-color: #60a5fa !important;
+  outline: none;
+}
+
 .bd-article .genindex-jumpbox + h2,
 .bd-article .genindex-jumpbox ~ h2 {
-    margin-top: 2rem;
-    padding: 0.6rem 0.85rem;
-    color: #082553;
-    background: #eef6ff;
-    border-left: 5px solid #0b55a0;
-    border-radius: 6px;
-    font-size: 1.45rem;
+  margin-top: 2rem;
+  padding: 0.6rem 0.85rem;
+  color: var(--de-navy);
+  background: #eef6ff;
+  border-left: 5px solid var(--de-blue);
+  border-radius: 6px;
+  font-size: 1.45rem;
 }
 
-/* Index tables */
 .bd-article table.genindextable {
-    width: 100%;
-    margin: 0 0 2rem;
-    border-collapse: separate;
-    border-spacing: 1rem 0.75rem;
+  width: 100%;
+  margin: 0 0 2rem;
+  border-collapse: separate;
+  border-spacing: 1rem 0.75rem;
 }
 
-/* Each alphabetical column */
 .bd-article table.genindextable td {
-    width: 50%;
-    padding: 1rem 1.1rem;
-    vertical-align: top;
-    background: #ffffff;
-    border: 1px solid #d8e0ea;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(15, 35, 70, 0.04);
+  width: 50%;
+  padding: 1rem 1.1rem;
+  vertical-align: top;
+  background: #ffffff;
+  border: 1px solid var(--de-border);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(15, 35, 70, 0.04);
 }
 
-/* Remove default list indentation */
 .bd-article table.genindextable ul {
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
-/* Main index term */
 .bd-article table.genindextable > tbody > tr > td > ul > li {
-    margin-bottom: 0.7rem;
-    color: #0d2347;
-    font-weight: 700;
+  margin-bottom: 0.7rem;
+  color: var(--de-text);
+  font-weight: 700;
 }
 
-/* Nested references */
 .bd-article table.genindextable ul ul {
-    margin-top: 0.35rem;
-    padding-left: 1rem;
-    border-left: 2px solid #e2e8f0;
+  margin-top: 0.35rem;
+  padding-left: 1rem;
+  border-left: 2px solid #e2e8f0;
 }
 
 .bd-article table.genindextable ul ul li {
-    margin: 0.25rem 0;
-    font-weight: 400;
+  margin: 0.25rem 0;
+  font-weight: 400;
 }
 
-/* Links */
 .bd-article table.genindextable a {
-    color: #0b55a0;
-    text-decoration: none;
+  color: var(--de-blue);
+  text-decoration: none;
 }
 
 .bd-article table.genindextable a:hover {
-    color: #ff7900;
-    text-decoration: underline;
-}
-
-/* Reference numbers such as [1], [2] */
-.bd-article table.genindextable a[href*="#"] {
-    font-weight: 600;
-}
-
-/* Dark-mode support */
-html[data-theme="dark"] .bd-article .genindex-jumpbox {
-    background: #172033;
-    border-color: #334155;
-}
-
-html[data-theme="dark"] .bd-article .genindex-jumpbox a {
-    color: #66b3ff !important;
-    background: #111827;
-    border-color: #475569;
+  color: var(--de-orange);
+  text-decoration: underline;
 }
 
 html[data-theme="dark"] .bd-article table.genindextable td {
-    color: #e5edf7;
-    background: #172033;
-    border-color: #334155;
+  color: #e5edf7;
+  background: #172033;
+  border-color: #334155;
 }
 
 html[data-theme="dark"] .bd-article table.genindextable ul ul {
-    border-left-color: #475569;
+  border-left-color: #475569;
 }
 
-/* Mobile layout */
 @media screen and (max-width: 760px) {
-    .bd-article table.genindextable,
-    .bd-article table.genindextable tbody,
-    .bd-article table.genindextable tr,
-    .bd-article table.genindextable td {
-        display: block;
-        width: 100%;
-    }
+  .bd-article table.genindextable,
+  .bd-article table.genindextable tbody,
+  .bd-article table.genindextable tr,
+  .bd-article table.genindextable td {
+    display: block;
+    width: 100%;
+  }
 
-    .bd-article table.genindextable {
-        border-spacing: 0;
-    }
+  .bd-article table.genindextable {
+    border-spacing: 0;
+  }
 
-    .bd-article table.genindextable td {
-        margin-bottom: 1rem;
-    }
+  .bd-article table.genindextable td {
+    margin-bottom: 1rem;
+  }
 }
