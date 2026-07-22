@@ -741,3 +741,122 @@ html[data-theme="dark"] .bd-article table.genindextable ul ul {
   background: #ffffff;
   border-bottom: 1px solid var(--de-border);
 }
+
+/* ==========================================================
+   Horizontal platform cards
+   ========================================================== */
+
+.de-platform-horizontal-card {
+  overflow: hidden;
+  margin: 1rem 0 2rem;
+  background: #ffffff;
+  border: 1px solid var(--de-border);
+  border-radius: 9px;
+  box-shadow: 0 3px 12px rgba(15, 35, 70, 0.07);
+}
+
+.de-platform-horizontal-card > .sd-row {
+  align-items: stretch;
+  margin: 0;
+}
+
+.de-platform-horizontal-media {
+  display: flex;
+  min-height: 185px;
+  padding: 0 !important;
+  background: #f8fafc;
+}
+
+.de-platform-horizontal-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 185px;
+  margin: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+.de-platform-horizontal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 185px;
+  padding: 1.25rem 1.5rem !important;
+  color: var(--de-text);
+  background: #ffffff;
+}
+
+.de-platform-horizontal-content > p:first-child {
+  margin: 0 0 0.75rem;
+}
+
+.de-platform-horizontal-content > p:first-child a {
+  color: var(--de-blue) !important;
+  font-size: 1.15rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.de-platform-horizontal-content > p:first-child a:hover {
+  color: var(--de-orange) !important;
+  text-decoration: underline;
+}
+
+.de-platform-horizontal-content p {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+  color: var(--de-text);
+  line-height: 1.55;
+}
+
+.de-platform-more-button {
+  align-self: flex-start;
+  margin-top: 0.15rem;
+  padding: 0.65rem 1rem !important;
+  color: #ffffff !important;
+  background: #356da7 !important;
+  border: 1px solid #356da7 !important;
+  border-radius: 0 !important;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+
+.de-platform-more-button:hover,
+.de-platform-more-button:focus {
+  color: #ffffff !important;
+  background: var(--de-blue) !important;
+  border-color: var(--de-blue) !important;
+}
+
+html[data-theme="dark"] .de-platform-horizontal-card,
+html[data-theme="dark"] .de-platform-horizontal-content {
+  color: #e5edf7;
+  background: #172033;
+  border-color: #334155;
+}
+
+html[data-theme="dark"] .de-platform-horizontal-content p {
+  color: #e5edf7;
+}
+
+html[data-theme="dark"] .de-platform-horizontal-media {
+  background: #111827;
+}
+
+@media screen and (max-width: 767px) {
+  .de-platform-horizontal-media {
+    min-height: 180px;
+  }
+
+  .de-platform-horizontal-media img {
+    height: 180px;
+    min-height: 180px;
+  }
+
+  .de-platform-horizontal-content {
+    min-height: auto;
+    padding: 1.1rem 1.25rem !important;
+  }
+}
