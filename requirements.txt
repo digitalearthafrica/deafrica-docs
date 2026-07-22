@@ -22,3 +22,4 @@ sphinxcontrib-spelling>=8,<9
 # POEditor integration
 poeditor>=1.1
 requests
+polib>=1.2
