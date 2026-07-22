@@ -1014,3 +1014,23 @@ html[data-theme="dark"] .de-platform-horizontal-media {
     transform: none;
   }
 }
+
+.de-home-card {
+  overflow: hidden;
+}
+
+.de-home-card .sd-card-img-top {
+  display: block;
+  width: 100%;
+  height: 220px;
+  padding: 0;
+  object-fit: cover;
+  object-position: center;
+  background: #172033;
+  border-bottom: 1px solid #334155;
+  transition: transform 0.3s ease;
+}
+
+.de-home-card:hover .sd-card-img-top {
+  transform: scale(1.03);
+}
