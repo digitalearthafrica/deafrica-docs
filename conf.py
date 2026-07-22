@@ -214,6 +214,8 @@ html_js_files = [
 ]
 
 html_use_index = True
+html_split_index = True
+html_domain_indices = False
 html_show_sourcelink = False
 
 html_baseurl = os.environ.get(
