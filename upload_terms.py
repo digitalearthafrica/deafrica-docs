@@ -1,160 +1,138 @@
-"""Upload a Sphinx POT file to POEditor and synchronise project terms."""
-
-from __future__ import annotations
-
-import logging
 import os
+import sys
 from pathlib import Path
 from typing import Any
 
-from poeditor import POEditorAPI
+import requests
 
 
-LOGGER = logging.getLogger(__name__)
+POEDITOR_UPLOAD_URL = (
+    "https://api.poeditor.com/v2/projects/upload"
+)
 
 POT_FILE = Path("_build/docs.pot")
 
 
-def get_required_env(name: str) -> str:
+def require_environment_variable(name: str) -> str:
     """Return a required environment variable."""
-    value = os.getenv(name)
+    value = os.environ.get(name)
 
     if not value:
         raise RuntimeError(
-            f"Required environment variable {name!r} is not set."
+            f"{name} is not configured."
         )
 
     return value
 
 
-def get_project_details(
-    client: POEditorAPI,
-    project_id: int,
-) -> dict[str, Any]:
-    """Retrieve and validate POEditor project details."""
-    project = client.view_project_details(project_id)
-
-    if not isinstance(project, dict):
-        raise RuntimeError(
-            "POEditor returned an unexpected project-details response."
-        )
-
-    return project
-
-
-def print_project_summary(
-    project: dict[str, Any],
-    label: str,
-) -> None:
-    """Print a concise project summary."""
-    name = project.get("name", "Unknown project")
-    project_id = project.get("id", "unknown")
-    terms = project.get("terms", "unknown")
-
-    print(
-        f"{label}: {name} "
-        f"(ID: {project_id}) has {terms} terms."
-    )
-
-
-def update_project_terms(
-    client: POEditorAPI,
-    project_id: int,
+def upload_terms(
+    api_token: str,
+    project_id: str,
     pot_file: Path,
-    *,
-    sync_terms: bool = True,
 ) -> dict[str, Any]:
-    """Upload a POT file and update POEditor terms."""
-    pot_file = pot_file.expanduser().resolve()
+    """Upload a POT file to POEditor."""
 
     if not pot_file.is_file():
         raise FileNotFoundError(
-            f"POT file was not found: {pot_file}"
+            f"POT file not found: {pot_file}"
         )
 
-    LOGGER.info("Uploading translation terms from %s", pot_file)
-
-    result = client.update_terms(
-        project_id=project_id,
-        file_path=str(pot_file),
-        sync_terms=sync_terms,
-    )
-
-    if not isinstance(result, dict):
+    if pot_file.stat().st_size == 0:
         raise RuntimeError(
-            "POEditor returned an unexpected update response."
+            f"POT file is empty: {pot_file}"
+        )
+
+    data = {
+        "api_token": api_token,
+        "id": project_id,
+        "updating": "terms",
+
+        # Delete POEditor terms that no longer exist in the POT file.
+        "sync_terms": "1",
+
+        # Explicitly identify the file as a Gettext POT catalogue.
+        "type": "pot",
+    }
+
+    with pot_file.open("rb") as file_handle:
+        files = {
+            "file": (
+                pot_file.name,
+                file_handle,
+                "text/x-gettext-translation-template",
+            ),
+        }
+
+        response = requests.post(
+            POEDITOR_UPLOAD_URL,
+            data=data,
+            files=files,
+            timeout=180,
+        )
+
+    response.raise_for_status()
+
+    result = response.json()
+    api_response = result.get("response", {})
+
+    if api_response.get("status") != "success":
+        message = api_response.get(
+            "message",
+            "Unknown POEditor API error.",
+        )
+
+        raise RuntimeError(
+            f"POEditor upload failed: {message}"
         )
 
     return result
 
 
-def print_update_results(result: dict[str, Any]) -> None:
-    """Display the term-update statistics."""
-    terms = result.get("terms")
-
-    if not isinstance(terms, dict):
-        LOGGER.warning(
-            "No term statistics were returned by POEditor."
-        )
-        return
-
-    print("Terms updated:")
-
-    for key, value in terms.items():
-        print(f"  {key}: {value}")
-
-
 def main() -> None:
-    """Synchronise Sphinx translation terms with POEditor."""
-    project_id_text = get_required_env("POEDITOR_PROJECT_ID")
-    api_token = get_required_env("POEDITOR_API_TOKEN")
+    """Upload the generated documentation terms."""
 
-    try:
-        project_id = int(project_id_text)
-    except ValueError as exc:
-        raise RuntimeError(
-            "POEDITOR_PROJECT_ID must be a valid integer."
-        ) from exc
-
-    client = POEditorAPI(api_token=api_token)
-
-    project_before = get_project_details(
-        client,
-        project_id,
+    api_token = require_environment_variable(
+        "POEDITOR_API_TOKEN"
     )
-    print_project_summary(
-        project_before,
-        "Before update",
+    project_id = require_environment_variable(
+        "POEDITOR_PROJECT_ID"
     )
 
-    update_results = client.update_terms(
-    project_id=project_id,
-    file_path=str(POT_FILE),
-    sync_terms=True,
-    
+    print(
+        f"Uploading translation terms from {POT_FILE}..."
     )
-    print_update_results(update_result)
 
-    project_after = get_project_details(
-        client,
-        project_id,
+    result = upload_terms(
+        api_token=api_token,
+        project_id=project_id,
+        pot_file=POT_FILE,
     )
-    print_project_summary(
-        project_after,
-        "After update",
+
+    terms = (
+        result.get("result", {})
+        .get("terms", {})
+    )
+
+    print("POEditor terms uploaded successfully.")
+    print(
+        "Parsed: "
+        f"{terms.get('parsed', 0)}, "
+        "Added: "
+        f"{terms.get('added', 0)}, "
+        "Updated: "
+        f"{terms.get('updated', 0)}, "
+        "Deleted: "
+        f"{terms.get('deleted', 0)}"
     )
 
 
 if __name__ == "__main__":
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(levelname)s: %(message)s",
-    )
-
     try:
         main()
-    except Exception:
-        LOGGER.exception(
-            "Failed to update POEditor terms."
+    except Exception as error:
+        print(
+            f"ERROR: Failed to update POEditor terms: "
+            f"{error}",
+            file=sys.stderr,
         )
         raise
