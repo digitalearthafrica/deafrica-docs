@@ -9,13 +9,28 @@ decision-ready products across Africa.
 
 
 .. toctree::
+   :caption: MAPS AND VISUALISATION
    :hidden:
-   :maxdepth: 2
+   :maxdepth: 1
 
    DE Africa Map <deafrica_map>
+   Africa GeoPortal <../maps/geoportal>
+
+
+.. toctree::
+   :caption: ANALYSIS AND DATA DISCOVERY
+   :hidden:
+   :maxdepth: 1
+
    Digital Earth Africa Sandbox <../sandbox/index>
    Digital Earth Africa Metadata Explorer <metadata_explorer>
-   Africa GeoPortal <../maps/geoportal>
+
+
+.. toctree::
+   :caption: LOCAL DEPLOYMENT
+   :hidden:
+   :maxdepth: 1
+
    Cube in a Box <cube-in-a-box>
 
 
