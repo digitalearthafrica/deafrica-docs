@@ -3,9 +3,6 @@
 Digital Earth Africa User Guide
 ===============================
 
-Access Digital Earth Africa data, platforms, analytical tools, technical
-documentation, and service information.
-
 .. meta::
    :page-id: home
 
@@ -23,18 +20,14 @@ documentation, and service information.
    About <about/index>
 
 
-About This Documentation
+
 ------------------------
 
 .. admonition:: Documentation information
    :class: de-info-panel
 
-   The Digital Earth Africa documentation provides guidance for accessing
-   datasets, using platforms, connecting to direct-access services, working
-   with notebooks, and reviewing current service information.
-
-   It is regularly updated to reflect changes to datasets, platforms,
-   analytical tools, technical services, and operational systems.
+    Digital Earth Africa provides free and open access to Earth observation data, products, and analysis tools for Africa.
+    Use this guide to find data, explore DE Africa platforms, access data directly, and check current service information.
 
 
 
@@ -51,12 +44,11 @@ Documentation Sections
       :link-type: doc
       :class-card: de-home-card de-data-card
 
-      Explore datasets, product specifications, measurements, availability,
-      and operational services.
+      Find available datasets, product information, measurements, and data availability.
 
       +++
 
-      **Explore Data and Products →**
+      **Explore →**
 
 
    .. grid-item-card:: Platforms
@@ -65,8 +57,7 @@ Documentation Sections
       :link-type: doc
       :class-card: de-home-card de-platform-card
 
-      Access documentation for the Analysis Sandbox, DE Africa Map, and other
-      Digital Earth Africa platforms.
+      Use DE Africa-hosted tools to explore, visualise, and analyse Earth observation data.
 
       +++
 
@@ -79,8 +70,7 @@ Documentation Sections
       :link-type: doc
       :class-card: de-home-card de-access-card
 
-      Learn how to access Digital Earth Africa data through supported APIs,
-      tools, services, and external environments.
+      Connect DE Africa data to your own Python environment, GIS software, or cloud workflow.
 
       +++
 
@@ -93,8 +83,7 @@ Documentation Sections
       :link-type: doc
       :class-card: de-home-card de-status-card
 
-      Review active disruptions, planned maintenance, resolved incidents,
-      data-pipeline notices, and software updates.
+      Check current service disruptions, maintenance and data notices.
 
       +++
 
