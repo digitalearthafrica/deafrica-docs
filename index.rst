@@ -3,6 +3,9 @@
 Digital Earth Africa User Guide
 ===============================
 
+Digital Earth Africa provides free and open access to Earth observation data, products, and analysis tools for Africa.
+Use this guide to explore DE Africa datasets, platforms, analytical tools, direct-access services, technical documentation, and service information.
+
 .. meta::
    :page-id: home
 
@@ -18,17 +21,6 @@ Digital Earth Africa User Guide
    Direct Access <platform_tools/index_direct_access>
    Tech Alert <service_status/index>
    About <about/index>
-
-
-
-------------------------
-
-.. admonition:: Documentation information
-   :class: de-info-panel
-
-    Digital Earth Africa provides free and open access to Earth observation data, products, and analysis tools for Africa.
-    Use this guide to find data, explore DE Africa platforms, access data directly, and check current service information.
-
 
 
 Documentation Sections
@@ -61,7 +53,7 @@ Documentation Sections
 
       +++
 
-      **Explore Platforms →**
+      **Explore →**
 
 
    .. grid-item-card:: Direct Access
@@ -74,7 +66,7 @@ Documentation Sections
 
       +++
 
-      **Explore Direct Access →**
+      **Explore →**
 
 
    .. grid-item-card:: Tech Alerts
@@ -83,7 +75,7 @@ Documentation Sections
       :link-type: doc
       :class-card: de-home-card de-status-card
 
-      Check current service disruptions, maintenance and data notices.
+      Check current service disruptions, maintenance notices, and data availability issues.
 
       +++
 
