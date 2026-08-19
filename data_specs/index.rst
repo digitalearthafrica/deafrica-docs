@@ -403,6 +403,7 @@ Satellite images
     Sentinel-1_specs
     Sentinel-2_Level-2A_specs
     Sentinel-3_OLCI_L2_LAND_specs
+    Sentinel-3_OLCI_L2_WATER_specs
     Sentinel-5P_specs
    
 .. container:: product-list
@@ -457,6 +458,16 @@ Satellite images
        Sentinel-3 monitors land with 300 m vegetation condition products.
 
        :doc:`More <Sentinel-3_OLCI_L2_LAND_specs>`
+
+    .. container:: product-item
+
+       .. image:: ../_static/data_specs/Sentinel-3_OLCI_L2_WATER_specs/S3_WATER_thumbnail.png
+
+       :doc:`Sentinel-3_OLCI_L2_WATER_specs`
+
+       Sentinel-3 monitors inland and coastal waters with 300 m water-quality products.
+
+       :doc:`More <Sentinel-3_OLCI_L2_WATER_specs>`
 
     .. container:: product-item
 
