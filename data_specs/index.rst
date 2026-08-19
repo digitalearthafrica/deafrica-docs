@@ -2,9 +2,8 @@
 
 Digital Earth Africa Data and Products
 ======================================
-
-Digital Earth Africa hosts a repository of Earth observation datasets and
-decision-ready products covering continental Africa.
+Digital Earth Africa provides Earth observation datasets and decision-ready products covering continental Africa. 
+These are organised into DE Africa Continental Services and external datasets made available through DE Africa.
 
 **Jump to:** `DE Africa Continental Services`_ | `External Datasets`_
 
@@ -12,12 +11,7 @@ decision-ready products covering continental Africa.
 DE Africa Continental Services
 ------------------------------
 
-Digital Earth Africa Continental Services are continental-scale products
-created by Digital Earth Africa from one or more external datasets using
-defined modelling, processing, and validation methods. These services are
-provided with specified update schedules and latency and may be updated
-continuously as new source data becomes available.
-
+These are datasets and products processed and maintained by Digital Earth Africa for consistent coverage across the African continent.
 
 Agriculture
 ^^^^^^^^^^^
@@ -41,7 +35,7 @@ Agriculture
 
       Estimated locations of croplands across Africa.
 
-      :doc:`More <Cropland_extent_specs>`
+      :doc:`View product details →<Cropland_extent_specs>`
 
 
 Coastal
@@ -64,10 +58,9 @@ Coastal
 
       :doc:`Digital Earth Africa Coastlines <Coastlines_specs>`
 
-      Annual shorelines and rates of coastal change along the African
-      coastline at 30 m resolution from 2000 to the present.
+      Annual shorelines and coastal-change rates across Africa at 30 m resolution from 2000 to the present.
 
-      :doc:`More <Coastlines_specs>`
+      :doc:`View product details →<Coastlines_specs>`
 
 
 Geomedians
@@ -90,10 +83,9 @@ Geomedians
 
       :doc:`GeoMAD <GeoMAD_specs>`
 
-      Cloud-free image composites derived from Landsat and Sentinel-2
-      observations.
+      Cloud-free image composites generated from Landsat and Sentinel-2 observations.
 
-      :doc:`More <GeoMAD_specs>`
+      :doc:`View product details →<GeoMAD_specs>`
 
 
 Surface Water
@@ -118,9 +110,9 @@ Surface Water
 
       :doc:`Water Observations from Space <Landsat_WOfS_specs>`
 
-      Individual, annual, and historical surface-water observations.
+      Individual, annual, and historical observations of surface water.
 
-      :doc:`More <Landsat_WOfS_specs>`
+      :doc:`View product details →<Landsat_WOfS_specs>`
 
 
    .. container:: product-item
@@ -131,10 +123,9 @@ Surface Water
 
       :doc:`Waterbodies <Waterbodies_specs>`
 
-      A continental collection of African waterbody locations and surface-area
-      change at 30 m resolution from 1987 to the present.
+      African waterbody locations and surface-area change at 30 m resolution from 1987 to the present.
 
-      :doc:`More <Waterbodies_specs>`
+      :doc:`View product details →<Waterbodies_specs>`
 
 
    .. container:: product-item
@@ -147,7 +138,7 @@ Surface Water
 
       Annual water-quality maps for African waterbodies from 2000 onward.
 
-      :doc:`More <Water_Quality_specs>`
+      :doc:`View product details →<Water_Quality_specs>`
 
 
 Vegetation
@@ -172,10 +163,9 @@ Vegetation
 
       :doc:`Fractional Cover <Fractional_Cover_specs>`
 
-      Green vegetation, non-green vegetation, and bare soil fractions for
-      Landsat observations.
+      Green vegetation, non-green vegetation, and bare-soil fractions derived from Landsat observations.
 
-      :doc:`More <Fractional_Cover_specs>`
+      :doc:`View product details →<Fractional_Cover_specs>`
 
 
    .. container:: product-item
@@ -186,10 +176,9 @@ Vegetation
 
       :doc:`NDVI Anomaly <NDVI_Anomaly_specs>`
 
-      Monthly mapping of vegetation condition compared with the long-term
-      baseline.
+      Monthly vegetation-condition maps compared with the long-term baseline.
 
-      :doc:`More <NDVI_Anomaly_specs>`
+      :doc:`View product details →<NDVI_Anomaly_specs>`
 
 
    .. container:: product-item
@@ -200,10 +189,9 @@ Vegetation
 
       :doc:`NDVI Climatology <NDVI_Climatology_specs>`
 
-      Long-term average vegetation condition for every Landsat pixel across
-      continental Africa.
+      Long-term average vegetation condition for Landsat pixels across continental Africa.
 
-      :doc:`More <NDVI_Climatology_specs>`
+      :doc:`View product details →<NDVI_Climatology_specs>`
 
 
 Elevation and Topography
@@ -226,18 +214,15 @@ Elevation and Topography
 
       :doc:`SRTM Digital Elevation Model <SRTM_DEM_specs>`
 
-      NASA Shuttle Radar Topography Mission Version 3.0 global 1 arc-second
-      elevation data, together with Digital Earth Africa SRTM-derived
-      products.
+      Elevation data from NASA’s Shuttle Radar Topography Mission, together with DE Africa-derived topographic products.
 
-      :doc:`More <SRTM_DEM_specs>`
+      :doc:`View product details →<SRTM_DEM_specs>`
 
 
 External Datasets
 -----------------
 
-External datasets are made available through Digital Earth Africa but are not
-produced or maintained by Digital Earth Africa.
+Datasets available through Digital Earth Africa but produced and maintained by external organisations.
 
 
 Agriculture
@@ -262,11 +247,9 @@ Agriculture
 
       :doc:`WaPOR <WaPOR_specs>`
 
-      FAO's Water Productivity through Open access of Remotely sensed derived
-      data service monitors agricultural water productivity across Africa and
-      the Near East.
+      FAO’s remotely sensed data service for monitoring agricultural water productivity across Africa and the Near East.
 
-      :doc:`More <WaPOR_specs>`
+      :doc:`View product details →<WaPOR_specs>`
 
 
    .. container:: product-item
@@ -278,10 +261,9 @@ Agriculture
       :doc:`DIWASA Blue and Green Evapotranspiration
       <DIWASA_Blue_and_Green_ET_specs>`
 
-      Blue evapotranspiration measures irrigation-driven water use, while green
-      evapotranspiration represents rainfall-driven water use.
+      Blue evapotranspiration represents irrigation-driven water use, while green evapotranspiration represents rainfall-driven water use.
 
-      :doc:`More <DIWASA_Blue_and_Green_ET_specs>`
+      :doc:`View product details →<DIWASA_Blue_and_Green_ET_specs>`
 
 
    .. container:: product-item
@@ -292,10 +274,9 @@ Agriculture
 
       :doc:`ESA WorldCereal <ESA_World_Cereal_specs>`
 
-      Seasonal cropland and crop-type maps derived from high-resolution
-      satellite observations.
+      Seasonal cropland and crop-type maps derived from high-resolution satellite observations.
 
-      :doc:`More <ESA_World_Cereal_specs>`
+      :doc:`View product details →<ESA_World_Cereal_specs>`
 
 
 Elevation and Topography
@@ -318,10 +299,9 @@ Elevation and Topography
 
       :doc:`Copernicus Digital Elevation Model <COP_DEM_specs>`
 
-      Copernicus elevation data with 30 m coverage in selected areas and
-      global coverage at 90 m resolution.
+      Copernicus elevation data with 30 m coverage in selected areas and global coverage at 90 m resolution.
 
-      :doc:`More <COP_DEM_specs>`
+      :doc:`View product details →<COP_DEM_specs>`
 
 
 Land Cover
@@ -350,7 +330,7 @@ Land Cover
 
       ESA Climate Change Initiative land-cover data at 300 m resolution.
 
-      :doc:`More <CCI_Landcover_specs>`
+      :doc:`View product details →<CCI_Landcover_specs>`
 
 
    .. container:: product-item
@@ -363,7 +343,7 @@ Land Cover
 
       Annual global land-cover layers at 100 m spatial resolution.
 
-      :doc:`More <CGLS_LULC_specs>`
+      :doc:`View product details →<CGLS_LULC_specs>`
 
 
    .. container:: product-item
@@ -376,7 +356,7 @@ Land Cover
 
       Global land-cover maps at 10 m resolution.
 
-      :doc:`More <ESA_WorldCover_specs>`
+      :doc:`View product details →<ESA_WorldCover_specs>`
 
 
    .. container:: product-item
@@ -387,9 +367,9 @@ Land Cover
 
       :doc:`Esri Global Land Use and Land Cover <IO_LULC_specs>`
 
-      A global 10 m land-use and land-cover time series.
+      Global 10 m land-use and land-cover time series.
 
-      :doc:`More <IO_LULC_specs>`
+      :doc:`View product details →<IO_LULC_specs>`
 
 
    .. container:: product-item
@@ -400,10 +380,9 @@ Land Cover
 
       :doc:`Africapolis Urbanisation Database <Africapolis_urban_specs>`
 
-      A standardised geospatial database for comparing urbanisation dynamics
-      across African countries and through time.
+      Standardised geospatial data for comparing urbanisation patterns across African countries and through time.
 
-      :doc:`More <Africapolis_urban_specs>`
+      :doc:`View product details →<Africapolis_urban_specs>`
 
 
 Meteorology
@@ -427,10 +406,9 @@ Meteorology
 
       :doc:`CHIRPS <CHIRPS_specs>`
 
-      Daily and monthly rainfall estimates derived from satellite observations
-      and rain-gauge measurements.
+      Daily and monthly rainfall estimates derived from satellite observations and rain-gauge measurements.
 
-      :doc:`More <CHIRPS_specs>`
+      :doc:`View product details →<CHIRPS_specs>`
 
 
    .. container:: product-item
@@ -441,10 +419,9 @@ Meteorology
 
       :doc:`ERA5 Climate Data <ERA5_Climate_Data_specs>`
 
-      Global climate reanalysis data provided by the Copernicus Climate Change
-      Service at ECMWF.
+      Global climate reanalysis data from the Copernicus Climate Change Service at ECMWF.
 
-      :doc:`More <ERA5_Climate_Data_specs>`
+      :doc:`View product details →<ERA5_Climate_Data_specs>`
 
 
 Satellite Images
@@ -474,7 +451,7 @@ Satellite Images
 
       Surface-reflectance imagery from Landsat 5, 7, 8, and 9.
 
-      :doc:`More <Landsat_C2_SR_specs>`
+      :doc:`View product details →<Landsat_C2_SR_specs>`
 
 
    .. container:: product-item
@@ -485,9 +462,9 @@ Satellite Images
 
       :doc:`Landsat Collection 2 Surface Temperature <Landsat_C2_ST_specs>`
 
-      Surface-temperature observations from Landsat 5, 7, 8, and 9.
+       Surface-temperature observations from Landsat 5, 7, 8, and 9.
 
-      :doc:`More <Landsat_C2_ST_specs>`
+      :doc:`View product details →<Landsat_C2_ST_specs>`
 
 
    .. container:: product-item
@@ -500,7 +477,7 @@ Satellite Images
 
       Synthetic Aperture Radar observations from Sentinel-1.
 
-      :doc:`More <Sentinel-1_specs>`
+      :doc:`View product details →<Sentinel-1_specs>`
 
 
    .. container:: product-item
@@ -513,7 +490,7 @@ Satellite Images
 
       Analysis-ready multispectral imagery from Sentinel-2.
 
-      :doc:`More <Sentinel-2_Level-2A_specs>`
+      :doc:`View product details →<Sentinel-2_Level-2A_specs>`
 
 
    .. container:: product-item
@@ -526,7 +503,7 @@ Satellite Images
 
       Land-monitoring products from Sentinel-3 OLCI at 300 m resolution.
 
-      :doc:`More <Sentinel-3_OLCI_L2_LAND_specs>`
+      :doc:`View product details →<Sentinel-3_OLCI_L2_LAND_specs>`
 
 
    .. container:: product-item
@@ -537,10 +514,9 @@ Satellite Images
 
       :doc:`Sentinel-5P <Sentinel-5P_specs>`
 
-      Atmospheric trace-gas and aerosol observations supporting air-quality
-      and pollution analysis.
+      Atmospheric trace-gas and aerosol observations for air-quality and pollution analysis.
 
-      :doc:`More <Sentinel-5P_specs>`
+      :doc:`View product details →<Sentinel-5P_specs>`
 
 
 Satellite Image Mosaics
@@ -565,10 +541,9 @@ Satellite Image Mosaics
 
       :doc:`ALOS PALSAR Annual Mosaics <ALOS_PALSAR_annual_mosaic_specs>`
 
-      Annual Synthetic Aperture Radar mosaics produced from JAXA ALOS PALSAR
-      observations.
+      Annual Synthetic Aperture Radar mosaics derived from JAXA ALOS PALSAR observations
 
-      :doc:`More <ALOS_PALSAR_annual_mosaic_specs>`
+      :doc:`View product details →<ALOS_PALSAR_annual_mosaic_specs>`
 
 
    .. container:: product-item
@@ -579,10 +554,9 @@ Satellite Image Mosaics
 
       :doc:`Sentinel-1 Monthly Mosaics <Sentinel-1_Monthly_Mosaic_specs>`
 
-      Monthly Sentinel-1 mosaics designed for time-series analysis and
-      integration with other datasets.
+      Monthly Sentinel-1 mosaics for time-series analysis and integration with other datasets.
 
-      :doc:`More <Sentinel-1_Monthly_Mosaic_specs>`
+      :doc:`View product details →<Sentinel-1_Monthly_Mosaic_specs>`
 
 
    .. container:: product-item
@@ -593,10 +567,9 @@ Satellite Image Mosaics
 
       :doc:`Planet NICFI Visual Mosaics <Planet_NICFI_specs>`
 
-      Optimised true-colour mosaics for visual display and interpretation
-      across tropical regions.
+      True-colour mosaics optimised for visual interpretation across tropical regions.
 
-      :doc:`More <Planet_NICFI_specs>`
+      :doc:`View product details →<Planet_NICFI_specs>`
 
 
 Surface Water
@@ -619,10 +592,9 @@ Surface Water
 
       :doc:`Lake Water Quality <CGLM_Lake_Water_Quality_specs>`
 
-      A semi-continuous water-quality observation record for medium and large
-      lakes across Africa.
+      Semi-continuous water-quality observations for medium and large lakes across Africa.
 
-      :doc:`More <CGLM_Lake_Water_Quality_specs>`
+      :doc:`View product details →<CGLM_Lake_Water_Quality_specs>`
 
 
 Urban
@@ -645,10 +617,9 @@ Urban
 
       :doc:`World Settlement Footprint <World_Settlement_Footprint_specs>`
 
-      Global settlement masks for 2015 and 2019 at 10 m resolution, together
-      with annual settlement-growth information at 30 m resolution.
+      Global settlement maps for 2015 and 2019 at 10 m resolution, with annual settlement-growth information at 30 m resolution.
 
-      :doc:`More <World_Settlement_Footprint_specs>`
+      :doc:`View product details →<World_Settlement_Footprint_specs>`
 
 
 Vegetation
@@ -671,10 +642,9 @@ Vegetation
 
       :doc:`Global Mangrove Watch <Global_Mangrove_Watch_specs>`
 
-      Global mangrove baseline and change maps covering selected years from
-      1996 to 2020.
+      Global mangrove baseline and change maps for selected years from 1996 to 2020.
 
-      :doc:`More <Global_Mangrove_Watch_specs>`
+      :doc:`View product details →<Global_Mangrove_Watch_specs>`
 
 
 Soil
@@ -700,7 +670,7 @@ Soil
 
       Soil-property data for Africa at 30 m resolution.
 
-      :doc:`More <iSDA_Soil_Data>`
+      :doc:`View product details →<iSDA_Soil_Data>`
 
 
    .. container:: product-item
@@ -711,11 +681,9 @@ Soil
 
       :doc:`GRAFS <GRAFS_specs>`
 
-      The Global Root-zone Moisture Analysis and Forecasting System developed
-      by the Australian National University Centre for Water and Landscape
-      Dynamics.
+      Root-zone soil-moisture analysis and forecasting data developed by the Australian National University Centre for Water and Landscape Dynamics.
 
-      :doc:`More <GRAFS_specs>`
+      :doc:`View product details →<GRAFS_specs>`
 
 
 About the Data
@@ -740,12 +708,12 @@ About the Data
 
       Learn how Digital Earth Africa uses Landsat Collection 2 data tiers.
 
-      :doc:`More <Landsat_tiers>`
+      :doc:`Learn more →<Landsat_tiers>`
 
 
 Feedback
 --------
 
-For feedback about Digital Earth Africa data and services, contact
+For questions or feedback about Digital Earth Africa data and services, contact
 `helpdesk@digitalearthafrica.org
 <mailto:helpdesk@digitalearthafrica.org>`__.
