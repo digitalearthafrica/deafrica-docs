@@ -2035,3 +2035,769 @@ p.empty-space2 {
     grid-template-columns: 1fr;
   }
 }
+/* ==========================================================
+   Service Status and Technical Alerts
+   PyData Sphinx Theme / DE Africa
+   ========================================================== */
+
+/*
+   This section replaces the older sphinx_rtd_theme-specific
+   Service Status CSS.
+
+   Removed:
+   - .wy-* RTD theme overrides
+   - duplicated :root design tokens
+   - duplicated status-summary / tech-alert / status-card rules
+   - older bright orange/green/purple values
+   - colour-only status distinctions
+
+   Retained/refined:
+   - service banner
+   - overall status summary
+   - technical alert cards
+   - metadata field lists
+   - supporting status cards
+   - information panel
+   - status labels
+   - responsive behaviour
+*/
+
+
+/* ----------------------------------------------------------
+   Service banner
+   ---------------------------------------------------------- */
+
+.de-service-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin: 0 0 1.5rem;
+  padding: 0.95rem 1.1rem;
+  color: var(--de-text);
+  background: #fff8f1;
+  border: 1px solid #e6b98f;
+  border-left: 6px solid var(--de-orange);
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(15, 23, 42, 0.07);
+}
+
+.de-service-banner::before {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 2rem;
+  width: 2rem;
+  height: 2rem;
+  color: #ffffff;
+  background: var(--de-orange);
+  border-radius: 50%;
+  content: "!";
+  font-family: var(--de-font-family);
+  font-weight: 800;
+}
+
+.de-service-banner p {
+  margin: 0;
+}
+
+.de-service-banner a {
+  margin-left: auto;
+  padding: 0.5rem 0.8rem;
+  color: #ffffff !important;
+  background: var(--de-navy);
+  border: 2px solid var(--de-navy);
+  border-radius: 6px;
+  font-family: var(--de-font-family);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  white-space: nowrap;
+}
+
+.de-service-banner a:hover,
+.de-service-banner a:focus {
+  background: #061a3a;
+  border-color: #061a3a;
+}
+
+
+/* ----------------------------------------------------------
+   Status summary
+   ---------------------------------------------------------- */
+
+.bd-article .status-summary,
+.status-summary {
+  margin: 1.25rem 0;
+  padding: 1.15rem 1.3rem;
+  color: var(--de-text);
+  background: var(--de-white);
+  border: 1px solid var(--de-border);
+  border-left-width: 6px;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(15, 23, 42, 0.06);
+}
+
+.bd-article .status-summary p:last-child,
+.status-summary p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Operational */
+.bd-article .status-operational,
+.status-operational {
+  border-left-color: var(--de-green);
+  background: #f7fbf9;
+}
+
+.bd-article .status-operational::before,
+.status-operational::before {
+  display: inline-block;
+  margin-bottom: 0.55rem;
+  color: #075f47;
+  content: "✓ Operational";
+  font-weight: 700;
+}
+
+
+/* Degraded */
+.bd-article .status-degraded,
+.status-degraded {
+  border-left-color: var(--de-orange);
+  background: #fff8f1;
+}
+
+.bd-article .status-degraded::before,
+.status-degraded::before {
+  display: inline-block;
+  margin-bottom: 0.55rem;
+  color: #8a3b00;
+  content: "⚠ Degraded service";
+  font-weight: 700;
+}
+
+
+/* Outage */
+.bd-article .status-outage,
+.status-outage {
+  border-left-color: #b42318;
+  background: #fff7f6;
+}
+
+.bd-article .status-outage::before,
+.status-outage::before {
+  display: inline-block;
+  margin-bottom: 0.55rem;
+  color: #8f1d16;
+  content: "✕ Service outage";
+  font-weight: 700;
+}
+
+
+/* ----------------------------------------------------------
+   Technical alerts
+   ---------------------------------------------------------- */
+
+.bd-article .tech-alert,
+.tech-alert {
+  position: relative;
+  margin: 1.35rem 0;
+  padding: 1.35rem 1.45rem 1.35rem 1.6rem;
+  color: var(--de-text);
+  background: var(--de-white);
+  border: 1px solid var(--de-border);
+  border-left-width: 7px;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(15, 23, 42, 0.06);
+}
+
+.bd-article .tech-alert > p:first-child,
+.tech-alert > p:first-child {
+  margin-bottom: 0.7rem;
+  color: var(--de-navy);
+  font-size: var(--de-font-size-h5);
+  font-weight: 600;
+}
+
+.bd-article .tech-alert-warning,
+.tech-alert-warning {
+  border-left-color: var(--de-orange);
+  background: linear-gradient(90deg, #fff8f1 0%, #ffffff 58%);
+}
+
+.bd-article .tech-alert-warning::before,
+.tech-alert-warning::before {
+  display: inline-block;
+  margin-bottom: 0.55rem;
+  color: #8a3b00;
+  content: "⚠ Warning";
+  font-weight: 700;
+}
+
+.bd-article .tech-alert-critical,
+.tech-alert-critical {
+  border-left-color: #b42318;
+  background: linear-gradient(90deg, #fff7f6 0%, #ffffff 58%);
+}
+
+.bd-article .tech-alert-critical::before,
+.tech-alert-critical::before {
+  display: inline-block;
+  margin-bottom: 0.55rem;
+  color: #8f1d16;
+  content: "✕ Critical";
+  font-weight: 700;
+}
+
+.bd-article .tech-alert-resolved,
+.tech-alert-resolved {
+  border-left-color: var(--de-green);
+  background: linear-gradient(90deg, #f7fbf9 0%, #ffffff 58%);
+}
+
+.bd-article .tech-alert-resolved::before,
+.tech-alert-resolved::before {
+  display: inline-block;
+  margin-bottom: 0.55rem;
+  color: #075f47;
+  content: "✓ Resolved";
+  font-weight: 700;
+}
+
+
+/* ----------------------------------------------------------
+   Alert metadata / field lists
+   ---------------------------------------------------------- */
+
+.bd-article .tech-alert .field-list,
+.tech-alert .field-list {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.35rem 0.8rem;
+  margin: 0.8rem 0 1rem;
+  padding: 0.85rem 1rem;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  border-radius: 7px;
+}
+
+.bd-article .tech-alert .field-name,
+.tech-alert .field-name {
+  color: var(--de-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bd-article .tech-alert .field-body,
+.tech-alert .field-body {
+  color: var(--de-text);
+}
+
+
+/* ----------------------------------------------------------
+   Supporting status card grid
+   ---------------------------------------------------------- */
+
+.bd-article .status-card-grid,
+.status-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 1.8rem;
+}
+
+.bd-article .status-card,
+.status-card {
+  min-width: 0;
+  padding: 1.15rem 1.2rem;
+  color: var(--de-text);
+  background: var(--de-white);
+  border: 1px solid var(--de-border);
+  border-top-width: 5px;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(15, 23, 42, 0.06);
+}
+
+.bd-article .status-card p:last-child,
+.status-card p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Maintenance: blue + textual cue */
+.bd-article .status-card-maintenance,
+.status-card-maintenance,
+.bd-article .status-maintenance,
+.status-maintenance {
+  border-top-color: var(--de-blue);
+  border-left-color: var(--de-blue);
+}
+
+.bd-article .status-card-maintenance::before,
+.status-card-maintenance::before,
+.bd-article .status-maintenance::before,
+.status-maintenance::before {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: var(--de-blue);
+  content: "Maintenance";
+  font-weight: 700;
+}
+
+
+/* Resolved: green + textual cue */
+.bd-article .status-card-resolved,
+.status-card-resolved,
+.bd-article .status-resolved,
+.status-resolved {
+  border-top-color: var(--de-green);
+  border-left-color: var(--de-green);
+}
+
+.bd-article .status-card-resolved::before,
+.status-card-resolved::before,
+.bd-article .status-resolved::before,
+.status-resolved::before {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #075f47;
+  content: "✓ Resolved";
+  font-weight: 700;
+}
+
+
+/* Software: purple + textual cue */
+.bd-article .status-card-software,
+.status-card-software,
+.bd-article .status-software,
+.status-software {
+  border-top-color: var(--de-purple);
+  border-left-color: var(--de-purple);
+}
+
+.bd-article .status-card-software::before,
+.status-card-software::before,
+.bd-article .status-software::before,
+.status-software::before {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: var(--de-purple);
+  content: "Software";
+  font-weight: 700;
+}
+
+
+/* ----------------------------------------------------------
+   Information panel
+   ---------------------------------------------------------- */
+
+.bd-article .tech-alert-info,
+.tech-alert-info {
+  margin: 1.5rem 0;
+  padding: 1.2rem 1.3rem;
+  color: var(--de-text);
+  background: #f6f9fc;
+  border: 1px solid #cbdcf0;
+  border-left: 6px solid var(--de-blue);
+  border-radius: 10px;
+}
+
+.bd-article .tech-alert-info::before,
+.tech-alert-info::before {
+  display: inline-block;
+  margin-bottom: 0.45rem;
+  color: var(--de-blue);
+  content: "ⓘ Information";
+  font-weight: 700;
+}
+
+.bd-article .tech-alert-info p:last-child,
+.tech-alert-info p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ----------------------------------------------------------
+   Status labels
+   ---------------------------------------------------------- */
+
+.bd-article .status-label,
+.status-label {
+  display: inline-block;
+  margin-right: 0.35rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.bd-article .status-label-warning,
+.status-label-warning {
+  color: #7a3300;
+  background: #fff2e2;
+  border: 1px solid #d89a62;
+}
+
+.bd-article .status-label-resolved,
+.status-label-resolved {
+  color: #075f47;
+  background: #eaf7f1;
+  border: 1px solid #78bda5;
+}
+
+
+/* ----------------------------------------------------------
+   Homepage technical-alert card
+   ---------------------------------------------------------- */
+
+.tech-alert-home-card {
+  border-top: 5px dotted #9a5a00;
+}
+
+
+/* ----------------------------------------------------------
+   Dark mode
+   ---------------------------------------------------------- */
+
+html[data-theme="dark"] .de-service-banner,
+html[data-theme="dark"] .status-summary,
+html[data-theme="dark"] .tech-alert,
+html[data-theme="dark"] .status-card,
+html[data-theme="dark"] .tech-alert-info {
+  color: #e5edf7;
+  background: #172033;
+  border-color: #475569;
+}
+
+html[data-theme="dark"] .tech-alert > p:first-child {
+  color: #ffffff;
+}
+
+html[data-theme="dark"] .tech-alert .field-list {
+  background: #111827;
+  border-color: #475569;
+}
+
+html[data-theme="dark"] .tech-alert .field-body {
+  color: #e5edf7;
+}
+
+
+/* ----------------------------------------------------------
+   Responsive behaviour
+   ---------------------------------------------------------- */
+
+@media screen and (max-width: 900px) {
+  .bd-article .status-card-grid,
+  .status-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .de-service-banner {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .de-service-banner a {
+    margin-left: 2.85rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .bd-article .tech-alert .field-list,
+  .tech-alert .field-list {
+    grid-template-columns: 1fr;
+  }
+
+  .de-service-banner a {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+}
+/* ==========================================================
+   Visual fixes: product images, readable text, platform cards
+   ========================================================== */
+
+/* ----------------------------------------------------------
+   1. Restore product images
+   ---------------------------------------------------------- */
+
+/*
+   The previous cleanup hid all images inside .product-list.
+   Restore them and make the image region consistent instead.
+*/
+.product-list .product-item img,
+.product-list .product-item picture,
+.product-list .product-item .sd-card-img-top {
+  display: block !important;
+  width: 100%;
+  height: 180px;
+  min-height: 180px;
+  margin: 0;
+  padding: 0.75rem;
+  object-fit: contain;
+  object-position: center;
+  background: #f8fafc;
+  border-bottom: 1px solid var(--de-border);
+}
+
+/*
+   Prevent oversized/broken-looking thumbnail areas.
+*/
+.product-list .product-item img[width="0"],
+.product-list .product-item img[height="0"] {
+  display: none !important;
+}
+
+
+/* ----------------------------------------------------------
+   2. Improve text readability
+   ---------------------------------------------------------- */
+
+/*
+   Ensure article and card body text cannot inherit overly pale
+   colours from theme defaults or older custom CSS.
+*/
+.bd-article,
+.bd-article p,
+.bd-article li,
+.bd-article dd,
+.bd-article dt,
+.bd-article blockquote,
+.bd-article .sd-card-body,
+.bd-article .sd-card-body p,
+.product-list .product-item,
+.product-list .product-item p,
+.platform-list .product-item,
+.platform-list .product-item p,
+.de-platform-horizontal-content,
+.de-platform-horizontal-content p {
+  color: var(--de-text) !important;
+}
+
+/* Supporting / muted text should still remain readable */
+.bd-article .text-muted,
+.bd-article .sd-text-muted,
+.bd-article .caption,
+.bd-article small,
+.de-platform-horizontal-content .text-muted {
+  color: var(--de-muted) !important;
+}
+
+/* Links */
+.bd-article a:not(.btn):not(.sd-btn):not(.de-platform-more-button),
+.product-list .product-item a,
+.de-platform-horizontal-content a {
+  color: var(--de-blue);
+}
+
+.bd-article a:not(.btn):not(.sd-btn):not(.de-platform-more-button):hover,
+.product-list .product-item a:hover,
+.de-platform-horizontal-content a:hover {
+  color: var(--de-orange);
+}
+
+
+/* ----------------------------------------------------------
+   3. Product cards: consistent visual structure
+   ---------------------------------------------------------- */
+
+.product-list .product-item {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.product-list .product-item p {
+  margin: 0.65rem 1rem;
+  line-height: 1.55;
+}
+
+/* Product title */
+.product-list .product-item p:first-of-type,
+.product-list .product-item .topic-title {
+  color: var(--de-text) !important;
+  font-size: var(--de-font-size-h5);
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+/* Product CTA */
+.product-list .product-item p:last-child {
+  margin-top: auto;
+  margin-bottom: 1rem;
+}
+
+.product-list .product-item p:last-child a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.65rem 1rem;
+  color: #ffffff !important;
+  background: var(--de-blue);
+  border: 2px solid var(--de-blue);
+  border-radius: 6px;
+  font-size: var(--de-font-size-button);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.product-list .product-item p:last-child a:hover,
+.product-list .product-item p:last-child a:focus {
+  color: #ffffff !important;
+  background: #003f73;
+  border-color: #003f73;
+}
+
+
+/* ----------------------------------------------------------
+   4. Direct Access / platform horizontal cards
+   ---------------------------------------------------------- */
+
+/*
+   Make the card feel like a documentation component rather than
+   a large marketing banner.
+*/
+.de-platform-horizontal-card {
+  overflow: hidden;
+  margin: 1rem 0 1.6rem;
+  background: var(--de-white);
+  border: 1px solid var(--de-border);
+  border-left: 5px solid var(--de-blue);
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(15, 35, 70, 0.07);
+}
+
+/* More balanced image/content split */
+.de-platform-horizontal-card > .sd-row {
+  display: grid !important;
+  grid-template-columns: minmax(220px, 32%) 1fr;
+  align-items: stretch;
+  margin: 0;
+}
+
+.de-platform-horizontal-media {
+  display: flex;
+  min-height: 230px;
+  background: #eef3f8;
+}
+
+.de-platform-horizontal-media img {
+  display: block;
+  width: 100%;
+  height: 230px;
+  min-height: 230px;
+  padding: 0;
+  object-fit: cover;
+  object-position: center;
+  background: #eef3f8;
+}
+
+/* Content panel */
+.de-platform-horizontal-content {
+  display: flex;
+  min-height: 230px;
+  padding: 1.4rem 1.6rem !important;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--de-white) !important;
+}
+
+/* Title */
+.de-platform-horizontal-content > p:first-child {
+  margin: 0 0 0.8rem;
+}
+
+.de-platform-horizontal-content > p:first-child a {
+  color: var(--de-blue) !important;
+  font-size: var(--de-font-size-h4);
+  font-weight: 600;
+  line-height: 1.35;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+/* Description */
+.de-platform-horizontal-content p {
+  margin: 0 0 1rem;
+  color: var(--de-text) !important;
+  font-size: var(--de-font-size-body);
+  line-height: 1.6;
+}
+
+/* "More" should look like an action button */
+.de-platform-horizontal-content a.de-platform-more-button,
+.de-platform-horizontal-content > p:last-child a,
+.de-platform-horizontal-content a[href]:last-child {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 0.6rem 1rem;
+  color: #ffffff !important;
+  background: var(--de-blue) !important;
+  border: 2px solid var(--de-blue) !important;
+  border-radius: 6px !important;
+  font-size: var(--de-font-size-button);
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.de-platform-horizontal-content a.de-platform-more-button:hover,
+.de-platform-horizontal-content > p:last-child a:hover,
+.de-platform-horizontal-content a[href]:last-child:hover {
+  background: #003f73 !important;
+  border-color: #003f73 !important;
+}
+
+
+/* ----------------------------------------------------------
+   5. General lead/intro text readability
+   ---------------------------------------------------------- */
+
+.bd-article > p:first-of-type,
+.bd-article .lead,
+.de-home-intro-card p {
+  color: #334155 !important;
+}
+
+
+/* ----------------------------------------------------------
+   6. Responsive layout
+   ---------------------------------------------------------- */
+
+@media screen and (max-width: 900px) {
+  .de-platform-horizontal-card > .sd-row {
+    grid-template-columns: 1fr;
+  }
+
+  .de-platform-horizontal-media,
+  .de-platform-horizontal-media img {
+    width: 100%;
+    height: 220px;
+    min-height: 220px;
+  }
+
+  .de-platform-horizontal-content {
+    min-height: auto;
+    padding: 1.2rem 1.25rem !important;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .product-list .product-item img,
+  .product-list .product-item .sd-card-img-top {
+    height: 160px;
+    min-height: 160px;
+  }
+
+  .de-platform-horizontal-media,
+  .de-platform-horizontal-media img {
+    height: 190px;
+    min-height: 190px;
+  }
+}
