@@ -15,6 +15,109 @@
   --pst-color-primary: var(--de-blue);
   --pst-color-link: var(--de-blue);
   --pst-header-height: 5rem;
+
+  /* Digital Earth Africa typography */
+  --de-font-family: "Inter", Arial, sans-serif;
+  --de-font-size-body: 16px;
+  --de-font-size-h1: 42px;
+  --de-font-size-h2: 32px;
+  --de-font-size-h3: 25px;
+  --de-font-size-h4: 20px;
+  --de-font-size-h5: 18px;
+  --de-font-size-lead: 22px;
+  --de-font-size-nav: 16px;
+  --de-font-size-button: 15px;
+  --de-font-size-meta: 13px;
+}
+
+/* ==========================================================
+   Digital Earth Africa typography
+   ========================================================== */
+
+html,
+body {
+  font-family: var(--de-font-family);
+}
+
+body,
+.bd-article {
+  font-size: var(--de-font-size-body);
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+.bd-article p,
+.bd-article li {
+  font-size: var(--de-font-size-body);
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+.bd-article h1,
+.bd-article h2,
+.bd-article h3,
+.bd-article h4,
+.bd-article h5 {
+  font-family: var(--de-font-family);
+  color: var(--de-text);
+}
+
+.bd-article h1 {
+  font-size: var(--de-font-size-h1);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.bd-article h2 {
+  font-size: var(--de-font-size-h2);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.bd-article h3 {
+  font-size: var(--de-font-size-h3);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.bd-article h4 {
+  font-size: var(--de-font-size-h4);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.bd-article h5 {
+  font-size: var(--de-font-size-h5);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.bd-article .lead {
+  font-size: var(--de-font-size-lead);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.bd-header .navbar-nav > li > a,
+.bd-header .navbar-nav > .nav-item > .nav-link {
+  font-family: var(--de-font-family);
+  font-size: var(--de-font-size-nav);
+}
+
+button,
+.btn,
+.sd-btn,
+.de-platform-more-button {
+  font-family: var(--de-font-family);
+  font-size: var(--de-font-size-button);
+}
+
+.meta,
+.caption,
+.lang-picker,
+.deafrica-footer__copyright {
+  font-family: var(--de-font-family);
+  font-size: var(--de-font-size-meta);
 }
 
 
@@ -215,17 +318,8 @@ html[data-theme="auto"] .bd-header button {
   box-shadow: 0 3px 14px rgba(15, 35, 70, 0.04);
 }
 
-.bd-article h1,
-.bd-article h2,
-.bd-article h3,
-.bd-article h4 {
-  color: var(--de-text);
-}
-
-.bd-article h1 {
-  font-size: 2.25rem;
-  font-weight: 800;
-}
+/* Article heading typography is defined in the
+   Digital Earth Africa typography section above. */
 
 
 /* ==========================================================
@@ -378,8 +472,10 @@ html[data-theme="auto"] .bd-header button {
 
 .de-home-card .sd-card-title {
   color: var(--de-text) !important;
-  font-size: 1.15rem;
-  font-weight: 800;
+  font-family: var(--de-font-family);
+  font-size: var(--de-font-size-h5);
+  font-weight: 600;
+  line-height: 1.3;
 }
 
 .de-home-card p {
@@ -472,8 +568,9 @@ html[data-theme="auto"] .bd-header button {
 
 .deafrica-footer__brand strong {
   color: #ffffff !important;
-  font-size: 1.05rem;
-  font-weight: 800;
+  font-family: var(--de-font-family);
+  font-size: var(--de-font-size-h5);
+  font-weight: 600;
 }
 
 .deafrica-footer__brand span,
@@ -622,6 +719,7 @@ html[data-theme="dark"] .de-home-card .sd-card-footer a {
   background: #eef6ff;
   border-left: 5px solid var(--de-blue);
   border-radius: 6px;
+  font-family: var(--de-font-family);
   font-size: 1.45rem;
 }
 
@@ -811,8 +909,9 @@ html[data-theme="dark"] .bd-article table.genindextable ul ul {
 .de-platform-horizontal-content p {
   margin: 0 0 0.8rem;
   color: #111827 !important;
-  font-size: 1rem;
-  line-height: 1.5;
+  font-family: var(--de-font-family);
+  font-size: var(--de-font-size-body);
+  line-height: 1.65;
 }
 
 
@@ -826,8 +925,9 @@ html[data-theme="dark"] .bd-article table.genindextable ul ul {
   background: #356da7 !important;
   border: 1px solid #356da7 !important;
   border-radius: 0 !important;
-  font-size: 0.78rem;
-  font-weight: 800;
+  font-family: var(--de-font-family);
+  font-size: var(--de-font-size-button);
+  font-weight: 600;
   line-height: 1.2;
   text-decoration: none !important;
 }
@@ -958,8 +1058,10 @@ html[data-theme="dark"] .de-platform-horizontal-media {
 /* Title */
 .de-platform-horizontal-content > p:first-child a {
   color: var(--de-blue) !important;
-  font-size: 1.08rem;
-  font-weight: 800;
+  font-family: var(--de-font-family);
+  font-size: var(--de-font-size-h5);
+  font-weight: 600;
+  line-height: 1.3;
   text-decoration: none;
 }
 
@@ -1033,4 +1135,385 @@ html[data-theme="dark"] .de-platform-horizontal-media {
 
 .de-home-card:hover .sd-card-img-top {
   transform: scale(1.03);
+}
+
+
+/* ==========================================================
+   Responsive typography
+   ========================================================== */
+
+@media screen and (max-width: 767px) {
+  .bd-article h1 {
+    font-size: 34px;
+  }
+
+  .bd-article h2 {
+    font-size: 28px;
+  }
+
+  .bd-article h3 {
+    font-size: 23px;
+  }
+
+  .bd-article h4 {
+    font-size: 19px;
+  }
+
+  .bd-article h5 {
+    font-size: 17px;
+  }
+
+  .bd-article .lead {
+    font-size: 19px;
+  }
+}
+/* ==========================================================
+   Accessibility and colour-blind support
+   ========================================================== */
+
+/*
+   Principles:
+   - Never rely on colour alone to convey meaning.
+   - Preserve DE Africa brand colours while adding text/shape cues.
+   - Improve keyboard focus visibility.
+   - Strengthen contrast for links, buttons and active states.
+*/
+
+
+/* ----------------------------------------------------------
+   Accessible links
+   ---------------------------------------------------------- */
+
+.bd-article a:not(.btn):not(.sd-btn):not(.de-platform-more-button),
+.bd-sidebar-primary a,
+.bd-sidebar-secondary a {
+  color: #005ea8;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.bd-article a:not(.btn):not(.sd-btn):not(.de-platform-more-button):hover,
+.bd-article a:not(.btn):not(.sd-btn):not(.de-platform-more-button):focus,
+.bd-sidebar-primary a:hover,
+.bd-sidebar-primary a:focus,
+.bd-sidebar-secondary a:hover,
+.bd-sidebar-secondary a:focus {
+  color: #8a3b00;
+  text-decoration-thickness: 2px;
+}
+
+
+/* ----------------------------------------------------------
+   Keyboard focus
+   ---------------------------------------------------------- */
+
+a:focus-visible,
+button:focus-visible,
+.btn:focus-visible,
+.sd-btn:focus-visible,
+.nav-link:focus-visible,
+.search-button-field:focus-visible,
+.de-platform-more-button:focus-visible {
+  outline: 3px solid #111827 !important;
+  outline-offset: 3px;
+}
+
+
+/* ----------------------------------------------------------
+   Top navigation
+   Active state = colour + weight + visible shape
+   ---------------------------------------------------------- */
+
+.bd-header .navbar-nav > li.current > a,
+.bd-header .navbar-nav > li.active > a,
+.bd-header .navbar-nav > li > a.current,
+.bd-header .navbar-nav > li > a.active,
+.bd-header .navbar-nav > li > a[aria-current="page"],
+.bd-header .navbar-nav > .nav-item.current > .nav-link,
+.bd-header .navbar-nav > .nav-item.active > .nav-link,
+.bd-header .navbar-nav > .nav-item > .nav-link.current,
+.bd-header .navbar-nav > .nav-item > .nav-link.active,
+.bd-header .navbar-nav > .nav-item > .nav-link[aria-current="page"],
+.bd-header .navbar-nav a.de-nav-active,
+.bd-header .navbar-nav li.de-nav-active > a {
+  color: #8a3b00 !important;
+  background: #fff4e8 !important;
+  border-color: #c2410c !important;
+  border-bottom-width: 4px !important;
+  border-bottom-style: solid !important;
+  box-shadow: none !important;
+  font-weight: 800 !important;
+}
+
+
+/* ----------------------------------------------------------
+   Left sidebar
+   Active state = colour + weight + left indicator
+   ---------------------------------------------------------- */
+
+.bd-sidebar-primary .nav-link.active,
+.bd-sidebar-primary .reference.internal.current,
+.bd-sidebar-primary a[aria-current="page"],
+.bd-sidebar-primary li.current > a,
+.bd-sidebar-primary li.active > a,
+.bd-sidebar-primary li.toctree-l1.current > a,
+.bd-sidebar-primary li.toctree-l2.current > a {
+  color: #8a3b00 !important;
+  background: #fff4e8 !important;
+  border-left: 5px solid #8a3b00 !important;
+  font-weight: 800 !important;
+  text-decoration: none;
+}
+
+
+/* ----------------------------------------------------------
+   Primary buttons
+   ---------------------------------------------------------- */
+
+.de-platform-more-button,
+.btn-primary,
+.sd-btn-primary {
+  color: #ffffff !important;
+  background: #005ea8 !important;
+  border: 2px solid #005ea8 !important;
+}
+
+.de-platform-more-button:hover,
+.de-platform-more-button:focus,
+.btn-primary:hover,
+.btn-primary:focus,
+.sd-btn-primary:hover,
+.sd-btn-primary:focus {
+  color: #ffffff !important;
+  background: #003f73 !important;
+  border-color: #003f73 !important;
+}
+
+
+/* ----------------------------------------------------------
+   Status and category cards
+   Use colour + readable text cue
+   ---------------------------------------------------------- */
+
+.de-maintenance-card {
+  border-top: 5px solid #1565c0;
+}
+
+.de-maintenance-card::before {
+  display: inline-block;
+  margin: 0.8rem 1rem 0;
+  padding: 0.2rem 0.55rem;
+  color: #0d2347;
+  background: #e8f1fb;
+  border: 1px solid #1565c0;
+  border-radius: 999px;
+  content: "Maintenance";
+  font-family: var(--de-font-family);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.de-resolved-card {
+  border-top: 5px solid #087f5b;
+}
+
+.de-resolved-card::before {
+  display: inline-block;
+  margin: 0.8rem 1rem 0;
+  padding: 0.2rem 0.55rem;
+  color: #0d2347;
+  background: #eaf7f1;
+  border: 1px solid #087f5b;
+  border-radius: 999px;
+  content: "✓ Resolved";
+  font-family: var(--de-font-family);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.de-software-card {
+  border-top: 5px solid #6f42c1;
+}
+
+.de-software-card::before {
+  display: inline-block;
+  margin: 0.8rem 1rem 0;
+  padding: 0.2rem 0.55rem;
+  color: #0d2347;
+  background: #f2ecfb;
+  border: 1px solid #6f42c1;
+  border-radius: 999px;
+  content: "Software";
+  font-family: var(--de-font-family);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+
+/* ----------------------------------------------------------
+   Alert and information panels
+   ---------------------------------------------------------- */
+
+.de-alert-card {
+  border-left-width: 7px;
+}
+
+.de-alert-header::before {
+  margin-right: 0.35rem;
+  content: "⚠";
+}
+
+.de-info-panel .admonition-title::before {
+  content: "ⓘ";
+  margin-right: 0.35rem;
+}
+
+
+/* ----------------------------------------------------------
+   Home cards
+   Keep categories distinguishable without relying only on hue
+   ---------------------------------------------------------- */
+
+.de-data-card {
+  border-top: 5px solid #005ea8;
+}
+
+.de-platform-card {
+  border-top: 5px double #087f5b;
+}
+
+.de-access-card {
+  border-top: 5px dashed #6f42c1;
+}
+
+.de-status-card {
+  border-top: 5px dotted #9a5a00;
+}
+
+
+/* ----------------------------------------------------------
+   Platform horizontal cards
+   Non-colour hover cue
+   ---------------------------------------------------------- */
+
+.de-platform-horizontal-card:hover,
+.de-platform-horizontal-card:focus-within {
+  transform: translateY(-4px);
+  border-left-width: 7px;
+}
+
+
+/* ----------------------------------------------------------
+   High-contrast preference
+   ---------------------------------------------------------- */
+
+@media (prefers-contrast: more) {
+  body,
+  .bd-article {
+    color: #111111;
+  }
+
+  .bd-article a:not(.btn):not(.sd-btn):not(.de-platform-more-button),
+  .bd-sidebar-primary a,
+  .bd-sidebar-secondary a {
+    color: #004f91;
+    text-decoration-thickness: 2px;
+  }
+
+  .de-home-card,
+  .de-platform-horizontal-card,
+  .bd-article,
+  .bd-sidebar-primary,
+  .bd-sidebar-secondary {
+    border-width: 2px;
+    border-color: #475569;
+  }
+
+  button,
+  .btn,
+  .sd-btn,
+  .de-platform-more-button {
+    border-width: 2px !important;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  .btn:focus-visible,
+  .sd-btn:focus-visible,
+  .nav-link:focus-visible,
+  .de-platform-more-button:focus-visible {
+    outline-width: 4px !important;
+  }
+}
+
+
+/* ----------------------------------------------------------
+   Dark mode accessibility
+   ---------------------------------------------------------- */
+
+html[data-theme="dark"] .bd-article a:not(.btn):not(.sd-btn):not(.de-platform-more-button),
+html[data-theme="dark"] .bd-sidebar-primary a,
+html[data-theme="dark"] .bd-sidebar-secondary a {
+  color: #8ec8ff;
+}
+
+html[data-theme="dark"] .bd-article a:not(.btn):not(.sd-btn):not(.de-platform-more-button):hover,
+html[data-theme="dark"] .bd-article a:not(.btn):not(.sd-btn):not(.de-platform-more-button):focus,
+html[data-theme="dark"] .bd-sidebar-primary a:hover,
+html[data-theme="dark"] .bd-sidebar-primary a:focus,
+html[data-theme="dark"] .bd-sidebar-secondary a:hover,
+html[data-theme="dark"] .bd-sidebar-secondary a:focus {
+  color: #ffd166;
+}
+
+html[data-theme="dark"] a:focus-visible,
+html[data-theme="dark"] button:focus-visible,
+html[data-theme="dark"] .btn:focus-visible,
+html[data-theme="dark"] .sd-btn:focus-visible,
+html[data-theme="dark"] .nav-link:focus-visible,
+html[data-theme="dark"] .de-platform-more-button:focus-visible {
+  outline-color: #ffffff !important;
+}
+
+html[data-theme="dark"] .de-maintenance-card::before,
+html[data-theme="dark"] .de-resolved-card::before,
+html[data-theme="dark"] .de-software-card::before {
+  color: #ffffff;
+  background: #172033;
+}
+
+
+/* ----------------------------------------------------------
+   Forced-colours / Windows high contrast
+   ---------------------------------------------------------- */
+
+@media (forced-colors: active) {
+  a,
+  button,
+  .btn,
+  .sd-btn,
+  .nav-link,
+  .de-platform-more-button {
+    forced-color-adjust: auto;
+  }
+
+  .de-home-card,
+  .de-platform-horizontal-card,
+  .bd-article,
+  .bd-sidebar-primary,
+  .bd-sidebar-secondary {
+    border: 1px solid CanvasText;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  .btn:focus-visible,
+  .sd-btn:focus-visible,
+  .nav-link:focus-visible,
+  .de-platform-more-button:focus-visible {
+    outline: 3px solid Highlight !important;
+  }
 }
