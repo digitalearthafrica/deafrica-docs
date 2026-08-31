@@ -462,7 +462,7 @@ Satellite Images
 
       :doc:`Landsat Collection 2 Surface Temperature <Landsat_C2_ST_specs>`
 
-       Surface-temperature observations from Landsat 5, 7, 8, and 9.
+      Surface-temperature observations from Landsat 5, 7, 8, and 9.
 
       :doc:`View product details →<Landsat_C2_ST_specs>`
 
