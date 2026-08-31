@@ -69,4 +69,4 @@ Software and Package Updates
 Support
 -------
 
-If you have any feedback for the DE Africa data and services, please contact us at <helpdesk@digitalearthafrica.org>`_
+If you have any feedback for the DE Africa data and services, please contact us at `<helpdesk@digitalearthafrica.org>`_
