@@ -69,7 +69,4 @@ Software and Package Updates
 Support
 -------
 
-For assistance, visit the
-`Digital Earth Africa Training and Help page
-<https://www.digitalearthafrica.org/platform-resources/training-and-help>`_
-or contact the Digital Earth Africa Helpdesk.
+If you have any feedback for the DE Africa data and services, please contact us at <helpdesk@digitalearthafrica.org>`_
