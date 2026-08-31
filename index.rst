@@ -22,17 +22,6 @@ Digital Earth Africa User Guide
    Tech Alert <service_status/index>
    About <about/index>
 
-
-Documentation
-------------------------
-
-.. admonition:: Documentation information
-   :class: de-info-panel
-
-    The Digital Earth Africa documentation provides guidance on accessing datasets, using platforms and notebooks, connecting to direct-access services, and checking current service information.
-    It is regularly updated to reflect changes across datasets, platforms, analytical tools, technical services, and operations.
-
-
 Documentation Sections
 ----------------------
 
