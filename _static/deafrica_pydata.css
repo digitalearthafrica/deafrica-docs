@@ -3,14 +3,15 @@
 :root {
   --de-navy: #082553;
   --de-blue: #0b55a0;
-  --de-orange: #ff7900;
+  --de-orange: #c84f00;
   --de-yellow: #ffb800;
-  --de-green: #16875b;
-  --de-purple: #8d3295;
+  --de-green: #087f5b;
+  --de-purple: #6f42c1;
   --de-text: #0d2347;
   --de-muted: #52647e;
   --de-border: #d8e0ea;
   --de-page: #f7f9fc;
+  --de-white: #ffffff;
 
   --pst-color-primary: var(--de-blue);
   --pst-color-link: var(--de-blue);
@@ -174,8 +175,8 @@ html[data-theme="auto"] .bd-header button {
 .bd-header .navbar-nav > li > a:hover,
 .bd-header .navbar-nav > .nav-item > .nav-link:hover {
   color: var(--de-orange) !important;
-  background: #fff7ed !important;
-  border-color: #fed7aa !important;
+  background: #fff7f0 !important;
+  border-color: #f3c7a6 !important;
 }
 
 .bd-header .navbar-nav > li.current > a,
@@ -191,9 +192,9 @@ html[data-theme="auto"] .bd-header button {
 .bd-header .navbar-nav a.de-nav-active,
 .bd-header .navbar-nav li.de-nav-active > a {
   color: var(--de-orange) !important;
-  background: #fff1e8 !important;
-  border-color: #fb923c !important;
-  box-shadow: inset 0 -3px 0 #f97316 !important;
+  background: #fff4e8 !important;
+  border-color: #d96a1c !important;
+  box-shadow: inset 0 -3px 0 #c84f00 !important;
   font-weight: 800 !important;
 }
 
@@ -242,8 +243,8 @@ html[data-theme="auto"] .bd-header button {
 .bd-sidebar-primary li.toctree-l1.current > a,
 .bd-sidebar-primary li.toctree-l2.current > a {
   color: var(--de-orange) !important;
-  background: #fff1e8 !important;
-  border-left-color: #f97316 !important;
+  background: #fff4e8 !important;
+  border-left-color: #c84f00 !important;
   font-weight: 800;
 }
 
@@ -355,7 +356,7 @@ html[data-theme="auto"] .bd-header button {
 }
 
 .de-maintenance-card {
-  border-top: 5px solid #2766b1;
+  border-top: 5px solid #0b55a0;
 }
 
 .de-resolved-card {
@@ -371,9 +372,9 @@ html[data-theme="auto"] .bd-header button {
 
 .de-info-panel {
   color: var(--de-text) !important;
-  background: #eef6ff !important;
+  background: #f6f9fc !important;
   border: 1px solid #cfe4ff;
-  border-left: 6px solid #3987df;
+  border-left: 6px solid #0b55a0;
   border-radius: 12px;
 }
 
@@ -408,13 +409,13 @@ html[data-theme="auto"] .bd-header button {
   border: 1px solid var(--de-border);
   border-left: 5px solid var(--de-green);
   border-radius: 10px;
-  background: #f0fdf4;
+  background: #f7fbf9;
   box-shadow: none;
 }
 
 .de-home-intro-card {
   color: var(--de-text) !important;
-  background: linear-gradient(90deg, #eff6ff 0%, #ffffff 72%) !important;
+  background: linear-gradient(90deg, #f7fbff 0%, #ffffff 72%) !important;
   border: 1px solid #cfe4ff;
   border-left: 6px solid var(--de-blue);
 }
@@ -496,7 +497,7 @@ html[data-theme="auto"] .bd-header button {
 }
 
 .de-data-card {
-  border-top: 5px solid #2563eb;
+  border-top: 5px solid #0b55a0;
 }
 
 .de-platform-card {
@@ -504,11 +505,11 @@ html[data-theme="auto"] .bd-header button {
 }
 
 .de-access-card {
-  border-top: 5px solid #7e3a9c;
+  border-top: 5px solid #6f42c1;
 }
 
 .de-status-card {
-  border-top: 5px solid #f59e0b;
+  border-top: 5px solid #9a5a00;
 }
 
 
@@ -544,7 +545,7 @@ html[data-theme="auto"] .bd-header button {
   margin-top: 1.5rem;
   padding: 0 !important;
   color: #ffffff !important;
-  background: #111827 !important;
+  background: var(--de-navy) !important;
   border-top: 4px solid var(--de-orange);
 }
 
@@ -632,7 +633,7 @@ html[data-theme="dark"] .de-home-intro-card p {
 }
 
 html[data-theme="dark"] .de-home-card .sd-card-footer a {
-  color: #66b3ff !important;
+  color: #8ec8ff !important;
 }
 
 
@@ -716,7 +717,7 @@ html[data-theme="dark"] .de-home-card .sd-card-footer a {
   margin-top: 2rem;
   padding: 0.6rem 0.85rem;
   color: var(--de-navy);
-  background: #eef6ff;
+  background: #f6f9fc;
   border-left: 5px solid var(--de-blue);
   border-radius: 6px;
   font-family: var(--de-font-family);
@@ -895,7 +896,7 @@ html[data-theme="dark"] .bd-article table.genindextable ul ul {
 }
 
 .de-platform-horizontal-content > p:first-child a {
-  color: #1672bd !important;
+  color: #0b55a0 !important;
   font-size: 1.05rem;
   font-weight: 800;
   text-decoration: none;
@@ -922,8 +923,8 @@ html[data-theme="dark"] .bd-article table.genindextable ul ul {
   margin-top: 0.1rem;
   padding: 0.65rem 1.05rem !important;
   color: #ffffff !important;
-  background: #356da7 !important;
-  border: 1px solid #356da7 !important;
+  background: #0b55a0 !important;
+  border: 1px solid #0b55a0 !important;
   border-radius: 0 !important;
   font-family: var(--de-font-family);
   font-size: var(--de-font-size-button);
@@ -973,7 +974,7 @@ html[data-theme="dark"] .de-platform-horizontal-content p {
 
 html[data-theme="dark"]
 .de-platform-horizontal-content > p:first-child a {
-  color: #66b3ff !important;
+  color: #8ec8ff !important;
 }
 
 html[data-theme="dark"] .de-platform-horizontal-media {
@@ -1516,4 +1517,130 @@ html[data-theme="dark"] .de-software-card::before {
   .de-platform-more-button:focus-visible {
     outline: 3px solid Highlight !important;
   }
+}
+/* ==========================================================
+   DE Africa visual palette refinement
+   ========================================================== */
+
+/*
+   Visual balance:
+   - Neutral backgrounds dominate the interface.
+   - Blue is the primary interactive/structural colour.
+   - Orange is reserved for current/active emphasis.
+   - Green and purple are limited to semantic/category use.
+*/
+
+/* Main content remains predominantly neutral */
+.bd-container,
+.bd-main {
+  background: var(--de-page);
+}
+
+.bd-article,
+.bd-sidebar-primary,
+.de-home-card,
+.de-platform-horizontal-card {
+  background: var(--de-white);
+}
+
+
+/* Primary links use DE Africa blue */
+.bd-article a:not(.btn):not(.sd-btn):not(.de-platform-more-button),
+.bd-sidebar-secondary a {
+  color: var(--de-blue);
+}
+
+
+/* Active/current states use the darker accessible orange */
+.bd-header .navbar-nav > li.current > a,
+.bd-header .navbar-nav > li.active > a,
+.bd-header .navbar-nav > li > a.current,
+.bd-header .navbar-nav > li > a.active,
+.bd-header .navbar-nav > li > a[aria-current="page"],
+.bd-header .navbar-nav > .nav-item.current > .nav-link,
+.bd-header .navbar-nav > .nav-item.active > .nav-link,
+.bd-header .navbar-nav > .nav-item > .nav-link.current,
+.bd-header .navbar-nav > .nav-item > .nav-link.active,
+.bd-header .navbar-nav > .nav-item > .nav-link[aria-current="page"],
+.bd-header .navbar-nav a.de-nav-active,
+.bd-header .navbar-nav li.de-nav-active > a,
+.bd-sidebar-primary .nav-link.active,
+.bd-sidebar-primary .reference.internal.current,
+.bd-sidebar-primary a[aria-current="page"],
+.bd-sidebar-primary li.current > a,
+.bd-sidebar-primary li.active > a,
+.bd-sidebar-primary li.toctree-l1.current > a,
+.bd-sidebar-primary li.toctree-l2.current > a {
+  color: var(--de-orange) !important;
+}
+
+
+/* Hover states stay clear without becoming visually loud */
+.bd-header .navbar-nav > li > a:hover,
+.bd-header .navbar-nav > .nav-item > .nav-link:hover {
+  color: var(--de-orange) !important;
+  background: #fff7f0 !important;
+  border-color: #f3c7a6 !important;
+}
+
+
+/* Information elements remain blue-led */
+.de-info-panel,
+.de-home-intro-card {
+  border-left-color: var(--de-blue);
+}
+
+.de-info-panel .admonition-title::before {
+  color: var(--de-blue) !important;
+}
+
+
+/* Status/category colours are intentionally secondary */
+.de-resolved-card {
+  border-top-color: var(--de-green);
+}
+
+.de-software-card,
+.de-access-card {
+  border-top-color: var(--de-purple);
+}
+
+
+/* Cleaner card treatment: keep most surfaces white */
+.de-home-card .sd-card-body,
+.de-home-card .sd-card-footer,
+.de-platform-horizontal-content {
+  background: var(--de-white) !important;
+}
+
+
+/* Footer uses DE Africa navy rather than generic near-black */
+.bd-footer {
+  background: var(--de-navy) !important;
+  border-top-color: var(--de-orange);
+}
+
+
+/* Footer links remain distinct and readable */
+.deafrica-footer__links a {
+  color: #8ec8ff !important;
+}
+
+.deafrica-footer__links a:hover,
+.deafrica-footer__links a:focus {
+  color: #ffd166 !important;
+}
+
+
+/* Dark mode keeps hierarchy while avoiding excessive colour */
+html[data-theme="dark"] .bd-footer {
+  background: #061a3a !important;
+}
+
+html[data-theme="dark"] .de-home-card,
+html[data-theme="dark"] .de-home-card .sd-card-body,
+html[data-theme="dark"] .de-home-card .sd-card-footer,
+html[data-theme="dark"] .de-home-intro-card,
+html[data-theme="dark"] .de-platform-horizontal-content {
+  background: #172033 !important;
 }
