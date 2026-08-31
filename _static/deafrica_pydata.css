@@ -1644,3 +1644,65 @@ html[data-theme="dark"] .de-home-intro-card,
 html[data-theme="dark"] .de-platform-horizontal-content {
   background: #172033 !important;
 }
+/* ==========================================================
+   Product card consistency
+   ========================================================== */
+
+/*
+   Some catalogue cards contain an image/thumbnail element while
+   neighbouring cards do not. When that image is unavailable, its
+   alt text can appear as a dark media block and make the card look
+   different.
+
+   Hide that media element for the Landsat Surface Temperature card
+   so product cards retain the same:
+   title -> description -> button structure.
+*/
+
+img.sd-card-img-top[alt*="SURFACE-TEMPERATURE"],
+img.sd-card-img-top[alt*="Surface-temperature"],
+img.sd-card-img-top[alt*="Surface Temperature"],
+img[alt*="SURFACE-TEMPERATURE OBSERVATIONS FROM LANDSAT"],
+img[alt*="Surface-temperature observations from Landsat"] {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+
+/* Keep catalogue/product card content visually aligned */
+.sd-card-body {
+  background: #ffffff;
+}
+
+/*
+   Where cards are laid out in a grid, use flex so the action area
+   can sit consistently toward the bottom even when descriptions
+   differ in length.
+*/
+.sd-card {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.sd-card .sd-card-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.sd-card .sd-card-footer {
+  margin-top: auto;
+}
+
+
+/* Avoid empty media spacing if a hidden image was the first item */
+.sd-card > img.sd-card-img-top[style*="display: none"],
+.sd-card-body > img.sd-card-img-top[style*="display: none"] {
+  margin: 0 !important;
+}
