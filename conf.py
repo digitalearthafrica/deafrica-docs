@@ -202,16 +202,6 @@ html_css_files = [
     "doc_css.css",
 ]
 
-html_js_files = [
-    "external-links.js",
-    (
-        "active-navbar.js",
-        {
-            "defer": "defer",
-        },
-    ),
-]
-
 html_use_index = True
 html_split_index = False
 html_domain_indices = False

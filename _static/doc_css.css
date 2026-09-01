@@ -1775,7 +1775,6 @@ body:has(.de-home-grid) .bd-header .navbar-nav a[href$="/index.html"] {
 /* Homepage cards */
 .de-home-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   align-items: stretch;
 }
