@@ -2655,3 +2655,744 @@ body:has(.de-home-grid) .bd-article {
     min-height: 190px;
   }
 }
+/* ==========================================================
+   24. Cross-section consistency fixes
+   Data cards, Platforms, Direct Access, Tech Alerts, Homepage
+   ========================================================== */
+
+
+/* ----------------------------------------------------------
+   1. DATA SECTION — identical image size and card shape
+   ---------------------------------------------------------- */
+
+/*
+   All product images must occupy the same fixed media box.
+   object-fit: cover keeps the card geometry identical regardless
+   of source image aspect ratio.
+*/
+.bd-article .product-list .product-item {
+  display: flex;
+  height: 100%;
+  min-width: 0;
+  overflow: hidden;
+  flex-direction: column;
+  background: var(--de-white);
+  border: 1px solid var(--de-border);
+  border-radius: 8px;
+}
+
+.bd-article .product-list .product-item img,
+.bd-article .product-list .product-item picture,
+.bd-article .product-list .product-item .sd-card-img-top {
+  display: block !important;
+  width: 100% !important;
+  height: 150px !important;
+  min-height: 150px !important;
+  max-height: 150px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  background: #f8fafc;
+  border-bottom: 1px solid var(--de-border);
+}
+
+/*
+   Prevent portrait/tall source images from stretching the card.
+*/
+.bd-article .product-list .product-item picture img {
+  width: 100% !important;
+  height: 150px !important;
+  min-height: 150px !important;
+  max-height: 150px !important;
+  object-fit: cover !important;
+}
+
+/* Equal body proportions */
+.bd-article .product-list .product-item p {
+  margin: 0.45rem 0.65rem;
+}
+
+.bd-article .product-list .product-item p:not(:first-of-type):not(:last-child) {
+  flex: 1 1 auto;
+}
+
+/* Keep action aligned */
+.bd-article .product-list .product-item p:last-child {
+  margin-top: auto;
+  margin-bottom: 0.65rem;
+}
+
+
+/* ----------------------------------------------------------
+   2. PLATFORMS — fix broken horizontal card rendering
+   ---------------------------------------------------------- */
+
+/*
+   Make platform cards use a reliable two-column grid.
+   This avoids tiny/cropped images caused by inherited Bootstrap
+   column sizing.
+*/
+.de-platform-horizontal-card {
+  width: 100%;
+  overflow: hidden;
+}
+
+.de-platform-horizontal-card > .sd-row {
+  display: grid !important;
+  grid-template-columns: 220px minmax(0, 1fr) !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.de-platform-horizontal-card .sd-col,
+.de-platform-horizontal-card [class*="sd-col"] {
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  flex: none !important;
+}
+
+.de-platform-horizontal-media {
+  display: flex;
+  width: 220px;
+  min-height: 180px;
+  overflow: hidden;
+  background: #eef3f8;
+}
+
+.de-platform-horizontal-media img {
+  display: block;
+  width: 220px !important;
+  height: 180px !important;
+  min-width: 220px;
+  min-height: 180px !important;
+  max-height: 180px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+.de-platform-horizontal-content {
+  display: flex;
+  min-height: 180px;
+  padding: 1rem 1.25rem !important;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.de-platform-horizontal-content > p:first-child {
+  margin: 0 0 0.65rem;
+}
+
+.de-platform-horizontal-content p {
+  margin: 0 0 0.8rem;
+}
+
+
+/* ----------------------------------------------------------
+   3. DIRECT ACCESS — More button bottom-right
+   ---------------------------------------------------------- */
+
+.de-platform-horizontal-content {
+  position: relative;
+}
+
+.de-platform-horizontal-content > p:last-child {
+  margin-top: auto;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+/*
+   More = clearly highlighted blue button.
+*/
+.de-platform-horizontal-content > p:last-child a,
+.de-platform-more-button,
+a.de-view-more,
+.de-view-more-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  min-height: 40px;
+  padding: 0.55rem 0.9rem !important;
+  color: #ffffff !important;
+  background: var(--de-blue) !important;
+  border: 2px solid var(--de-blue) !important;
+  border-radius: 5px !important;
+  font-size: var(--de-font-size-button);
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none !important;
+}
+
+.de-platform-horizontal-content > p:last-child a:hover,
+.de-platform-horizontal-content > p:last-child a:focus,
+.de-platform-more-button:hover,
+.de-platform-more-button:focus,
+a.de-view-more:hover,
+a.de-view-more:focus,
+.de-view-more-button:hover,
+.de-view-more-button:focus {
+  color: #ffffff !important;
+  background: var(--de-blue-dark) !important;
+  border-color: var(--de-blue-dark) !important;
+}
+
+
+/* ----------------------------------------------------------
+   4. TECH ALERT — move content away from borders
+   ---------------------------------------------------------- */
+
+.tech-alert,
+.status-summary,
+.status-card,
+.tech-alert-info {
+  box-sizing: border-box;
+}
+
+/* Stronger inner spacing */
+.tech-alert {
+  padding: 1.4rem 1.6rem 1.4rem 1.8rem !important;
+}
+
+.tech-alert > * {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.tech-alert > p:first-child {
+  margin-top: 0 !important;
+  padding-left: 0.1rem;
+}
+
+.tech-alert .field-list {
+  margin: 0.9rem 0 1.1rem !important;
+  padding: 0.9rem 1.1rem !important;
+}
+
+.status-summary,
+.status-card,
+.tech-alert-info {
+  padding: 1.2rem 1.4rem !important;
+}
+
+/* Give labelled status content breathing room */
+.status-card::before,
+.status-summary::before,
+.tech-alert::before,
+.tech-alert-info::before {
+  margin-right: 0.35rem;
+}
+
+
+/* ----------------------------------------------------------
+   5. NAVIGATION — Home active state on homepage
+   ---------------------------------------------------------- */
+
+/*
+   Reset inherited li.current styling so only the actual active link
+   is highlighted.
+*/
+.bd-header .navbar-nav li.current > a:not([aria-current="page"]):not(.de-nav-active),
+.bd-header .navbar-nav li.active > a:not([aria-current="page"]):not(.de-nav-active) {
+  color: var(--de-text) !important;
+  background: transparent !important;
+  border-color: transparent !important;
+  border-bottom: 1px solid transparent !important;
+  box-shadow: none !important;
+}
+
+/*
+   Standard selected navigation state.
+*/
+.bd-header .navbar-nav a[aria-current="page"],
+.bd-header .navbar-nav a.de-nav-active {
+  color: var(--de-orange) !important;
+  background: #fff4e8 !important;
+  border: 1px solid #d96a1c !important;
+  border-bottom: 4px solid var(--de-orange) !important;
+  border-radius: 8px;
+  font-weight: 800 !important;
+}
+
+/*
+   Homepage fallback.
+   The homepage contains .de-home-grid, so this targets the Home link
+   even if the Sphinx-generated markup omits aria-current.
+*/
+body:has(.de-home-grid) .bd-header .navbar-nav a[href="./"],
+body:has(.de-home-grid) .bd-header .navbar-nav a[href="index.html"],
+body:has(.de-home-grid) .bd-header .navbar-nav a[href="./index.html"],
+body:has(.de-home-grid) .bd-header .navbar-nav a[href="/"],
+body:has(.de-home-grid) .bd-header .navbar-nav a[href$="/index.html"] {
+  color: var(--de-orange) !important;
+  background: #fff4e8 !important;
+  border: 1px solid #d96a1c !important;
+  border-bottom: 4px solid var(--de-orange) !important;
+  border-radius: 8px;
+  font-weight: 800 !important;
+}
+
+
+/* ----------------------------------------------------------
+   6. HOMEPAGE DOCUMENTATION SECTIONS — fill available width
+   ---------------------------------------------------------- */
+
+body:has(.de-home-grid) .bd-main .bd-content .bd-article-container {
+  max-width: 1180px !important;
+}
+
+.de-home-grid {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 1rem 0 2rem;
+}
+
+.de-home-grid > .sd-row,
+.de-home-grid .sd-row {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 1.2rem !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+}
+
+.de-home-grid .sd-col,
+.de-home-grid [class*="sd-col"] {
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  flex: none !important;
+}
+
+.de-home-grid .de-home-card {
+  width: 100% !important;
+  max-width: none !important;
+  height: 100%;
+}
+
+.de-home-grid .de-home-card .sd-card-img-top {
+  width: 100% !important;
+  height: 230px !important;
+  min-height: 230px !important;
+  max-height: 230px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+/* Keep all bodies aligned */
+.de-home-grid .de-home-card .sd-card-body {
+  min-height: 125px;
+}
+
+
+/* ----------------------------------------------------------
+   7. HOMEPAGE footer actions — light blue
+   ---------------------------------------------------------- */
+
+/*
+   Explore and View Current Status get the same light-blue treatment.
+*/
+.de-home-grid .de-home-card .sd-card-footer a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  min-height: 38px;
+  padding: 0.5rem 0.75rem !important;
+  color: var(--de-blue) !important;
+  background: #eaf4ff !important;
+  border: 1px solid #9cc7ee !important;
+  border-radius: 5px;
+  font-size: var(--de-font-size-button);
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.de-home-grid .de-home-card .sd-card-footer a:hover,
+.de-home-grid .de-home-card .sd-card-footer a:focus {
+  color: #ffffff !important;
+  background: var(--de-blue) !important;
+  border-color: var(--de-blue) !important;
+}
+
+
+/* ----------------------------------------------------------
+   8. Responsive consistency
+   ---------------------------------------------------------- */
+
+@media screen and (max-width: 1050px) {
+  .bd-article .product-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  .de-platform-horizontal-card > .sd-row {
+    grid-template-columns: 190px minmax(0, 1fr) !important;
+  }
+
+  .de-platform-horizontal-media,
+  .de-platform-horizontal-media img {
+    width: 190px !important;
+    min-width: 190px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .bd-article .product-list {
+    grid-template-columns: 1fr !important;
+  }
+
+  .de-platform-horizontal-card > .sd-row {
+    grid-template-columns: 1fr !important;
+  }
+
+  .de-platform-horizontal-media,
+  .de-platform-horizontal-media img {
+    width: 100% !important;
+    height: 190px !important;
+    min-width: 0;
+    min-height: 190px !important;
+    max-height: 190px !important;
+  }
+
+  .de-home-grid > .sd-row,
+  .de-home-grid .sd-row {
+    grid-template-columns: 1fr !important;
+  }
+
+  .de-home-grid .de-home-card .sd-card-img-top {
+    height: 200px !important;
+    min-height: 200px !important;
+    max-height: 200px !important;
+  }
+}
+/* ==========================================================
+   25. Direct Access visual refinement
+   Match Platforms styling and add more visual energy
+   ========================================================== */
+
+
+/* ----------------------------------------------------------
+   Direct Access page intro
+   ---------------------------------------------------------- */
+
+.bd-article:has(.de-platform-horizontal-card) > h1,
+.bd-article:has(.de-platform-horizontal-card) > h2 {
+  color: var(--de-text);
+}
+
+.bd-article:has(.de-platform-horizontal-card) > p:first-of-type {
+  max-width: 900px;
+  color: var(--de-body) !important;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+
+/* ----------------------------------------------------------
+   Direct Access section headings
+   ---------------------------------------------------------- */
+
+.bd-article:has(.de-platform-horizontal-card) h2 {
+  margin-top: 1.9rem;
+  margin-bottom: 0.75rem;
+  color: var(--de-text);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.bd-article:has(.de-platform-horizontal-card) h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.65rem;
+  color: var(--de-text);
+  font-size: 21px;
+  font-weight: 700;
+}
+
+
+/* ----------------------------------------------------------
+   Main Direct Access cards
+   ---------------------------------------------------------- */
+
+.de-platform-horizontal-card {
+  position: relative;
+  overflow: hidden;
+  margin: 0.8rem 0 1.6rem;
+  background: var(--de-white);
+  border: 1px solid var(--de-border);
+  border-left: 5px solid var(--de-blue);
+  border-radius: 12px;
+  box-shadow:
+    0 4px 12px rgba(15, 35, 70, 0.08),
+    0 1px 3px rgba(15, 35, 70, 0.04);
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    border-color 0.22s ease;
+}
+
+
+/* Soft branded highlight */
+.de-platform-horizontal-card::after {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  background:
+    linear-gradient(
+      120deg,
+      rgba(11, 85, 160, 0.035),
+      transparent 46%
+    );
+}
+
+
+/* ----------------------------------------------------------
+   Card layout
+   ---------------------------------------------------------- */
+
+.de-platform-horizontal-card > .sd-row {
+  display: grid !important;
+  grid-template-columns: minmax(230px, 34%) 1fr !important;
+  align-items: stretch;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.de-platform-horizontal-card .sd-col,
+.de-platform-horizontal-card [class*="sd-col"] {
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  flex: none !important;
+}
+
+
+/* ----------------------------------------------------------
+   Image/media panel
+   ---------------------------------------------------------- */
+
+.de-platform-horizontal-media {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 220px;
+  overflow: hidden;
+  background:
+    linear-gradient(135deg, #0c2d3b, #123846);
+}
+
+.de-platform-horizontal-media img {
+  display: block;
+  width: 100% !important;
+  height: 220px !important;
+  min-height: 220px !important;
+  max-height: 220px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  background: #0d2b38;
+  transition:
+    transform 0.35s ease,
+    filter 0.35s ease;
+  filter: saturate(0.98) contrast(1.03);
+}
+
+
+/* ----------------------------------------------------------
+   Content panel
+   ---------------------------------------------------------- */
+
+.de-platform-horizontal-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: 220px;
+  padding: 1.3rem 1.5rem !important;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: var(--de-text) !important;
+  background:
+    linear-gradient(90deg, #ffffff 0%, #fbfdff 100%) !important;
+}
+
+
+/* Title */
+.de-platform-horizontal-content > p:first-child {
+  margin: 0 0 0.75rem;
+}
+
+.de-platform-horizontal-content > p:first-child a {
+  color: var(--de-blue) !important;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+}
+
+
+/* Description */
+.de-platform-horizontal-content p {
+  margin: 0 0 0.9rem;
+  color: var(--de-body) !important;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+
+/* ----------------------------------------------------------
+   More button: bottom-right, blue and clearly interactive
+   ---------------------------------------------------------- */
+
+.de-platform-horizontal-content > p:last-child {
+  margin-top: auto !important;
+  margin-bottom: 0 !important;
+  text-align: right;
+}
+
+.de-platform-horizontal-content > p:last-child a,
+.de-platform-more-button,
+a.de-view-more,
+.de-view-more-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0.6rem 1rem !important;
+  color: #ffffff !important;
+  background: var(--de-blue) !important;
+  border: 2px solid var(--de-blue) !important;
+  border-radius: 6px !important;
+  box-shadow: 0 3px 8px rgba(11, 85, 160, 0.18);
+  font-size: var(--de-font-size-button);
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none !important;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    background-color 0.18s ease;
+}
+
+.de-platform-horizontal-content > p:last-child a::after,
+.de-platform-more-button::after,
+a.de-view-more::after,
+.de-view-more-button::after {
+  margin-left: 0.4rem;
+  content: "→";
+}
+
+
+/* ----------------------------------------------------------
+   Hover/focus interaction
+   ---------------------------------------------------------- */
+
+.de-platform-horizontal-card:hover,
+.de-platform-horizontal-card:focus-within {
+  transform: translateY(-4px);
+  border-left-color: var(--de-orange);
+  box-shadow:
+    0 14px 30px rgba(15, 35, 70, 0.14),
+    0 4px 10px rgba(15, 35, 70, 0.08);
+}
+
+.de-platform-horizontal-card:hover .de-platform-horizontal-media img,
+.de-platform-horizontal-card:focus-within .de-platform-horizontal-media img {
+  transform: scale(1.025);
+  filter: saturate(1.05) contrast(1.04);
+}
+
+.de-platform-horizontal-content > p:last-child a:hover,
+.de-platform-horizontal-content > p:last-child a:focus,
+.de-platform-more-button:hover,
+.de-platform-more-button:focus,
+a.de-view-more:hover,
+a.de-view-more:focus,
+.de-view-more-button:hover,
+.de-view-more-button:focus {
+  transform: translateY(-1px);
+  color: #ffffff !important;
+  background: var(--de-blue-dark) !important;
+  border-color: var(--de-blue-dark) !important;
+  box-shadow: 0 6px 14px rgba(11, 85, 160, 0.28);
+}
+
+
+/* ----------------------------------------------------------
+   Slight visual distinction between Direct Access methods
+   ---------------------------------------------------------- */
+
+.de-platform-horizontal-card:nth-of-type(2n) {
+  border-left-color: var(--de-green);
+}
+
+.de-platform-horizontal-card:nth-of-type(3n) {
+  border-left-color: var(--de-purple);
+}
+
+.de-platform-horizontal-card:hover,
+.de-platform-horizontal-card:focus-within {
+  border-left-color: var(--de-orange);
+}
+
+
+/* ----------------------------------------------------------
+   Feedback/help text
+   ---------------------------------------------------------- */
+
+.bd-article:has(.de-platform-horizontal-card) p:last-of-type {
+  color: var(--de-muted) !important;
+}
+
+
+/* ----------------------------------------------------------
+   Responsive Direct Access cards
+   ---------------------------------------------------------- */
+
+@media screen and (max-width: 900px) {
+  .de-platform-horizontal-card > .sd-row {
+    grid-template-columns: 1fr !important;
+  }
+
+  .de-platform-horizontal-media,
+  .de-platform-horizontal-media img {
+    width: 100% !important;
+    height: 210px !important;
+    min-height: 210px !important;
+    max-height: 210px !important;
+  }
+
+  .de-platform-horizontal-content {
+    min-height: 190px;
+    padding: 1.15rem 1.25rem !important;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .de-platform-horizontal-media,
+  .de-platform-horizontal-media img {
+    height: 180px !important;
+    min-height: 180px !important;
+    max-height: 180px !important;
+  }
+
+  .de-platform-horizontal-content {
+    min-height: 175px;
+  }
+
+  .de-platform-horizontal-content > p:last-child {
+    text-align: left;
+  }
+}
