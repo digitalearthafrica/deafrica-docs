@@ -199,8 +199,7 @@ html_logo = "_static/logo.png"
 html_favicon = "_static/favicon.png"
 
 html_css_files = [
-    "theme_override.css",
-    "deafrica_pydata.css",
+    "doc_css.css",
 ]
 
 html_js_files = [
