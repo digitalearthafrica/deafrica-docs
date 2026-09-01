@@ -3396,3 +3396,554 @@ a.de-view-more:focus,
     text-align: left;
   }
 }
+/* ==========================================================
+   26. Platform CTA placement refinement
+   Place MORE directly below the description text
+   ========================================================== */
+
+.de-platform-horizontal-content {
+  justify-content: flex-start;
+}
+
+/*
+   Keep the final paragraph/button in the normal content flow
+   so it appears directly below the description.
+*/
+.de-platform-horizontal-content > p:last-child {
+  margin-top: 0.35rem !important;
+  margin-bottom: 0 !important;
+  text-align: left !important;
+}
+
+/* Align the action with the text column */
+.de-platform-horizontal-content > p:last-child a,
+.de-platform-more-button,
+a.de-view-more,
+.de-view-more-button {
+  align-self: flex-start !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Keep a little breathing room between text and button */
+.de-platform-horizontal-content p + p:last-child {
+  padding-top: 0.2rem;
+}
+
+@media screen and (max-width: 560px) {
+  .de-platform-horizontal-content > p:last-child {
+    text-align: left !important;
+  }
+}
+/* ==========================================================
+   27. Direct Access = Platform card behaviour
+   ========================================================== */
+
+/*
+   Direct Access pages may use either:
+   - .de-platform-horizontal-card
+   - .platform-list .product-item
+
+   Both are given the same visual treatment so the Direct Access
+   section behaves like the Platforms section.
+*/
+
+
+/* ----------------------------------------------------------
+   Shared card shell
+   ---------------------------------------------------------- */
+
+.de-platform-horizontal-card,
+.platform-list .product-item {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0.8rem 0 1.5rem;
+  background: var(--de-white);
+  border: 1px solid var(--de-border);
+  border-left: 5px solid var(--de-blue);
+  border-radius: 12px;
+  box-shadow:
+    0 4px 12px rgba(15, 35, 70, 0.08),
+    0 1px 3px rgba(15, 35, 70, 0.04);
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    border-color 0.22s ease;
+}
+
+
+/* ----------------------------------------------------------
+   Shared hover behaviour
+   ---------------------------------------------------------- */
+
+.de-platform-horizontal-card:hover,
+.de-platform-horizontal-card:focus-within,
+.platform-list .product-item:hover,
+.platform-list .product-item:focus-within {
+  transform: translateY(-4px);
+  border-left-color: var(--de-orange);
+  box-shadow:
+    0 14px 30px rgba(15, 35, 70, 0.14),
+    0 4px 10px rgba(15, 35, 70, 0.08);
+}
+
+
+/* ----------------------------------------------------------
+   Direct Access cards using .platform-list
+   ---------------------------------------------------------- */
+
+.platform-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  width: 100%;
+}
+
+.platform-list .product-item {
+  display: grid;
+  grid-template-columns: minmax(220px, 34%) 1fr;
+  min-height: 220px;
+  padding: 0;
+}
+
+
+/* Image */
+.platform-list .product-item img {
+  display: block;
+  width: 100% !important;
+  height: 220px !important;
+  min-height: 220px !important;
+  max-height: 220px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  background: #0d2b38;
+  border-right: 1px solid var(--de-border);
+  transition:
+    transform 0.35s ease,
+    filter 0.35s ease;
+  filter: saturate(0.98) contrast(1.03);
+}
+
+.platform-list .product-item:hover img,
+.platform-list .product-item:focus-within img {
+  transform: scale(1.025);
+  filter: saturate(1.05) contrast(1.04);
+}
+
+
+/* Content */
+.platform-list .product-item > *:not(img):not(picture) {
+  min-width: 0;
+}
+
+.platform-list .product-item p {
+  margin: 0;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  color: var(--de-body) !important;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+
+/* Title */
+.platform-list .product-item p:first-of-type {
+  padding-top: 1.25rem;
+  padding-bottom: 0.7rem;
+  color: var(--de-text) !important;
+}
+
+.platform-list .product-item p:first-of-type a,
+.platform-list .product-item .topic-title a {
+  color: var(--de-blue) !important;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+}
+
+
+/* Description */
+.platform-list .product-item p:not(:first-of-type):not(:last-child) {
+  padding-bottom: 0.8rem;
+}
+
+
+/* MORE button directly below description */
+.platform-list .product-item p:last-child {
+  align-self: start;
+  margin-top: 0.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.platform-list .product-item p:last-child a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0.6rem 1rem !important;
+  color: #ffffff !important;
+  background: var(--de-blue) !important;
+  border: 2px solid var(--de-blue) !important;
+  border-radius: 6px !important;
+  box-shadow: 0 3px 8px rgba(11, 85, 160, 0.18);
+  font-size: var(--de-font-size-button);
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none !important;
+}
+
+.platform-list .product-item p:last-child a::after {
+  margin-left: 0.4rem;
+  content: "→";
+}
+
+.platform-list .product-item p:last-child a:hover,
+.platform-list .product-item p:last-child a:focus {
+  color: #ffffff !important;
+  background: var(--de-blue-dark) !important;
+  border-color: var(--de-blue-dark) !important;
+  box-shadow: 0 6px 14px rgba(11, 85, 160, 0.28);
+}
+
+
+/* ----------------------------------------------------------
+   Existing horizontal platform cards
+   Keep MORE directly beneath the description
+   ---------------------------------------------------------- */
+
+.de-platform-horizontal-content {
+  justify-content: flex-start;
+}
+
+.de-platform-horizontal-content > p:last-child {
+  margin-top: 0.35rem !important;
+  margin-bottom: 0 !important;
+  text-align: left !important;
+}
+
+.de-platform-horizontal-content > p:last-child a,
+.de-platform-more-button {
+  align-self: flex-start !important;
+}
+
+
+/* ----------------------------------------------------------
+   Responsive
+   ---------------------------------------------------------- */
+
+@media screen and (max-width: 900px) {
+  .platform-list .product-item {
+    grid-template-columns: 1fr;
+  }
+
+  .platform-list .product-item img {
+    width: 100% !important;
+    height: 200px !important;
+    min-height: 200px !important;
+    max-height: 200px !important;
+    border-right: 0;
+    border-bottom: 1px solid var(--de-border);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .platform-list .product-item img {
+    height: 175px !important;
+    min-height: 175px !important;
+    max-height: 175px !important;
+  }
+}
+/* ==========================================================
+   28. Homepage button-ref integration
+   Supports button-ref directives in index.rst
+   ========================================================== */
+
+/*
+   Homepage action buttons created with:
+
+   .. button-ref:: ...
+      :class: de-home-action
+
+   Tech Alert can additionally use:
+      :class: de-home-action de-status-action
+*/
+
+
+/* ----------------------------------------------------------
+   Base homepage action button
+   ---------------------------------------------------------- */
+
+.de-home-grid .de-home-action,
+.de-home-grid a.de-home-action,
+.de-home-grid .sd-btn.de-home-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+
+  min-height: 40px;
+  padding: 0.55rem 0.85rem;
+
+  color: var(--de-blue) !important;
+  background: #eaf4ff !important;
+
+  border: 1px solid #9cc7ee !important;
+  border-radius: 6px !important;
+
+  box-shadow: none;
+
+  font-family: var(--de-font-family);
+  font-size: var(--de-font-size-button);
+  font-weight: 700;
+  line-height: 1.2;
+
+  text-decoration: none !important;
+
+  transition:
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    color 0.18s ease,
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+
+/* Hover/focus */
+.de-home-grid .de-home-action:hover,
+.de-home-grid .de-home-action:focus,
+.de-home-grid a.de-home-action:hover,
+.de-home-grid a.de-home-action:focus,
+.de-home-grid .sd-btn.de-home-action:hover,
+.de-home-grid .sd-btn.de-home-action:focus {
+  color: #ffffff !important;
+  background: var(--de-blue) !important;
+  border-color: var(--de-blue) !important;
+
+  transform: translateY(-1px);
+
+  box-shadow: 0 4px 10px rgba(11, 85, 160, 0.18);
+}
+
+
+/* ----------------------------------------------------------
+   Tech Alert homepage action
+   ---------------------------------------------------------- */
+
+.de-home-grid .de-status-action,
+.de-home-grid a.de-status-action,
+.de-home-grid .sd-btn.de-status-action {
+  color: #8a3b00 !important;
+  background: #fff4e8 !important;
+  border-color: #e6b98f !important;
+}
+
+.de-home-grid .de-status-action:hover,
+.de-home-grid .de-status-action:focus,
+.de-home-grid a.de-status-action:hover,
+.de-home-grid a.de-status-action:focus,
+.de-home-grid .sd-btn.de-status-action:hover,
+.de-home-grid .sd-btn.de-status-action:focus {
+  color: #ffffff !important;
+  background: var(--de-orange) !important;
+  border-color: var(--de-orange) !important;
+}
+
+
+/* ----------------------------------------------------------
+   Card footer layout for button-ref actions
+   ---------------------------------------------------------- */
+
+.de-home-grid .de-home-card .sd-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-top: auto;
+  padding: 0.8rem 1.1rem;
+
+  background: var(--de-white) !important;
+  border-top: 1px solid var(--de-border);
+}
+
+
+/*
+   Prevent older generic footer-link rules from overriding
+   button-ref styling.
+*/
+.de-home-grid .de-home-card .sd-card-footer .de-home-action {
+  padding: 0.55rem 0.85rem !important;
+
+  color: var(--de-blue) !important;
+  background: #eaf4ff !important;
+
+  border: 1px solid #9cc7ee !important;
+
+  text-decoration: none !important;
+}
+
+.de-home-grid .de-home-card .sd-card-footer .de-home-action:hover,
+.de-home-grid .de-home-card .sd-card-footer .de-home-action:focus {
+  color: #ffffff !important;
+  background: var(--de-blue) !important;
+  border-color: var(--de-blue) !important;
+}
+
+
+/* Tech Alert footer override */
+.de-home-grid .de-home-card .sd-card-footer .de-status-action {
+  color: #8a3b00 !important;
+  background: #fff4e8 !important;
+  border-color: #e6b98f !important;
+}
+
+.de-home-grid .de-home-card .sd-card-footer .de-status-action:hover,
+.de-home-grid .de-home-card .sd-card-footer .de-status-action:focus {
+  color: #ffffff !important;
+  background: var(--de-orange) !important;
+  border-color: var(--de-orange) !important;
+}
+
+
+/* ----------------------------------------------------------
+   Homepage card consistency
+   ---------------------------------------------------------- */
+
+.de-home-grid .de-home-card {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.de-home-grid .de-home-card .sd-card-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+
+/* Keep text and buttons aligned across all four cards */
+.de-home-grid .de-home-card .sd-card-body > :last-child {
+  margin-bottom: 0;
+}
+
+
+/* ----------------------------------------------------------
+   Homepage active navigation
+   ---------------------------------------------------------- */
+
+/*
+   active-navbar.js sets:
+   .de-nav-active
+   aria-current="page"
+
+   These rules ensure Home is visibly selected when page-id=home.
+*/
+.bd-header .navbar-nav a.de-nav-active,
+.bd-header .navbar-nav a[aria-current="page"] {
+  color: var(--de-orange) !important;
+  background: #fff4e8 !important;
+
+  border: 1px solid #d96a1c !important;
+  border-bottom: 4px solid var(--de-orange) !important;
+  border-radius: 8px;
+
+  box-shadow: none !important;
+
+  font-weight: 800 !important;
+}
+
+
+/* Clear non-active links */
+.bd-header .navbar-nav a:not(.de-nav-active):not([aria-current="page"]) {
+  box-shadow: none !important;
+}
+
+
+/* ----------------------------------------------------------
+   Homepage grid arrangement
+   ---------------------------------------------------------- */
+
+.de-home-grid > .sd-row,
+.de-home-grid .sd-row {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+
+  gap: 1.2rem !important;
+
+  width: 100% !important;
+  max-width: none !important;
+
+  margin: 0 !important;
+}
+
+
+/* Remove Bootstrap/Sphinx column restrictions */
+.de-home-grid .sd-col,
+.de-home-grid [class*="sd-col"] {
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  flex: none !important;
+}
+
+
+/* Equal homepage images */
+.de-home-grid .de-home-card .sd-card-img-top {
+  display: block;
+
+  width: 100% !important;
+
+  height: 230px !important;
+  min-height: 230px !important;
+  max-height: 230px !important;
+
+  padding: 0;
+
+  object-fit: cover !important;
+  object-position: center !important;
+
+  background: #0d2b38;
+}
+
+
+/* Equal body height */
+.de-home-grid .de-home-card .sd-card-body {
+  min-height: 125px;
+}
+
+
+/* ----------------------------------------------------------
+   Mobile homepage layout
+   ---------------------------------------------------------- */
+
+@media screen and (max-width: 760px) {
+
+  .de-home-grid > .sd-row,
+  .de-home-grid .sd-row {
+    grid-template-columns: 1fr !important;
+  }
+
+  .de-home-grid .de-home-card .sd-card-img-top {
+    height: 200px !important;
+    min-height: 200px !important;
+    max-height: 200px !important;
+  }
+
+  .de-home-grid .de-home-action,
+  .de-home-grid .de-status-action {
+    width: 100%;
+  }
+
+  .de-home-grid .de-home-card .sd-card-footer {
+    align-items: stretch;
+  }
+}
