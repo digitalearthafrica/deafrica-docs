@@ -3947,3 +3947,726 @@ a.de-view-more,
     align-items: stretch;
   }
 }
+/* ==========================================================
+   29. Force light theme
+   ========================================================== */
+
+/*
+   Force the site to use the light visual system even when the
+   browser, OS, or PyData Sphinx Theme prefers dark mode.
+*/
+
+/* Light page surfaces */
+html,
+html[data-theme="light"],
+html[data-theme="auto"],
+html[data-theme="dark"],
+body {
+  color-scheme: light !important;
+  background: var(--de-page) !important;
+}
+
+/* Core layout */
+html[data-theme="dark"] .bd-container,
+html[data-theme="dark"] .bd-main,
+html[data-theme="dark"] .bd-content,
+html[data-theme="dark"] .bd-article {
+  color: var(--de-body) !important;
+  background: var(--de-page) !important;
+}
+
+/* Main article */
+html[data-theme="dark"] .bd-article {
+  background: var(--de-white) !important;
+  border-color: var(--de-border) !important;
+}
+
+/* Header */
+html[data-theme="dark"] .bd-header {
+  color: var(--de-text) !important;
+  background: var(--de-white) !important;
+  border-bottom-color: var(--de-border) !important;
+}
+
+html[data-theme="dark"] .bd-header .navbar-nav a,
+html[data-theme="dark"] .navbar-brand,
+html[data-theme="dark"] .bd-header button {
+  color: var(--de-text) !important;
+}
+
+
+/* Sidebars */
+html[data-theme="dark"] .bd-sidebar-primary,
+html[data-theme="dark"] .bd-sidebar-secondary {
+  color: var(--de-text) !important;
+  background: var(--de-white) !important;
+  border-color: var(--de-border) !important;
+}
+
+html[data-theme="dark"] .bd-sidebar-primary .nav-link,
+html[data-theme="dark"] .bd-sidebar-primary .reference.internal {
+  color: #475569 !important;
+}
+
+
+/* Headings and article text */
+html[data-theme="dark"] .bd-article h1,
+html[data-theme="dark"] .bd-article h2,
+html[data-theme="dark"] .bd-article h3,
+html[data-theme="dark"] .bd-article h4,
+html[data-theme="dark"] .bd-article h5,
+html[data-theme="dark"] .bd-article p,
+html[data-theme="dark"] .bd-article li,
+html[data-theme="dark"] .bd-article dd,
+html[data-theme="dark"] .bd-article dt {
+  color: var(--de-text) !important;
+}
+
+
+/* Links */
+html[data-theme="dark"] .bd-article a:not(.btn):not(.sd-btn):not(.de-platform-more-button),
+html[data-theme="dark"] .bd-sidebar-primary a,
+html[data-theme="dark"] .bd-sidebar-secondary a {
+  color: var(--de-blue) !important;
+}
+
+html[data-theme="dark"] .bd-article a:hover,
+html[data-theme="dark"] .bd-sidebar-primary a:hover,
+html[data-theme="dark"] .bd-sidebar-secondary a:hover {
+  color: var(--de-orange) !important;
+}
+
+
+/* Homepage cards */
+html[data-theme="dark"] .de-home-card,
+html[data-theme="dark"] .de-home-card .sd-card-body,
+html[data-theme="dark"] .de-home-card .sd-card-footer,
+html[data-theme="dark"] .de-home-intro-card {
+  color: var(--de-text) !important;
+  background: var(--de-white) !important;
+  border-color: var(--de-border) !important;
+}
+
+html[data-theme="dark"] .de-home-card .sd-card-title,
+html[data-theme="dark"] .de-home-card p,
+html[data-theme="dark"] .de-home-intro-card .sd-card-title,
+html[data-theme="dark"] .de-home-intro-card p {
+  color: var(--de-body) !important;
+}
+
+
+/* Platform / Direct Access cards */
+html[data-theme="dark"] .de-platform-horizontal-card,
+html[data-theme="dark"] .de-platform-horizontal-content,
+html[data-theme="dark"] .platform-list .product-item {
+  color: var(--de-text) !important;
+  background: var(--de-white) !important;
+  border-color: var(--de-border) !important;
+}
+
+html[data-theme="dark"] .de-platform-horizontal-content p,
+html[data-theme="dark"] .platform-list .product-item p {
+  color: var(--de-body) !important;
+}
+
+
+/* Product cards */
+html[data-theme="dark"] .product-list .product-item {
+  color: var(--de-text) !important;
+  background: var(--de-white) !important;
+  border-color: var(--de-border) !important;
+}
+
+
+/* Status / alert components */
+html[data-theme="dark"] .status-summary,
+html[data-theme="dark"] .tech-alert,
+html[data-theme="dark"] .status-card,
+html[data-theme="dark"] .tech-alert-info,
+html[data-theme="dark"] .de-service-banner {
+  color: var(--de-text) !important;
+  background: var(--de-white) !important;
+  border-color: var(--de-border) !important;
+}
+
+html[data-theme="dark"] .tech-alert > p:first-child,
+html[data-theme="dark"] .tech-alert .field-body {
+  color: var(--de-text) !important;
+}
+
+html[data-theme="dark"] .tech-alert .field-list {
+  background: #f8fafc !important;
+  border-color: var(--de-border) !important;
+}
+
+
+/* Footer stays branded navy */
+html[data-theme="dark"] .bd-footer {
+  color: #ffffff !important;
+  background: var(--de-navy) !important;
+}
+
+
+/* Search and forms */
+html[data-theme="dark"] input,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select,
+html[data-theme="dark"] .search-button-field {
+  color: var(--de-text) !important;
+  background: var(--de-white) !important;
+  border-color: var(--de-border) !important;
+}
+
+
+/* PyData theme colour tokens */
+html[data-theme="dark"] {
+  --pst-color-background: var(--de-white) !important;
+  --pst-color-on-background: var(--de-text) !important;
+  --pst-color-surface: var(--de-white) !important;
+  --pst-color-on-surface: var(--de-text) !important;
+  --pst-color-text-base: var(--de-text) !important;
+  --pst-color-text-muted: var(--de-muted) !important;
+  --pst-color-border: var(--de-border) !important;
+}
+
+
+/* Optional: hide theme switch control completely */
+.theme-switch-button,
+button.theme-switch-button,
+.bd-header button[aria-label*="theme" i],
+.bd-header button[title*="theme" i] {
+  display: none !important;
+}
+/* ==========================================================
+   30. Final Direct Access + Homepage width correction
+   ========================================================== */
+
+
+/* ----------------------------------------------------------
+   A. DIRECT ACCESS
+   Support direct-child card markup:
+
+   .de-platform-horizontal-card
+      .de-platform-horizontal-media
+      .de-platform-horizontal-content
+   ---------------------------------------------------------- */
+
+.de-platform-horizontal-card {
+  display: grid !important;
+  grid-template-columns: minmax(240px, 34%) minmax(0, 1fr) !important;
+  align-items: stretch !important;
+
+  width: 100% !important;
+  min-height: 220px;
+
+  margin: 0.8rem 0 1.6rem !important;
+
+  overflow: hidden;
+
+  background: var(--de-white) !important;
+  border: 1px solid var(--de-border) !important;
+  border-left: 5px solid var(--de-blue) !important;
+  border-radius: 12px !important;
+
+  box-shadow:
+    0 4px 12px rgba(15, 35, 70, 0.08),
+    0 1px 3px rgba(15, 35, 70, 0.04);
+
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    border-color 0.22s ease;
+}
+
+
+/*
+   If a Sphinx Design row exists, let it span both columns
+   and keep the older supported layout working.
+*/
+.de-platform-horizontal-card > .sd-row {
+  grid-column: 1 / -1;
+
+  display: grid !important;
+  grid-template-columns: minmax(240px, 34%) minmax(0, 1fr) !important;
+
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+
+/* Media direct child */
+.de-platform-horizontal-card > .de-platform-horizontal-media {
+  grid-column: 1;
+
+  display: flex !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 220px !important;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(135deg, #0c2d3b, #123846) !important;
+}
+
+
+/* Image fills the entire left panel */
+.de-platform-horizontal-card > .de-platform-horizontal-media img,
+.de-platform-horizontal-card .de-platform-horizontal-media img {
+  display: block !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  min-width: 0 !important;
+  min-height: 220px !important;
+
+  max-width: none !important;
+  max-height: none !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  object-fit: cover !important;
+  object-position: center !important;
+
+  background: #0d2b38;
+
+  transition:
+    transform 0.35s ease,
+    filter 0.35s ease;
+}
+
+
+/* Content direct child */
+.de-platform-horizontal-card > .de-platform-horizontal-content {
+  grid-column: 2;
+
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+
+  min-width: 0 !important;
+  min-height: 220px !important;
+
+  padding: 1.35rem 1.5rem !important;
+
+  color: var(--de-text) !important;
+
+  background:
+    linear-gradient(90deg, #ffffff 0%, #fbfdff 100%) !important;
+}
+
+
+/* Title */
+.de-platform-horizontal-content > p:first-child {
+  margin: 0 0 0.75rem !important;
+}
+
+.de-platform-horizontal-content > p:first-child a {
+  color: var(--de-blue) !important;
+
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: 1.35 !important;
+
+  text-decoration: underline !important;
+  text-underline-offset: 0.15em;
+}
+
+
+/* Body text */
+.de-platform-horizontal-content p {
+  margin: 0 0 0.85rem !important;
+
+  color: var(--de-body) !important;
+
+  font-size: 15px !important;
+  line-height: 1.6 !important;
+}
+
+
+/*
+   MORE button directly beneath the description,
+   aligned to the left of the content column.
+*/
+.de-platform-horizontal-content > p:last-child {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0 !important;
+
+  padding: 0 !important;
+
+  text-align: left !important;
+}
+
+.de-platform-horizontal-content > p:last-child a {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+
+  align-self: flex-start !important;
+
+  min-height: 42px;
+
+  padding: 0.6rem 1rem !important;
+
+  color: #ffffff !important;
+  background: var(--de-blue) !important;
+
+  border: 2px solid var(--de-blue) !important;
+  border-radius: 6px !important;
+
+  box-shadow: 0 3px 8px rgba(11, 85, 160, 0.18);
+
+  font-size: var(--de-font-size-button) !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+
+  text-decoration: none !important;
+}
+
+.de-platform-horizontal-content > p:last-child a::after {
+  margin-left: 0.4rem;
+  content: "→";
+}
+
+
+/* Hover behaviour identical to Platforms */
+.de-platform-horizontal-card:hover,
+.de-platform-horizontal-card:focus-within {
+  transform: translateY(-4px);
+
+  border-left-color: var(--de-orange) !important;
+
+  box-shadow:
+    0 14px 30px rgba(15, 35, 70, 0.14),
+    0 4px 10px rgba(15, 35, 70, 0.08);
+}
+
+.de-platform-horizontal-card:hover
+  .de-platform-horizontal-media img,
+.de-platform-horizontal-card:focus-within
+  .de-platform-horizontal-media img {
+  transform: scale(1.025);
+  filter: saturate(1.05) contrast(1.04);
+}
+
+.de-platform-horizontal-content > p:last-child a:hover,
+.de-platform-horizontal-content > p:last-child a:focus {
+  color: #ffffff !important;
+  background: var(--de-blue-dark) !important;
+  border-color: var(--de-blue-dark) !important;
+
+  box-shadow: 0 6px 14px rgba(11, 85, 160, 0.28);
+}
+
+
+/* ----------------------------------------------------------
+   B. HOMEPAGE
+   Documentation Sections fill the available homepage width
+   ---------------------------------------------------------- */
+
+/*
+   Remove PyData's narrow article constraint specifically
+   on the homepage.
+*/
+body:has(.de-home-grid) .bd-main,
+body:has(.de-home-grid) .bd-content,
+body:has(.de-home-grid) .bd-article-container,
+body:has(.de-home-grid) .bd-article {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+
+/*
+   Give the homepage content a wide but readable frame.
+*/
+body:has(.de-home-grid) .bd-article {
+  padding-left: clamp(1rem, 2vw, 2rem) !important;
+  padding-right: clamp(1rem, 2vw, 2rem) !important;
+}
+
+
+/*
+   Documentation section takes the full article width.
+*/
+.de-home-grid {
+  width: 100% !important;
+  max-width: none !important;
+
+  margin: 1rem 0 2rem !important;
+}
+
+
+/*
+   Four cards across on large desktop screens.
+*/
+.de-home-grid > .sd-row,
+.de-home-grid .sd-row {
+  display: grid !important;
+
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr)) !important;
+
+  gap: 1.25rem !important;
+
+  width: 100% !important;
+  max-width: none !important;
+
+  margin: 0 !important;
+}
+
+
+/*
+   Neutralize Bootstrap / Sphinx Design column widths.
+*/
+.de-home-grid .sd-col,
+.de-home-grid [class*="sd-col"] {
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  flex: none !important;
+}
+
+
+/* Equal card geometry */
+.de-home-grid .de-home-card {
+  display: flex !important;
+
+  width: 100% !important;
+  max-width: none !important;
+  height: 100% !important;
+
+  flex-direction: column !important;
+
+  overflow: hidden;
+
+  border-radius: 10px !important;
+}
+
+
+/* Consistent image box across all four cards */
+.de-home-grid .de-home-card .sd-card-img-top {
+  display: block !important;
+
+  width: 100% !important;
+
+  height: 210px !important;
+  min-height: 210px !important;
+  max-height: 210px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+
+/* Equal card body */
+.de-home-grid .de-home-card .sd-card-body {
+  display: flex !important;
+
+  min-height: 150px !important;
+
+  flex: 1 1 auto !important;
+  flex-direction: column !important;
+
+  padding: 1rem 1.05rem !important;
+}
+
+
+/* Footer stays aligned across all cards */
+.de-home-grid .de-home-card .sd-card-footer {
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: flex-start !important;
+
+  min-height: 62px;
+
+  margin-top: auto !important;
+
+  padding: 0.75rem 1rem !important;
+
+  background: #f8fbff !important;
+
+  border-top: 1px solid var(--de-border) !important;
+}
+
+
+/* Homepage buttons */
+.de-home-grid .de-home-action {
+  display: inline-flex !important;
+
+  align-items: center;
+  justify-content: center;
+
+  min-height: 40px;
+
+  padding: 0.55rem 0.85rem !important;
+
+  color: var(--de-blue) !important;
+  background: #eaf4ff !important;
+
+  border: 1px solid #9cc7ee !important;
+  border-radius: 6px !important;
+
+  font-weight: 700 !important;
+
+  text-decoration: none !important;
+}
+
+
+/* Tech Alert action */
+.de-home-grid .de-status-action {
+  color: #8a3b00 !important;
+  background: #fff4e8 !important;
+  border-color: #e6b98f !important;
+}
+
+
+/* ----------------------------------------------------------
+   C. Responsive behaviour
+   ---------------------------------------------------------- */
+
+@media screen and (max-width: 1200px) {
+
+  .de-home-grid > .sd-row,
+  .de-home-grid .sd-row {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr)) !important;
+  }
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .de-platform-horizontal-card,
+  .de-platform-horizontal-card > .sd-row {
+    grid-template-columns: 1fr !important;
+  }
+
+  .de-platform-horizontal-card >
+    .de-platform-horizontal-media {
+    grid-column: 1 !important;
+
+    height: 210px !important;
+    min-height: 210px !important;
+  }
+
+  .de-platform-horizontal-card >
+    .de-platform-horizontal-content {
+    grid-column: 1 !important;
+
+    min-height: 0 !important;
+  }
+
+  .de-platform-horizontal-media img {
+    height: 210px !important;
+    min-height: 210px !important;
+  }
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .de-home-grid > .sd-row,
+  .de-home-grid .sd-row {
+    grid-template-columns: 1fr !important;
+  }
+
+  .de-home-grid .de-home-card .sd-card-img-top {
+    height: 200px !important;
+    min-height: 200px !important;
+    max-height: 200px !important;
+  }
+
+}
+/* ==========================================================
+   31. Platform card spacing refinement
+   Add breathing room between image, text and CTA
+   ========================================================== */
+
+/* Slight internal gap between image and content */
+.de-platform-horizontal-card {
+  column-gap: 0.9rem !important;
+  padding: 0.75rem !important;
+}
+
+/* Inset image panel so it does not touch the outer card border */
+.de-platform-horizontal-card > .de-platform-horizontal-media,
+.de-platform-horizontal-card .de-platform-horizontal-media {
+  min-height: 190px !important;
+
+  overflow: hidden;
+
+  border-radius: 8px !important;
+}
+
+/* Keep image fully contained inside the inset media area */
+.de-platform-horizontal-card > .de-platform-horizontal-media img,
+.de-platform-horizontal-card .de-platform-horizontal-media img {
+  min-height: 190px !important;
+  border-radius: 8px !important;
+}
+
+/* More breathing room before the text */
+.de-platform-horizontal-card > .de-platform-horizontal-content,
+.de-platform-horizontal-card .de-platform-horizontal-content {
+  min-height: 190px !important;
+
+  padding:
+    0.4rem
+    1.25rem
+    0.45rem
+    0.5rem !important;
+}
+
+/* Title spacing */
+.de-platform-horizontal-content > p:first-child {
+  margin-bottom: 0.9rem !important;
+}
+
+/* Description spacing */
+.de-platform-horizontal-content p:not(:first-child):not(:last-child) {
+  margin-bottom: 1rem !important;
+}
+
+/* More space before the MORE button */
+.de-platform-horizontal-content > p:last-child {
+  margin-top: 0.65rem !important;
+  margin-bottom: 0 !important;
+}
+
+/* Keep button comfortably separated from text */
+.de-platform-horizontal-content > p:last-child a {
+  margin-top: 0.15rem !important;
+}
+
+
+/* Responsive spacing */
+@media screen and (max-width: 900px) {
+
+  .de-platform-horizontal-card {
+    row-gap: 0.9rem !important;
+    column-gap: 0 !important;
+  }
+
+  .de-platform-horizontal-card >
+    .de-platform-horizontal-content {
+    padding:
+      0.25rem
+      0.5rem
+      0.65rem
+      0.5rem !important;
+  }
+
+}
