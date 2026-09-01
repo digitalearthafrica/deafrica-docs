@@ -4898,3 +4898,129 @@ body:has(.de-home-grid) .bd-article {
   }
 
 }
+/* ==========================================================
+   33. Homepage full content-width correction
+   Remove PyData's reserved right sidebar space on homepage
+   ========================================================== */
+
+
+/*
+   The homepage Documentation Sections should use the whole page
+   content area. PyData normally reserves a right-hand column for
+   the secondary/table-of-contents sidebar; hide that column only
+   on the homepage.
+*/
+body:has(.de-home-grid) .bd-sidebar-secondary {
+  display: none !important;
+}
+
+
+/* Allow the central content region to consume all remaining width */
+body:has(.de-home-grid) .bd-main,
+body:has(.de-home-grid) .bd-main .bd-content,
+body:has(.de-home-grid) .bd-content {
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+
+  flex: 1 1 100% !important;
+}
+
+
+/*
+   Remove PyData's normal article max-width.
+*/
+body:has(.de-home-grid) .bd-article-container,
+body:has(.de-home-grid) .bd-article {
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+
+  flex: 1 1 100% !important;
+}
+
+
+/*
+   Ensure the internal PyData container itself does not constrain
+   the homepage to a narrow reading column.
+*/
+body:has(.de-home-grid) .bd-container,
+body:has(.de-home-grid) .bd-container__inner {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+
+/*
+   Preserve a comfortable edge margin instead of a narrow
+   documentation reading width.
+*/
+body:has(.de-home-grid) .bd-article {
+  box-sizing: border-box;
+
+  padding-left: clamp(1.25rem, 2.5vw, 2.5rem) !important;
+  padding-right: clamp(1.25rem, 2.5vw, 2.5rem) !important;
+}
+
+
+/* Documentation section itself spans the full article */
+body:has(.de-home-grid) .de-home-grid {
+  width: 100% !important;
+  max-width: none !important;
+
+  box-sizing: border-box;
+}
+
+
+/*
+   Keep the requested 2 x 2 arrangement while allowing both
+   columns to expand equally across the newly available space.
+*/
+body:has(.de-home-grid) .de-home-grid > .sd-row,
+body:has(.de-home-grid) .de-home-grid .sd-row {
+  display: grid !important;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr)) !important;
+
+  gap: 1.5rem !important;
+
+  width: 100% !important;
+  max-width: none !important;
+}
+
+
+/* Every Sphinx grid column fills its grid cell */
+body:has(.de-home-grid) .de-home-grid .sd-col,
+body:has(.de-home-grid) .de-home-grid [class*="sd-col"] {
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  flex: none !important;
+}
+
+
+/* Cards completely fill each half of the grid */
+body:has(.de-home-grid) .de-home-card {
+  width: 100% !important;
+  max-width: none !important;
+
+  margin: 0 !important;
+}
+
+
+/*
+   At smaller widths collapse to one column.
+*/
+@media screen and (max-width: 700px) {
+
+  body:has(.de-home-grid) .de-home-grid > .sd-row,
+  body:has(.de-home-grid) .de-home-grid .sd-row {
+    grid-template-columns: 1fr !important;
+  }
+
+}
