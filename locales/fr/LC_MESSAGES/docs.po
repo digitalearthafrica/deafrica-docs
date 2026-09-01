@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DE Africa translation\n"
-"PO-Revision-Date: 2026-09-01 13:42+0000\n"
+"PO-Revision-Date: 2026-09-01 13:57+0000\n"
 "Last-Translator: Digital Earth Africa Translation Workflow\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -77608,546 +77608,6 @@ msgstr ""
 msgid "View Current Status →"
 msgstr ""
 
-msgid "|13bb425d96a04405b96929f31517486e|"
-msgstr ""
-
-msgid "|8cfaa62b3df341b1a9e3f33839e8cedc|"
-msgstr ""
-
-msgid "|a3fde7401bd9414a9f364fdc61d61369|"
-msgstr ""
-
-msgid "|a0eda55c65b149318f358ed7a77a8ae1|"
-msgstr ""
-
-msgid "|6f6b12622e6e42e7861884f724098adc|"
-msgstr ""
-
-msgid "|6d90fb49bc15415690e88beb6497039d|"
-msgstr ""
-
-msgid "|881f15afda44465dbbea1d0fad1cffc5|"
-msgstr ""
-
-msgid "|745e846249f64e4f84e0e3be42b2eca4|"
-msgstr ""
-
-msgid "|392dfc48e1be43cb9be1bfcf90d1aa9f|"
-msgstr ""
-
-msgid "|dc2e13a5c34945248a99cf1067efb0ae|"
-msgstr ""
-
-msgid "|4b967011329843ff80edabdc6a66c190|"
-msgstr ""
-
-msgid "|ece8b6aaedfc43709c3f0adb56172950|"
-msgstr ""
-
-msgid "|52cbe5c3a2c74742a8298d35be2da67e|"
-msgstr ""
-
-msgid "|7220874eab404a76be59ed6365ee8876|"
-msgstr ""
-
-msgid "|10f39f70e4814c1f9ab1fa1af77ae488|"
-msgstr ""
-
-msgid "|5e0fbd7351394897b17e8efd717fd11f|"
-msgstr ""
-
-msgid "|7375950a0bff4d50b8ca7e7d760d7cc4|"
-msgstr ""
-
-msgid "|05b0cb5e53ab4380bf7a65460c2ac01d|"
-msgstr ""
-
-msgid "|8c9e55d6ddd044bfa7157aa82cada587|"
-msgstr ""
-
-msgid "|aaf439cc939a414e8cb853bf8ac4919b|"
-msgstr ""
-
-msgid "|ef8b885da5da4e16b8f374ed735ae5d6|"
-msgstr ""
-
-msgid "|f8208b11874042b19fe41f2370dc3172|"
-msgstr ""
-
-msgid "f8208b11874042b19fe41f2370dc3172"
-msgstr ""
-
-msgid "|7c0f3771cd3b4189942b223cf80afc1d|"
-msgstr ""
-
-msgid "7c0f3771cd3b4189942b223cf80afc1d"
-msgstr ""
-
-msgid "|d5ea9080983043c5b76ad8328fab276d|"
-msgstr ""
-
-msgid "d5ea9080983043c5b76ad8328fab276d"
-msgstr ""
-
-msgid "|61852cea109d45428fb96f50a83732f2|"
-msgstr ""
-
-msgid "61852cea109d45428fb96f50a83732f2"
-msgstr ""
-
-msgid "|04641ebedaae4151858c09d600068f5b|"
-msgstr ""
-
-msgid "04641ebedaae4151858c09d600068f5b"
-msgstr ""
-
-msgid "|db53d34f789947a595703ffb8210f5ae|"
-msgstr ""
-
-msgid "db53d34f789947a595703ffb8210f5ae"
-msgstr ""
-
-msgid "|2b1773440d4d4244aaadeddfb2577f56|"
-msgstr ""
-
-msgid "2b1773440d4d4244aaadeddfb2577f56"
-msgstr ""
-
-msgid "|7de6acf10e724cae845f11922a5019a1|"
-msgstr ""
-
-msgid "7de6acf10e724cae845f11922a5019a1"
-msgstr ""
-
-msgid "|dbc137a0af5544a19cdd5ae4aa4e7ab0|"
-msgstr ""
-
-msgid "dbc137a0af5544a19cdd5ae4aa4e7ab0"
-msgstr ""
-
-msgid "|e9492d6b050a472887c9fe01c99dd813|"
-msgstr ""
-
-msgid "e9492d6b050a472887c9fe01c99dd813"
-msgstr ""
-
-msgid "|f819bd42b433443bbc25c65e1700054a|"
-msgstr ""
-
-msgid "f819bd42b433443bbc25c65e1700054a"
-msgstr ""
-
-msgid "|f2323401dc494ebdb456e500ce72f065|"
-msgstr ""
-
-msgid "f2323401dc494ebdb456e500ce72f065"
-msgstr ""
-
-msgid "|91ce09fa6f4342e49e6eefe2daec03a6|"
-msgstr ""
-
-msgid "91ce09fa6f4342e49e6eefe2daec03a6"
-msgstr ""
-
-msgid "|6ec3a97040f3452692a0792f1c2446b4|"
-msgstr ""
-
-msgid "|d77897d047dc40c19e3cf27d46e698c2|"
-msgstr ""
-
-msgid "|32dfc58e8f92456893f6e75a22aef06b|"
-msgstr ""
-
-msgid "|c12a1b36c6494a108b329eba7f9561ab|"
-msgstr ""
-
-msgid "|e2988c4c954141c2a22f5a15e28d9e77|"
-msgstr ""
-
-msgid "|7270a353f9da465ca7d9d044cb322927|"
-msgstr ""
-
-msgid "|1b4d95a6323940f0822d704b97b9a4aa|"
-msgstr ""
-
-msgid "|ab9a431b35aa4dad93da739891499f25|"
-msgstr ""
-
-msgid "|f53ddaf7434c456d9ea9e0774787e8a2|"
-msgstr ""
-
-msgid "|e38bfbda3cc044d3b90771296908f0fb|"
-msgstr ""
-
-msgid "|d474a58f40c24c9a80ea244be235f528|"
-msgstr ""
-
-msgid "|046e082d095c4c7ab279316baf9f7892|"
-msgstr ""
-
-msgid "|4385420bc90842109b0529f31c4be5ab|"
-msgstr ""
-
-msgid "|0f40e252b2554f7b81c7994327d05acd|"
-msgstr ""
-
-msgid "0f40e252b2554f7b81c7994327d05acd"
-msgstr ""
-
-msgid "|c3435b4acd4b4d6d8f222026c9725d00|"
-msgstr ""
-
-msgid "|8fe13909400743d1aca4992595778d1a|"
-msgstr ""
-
-msgid "|d3b1f1a8ca064cacafd51f74cba45732|"
-msgstr ""
-
-msgid "|8d455451be8a424c81c107b052093572|"
-msgstr ""
-
-msgid "|99582fc877ba4c34861e09e76f1a060f|"
-msgstr ""
-
-msgid "|2432fae446da405ba5ac8efcb0a4f1a4| |38ca90f63b884c7fadde37c226b16df9|"
-msgstr ""
-
-msgid "|371d9aaa871b43149793f9f70f1d8ea7| |bafbc1d5697942ec8ceeb27a476ba78e|"
-msgstr ""
-
-msgid "371d9aaa871b43149793f9f70f1d8ea7"
-msgstr ""
-
-msgid "bafbc1d5697942ec8ceeb27a476ba78e"
-msgstr ""
-
-msgid "|b550cc9a5c874ade9c8541957a7765f1|"
-msgstr ""
-
-msgid "|730a999cce704fa295918fde4d1e6a9d|"
-msgstr ""
-
-msgid "|eb6ce716486246e9a16993de859672cd|"
-msgstr ""
-
-msgid "|d59b559c4a1943f3ba6cf1d35b084409|"
-msgstr ""
-
-msgid "|999d61ca93d04188adcb062192ef4c9d|"
-msgstr ""
-
-msgid "999d61ca93d04188adcb062192ef4c9d"
-msgstr ""
-
-msgid "|a03ac6113ac54138bf3ef463af36e48f|"
-msgstr ""
-
-msgid "a03ac6113ac54138bf3ef463af36e48f"
-msgstr ""
-
-msgid "|359b72415ffd412aa28e0af8fc9f193f|"
-msgstr ""
-
-msgid "359b72415ffd412aa28e0af8fc9f193f"
-msgstr ""
-
-msgid "|7edd395d709c46a48822bbec972ba02a|"
-msgstr ""
-
-msgid "|eebcbaba681e405e838261e0ea587bb4|"
-msgstr ""
-
-msgid "|6f613f7549c84c06af5a10078c517b45|"
-msgstr ""
-
-msgid "|609e0137031c4bfb9588489af226be63|"
-msgstr ""
-
-msgid "|85d5d7517bfa4c63b92058df8ddb9ae8|"
-msgstr ""
-
-msgid "|6aae8cb5ea0041ec80ec6387bef998d5|"
-msgstr ""
-
-msgid "|c62b223be5b341e0922e6ce65db254d0|"
-msgstr ""
-
-msgid "|528087a5f9d147f08a7065733e7d53f6|"
-msgstr ""
-
-msgid "|c99789290d294d3aba159e013ac5016b|"
-msgstr ""
-
-msgid "|480e55505f184917a8f9cfbb78bdc42b|"
-msgstr ""
-
-msgid "|df8a48e49a954c66a4f3bffdd54eecdd|"
-msgstr ""
-
-msgid "|67357eff24754b3b807dc614fbdd402b|"
-msgstr ""
-
-msgid "|eebec2b286574fa29dd018e34330744b|"
-msgstr ""
-
-msgid "|8a792f89d7dd45fe8dbd78fd6ab8eb69|"
-msgstr ""
-
-msgid "|f5806a6214dd4347ad0d52867ea9e971|"
-msgstr ""
-
-msgid "|b8e559d5d3d7484ab27cb29821f47329|"
-msgstr ""
-
-msgid "|7cea9a6dabf4462e8419cf35963b3692|"
-msgstr ""
-
-msgid "|4103bc7af035470cbe311bb10e85701f|"
-msgstr ""
-
-msgid "|929a057a9a7048dd959e835c367ee0d8|"
-msgstr ""
-
-msgid "929a057a9a7048dd959e835c367ee0d8"
-msgstr ""
-
-msgid "|7c583d1cc02b42228a31d316e7a5eb9a|"
-msgstr ""
-
-msgid "7c583d1cc02b42228a31d316e7a5eb9a"
-msgstr ""
-
-msgid "|8208dcbb99744c0baf4f073fecef1664|"
-msgstr ""
-
-msgid "8208dcbb99744c0baf4f073fecef1664"
-msgstr ""
-
-msgid "|06a31721d93f4d19b941d15a6fcfaa0f|"
-msgstr ""
-
-msgid "06a31721d93f4d19b941d15a6fcfaa0f"
-msgstr ""
-
-msgid "|834395b058444f80bb0d1d0c984453aa|"
-msgstr ""
-
-msgid "834395b058444f80bb0d1d0c984453aa"
-msgstr ""
-
-msgid "|9997b4cea5ca480db0dc12937e9ed840|"
-msgstr ""
-
-msgid "9997b4cea5ca480db0dc12937e9ed840"
-msgstr ""
-
-msgid "|5e47400994e7410b9a37257ca3b97f0c|"
-msgstr ""
-
-msgid "5e47400994e7410b9a37257ca3b97f0c"
-msgstr ""
-
-msgid "|352620799b3a4d9b93ea73d4ca46425b|"
-msgstr ""
-
-msgid "352620799b3a4d9b93ea73d4ca46425b"
-msgstr ""
-
-msgid "|96c22796e9494857ab812548e693ea18|"
-msgstr ""
-
-msgid "96c22796e9494857ab812548e693ea18"
-msgstr ""
-
-msgid "|577a5673bc3546ba8de01c4daf9de86f|"
-msgstr ""
-
-msgid "|9ee5415930744c9995eb2480ebf599ec|"
-msgstr ""
-
-msgid "|0427b75ff302433ba814a3300726af6a|"
-msgstr ""
-
-msgid "|b8d8df5ffa1248cea806fe3259d7cdb8|"
-msgstr ""
-
-msgid "|44a12a4ad6654bae924886ea016bb6dd|"
-msgstr ""
-
-msgid "|79e0e0df9b7a4815875ba74ca44ff8f0|"
-msgstr ""
-
-msgid "|1b1069a4b01c4e89bf9aa812e2343c07|"
-msgstr ""
-
-msgid "|89b61c98547e4fa2adb55e7a39ed993a|"
-msgstr ""
-
-msgid "|5ef31aa4fe544feda9e37011ce194c00|"
-msgstr ""
-
-msgid "|84ef300d40e549f284a3340ca62e17f4|"
-msgstr ""
-
-msgid "|aa6c7676ce4e480f8c02b2d56bd1f314|"
-msgstr ""
-
-msgid "|09ee920edf84474fb5906e6d7af217a3|"
-msgstr ""
-
-msgid "|8428e0d0f75c4356a24106f5384aca69|"
-msgstr ""
-
-msgid "|32168d03649346d9979dcca873a19c45|"
-msgstr ""
-
-msgid "|acf973184212440bbf247cbac8563c21|"
-msgstr ""
-
-msgid "|20be4173084c400885a9bf7e9e2ef6f8|"
-msgstr ""
-
-msgid "|08a56eec18c44b779caf240b75440909|"
-msgstr ""
-
-msgid "|06ff7aacfba04245b9bb05bb2cdacac0|"
-msgstr ""
-
-msgid "|2c2457fcfedc4d83ae9c6d189f9bd667|"
-msgstr ""
-
-msgid "|20a825e0bd3446f28fc4f2ec37d1a256|"
-msgstr ""
-
-msgid "|56b619b416d74f8c8f63dbc2eb7b24b1|"
-msgstr ""
-
-msgid "|6cfa4ed8e14f43cb9bccd0107bc5ce89|"
-msgstr ""
-
-msgid "|c14651115c614505bdc1df488902e7a6|"
-msgstr ""
-
-msgid "|b6b87bd3fcdc4c4dae122eb032a055b9|"
-msgstr ""
-
-msgid "|99341f4acd734cdaac0fe951d4c935d8|"
-msgstr ""
-
-msgid "|d30018d7291241768d72944e63efc702|"
-msgstr ""
-
-msgid "|5e225d6671ce424cb82517845f251790|"
-msgstr ""
-
-msgid "|222c2e2363df4fa1be3e953880f058f8|"
-msgstr ""
-
-msgid "|b76e59c601684a558e583b5db2f82c4e|"
-msgstr ""
-
-msgid "|3d3071f35b0b4e65969bafaca503de6b|"
-msgstr ""
-
-msgid "|ebf2b398dc4741918870797c554a001e|"
-msgstr ""
-
-msgid "|d3bdddc598154a57b1ec89ebd7ec68c5|"
-msgstr ""
-
-msgid "|df102445e4394c8587e2cd89875bc524|"
-msgstr ""
-
-msgid "|33f813bc31e74152ad7e019abec61d54|"
-msgstr ""
-
-msgid "|a9ea1ef542b648818eb7207f54533dff|"
-msgstr ""
-
-msgid "|c8584778e9734799bac3de35b41505a5|"
-msgstr ""
-
-msgid "|a2f887a965e842009a0f2a5ed2bdc95a|"
-msgstr ""
-
-msgid "|a52dd40215f34bf29f848c33a3a37f83|"
-msgstr ""
-
-msgid "|f0efccf4646f4dfdb119da43fedab092|"
-msgstr ""
-
-msgid "|4f97d257a75649c998b36b46daa86782|"
-msgstr ""
-
-msgid "|2c926b9e2eab40a78094212b342d34a6|"
-msgstr ""
-
-msgid "|cbc9c01454604d41bb30235a9a2dbb4d|"
-msgstr ""
-
-msgid "|b6045407ca594965aae590eee0ad3b52|"
-msgstr ""
-
-msgid "|bcd4409911ba4e5d808516638113f754|"
-msgstr ""
-
-msgid "|2dd16ba8ea794943a07543838003c8e8|"
-msgstr ""
-
-msgid "|1820958e75a44ac987dc749b3d26f3dc|"
-msgstr ""
-
-msgid "|15585c89d4334f659f56f91a87b3249f|"
-msgstr ""
-
-msgid "|d25818ede8be46c38f9a537cbb431e7d|"
-msgstr ""
-
-msgid "|39930b13fa924001bd0a19dcac9dff3a|"
-msgstr ""
-
-msgid "|82a1243ed0e24a29ad75fd51d69175e4|"
-msgstr ""
-
-msgid "|afac9b3d5c2c4cde805bf9c8b39dae65|"
-msgstr ""
-
-msgid "|f5f3a3c2a066412db2d0f1692b248d1d|"
-msgstr ""
-
-msgid "|a4fc34f533f7433c9a442c3d7c6a20fe|"
-msgstr ""
-
-msgid "|9dc9a0977b7a44c7ae74c8fed45d253b|"
-msgstr ""
-
-msgid "|b12607846fa94e6f900ab8279d5c896a|"
-msgstr ""
-
-msgid "|028dc95e61814331ab8e757cb52da1ec|"
-msgstr ""
-
-msgid "|b1f025c76f0d41e7aea3bbbe89fa4830|"
-msgstr ""
-
-msgid "|4058180d7d1e41f0a4fe107b1f175ceb|"
-msgstr ""
-
-msgid "|b8462e74914c489c994458a9135819aa|"
-msgstr ""
-
-msgid "|59b2f6503d764e1fbb562f677afe4fa1|"
-msgstr ""
-
-msgid "|e285dc574c9c426eae6d9f150be1d343|"
-msgstr ""
-
-msgid "|677697ddb5024ecc89e9cb302e2c9e86|"
-msgstr ""
-
-msgid "|c8288a03e7fa4c809920a57a271ae2bd|"
-msgstr ""
-
 msgid ""
 "Digital Earth Africa enables users to directly access its datasets through "
 "integration with other platforms. With Direct Access, users can access DE "
@@ -78240,1307 +77700,1847 @@ msgid ""
 "and Web Coverage Service."
 msgstr ""
 
-msgid "|93dc0ce39a1948cc94bb343c5771f66a|"
+msgid "|9ecc8984ac0246e4922bd1041c3c8d35|"
 msgstr ""
 
-msgid "93dc0ce39a1948cc94bb343c5771f66a"
+msgid "|02e8069a305344ff916ce1da1ec895e3|"
 msgstr ""
 
-msgid "|3524b8e4164945c9bfe4a64cd41a398c|"
+msgid "|c1f6e896d97c46358de25f47d02e7e0c|"
 msgstr ""
 
-msgid "|74a61810fe984ba1b5f912b0f3e5de81|"
+msgid "|950ed343243c4257bfb1de6d87bf3587|"
 msgstr ""
 
-msgid "|3f1ff9991e08403fb455a2549fa2b508|"
+msgid "|f61635effe604e478341408e054f8c57|"
 msgstr ""
 
-msgid "|8d373dbddafa46639e0796123374c912|"
+msgid "|eb28a4a7f28347ee8566c1c5a2257c49|"
 msgstr ""
 
-msgid "|743aafccc170420db8804250b26c13c9|"
+msgid "|bae80f8ff42c4de180961564993025d8|"
 msgstr ""
 
-msgid "|ca21b24480024ea58b05e1ff7501cefa|"
+msgid "|56092d6c6cb24330b3fd2a4c33e5a93d|"
 msgstr ""
 
-msgid "|e281183759c647199bfde8a06e88d18f|"
+msgid "|3aeead8d7037468aa9acad97596aaf53|"
 msgstr ""
 
-msgid "|9c4380de719a483d9803a3038c3972c2|"
+msgid "|b11f8ae6dcad47ff9e2bb8fb9f5f0198|"
 msgstr ""
 
-msgid "|47fe6c07497a4be9a9707b037d116607|"
+msgid "|4ea7451af9734d35b2ff3076261da383|"
 msgstr ""
 
-msgid "|3e878eaee0b249b8879f0e6a81880d2d|"
+msgid "|b48f1ca8fa324e95b7cfce862156c86f|"
 msgstr ""
 
-msgid "|2e8c9130ff0c42889d787aa63e14188b|"
+msgid "|6bf51f9d6d3d4593b4d21e39bf0419a9|"
 msgstr ""
 
-msgid "|72a656648d5e4b24a175ec2d80d63919|"
+msgid "|706ff177dbe04a14a2d4e8d9fdd23ce9|"
 msgstr ""
 
-msgid "|9cf194ef239a44acaedd1c56a27a0062|"
+msgid "|414b4c78272c47f2b2af994d7c6966aa|"
 msgstr ""
 
-msgid "|a04c07cbd8234d52ac083606cf605962|"
+msgid "|9cb93e4f09fb4b39b19974b72a71464f|"
 msgstr ""
 
-msgid "|0260cb9724364b5397ebeab4b946269e|"
+msgid "|dbff0c0843f04d0993c6821a3bb56023|"
 msgstr ""
 
-msgid "|69eb613bdb6c42579fec0a49db043c5b|"
+msgid "|f9c6cb41d1364b4c94484a37e14b8995|"
 msgstr ""
 
-msgid "|78977b71590f4d1dbc3e2d9e7315db25|"
+msgid "|fe8099855599407db4d6dbfe9fd0f71a|"
 msgstr ""
 
-msgid "|77442dc66de74263b0fcd7c178987621|"
+msgid "|bd6125f070954302a9d33bde0cb00cf8|"
 msgstr ""
 
-msgid "|829e19fbe5184eaea1a4bf3bf0bf6f62|"
+msgid "|c1f2515c6d2c4176abcdbf8681565ee1|"
 msgstr ""
 
-msgid "|ad76584bf1734697970d486cfa3a1203|"
+msgid "|b2b1be51b5304bd8861335e90cf7a914|"
 msgstr ""
 
-msgid "|fa954937d62e4d6db18b888e16a9eeb2|"
+msgid "b2b1be51b5304bd8861335e90cf7a914"
 msgstr ""
 
-msgid "|e7c90b0cc0f4425bab269780f5b7fd01|"
+msgid "|83d72b7a2c43440d9086e4f504c69d27|"
 msgstr ""
 
-msgid "|fcdae357bb774c80b1706ec3f4b5d2ce|"
+msgid "83d72b7a2c43440d9086e4f504c69d27"
 msgstr ""
 
-msgid "|d2644ccc2ddb43df948f4c94f841c4f3|"
+msgid "|04f6bf8055b74af886f9fcd823c8afcf|"
 msgstr ""
 
-msgid "|c797ca4e066542e9bcfff62bf742d8b5|"
+msgid "04f6bf8055b74af886f9fcd823c8afcf"
 msgstr ""
 
-msgid "|c9b1c0532c4e4280bca5355f2f118578|"
+msgid "|d8e14a4853524e80aba41ea85d2ce77d|"
 msgstr ""
 
-msgid "|3576947f184c46e7ac226887bf684f9c|"
+msgid "d8e14a4853524e80aba41ea85d2ce77d"
 msgstr ""
 
-msgid "|2bbaafd7174047c6b4d6d39d1e01fe68|"
+msgid "|5a1f75ade15e4179b0a9156f48e73b78|"
 msgstr ""
 
-msgid "|0dd3e39969634361bfaba330474e34a4|"
+msgid "5a1f75ade15e4179b0a9156f48e73b78"
 msgstr ""
 
-msgid "|8ff8bf85d932467c969f97ad6a37e639|"
+msgid "|84898c4f6389494aafebe40eddcbebce|"
 msgstr ""
 
-msgid "|1c185b99b9984b4189949ff2ec47ef47|"
+msgid "84898c4f6389494aafebe40eddcbebce"
 msgstr ""
 
-msgid "|63c70c0311204f67ae54b805dde60844|"
+msgid "|3ee83b9805ff427f9fe9994010d1bf65|"
 msgstr ""
 
-msgid "|b1a8c6b16fad49d38386b66ac0856ea6|"
+msgid "3ee83b9805ff427f9fe9994010d1bf65"
 msgstr ""
 
-msgid "|837bf1ea569647dc88e4de67a20933b5|"
+msgid "|61b984679d564363a2ead60f20251648|"
 msgstr ""
 
-msgid "|474c97b6262642058051343333d13e0a|"
+msgid "61b984679d564363a2ead60f20251648"
 msgstr ""
 
-msgid "|97bad6826ba54d6ab42db6db619df059|"
+msgid "|e541d2a21ed34c998eb6a50d29dbe6bd|"
 msgstr ""
 
-msgid "|81e2df2b10924ef1af41218684ff3972|"
+msgid "e541d2a21ed34c998eb6a50d29dbe6bd"
 msgstr ""
 
-msgid "|933d821eea4145be8e1d70cdc901ba9a|"
+msgid "|85ec99ac74814bf383e1e940e2d57290|"
 msgstr ""
 
-msgid "|376093d8b075484c9926406e4f595e29|"
+msgid "85ec99ac74814bf383e1e940e2d57290"
 msgstr ""
 
-msgid "|8092772bd3f9499e8cc86bf3d7c4cc76|"
+msgid "|bfad04e40050409c9125f7e9f57d5c30|"
 msgstr ""
 
-msgid "|b2f1a629ac354dd5aad40e3b18b0536f|"
+msgid "bfad04e40050409c9125f7e9f57d5c30"
 msgstr ""
 
-msgid "|994984a094e245989320b40ae2c01535|"
+msgid "|403f8d0dc34946a1814c5b96e3f3f0a8|"
 msgstr ""
 
-msgid "|be9fd996c6054d83a475274982eb9409|"
+msgid "403f8d0dc34946a1814c5b96e3f3f0a8"
 msgstr ""
 
-msgid "|5795c4762d6d4f63890b9be8cf28b87a|"
+msgid "|c83bf26aa8514d0f952d8c9195494985|"
 msgstr ""
 
-msgid "|2dd69d396e1e4b09806c2521383d60c8|"
+msgid "c83bf26aa8514d0f952d8c9195494985"
 msgstr ""
 
-msgid "|5e036543b1d041079a29d17ea0eaafe7|"
+msgid "|c76d4406120045cd9e074a9f38946fab|"
 msgstr ""
 
-msgid "|4131e26045434cea846ef8331f621e20|"
+msgid "|47cf14eae7234c508bb0a5a2c67814ed|"
 msgstr ""
 
-msgid "|411a3d83f049485cb6db8f32b244b604|"
+msgid "|ce6c504a14ec441b9bcfca1c37d601e6|"
 msgstr ""
 
-msgid "|d3f972f4c22744939aa6104898c18eea|"
+msgid "|4cb2321ea8324510ab7d5e61acae48b0|"
 msgstr ""
 
-msgid "|1edffcfcc38d49278a5d9e990785d6e9|"
+msgid "|e1c2ba93411640328c8b0338d7649349|"
 msgstr ""
 
-msgid "|40c051ecc2ef4a838c36f05565262347|"
+msgid "|e41c7d7ea65e47f5a19671d4740528e8|"
 msgstr ""
 
-msgid "|50d543d2829f456c874845b3c63b6771|"
+msgid "|913e81729dee4e2b96b27417748cb9b0|"
 msgstr ""
 
-msgid "|94393803bdc045fa98b03cbdc930db17|"
+msgid "|9dc473e316064966bfaa97c1ddedf927|"
+msgstr ""
+
+msgid "|f5878ce883ba426e9697a97a0f93a766|"
+msgstr ""
+
+msgid "|82a88382f393444a9d5dc98c36ddc820|"
+msgstr ""
+
+msgid "|c26c8c36f36342d9acc3129365a33689|"
+msgstr ""
+
+msgid "|f04af44dde2240b1af7bfb9e00ab35d1|"
+msgstr ""
+
+msgid "|6f9760d447d148a0873b69a46424e8b7|"
+msgstr ""
+
+msgid "|8b436ceb6d214ab6953cce7f561635ba|"
+msgstr ""
+
+msgid "8b436ceb6d214ab6953cce7f561635ba"
+msgstr ""
+
+msgid "|249f6a8f541b4d1085ecddfe8fb39562|"
+msgstr ""
+
+msgid "|47ec07b3c64f449194041f515a6869bd|"
+msgstr ""
+
+msgid "|a5485e5c36414d1dbd49554819bb6be6|"
+msgstr ""
+
+msgid "|24a35284c3c34fd397b50f1a1058d9dc|"
+msgstr ""
+
+msgid "|4496b560a06347148e2136af698ca523|"
+msgstr ""
+
+msgid "|e0fdbf7d46534849a3c7f8791ead935a| |6bd6e216990c46d3b555dd2d6ae195d8|"
+msgstr ""
+
+msgid "|e5ac5cd25f754645ae62a5c47141345d| |616a6d4d679d4fef8e3d4c717b1f4918|"
+msgstr ""
+
+msgid "e5ac5cd25f754645ae62a5c47141345d"
+msgstr ""
+
+msgid "616a6d4d679d4fef8e3d4c717b1f4918"
+msgstr ""
+
+msgid "|a260310f67d14e908c3b27b4c78c253a|"
+msgstr ""
+
+msgid "|6ffafc3b91ad4aefba376918b4e7155f|"
+msgstr ""
+
+msgid "|e45e42817d2b458aa076512259a9d44c|"
+msgstr ""
+
+msgid "|30e70e9ebd4a43c3883b5ba36f0cfcc6|"
+msgstr ""
+
+msgid "|be2961a9837a4aad9f1910c3a001842a|"
+msgstr ""
+
+msgid "be2961a9837a4aad9f1910c3a001842a"
+msgstr ""
+
+msgid "|88640ab768e24ca8b0af1925f403ce8c|"
+msgstr ""
+
+msgid "88640ab768e24ca8b0af1925f403ce8c"
+msgstr ""
+
+msgid "|bbde01b5443040ee87a3cbde0d3b1b21|"
+msgstr ""
+
+msgid "bbde01b5443040ee87a3cbde0d3b1b21"
+msgstr ""
+
+msgid "|7d22160324284b109ee499f2931f1096|"
+msgstr ""
+
+msgid "|9038cc52c452490b862eeda820321914|"
+msgstr ""
+
+msgid "|30320e2a60474a339eeab1fdcc48298c|"
+msgstr ""
+
+msgid "|5bd347a7756f46648a461b4f2e1080ff|"
+msgstr ""
+
+msgid "|4dbbd2b19e4045a0b8462d42b9031ad5|"
+msgstr ""
+
+msgid "|3a048d1a20e843bbbc9e6735124a9442|"
+msgstr ""
+
+msgid "|3760c2f9633f49248064f729905b7e5e|"
+msgstr ""
+
+msgid "|a942cf4753e244049f1a5917352d1419|"
+msgstr ""
+
+msgid "|dadcc015972f43f18f89951aae70c089|"
+msgstr ""
+
+msgid "|41933458de174db6abf8532843c4179d|"
+msgstr ""
+
+msgid "|18e3ba3d09514313b5a283a3bbaaaaa6|"
+msgstr ""
+
+msgid "|6cf91fdb1adc4a16a5f45baa706fa8b8|"
+msgstr ""
+
+msgid "|b03b388093fc457aa3ff0ba70942c2e3|"
+msgstr ""
+
+msgid "|7e105a8481a54bf18b33d1ed3b371454|"
+msgstr ""
+
+msgid "|d5d9cf821bff41b987fcefb5bdffc23d|"
+msgstr ""
+
+msgid "|643f65b753954f0cb7bcd88f9f698bef|"
+msgstr ""
+
+msgid "|c8777dd161c7429797354339e64e991c|"
+msgstr ""
+
+msgid "|139c8bf8d1374a929377dd380de52e82|"
+msgstr ""
+
+msgid "|fee0c38bff9a43b69f4c3520dc92a18c|"
+msgstr ""
+
+msgid "fee0c38bff9a43b69f4c3520dc92a18c"
+msgstr ""
+
+msgid "|c27ec0bb5b1f49ccb302e779f4f0c58f|"
+msgstr ""
+
+msgid "c27ec0bb5b1f49ccb302e779f4f0c58f"
+msgstr ""
+
+msgid "|d6aae2ef94fa4a7a88909e3e46980111|"
+msgstr ""
+
+msgid "d6aae2ef94fa4a7a88909e3e46980111"
+msgstr ""
+
+msgid "|a635064d82b44f2f86da78f6ebcfa4a9|"
+msgstr ""
+
+msgid "a635064d82b44f2f86da78f6ebcfa4a9"
+msgstr ""
+
+msgid "|ddf82717f02948aab1f839c6f611f8ca|"
+msgstr ""
+
+msgid "ddf82717f02948aab1f839c6f611f8ca"
+msgstr ""
+
+msgid "|cf1beb3e2c6e46618dfbae70a71deda3|"
+msgstr ""
+
+msgid "cf1beb3e2c6e46618dfbae70a71deda3"
+msgstr ""
+
+msgid "|994570f99daa4d8292c6cb81cbc969e2|"
+msgstr ""
+
+msgid "994570f99daa4d8292c6cb81cbc969e2"
+msgstr ""
+
+msgid "|b453ad10c3924562af7856d26543d914|"
+msgstr ""
+
+msgid "b453ad10c3924562af7856d26543d914"
+msgstr ""
+
+msgid "|d08a33de2b774fd39fb8a90734e7311d|"
+msgstr ""
+
+msgid "d08a33de2b774fd39fb8a90734e7311d"
+msgstr ""
+
+msgid "|42ace9f54a2c443f9a4ae51b7f182c9f|"
+msgstr ""
+
+msgid "|24ab95402f90412987507f21865d868a|"
+msgstr ""
+
+msgid "|b4102d4e02e5430dae59bfce33ce7969|"
+msgstr ""
+
+msgid "|837a6dadc5424db694e21c0fcb86f7f3|"
+msgstr ""
+
+msgid "|608e9e5259b041eeaa62ef553bc0d701|"
+msgstr ""
+
+msgid "|0fb3effeb6a74835bd63575826395187|"
+msgstr ""
+
+msgid "|8494eecabc7a42229633ae7ed97b74b9|"
+msgstr ""
+
+msgid "|4c94124286ac456881d2fd0e733a969e|"
+msgstr ""
+
+msgid "|156bcd3ad0624fbbb8298e253d37863b|"
+msgstr ""
+
+msgid "|28944223763e41c6996889bb0e64b73a|"
+msgstr ""
+
+msgid "|0f8ea2a010004b25a3e1a1fe445bc5a5|"
+msgstr ""
+
+msgid "|6824ae3253ff43bf9d3eb4a83631ff80|"
+msgstr ""
+
+msgid "|07a3a53eb1244066b84485326844ce80|"
+msgstr ""
+
+msgid "|d4c936f8f65a4aed91f7f0b2ce909d72|"
+msgstr ""
+
+msgid "|071ef6463f084e01b4997048cf7733ab|"
+msgstr ""
+
+msgid "|6fbca92bcb0849ac99068cedff4b30ee|"
+msgstr ""
+
+msgid "|d421447f6e994d53ac40056a7db55b96|"
+msgstr ""
+
+msgid "|bba81cb38f4a4163896b6fc41e65399f|"
+msgstr ""
+
+msgid "|aacf06f880e147f9b8fe7a22c29eda14|"
+msgstr ""
+
+msgid "|d8236103847d4ed490408714fa1630c1|"
+msgstr ""
+
+msgid "|274116320ff54d7b914454a7d5d8ec30|"
+msgstr ""
+
+msgid "|1076ed2f5bb74ae7a14da2a5bd5f06bd|"
+msgstr ""
+
+msgid "|6fe5fb82de8c4a0a91f3572477ba6b72|"
+msgstr ""
+
+msgid "|4e35e44cc28c46ed874ca777ee5bcfc0|"
+msgstr ""
+
+msgid "|fc2ee834549f4ab29a6df3de64150947|"
+msgstr ""
+
+msgid "|25e4a0888dc94a6f980b1437283841d3|"
+msgstr ""
+
+msgid "|86634c44dc854624a7874ec3f22aec53|"
+msgstr ""
+
+msgid "|9ba1a0906ecc4af4a7982abd8d4dc829|"
+msgstr ""
+
+msgid "|970e6a3ba1a54efb90ae34db589664ee|"
+msgstr ""
+
+msgid "|5de7087586454270a54c08f62ae5a91b|"
+msgstr ""
+
+msgid "|ff6a6df9c9e94da0ab998b4932aa6e0c|"
+msgstr ""
+
+msgid "|619415441a644221826719c09d6554b6|"
+msgstr ""
+
+msgid "|7d8de8b06e96435c8efaa9aac7a44df4|"
+msgstr ""
+
+msgid "|23cd973afe984b8db074480265c1c511|"
+msgstr ""
+
+msgid "|15dc485d412d4dc4a609944ad9043fd4|"
+msgstr ""
+
+msgid "|7cda32f559574b6b9328a2003d447103|"
+msgstr ""
+
+msgid "|37c58f9fde5b4ca2936b6b7f8bd65073|"
+msgstr ""
+
+msgid "|7ac25aa8051248f0b585fb03c34736bc|"
+msgstr ""
+
+msgid "|52502e6a0d0f409e9b9061987b1d4c97|"
+msgstr ""
+
+msgid "|f9913c33a6bb407cbbecf7b710776b8b|"
+msgstr ""
+
+msgid "|ce0bea507ef04e66980c20e8bf59d3a5|"
+msgstr ""
+
+msgid "|8224f13be87e4810886b750e49b60833|"
+msgstr ""
+
+msgid "|3ef9b11061f1487c830191c84e9b4310|"
+msgstr ""
+
+msgid "|ceb5f7e73c234853bef0ab6ec1a9b206|"
+msgstr ""
+
+msgid "|3715f7b417ca48a0852e6289ece28e1f|"
+msgstr ""
+
+msgid "|41f600d3fa594e9dad79b1ea5d46d4f1|"
+msgstr ""
+
+msgid "|b07f7e87a71e407eaa07394d4ed2986c|"
+msgstr ""
+
+msgid "|235d21415487476296f26a02772436eb|"
+msgstr ""
+
+msgid "|b9a43b46872e442fa055930c57e2ec68|"
+msgstr ""
+
+msgid "|048c5db8089b4e84b8a3649bef5e6177|"
+msgstr ""
+
+msgid "|2ccdecfc828e4a3d839f5d8f2201dd1a|"
+msgstr ""
+
+msgid "|b14d8b20f8724a83bb084855b0900499|"
+msgstr ""
+
+msgid "|870c6dc579414c24bff63fc3a016a9a6|"
+msgstr ""
+
+msgid "|fbdfa8ba7cb5489a9253523a8203fdc5|"
+msgstr ""
+
+msgid "|73ac6743f65440c3a6f3c80445f7789b|"
+msgstr ""
+
+msgid "|f1d132b7310f48e5968a40c8ba1126b0|"
+msgstr ""
+
+msgid "|d6309b4c8580422db48c0cb8186e6113|"
+msgstr ""
+
+msgid "|69ef1c72dd984720998ec7740f6ba1a6|"
+msgstr ""
+
+msgid "|8a43b35a62644b8b833f76134f5e68b9|"
+msgstr ""
+
+msgid "|b58bbec6b4c74864b4970c605a1076b2|"
+msgstr ""
+
+msgid "|10c85865733f4f5283703185b3ff51a7|"
+msgstr ""
+
+msgid "|c97469faaa3146afad4cd61e53eaa486|"
+msgstr ""
+
+msgid "|264bd66a89bc4ae4af9e0f32c05c724b|"
+msgstr ""
+
+msgid "|da35c70eafe74550bae2f9bfe02af994|"
+msgstr ""
+
+msgid "da35c70eafe74550bae2f9bfe02af994"
+msgstr ""
+
+msgid "|127d00e3b05c40d5991ac189c0fdffa8|"
+msgstr ""
+
+msgid "|c6863e2d0dae40c3a2659ec3c5428f02|"
+msgstr ""
+
+msgid "|112dc24843374a22ab0af3c0c3abe5f5|"
+msgstr ""
+
+msgid "|fd3e2a5d11b344639f2fe71b02dcd076|"
+msgstr ""
+
+msgid "|1d772f6615f74ac2a8d54a5bed6a3317|"
+msgstr ""
+
+msgid "|c7b81f1d44c04e5998b05aa0b10a0e43|"
+msgstr ""
+
+msgid "|17dcefc71ca24cf8aa0cd057d706ec0d|"
+msgstr ""
+
+msgid "|06771ebb80b843b2a8f19359138f81cf|"
+msgstr ""
+
+msgid "|e450a137036b45f7916d2233ab3264ee|"
+msgstr ""
+
+msgid "|4a02fc8f58b640a984d8d1489c708f67|"
+msgstr ""
+
+msgid "|61357415806d4638b909934de5d13a8c|"
+msgstr ""
+
+msgid "|a982e7fe25dc4d0686af1dee1d7d7aad|"
+msgstr ""
+
+msgid "|ba347cc153bf48c5829014407b5873e0|"
+msgstr ""
+
+msgid "|d795e431daf0453fa1c52ac1b03c8ecb|"
+msgstr ""
+
+msgid "|5abf1174e74645e2ab194db0a2bff7d6|"
+msgstr ""
+
+msgid "|8cea628688794fc3a6c985e75685022a|"
+msgstr ""
+
+msgid "|1c356a40f38d40a9ae811733e6234d17|"
+msgstr ""
+
+msgid "|09ad8ba98a8148bdbaaf16015f8b0cb1|"
+msgstr ""
+
+msgid "|a6578e276c02490a896bcf768705cfe9|"
+msgstr ""
+
+msgid "|350881575d774029acf4930f48ee4132|"
+msgstr ""
+
+msgid "|02e0236aa2b449d685a2793abd4b49e0|"
+msgstr ""
+
+msgid "|dcb3404cb53848aab4fb2a391901d462|"
+msgstr ""
+
+msgid "|06e990542d144455afc212c519721ad8|"
+msgstr ""
+
+msgid "|48f48972cc6e41a5bc97cbafa331ec9b|"
+msgstr ""
+
+msgid "|b7e59bceb1574268894750de0b0ff345|"
+msgstr ""
+
+msgid "|77550bc8b5ce4849a7725c510ea0684f|"
+msgstr ""
+
+msgid "|e2c7d0507def42bd8ab6462eb417740e|"
+msgstr ""
+
+msgid "|3dc00893dcee46fe80c969019b828ac9|"
+msgstr ""
+
+msgid "|1ff85d73a3e64ff0b06525b239a8dcaa|"
+msgstr ""
+
+msgid "|b85b1432abbc49ecb11668f4a3f7f816|"
+msgstr ""
+
+msgid "|b92c7314cf3547779a983c0fba2fe1f7|"
+msgstr ""
+
+msgid "|0fcb71a3b44e420bbaca5870b6aec1b2|"
+msgstr ""
+
+msgid "|a2f2a9ba704f4428b9f1322371b5f22b|"
+msgstr ""
+
+msgid "|b3a43cd313184b38976145bd2eb0b51f|"
+msgstr ""
+
+msgid "|f7049e6bf2024bc19ad33c95a591f1aa|"
+msgstr ""
+
+msgid "|1762dab0f0dd4b549d4d3f6080c78d72|"
+msgstr ""
+
+msgid "|5122ad841ed84c00921061a01adc01b6|"
+msgstr ""
+
+msgid "|8fa4e7bccec84a7093ee3dac59bdaa37|"
+msgstr ""
+
+msgid "|3df561b66b474d6d9f89ab3242b52dd0|"
+msgstr ""
+
+msgid "|be1a0107459b40f297033f4b73713c6d|"
+msgstr ""
+
+msgid "|70d5a1557c8e4ec4bc9f4147f721d21b|"
+msgstr ""
+
+msgid "|63ae0538aa32472a905b7fd98f3c695c|"
+msgstr ""
+
+msgid "|22bc803a73614e0dbeede961fec2f41e|"
+msgstr ""
+
+msgid "|43037111bab94204af2d15127eea85cc|"
+msgstr ""
+
+msgid "|cca5713f91974a578a72e07c8ec7cea3|"
+msgstr ""
+
+msgid "|5e866c7623b84417b6cc53be41eb1c98|"
+msgstr ""
+
+msgid "|7793a0d383234c0d825c7f1c7c136ecf|"
+msgstr ""
+
+msgid "|08780164a1764e5cbd8dbc393dfbdaef|"
+msgstr ""
+
+msgid "|21106d42647546ffab41cd9e60a4b261|"
+msgstr ""
+
+msgid "|d66c325e8fac429d98ef597e872fd069|"
+msgstr ""
+
+msgid "|3fba93b1c87c49bab395fec0d1a14092|"
+msgstr ""
+
+msgid "|343aca5894304eb1aa1a01f0efffe167|"
+msgstr ""
+
+msgid "|219dd0356f1a46dab8d3c3e2a43bd4e2|"
 msgstr ""
 
 msgid ""
 "In the **Overlay** gallery, under **Dynamic test**, click **Map Time**. "
-"|ec8b6d99b17446678e46dea57e629702|"
+"|c7d945c29af8433681d5e87aa4d8bc16|"
 msgstr ""
 
 msgid ""
 "*The expression created a single label, rather than a start and end time, "
 "and formats it display the year ratheer than a full date* "
-"|e607f0c2d74e4c28854d698488c63e7b|"
+"|644ac35363c746649077968f3a659107|"
 msgstr ""
 
-msgid "|1e0e05ddce6e42aeb503c80218c31778|"
+msgid "|e52cf98c60814e7b896c8a3e9ec4e8fd|"
 msgstr ""
 
-msgid "Then click **Export**. |106ece24d3304173b33c7d6fe9d387ff|"
+msgid "Then click **Export**. |6b9c299b39d743e1ba5a719f956ac48b|"
 msgstr ""
 
-msgid "|24326ae41aaf40feaba5ddfbcc2ca6bc|"
+msgid "|0802419e0d5341dfa81285877481ba5a|"
 msgstr ""
 
-msgid "|b188ff676d3b4634b5acf322b0fa23d5|"
+msgid "|4b69215f82464dceb481904cc131d4f4|"
 msgstr ""
 
-msgid "|e77815c81bd74661ad22dda01ce3505b|"
+msgid "|68d16a8f6bf8400286d9e97b2c41312b|"
 msgstr ""
 
-msgid "|b4ed7e73c6be49bcae6701d685a60a2f|"
+msgid "|783cffb0f4d24fa29fb4e3596b6086c2|"
 msgstr ""
 
-msgid "|7edc8ed80ded4fb9af79f61bdd48d48f|"
+msgid "|22f753b48b534771975ed578e6a1287c|"
 msgstr ""
 
-msgid "|bd823cf6293e4d9ba002531e4de58ee3|"
+msgid "|8ef468141dc1430baec40850b9a083ec|"
 msgstr ""
 
-msgid "|9091ac7bf9f34a56806bc43afd89d4b2|"
+msgid "|3096fb26b5944494bc92971fe5884f5f|"
 msgstr ""
 
-msgid "|7c8c987547264847804c715b7d8eb373|"
+msgid "|0bdedd66166c4f43abe69691ec89bc1f|"
 msgstr ""
 
-msgid "|c3f60dea040844178238bc26e49394f6|"
+msgid "|a394d5c0d57b4635a1fb7b2529540334|"
 msgstr ""
 
-msgid "|76044cd87a8845c59cd12b6302899d71|"
+msgid "|235d7e15666543f5bd410dbdc673d3a8|"
 msgstr ""
 
-msgid "|e09218793a944621b0df2257b628629b|"
+msgid "|49ea27d7bfd44605a5203fc827fbde7f|"
 msgstr ""
 
-msgid "|cff63596855d41d291ff6a87c247de6b|"
+msgid "|ade903814f954800b65747a563d424fe|"
 msgstr ""
 
-msgid "|11c55f5074fa4896961a892a637b93f9|"
+msgid "|bc47df09ed804f11bd9f488f6c36d55c|"
 msgstr ""
 
-msgid "|fa2804c584fb44b4a43b052404c7b773|"
+msgid "|d0dff29c5e724e06bb6fc808a935dffb|"
 msgstr ""
 
-msgid "|15e8ffc9a1da4a8c9fd5f40a87d7e1dc|"
+msgid "|d46fdbfe48fa456596c71ebb7d630cd3|"
 msgstr ""
 
-msgid "|bdd24488cd4044cab4f384d137e47319|"
+msgid "|33069bc9d8d8476da7713fa39feca9c9|"
 msgstr ""
 
-msgid "|eed4bfb220f14acaa379ec84a5cfe3ee|"
+msgid "|4e2442f57ff64ebb9d4a669a38940b17|"
 msgstr ""
 
-msgid "|6b525429a5c2417c81a49393d8f0f337|"
+msgid "|1c811ccf5ea846de82f6808310c10d91|"
 msgstr ""
 
-msgid "|93887755bc9b47e28c67135dce67a6d8|"
+msgid "|8cc414cbd2854b66a903fd4e5dea279c|"
 msgstr ""
 
-msgid "|a0a110c5f21d42d1a92b582849007589|"
+msgid "|61360661904348acb2ee12fdeeff6b1c|"
 msgstr ""
 
-msgid "|932c4bd07a6f48d38fe2a8f6c59c466a|"
+msgid "|d1f7dcbba490492c86616f65b89a8b56|"
 msgstr ""
 
-msgid "|8ff3006e0e064e06a23e7d31088e99fe|"
+msgid "|d81c7720323d498da278139e1d0f1de6|"
 msgstr ""
 
-msgid "|1437d078bc70457da42dcf773684f1cc|"
+msgid "|d3e3fbf246c44e94b6fcab6333778ee7|"
 msgstr ""
 
-msgid "|083b88a5da144dfba1600d15053dbf50|"
+msgid "|d17ac646d84148a99d2d2c6dbbeb7358|"
 msgstr ""
 
-msgid "|df7518eb78b04b31a0f68bf306010a6b|"
+msgid "|28a739a682e84f6b81aeffb2ca4f6eed|"
 msgstr ""
 
-msgid "|de8b3a02cc794a91a74d49ebc029bcd2|"
+msgid "|4447a6cb7f494c21b358c460da4d6760|"
 msgstr ""
 
-msgid "|5dda58c346e34323a22fe7cb77e2f419|"
+msgid "|d83d01bec775438198d93c44a7240558|"
 msgstr ""
 
-msgid "|74b8121982b44e5b8523db9a22544b4a|"
+msgid "|91d6f7c777f1472ca55ef69c253009cb|"
 msgstr ""
 
-msgid "|2f1764514b0545e4b434d9024efd048f|"
+msgid "|816540155f624cf8996365f458ac5b86|"
 msgstr ""
 
-msgid "|31f76f3b72c1429d81fbda6c70b5a50d|"
+msgid "|f7e4e8cac8074a27856ac9c4260fe0c2|"
 msgstr ""
 
-msgid "|a65abca6606747e7b9ddbd8079f81e30|"
+msgid "|b8fa63c7ebc44bfe89baa57ab180f451|"
 msgstr ""
 
-msgid "|c06e8338b31249f7b81a5583df28248e|"
+msgid "|4e9d39811e844eb1a278115ea3bace8b|"
 msgstr ""
 
-msgid "|b812be67f142421b9c9cc09c0fe0e1a7|"
+msgid "|02d05924fd454e5089a392cbdc2b8408|"
 msgstr ""
 
-msgid "|a967ad38d68c43208725eaa1b9f84e15|"
+msgid "|7dfee49f76694bacb397f109b81b2310|"
 msgstr ""
 
-msgid "|8bfff9e99bc84d998eeea0581b66bdb9|"
+msgid "|2f597a30a0e2497baacd93efaf4eb2da|"
 msgstr ""
 
-msgid "|3b909289b0a54ec587721d43058dbaec|"
+msgid "|490a1c3489fb40de933377457ffe674a|"
 msgstr ""
 
-msgid "|ff340d14bd474fd4a7ffde85bcc544d1|"
+msgid "|94bc9028619b4858902bdf1f28e384d9|"
 msgstr ""
 
-msgid "|809f85090cb94e15bb1f5ba3e06bba89|"
+msgid "|5f698e8d43db4fe582e6ab327575f8af|"
 msgstr ""
 
-msgid "|90955512854f4c9ea4907cd257e507e6|"
+msgid "|e36687e0e3fb42c4b445bb0835805cfe|"
 msgstr ""
 
-msgid "|7076aeb112ce46d58a9ed12ff6704228|"
+msgid "|c8372d7eade34763bdf29001e8d08294|"
 msgstr ""
 
-msgid "|c89bf16fba54457e90040a97bf0f5413|"
+msgid "|d8d43b80fb4b4ea59414f6878955f3af|"
 msgstr ""
 
-msgid "|a96ddc2f89b94cceb81e6edbb44ae2b9|"
+msgid "|82a90135daf14ebb978a80c84651b090|"
 msgstr ""
 
-msgid "|e9fadbe36b104a8099d8f879d98b1a1a|"
+msgid "|65533e0b1d884331a24df48cb0363074|"
 msgstr ""
 
-msgid "|29af0e88c72d4698ae8ea4597166ab93|"
+msgid "|5ab1b9de7acb46f4936ab9e870bbc8ed|"
 msgstr ""
 
-msgid "|457e879e8d00480296259a85ecb5d77c|"
+msgid "|f6d0c8afb286467cbdd8d6ef19741131|"
 msgstr ""
 
-msgid "|c94c2760ea5445cab8a6abbc994d0eb1|"
+msgid "|12b3e9de2f5247939a556fdbf57e3c15|"
 msgstr ""
 
-msgid "|1c100d8474034eb3aee65461e6939f26|"
+msgid "|cf3ab149e60d4ee1a1efad1ed87c6eee|"
 msgstr ""
 
-msgid "|9451079548014b08bccfdd057880a1a3|"
+msgid "|6f4789f9e3c64ae19200f81d2d5fc06f|"
 msgstr ""
 
-msgid "|01eb54b6342a4e78835744d3f5089a93|"
+msgid "|15de843b9f8e4d0f8765e80c4fb36802|"
 msgstr ""
 
-msgid "|59ea7296240545b4b56aea28a7a752eb|"
+msgid "|290957481edd4d9198a2491b0ff3d2c9|"
 msgstr ""
 
-msgid "|5f5b7050690040d68260f8c3f66edc6e|"
+msgid "|11883c224e5141a4ae89ed9878d1e852|"
 msgstr ""
 
-msgid "|9c33430a385f4cbba326b157246d1691|"
+msgid "|1248e9913ca44c639614f3777c0fb1db|"
 msgstr ""
 
-msgid "|a997b8fa724d4456b799f9df61293747|"
+msgid "|2176cb6cac344219be5f1556e0b994ab|"
 msgstr ""
 
-msgid "|36510d14e333474286cbc2fa6184e640|"
+msgid "|50f25319ee69420f974c5a7ba8712ea8|"
 msgstr ""
 
-msgid "|ee84a9efb0cd4a4c9c58e22614b6e77e|"
+msgid "|c6f58c05e34d4daab88c6ddc317f39a3|"
 msgstr ""
 
-msgid "|ed3700c2014640f7ae32e6e81d8771c4|"
+msgid "|8c5b22a353c943f3becc44aa2e1df414|"
 msgstr ""
 
-msgid "|8e42b00b9c7442618da0b0feb463dea1|"
+msgid "|f02c73018a5549e2bfba1b3f5db09905|"
 msgstr ""
 
-msgid "|e342929f4cf9423ba30c20060cf61819|"
+msgid "|169f1f7255ff4416ae35ba1d31f02fb5|"
 msgstr ""
 
-msgid "|7d483d7a9e0c45ed9a1c6e412b2883cd|"
+msgid "|df021041abbf46729e2b959bacf83dc9|"
 msgstr ""
 
-msgid "|74edf14fd6ac40778fba2ab513327583|"
+msgid "|f8ab64effb9141fbb81c18e728ce927d|"
 msgstr ""
 
-msgid "|d0ce8876e6984eb699c5fb3282ca4fa7|"
+msgid "|e0359f12dae64f85a97ed259bfc15201|"
 msgstr ""
 
-msgid "|ea5975b0cd4f4d9e878ac2304b15d3a9|"
+msgid "|83309133c65f4a4a82fae3a51ed08ab1|"
 msgstr ""
 
-msgid "|b838ba2f16d8480daa39a30780b450a0|"
+msgid "|990f0b83460b4a03954e8fb3d2190d3f|"
 msgstr ""
 
-msgid "|c7369aa82dc94e1fa69604c80a4d2817|"
+msgid "|d937aeaccd0043968e3704eb0fb2f21f|"
 msgstr ""
 
-msgid "c7369aa82dc94e1fa69604c80a4d2817"
+msgid "d937aeaccd0043968e3704eb0fb2f21f"
 msgstr ""
 
-msgid "|0507195e98e748a69ce70a35fbb98ded|"
+msgid "|20066ff25de247a5b0f60a3003a2d690|"
 msgstr ""
 
-msgid "|f16d507d421b45dca7763dfd2786909a|"
+msgid "|4b8983fe168c42a58a3292590e540326|"
 msgstr ""
 
-msgid "|bc5061e806c142f7a56e772d3d88e9b2|"
+msgid "|5b4d55d9a2de42b680446a9b8f23c40d|"
 msgstr ""
 
-msgid "|d46db70f358a4c669ee306ade68c654f|"
+msgid "|59655e54d6fc4f7685b5c7ceb3f15961|"
 msgstr ""
 
-msgid "|be1baec03bb14e65aceee3f8d0bf13bb|"
+msgid "|966fb6a048684428b3f3d22a989b4ebf|"
 msgstr ""
 
-msgid "|89d2a1bf6f6d442b90d5164bd840ec4e|"
+msgid "|6c33fe33e42642bd8ef0722ac7b310b0|"
 msgstr ""
 
-msgid "|b45b9274698d4c3a82f6bdd66e57a1ef|"
+msgid "|1176c14606bd4712ad3a2e36a0c83b54|"
 msgstr ""
 
-msgid "|38d65f7a30d04794aa061f2a4fe185f9|"
+msgid "|94b2b044ee6644a3a9a5a7f4424420d9|"
 msgstr ""
 
-msgid "|f9489e3c2e904187a14d76a29ec0db67|"
+msgid "|cbc62cd100ad4120b281921f31a8112f|"
 msgstr ""
 
-msgid "|82279d5401eb40009cb8acfa04ab7393|"
+msgid "|157c3aaf1d6645818dabd08ba2b9bbfc|"
 msgstr ""
 
-msgid "|9762547d1b784efa97c2c2723c447727|"
+msgid "|447b70f29f604fc38e71308e0507eec6|"
 msgstr ""
 
-msgid "|08c3b9f2ce3f4159b57b968855bb59fc|"
+msgid "|37ff916734d14045b10665b9ec840f37|"
 msgstr ""
 
 msgid ""
-"Code licence |a77da23a3f3a4a38b0698d4a3c7497e3| Notebook code is distributed"
+"Code licence |724868eea55841078f99c3981fc6319d| Notebook code is distributed"
 " under the Apache License 2.0."
 msgstr ""
 
-msgid "|93205b6e4665456391e5982a5c007501|"
+msgid "|68d5137652274b0097df39e732487630|"
 msgstr ""
 
-msgid "|5239e53ffb9b473481114c2c9b41d5e1|"
+msgid "|ff3e605674ca4230a9f61fef41cddd48|"
 msgstr ""
 
 msgid ""
-"|23189b60543e42d69e75d1f540204019| The notebook code is distributed under "
+"|c723bc5f70ad4468b67055f9dd71b162| The notebook code is distributed under "
 "the Apache License 2.0."
 msgstr ""
 
 msgid ""
 "ALOS/ALOS-2 PALSAR/PALSAR-2 Annual Mosaics "
-"|b8eb0d286c204f06ac41f40a36e89fb6|"
+"|78ec3e86be574b8b9ba85a1404cd1419|"
 msgstr ""
 
-msgid "b8eb0d286c204f06ac41f40a36e89fb6"
+msgid "78ec3e86be574b8b9ba85a1404cd1419"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |061e03d49a23452a9c6ca90cb24531b0| in the "
+"Sandbox using Upload Files button |ee76fe11eaae4417bc24aa790b67ea3c| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "061e03d49a23452a9c6ca90cb24531b0"
+msgid "ee76fe11eaae4417bc24aa790b67ea3c"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |8e84a8f253544145b82c30b25df590ae| in the "
+"Sandbox using Upload Files button |636d2be05b4b47c1b56f8072fbe746b9| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "8e84a8f253544145b82c30b25df590ae"
+msgid "636d2be05b4b47c1b56f8072fbe746b9"
 msgstr ""
 
-msgid "|578f35ddebc74be7bcfa86bd1f2b78c2|"
+msgid "|882572d7e8f74d2aba627598393be1e1|"
 msgstr ""
 
-msgid "578f35ddebc74be7bcfa86bd1f2b78c2"
+msgid "882572d7e8f74d2aba627598393be1e1"
 msgstr ""
 
-msgid "|4b24d4330f3646a98c650a5346265776|"
+msgid "|035424861b2c4b04a09dfb8693420dcd|"
 msgstr ""
 
-msgid "4b24d4330f3646a98c650a5346265776"
+msgid "035424861b2c4b04a09dfb8693420dcd"
 msgstr ""
 
-msgid "Landsat Surface Reflectance |8da45214ea94447b9b2f99e8712ca8da|"
+msgid "Landsat Surface Reflectance |07a66467b4514adea3a89ebc8776540c|"
 msgstr ""
 
-msgid "8da45214ea94447b9b2f99e8712ca8da"
+msgid "07a66467b4514adea3a89ebc8776540c"
 msgstr ""
 
-msgid "Landsat Surface Temperature |a020c5a1f76f4670867e2b08c57f89bb|"
+msgid "Landsat Surface Temperature |c40884d570574203b72f15c4edc39103|"
 msgstr ""
 
-msgid "a020c5a1f76f4670867e2b08c57f89bb"
+msgid "c40884d570574203b72f15c4edc39103"
 msgstr ""
 
-msgid "Sentinel-1 |c3307f14628c419f8728ba37e16bcb35|"
+msgid "Sentinel-1 |ba1a7ea6f7844059b9f19d1aaa702066|"
 msgstr ""
 
-msgid "c3307f14628c419f8728ba37e16bcb35"
+msgid "ba1a7ea6f7844059b9f19d1aaa702066"
 msgstr ""
 
-msgid "Sentinel-1 Monthly Mosaic |77801a161dee4a1f87299fdb56338d7a|"
+msgid "Sentinel-1 Monthly Mosaic |b918f15ab9fd4f3a821419eb1c8018c1|"
 msgstr ""
 
-msgid "77801a161dee4a1f87299fdb56338d7a"
+msgid "b918f15ab9fd4f3a821419eb1c8018c1"
 msgstr ""
 
-msgid "Sentinel-2 Collection 1 |1ebdc3dd8bcf4ffa9d6d9cd1c6cb1e4e|"
+msgid "Sentinel-2 Collection 1 |70565b404ca54400871c7c7417282ad7|"
 msgstr ""
 
-msgid "1ebdc3dd8bcf4ffa9d6d9cd1c6cb1e4e"
+msgid "70565b404ca54400871c7c7417282ad7"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |fdde7b58631142d3966ecd0cc4953e8c| in the "
+"Sandbox using Upload Files button |83fcff3cdee54e60b83af69898f89431| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "fdde7b58631142d3966ecd0cc4953e8c"
+msgid "83fcff3cdee54e60b83af69898f89431"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |c2ffea9d583c4d03a9394cdf0d84de67| in the "
+"Sandbox using Upload Files button |c585cb12dd3a4712a8e638b5f693a747| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "c2ffea9d583c4d03a9394cdf0d84de67"
+msgid "c585cb12dd3a4712a8e638b5f693a747"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |8556bbbb3b70407887512209fb1f4227| in the "
+"Sandbox using Upload Files button |cbb2fe519a514dd3ba051b9fe264bb8e| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "8556bbbb3b70407887512209fb1f4227"
+msgid "cbb2fe519a514dd3ba051b9fe264bb8e"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |7f2f842e6ab04032b96445ee93340607| in the "
+"Sandbox using Upload Files button |f7629de259684883a3439e0a85b88dfc| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "7f2f842e6ab04032b96445ee93340607"
+msgid "f7629de259684883a3439e0a85b88dfc"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as an ``Esri Shapefile``. If you choose this option, "
 "you will need to upload the geojson or ESRI shapefile into the Sandbox using"
-" Upload Files button |3ac8d4b11c0247b4a95abb0d8185a14d| in the top left "
+" Upload Files button |67b7d8a24e294560be6df17a71fb83ca| in the top left "
 "corner of the Jupyter Notebook interface. ESRI shapefiles must be uploaded "
 "with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once uploaded, you "
 "can use the shapefile or geojson to define the area of interest. Remember to"
 " update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "3ac8d4b11c0247b4a95abb0d8185a14d"
+msgid "67b7d8a24e294560be6df17a71fb83ca"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |c960ca71f796424eadd4dc751e525502| in the "
+"Sandbox using Upload Files button |66a8280e063344e8ae32ed1d3ee5ec8d| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "c960ca71f796424eadd4dc751e525502"
+msgid "66a8280e063344e8ae32ed1d3ee5ec8d"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |8b3a2978a0f94d16bcebb1eeb5db07c3| in the "
+"Sandbox using Upload Files button |f0bf8d9811304703a805ebe003dddbf3| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "8b3a2978a0f94d16bcebb1eeb5db07c3"
+msgid "f0bf8d9811304703a805ebe003dddbf3"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |0196ff30cbc84a118835a1df4b2c611e| in the "
+"Sandbox using Upload Files button |451642c11a5c4bd594f33c0434423f9e| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "0196ff30cbc84a118835a1df4b2c611e"
+msgid "451642c11a5c4bd594f33c0434423f9e"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |6494c7e505bc4caa8976aaef2184cf82| in the "
+"Sandbox using Upload Files button |6168987452fc4f5ca25ef7a838c73cbc| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "6494c7e505bc4caa8976aaef2184cf82"
+msgid "6168987452fc4f5ca25ef7a838c73cbc"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |92f10ecdb6b54de084a1121f1d4488ca| in the "
+"Sandbox using Upload Files button |aca3bc9f41e14d94a13d1802dec2b8f5| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "92f10ecdb6b54de084a1121f1d4488ca"
+msgid "aca3bc9f41e14d94a13d1802dec2b8f5"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |42fa0d28f4b54971a6fc0afce25b0483| in the "
+"Sandbox using Upload Files button |c71b5a7946af41ca86b4c977ca4d37ab| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "42fa0d28f4b54971a6fc0afce25b0483"
+msgid "c71b5a7946af41ca86b4c977ca4d37ab"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |bc7b4ab71fc04ae4acc7858ee12ae95e| in the "
+"Sandbox using Upload Files button |0be536cf3b7a4b318fe51e05d7f782bf| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "bc7b4ab71fc04ae4acc7858ee12ae95e"
+msgid "0be536cf3b7a4b318fe51e05d7f782bf"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |23c07cacc3504d40aa774b72fb07591b| in the "
+"Sandbox using Upload Files button |ec63efdd60b148888273d6a0f446b684| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "23c07cacc3504d40aa774b72fb07591b"
+msgid "ec63efdd60b148888273d6a0f446b684"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |6df7240943b64120b2a798269d254140| in the "
+"Sandbox using Upload Files button |131573979c1346c89ad1864d436a7467| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "6df7240943b64120b2a798269d254140"
+msgid "131573979c1346c89ad1864d436a7467"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |2777eab171dc48d3aecce3878117606f| in the "
+"Sandbox using Upload Files button |2d47ad07529e4fe28ea668c77c8a3744| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "2777eab171dc48d3aecce3878117606f"
+msgid "2d47ad07529e4fe28ea668c77c8a3744"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |f5f400794ab341e291f5b1c8da4518cb| in the "
+"Sandbox using Upload Files button |ff32c33d17b84dd1a78ff1a481e058c9| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "f5f400794ab341e291f5b1c8da4518cb"
+msgid "ff32c33d17b84dd1a78ff1a481e058c9"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |e71d97c567cd44ab9b4f79baa115202a| in the "
+"Sandbox using Upload Files button |14ae92f14a674a0c8e7641dd73e062a0| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "e71d97c567cd44ab9b4f79baa115202a"
+msgid "14ae92f14a674a0c8e7641dd73e062a0"
 msgstr ""
 
 msgid ""
-"Displaying satellite imagery on a web map |685ef5b1a38d46a1877166cb6d4f838c|"
+"Displaying satellite imagery on a web map |2c2458ed2ebe4feabaf59fc4e71e382c|"
 msgstr ""
 
-msgid "685ef5b1a38d46a1877166cb6d4f838c"
+msgid "2c2458ed2ebe4feabaf59fc4e71e382c"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |e190fb65ff3940a49bc93bdbfd351448| in the "
+"Sandbox using Upload Files button |ec029bc6067047c28dad4025eb7c35f8| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "e190fb65ff3940a49bc93bdbfd351448"
+msgid "ec029bc6067047c28dad4025eb7c35f8"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |bbfc2a78a7804af2bc4d38a3c2f1777f| in the "
+"Sandbox using Upload Files button |1852d7336957491c9183b2b8280807ba| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "bbfc2a78a7804af2bc4d38a3c2f1777f"
+msgid "1852d7336957491c9183b2b8280807ba"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |2862881438254cf98904ff6655be0b78| in the "
+"Sandbox using Upload Files button |d4296b1140c1450c909277cd61b45ba6| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "2862881438254cf98904ff6655be0b78"
+msgid "d4296b1140c1450c909277cd61b45ba6"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |ed52da093c4149e3a552845d60161325| in the "
+"Sandbox using Upload Files button |6b636e7b58c24c47a142d40de1b84e1b| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "ed52da093c4149e3a552845d60161325"
+msgid "6b636e7b58c24c47a142d40de1b84e1b"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |e07913fe55834855a318b66bd1461ef1| in the "
+"Sandbox using Upload Files button |37766038927d4ab28c262bbbbf81044f| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "e07913fe55834855a318b66bd1461ef1"
+msgid "37766038927d4ab28c262bbbbf81044f"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |56a8063e2502490c855fe7b5a987d77b| in the "
+"Sandbox using Upload Files button |7d06df8acbda48c9a9a6a1af8bb94f05| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "56a8063e2502490c855fe7b5a987d77b"
+msgid "7d06df8acbda48c9a9a6a1af8bb94f05"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |f524a8c2c0894d009ee6db1949638d00| in the "
+"Sandbox using Upload Files button |200138bb94b0457c9235943b68e0131c| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "f524a8c2c0894d009ee6db1949638d00"
+msgid "200138bb94b0457c9235943b68e0131c"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |2358801e3d9c486a9010f10843ade0f7| in the "
+"Sandbox using Upload Files button |d2c2b5b2e9d04828a21622816d057156| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "2358801e3d9c486a9010f10843ade0f7"
+msgid "d2c2b5b2e9d04828a21622816d057156"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |ea19948c733e482d8eef60bbad4b753f| in the "
+"Sandbox using Upload Files button |64c87cadbf8046499755e885152c3d85| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "ea19948c733e482d8eef60bbad4b753f"
+msgid "64c87cadbf8046499755e885152c3d85"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |98f7fc3729f440ceaaceb054fe38ef63| in the "
+"Sandbox using Upload Files button |a4f16cee336946f99034a9584e27f3f4| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "98f7fc3729f440ceaaceb054fe38ef63"
+msgid "a4f16cee336946f99034a9584e27f3f4"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |1d0ceb2c03aa47f6900f0133e2165196| in the "
+"Sandbox using Upload Files button |c807fa8aed2e4635b58c530e0100e09a| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "1d0ceb2c03aa47f6900f0133e2165196"
+msgid "c807fa8aed2e4635b58c530e0100e09a"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |e7c118fd5ff94cf485023965e841fd07| in the "
+"Sandbox using Upload Files button |9ebb5de9a1a7491a9f92ca0b404a9959| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "e7c118fd5ff94cf485023965e841fd07"
+msgid "9ebb5de9a1a7491a9f92ca0b404a9959"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |36bc65de38844eada488ae8ece6c4624| in the "
+"Sandbox using Upload Files button |aa109f4df049428f97693dd0e2335145| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "36bc65de38844eada488ae8ece6c4624"
+msgid "aa109f4df049428f97693dd0e2335145"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |a05cf06428dd4ed58c6cae9def3b8dc9| in the "
+"Sandbox using Upload Files button |dff4d956276543f088c017e881fe84ef| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "a05cf06428dd4ed58c6cae9def3b8dc9"
+msgid "dff4d956276543f088c017e881fe84ef"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as an ``Esri Shapefile``. If you choose this option, "
 "you will need to upload the geojson or ESRI shapefile into the Sandbox using"
-" Upload Files button |46c32c6a762e427c946b906fb9ce0534| in the top left "
+" Upload Files button |a7b131ce06c64389a25462a11c4e18ca| in the top left "
 "corner of the Jupyter Notebook interface. ESRI shapefiles must be uploaded "
 "with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once uploaded, you "
 "can use the shapefile or geojson to define the area of interest. Remember to"
 " update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "46c32c6a762e427c946b906fb9ce0534"
+msgid "a7b131ce06c64389a25462a11c4e18ca"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |f20c9415315b412cb7a2881f50727b9b| in the "
+"Sandbox using Upload Files button |cf7cfc053c734b62a8d4a2b8f29b866c| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "f20c9415315b412cb7a2881f50727b9b"
+msgid "cf7cfc053c734b62a8d4a2b8f29b866c"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |af6726bc2a4f4fea8eff812f278ec15e| in the "
+"Sandbox using Upload Files button |6765204b13cc4993a635d6e0794c5cf2| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "af6726bc2a4f4fea8eff812f278ec15e"
+msgid "6765204b13cc4993a635d6e0794c5cf2"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |df034ae9ac6f4020a8e76d2d6360b785| in the "
+"Sandbox using Upload Files button |b11795a43e4448fe9baac454faa5af1b| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "df034ae9ac6f4020a8e76d2d6360b785"
+msgid "b11795a43e4448fe9baac454faa5af1b"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as an ``Esri Shapefile``. If you choose this option, "
 "you will need to upload the geojson or ESRI shapefile into the Sandbox using"
-" Upload Files button |b1244350d1fb4154bacd7f0fba8da7b5| in the top left "
+" Upload Files button |eab85dcfa12845baa48e9360ec2a3218| in the top left "
 "corner of the Jupyter Notebook interface. ESRI shapefiles must be uploaded "
 "with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once uploaded, you "
 "can use the shapefile or geojson to define the area of interest. Remember to"
 " update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "b1244350d1fb4154bacd7f0fba8da7b5"
+msgid "eab85dcfa12845baa48e9360ec2a3218"
 msgstr ""
 
-msgid "|4132208283824d26ad0300a8de1e3a32|"
+msgid "|16aa3fea05b04b77b5be57d9ed22bf6c|"
 msgstr ""
 
-msgid "4132208283824d26ad0300a8de1e3a32"
+msgid "16aa3fea05b04b77b5be57d9ed22bf6c"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |fe48854b01fc4898a92fc3d43fa99cd1| in the "
+"Sandbox using Upload Files button |28655297cfa34145a4e11705b8a2924d| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "fe48854b01fc4898a92fc3d43fa99cd1"
+msgid "28655297cfa34145a4e11705b8a2924d"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |a3907807c54a4aa8bebd44432d7c62f7| in the "
+"Sandbox using Upload Files button |a53c95f6e6f94f6cb706828b370cab58| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "a3907807c54a4aa8bebd44432d7c62f7"
+msgid "a53c95f6e6f94f6cb706828b370cab58"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |2abe0f6f4f3e4892abaaca0889d4b56e| in the "
+"Sandbox using Upload Files button |a09b4efe2b2a462593ecb49b3b2a5674| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "2abe0f6f4f3e4892abaaca0889d4b56e"
+msgid "a09b4efe2b2a462593ecb49b3b2a5674"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |edddf087a73842bd88f717833daf0b39| in the "
+"Sandbox using Upload Files button |e6fd4cbeb2c247638a0df650ba7f0129| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "edddf087a73842bd88f717833daf0b39"
+msgid "e6fd4cbeb2c247638a0df650ba7f0129"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |c4dd7d23442e42029f9776dbb536633a| in the "
+"Sandbox using Upload Files button |f0c1b9fd126f41948908f44aa5bf95d4| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "c4dd7d23442e42029f9776dbb536633a"
+msgid "f0c1b9fd126f41948908f44aa5bf95d4"
 msgstr ""
 
-msgid "Water detection with Sentinel-1 |7cb0661ebc004ad781e6fe52578372f2|"
+msgid "Water detection with Sentinel-1 |0565ec9de52f4e088de978a213220a64|"
 msgstr ""
 
-msgid "7cb0661ebc004ad781e6fe52578372f2"
+msgid "0565ec9de52f4e088de978a213220a64"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |02f8d44c7d414e49b38a0521cc989db9| in the "
+"Sandbox using Upload Files button |5079ec10ca914c388cd0d32473976806| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "02f8d44c7d414e49b38a0521cc989db9"
+msgid "5079ec10ca914c388cd0d32473976806"
 msgstr ""
 
-msgid "|6f9af08fde48450cb35ce537f6c8c899|"
+msgid "|67c40dc98b6140c1a52b2b3ecd024a71|"
 msgstr ""
 
-msgid "6f9af08fde48450cb35ce537f6c8c899"
+msgid "67c40dc98b6140c1a52b2b3ecd024a71"
 msgstr ""
 
-msgid "|8950959c6d8b45f2b0782d666e957cab|"
+msgid "|6b78af2d988e4d8ea0173fdaef171041|"
 msgstr ""
 
-msgid "8950959c6d8b45f2b0782d666e957cab"
+msgid "6b78af2d988e4d8ea0173fdaef171041"
 msgstr ""
 
-msgid "|f73836fd8cb5464282842d560c035a91|"
+msgid "|be2668740fec409bb6d20700dd6e068b|"
 msgstr ""
 
-msgid "f73836fd8cb5464282842d560c035a91"
+msgid "be2668740fec409bb6d20700dd6e068b"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |a1c535502d854cff884d88f687c0d741| in the "
+"Sandbox using Upload Files button |a00ae1bb2ff54c7e92178e7df1cfc09d| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "a1c535502d854cff884d88f687c0d741"
+msgid "a00ae1bb2ff54c7e92178e7df1cfc09d"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |b7a1396000054ff2b8ef65768b10dbdb| in the "
+"Sandbox using Upload Files button |90602ca4bcd94cdc97ea90b680c7f2a1| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "b7a1396000054ff2b8ef65768b10dbdb"
+msgid "90602ca4bcd94cdc97ea90b680c7f2a1"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |b19b9a514a554086b22e56e61a5521f8| in the "
+"Sandbox using Upload Files button |f769472bdebd4e20b5682fcb9cb6eb1e| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "b19b9a514a554086b22e56e61a5521f8"
+msgid "f769472bdebd4e20b5682fcb9cb6eb1e"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |599eacdef72a4244b6a16b2f1d48291d| in the "
+"Sandbox using Upload Files button |8ab36d0f16aa49f29567db1aceebe23f| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "599eacdef72a4244b6a16b2f1d48291d"
+msgid "8ab36d0f16aa49f29567db1aceebe23f"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |9076c18af22d472dbbb593bf52b27513| in the "
+"Sandbox using Upload Files button |c34c0b9ef7854a26b6ef179b06e9c511| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "9076c18af22d472dbbb593bf52b27513"
+msgid "c34c0b9ef7854a26b6ef179b06e9c511"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |8c8a869c261a46ab9d4b4a21c38cacbb| in the "
+"Sandbox using Upload Files button |f5b272e5f2cf45b5983bba263cfc1d8f| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "8c8a869c261a46ab9d4b4a21c38cacbb"
+msgid "f5b272e5f2cf45b5983bba263cfc1d8f"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |5775f4b03d5d47ad84cac193bb60672e| in the "
+"Sandbox using Upload Files button |2fc52f8b27494cbdb919c0fb17746828| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "5775f4b03d5d47ad84cac193bb60672e"
+msgid "2fc52f8b27494cbdb919c0fb17746828"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |49ad08066dee4d45be154153028e42ca| in the "
+"Sandbox using Upload Files button |93a7a233e44f47fb8bfcb9b70d867727| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "49ad08066dee4d45be154153028e42ca"
+msgid "93a7a233e44f47fb8bfcb9b70d867727"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |ac95d1289981452fab38b326427e3d00| in the "
+"Sandbox using Upload Files button |bd111d6e51d34c429ea09097be948a82| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "ac95d1289981452fab38b326427e3d00"
+msgid "bd111d6e51d34c429ea09097be948a82"
 msgstr ""
 
 msgid ""
 "By uploading a polygon as a ``GeoJSON or Esri Shapefile``. If you choose "
 "this option, you will need to upload the geojson or ESRI shapefile into the "
-"Sandbox using Upload Files button |2222efeea5f74bb381d465b362b51c35| in the "
+"Sandbox using Upload Files button |e205cfb3a0ca4eea9ab4c113f931585d| in the "
 "top left corner of the Jupyter Notebook interface. ESRI shapefiles must be "
 "uploaded with all the related files ``(.cpg, .dbf, .shp, .shx)``. Once "
 "uploaded, you can use the shapefile or geojson to define the area of "
 "interest. Remember to update the code to call the file you have uploaded."
 msgstr ""
 
-msgid "2222efeea5f74bb381d465b362b51c35"
+msgid "e205cfb3a0ca4eea9ab4c113f931585d"
 msgstr ""
 
-msgid "|ca3f8daa03b344aab9259e05c1518ae4|"
+msgid "|271559ed78e749b485a02760c55c2973|"
 msgstr ""
 
-msgid "ca3f8daa03b344aab9259e05c1518ae4"
+msgid "271559ed78e749b485a02760c55c2973"
 msgstr ""
 
-msgid "|67fd28c7df0b407bb6bf4a3721d1fcd2|"
+msgid "|c9aca5ed86c248ac8c835e9b619f2044|"
 msgstr ""
 
-msgid "67fd28c7df0b407bb6bf4a3721d1fcd2"
+msgid "c9aca5ed86c248ac8c835e9b619f2044"
 msgstr ""
 
-msgid "|5f815fe610ec4da1ac9508d27516e3ab| |b805c26a35994202bbe547815f7065b0|"
+msgid "|037d1c7fabe04571b0b9582de79b43f1| |d41e41b682094c8f9d2b9157b3dbe618|"
 msgstr ""
 
-msgid "|065c78d0f1fa4638bf49357eeeb1500c|"
+msgid "|9e6b8399f0e4440b8f3f54cdd2b5ca4e|"
 msgstr ""
 
-msgid "|4bd478b68d734d14be0f510e97550787|"
+msgid "|1da0332c0a5a4816935c272c1a908639|"
 msgstr ""
 
-msgid "|82b1ec0d697243b4af5def7951aa9a5b|"
+msgid "|cd3a4d3c8c33489f90d79d3e00e21d80|"
 msgstr ""
 
-msgid "|ce722cca47904d0fb16aed645ff35648|"
+msgid "|79216d32f21941bcb78ac342bcd952c6|"
 msgstr ""
 
-msgid "|d71f2cd7baa049abb1cbc1bd29f34c4e|"
+msgid "|934c32c4737c43a991b913afe6691c22|"
 msgstr ""
 
-msgid "|39ddbebc745043eb8e405c78907b68e5|"
+msgid "|040f7bab8dd84b769c853f8af257ed65|"
 msgstr ""
 
-msgid "|21135c2c9e124acd99c042dda92cfd96|"
+msgid "|24ed9881748046fe8f46a471e0b1fa7f|"
 msgstr ""
 
-msgid "|773d9d484cb441d1ae5605a5a90f895f| |9db6cfb7d317439990f097303313559e|"
+msgid "|7a4ff4f54f2647e6bac552a1b8718d2e| |f7df2dfbd95c4575857d8ae6ae13ff7c|"
 msgstr ""
 
-msgid "773d9d484cb441d1ae5605a5a90f895f"
+msgid "7a4ff4f54f2647e6bac552a1b8718d2e"
 msgstr ""
 
-msgid "9db6cfb7d317439990f097303313559e"
+msgid "f7df2dfbd95c4575857d8ae6ae13ff7c"
 msgstr ""
 
-msgid "|a96bed20ae3346409954d081af855972|"
+msgid "|7a58eb2093054374866c1908ef26a8a8|"
 msgstr ""
 
-msgid "a96bed20ae3346409954d081af855972"
+msgid "7a58eb2093054374866c1908ef26a8a8"
 msgstr ""
 
-msgid "|5a138e378c044612842fb46b328d0f0e|"
+msgid "|af6d4d4529ef4bf8a2f01696a9b338c1|"
 msgstr ""
 
-msgid "5a138e378c044612842fb46b328d0f0e"
+msgid "af6d4d4529ef4bf8a2f01696a9b338c1"
 msgstr ""
 
-msgid "|4578b9fd92524dd8bb441d2cfa54bb9a|"
+msgid "|324160f0f1674196a98f1c2ea8c93b92|"
 msgstr ""
 
-msgid "4578b9fd92524dd8bb441d2cfa54bb9a"
+msgid "324160f0f1674196a98f1c2ea8c93b92"
 msgstr ""
 
-msgid "|4ecb04e3096c45d1b46be1ddebb46eb9|"
+msgid "|0219c49deb1640f19388584bd3a6c8e0|"
 msgstr ""
 
-msgid "4ecb04e3096c45d1b46be1ddebb46eb9"
+msgid "0219c49deb1640f19388584bd3a6c8e0"
 msgstr ""
 
-msgid "|83123a12c95744af84da770ec608152e|"
+msgid "|3e38e0d3dc6e4ebe9c8f9c91a79305d2|"
 msgstr ""
 
-msgid "83123a12c95744af84da770ec608152e"
+msgid "3e38e0d3dc6e4ebe9c8f9c91a79305d2"
 msgstr ""
 
-msgid "|eec6d88f7e8546ef8d8b5149be138d22|"
+msgid "|b67ba12427054f59abd50f530f894d63|"
 msgstr ""
 
-msgid "eec6d88f7e8546ef8d8b5149be138d22"
+msgid "b67ba12427054f59abd50f530f894d63"
 msgstr ""
 
-msgid "|375f231e13a241cb9c4d424f0030de9d|"
+msgid "|87c42efa1dce4693b7bd94b4c1952102|"
 msgstr ""
 
-msgid "375f231e13a241cb9c4d424f0030de9d"
+msgid "87c42efa1dce4693b7bd94b4c1952102"
 msgstr ""
