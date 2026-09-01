@@ -4,65 +4,77 @@
 Digital Earth Africa: Direct Access to DE Africa Datasets from External Platforms
 ======================================================================
 
+Digital Earth Africa enables users to directly access its datasets through
+integration with other platforms. With Direct Access, users can access
+DE Africa datasets from their own environments such as Google Colab, AWS,
+or their local machines.
 
-Digital Earth Africa enables users to directly access its datasets through integration with other platforms. With Direct Access, users can access DE Africa datasets from their own environments such Google Colab, AWS, or even their local machines. This makes it possible to build custom workflows, link datasets into web applications, and use them seamlessly outside the DE Africa Sandbox environment.
+This makes it possible to build custom workflows, link datasets into web
+applications, and use DE Africa data seamlessly outside the DE Africa
+Sandbox environment.
 
-Below are some of the methods available for accessing the data through other platforms:
+Below are some of the methods available for accessing DE Africa datasets
+from external platforms.
 
 
 Cloud Computing Platform
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :hidden:
    :caption: Cloud Computing Platform
    :maxdepth: 1
 
-    google_colab
+   cloud_platform
 
-.. container:: platform-list
 
-   .. container:: product-item
+.. container:: de-platform-horizontal-card
+
+   .. container:: de-platform-horizontal-media
 
       .. image:: ../_static/platform_tools/direct_access/direct_access_env.png
-         :target: cloud_platform
-         :width: 400
-         :align: left
+         :alt: Access Digital Earth Africa datasets from cloud computing platforms
 
-      :doc:`cloud_platform`
+   .. container:: de-platform-horizontal-content
 
-      Connecting to Cloud Computing Platforms with DE Africa Direct Access.
+      :doc:`Connecting to Cloud Computing Platforms <cloud_platform>`
+
+      Connect to Digital Earth Africa datasets from cloud-hosted environments
+      and build workflows using external computing platforms.
 
       :doc:`More <cloud_platform>`
 
 
 Local Environment
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :hidden:
    :caption: Local Environment
    :maxdepth: 1
 
-
    local_environment
 
 
-.. container:: platform-list
+.. container:: de-platform-horizontal-card
 
-   .. container:: product-item
+   .. container:: de-platform-horizontal-media
 
       .. image:: ../_static/platform_tools/direct_access/direct_access_python.png
-         :target: ../sandbox/
-         :width: 400
-         :align: left
+         :alt: Access Digital Earth Africa datasets from a local Python environment
 
-      :doc:`local_environment`
+   .. container:: de-platform-horizontal-content
 
-      Connecting to Local Environment Using DE Africa Direct Access
+      :doc:`Connecting to a Local Environment <local_environment>`
+
+      Connect to Digital Earth Africa datasets directly from your local
+      Python environment and integrate the data into your own workflows.
 
       :doc:`More <local_environment>`
 
 
-If you have any feedback for the DE Africa data and services, please contact us at 
-helpdesk@digitalearthafrica.org.
+Feedback and Support
+^^^^^^^^^^^^^^^^^^^^
+
+If you have feedback about Digital Earth Africa data or services,
+please contact us at helpdesk@digitalearthafrica.org.

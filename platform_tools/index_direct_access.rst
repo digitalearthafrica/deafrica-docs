@@ -4,11 +4,16 @@
 Accessing Digital Earth Africa Data
 ====================================
 
-Digital Earth Africa data is stored on Amazon Web Services in several publicly accessible S3 buckets. This data can be accessed in various ways. Below are some of the methods you can use to access the data
+Digital Earth Africa data is stored on Amazon Web Services in several
+publicly accessible S3 buckets. The data can be accessed in a variety
+of ways depending on your workflow and preferred environment.
+
+Below are some of the available methods for accessing Digital Earth
+Africa data.
 
 
 Direct Access to Data
-^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :hidden:
@@ -18,19 +23,20 @@ Direct Access to Data
    index_access
 
 
-.. container:: platform-list
+.. container:: de-platform-horizontal-card
 
-   .. container:: product-item
-    
+   .. container:: de-platform-horizontal-media
+
       .. image:: ../_static/platform_tools/direct_access/direct_access_main_page.png
-         :target: index_access
-         :width: 400
-         :align: left
-            
-      :doc:`index_access`
-        
-      Directly access the data and metadata from cloud data storage
-        
+         :alt: Direct access to Digital Earth Africa data and metadata
+
+   .. container:: de-platform-horizontal-content
+
+      :doc:`Direct Access to Data <index_access>`
+
+      Directly access Digital Earth Africa data and metadata from
+      cloud-based data storage.
+
       :doc:`More <index_access>`
 
 
@@ -42,25 +48,24 @@ odc-stac
    :caption: odc-stac
    :maxdepth: 1
 
-
    odc_stac
 
 
-.. container:: platform-list
+.. container:: de-platform-horizontal-card
 
-   .. container:: product-item
-    
+   .. container:: de-platform-horizontal-media
+
       .. image:: ../_static/platform_tools/odc_stac/odc_stac_thumbnail.png
-         :target: odc_stac
-         :width: 400
-         :align: left
-            
-      :doc:`odc_stac`
-      
-      Load STAC compliant earth observation data as an `xarray.Dataset` from the python environment of your choice.
-        
-      :doc:`More <odc_stac>`
+         :alt: Access Earth observation data using odc-stac
 
+   .. container:: de-platform-horizontal-content
+
+      :doc:`odc-stac <odc_stac>`
+
+      Load STAC-compliant Earth observation data as an
+      ``xarray.Dataset`` from the Python environment of your choice.
+
+      :doc:`More <odc_stac>`
 
 
 Web Services
@@ -73,17 +78,19 @@ Web Services
 
    web_services_gis
 
-.. container:: platform-list
-   
-   .. container:: product-item
+
+.. container:: de-platform-horizontal-card
+
+   .. container:: de-platform-horizontal-media
 
       .. image:: ../_static/data_specs/ST_thumbnail.png
-         :target: web_services_gis
-         :width: 400
-         :align: left
+         :alt: Access Digital Earth Africa data through web services
 
-      :doc:`web_services_gis`
+   .. container:: de-platform-horizontal-content
 
-      Access to DE Africa data from QGIS or ArcGIS using Web Map Service and Web Coverage Service
+      :doc:`Web Services <web_services_gis>`
+
+      Access Digital Earth Africa data from QGIS or ArcGIS using
+      Web Map Service and Web Coverage Service.
 
       :doc:`More <web_services_gis>`
