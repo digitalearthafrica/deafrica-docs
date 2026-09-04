@@ -5173,3 +5173,210 @@ html[data-theme="dark"] .navbar-brand img {
     max-height: 48px !important;
   }
 }
+
+
+/* ==========================================================
+   32. DE Africa website-aligned footer + header logo cleanup
+   ========================================================== */
+
+/* Header safeguard: only one DE Africa brand should render in the
+   navbar start region. The root fix is to use one logo source in conf.py. */
+.bd-header .navbar-header-items__start > .navbar-brand ~ .navbar-brand,
+.bd-header .navbar-brand img + img,
+.bd-header .navbar-brand picture + picture {
+  display: none !important;
+}
+
+/* Footer shell: dark DE Africa brand field with orange accent. */
+.bd-footer {
+  margin-top: 2rem;
+  padding: 0 !important;
+  color: #ffffff !important;
+  background: var(--de-navy) !important;
+  border-top: 4px solid var(--de-orange);
+}
+
+.deafrica-footer {
+  display: grid;
+  grid-template-columns: minmax(300px, 1.35fr) minmax(170px, 0.7fr) minmax(170px, 0.7fr);
+  gap: 2.5rem 3rem;
+  width: 100%;
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 2.75rem 2.5rem 1.4rem;
+  color: #ffffff !important;
+  font-family: var(--de-font-family) !important;
+}
+
+.deafrica-footer__brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.85rem;
+}
+
+.deafrica-footer__logo-link,
+.deafrica-footer__programme-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.deafrica-footer__logo {
+  display: block;
+  width: auto;
+  max-width: 230px;
+  max-height: 72px;
+  object-fit: contain;
+  filter: none !important;
+}
+
+.deafrica-footer__brand p {
+  max-width: 440px;
+  margin: 0;
+  color: #d6e0ec !important;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.deafrica-footer__website-link {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.2rem;
+  color: #ffffff !important;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.deafrica-footer__website-link:hover,
+.deafrica-footer__website-link:focus {
+  color: var(--de-yellow) !important;
+}
+
+.deafrica-footer__column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.62rem;
+}
+
+.deafrica-footer__column strong {
+  margin-bottom: 0.25rem;
+  color: #ffffff !important;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.deafrica-footer__column a {
+  color: #dbeafe !important;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.deafrica-footer__column a:hover,
+.deafrica-footer__column a:focus {
+  color: #ffffff !important;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+/* The DE Africa main site identifies the programme as a programme of icipe.
+   Keep this as a separate institutional-branding row so DE Africa remains
+   the primary documentation identity. */
+.deafrica-footer__programme {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding-top: 1.35rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.deafrica-footer__programme-label {
+  color: #cbd5e1 !important;
+  font-size: 0.82rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.deafrica-footer__programme-logo {
+  display: block;
+  width: auto;
+  max-width: 155px;
+  max-height: 58px;
+  object-fit: contain;
+  filter: none !important;
+}
+
+.deafrica-footer__bottom {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 1.2rem;
+  color: #cbd5e1 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: 0.82rem;
+}
+
+.deafrica-footer__bottom a {
+  color: #dbeafe !important;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.deafrica-footer__bottom a:hover,
+.deafrica-footer__bottom a:focus {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+  .deafrica-footer {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2.4rem 1.5rem 1.4rem;
+    text-align: left;
+  }
+
+  .deafrica-footer__brand,
+  .deafrica-footer__programme,
+  .deafrica-footer__bottom {
+    grid-column: 1 / -1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .deafrica-footer {
+    grid-template-columns: 1fr;
+    gap: 1.65rem;
+    padding: 2rem 1.25rem 1.25rem;
+  }
+
+  .deafrica-footer__brand,
+  .deafrica-footer__programme,
+  .deafrica-footer__bottom {
+    grid-column: 1;
+  }
+
+  .deafrica-footer__programme,
+  .deafrica-footer__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .deafrica-footer__programme-label {
+    white-space: normal;
+  }
+
+  .deafrica-footer__logo {
+    max-width: 195px;
+  }
+
+  .deafrica-footer__programme-logo {
+    max-width: 135px;
+  }
+}

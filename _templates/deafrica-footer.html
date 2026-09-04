@@ -1,30 +1,107 @@
 <div class="deafrica-footer">
 
   <div class="deafrica-footer__brand">
-    <strong>Digital Earth Africa</strong>
-    <span>Earth observation data and services for Africa</span>
-  </div>
-
-  <div class="deafrica-footer__links">
-    <a href="https://www.digitalearthafrica.org/"
-       target="_blank"
-       rel="noopener noreferrer">
-      Website
+    <a
+      href="https://digitalearthafrica.org/en_za/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="deafrica-footer__logo-link"
+      aria-label="Visit the Digital Earth Africa website"
+    >
+      <img
+        src="{{ pathto('_static/logo.png', 1) }}"
+        alt="Digital Earth Africa"
+        class="deafrica-footer__logo"
+      >
     </a>
 
-    <a href="https://www.digitalearthafrica.org/privacy-policy"
-       target="_blank"
-       rel="noopener noreferrer">
-      Privacy Policy
+    <p>
+      Earth observation data and services supporting sustainable
+      development across Africa.
+    </p>
+
+    <a
+      href="https://digitalearthafrica.org/en_za/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="deafrica-footer__website-link"
+    >
+      Visit Digital Earth Africa →
+    </a>
+  </div>
+
+  <div class="deafrica-footer__column">
+    <strong>Digital Earth Africa</strong>
+
+    <a href="https://digitalearthafrica.org/en_za/dea-platforms/"
+       target="_blank" rel="noopener noreferrer">
+      Platforms
+    </a>
+
+    <a href="https://digitalearthafrica.org/en_za/services/"
+       target="_blank" rel="noopener noreferrer">
+      Services
+    </a>
+
+    <a href="https://digitalearthafrica.org/en_za/online-learning/"
+       target="_blank" rel="noopener noreferrer">
+      Learning
+    </a>
+  </div>
+
+  <div class="deafrica-footer__column">
+    <strong>Quick Links</strong>
+
+    <a href="https://digitalearthafrica.org/en_za/about-digital-earth-africa/"
+       target="_blank" rel="noopener noreferrer">
+      About
+    </a>
+
+    <a href="https://digitalearthafrica.org/en_za/contact/"
+       target="_blank" rel="noopener noreferrer">
+      Contact
     </a>
 
     <a href="mailto:helpdesk@digitalearthafrica.org">
-      Contact Support
+      Support
+    </a>
+
+    <a href="https://digitalearthafrica.org/en_za/privacy-policy/"
+       target="_blank" rel="noopener noreferrer">
+      Privacy
     </a>
   </div>
 
-  <div class="deafrica-footer__copyright">
-    © {{ copyright }}
+  <div class="deafrica-footer__programme">
+    <span class="deafrica-footer__programme-label">
+      Digital Earth Africa is a programme of
+    </span>
+
+    <a
+      href="https://www.icipe.org/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="deafrica-footer__programme-link"
+      aria-label="Visit icipe"
+    >
+      <img
+        src="{{ pathto('_static/icipe.png', 1) }}"
+        alt="icipe – International Centre of Insect Physiology and Ecology"
+        class="deafrica-footer__programme-logo"
+      >
+    </a>
+  </div>
+
+  <div class="deafrica-footer__bottom">
+    <span>© {{ copyright }}. All Rights Reserved.</span>
+
+    <a
+      href="https://digitalearthafrica.org/en_za/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      digitalearthafrica.org
+    </a>
   </div>
 
 </div>
