@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500;600;700&display=swap");
+
 /* ==========================================================
    Digital Earth Africa — Consolidated PyData Sphinx Theme
    Single source of truth
@@ -5022,4 +5024,152 @@ body:has(.de-home-grid) .de-home-card {
     grid-template-columns: 1fr !important;
   }
 
+}
+
+
+/* ==========================================================
+   31. DE Africa typography and header brand alignment
+   Inter for interface/content; Roboto Mono for technical text.
+   ========================================================== */
+
+:root {
+  --de-font-family: "Inter", Arial, sans-serif;
+  --de-font-family-mono: "Roboto Mono", "SFMono-Regular", Consolas,
+    "Liberation Mono", Menlo, monospace;
+}
+
+/* Use Inter consistently across the documentation interface. */
+html,
+body,
+.bd-header,
+.bd-header .navbar-nav,
+.bd-header .navbar-nav a,
+.navbar-brand,
+.bd-sidebar-primary,
+.bd-sidebar-secondary,
+.bd-article,
+.bd-article h1,
+.bd-article h2,
+.bd-article h3,
+.bd-article h4,
+.bd-article h5,
+.bd-article h6,
+.bd-article p,
+.bd-article li,
+.bd-article dt,
+.bd-article dd,
+.bd-article blockquote,
+button,
+.btn,
+.sd-btn,
+input,
+select,
+textarea,
+.search-button-field,
+.caption,
+.meta,
+.lang-picker,
+.de-language-switcher,
+.deafrica-footer {
+  font-family: var(--de-font-family) !important;
+}
+
+/* Retain Roboto Mono for code and other technical content. */
+code,
+pre,
+kbd,
+samp,
+tt,
+.literal,
+.highlight,
+.highlight pre,
+.highlight code,
+.bd-article code,
+.bd-article pre,
+.bd-article .literal,
+.bd-article .highlight,
+.bd-article .highlight pre,
+.bd-article .highlight code,
+div[class*="highlight-"] pre,
+.docutils.literal,
+.sig,
+.sig-name,
+.sig-prename,
+.sig-param,
+.property,
+.viewcode-link {
+  font-family: var(--de-font-family-mono) !important;
+}
+
+/* Keep inline technical content compact and readable. */
+.bd-article code,
+.bd-article .literal {
+  font-size: 0.92em;
+}
+
+.bd-article pre,
+.bd-article .highlight pre {
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+/* Make the Digital Earth Africa identity unmistakable in the header. */
+.bd-header {
+  min-height: 88px;
+}
+
+.bd-header .navbar-brand,
+.navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  min-width: 230px;
+  margin-right: 1.75rem;
+  padding: 0.45rem 0;
+}
+
+.bd-header .navbar-brand img,
+.navbar-brand img {
+  display: block !important;
+  width: auto !important;
+  height: auto !important;
+  max-width: 230px !important;
+  max-height: 64px !important;
+  object-fit: contain;
+  object-position: left center;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Prevent theme/filter rules from muting or inverting the official logo. */
+html[data-theme="light"] .navbar-brand img,
+html[data-theme="auto"] .navbar-brand img,
+html[data-theme="dark"] .navbar-brand img {
+  filter: none !important;
+}
+
+@media screen and (max-width: 959px) {
+  .bd-header {
+    min-height: 76px;
+  }
+
+  .bd-header .navbar-brand,
+  .navbar-brand {
+    min-width: auto;
+    margin-right: 0.75rem;
+  }
+
+  .bd-header .navbar-brand img,
+  .navbar-brand img {
+    max-width: 180px !important;
+    max-height: 52px !important;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .bd-header .navbar-brand img,
+  .navbar-brand img {
+    max-width: 160px !important;
+    max-height: 48px !important;
+  }
 }
