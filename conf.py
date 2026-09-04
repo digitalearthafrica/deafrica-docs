@@ -1,54 +1,68 @@
 # Configuration file for the Sphinx documentation builder.
-#
-# This file only contains a selection of the most common options. For a full
-# list see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
-
-# -- Path setup --------------------------------------------------------------
-
-# If extensions (or modules to document with autodoc) are in another directory,
-# add these directories to sys.path here. If the directory is relative to the
-# documentation root, use os.path.abspath to make it absolute, like shown here.
 
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath('./sandbox/notebooks/Tools'))
+sys.path.insert(0, os.path.abspath("./sandbox/notebooks/Tools"))
+
 
 # -- Project information -----------------------------------------------------
 
-project = 'Digital Earth Africa'
-copyright = '2021, DEAfrica Team'
-author = 'DEAfrica Team'
+project = "Digital Earth Africa"
+author = "Digital Earth Africa"
+copyright = "2026 Digital Earth Africa"
+release = "2026"
 
-# The full version, including alpha/beta/rc tags
-release = '2021'
 
 # -- General configuration ---------------------------------------------------
-    
-# # Add any Sphinx extension module names here, as strings. They can be
-# # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-# # ones.
+
 extensions = [
+    "nbsphinx",
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
     "sphinx.ext.napoleon",
-    "nbsphinx",
     "sphinx.ext.autosectionlabel",
+    "sphinx_design",
+    "myst_parser",
 ]
 
-# Autodoc conf
-autosummary_generate = ['sandbox/notebooks/Tools/index.rst']
-autodoc_default_options = {
-    'members': True,
+templates_path = ["_templates"]
+
+exclude_patterns = [
+    "_build",
+    "Thumbs.db",
+    ".DS_Store",
+    "**/.ipynb_checkpoints",
+    "sandbox/notebooks/DEAfrica_notebooks_template.ipynb",
+]
+
+source_suffix = {
+    ".rst": "restructuredtext",
+    ".md": "markdown",
 }
-autodoc_mock_imports = [ "aiohttp",
-    "aiobotocore[boto3]", # for boto3
+
+master_doc = "index"
+
+
+# -- Autodoc and autosummary -------------------------------------------------
+
+autosummary_generate = [
+    "sandbox/notebooks/Tools/index.rst",
+]
+
+autodoc_default_options = {
+    "members": True,
+}
+
+autodoc_mock_imports = [
+    "aiohttp",
+    "aiobotocore",
+    "boto3",
     "branca",
-    "dask[complete]",
-    "dask-ml",
-    "dask-gateway",
-    "datacube[performance,s3]",
+    "dask",
+    "dask_ml",
+    "dask_gateway",
+    "datacube",
     "fiona",
     "folium",
     "fsspec",
@@ -58,114 +72,150 @@ autodoc_mock_imports = [ "aiohttp",
     "geopy",
     "hdstats",
     "ipyleaflet",
-    "ipython",
+    "IPython",
     "ipywidgets",
     "joblib",
     "localtileserver",
     "matplotlib",
     "numexpr",
     "numpy",
-    "odc-algo",
-    "odc-geo>=0.4.2",
-    "odc-ui",
-    "OWSLib",
+    "odc",
+    "odc.algo",
+    "odc.geo",
+    "odc.ui",
+    "owslib",
     "packaging",
     "pandas",
     "plotly",
     "pyproj",
-    "pystac-client",  # for pystac
-    "python-dateutil",
-    "pyTMD > 2",
+    "pystac_client",
+    "dateutil",
+    "pyTMD",
     "pytz",
     "rasterio",
     "rasterstats",
     "requests",
     "rioxarray",
-    "scikit-image",
-    "scikit-learn",
+    "skimage",
+    "sklearn",
     "scipy",
     "seaborn",
     "shapely",
     "tqdm",
     "xarray",
-    "gcsfs"]
+    "gcsfs",
+]
 
 autosummary_mock_imports = autodoc_mock_imports
 
 napoleon_google_docstring = False
 napoleon_numpy_docstring = True
 
+autosectionlabel_prefix_document = True
+
+
+# -- Notebook configuration -------------------------------------------------
+
+nbsphinx_execute = "never"
+
 nb_execution_allow_errors = False
 nb_execution_raise_on_error = True
 
-# # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
 
-# # List of patterns, relative to source directory, that match files and
-# # directories to ignore when looking for source files.
-# # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store',
-                    '**.ipynb_checkpoints',
-                    'sandbox/notebooks/DEAfrica_notebooks_template.ipynb',
-                    ]
+# -- Translation configuration ----------------------------------------------
 
-# # Don't execute notebooks
-nbsphinx_execute = 'never'
+gettext_compact = "docs"
+gettext_location = False
+locale_dirs = ["locales/"]
 
-# -- Options for HTML output -------------------------------------------------
 
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-html_theme = "sphinx_rtd_theme"
+# -- HTML output -------------------------------------------------------------
 
-html_theme_path = ["_themes", ]
+html_theme = "pydata_sphinx_theme"
+
 html_theme_options = {
-    'logo_only': True,
-    'display_version': False,
+    "navbar_start": [
+        "navbar-logo",
+    ],
+    "navbar_center": [
+        "navbar-nav",
+    ],
+    "navbar_persistent": [
+        "search-button-field",
+    ],
+    "navbar_end": [
+        "theme-switcher",
+        "navbar-icon-links",
+    ],
+    "navbar_align": "left",
+    "header_links_before_dropdown": 6,
+
+    "navigation_depth": 4,
+    "show_nav_level": 2,
+    "collapse_navigation": False,
+
+    "secondary_sidebar_items": [
+        "page-toc",
+    ],
+    "show_toc_level": 2,
+
+    "back_to_top_button": True,
+    "search_bar_text": "Search the docs",
+    "show_prev_next": False,
+
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/digitalearthafrica",
+            "icon": "fa-brands fa-github",
+            "type": "fontawesome",
+        },
+    ],
+
+    "logo": {
+        "text": "",
+        "image_light": "_static/logo.png",
+        "image_dark": "_static/logo.png",
+    },
+
+    "footer_start": [
+        "deafrica-footer",
+    ],
+    "footer_center": [],
+    "footer_end": [],
 }
 
-# Define the canonical URL if you are using a custom domain on Read the Docs
-html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "https://docs.digitalearthafrica.org/") 
+html_sidebars = {
+    "index": [],
+    "**": [
+        "sidebar-collapse",
+        "sidebar-nav-bs",
+    ],
+}
 
-# Tell Jinja2 templates the build is running on Read the Docs
-if os.environ.get("READTHEDOCS", "") == "True":
-    if "html_context" not in globals():
-        html_context = {}
-    html_context["READTHEDOCS"] = True
-    
-# # Add any paths that contain custom static files (such as style sheets) here,
-# # relative to this directory. They are copied after the builtin static files,
-# # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ["_static"]
 
-html_logo = '_static/logo.png'
+html_logo = "_static/logo.png"
+html_favicon = "_static/favicon.png"
 
-html_favicon = '_static/favicon.png'
+html_css_files = [
+    "doc_css.css",
+]
 
 html_use_index = True
-
-# # If true, links to the reST sources are added to the pages.
+html_split_index = False
+html_domain_indices = False
 html_show_sourcelink = False
 
-# # # Use table-wrapping style
-html_css_files = ['theme_override.css',]  # override wide tables in RTD theme
+html_baseurl = os.environ.get(
+    "READTHEDOCS_CANONICAL_URL",
+    "https://docs.digitalearthafrica.org/",
+)
 
-# Translation options
-gettext_compact = "docs"  # makes a single "docs.po" file
-gettext_location = False  # This causes the build to break?
-locale_dirs = ['locales/']
 
-on_rtd = True #os.environ.get('READTHEDOCS', None) == 'True'
-on_gha = True #os.environ.get('GITHUB_ACTIONS', None) == 'True'
-get_translation = True  #os.environ.get('POEDITOR_PROJECT_ID', None) is not None
+# -- HTML template context ---------------------------------------------------
 
-# If we are on ReadTheDocs, and translation is required, download the translation file from poeditor
-if on_rtd or get_translation:
-    import subprocess
-    subprocess.run(["make", "fetchtranslation"])
+html_context = {}
 
-# If we are on ReadtheDocs, load the latest version of the notebooks
-if on_rtd or on_gha:
-    import subprocess
-    subprocess.run(["make", "fetchnotebooks"])
-    subprocess.run(["make", "buildtools"])
+if os.environ.get("READTHEDOCS", "") == "True":
+    html_context["READTHEDOCS"] = True

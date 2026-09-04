@@ -1,43 +1,141 @@
-name: "Export terms to POEditor"
+name: Export terms to POEditor
+
 on:
- push:
-   branches: [ main ]
-   paths-ignore: 
-     - 'locales/**'
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "locales/**"
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: poeditor-export-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  docs:
+  export-terms:
+    name: Build and upload translation terms
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      POEDITOR_PROJECT_ID: ${{ secrets.POEDITOR_PROJECT_ID }}
+      POEDITOR_API_TOKEN: ${{ secrets.POEDITOR_API_TOKEN }}
+
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v1
-    - name: Build sphinx terms
-      uses: ammaraskar/sphinx-action@7.0.0
-      env:
-        GITHUB_ACTIONS: 1
-      with:
-        docs-folder: "./"
-        pre-build-command: "apt-get update --allow-releaseinfo-change -y && apt-get install -y pandoc git && make fetchnotebooks && make buildtools"
-        build-command: "sphinx-build -T -b gettext . _build"
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install poeditor
-    - name: Display the dir
-      run: ls -la ./_build
-      shell: bash
-    - name: CHMOD
-      run: sudo chmod a+rw ./_build/docs.pot
-      shell: bash
-    - name: Archive production artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: save-docs-pot
-        path: |
-          ./_build/*.pot
-    - name: Upload terms
-      env:
-         POEDITOR_API_TOKEN: ${{ secrets.POEDITOR_API_TOKEN }}
-         POEDITOR_PROJECT_ID: ${{ secrets.POEDITOR_PROJECT_ID }}
-      run: |
-        python upload_terms.py
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes \
+            gettext \
+            git \
+            pandoc
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Verify required secrets
+        shell: bash
+        run: |
+          if [ -z "$POEDITOR_PROJECT_ID" ]; then
+            echo "POEDITOR_PROJECT_ID is not configured."
+            exit 1
+          fi
+
+          if [ -z "$POEDITOR_API_TOKEN" ]; then
+            echo "POEDITOR_API_TOKEN is not configured."
+            exit 1
+          fi
+
+      - name: Fetch notebooks
+        run: make fetchnotebooks
+
+      - name: Build documentation tools
+        run: make buildtools
+
+      - name: Build Sphinx gettext catalogues
+        env:
+          GITHUB_ACTIONS: "1"
+        run: |
+          rm -rf _build/gettext
+
+          python -m sphinx \
+            -E \
+            -a \
+            -T \
+            -b gettext \
+            . \
+            _build/gettext
+
+      - name: List generated POT files
+        shell: bash
+        run: |
+          echo "Generated POT files:"
+          find _build/gettext -type f -name "*.pot" -print
+
+      - name: Verify POT files exist
+        shell: bash
+        run: |
+          if ! find _build/gettext \
+            -type f \
+            -name "*.pot" \
+            -print -quit |
+            grep -q .; then
+            echo "No POT files were generated."
+            exit 1
+          fi
+
+      - name: Merge POT files
+        shell: bash
+        run: |
+          mapfile -d '' POT_FILES < <(
+            find _build/gettext \
+              -type f \
+              -name "*.pot" \
+              -print0 |
+            sort -z
+          )
+
+          msgcat \
+            --use-first \
+            --output-file=_build/docs.pot \
+            "${POT_FILES[@]}"
+
+          test -s _build/docs.pot
+
+          echo "Merged catalogue:"
+          ls -lh _build/docs.pot
+
+      - name: Check merged catalogue
+        shell: bash
+        run: |
+          echo "Number of translation messages:"
+          msgattrib --no-obsolete _build/docs.pot |
+            grep --count '^msgid "' || true
+
+      - name: Upload POT artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: digital-earth-africa-docs-pot
+          path: _build/docs.pot
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload terms to POEditor
+        run: python upload_terms.py

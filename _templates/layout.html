@@ -1,13 +1,36 @@
 {% extends "!layout.html" %}
 
-{% block footer %}
-<!-- Open other sites in a new window -->
-<script>
-    jQuery(document).ready(function() {
-        jQuery("a[href^='http']").attr('target','_blank');
-        jQuery(".wy-breadcrumbs").before(
-            '<div class="lang-picker"><a href="/en/latest/">English</a> | <a href="/fr/latest/">Français</a></div>'
-        );
+{% block extrahead %}
+  {{ super() }}
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Open external websites in a new tab.
+      document.querySelectorAll("a[href^='http']").forEach(function (link) {
+        const url = new URL(link.href, window.location.href);
+
+        if (url.hostname !== window.location.hostname) {
+          link.setAttribute("target", "_blank");
+          link.setAttribute("rel", "noopener noreferrer");
+        }
+      });
+
+      // Add the language selector to the PyData article header.
+      const articleHeader = document.querySelector(
+        ".bd-header-article, .article-header"
+      );
+
+      if (articleHeader && !document.querySelector(".lang-picker")) {
+        const languagePicker = document.createElement("div");
+
+        languagePicker.className = "lang-picker";
+        languagePicker.innerHTML =
+          '<a href="/en/latest/">English</a>' +
+          '<span aria-hidden="true"> | </span>' +
+          '<a href="/fr/latest/">Français</a>';
+
+        articleHeader.prepend(languagePicker);
+      }
     });
-</script>
+  </script>
 {% endblock %}
