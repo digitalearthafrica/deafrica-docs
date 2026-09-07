@@ -1,114 +1,275 @@
-# The config dictionary for Digital Earth Africa and Digital Earth Australia products 
-# is determined by the product's definition available at the DE Africa Metadata Explorer
-# DE Australia Metadata Explorer respectively. 
-# For example the DE Africa Sentinel 2 product definition YAML file is available 
-# at https://explorer.digitalearth.africa/products/s2_l2a.odc-product.yaml
-# The DE Australia Sentinel-2A Definitive product definition YAML file is available 
-# at https://explorer.sandbox.dea.ga.gov.au/products/ga_s2am_ard_provisional_3#definition-doc
+"""Build ``odc.stac.load`` configuration from ODC product definitions.
 
+This module downloads an Open Data Cube product-definition YAML document from
+the Digital Earth Africa or Digital Earth Australia Metadata Explorer and
+converts its measurement metadata into an ``odc.stac.load(..., stac_cfg=...)``
+configuration dictionary.
 
-# Import the required packages.
+Example
+-------
+>>> config = get_product_config("s2_l2a", profile="deafrica")
+>>> # data = odc.stac.load(items, stac_cfg=config, ...)
+"""
+
+from __future__ import annotations
+
+from collections.abc import Mapping
+from typing import Any, Final, Literal
+import re
+
 import requests
-import yaml 
-from yaml.loader import SafeLoader
+import yaml
 
 
-def check_product_name_validity(product_name, product_list_url, product_source, explorer_url):
-    
-    """
-    Helper function that checks if the product name passed to the product_name argument of the 
-    `get_product_config(...)` function is a valid Digital Earth Africa or 
-    Digital Earth Australia product name. 
-    
-    Raises an error if the product_name is invalid. 
-    
-    """
-    
-    product_list_resp = requests.get(product_list_url)
-    product_list_resp_text = product_list_resp.text
-    product_list = product_list_resp_text.split("\n")
+Profile = Literal["deafrica", "deaustralia"]
 
-    if product_name in product_list:
-        pass
-    else: 
-        raise ValueError(f"Invalid product name. Please see the {product_source} Metadata Explorer: {explorer_url} for a list of valid product names.") 
-    
-    
-def get_product_config(product_name, profile="deafrica"):
+DEFAULT_TIMEOUT: Final[tuple[float, float]] = (5.0, 30.0)
+_PRODUCT_NAME_PATTERN: Final[re.Pattern[str]] = re.compile(r"^[A-Za-z0-9_.-]+$")
 
-    """
-    Downloads the product definition YAML file and builds a dictionary containing
-    the pixel data type, nodata value, unit attribute and band aliases 
-    of the product. The dictionary can be passed to the `odc.stac.load` 
-    `stac_cfg` parameter.  
+_PROFILE_SETTINGS: Final[dict[Profile, dict[str, str]]] = {
+    "deafrica": {
+        "name": "Digital Earth Africa",
+        "products_url": "https://explorer.digitalearth.africa/products",
+    },
+    "deaustralia": {
+        "name": "Digital Earth Australia",
+        "products_url": "https://explorer.sandbox.dea.ga.gov.au/products",
+    },
+}
 
-    Last modified: April 2022
+
+class ProductConfigError(RuntimeError):
+    """Base exception raised when a product configuration cannot be created."""
+
+
+class ProductNotFoundError(ProductConfigError):
+    """Raised when a product is not available in the selected explorer."""
+
+
+class InvalidProductDefinitionError(ProductConfigError):
+    """Raised when a downloaded product definition is malformed or incomplete."""
+
+
+def _validate_product_name(product_name: str) -> str:
+    """Validate and normalise a product name."""
+    if not isinstance(product_name, str):
+        raise TypeError("product_name must be a string.")
+
+    product_name = product_name.strip()
+
+    if not product_name:
+        raise ValueError("product_name cannot be empty.")
+
+    if not _PRODUCT_NAME_PATTERN.fullmatch(product_name):
+        raise ValueError(
+            "product_name may contain only letters, numbers, underscores, "
+            "hyphens, and full stops."
+        )
+
+    return product_name
+
+
+def _get_profile_settings(profile: str) -> dict[str, str]:
+    """Return explorer settings for a supported profile."""
+    try:
+        return _PROFILE_SETTINGS[profile]  # type: ignore[index]
+    except KeyError as exc:
+        supported = ", ".join(repr(name) for name in _PROFILE_SETTINGS)
+        raise ValueError(
+            f"Invalid profile {profile!r}. Supported profiles are: {supported}."
+        ) from exc
+
+
+def _download_product_definition(
+    product_name: str,
+    *,
+    profile: Profile,
+    session: requests.Session,
+    timeout: tuple[float, float],
+) -> Mapping[str, Any]:
+    """Download and safely parse one product-definition YAML document."""
+    settings = _get_profile_settings(profile)
+    products_url = settings["products_url"]
+    definition_url = f"{products_url}/{product_name}.odc-product.yaml"
+
+    try:
+        response = session.get(definition_url, timeout=timeout)
+    except requests.Timeout as exc:
+        raise ProductConfigError(
+            f"Timed out while downloading product definition for "
+            f"{product_name!r} from {settings['name']}."
+        ) from exc
+    except requests.RequestException as exc:
+        raise ProductConfigError(
+            f"Could not download product definition for {product_name!r} "
+            f"from {settings['name']}: {exc}"
+        ) from exc
+
+    if response.status_code == 404:
+        raise ProductNotFoundError(
+            f"Product {product_name!r} was not found in the "
+            f"{settings['name']} Metadata Explorer. See {products_url}."
+        )
+
+    try:
+        response.raise_for_status()
+    except requests.HTTPError as exc:
+        raise ProductConfigError(
+            f"The Metadata Explorer returned HTTP {response.status_code} "
+            f"for {definition_url}."
+        ) from exc
+
+    try:
+        product_definition = yaml.safe_load(response.text)
+    except yaml.YAMLError as exc:
+        raise InvalidProductDefinitionError(
+            f"The YAML definition for {product_name!r} could not be parsed."
+        ) from exc
+
+    if not isinstance(product_definition, Mapping):
+        raise InvalidProductDefinitionError(
+            f"The definition for {product_name!r} is not a YAML mapping."
+        )
+
+    return product_definition
+
+
+def _build_stac_config(
+    product_name: str,
+    product_definition: Mapping[str, Any],
+) -> dict[str, dict[str, Any]]:
+    """Convert ODC measurement metadata into an odc-stac configuration."""
+    measurements = product_definition.get("measurements")
+
+    if not isinstance(measurements, list) or not measurements:
+        raise InvalidProductDefinitionError(
+            f"The definition for {product_name!r} has no valid "
+            "'measurements' list."
+        )
+
+    assets: dict[str, dict[str, Any]] = {}
+    aliases: dict[str, str] = {}
+
+    for index, measurement in enumerate(measurements):
+        if not isinstance(measurement, Mapping):
+            raise InvalidProductDefinitionError(
+                f"Measurement {index} for {product_name!r} is not a mapping."
+            )
+
+        name = measurement.get("name")
+        data_type = measurement.get("dtype")
+
+        if not isinstance(name, str) or not name:
+            raise InvalidProductDefinitionError(
+                f"Measurement {index} for {product_name!r} has no valid name."
+            )
+
+        if not isinstance(data_type, str) or not data_type:
+            raise InvalidProductDefinitionError(
+                f"Measurement {name!r} for {product_name!r} has no valid dtype."
+            )
+
+        asset: dict[str, Any] = {"data_type": data_type}
+
+        # Preserve optional values only when they are present in the definition.
+        if "nodata" in measurement:
+            asset["nodata"] = measurement["nodata"]
+
+        units = measurement.get("units")
+        if units is not None:
+            asset["unit"] = units
+
+        assets[name] = asset
+
+        measurement_aliases = measurement.get("aliases", [])
+        if measurement_aliases is None:
+            measurement_aliases = []
+
+        if not isinstance(measurement_aliases, list):
+            raise InvalidProductDefinitionError(
+                f"Aliases for measurement {name!r} must be a list."
+            )
+
+        for alias in measurement_aliases:
+            if not isinstance(alias, str) or not alias:
+                raise InvalidProductDefinitionError(
+                    f"Measurement {name!r} contains an invalid alias."
+                )
+
+            existing_target = aliases.get(alias)
+            if existing_target is not None and existing_target != name:
+                raise InvalidProductDefinitionError(
+                    f"Alias {alias!r} is assigned to both "
+                    f"{existing_target!r} and {name!r}."
+                )
+
+            aliases[alias] = name
+
+    collection_config: dict[str, Any] = {"assets": assets}
+    if aliases:
+        collection_config["aliases"] = aliases
+
+    return {product_name: collection_config}
+
+
+def get_product_config(
+    product_name: str,
+    profile: Profile = "deafrica",
+    *,
+    timeout: tuple[float, float] = DEFAULT_TIMEOUT,
+    session: requests.Session | None = None,
+) -> dict[str, dict[str, Any]]:
+    """Return an ``odc.stac.load`` configuration for an ODC product.
 
     Parameters
     ----------
+    product_name:
+        Product name used by the selected Metadata Explorer, for example
+        ``"s2_l2a"``.
+    profile:
+        Metadata Explorer profile. Use ``"deafrica"`` for Digital Earth Africa
+        or ``"deaustralia"`` for Digital Earth Australia.
+    timeout:
+        Requests connect and read timeouts, in seconds.
+    session:
+        Optional reusable :class:`requests.Session`. A temporary session is
+        created and closed when this argument is omitted.
 
-    product_name : str
-                   The Digital Earth Africa or Digital Earth Australia  product name. 
-
-    profile : str
-              Defines whether the product is a Digital Earth Africa (profile="deafrica") 
-              or a Digital Earth Australia product (profile="deaustralia").
-              The default value is profile="deafrica".
-              
-                        
     Returns
     -------
-    config : dict
-             A dictionary containing the product's pixel data type, nodata 
-             value used, unit attribute and band aliases.
-    """
-	
-    # Define the url of the product's product definition YAML file.
-    if profile == "deafrica":
-        product_list_url = "https://explorer.digitalearth.africa/products.txt"
-        product_source = "Digital Earth Africa"
-        explorer_url = "https://explorer.digitalearth.africa/products"
-        product_definition_yaml_url = f"https://explorer.digitalearth.africa/products/{product_name}.odc-product.yaml"
-    elif profile == "deaustralia":
-        product_list_url = "https://explorer.sandbox.dea.ga.gov.au/products.txt"
-        product_source = "Digital Earth Australia"
-        explorer_url = "https://explorer.sandbox.dea.ga.gov.au/products"
-        product_definition_yaml_url = f"https://explorer.sandbox.dea.ga.gov.au/products/{product_name}.odc-product.yaml"
-    else:
-        raise ValueError(f"Invalid profile. Please ensure the profile entered is either 'deafrica' or 'deaustralia', to specify whether the product is a Digital Earth Africa or Digital Earth Australia product.")  
-    
-    # Check the validity of the product name provided. 
-    check_product_name_validity(product_name, product_list_url, product_source, explorer_url)
-        
-    # Download the product definition yaml file from the Metadata Explorer.
-    resp = requests.get(product_definition_yaml_url)
-    resp_text = resp.text
-    # Load the product definition YAML file as a dictionary. 
-    product_definition = yaml.load(resp_text, Loader=SafeLoader)
-    
-    # Get the product measurements metadata from the product definition.
-    product_definition_measurements = product_definition['measurements']
-    
-    # Get the 'dtype', 'units' and 'nodata' information for each band in the collection.
-    assets_dict = {}
-    for measurement in product_definition_measurements:
-        assets_dict[measurement['name']] = {'data_type': measurement['dtype'],
-                                               'unit': measurement['units'],
-                                               'nodata': measurement['nodata']}
+    dict
+        A dictionary suitable for ``odc.stac.load(..., stac_cfg=config)``.
 
-    # Get the aliases for each band.
-    aliases_dict = {}
-    for measurement in product_definition_measurements:
-        if 'aliases' in measurement: 
-            for alias in measurement['aliases']:
-                aliases_dict[alias] = measurement['name']
-    
-    # Get the 'dtype', 'units', 'nodata' and 'aliases' information for each band in the collection as a dictionary.
-    if len(aliases_dict) == 0:
-        config = {product_name: {"assets": assets_dict}}
-    else: 
-        config = {product_name: {"assets": assets_dict,
-                            "aliases": aliases_dict}}
-    
-    # Output the config dictionary.
-    return config
+    Raises
+    ------
+    ValueError
+        If the product name or profile is invalid.
+    ProductNotFoundError
+        If the product does not exist in the selected explorer.
+    ProductConfigError
+        If downloading or processing the definition fails.
+    """
+    validated_name = _validate_product_name(product_name)
+    _get_profile_settings(profile)
+
+    owns_session = session is None
+    active_session = session or requests.Session()
+
+    try:
+        product_definition = _download_product_definition(
+            validated_name,
+            profile=profile,
+            session=active_session,
+            timeout=timeout,
+        )
+        return _build_stac_config(validated_name, product_definition)
+    finally:
+        if owns_session:
+            active_session.close()
+
+
+if __name__ == "__main__":
+    # Small manual example. Network access is required.
+    from pprint import pprint
+
+    pprint(get_product_config("s2_l2a"))

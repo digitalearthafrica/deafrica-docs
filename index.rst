@@ -1,106 +1,98 @@
-.. Digital Earth Africa documentation master file, created by
-   sphinx-quickstart on Wed Feb 17 00:08:26 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. Digital Earth Africa documentation master file.
 
 Digital Earth Africa User Guide
 ===============================
 
-The `Digital Earth Africa <https://www.digitalearthafrica.org/>`_ platform
-consists of a repository of Earth Observation data and a set of tools to
-view and analyse the data.
+`Digital Earth Africa <https://digitalearthafrica.org/en_za/>`_ provides free and open access to Earth observation
+data, products, and analysis tools for Africa. Use this guide to explore
+DE Africa datasets, platforms, analytical tools, direct-access services,
+technical documentation, and service information.
+
+.. meta::
+   :page-id: home
+
+
+.. Main navigation used by the PyData Sphinx Theme.
 
 .. toctree::
    :hidden:
+   :maxdepth: 3
 
    Home <self>
-
-Data
-====
-
-.. toctree::
-   :hidden:
-   :caption: Data
-   :maxdepth: 1
-
-   data_specs/index
-    
-.. container:: platform-list
-
-   .. container:: product-item
-
-      .. image:: _static/data_specs/Home_datacatogue.png
-         :target: ./data_specs/
-         :width: 400
-         :align: left
-
-      :doc:`data_specs/index`
-
-      Technical specifications of all Digital Earth Africa datasets, products, and services
-
-      :doc:`More <data_specs/index>`
-   
-
-Platforms
-=========
-
-.. toctree::
-   :hidden:
-   :caption: Platforms
-   :maxdepth: 1
-
-   platform_tools/index_platform
-    
-.. container:: platform-list
-
-   .. container:: product-item
-
-      .. image:: _static/data_specs/Home_platform.png
-         :target: ./platform_tools/
-         :width: 400
-         :align: left
-
-      :doc:`platform_tools/index_platform`
-
-      Technical documentation and user guides for Digital Earth Africa Platforms
-
-      :doc:`More <platform_tools/index_platform>`
+   Data <data_specs/index>
+   Platforms <platform_tools/index_platform>
+   Direct Access <platform_tools/index_direct_access>
+   Tech Alert <service_status/index>
+   About <about/index>
 
 
+Documentation Sections
+----------------------
 
-Direct Access
-==============
-
-.. toctree::
-   :hidden:
-   :caption: Direct Access
-   :maxdepth: 1
-
-   platform_tools/index_direct_access
-    
-.. container:: platform-list
-
-   .. container:: product-item
-
-      .. image:: _static/data_specs/Home_direct_access.png
-         :target: ./platform_tools/
-         :width: 400
-         :align: left
-
-      :doc:`platform_tools/index_direct_access`
-
-      Documentation and user guides for accessing data outside Digital Earth Africa Platforms
-
-      :doc:`More <platform_tools/index_direct_access>`
+.. grid:: 1 1 2 2
+   :gutter: 3
+   :class-container: de-home-grid
 
 
-.. toctree::
-   :caption: About
-   :hidden:
-   :maxdepth: 1
+   .. grid-item-card:: Data and Products
+      :img-top: _static/data_specs/Home_datacatogue.png
+      :class-card: de-home-card de-data-card
 
-   about/contact
-   about/training
-   about/glossary
-   genindex
+      Find available datasets, product information, measurements,
+      and data availability.
 
+      +++
+
+      .. button-ref:: data_specs/index
+         :ref-type: doc
+         :class: de-home-action
+
+         Explore →
+
+
+   .. grid-item-card:: Platforms
+      :img-top: _static/data_specs/Home_platform.png
+      :class-card: de-home-card de-platform-card
+
+      Use DE Africa-hosted tools to explore, visualise, and analyse
+      Earth observation data.
+
+      +++
+
+      .. button-ref:: platform_tools/index_platform
+         :ref-type: doc
+         :class: de-home-action
+
+         Explore →
+
+
+   .. grid-item-card:: Direct Access
+      :img-top: _static/data_specs/Home_direct_access.png
+      :class-card: de-home-card de-access-card
+
+      Connect DE Africa data to your own Python environment,
+      GIS software, or cloud workflow.
+
+      +++
+
+      .. button-ref:: platform_tools/index_direct_access
+         :ref-type: doc
+         :class: de-home-action
+
+         Explore →
+
+
+   .. grid-item-card:: Tech Alerts
+      :img-top: _static/data_specs/tech_alert.png
+      :class-card: de-home-card de-status-card
+
+      Check current service disruptions, maintenance notices,
+      and data availability issues.
+
+      +++
+
+      .. button-ref:: service_status/index
+         :ref-type: doc
+         :class: de-home-action de-status-action
+
+         View Current Status →
