@@ -506,8 +506,11 @@ Satellite Images
 
       :doc:`View product details →<Sentinel-3_OLCI_L2_LAND_specs>`
 
+    .. container:: product-item
 
        .. image:: ../_static/data_specs/Sentinel-3_OLCI_L2_WATER_specs/S3_WATER_thumbnail.png
+       :alt: Sentinel-5P atmospheric data
+       :loading: lazy
 
        :doc:`Sentinel-3_OLCI_L2_WATER_specs`
 
@@ -516,9 +519,6 @@ Satellite Images
        :doc:`More <Sentinel-3_OLCI_L2_WATER_specs>`
 
     .. container:: product-item
-
-       .. image:: ../_static/data_specs/Sentinel-5P_specs/Sentinel-5P_specs_thumbnail.png
-
       .. image:: ../_static/data_specs/Sentinel-5P_specs/Sentinel-5P_specs_thumbnail.png
          :alt: Sentinel-5P atmospheric data
          :loading: lazy
