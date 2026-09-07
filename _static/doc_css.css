@@ -5522,3 +5522,191 @@ html[data-theme="dark"] .navbar-brand img {
   opacity: 1 !important;
   visibility: visible !important;
 }
+
+/* ==========================================================
+   FINAL TABLE VISIBILITY FIX
+   Applies to specification tables, OWS tables, and all
+   Sphinx/PyData/Bootstrap-style tables inside articles.
+   ========================================================== */
+
+/* Base table reset */
+.bd-article table,
+.bd-article .table,
+.bd-article table.docutils,
+.bd-article .table-wrapper table {
+  width: 100%;
+  color: var(--de-text) !important;
+  background: #ffffff !important;
+  border-collapse: collapse !important;
+}
+
+/* Ensure table rows themselves do not carry dark theme fills */
+.bd-article table tr,
+.bd-article table tbody tr,
+.bd-article table tbody tr:nth-child(odd),
+.bd-article table tbody tr:nth-child(even),
+.bd-article .table tbody tr,
+.bd-article table.docutils tbody tr {
+  color: var(--de-text) !important;
+  background: transparent !important;
+}
+
+/* Every header/data cell must remain readable */
+.bd-article table th,
+.bd-article table td,
+.bd-article .table th,
+.bd-article .table td,
+.bd-article table.docutils th,
+.bd-article table.docutils td,
+.bd-article .table-wrapper table th,
+.bd-article .table-wrapper table td {
+  padding: 0.75rem 0.9rem !important;
+  color: var(--de-text) !important;
+  -webkit-text-fill-color: var(--de-text) !important;
+  background: #ffffff !important;
+  border: 1px solid var(--de-border) !important;
+  box-shadow: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Table headers */
+.bd-article table thead th,
+.bd-article .table thead th,
+.bd-article table.docutils thead th,
+.bd-article .table-wrapper table thead th {
+  color: var(--de-text) !important;
+  -webkit-text-fill-color: var(--de-text) !important;
+  background: #f1f5f9 !important;
+  font-weight: 700 !important;
+  box-shadow: none !important;
+}
+
+/* Gentle zebra striping, without hiding text */
+.bd-article table tbody tr:nth-child(odd) > td,
+.bd-article table tbody tr:nth-child(odd) > th,
+.bd-article .table tbody tr:nth-child(odd) > td,
+.bd-article .table tbody tr:nth-child(odd) > th,
+.bd-article table.docutils tbody tr:nth-child(odd) > td,
+.bd-article table.docutils tbody tr:nth-child(odd) > th {
+  color: var(--de-text) !important;
+  -webkit-text-fill-color: var(--de-text) !important;
+  background: #ffffff !important;
+  box-shadow: none !important;
+}
+
+.bd-article table tbody tr:nth-child(even) > td,
+.bd-article table tbody tr:nth-child(even) > th,
+.bd-article .table tbody tr:nth-child(even) > td,
+.bd-article .table tbody tr:nth-child(even) > th,
+.bd-article table.docutils tbody tr:nth-child(even) > td,
+.bd-article table.docutils tbody tr:nth-child(even) > th {
+  color: var(--de-text) !important;
+  -webkit-text-fill-color: var(--de-text) !important;
+  background: #f7f9fc !important;
+  box-shadow: none !important;
+}
+
+/* Bootstrap/PyData striped tables often apply colour via cells or box-shadow */
+.bd-article .table-striped > tbody > tr:nth-of-type(odd) > *,
+.bd-article .table-striped > tbody > tr:nth-of-type(even) > *,
+.bd-article table.table-striped > tbody > tr:nth-of-type(odd) > *,
+.bd-article table.table-striped > tbody > tr:nth-of-type(even) > * {
+  color: var(--de-text) !important;
+  -webkit-text-fill-color: var(--de-text) !important;
+  box-shadow: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.bd-article .table-striped > tbody > tr:nth-of-type(odd) > *,
+.bd-article table.table-striped > tbody > tr:nth-of-type(odd) > * {
+  background: #ffffff !important;
+}
+
+.bd-article .table-striped > tbody > tr:nth-of-type(even) > *,
+.bd-article table.table-striped > tbody > tr:nth-of-type(even) > * {
+  background: #f7f9fc !important;
+}
+
+/* Also neutralise Bootstrap's CSS variables where present */
+.bd-article .table,
+.bd-article table.table {
+  --bs-table-color: var(--de-text) !important;
+  --bs-table-bg: #ffffff !important;
+  --bs-table-striped-color: var(--de-text) !important;
+  --bs-table-striped-bg: #f7f9fc !important;
+  --bs-table-hover-color: var(--de-text) !important;
+  --bs-table-hover-bg: #eef3f8 !important;
+  --bs-table-accent-bg: transparent !important;
+}
+
+/* Links inside tables */
+.bd-article table a,
+.bd-article table a:visited,
+.bd-article .table a,
+.bd-article table.docutils a {
+  color: var(--de-blue) !important;
+  -webkit-text-fill-color: var(--de-blue) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.bd-article table a:hover,
+.bd-article table a:focus,
+.bd-article .table a:hover,
+.bd-article .table a:focus,
+.bd-article table.docutils a:hover,
+.bd-article table.docutils a:focus {
+  color: var(--de-orange) !important;
+  -webkit-text-fill-color: var(--de-orange) !important;
+}
+
+/* Inline code/literal values inside tables */
+.bd-article table code,
+.bd-article .table code,
+.bd-article table.docutils code,
+.bd-article table .literal,
+.bd-article table.docutils .literal {
+  color: #9b2c8f !important;
+  -webkit-text-fill-color: #9b2c8f !important;
+  background: #f8fafc !important;
+  border: 1px solid #d8e0ea !important;
+  border-radius: 4px;
+  padding: 0.1rem 0.3rem;
+  box-shadow: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Hover state remains readable */
+.bd-article table tbody tr:hover > td,
+.bd-article table tbody tr:hover > th,
+.bd-article .table tbody tr:hover > td,
+.bd-article .table tbody tr:hover > th {
+  color: var(--de-text) !important;
+  -webkit-text-fill-color: var(--de-text) !important;
+  background: #eef3f8 !important;
+  box-shadow: none !important;
+}
+
+/* Keep special Sphinx index tables intentionally dark. */
+.bd-article table.genindextable td,
+.bd-article table.genindextable th {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  background: #172033 !important;
+  border-color: #334155 !important;
+}
+
+.bd-article table.genindextable a,
+.bd-article table.genindextable a:visited {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.bd-article table.genindextable a:hover,
+.bd-article table.genindextable a:focus {
+  color: var(--de-yellow) !important;
+  -webkit-text-fill-color: var(--de-yellow) !important;
+}
