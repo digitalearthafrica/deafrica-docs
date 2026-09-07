@@ -5380,3 +5380,145 @@ html[data-theme="dark"] .navbar-brand img {
     max-width: 135px;
   }
 }
+
+/* ==========================================================
+   34. FINAL FIX — Data and Direct Access card text visibility
+   Keep this block at the very end of the stylesheet so it wins
+   over earlier overlapping card rules.
+   ========================================================== */
+
+/* ----------------------------------------------------------
+   DATA CARDS
+   ---------------------------------------------------------- */
+
+.bd-article .product-list .product-item {
+  color: var(--de-body) !important;
+  background: var(--de-white) !important;
+}
+
+.bd-article .product-list .product-item p,
+.bd-article .product-list .product-item span,
+.bd-article .product-list .product-item div {
+  color: var(--de-body) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Data card titles / normal links */
+.bd-article .product-list .product-item a:not(.sd-btn):not(.btn) {
+  color: var(--de-blue) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* ----------------------------------------------------------
+   DIRECT ACCESS CARDS
+   ---------------------------------------------------------- */
+
+.bd-article .platform-list .product-item,
+.bd-article .de-platform-horizontal-card {
+  color: var(--de-body) !important;
+  background: var(--de-white) !important;
+}
+
+.bd-article .platform-list .product-item p,
+.bd-article .platform-list .product-item span,
+.bd-article .platform-list .product-item div,
+.bd-article .de-platform-horizontal-content p,
+.bd-article .de-platform-horizontal-content span,
+.bd-article .de-platform-horizontal-content div {
+  color: var(--de-body) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Direct Access titles / normal links */
+.bd-article .platform-list .product-item a:not(.sd-btn):not(.btn),
+.bd-article .de-platform-horizontal-content a:not(.sd-btn):not(.btn):not(.de-platform-more-button) {
+  color: var(--de-blue) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* ----------------------------------------------------------
+   CARD BUTTONS — force visible white label text
+   ---------------------------------------------------------- */
+
+.bd-article .product-list .product-item a.sd-btn,
+.bd-article .product-list .product-item a.btn,
+.bd-article .product-list .product-item p:last-child a,
+.bd-article .platform-list .product-item a.sd-btn,
+.bd-article .platform-list .product-item a.btn,
+.bd-article .platform-list .product-item p:last-child a,
+.bd-article .de-platform-horizontal-content a.sd-btn,
+.bd-article .de-platform-horizontal-content a.btn,
+.bd-article .de-platform-horizontal-content .de-platform-more-button,
+.bd-article .de-platform-horizontal-content > p:last-child a {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  min-height: 42px !important;
+  padding: 0.6rem 1rem !important;
+
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  background: var(--de-blue) !important;
+  border: 2px solid var(--de-blue) !important;
+  border-radius: 6px !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+
+  font-size: var(--de-font-size-button) !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+
+  text-indent: 0 !important;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+
+.bd-article .product-list .product-item a.sd-btn:hover,
+.bd-article .product-list .product-item a.sd-btn:focus,
+.bd-article .product-list .product-item a.btn:hover,
+.bd-article .product-list .product-item a.btn:focus,
+.bd-article .product-list .product-item p:last-child a:hover,
+.bd-article .product-list .product-item p:last-child a:focus,
+.bd-article .platform-list .product-item a.sd-btn:hover,
+.bd-article .platform-list .product-item a.sd-btn:focus,
+.bd-article .platform-list .product-item a.btn:hover,
+.bd-article .platform-list .product-item a.btn:focus,
+.bd-article .platform-list .product-item p:last-child a:hover,
+.bd-article .platform-list .product-item p:last-child a:focus,
+.bd-article .de-platform-horizontal-content a.sd-btn:hover,
+.bd-article .de-platform-horizontal-content a.sd-btn:focus,
+.bd-article .de-platform-horizontal-content a.btn:hover,
+.bd-article .de-platform-horizontal-content a.btn:focus,
+.bd-article .de-platform-horizontal-content .de-platform-more-button:hover,
+.bd-article .de-platform-horizontal-content .de-platform-more-button:focus,
+.bd-article .de-platform-horizontal-content > p:last-child a:hover,
+.bd-article .de-platform-horizontal-content > p:last-child a:focus {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  background: var(--de-blue-dark) !important;
+  border-color: var(--de-blue-dark) !important;
+}
+
+/* ----------------------------------------------------------
+   Defensive text reset for nested button-ref markup generated
+   by Sphinx Design / MyST wrappers.
+   ---------------------------------------------------------- */
+
+.bd-article .product-list .product-item .sd-btn *,
+.bd-article .product-list .product-item .btn *,
+.bd-article .platform-list .product-item .sd-btn *,
+.bd-article .platform-list .product-item .btn *,
+.bd-article .de-platform-horizontal-content .sd-btn *,
+.bd-article .de-platform-horizontal-content .btn *,
+.bd-article .de-platform-horizontal-content .de-platform-more-button * {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
