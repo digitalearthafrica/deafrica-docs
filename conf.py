@@ -4,9 +4,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.abspath("./sandbox/notebooks/Tools"))
-
-
-# -- Project information -----------------------------------------------------
+# -- Project information DE Africa-----------------------------------------------------
 
 project = "Digital Earth Africa"
 author = "Digital Earth Africa"
