@@ -39,9 +39,7 @@ jobs:
       POEDITOR_API_TOKEN: ${{ secrets.POEDITOR_API_TOKEN }}
 
     steps:
-      # ------------------------------------------------------
       # Checkout
-      # ------------------------------------------------------
 
       - name: Check out pull-request branch
         if: github.event_name == 'pull_request'
