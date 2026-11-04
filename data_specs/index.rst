@@ -432,6 +432,7 @@ Satellite Images
    Landsat_C2_ST_specs
    Sentinel-1_specs
    Sentinel-2_Level-2A_specs
+   Sentinel-3_Land_Surface_Temperature_specs
    Sentinel-3_OLCI_L2_LAND_specs
    Sentinel-3_OLCI_L2_WATER_specs
    Sentinel-5P_specs
@@ -488,6 +489,19 @@ Satellite Images
       Analysis-ready multispectral imagery from Sentinel-2.
 
       :doc:`View product details → <Sentinel-2_Level-2A_specs>`
+
+
+   .. container:: product-item
+
+      .. image:: ../_static/data_specs/Sentinel-3_Land_Surface_Temperature_specs/lst_thumbnail.png
+         :alt: Sentinel-3 SLSTR Land Surface Temperature
+         :loading: lazy
+
+      :doc:`Sentinel-3 SLSTR Land Surface Temperature <Sentinel-3_Land_Surface_Temperature_specs>`
+
+      Daily land surface temperature observations over Africa at 1 km resolution.
+
+      :doc:`View product details → <Sentinel-3_Land_Surface_Temperature_specs>`
 
 
    .. container:: product-item

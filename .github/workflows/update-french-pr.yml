@@ -39,9 +39,7 @@ jobs:
       POEDITOR_API_TOKEN: ${{ secrets.POEDITOR_API_TOKEN }}
 
     steps:
-      # ------------------------------------------------------
       # Checkout
-      # ------------------------------------------------------
 
       - name: Check out pull-request branch
         if: github.event_name == 'pull_request'
@@ -120,6 +118,91 @@ jobs:
       # Generate English translation terms
       # ------------------------------------------------------
 
+      - name: Check notebook Markdown conversion
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p _build/diagnostics
+          python - <<'PYTHON' 2>&1 | tee _build/diagnostics/notebook-conversion.log
+          import importlib.metadata
+          import json
+          import shutil
+          import subprocess
+          import traceback
+          from pathlib import Path
+
+          import nbformat
+          import nbsphinx
+
+          def annotation(path, message):
+              # Escape GitHub workflow-command data and property delimiters.
+              def escape(value):
+                  return str(value).replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+              filename = escape(path).replace(":", "%3A").replace(",", "%2C")
+              print(f"::error file={filename}::{escape(message)}", flush=True)
+
+          print("Pandoc executable:", shutil.which("pandoc"), flush=True)
+          subprocess.run(["pandoc", "--version"], check=True)
+          for package in ("nbsphinx", "nbconvert", "nbformat", "sphinx"):
+              print(f"{package}=={importlib.metadata.version(package)}", flush=True)
+
+          # Check the executable separately from notebook-specific conversion.
+          smoke = subprocess.run(
+              ["pandoc", "--from=markdown", "--to=json"],
+              input="Pandoc smoke test", text=True, capture_output=True, timeout=60,
+          )
+          if smoke.returncode:
+              print(smoke.stderr, flush=True)
+          smoke.check_returncode()
+          json.loads(smoke.stdout)
+
+          root = Path("sandbox/notebooks")
+          notebooks = sorted(root.rglob("*.ipynb"))
+          if not notebooks:
+              raise SystemExit("No notebooks found under sandbox/notebooks after make buildtools.")
+
+          failures = 0
+          cells_checked = 0
+          for path in notebooks:
+              if ".ipynb_checkpoints" in path.parts:
+                  continue
+              try:
+                  notebook = nbformat.read(path, as_version=4)
+                  nbformat.validate(notebook)
+              except Exception as error:
+                  failures += 1
+                  annotation(path, f"Invalid notebook: {error}")
+                  traceback.print_exc()
+                  continue
+
+              for number, cell in enumerate(notebook.cells, start=1):
+                  if cell.cell_type != "markdown":
+                      continue
+                  cells_checked += 1
+                  try:
+                      # Exercise the converter that failed in the Sphinx traceback.
+                      nbsphinx.markdown2rst(cell.source)
+                  except Exception as error:
+                      failures += 1
+                      annotation(path, f"Markdown cell {number}: {type(error).__name__}: {error}")
+                      traceback.print_exc()
+                      # Report stderr/exit status hidden by the JSON decoding error.
+                      try:
+                          result = subprocess.run(
+                              ["pandoc", "--from=markdown", "--to=json"],
+                              input=cell.source, text=True, capture_output=True, timeout=60,
+                          )
+                          print(f"Cell {number}: direct Pandoc exit code {result.returncode}")
+                          print("Pandoc stderr:", result.stderr or "(empty)")
+                          print("Pandoc stdout prefix:", repr(result.stdout[:500]))
+                      except Exception as diagnostic_error:
+                          print("Direct Pandoc diagnostic failed:", diagnostic_error)
+
+          print(f"Checked {cells_checked} Markdown cells; {failures} failures.", flush=True)
+          if failures:
+              raise SystemExit(1)
+          PYTHON
+
       - name: Build Sphinx gettext catalogues
         shell: bash
         env:
@@ -136,7 +219,7 @@ jobs:
             -T \
             -b gettext \
             . \
-            _build/gettext
+            _build/gettext 2>&1 | tee _build/diagnostics/gettext-build.log
 
       - name: Verify generated POT files
         shell: bash
@@ -296,7 +379,7 @@ jobs:
             -b html \
             -D language=fr \
             . \
-            _build/html/fr
+            _build/html/fr 2>&1 | tee _build/diagnostics/french-build.log
 
       - name: Verify French HTML build
         shell: bash
@@ -349,4 +432,13 @@ jobs:
           name: french-documentation-preview-${{ github.event.pull_request.number || github.run_number }}
           path: _build/html/fr
           if-no-files-found: error
+          retention-days: 7
+
+      - name: Upload build diagnostics on failure
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: french-build-diagnostics-${{ github.event.pull_request.number || github.run_number }}
+          path: _build/diagnostics
+          if-no-files-found: ignore
           retention-days: 7
