@@ -529,6 +529,18 @@ Satellite Images
 
       :doc:`View product details → <Sentinel-3_OLCI_L2_WATER_specs>`
 
+   .. container:: product-item
+
+      .. image:: ../_static/data_specs/Sentinel-3_SYN_VG1_specs/thumbnail.png
+         :alt: Sentinel-3 Synergy Level-2 Vegetation
+         :loading: lazy
+
+      :doc:`Sentinel-3 Synergy Level-2 Vegetation <Sentinel_3_SYN_VG1_specs>`
+
+      Daily vegetation-monitoring products from Sentinel-3 Synergy (VG1) at 1 km resolution.
+
+      :doc:`View product details → <Sentinel_3_SYN_VG1_specs>`
+
 
    .. container:: product-item
 
